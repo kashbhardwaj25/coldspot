@@ -1,0 +1,20 @@
+/* Colours and fonts. Category colours live in src/lib/categories.ts. */
+:root {
+  color-scheme: dark;
+  --night: #110e18;
+  --night-2: #171322;
+  --ink: #ece5d6;
+  --ink-2: #b4aabd;
+  --muted: #857c94;
+  --line: rgba(236, 229, 214, 0.12);
+  --panel: rgba(22, 18, 32, 0.88);
+  --ember: #e9b45e;
+  --ice: #a9dceb;
+  --bone: #e6dcc6;
+  --accent: var(--bone);
+  --open: #c5a2ee;
+  --disputed: #e9b45e;
+  --explained: #92c99a;
+  --serif: var(--font-serif), "Iowan Old Style", Georgia, serif;
+  --mono: var(--font-mono), ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}

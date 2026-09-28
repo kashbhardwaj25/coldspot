@@ -12,13 +12,13 @@ import { seedStories } from "../src/data/seed-stories";
 migrate(db, { migrationsFolder: "drizzle" });
 console.log("✓ Database schema is up to date");
 
-const [{ n: caseCount }] = db.select({ n: count() }).from(schema.cases).all();
+const caseCount = db.select({ n: count() }).from(schema.cases).get()?.n ?? 0;
 if (caseCount === 0) {
   db.insert(schema.cases).values(seedCases).run();
   console.log(`✓ Seeded ${seedCases.length} famous cases`);
 }
 
-const [{ n: storyCount }] = db.select({ n: count() }).from(schema.stories).all();
+const storyCount = db.select({ n: count() }).from(schema.stories).get()?.n ?? 0;
 if (storyCount === 0) {
   db.insert(schema.stories).values(seedStories).run();
   console.log(`✓ Seeded ${seedStories.length} sample stories`);

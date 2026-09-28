@@ -2,9 +2,10 @@ import Database from "better-sqlite3";
 import { drizzle } from "drizzle-orm/better-sqlite3";
 import { mkdirSync } from "node:fs";
 import { dirname } from "node:path";
+import { env } from "../lib/server/env";
 import * as schema from "./schema";
 
-const file = process.env.DATABASE_PATH ?? "data/coldspot.db";
+const file = env.DATABASE_PATH;
 
 // Reuse one connection across hot reloads in development.
 const g = globalThis as unknown as { __coldspotSqlite?: Database.Database };

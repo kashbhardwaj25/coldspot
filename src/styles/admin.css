@@ -1,0 +1,54 @@
+/* Admin review queue. */
+.admin {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 16px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.admin-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.stats {
+  display: flex;
+  gap: 18px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.stats b {
+  color: var(--ink);
+  font-weight: 500;
+}
+.review {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--night-2);
+}
+.review .meta {
+  font-size: 11px;
+}
+.review-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.empty {
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 17px;
+}
+.review .row {
+  flex-wrap: wrap;
+}
+.review .freq {
+  white-space: normal;
+}

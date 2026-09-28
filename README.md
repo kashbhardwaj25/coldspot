@@ -1,6 +1,6 @@
 # Coldspot
 
-*Something happened here.* A globe of famous unexplained cases and people's own strange encounters. Drag the map, and whatever reaches the ring tunes in.
+_Something happened here._ A globe of famous unexplained cases and people's own strange encounters. Drag the map, and whatever reaches the ring tunes in.
 
 **Stack:** Next.js 16 (App Router) · SQLite (better-sqlite3 + Drizzle ORM) · d3-geo on canvas. The admin panel lives inside the same app.
 
@@ -26,34 +26,38 @@ To start from a clean database, delete `data/coldspot.db*` and run `npm run db:s
 
 ## Scripts
 
-| Command | What it does |
-|---|---|
-| `npm run dev` | Development server |
-| `npm run build` / `npm start` | Production build and server. Run `db:setup` first, because pages are pre-rendered from the database. |
-| `npm run db:setup` | Applies migrations and seeds empty tables. Safe to run repeatedly. |
-| `npm run db:generate` | After editing `src/db/schema.ts`, creates a new migration in `drizzle/` |
-| `npm run db:studio` | Browse the database in Drizzle Studio |
-| `npm run typecheck` | TypeScript check |
+| Command                               | What it does                                                                                          |
+| ------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `npm run dev`                         | Development server                                                                                    |
+| `npm run build` / `npm start`         | Production build and server. Run `db:setup` first, because pages are pre-rendered from the database.  |
+| `npm run db:setup`                    | Applies migrations and seeds empty tables. Safe to run repeatedly.                                    |
+| `npm run db:generate`                 | After editing `src/db/schema.ts`, creates a new migration in `drizzle/`                               |
+| `npm run db:studio`                   | Browse the database in Drizzle Studio                                                                 |
+| `npm run typecheck`                   | TypeScript check                                                                                      |
+| `npm run check`                       | Typecheck, lint and format check (run before committing; the pre-commit hook runs lint and typecheck) |
+| `npm run lint:fix` / `npm run format` | ESLint autofix / Prettier                                                                             |
 
 ## How it fits together
 
+Organised by feature. Routes stay thin; each feature owns its queries, server actions and components. The full map is in `AGENTS.md`, and the rules for where code goes are in `docs/CODING.md`.
+
 ```
 src/
-  app/
-    page.tsx              Map page (cached, rebuilt every 5 min or on approval)
-    actions.ts            Server actions: submitStory, toggleEcho, myEchoes
-    case/[slug]/          Pre-rendered page per famous case (for search engines)
-    story/[slug]/         Pre-rendered page per approved story
+  app/                    Routes only
+    (map)/page.tsx        The globe (cached, rebuilt every 5 min or on approval)
+    (site)/case/[slug]/   Pre-rendered page per famous case (for search engines)
+    (site)/story/[slug]/  Pre-rendered page per approved story
     admin/                Password-protected review queue
-    sitemap.ts, robots.ts
-  components/
-    coldspot/             The map UI: ColdspotApp, tuner card, sheets, share form
-    globe/engine.ts       Canvas globe: drag, inertia, snap-to-dot, tuning, zoom
-    globe/radio.ts        Static and hum (Web Audio)
-  db/
-    schema.ts             cases, stories, echoes
-    client.ts             SQLite connection (WAL mode)
-    queries.ts            All reads
+  features/
+    map/                  The map screen: ColdspotApp, header, tuner card, sheets
+    globe/                Framework-free canvas globe and Web Audio
+    stories/              Submitting, echoes, queries, story article
+    cases/                Queries and the case file
+    moderation/           Review queue: approve, reject, sign in
+  components/             Shared UI: logo, page header, article pieces
+  db/                     Schema and SQLite connection (WAL mode)
+  lib/                    Shared helpers; lib/server for env and security
+  styles/                 CSS by area
   data/                   Seed data: 19 famous cases, 30 sample stories
 drizzle/                  SQL migrations
 public/land-50m.json      Coastlines (Natural Earth via world-atlas; no country borders)

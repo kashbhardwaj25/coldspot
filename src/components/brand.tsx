@@ -32,7 +32,16 @@ export function Logo() {
     <svg className="mark" viewBox="0 0 20 20" aria-hidden="true">
       <circle cx="10" cy="10" r="2.2" fill="currentColor" />
       <circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor" strokeWidth="1.3" opacity=".75" />
-      <circle cx="10" cy="10" r="9" fill="none" stroke="currentColor" strokeWidth="1.1" strokeDasharray="2 2.6" opacity=".5" />
+      <circle
+        cx="10"
+        cy="10"
+        r="9"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.1"
+        strokeDasharray="2 2.6"
+        opacity=".5"
+      />
     </svg>
   );
 }

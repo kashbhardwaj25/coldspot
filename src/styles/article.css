@@ -1,0 +1,26 @@
+/* Article pages: /case/[slug] and /story/[slug]. */
+.page {
+  min-height: 100%;
+  padding-inline: 16px;
+}
+.page-top {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-block: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.article {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-block: 32px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.article .s-title {
+  font-size: clamp(30px, 6vw, 44px);
+}

@@ -3,7 +3,9 @@ import { index, integer, primaryKey, real, sqliteTable, text } from "drizzle-orm
 import { CASE_STATUS_KEYS, CATEGORY_KEYS, STORY_STATUS_KEYS } from "../lib/categories";
 
 const createdAt = () =>
-  integer("created_at", { mode: "timestamp" }).notNull().default(sql`(unixepoch())`);
+  integer("created_at", { mode: "timestamp" })
+    .notNull()
+    .default(sql`(unixepoch())`);
 
 /** Famous, real cases. Curated by you, never submitted by users. */
 export const cases = sqliteTable("cases", {

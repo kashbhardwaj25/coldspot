@@ -1,0 +1,82 @@
+/* Forms: share form, admin review and login. */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.f2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.field label {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.field input,
+.field select,
+.field textarea {
+  background: rgba(236, 229, 214, 0.04);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  color: var(--ink);
+  font-family: var(--serif);
+}
+.field textarea {
+  min-height: 140px;
+  resize: vertical;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.field small {
+  font-size: 10.5px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.pin {
+  margin: 0;
+  font-size: 11.5px;
+  color: var(--ink-2);
+  line-height: 1.6;
+}
+.pin b {
+  color: var(--ice);
+  font-weight: 500;
+}
+.rules {
+  margin: 0;
+  padding: 12px 14px 12px 30px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  font-size: 11.5px;
+  color: var(--ink-2);
+  line-height: 1.7;
+}
+.error {
+  margin: 0;
+  color: var(--disputed);
+  font-size: 12px;
+}
+.done {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  padding-block: 10px;
+}

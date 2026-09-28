@@ -1,8 +1,10 @@
+import "server-only";
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
 import { cookies, headers } from "next/headers";
+import { env } from "./env";
 
 const secret = () => {
-  const s = process.env.SESSION_SECRET;
+  const s = env.SESSION_SECRET;
   if (!s || s.length < 16) throw new Error("Set SESSION_SECRET (16+ characters) in .env.local");
   return s;
 };
@@ -34,19 +36,23 @@ export async function ipHash() {
   return createHash("sha256").update(`${secret()}:${ip}`).digest("hex");
 }
 
+/** Anonymous id for echoes, or null if this visitor has none yet. */
+export async function getVisitorId() {
+  return (await cookies()).get(VISITOR_COOKIE)?.value ?? null;
+}
+
 /** Anonymous id for echoes. Created on first use. */
-export async function visitorId(create: boolean) {
+export async function ensureVisitorId() {
   const jar = await cookies();
-  let id = jar.get(VISITOR_COOKIE)?.value;
-  if (!id && create) {
-    id = crypto.randomUUID();
-    jar.set(VISITOR_COOKIE, id, {
-      httpOnly: true,
-      sameSite: "lax",
-      secure: process.env.NODE_ENV === "production",
-      maxAge: 60 * 60 * 24 * 365,
-      path: "/",
-    });
-  }
-  return id ?? null;
+  const existing = jar.get(VISITOR_COOKIE)?.value;
+  if (existing) return existing;
+  const id = crypto.randomUUID();
+  jar.set(VISITOR_COOKIE, id, {
+    httpOnly: true,
+    sameSite: "lax",
+    secure: process.env.NODE_ENV === "production",
+    maxAge: 60 * 60 * 24 * 365,
+    path: "/",
+  });
+  return id;
 }

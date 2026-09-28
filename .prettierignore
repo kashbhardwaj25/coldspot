@@ -1,0 +1,8 @@
+.next
+out
+node_modules
+data
+drizzle
+public
+package-lock.json
+next-env.d.ts
