@@ -11,6 +11,7 @@ const STATUS: Record<StoryStatus, string> = {
   pending: "Waiting for review",
   approved: "Published",
   rejected: "Not published",
+  hidden: "Hidden while we review reports",
 };
 
 type Props = { viewer: Viewer | null; stories: MyStory[] };

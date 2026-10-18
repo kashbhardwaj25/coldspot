@@ -30,11 +30,11 @@ Decisions behind this list:
 
 ## 3. Admin
 
-- [ ] A list of approved stories with an Unpublish action (also needed for removal requests).
-- [ ] Edit the category and fix typos in the story text before approving, as well as place, region and opening line.
-- [ ] `approve()` in `features/moderation/actions.ts` reads form fields by hand. Validate with zod, with length limits, and run the link and phone checks on edits.
-- [ ] Keep a story's first slug, so re-approving with a different place doesn't change its URL.
-- [ ] Report button on stories (new `src/features/reports/`): a `reports` table, automatic hiding after a set number of reports, and hidden stories shown in admin.
+- [x] A list of approved stories with an Unpublish action (also needed for removal requests).
+- [x] Edit the category and fix typos in the story text before approving, as well as place, region and opening line.
+- [x] `approve()` in `features/moderation/actions.ts` reads form fields by hand. Validate with zod, with length limits, and run the link and phone checks on edits.
+- [x] Keep a story's first slug, so re-approving with a different place doesn't change its URL.
+- [x] Report button on stories (new `src/features/reports/`): a `reports` table, automatic hiding after a set number of reports, and hidden stories shown in admin.
 
 ## 4. Stories: polish
 

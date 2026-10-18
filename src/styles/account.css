@@ -71,3 +71,9 @@
   flex-wrap: wrap;
   gap: 10px;
 }
+.link-btn.quiet {
+  color: var(--muted);
+}
+.link-btn.quiet:hover {
+  color: var(--ink-2);
+}

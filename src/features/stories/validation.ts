@@ -42,8 +42,10 @@ export const submission = z.object({
 
 export type Submission = z.infer<typeof submission>;
 
-/** The error to show if the text contains links or phone numbers, otherwise null. */
-export function blockedContent(d: Submission): string | null {
+type CheckedText = Pick<Submission, "place" | "region" | "story" | "witnesses" | "penName">;
+
+/** The error to show if the text contains links or phone numbers, otherwise null. Also used on admin edits. */
+export function blockedContent(d: CheckedText): string | null {
   const text = `${d.place} ${d.region} ${d.story} ${d.witnesses ?? ""} ${d.penName ?? ""}`;
   if (LINK_RE.test(text) || WORD_TLD_RE.test(text)) return "Remove links and website names from your story.";
   if (hasPhone(text)) return "Remove phone numbers from your story.";

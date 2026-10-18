@@ -49,7 +49,7 @@ src/app/                         routes only
   (site)/case/[slug]/page.tsx    pre-rendered page per famous case (SEO)
   (site)/story/[slug]/page.tsx   pre-rendered page per approved story (SEO)
   admin/layout.tsx               admin shell (brand, sign out)
-  admin/page.tsx                 review queue; checks isAdmin() itself
+  admin/page.tsx                 stories by status (?tab=): waiting, published, hidden by reports, rejected; checks isAdmin() itself
   layout.tsx not-found.tsx sitemap.ts robots.ts globals.css (imports src/styles/*)
 src/features/
   map/                           the map screen (client)
@@ -85,15 +85,19 @@ src/features/
   cases/
     queries.ts CaseArticle.tsx   famous cases; case file shared by the page and the sheet
   moderation/
-    actions.ts                   "use server": approve, reject
+    actions.ts                   "use server": approve (with edits), reject, unpublish, restore, remove, requeue
     auth.ts                      "use server": login (rate limited), logout
     session.ts attempts.ts       isAdmin() and admin sessions (server-only); failed-login limiter (pure)
-    queries.ts                   pending stories, counts (server-only)
-    ReviewCard.tsx LoginForm.tsx
+    validation.ts                review edits (zod) and slugify (pure)
+    queries.ts                   AdminStory lists by status, counts (server-only, no IP hash or account id)
+    ReviewCard.tsx StoryRows.tsx AdminTabs.tsx StoryMeta.tsx LoginForm.tsx
+  reports/
+    actions.ts                   "use server": reportStory (sign-in, one per account, 3 reports hide a story)
+    ReportButton.tsx             report dialog (Base UI Dialog + RadioGroup), on the story page and sheet
 src/components/                  shared UI with no feature knowledge: brand.tsx, PageTop.tsx, article.tsx
   ui/                            Base UI wrappers: TextField/TextArea, SelectField, ConfirmButton
 src/db/
-  schema.ts                      cases, stories, echoes; users, sessions, accounts, verifications (Better Auth)
+  schema.ts                      cases, stories, echoes, reports, admin_sessions; users, sessions, accounts, verifications (Better Auth)
   client.ts                      SQLite connection (WAL, busy_timeout, foreign keys), dev-safe singleton
 src/lib/                         shared, framework-free helpers
   categories.ts types.ts         category keys, labels, colours, status enums; CaseItem, StoryItem, MapItem
@@ -122,7 +126,7 @@ public/land-50m.json             coastlines only
 ### Next.js 16
 
 - `params`, `cookies()` and `headers()` are async: `await` them.
-- Anything that changes public data must call `revalidatePath` for every page affected: `/`, `/story/[slug]`, `/sitemap.xml`. See `approve()` in `src/features/moderation/actions.ts`.
+- Anything that changes public data must call `revalidatePath` for every page affected: `/`, `/story/[slug]`, `/sitemap.xml`. Use `revalidateStory()` from `features/stories/revalidate.ts`.
 - `/admin` is `force-dynamic`. Public pages are static or ISR. Don't make `/` dynamic, for example by reading cookies or `searchParams` there. Deep links (`/?case=`, `/?story=`) are read on the client.
 - Check the Next 16 docs before adding middleware or other request interception; APIs have changed between versions.
 
@@ -146,7 +150,9 @@ public/land-50m.json             coastlines only
 - Stories are anonymous in public: a pen name or "Anonymous". Never send an email address or `userId` to a public page or the map.
 - Sharing a story and echoing need sign-in; reading never does. One echo per account per story.
 - Deleting an account deletes its stories and echoes (`deleteMyAccount`). Keep that working; it's how people exercise their right to delete their data.
-- Submissions always start as `pending`. Nothing user-written reaches the public site without admin approval.
+- Submissions always start as `pending`. Nothing user-written reaches the public site without admin approval. Story statuses: `pending`, `approved`, `rejected`, and `hidden` (published, then hidden automatically after 3 reports from different accounts until an admin restores or removes it).
+- A story keeps the first slug it's given, so its URL never changes when it's edited or re-approved.
+- Admin edits go through the same link and phone checks as submissions (`blockedContent`).
 - Keep the existing submission checks: sign-in, Turnstile (when configured), honeypot field, 3 per account and 3 per IP per 24 hours, no links (also in the pen name), no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
 - Content rules shown to users: no real names, no exact addresses, nothing about crime, violence or anyone getting hurt, no selling remedies, rituals or charms.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.

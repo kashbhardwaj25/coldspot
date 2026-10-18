@@ -1,6 +1,6 @@
 import { sql } from "drizzle-orm";
 import { index, integer, primaryKey, real, sqliteTable, text } from "drizzle-orm/sqlite-core";
-import { CASE_STATUS_KEYS, CATEGORY_KEYS, STORY_STATUS_KEYS } from "../lib/categories";
+import { CASE_STATUS_KEYS, CATEGORY_KEYS, REPORT_REASON_KEYS, STORY_STATUS_KEYS } from "../lib/categories";
 
 const createdAt = () =>
   integer("created_at", { mode: "timestamp" })
@@ -155,3 +155,19 @@ export const adminSessions = sqliteTable("admin_sessions", {
   expiresAt: integer("expires_at", { mode: "timestamp" }).notNull(),
   createdAt: createdAt(),
 });
+
+/** "Report this story." One per account per story; enough of them hide the story until an admin reviews it. */
+export const reports = sqliteTable(
+  "reports",
+  {
+    storyId: integer("story_id")
+      .notNull()
+      .references(() => stories.id, { onDelete: "cascade" }),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    reason: text("reason", { enum: REPORT_REASON_KEYS }).notNull(),
+    createdAt: createdAt(),
+  },
+  (t) => [primaryKey({ columns: [t.storyId, t.userId] })],
+);

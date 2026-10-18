@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { CSSProperties } from "react";
 import { PageTop } from "@/components/PageTop";
 import { getApprovedStories, getApprovedStory } from "@/features/stories/queries";
+import { ReportButton } from "@/features/reports/ReportButton";
 import { StoryArticle } from "@/features/stories/StoryArticle";
 import { CATEGORIES } from "@/lib/categories";
 
@@ -39,7 +40,11 @@ export default async function StoryPage({ params }: Params) {
           {cat.label}
           {s.isSample ? " · Sample story" : ""}
         </span>
-        <StoryArticle s={s} variant="page" lastField={["Echoes", s.echoes]} />
+        <StoryArticle s={s} variant="page" lastField={["Echoes", s.echoes]}>
+          <div>
+            <ReportButton slug={s.slug} returnTo={`/story/${s.slug}`} />
+          </div>
+        </StoryArticle>
       </article>
     </main>
   );

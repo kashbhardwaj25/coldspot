@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState, useTransition } from "react";
 import { signInWithGoogle, useSignedIn } from "@/features/accounts/client";
+import { ReportButton } from "@/features/reports/ReportButton";
 import { toggleEcho } from "@/features/stories/echoes";
 import { StoryArticle } from "@/features/stories/StoryArticle";
 import type { StoryItem } from "@/lib/types";
@@ -49,6 +50,7 @@ export function StorySheet({ s, echoState, setEchoState }: Props) {
         <Link className="btn" href={`/story/${s.slug}`}>
           Full page
         </Link>
+        <ReportButton slug={s.slug} returnTo={`/?story=${s.slug}`} />
       </div>
     </StoryArticle>
   );

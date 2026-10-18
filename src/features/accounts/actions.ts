@@ -6,19 +6,13 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
 import { db, schema } from "@/db/client";
+import { revalidateStory } from "@/features/stories/revalidate";
 import { STORIES_ENABLED } from "@/lib/features";
 import { getAuth } from "./auth";
 import { currentUser } from "./session";
 
 const { stories, users } = schema;
 const storyId = z.coerce.number().int().positive();
-
-/** Refresh the public pages a published story appears on. */
-function revalidateStory(slug: string | null) {
-  revalidatePath("/");
-  revalidatePath("/sitemap.xml");
-  if (slug) revalidatePath(`/story/${slug}`);
-}
 
 /** Delete one of your own stories, published or not. */
 export async function deleteMyStory(form: FormData) {

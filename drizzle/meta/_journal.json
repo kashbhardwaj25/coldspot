@@ -36,6 +36,13 @@
       "when": 1792338538909,
       "tag": "0004_glossy_living_lightning",
       "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1792339634908,
+      "tag": "0005_majestic_yellow_claw",
+      "breakpoints": true
     }
   ]
 }
