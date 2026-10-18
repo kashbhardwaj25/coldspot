@@ -187,15 +187,6 @@
   flex-direction: column;
   gap: 6px;
 }
-.picker-zoom button {
-  width: 32px;
-  height: 32px;
-  border-radius: 16px;
-  border: 1px solid var(--line);
-  background: rgba(17, 14, 24, 0.8);
-  color: var(--ink-2);
-  font-size: 16px;
-}
 /* Consent checkbox (Base UI) above the send button. */
 .consent {
   display: flex;

@@ -1,29 +1,46 @@
 "use client";
 
 import Link from "next/link";
-import { startTransition, useActionState, useEffect, useRef, useState, type FormEvent } from "react";
+import { startTransition, useActionState, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { signInWithGoogle, useSignedIn } from "@/features/accounts/client";
 import { clearDraft, RESUME_QUERY, saveDraft, type ShareDraft } from "@/features/stories/draft";
 import { submitStory, type SubmitState } from "@/features/stories/submit";
 import { Turnstile } from "@/features/stories/Turnstile";
+import type { CaseSummary } from "@/lib/types";
+import type { Town } from "../towns";
+import { allCategories, toMarkers } from "../useGlobe";
 import { PinPicker } from "./PinPicker";
 import { ShareFields } from "./ShareFields";
 
 type Props = {
   center: { lat: number; lon: number };
   draft?: ShareDraft;
+  /** Famous cases, shown as landmarks on the pin picker. */
+  cases: CaseSummary[];
   /** Cloudflare Turnstile site key, or null when the spam check isn't set up. */
   turnstileSiteKey: string | null;
   onClose: () => void;
 };
 
 /** The share form. The pin starts where the ring is and can be moved on the picker; the server blurs it to ~5 km. */
-export function ShareSheet({ center, draft, turnstileSiteKey, onClose }: Props) {
+export function ShareSheet({ center, draft, cases, turnstileSiteKey, onClose }: Props) {
   const [state, action, pending] = useActionState<SubmitState, FormData>(submitStory, null);
   const signedIn = useSignedIn();
   const formRef = useRef<HTMLFormElement>(null);
   const [signInError, setSignInError] = useState<string | null>(null);
   const [leaving, setLeaving] = useState(false);
+  const [target, setTarget] = useState<{ lat: number; lon: number } | null>(null);
+  const landmarks = useMemo(() => toMarkers(cases, allCategories()), [cases]);
+  const autoRegion = useRef("");
+
+  // A picked town moves the pin, and fills in the state and country unless the writer typed their own.
+  const pickTown = (t: Town) => {
+    setTarget({ lat: t[2], lon: t[3] });
+    const region = formRef.current?.elements.namedItem("region");
+    if (region instanceof HTMLInputElement && (!region.value || region.value === autoRegion.current)) {
+      region.value = autoRegion.current = t[1];
+    }
+  };
 
   useEffect(() => {
     if (state?.ok) clearDraft();
@@ -86,8 +103,8 @@ export function ShareSheet({ center, draft, turnstileSiteKey, onClose }: Props) 
           <label htmlFor="fWebsite">Website</label>
           <input id="fWebsite" name="website" tabIndex={-1} autoComplete="off" />
         </div>
-        <ShareFields draft={draft} />
-        <PinPicker initial={center} />
+        <ShareFields draft={draft} onPickTown={pickTown} />
+        <PinPicker initial={center} landmarks={landmarks} target={target} />
         <ul className="rules">
           <li>Leave out real names and exact addresses.</li>
           <li>Nothing about crime, violence or anyone getting hurt.</li>

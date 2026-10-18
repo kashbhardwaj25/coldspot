@@ -300,12 +300,6 @@
   flex-direction: column;
   gap: 6px;
 }
-.zoom .btn {
-  width: 34px;
-  padding: 0;
-  justify-content: center;
-  font-size: 16px;
-}
 .hint {
   position: absolute;
   left: 50%;

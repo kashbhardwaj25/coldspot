@@ -2,6 +2,7 @@
 
 import { Drawer } from "@base-ui/react/drawer";
 import { useState, type CSSProperties, type ReactNode } from "react";
+import { IconButton } from "@/components/ui/IconButton";
 import { CATEGORIES } from "@/lib/categories";
 import { catColor } from "@/lib/format";
 import type { CaseSummary, MapItem, Mode, StoryItem } from "@/lib/types";
@@ -57,9 +58,7 @@ export function Sheet(props: Props) {
             <Drawer.Popup className="sheet" aria-labelledby="sheetTitle" style={tc}>
               <div className="sheet-head">
                 <span style={tc}>{head}</span>
-                <Drawer.Close className="x" aria-label="Close">
-                  ✕
-                </Drawer.Close>
+                <Drawer.Close render={<IconButton icon="close" label="Close" />} />
               </div>
               <Drawer.Content className="sheet-body">{body}</Drawer.Content>
             </Drawer.Popup>
@@ -113,6 +112,7 @@ function content(p: Props & { sheet: SheetState }): [ReactNode, ReactNode] {
           key="b"
           center={sheet.center}
           draft={sheet.draft}
+          cases={p.cases}
           turnstileSiteKey={p.turnstileSiteKey}
           onClose={p.onClose}
         />,

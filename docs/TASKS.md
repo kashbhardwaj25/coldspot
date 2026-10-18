@@ -42,7 +42,7 @@ Decisions behind this list:
 - [x] `toggleEcho` doesn't revalidate, so echo counts lag by up to 5 minutes on `/` and an hour on story pages. Revalidate the story page.
 - [x] Place the pin inside the share form with a small map picker, so people don't have to close it and drag the globe.
 - [x] Consent checkbox on the share form, linking to the terms.
-- [ ] The pin picker is blank inland (coastlines only, no borders). Add reference points: famous cases and stories as landmarks, and a town search that jumps the picker there. "Use my location" is done.
+- [x] The pin picker is blank inland (coastlines only, no borders). Done: famous cases as landmarks, a town search on "Town or area" (1,252 towns from Natural Earth plus hand-added ones) and "Use my location".
 
 ## 5. Regions
 

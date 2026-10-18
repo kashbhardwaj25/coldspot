@@ -59,9 +59,10 @@ src/features/
     useGlobe.ts                  creates the GlobeEngine, deep links, ring layout, marker mapping
     useEchoes.ts useSound.ts     echo state; Radio and the sound toggle
     useCaseFile.ts search.ts     load a case file on open (prefetched on tune-in); list search
+    towns.ts                     town search for the share form: loads public/towns.json on first use, ranks matches
     useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
     state.ts                     SheetState, EchoState
-    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields, PinPicker (a second GlobeEngine to place the pin)
+    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields, TownField (Base UI Autocomplete), PinPicker (a second GlobeEngine, famous cases as landmarks, no snapping)
   globe/                         framework-free canvas globe (no React, no Next)
     engine.ts                    GlobeEngine: public API, frame loop, input handling
     camera.ts input.ts motion.ts view and projection; pointer/keyboard; animations, momentum, snap
@@ -96,7 +97,7 @@ src/features/
     actions.ts                   "use server": reportStory (sign-in, one per account, 3 reports hide a story)
     ReportButton.tsx             report dialog (Base UI Dialog + RadioGroup), on the story page and sheet
 src/components/                  shared UI with no feature knowledge: brand.tsx, PageTop.tsx, article.tsx
-  ui/                            Base UI wrappers: TextField/TextArea, SelectField, ConfirmButton
+  ui/                            Base UI wrappers: TextField/TextArea, SelectField, ConfirmButton, IconButton (SVG icons, never text glyphs)
 src/db/
   schema.ts                      cases, stories, echoes, reports, admin_sessions; users, sessions, accounts, verifications (Better Auth)
   client.ts                      SQLite connection (WAL, busy_timeout, foreign keys), dev-safe singleton
@@ -108,11 +109,13 @@ src/lib/                         shared, framework-free helpers
   server/env.ts                  environment variables, validated with zod
   server/security.ts             IP hash, keyed hashes, constant-time compare
 src/styles/                      tokens, base, map, tuner, sheets, reading, forms, controls, article, account, admin
-src/data/                        seed-cases.ts (real), seed-stories.ts (samples, is_sample = true)
+src/data/                        seed-cases.ts (real), seed-stories.ts (samples, is_sample = true), towns-extra.ts (hand-added towns)
 scripts/setup.ts                 migrate and seed
+scripts/build-towns.ts           rebuilds public/towns.json from Natural Earth (public domain) plus towns-extra.ts
 Dockerfile deploy/               production image; Docker Compose with Caddy and Litestream (see docs/DEPLOY.md)
 drizzle/                         SQL migrations (generated, committed)
 public/land-50m.json             coastlines only
+public/towns.json                towns for the share form's search (generated; don't edit by hand)
 ```
 
 ## Rules
@@ -156,12 +159,13 @@ public/land-50m.json             coastlines only
 - Admin edits go through the same link and phone checks as submissions (`blockedContent`).
 - Keep the existing submission checks: sign-in, the consent checkbox, Turnstile (when configured), honeypot field, 3 per account and 3 per IP per 24 hours, no links (also in the pen name), no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
 - Content rules shown to users: no real names, no exact addresses, nothing about crime, violence or anyone getting hurt, no selling remedies, rituals or charms.
+- The town list leaves out places that Natural Earth files under another country in disputed areas (`DISPUTED_ADM1` in `scripts/build-towns.ts`), and Indian places show their Indian state.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.
 - Famous cases must present what was reported **and** the explanations offered, without taking a side. Don't write that a case is proven.
 
 ### Globe engine
 
-- `GlobeEngine` is framework-free on purpose. React talks to it only through `setItems`, `pin`, `flyTo`, `zoomBy`, `clearTune`, `center`, `resize` and its callbacks. Don't move per-frame state into React state; that re-renders at 60 fps.
+- `GlobeEngine` is framework-free on purpose. React talks to it only through `setItems`, `pin`, `flyTo`, `zoomBy`, `clearTune`, `center`, `resize` and its callbacks. The `snap` option (on by default) glides to a nearby marker at rest; the pin picker turns it off. Don't move per-frame state into React state; that re-renders at 60 fps.
 - Coordinates in the tuner card go through a `Signal` and the `Freq` component, which writes to the DOM directly, so React doesn't re-render every frame.
 - Where markers crowd, lower-priority ones are hidden until you zoom in (`declutter.ts`). Featured cases (`featured` in `seed-cases.ts`) show first. Call `pin(key)` before `flyTo` when jumping to a specific item, so it's never hidden.
 - Respect `prefers-reduced-motion` for any new animation.

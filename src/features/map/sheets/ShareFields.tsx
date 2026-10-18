@@ -4,26 +4,21 @@ import { SelectField } from "@/components/ui/SelectField";
 import { TextArea, TextField } from "@/components/ui/TextField";
 import type { ShareDraft } from "@/features/stories/draft";
 import { CATEGORIES, CATEGORY_KEYS } from "@/lib/categories";
+import type { Town } from "../towns";
+import { TownField } from "./TownField";
 
 const CATEGORY_OPTIONS = CATEGORY_KEYS.map((k) => ({ value: k, label: CATEGORIES[k].label }));
 
-type Props = { draft?: ShareDraft };
+type Props = { draft?: ShareDraft; onPickTown: (town: Town) => void };
 
 /** The share form's inputs, filled from a saved draft when the writer comes back from signing in. */
-export function ShareFields({ draft }: Props) {
+export function ShareFields({ draft, onPickTown }: Props) {
   const v = draft?.fields ?? {};
   return (
     <>
       <div className="f2">
         <SelectField label="Category" name="category" options={CATEGORY_OPTIONS} defaultValue={v.category ?? "sky"} />
-        <TextField
-          label="Town or area"
-          name="place"
-          placeholder="e.g. Munsiyari"
-          required
-          maxLength={80}
-          defaultValue={v.place}
-        />
+        <TownField defaultValue={v.place} onPick={onPickTown} />
         <TextField
           label="State and country"
           name="region"

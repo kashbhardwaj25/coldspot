@@ -77,19 +77,6 @@
 .sheet-body > * {
   flex-shrink: 0;
 }
-.x {
-  width: 34px;
-  height: 34px;
-  border-radius: 17px;
-  border: 1px solid var(--line);
-  display: grid;
-  place-items: center;
-  color: var(--ink-2);
-  flex: none;
-}
-.x:hover {
-  color: var(--ink);
-}
 
 /* Search at the top of the list sheet, staying in view while the list scrolls. */
 .list-search {

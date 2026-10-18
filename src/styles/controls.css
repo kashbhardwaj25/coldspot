@@ -1,4 +1,37 @@
-/* Base UI controls styled with the site's tokens: the select popup and confirm dialogs. */
+/* Base UI controls styled with the site's tokens: icon buttons, the select popup and confirm dialogs. */
+.icon-btn {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: rgba(17, 14, 24, 0.78);
+  backdrop-filter: blur(6px);
+  color: var(--ink-2);
+  line-height: 0;
+}
+.icon-btn svg {
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.icon-btn.small {
+  width: 32px;
+  height: 32px;
+}
+@media (hover: hover) {
+  .icon-btn:hover {
+    color: var(--ink);
+    border-color: rgba(236, 229, 214, 0.3);
+  }
+}
+.icon-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
 .select-trigger {
   display: flex;
   align-items: center;
@@ -178,4 +211,32 @@
 }
 .radio-dot[data-unchecked] {
   display: none;
+}
+
+/* Town suggestions: the name, with its state or country in small type. */
+.town-item {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.town-item small {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.town-popup:not(:has(.town-item)) {
+  display: none;
+}
+/* Never wider than the field or the screen, even in the first frame before Base UI sets --anchor-width:
+   a wider popup makes phones widen the whole page. Long state names wrap instead. */
+.town-popup {
+  width: var(--anchor-width, 240px);
+  max-width: calc(100vw - 32px);
+  overflow-x: hidden;
+}
+.town-item span,
+.town-item small {
+  white-space: normal;
+  overflow-wrap: anywhere;
 }

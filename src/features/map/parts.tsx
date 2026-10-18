@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, type CSSProperties, type Ref } from "react";
+import { IconButton } from "@/components/ui/IconButton";
 import type { Signal } from "@/lib/signal";
 
 /** The first line types itself in through a flicker of static. */
@@ -80,12 +81,8 @@ export function Ring({ ref, color }: { ref: Ref<HTMLDivElement>; color: string |
 export function ZoomControls({ ref, onZoom }: { ref: Ref<HTMLDivElement>; onZoom: (factor: number) => void }) {
   return (
     <div className="zoom" ref={ref}>
-      <button type="button" className="btn" onClick={() => onZoom(1.6)} aria-label="Zoom in">
-        +
-      </button>
-      <button type="button" className="btn" onClick={() => onZoom(1 / 1.6)} aria-label="Zoom out">
-        −
-      </button>
+      <IconButton icon="plus" label="Zoom in" onClick={() => onZoom(1.6)} />
+      <IconButton icon="minus" label="Zoom out" onClick={() => onZoom(1 / 1.6)} />
     </div>
   );
 }

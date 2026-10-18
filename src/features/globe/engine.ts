@@ -24,6 +24,8 @@ type Options = {
   onCoords: (text: string) => void;
   onInteract: () => void;
   onOpenTuned: () => void;
+  /** Glide to a nearby marker when the view comes to rest (the main map). Off for the pin picker. */
+  snap?: boolean;
 };
 
 function context(canvas: HTMLCanvasElement) {
@@ -153,7 +155,7 @@ export class GlobeEngine implements InputTarget {
   /* ---------- loop ---------- */
 
   private loop = (now: number) => {
-    this.motion.step(now, this.cam, this.visible[0]);
+    this.motion.step(now, this.cam, this.o.snap === false ? undefined : this.visible[0]);
     const { cam } = this;
     if (cam.dirty) {
       cam.dirty = false;

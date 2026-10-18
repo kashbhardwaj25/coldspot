@@ -1,12 +1,20 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { GlobeEngine } from "@/features/globe/engine";
+import { IconButton } from "@/components/ui/IconButton";
+import { GlobeEngine, type EngineItem } from "@/features/globe/engine";
 import { loadLand } from "@/features/globe/land";
 import { Radio } from "@/features/globe/radio";
 import { formatCoords } from "@/lib/geo";
 
-type Props = { initial: { lat: number; lon: number } };
+type Point = { lat: number; lon: number };
+type Props = {
+  initial: Point;
+  /** Famous cases, drawn as labelled landmarks so there's something to steer by inland. */
+  landmarks: EngineItem[];
+  /** A town picked in the town search; the picker flies there when it changes. */
+  target: Point | null;
+};
 
 const noop = () => {};
 
@@ -15,13 +23,14 @@ const noop = () => {};
  * hidden `lat` and `lon` fields, written straight to the DOM so dragging never re-renders React.
  * The server still blurs the spot to about 5 km.
  */
-export function PinPicker({ initial }: Props) {
+export function PinPicker({ initial, landmarks, target }: Props) {
   const baseRef = useRef<HTMLCanvasElement>(null);
   const dotsRef = useRef<HTMLCanvasElement>(null);
   const latRef = useRef<HTMLInputElement>(null);
   const lonRef = useRef<HTMLInputElement>(null);
   const coordsRef = useRef<HTMLElement>(null);
   const engineRef = useRef<GlobeEngine | null>(null);
+  const landmarksRef = useRef(landmarks);
   const [locating, setLocating] = useState<"idle" | "busy" | string>("idle");
   const { lat, lon } = initial;
 
@@ -51,6 +60,7 @@ export function PinPicker({ initial }: Props) {
           view: { lat, lon, zoom: 6 },
           radio: new Radio(), // never switched on, so the picker stays silent
           layout: (w, h) => ({ cx: w / 2, cy: h / 2 }),
+          snap: false, // the pin stays exactly where the writer puts it, never pulled to a landmark
           onCoords: (text) => {
             const c = engine.center();
             if (latRef.current) latRef.current.value = c.lat.toFixed(4);
@@ -62,6 +72,7 @@ export function PinPicker({ initial }: Props) {
           onInteract: noop,
           onOpenTuned: noop,
         });
+        engine.setItems(landmarksRef.current, true);
         engineRef.current = engine;
       })
       .catch((err: unknown) => console.error("Could not load the map", err));
@@ -71,6 +82,15 @@ export function PinPicker({ initial }: Props) {
       engineRef.current = null;
     };
   }, [lat, lon]);
+
+  useEffect(() => {
+    landmarksRef.current = landmarks;
+    engineRef.current?.setItems(landmarks, true);
+  }, [landmarks]);
+
+  useEffect(() => {
+    if (target) engineRef.current?.flyTo(target.lon, target.lat, 10, 900);
+  }, [target]);
 
   return (
     <div className="picker-field">
@@ -89,12 +109,8 @@ export function PinPicker({ initial }: Props) {
         />
         <span className="picker-pin" aria-hidden="true" />
         <div className="picker-zoom">
-          <button type="button" aria-label="Zoom in" onClick={() => engineRef.current?.zoomBy(1.6)}>
-            +
-          </button>
-          <button type="button" aria-label="Zoom out" onClick={() => engineRef.current?.zoomBy(1 / 1.6)}>
-            −
-          </button>
+          <IconButton icon="plus" label="Zoom in" size="small" onClick={() => engineRef.current?.zoomBy(1.6)} />
+          <IconButton icon="minus" label="Zoom out" size="small" onClick={() => engineRef.current?.zoomBy(1 / 1.6)} />
         </div>
       </div>
       <input type="hidden" name="lat" ref={latRef} defaultValue={lat} />

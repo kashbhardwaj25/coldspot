@@ -3,7 +3,7 @@ import { caseStatusLabel } from "@/lib/format";
 import { itemName, type MapItem } from "@/lib/types";
 
 /** Lower case, without accents, so "varginha" finds "Varginha" and "bendego" finds "Bendegó". */
-const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+export const fold = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 function haystack(i: MapItem) {
   const common = [itemName(i), i.region, CATEGORIES[i.category].label];
