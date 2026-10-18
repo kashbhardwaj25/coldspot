@@ -27,12 +27,19 @@
   left: 0;
   right: 0;
   top: 0;
-  padding: calc(env(safe-area-inset-top, 0px) + 14px) 16px 0;
+  padding: calc(env(safe-area-inset-top, 0px) + 14px) 16px 22px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   pointer-events: none;
   z-index: 3;
+  /* Fades out globe labels drawn under the header, so the header stays readable. */
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--night) 92%, transparent) 0%,
+    color-mix(in srgb, var(--night) 75%, transparent) 65%,
+    transparent 100%
+  );
 }
 .top > * {
   pointer-events: auto;

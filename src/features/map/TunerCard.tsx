@@ -67,7 +67,7 @@ function CaseCard({ item, coords, onOpen }: CardProps<CaseItem>) {
       <div className="meta">
         <span>{item.witnesses}</span>
       </div>
-      <div className="open">
+      <div className="card-foot">
         <button type="button" className="read" onClick={() => onOpen(item)}>
           Open case file <span aria-hidden="true">→</span>
         </button>
@@ -102,7 +102,7 @@ function StoryCard({ item, coords, echoes, onOpen }: CardProps<StoryItem> & { ec
         <span>{echoes} echoes nearby</span>
         {item.narrated && <span style={{ color: cat.color }}>▶ Narrated · {item.narrationLength}</span>}
       </div>
-      <div className="open">
+      <div className="card-foot">
         <button type="button" className="read" onClick={() => onOpen(item)}>
           Read the story <span aria-hidden="true">→</span>
         </button>

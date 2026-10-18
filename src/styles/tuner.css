@@ -130,7 +130,8 @@
 .meta span {
   white-space: nowrap;
 }
-.open {
+/* Card footer. Not `.open`: that's also a case status class, used on `.pill`. */
+.card-foot {
   display: flex;
   align-items: center;
   justify-content: space-between;

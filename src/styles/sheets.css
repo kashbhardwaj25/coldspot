@@ -37,6 +37,10 @@
   flex-direction: column;
   gap: 18px;
 }
+/* In a scrolling flex column, children would otherwise shrink, and boxes with overflow: hidden (like .fields) get clipped. */
+.sheet-body > * {
+  flex-shrink: 0;
+}
 .x {
   width: 34px;
   height: 34px;

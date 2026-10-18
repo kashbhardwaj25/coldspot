@@ -1,5 +1,6 @@
 import { geoGraticule10, type GeoPath, type GeoPermissibleObjects } from "d3-geo";
 import { CATEGORIES } from "@/lib/categories";
+import { drawLabels } from "./labels";
 import type { Visible } from "./tuning";
 
 /** Canvas size and ring position, in CSS pixels. */
@@ -65,6 +66,9 @@ export function drawGlobe(
   c.stroke();
 }
 
+/** Height of a label's box for collision checks, in CSS pixels. */
+const LABEL_HEIGHT = 14;
+
 type MarkerOptions = {
   tunedKey: string | null;
   famous: boolean;
@@ -97,12 +101,13 @@ export function drawMarkers(c: CanvasRenderingContext2D, visible: Visible[], f: 
     c.arc(v.x, v.y, gr, 0, Math.PI * 2);
     c.fill();
 
-    if (o.famous) drawDiamond(c, v, color, on, o.labels);
+    if (o.famous) drawDiamond(c, v, color, on);
     else drawDot(c, v, color, on);
   }
+  if (o.labels && o.famous) drawLabels(c, visible, o.tunedKey, LABEL_HEIGHT);
 }
 
-function drawDiamond(c: CanvasRenderingContext2D, v: Visible, color: string, on: boolean, labels: boolean) {
+function drawDiamond(c: CanvasRenderingContext2D, v: Visible, color: string, on: boolean) {
   const r = on ? 5.4 : 4.2;
   c.save();
   c.translate(v.x, v.y);
@@ -113,10 +118,6 @@ function drawDiamond(c: CanvasRenderingContext2D, v: Visible, color: string, on:
   c.lineWidth = 1;
   c.strokeRect(-r * 1.25, -r * 1.25, r * 2.5, r * 2.5);
   c.restore();
-  if (labels && !on) {
-    c.fillStyle = "rgba(230,220,198,0.72)";
-    c.fillText(v.item.label, v.x + 12, v.y);
-  }
 }
 
 function drawDot(c: CanvasRenderingContext2D, v: Visible, color: string, on: boolean) {
