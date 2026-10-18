@@ -21,7 +21,7 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 
 `max-lines` is an error at 150 lines, not counting blank lines and comments. Seed data in `src/data/` is exempt.
 
-- Split by responsibility, not by line number. A good split gives each file a one-line description (see `src/features/globe/`: camera, input, motion, draw, tuning, engine).
+- Split by responsibility, not by line number. A good split gives each file a one-line description (see `src/features/globe/`: camera, input, motion, draw, tuning, scene, engine).
 - Don't game the limit by cramming statements onto one line or deleting useful comments.
 - A component that renders several distinct regions becomes several components. Logic that isn't rendering (effects, subscriptions, derived data) moves into a `useX` hook next to it.
 - CSS isn't linted for length, but follows the same idea: styles live in `src/styles/`, one file per area. `map.css` is the largest; split it further before it grows much more.

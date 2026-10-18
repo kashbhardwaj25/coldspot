@@ -82,8 +82,9 @@ Tasks:
 
 ## 7. Code upkeep
 
-- [ ] `features/globe/engine.ts` is close to the 150-line limit; split it before adding to it. (`ColdspotApp.tsx` was split: `MapStage`, `MapData`, place actions in `useMapActions`.)
-- [ ] Tests for `lib/geo.ts`, `features/globe/tuning.ts`, the rate limits and reports.
+- [x] Split the two biggest files: `engine.ts` (markers moved to `scene.ts`) and `ColdspotApp.tsx` (`MapStage`, `MapData`, place actions in `useMapActions`).
+- [x] Tests for `lib/geo.ts`, `features/globe/tuning.ts` and the admin login limiter.
+- [ ] Tests for the story, echo and report limits: they touch the database, so they need a test database setup (checked end to end in the browser so far).
 
 ## 8. Content (yours)
 

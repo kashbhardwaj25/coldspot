@@ -68,6 +68,7 @@ src/features/
     sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields, TownField (Base UI Autocomplete), PinPicker (a second GlobeEngine, famous cases as landmarks, no snapping)
   globe/                         framework-free canvas globe (no React, no Next)
     engine.ts                    GlobeEngine: public API, frame loop, input handling
+    scene.ts                     the markers: items, declutter, visibility, tuning, drawing them each frame
     camera.ts input.ts motion.ts view and projection; pointer/keyboard; animations, momentum, snap
     draw.ts tuning.ts radio.ts   drawing; visibility, tune-in and hit testing; Web Audio
     declutter.ts labels.ts       hide crowded low-priority markers by zoom; non-overlapping labels
