@@ -19,8 +19,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "7:12",
     "echoSeed": 3
   },
   {
@@ -40,8 +38,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "6:48",
     "echoSeed": 6
   },
   {
@@ -61,8 +57,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "8:03",
     "echoSeed": 9
   },
   {
@@ -82,8 +76,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 4
   },
   {
@@ -103,8 +95,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 2
   },
   {
@@ -124,8 +114,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "7:40",
     "echoSeed": 11
   },
   {
@@ -145,8 +133,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 5
   },
   {
@@ -166,8 +152,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "6:20",
     "echoSeed": 14
   },
   {
@@ -187,8 +171,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 3
   },
   {
@@ -208,8 +190,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 4
   },
   {
@@ -229,8 +209,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "5:55",
     "echoSeed": 7
   },
   {
@@ -250,8 +228,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 2
   },
   {
@@ -271,8 +247,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 5
   },
   {
@@ -292,8 +266,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "6:05",
     "echoSeed": 3
   },
   {
@@ -313,8 +285,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 6
   },
   {
@@ -334,8 +304,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "7:30",
     "echoSeed": 8
   },
   {
@@ -355,8 +323,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 5
   },
   {
@@ -376,8 +342,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "6:36",
     "echoSeed": 4
   },
   {
@@ -397,8 +361,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 10
   },
   {
@@ -418,8 +380,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 3
   },
   {
@@ -439,8 +399,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 2
   },
   {
@@ -460,8 +418,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 3
   },
   {
@@ -481,8 +437,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 3
   },
   {
@@ -502,8 +456,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "8:12",
     "echoSeed": 7
   },
   {
@@ -523,8 +475,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 12
   },
   {
@@ -544,8 +494,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "7:05",
     "echoSeed": 9
   },
   {
@@ -565,8 +513,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 5
   },
   {
@@ -586,8 +532,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 3
   },
   {
@@ -607,8 +551,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": false,
-    "narrationLength": null,
     "echoSeed": 4
   },
   {
@@ -628,8 +570,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     ],
     "status": "approved",
     "isSample": true,
-    "narrated": true,
-    "narrationLength": "6:58",
     "echoSeed": 6
   }
 ];

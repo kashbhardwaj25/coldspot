@@ -27,8 +27,6 @@ function toStoryItem(r: StoryRow): StoryItem {
     hook: r.hook,
     body: r.body,
     isSample: r.isSample,
-    narrated: r.narrated,
-    narrationLength: r.narrationLength,
     echoes: r.echoSeed + Number(r.echoCount),
   };
 }

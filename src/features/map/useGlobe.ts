@@ -23,8 +23,8 @@ export function toMarkers(items: MapItem[], active: Set<Category>): EngineItem[]
       lat: i.lat,
       lon: i.lon,
       label: itemName(i),
-      narrated: i.kind === "story" && i.narrated,
-      priority: i.kind === "case" ? Number(i.featured) : Number(i.narrated),
+      // Where markers crowd, featured cases and the most-echoed stories stay visible.
+      priority: i.kind === "case" ? Number(i.featured) : i.echoes,
     }));
 }
 

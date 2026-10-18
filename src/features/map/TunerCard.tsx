@@ -105,7 +105,6 @@ function StoryCard({ item, coords, echoes, onOpen }: CardProps<StoryItem> & { ec
         {item.timeLabel && <span>{item.timeLabel}</span>}
         {w && <span>{w}</span>}
         <span>{echoes} echoes</span>
-        {item.narrated && <span style={{ color: cat.color }}>▶ Narrated · {item.narrationLength}</span>}
       </div>
       <div className="card-foot">
         <button type="button" className="read" onClick={() => onOpen(item)}>

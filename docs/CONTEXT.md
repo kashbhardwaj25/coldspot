@@ -16,9 +16,9 @@ The name comes from the paranormal term _cold spot_, a patch of air where someth
 | ------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Content       | Real, widely reported incidents, curated by us                                | Encounters submitted by people, reviewed before publishing |
 | Opens on      | A zoomed-out globe centred on Kutch                                           | India, zoomed in                                           |
-| Markers       | Diamonds, with labels when zoomed in                                          | Round dots; narrated stories have an outer ring            |
+| Markers       | Diamonds, with labels when zoomed in                                          | Round dots                                                 |
 | Card          | Title, place, date, status (Unexplained, Disputed, Explained)                 | Place, year, time, witnesses, echoes                       |
-| Detail        | Case file: what was reported, explanations offered, fields, link to Wikipedia | Story, fields, echo button, narration slot                 |
+| Detail        | Case file: what was reported, explanations offered, fields, link to Wikipedia | Story, fields, echo button                                 |
 | Accent colour | Bone (#E6DCC6)                                                                | Ice (#A9DCEB)                                              |
 
 Each case file has a "People's stories near here" button that switches modes and flies to that spot. That's how the two halves send people to each other.
@@ -51,7 +51,7 @@ Everything outside those moments uses plain English, so first-time users never h
 - **Tagline:** Something happened here.
 - **Logo:** concentric rings, like a cold patch on a thermal camera.
 - **Tone:** campfire, not jump scare. It's eerie, calm and literate, with no gore and no red-and-black horror styling. That's what sets it apart from ghost-detector apps.
-- **Palette:** deep violet night (#110E18), ink (#ECE5D6), ice (#A9DCEB) for the brand, bone (#E6DCC6) for famous cases, ember (#E9B45E) for narration. Category colours are sky #86BCE8, visitors #C5A2EE, creatures #92C99A, voices #E9B45E and places #E3836A.
+- **Palette:** deep violet night (#110E18), ink (#ECE5D6), ice (#A9DCEB) for the brand, bone (#E6DCC6) for famous cases, ember (#E9B45E) for disputed cases. Category colours are sky #86BCE8, visitors #C5A2EE, creatures #92C99A, voices #E9B45E and places #E3836A.
 - **Type:** Newsreader for story text and titles, IBM Plex Mono for interface labels.
 
 ## Content and safety rules
@@ -76,13 +76,13 @@ Spam protection, in layers:
 - **HauntMap:** haunted places in the UK and US. Free, with user submissions.
 - Smaller apps: Haunted Places Near Me, Cryptid Coordinates, The Haunted Map Project.
 
-None of them combine all categories, stories rather than database entries, the tuning interface, an India-first focus and audio narration. Their existence shows there's demand for this kind of product.
+None of them combine all categories, stories rather than database entries, the tuning interface, and an India-first focus. Their existence shows there's demand for this kind of product.
 
 ## Making money (realistic)
 
 In order of how likely it is to work:
 
-1. **Season pass for narrated stories.** A one-time ₹99–199 in India, about $3.99 abroad. Sell it on the web through Razorpay (about 2% fee) rather than the Play Store (about 15%).
+1. **Season pass for narrated stories (later).** Narration isn't built; it was removed from the first release. A one-time ₹99–199 in India, about $3.99 abroad. Sell it on the web through Razorpay (about 2% fee) rather than the Play Store (about 15%).
 2. **Display ads** on story and case pages that come from search. Never on the map screen.
 3. **Sponsorships** from horror film and OTT releases, once usage is worth showing.
 4. **Licensing stories** to podcasts or productions, only with the submitter's consent and a revenue share. This needs a clause in the terms of use.
@@ -102,7 +102,7 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 
 - Website first; the Android app (Capacitor) comes later.
 - Next.js with SQLite, our own backend under our control, and the admin panel inside the Next.js app. Supabase was considered and rejected in favour of full control.
-- Hosting: Railway (about $5 a month) with SQLite on a volume, and the Cloudflare proxy in front. A small VPS with Caddy and Litestream is the fallback. Narration audio will live on R2 later.
+- Hosting: Railway (about $5 a month) with SQLite on a volume, and the Cloudflare proxy in front. A small VPS with Caddy and Litestream is the fallback.
 - Coastlines only on the map, no country borders.
 
 ## Decisions log
@@ -121,6 +121,7 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 | 2026-10-18 | Host on Railway behind Cloudflare; the VPS setup stays documented as a fallback                |
 | 2026-10-18 | Every story is reviewed by hand. Automatic approval was considered and rejected                |
 | 2026-10-18 | Sharing and echoing need Google sign-in; reading doesn't. Stories show a pen name or Anonymous |
+| 2026-10-18 | Narration removed from the product for now; it may return later with a season pass             |
 
 ## Open questions
 
@@ -138,4 +139,3 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 - [ ] Report button
 - [ ] Terms of use (including story licensing) and a privacy policy
 - [ ] Domain, deploy, Litestream backups and an uptime monitor
-- [ ] Narration player and season pass

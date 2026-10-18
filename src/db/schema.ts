@@ -112,8 +112,6 @@ export const stories = sqliteTable(
     body: text("body", { mode: "json" }).$type<string[]>().notNull(),
     status: text("status", { enum: STORY_STATUS_KEYS }).notNull().default("pending"),
     isSample: integer("is_sample", { mode: "boolean" }).notNull().default(false),
-    narrated: integer("narrated", { mode: "boolean" }).notNull().default(false),
-    narrationLength: text("narration_length"),
     // Starting echo count for seeded samples. Real echoes live in the `echoes` table.
     echoSeed: integer("echo_seed").notNull().default(0),
     // SHA-256 of IP + secret, used only for rate limiting.

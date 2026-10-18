@@ -86,36 +86,6 @@
   color: var(--ink);
   line-height: 1.4;
 }
-.narr {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 14px;
-  border: 1px dashed rgba(236, 229, 214, 0.2);
-  border-radius: 10px;
-}
-.narr .play {
-  width: 38px;
-  height: 38px;
-  border-radius: 19px;
-  background: rgba(233, 180, 94, 0.14);
-  color: var(--ember);
-  display: grid;
-  place-items: center;
-  flex: none;
-}
-.narr p {
-  margin: 0;
-  font-size: 11.5px;
-  color: var(--muted);
-  line-height: 1.5;
-}
-.narr strong {
-  display: block;
-  color: var(--ink-2);
-  font-weight: 500;
-  font-size: 12px;
-}
 .links {
   display: flex;
   flex-wrap: wrap;

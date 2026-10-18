@@ -45,8 +45,6 @@ export type StoryItem = {
   hook: string;
   body: string[];
   isSample: boolean;
-  narrated: boolean;
-  narrationLength: string | null;
   echoes: number;
 };
 

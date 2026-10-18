@@ -123,13 +123,6 @@ function drawDiamond(c: CanvasRenderingContext2D, v: Visible, color: string, on:
 function drawDot(c: CanvasRenderingContext2D, v: Visible, color: string, on: boolean) {
   c.fillStyle = color;
   c.beginPath();
-  c.arc(v.x, v.y, on ? 4.2 : v.item.narrated ? 3.4 : 2.6, 0, Math.PI * 2);
+  c.arc(v.x, v.y, on ? 4.2 : 2.6, 0, Math.PI * 2);
   c.fill();
-  if (v.item.narrated && !on) {
-    c.strokeStyle = rgba(color, 0.6);
-    c.lineWidth = 1;
-    c.beginPath();
-    c.arc(v.x, v.y, 6.2, 0, Math.PI * 2);
-    c.stroke();
-  }
 }

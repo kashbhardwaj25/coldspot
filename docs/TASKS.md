@@ -2,7 +2,7 @@
 
 The work left, in the order we plan to do it. Tick items off as they land. For product background, see `docs/CONTEXT.md`; for engineering rules, see `AGENTS.md`.
 
-**Goal:** every feature below is built before the deploy on Sunday 2026-10-25, with People's stories switched on (`STORIES_ENABLED` in `src/lib/features.ts`). If time runs short, regions (section 5) can slip; sections 1–3 can't. Narration and the season pass are deliberately left out (see [Later](#later)).
+**Goal:** every feature below is built before the deploy on Sunday 2026-10-25, with People's stories switched on (`STORIES_ENABLED` in `src/lib/features.ts`). If time runs short, regions (section 5) can slip; sections 1–3 can't. Narration was removed from the product; it and the season pass may come back later (see [Later](#later)).
 
 Decisions behind this list:
 

@@ -26,17 +26,6 @@ export function StorySheet({ s, echoState, setEchoState }: Props) {
 
   return (
     <StoryArticle s={s} variant="sheet" lastField={["Location shown", "Area only, about 5 km"]}>
-      {s.narrated && (
-        <div className="narr">
-          <span className="play" aria-hidden="true">
-            ▶
-          </span>
-          <p>
-            <strong>Narration · {s.narrationLength}</strong>
-            Narrated stories are part of the season pass.
-          </p>
-        </div>
-      )}
       <div className="same">
         <p>
           <b>{e.echoes} echoes</b> · people who&apos;ve seen something similar.
