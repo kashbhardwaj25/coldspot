@@ -5937,5 +5937,955 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "No body, bones or photographs have been found. Some researchers think the stories describe people living wild in the taiga, escaped prisoners or isolated hunters, rather than an unknown species. The reports have become rare in recent decades.",
     "wiki": "Chuchunaa"
+  },
+  {
+    "slug": "aspendos-theatre",
+    "category": "voices",
+    "title": "The Whispering Stage of Aspendos",
+    "region": "Aspendos, Antalya, Türkiye",
+    "lat": 36.94,
+    "lon": 31.17,
+    "dateLabel": "Built in the 2nd century CE",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Visitors and performers",
+    "hook": "In a Roman theatre almost 2,000 years old, a coin dropped on the stage can be heard in the highest row of seats.",
+    "summary": [
+      "The Roman theatre at Aspendos, in southern Türkiye, was built in the 2nd century CE and is one of the best-preserved ancient theatres in the world. It seats around 7,000 people and is still used for concerts and festivals.",
+      "Guides like to show visitors that a whisper, a clap or a coin dropped at the centre of the stage can be heard clearly from the top rows, high above."
+    ],
+    "explanation": "The effect comes from the theatre's design: the steeply raked semicircle of stone seats reflects sound from the stage back to the audience, while the tall stage building behind holds it in. Roman and Greek architects understood these principles, even without modern acoustics.",
+    "wiki": "Aspendos"
+  },
+  {
+    "slug": "corryvreckan-roar",
+    "category": "voices",
+    "title": "The Roar of Corryvreckan",
+    "region": "Gulf of Corryvreckan, between Jura and Scarba, Scotland",
+    "lat": 56.15,
+    "lon": -5.72,
+    "dateLabel": "Known for centuries",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Sailors and islanders",
+    "hook": "Between two Scottish islands, a great whirlpool churns with the tide, and on still days its roar can be heard miles away.",
+    "summary": [
+      "The Gulf of Corryvreckan is a narrow strait between the islands of Jura and Scarba off western Scotland. When the tide races through, it forms one of the largest whirlpools in the world, with standing waves several metres high.",
+      "Its roar can carry for many kilometres. Gaelic legend says it is the voice of the Cailleach, the winter hag, washing her great cloak in the whirlpool before the season turns."
+    ],
+    "explanation": "The whirlpool forms because strong tidal currents rush through the strait and over an uneven seabed, including a deep hole and a rock pinnacle that rises close to the surface. The roar is the sound of that turbulent water, which carries far over the sea on calm days.",
+    "wiki": "Gulf of Corryvreckan"
+  },
+  {
+    "slug": "cantref-gwaelod-bells",
+    "category": "voices",
+    "title": "The Bells of the Drowned Kingdom",
+    "region": "Borth, Ceredigion, Wales",
+    "lat": 52.49,
+    "lon": -4.05,
+    "dateLabel": "Legend for centuries; sunken forest exposed in 2014",
+    "status": "explained",
+    "statusLabel": "Partly confirmed",
+    "witnesses": "Local people and archaeologists",
+    "hook": "Welsh legend says a kingdom lies drowned beneath Cardigan Bay, and its church bells can still be heard under the waves. Then storms uncovered an ancient forest.",
+    "summary": [
+      "Welsh legend tells of Cantre'r Gwaelod, a fertile kingdom protected from the sea by dykes and gates, which was drowned when a watchman failed to close the floodgates. It is said that the bells of its churches still ring beneath the waters of Cardigan Bay in times of danger, a legend that inspired the folk song 'The Bells of Aberdovey'.",
+      "In 2014, winter storms stripped sand from the beach at Borth and exposed the stumps of an ancient forest of oak, pine and birch, along with a wooden walkway."
+    ],
+    "explanation": "Scientists date the drowned forest to between about 4,500 and 6,000 years ago, when rising seas after the last Ice Age flooded low-lying land. There was no medieval kingdom, but the legend may preserve a very old memory of real land lost to the sea. The bells are folklore.",
+    "wiki": "Cantre'r Gwaelod"
+  },
+  {
+    "slug": "kodama-echoes",
+    "category": "voices",
+    "title": "The Kodama",
+    "region": "Yakushima and the forests of Japan",
+    "lat": 30.35,
+    "lon": 130.53,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Japanese tradition",
+    "hook": "In Japanese folklore, the echo that answers you in the mountains is the voice of a kodama, a spirit that lives in an old tree.",
+    "summary": [
+      "In Japanese tradition, kodama are spirits that live in very old trees. When a voice or sound echoes back from the mountains, it was said to be the kodama answering. Cutting down a tree that holds a kodama was believed to bring misfortune, and some old trees are marked with sacred ropes.",
+      "The ancient cedar forests of Yakushima island, where some trees are thousands of years old, are closely linked to the kodama in popular culture, and inspired the forest spirits in the film 'Princess Mononoke'."
+    ],
+    "explanation": "Echoes are sound reflecting off mountainsides and valleys. The kodama legend gives them a voice, and has helped protect ancient trees by encouraging respect for the forest.",
+    "wiki": "Kodama (folklore)"
+  },
+  {
+    "slug": "jebel-naqus",
+    "category": "voices",
+    "title": "The Mountain of the Bell",
+    "region": "Jebel Naqus, near El Tor, South Sinai, Egypt",
+    "lat": 28.33,
+    "lon": 33.62,
+    "dateLabel": "Legend recorded since the 1800s",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Bedouin, monks and travellers",
+    "hook": "On a sandy mountain in Sinai, people heard bell-like booms and said a monastery lay buried inside, its bells still ringing for prayers.",
+    "summary": [
+      "Jebel Naqus, the 'Mountain of the Bell', is a hill near the Gulf of Suez in southern Sinai, with a steep slope of fine sand. Bedouin and travellers reported hearing deep, ringing sounds from it.",
+      "Legend said a monastery had been swallowed by the mountain, and that the sound was its bells, or the wooden gong called a naqus that monks beat to call people to prayer."
+    ],
+    "explanation": "In the 19th century, the explorer James Wellsted ran down the sandy slope and set off the sound himself, loud enough to startle him. Like the singing dunes of China and Kazakhstan, the boom comes from dry sand grains sliding together in an avalanche.",
+    "wiki": "Naqus"
+  },
+  {
+    "slug": "captain-midnight",
+    "category": "voices",
+    "title": "Captain Midnight",
+    "region": "Ocala, Florida, USA",
+    "lat": 29.19,
+    "lon": -82.14,
+    "dateLabel": "27 April 1986",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Millions of HBO viewers",
+    "hook": "Just after midnight, HBO viewers across the United States saw their film replaced by a message from someone calling himself Captain Midnight.",
+    "summary": [
+      "At 12:32 am on 27 April 1986, viewers of the television channel HBO in the eastern United States were watching the film 'The Falcon and the Snowman' when the picture was replaced by colour bars and a message protesting against HBO's prices for satellite dish owners, signed 'Captain Midnight'.",
+      "The message stayed on screen for about four and a half minutes. It caused alarm, because if one person could take over a major satellite channel, others could too."
+    ],
+    "explanation": "The FBI traced it to John MacDougall, an engineer working the night shift at a satellite uplink station in Ocala, Florida, who had overpowered HBO's signal. He was fined and put on probation, and the incident led to new laws and technical safeguards.",
+    "wiki": "Captain Midnight broadcast signal intrusion"
+  },
+  {
+    "slug": "western-pacific-biotwang",
+    "category": "voices",
+    "title": "The Mariana Biotwang",
+    "region": "Mariana Trench, Western Pacific",
+    "lat": 11.35,
+    "lon": 142.2,
+    "dateLabel": "Recorded since 2014; identified in 2024",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Underwater recorders and scientists",
+    "hook": "Near the deepest point on Earth, underwater microphones picked up a strange sound: a low grunt followed by a metallic twang.",
+    "summary": [
+      "In 2014, ocean gliders carrying underwater microphones near the Mariana Trench in the western Pacific recorded an unusual sound lasting a few seconds: a deep moan followed by a high, metallic twang, almost like a sound effect from a science fiction film.",
+      "Researchers named it the 'Western Pacific biotwang', suspecting an animal, but couldn't identify it, and it became one of the ocean's best-known mystery sounds."
+    ],
+    "explanation": "In 2024, scientists matched the sound to Bryde's whales, after recording biotwangs at the same time as they saw the whales during research voyages. They then used artificial intelligence to find the call in years of earlier recordings, tracking the whales' movements across the Pacific.",
+    "wiki": "Western Pacific Biotwang"
+  },
+  {
+    "slug": "arctic-ping",
+    "category": "voices",
+    "title": "The Arctic Ping",
+    "region": "Fury and Hecla Strait, near Igloolik, Nunavut, Canada",
+    "lat": 69.9,
+    "lon": -84.0,
+    "dateLabel": "Summer 2016",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Inuit hunters near Igloolik",
+    "hook": "Hunters in the Canadian Arctic heard a strange pinging from the seabed, and the animals they hunted disappeared. The military was sent to listen.",
+    "summary": [
+      "In the summer of 2016, Inuit hunters from Igloolik reported a strange beeping or pinging sound coming from under the water in Fury and Hecla Strait, a channel about 120 km away that is usually rich in bowhead whales, seals and walruses. They said the animals had left the area.",
+      "In November, the Canadian military sent a patrol aircraft to investigate with acoustic sensors."
+    ],
+    "explanation": "The aircraft searched for over an hour and detected no unusual sounds or submarines, though it did see whales and walruses. Suggestions included sonar surveys by a nearby mining company, which said it had no equipment in the water, and natural sounds of the ice. The source was never confirmed.",
+    "wiki": null
+  },
+  {
+    "slug": "wild-hunt",
+    "category": "voices",
+    "title": "The Wild Hunt",
+    "region": "Odenwald, Hesse, Germany",
+    "lat": 49.72,
+    "lon": 8.85,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Villagers across Europe",
+    "hook": "On stormy winter nights, Europeans said they heard a great hunt racing through the sky: horns, hooves and baying hounds overhead.",
+    "summary": [
+      "Across northern and central Europe, folklore tells of the Wild Hunt: a host of riders and hounds that sweeps through the sky on winter nights, led by a figure such as Odin, a legendary king or a cursed huntsman. People said they heard horns, hoofbeats, shouts and barking passing overhead, and stayed indoors.",
+      "In the Odenwald in Germany, the legend of the Rodenstein knight said his phantom army rode out through the sky before a war."
+    ],
+    "explanation": "Folklorists suggest that the sounds behind the legend include winter storms howling through forests, and especially the calls of migrating geese flying over at night, which can sound remarkably like a pack of hounds. The legend has inspired music, paintings and stories for centuries.",
+    "wiki": "Wild Hunt"
+  },
+  {
+    "slug": "billy-meier",
+    "category": "visitors",
+    "title": "The Billy Meier Photographs",
+    "region": "Schmidrüti, Zürich, Switzerland",
+    "lat": 47.43,
+    "lon": 8.9,
+    "dateLabel": "From 1975",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Eduard 'Billy' Meier",
+    "hook": "A Swiss farmer said beings from the Pleiades visited him, and took hundreds of photographs of their gleaming craft over the countryside.",
+    "summary": [
+      "From 1975, Eduard 'Billy' Meier, a one-armed farmer in Switzerland, said he was in regular contact with beings from the Pleiades star cluster, who flew 'beamships' and gave him messages about the future. He produced hundreds of clear photographs and films of disc-shaped craft over Swiss fields.",
+      "The photographs became some of the most famous UFO images ever taken, and Meier gathered a devoted following."
+    ],
+    "explanation": "Investigators found evidence that the craft were small models, photographed close to the camera, and some features matched household objects. Photographs said to show a Pleiadian woman turned out to be of dancers from an American TV show. Meier's followers still defend his account.",
+    "wiki": "Billy Meier"
+  },
+  {
+    "slug": "men-in-black",
+    "category": "visitors",
+    "title": "The Men in Black",
+    "region": "Bridgeport, Connecticut, USA",
+    "lat": 41.18,
+    "lon": -73.19,
+    "dateLabel": "From 1953",
+    "status": "open",
+    "statusLabel": "Folklore",
+    "witnesses": "A UFO researcher, as told by a friend's book",
+    "hook": "In 1953, an American UFO researcher shut down his club, saying three men in black suits had visited and warned him to stop.",
+    "summary": [
+      "In 1953, Albert K. Bender, who ran a flying saucer research group from his home in Bridgeport, Connecticut, suddenly closed it down. He said three men dressed in black suits had visited him and warned him not to publish what he had learned about flying saucers.",
+      "His friend Gray Barker wrote about it in a 1956 book, and the 'men in black' became a lasting part of UFO folklore: mysterious, oddly behaving visitors who appear after a sighting to silence witnesses."
+    ],
+    "explanation": "Bender later wrote a book saying the men were beings from another world, which many readers found hard to believe. Sceptics see the men in black as a story that grew in the retelling, possibly with real government interest in UFO reports at its root. The idea inspired the 'Men in Black' films.",
+    "wiki": "Men in black"
+  },
+  {
+    "slug": "fairy-flag-dunvegan",
+    "category": "visitors",
+    "title": "The Fairy Flag of Dunvegan",
+    "region": "Dunvegan Castle, Isle of Skye, Scotland",
+    "lat": 57.45,
+    "lon": -6.59,
+    "dateLabel": "Legend for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Clan MacLeod tradition",
+    "hook": "In a Scottish castle hangs a faded silk flag said to be a gift from the fairies, able to save the clan three times when waved.",
+    "summary": [
+      "Dunvegan Castle on the Isle of Skye, seat of the chiefs of Clan MacLeod, keeps a fragile, faded silk banner called the Fairy Flag. Clan tradition says it was given to a MacLeod chief by a fairy, sometimes said to be his fairy wife, and that waving it in time of need will bring help.",
+      "Legend says it can be used only three times, and that it has already been waved twice, to win battles or stop a plague among the clan's cattle."
+    ],
+    "explanation": "Textile experts who examined the flag found it is made of silk probably woven in the Middle East, perhaps Syria or Rhodes, between the 4th and 7th centuries, long before the MacLeods. How it reached Skye is unknown; one idea is that it was brought back from the Crusades.",
+    "wiki": "Fairy Flag"
+  },
+  {
+    "slug": "aluxes",
+    "category": "visitors",
+    "title": "The Aluxes of Yucatán",
+    "region": "Yucatán Peninsula, Mexico",
+    "lat": 20.97,
+    "lon": -89.62,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Maya communities",
+    "hook": "Maya farmers in Yucatán say tiny guardians called aluxes watch over fields, and build small houses for them to keep them happy.",
+    "summary": [
+      "In Maya folklore, aluxes are small, child-sized beings that live in the forest and fields of the Yucatán Peninsula. They can be helpful, guarding crops and bringing rain, but play tricks or cause trouble if they are not respected.",
+      "Farmers traditionally build a small house for the aluxes in a corner of their fields and leave offerings of food and drink. Stories say building work goes wrong when aluxes are ignored."
+    ],
+    "explanation": "Aluxes are figures of folklore that remain an important part of Maya culture. Offerings to them are still made today, including, some say, at the start of large construction projects in the region.",
+    "wiki": "Alux"
+  },
+  {
+    "slug": "sombreron",
+    "category": "visitors",
+    "title": "El Sombrerón",
+    "region": "Antigua and across Guatemala",
+    "lat": 14.56,
+    "lon": -90.73,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Guatemalan tradition",
+    "hook": "In Guatemala, they say a small man in an enormous hat comes at night with his guitar, and in the morning, the horses' manes are braided.",
+    "summary": [
+      "El Sombrerón, 'the man with the big hat', is a figure of Guatemalan and Central American folklore: a short man dressed in black, with a huge sombrero and a guitar, who appears at night, often with a team of mules.",
+      "He is said to braid the manes and tails of horses and mules in stables overnight, so tightly they cannot be undone. Some tales say he serenades people he takes a liking to."
+    ],
+    "explanation": "El Sombrerón is a folklore figure, especially associated with the old capital Antigua. Similar braided manes are explained elsewhere as 'elf locks' or 'witches' knots', tangles formed naturally in horses' hair. The legend has inspired plays and films in Guatemala.",
+    "wiki": "Sombrerón"
+  },
+  {
+    "slug": "tengu-kurama",
+    "category": "visitors",
+    "title": "The Tengu of Mount Kurama",
+    "region": "Mount Kurama, north of Kyoto, Japan",
+    "lat": 35.12,
+    "lon": 135.77,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Japanese tradition",
+    "hook": "On a forested mountain north of Kyoto, legend says a tengu king taught a young warrior the art of the sword.",
+    "summary": [
+      "In Japanese folklore, tengu are mountain spirits, first imagined as bird-like and later as red-faced, long-nosed beings in the robes of mountain monks. They could be dangerous tricksters or protectors of the mountains and forests.",
+      "The most famous tengu, Sōjōbō, is said to live on Mount Kurama near Kyoto. Legend tells that he trained the young Minamoto no Yoshitsune, who became one of Japan's greatest warriors, in swordsmanship deep in the forest."
+    ],
+    "explanation": "Tengu are figures of folklore, linked to the ascetic monks who trained in Japan's mountains. Mount Kurama remains a place of pilgrimage, and tengu masks are a common sight at festivals.",
+    "wiki": "Tengu"
+  },
+  {
+    "slug": "domovoy",
+    "category": "visitors",
+    "title": "The Domovoy",
+    "region": "Villages of northern Russia",
+    "lat": 59.22,
+    "lon": 39.89,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Slavic tradition",
+    "hook": "In Slavic tradition, every home has its own domovoy, a small bearded spirit who lives behind the stove and must be kept happy.",
+    "summary": [
+      "In Russian and wider Slavic folklore, the domovoy is a household spirit, usually imagined as a small, hairy old man with a beard, who lives behind the stove or under the threshold. A happy domovoy looks after the family and animals; an offended one causes noises, broken dishes and nightmares.",
+      "Families left him bread and milk, and when moving house, people would invite the domovoy to come along, sometimes carrying embers from the old stove to the new one."
+    ],
+    "explanation": "The domovoy is a folklore figure that reflects respect for home and hearth. Unexplained household noises, the creaks of wooden houses settling, and the feeling of pressure in sleep paralysis may have helped keep the stories alive.",
+    "wiki": "Domovoy"
+  },
+  {
+    "slug": "tikbalang",
+    "category": "visitors",
+    "title": "The Tikbalang",
+    "region": "Rural Luzon, Philippines",
+    "lat": 15.5,
+    "lon": 121.0,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Filipino tradition",
+    "hook": "In Philippine folklore, a tall, horse-headed figure lurks in the forest and leads travellers in circles until they're lost.",
+    "summary": [
+      "The tikbalang is a creature of Filipino folklore: a tall, bony figure with the head and hooves of a horse and very long limbs, so that its knees reach above its head when it squats. It is said to live in forests and bamboo groves and to lead travellers astray, making them walk in circles.",
+      "To break its spell, people say, a traveller should wear their shirt inside out. Rain falling while the sun shines is said to mean a tikbalang is getting married."
+    ],
+    "explanation": "The tikbalang is a figure of folklore, perhaps shaped partly by the arrival of horses with Spanish colonisers. Stories of being led astray reflect the real ease of getting lost in dense forest.",
+    "wiki": "Tikbalang"
+  },
+  {
+    "slug": "nittaewo",
+    "category": "visitors",
+    "title": "The Nittaewo",
+    "region": "Mahalenama, south-eastern Sri Lanka",
+    "lat": 6.4,
+    "lon": 81.4,
+    "dateLabel": "Told by the Vedda people",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Vedda tradition, recorded by colonial writers",
+    "hook": "The Vedda people of Sri Lanka told of the nittaewo, a small, hairy people who lived in the forest long ago and walked upright.",
+    "summary": [
+      "The Vedda, the indigenous people of Sri Lanka, told stories of the nittaewo: a race of small, hairy, human-like beings, about a metre tall, who lived in trees and caves in the remote Mahalenama area, had sharp claws and spoke in a twittering language.",
+      "In the early 20th century, British colonial officials recorded the stories, and the Vedda said the nittaewo had disappeared generations earlier."
+    ],
+    "explanation": "Most researchers think the nittaewo are a figure of folklore, or a memory of other people or animals such as monkeys or sloth bears. Since the discovery of the small human species on Flores in Indonesia, some have wondered whether the stories could preserve a far older memory, though there is no evidence for this.",
+    "wiki": "Nittaewo"
+  },
+  {
+    "slug": "dendera-light",
+    "category": "visitors",
+    "title": "The 'Light Bulbs' of Dendera",
+    "region": "Temple of Hathor, Dendera, Egypt",
+    "lat": 26.14,
+    "lon": 32.67,
+    "dateLabel": "Carved about 2,000 years ago",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Visitors and Egyptologists",
+    "hook": "Carvings in an Egyptian temple show what some say are giant electric light bulbs, held up by priests.",
+    "summary": [
+      "In crypts beneath the Temple of Hathor at Dendera, built in Ptolemaic and Roman times about 2,000 years ago, are reliefs showing a long, bulb-like shape with a wavy snake inside, rising from a lotus flower and supported by a pillar.",
+      "From the 1980s, some writers claimed they showed electric lamps, with the snake as a filament, and that the Egyptians had electricity, perhaps learned from visitors from elsewhere."
+    ],
+    "explanation": "Egyptologists can read the hieroglyphic texts beside the reliefs, which describe a religious scene: a snake rising from a lotus flower, a symbol of creation and the birth of the sun god. No wires, glass bulbs or other electrical equipment have been found in Egypt.",
+    "wiki": "Dendera light"
+  },
+  {
+    "slug": "rubezahl",
+    "category": "visitors",
+    "title": "Rübezahl, Lord of the Mountains",
+    "region": "Karkonosze (Krkonoše), Poland–Czech Republic",
+    "lat": 50.74,
+    "lon": 15.74,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Mountain communities",
+    "hook": "In the Giant Mountains of central Europe, a moody mountain spirit called Rübezahl controls the weather and plays tricks on travellers.",
+    "summary": [
+      "Rübezahl, known in Polish as Liczyrzepa and in Czech as Krakonoš, is the spirit of the Giant Mountains on the border of Poland and the Czech Republic. He can take many shapes, from a giant to a monk to an old man, and controls the mountain weather, sending sudden storms and fog.",
+      "He is kind to the honest and poor, but punishes the rude and greedy. One story says he got his name, meaning 'turnip counter', when a princess he had captured tricked him into counting turnips while she escaped."
+    ],
+    "explanation": "Rübezahl is a folklore figure who reflects the real dangers of mountain weather. He is a beloved symbol of the region, appearing in statues, shop signs and children's stories on both sides of the border.",
+    "wiki": "Rübezahl"
+  },
+  {
+    "slug": "purple-frog",
+    "category": "creatures",
+    "title": "The Purple Frog",
+    "region": "Western Ghats, Idukki, Kerala, India",
+    "lat": 9.85,
+    "lon": 77.0,
+    "dateLabel": "Described by science in 2003",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Local people; scientists S.D. Biju and Franky Bossuyt",
+    "hook": "In the Western Ghats lives a bloated purple frog that spends almost its whole life underground. Science only described it in 2003.",
+    "summary": [
+      "In 2003, scientists S.D. Biju of the University of Delhi and Franky Bossuyt of the Free University of Brussels described a strange new frog from the Western Ghats of Kerala: dark purple, round and bloated, with a small head and a pointed, pig-like snout.",
+      "It lives buried several metres underground, feeding on termites with a special tongue, and comes to the surface for only a few weeks a year during the monsoon to breed. Local people knew it, but it had never been described by science."
+    ],
+    "explanation": "The purple frog's closest relatives live in the Seychelles, thousands of kilometres away. Their ancestors split apart more than 100 million years ago, when India broke away from other landmasses, which makes it a living fossil. It is now a symbol of the Western Ghats' hidden wildlife.",
+    "wiki": "Purple frog"
+  },
+  {
+    "slug": "barmanou",
+    "category": "creatures",
+    "title": "The Barmanou",
+    "region": "Chitral, Khyber Pakhtunkhwa, Pakistan",
+    "lat": 35.85,
+    "lon": 71.79,
+    "dateLabel": "Reported for generations",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Herders and villagers in northern Pakistan",
+    "hook": "In the high valleys of northern Pakistan, shepherds tell of a hairy, upright 'big man' that roams the mountains.",
+    "summary": [
+      "In the mountains of Chitral and Gilgit-Baltistan in northern Pakistan, herders and villagers have long told of the barmanou, a large, hairy, ape-like creature that walks on two legs, wears animal skins in some tales and is said to steal from shepherds.",
+      "In the 1990s, a Spanish zoologist spent years in Chitral collecting dozens of eyewitness accounts and footprints."
+    ],
+    "explanation": "No body, bones or clear photographs have been found. Suggested explanations include brown bears standing upright, people living wild in the mountains, and folklore. Some researchers link it to similar legends across the Himalayas and Central Asia, such as the yeti and the almas.",
+    "wiki": "Barmanou"
+  },
+  {
+    "slug": "khumjung-yeti-scalp",
+    "category": "creatures",
+    "title": "The Yeti Scalp of Khumjung",
+    "region": "Khumjung Monastery, Solukhumbu, Nepal",
+    "lat": 27.82,
+    "lon": 86.71,
+    "dateLabel": "Examined in 1960",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Monks and villagers; Edmund Hillary's expedition",
+    "hook": "A monastery near Everest keeps a conical, hairy 'yeti scalp'. Edmund Hillary took it around the world to be tested.",
+    "summary": [
+      "The Buddhist monastery in Khumjung, a Sherpa village below Mount Everest, keeps a tall, cone-shaped scalp covered in coarse reddish hair, said to have come from a yeti. Villagers regard it as a treasure that protects the village.",
+      "In 1960, Edmund Hillary, who had made the first ascent of Everest, led an expedition looking for the yeti. The village agreed to let him borrow the scalp, on condition that a village elder went with it, and that Hillary paid for repairs to the monastery and a school."
+    ],
+    "explanation": "Scientists who examined it concluded it had been moulded from the hide of a serow, a Himalayan goat-antelope. The scalp was returned to Khumjung, where it is still shown to trekkers today.",
+    "wiki": "Khumjung"
+  },
+  {
+    "slug": "migoi-sakteng",
+    "category": "creatures",
+    "title": "The Migoi of Sakteng",
+    "region": "Sakteng Wildlife Sanctuary, Trashigang, Bhutan",
+    "lat": 27.25,
+    "lon": 91.95,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "The Brokpa people of eastern Bhutan",
+    "hook": "In eastern Bhutan, a wildlife sanctuary was set up partly to protect the home of the migoi, Bhutan's yeti.",
+    "summary": [
+      "The Brokpa, a semi-nomadic yak-herding people of eastern Bhutan, tell of the migoi, the 'strong man': a large, hairy, ape-like creature that can make itself invisible and walk backwards to confuse anyone following its tracks.",
+      "When Bhutan created the Sakteng Wildlife Sanctuary in 2003, the migoi was included among the creatures whose habitat it protects. It is often described as the only reserve in the world that protects a yeti."
+    ],
+    "explanation": "No migoi has been found or photographed. Scientists suggest sightings may be of Himalayan black bears or other animals. The sanctuary also protects real and rare wildlife, including red pandas and snow leopards, and the legend has helped draw attention to it.",
+    "wiki": "Sakteng Wildlife Sanctuary"
+  },
+  {
+    "slug": "naga-oarfish-photo",
+    "category": "creatures",
+    "title": "The 'Captured Naga' Photograph",
+    "region": "Mekong River, Laos (as claimed)",
+    "lat": 17.97,
+    "lon": 102.6,
+    "dateLabel": "Photo taken in 1996; claimed to be from 1973",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "No witnesses in Laos",
+    "hook": "A photograph shows soldiers holding up a giant sea serpent, said to be a naga captured in the Mekong in 1973.",
+    "summary": [
+      "A photograph widely shared across Thailand and Laos shows a group of American servicemen holding up an enormous silver serpent, over 7 metres long. A caption claims it shows the 'Queen of the Nagas', captured by the US Army in the Mekong River in Laos in 1973.",
+      "The naga, a great serpent of Buddhist and Hindu tradition, is believed to live in the Mekong, and the photo became a celebrated piece of 'evidence'. Copies hang in shops and temples."
+    ],
+    "explanation": "The photograph was actually taken in 1996, when US Navy trainees found a dead giant oarfish washed up near San Diego, California. Oarfish are real fish that can grow longer than 8 metres and rarely come to the surface, and they may explain many sea-serpent sightings around the world.",
+    "wiki": "Giant oarfish"
+  },
+  {
+    "slug": "kasai-rex",
+    "category": "creatures",
+    "title": "The Kasai Rex",
+    "region": "Kasai region, Democratic Republic of the Congo",
+    "lat": -6.0,
+    "lon": 22.5,
+    "dateLabel": "Reported in 1932",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "A plantation owner's account and later photos",
+    "hook": "A plantation owner claimed he saw a giant, dinosaur-like lizard attack a rhinoceros in the Congo. The photographs were fakes.",
+    "summary": [
+      "In 1932, a Swedish plantation owner named John Johanson said that while travelling in the Kasai region of what is now the Democratic Republic of the Congo, he and his guide saw a huge animal, about 13 metres long, red with black stripes, rush out of the undergrowth and attack a rhinoceros.",
+      "The story spread with photographs said to show the animal, and the 'Kasai rex' became a favourite of stories about living dinosaurs in Africa."
+    ],
+    "explanation": "Researchers showed that the best-known photograph was a fake, made by drawing or pasting a lizard onto a picture of a dead animal, and another was a composite using a model of a Tyrannosaurus. There are no rhinoceroses in that part of the Congo. Most consider the whole story a hoax.",
+    "wiki": "Kasai rex"
+  },
+  {
+    "slug": "bili-ape",
+    "category": "creatures",
+    "title": "The Bili Apes",
+    "region": "Bili forest, northern Democratic Republic of the Congo",
+    "lat": 4.15,
+    "lon": 25.15,
+    "dateLabel": "Reported from 1996; studied in the 2000s",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Hunters, photographers and primatologists",
+    "hook": "Hunters in a remote Congo forest told of giant apes that slept on the ground and howled at the moon. Scientists went to find them.",
+    "summary": [
+      "In 1996, a Swiss photographer working in the Bili forest of the northern Democratic Republic of the Congo brought back skulls and stories from local hunters of huge apes, bigger than normal chimpanzees, that nested on the ground like gorillas and were said to be unafraid of leopards.",
+      "The press called them 'lion killers' or a possible new species of great ape, and their size and behaviour caused excitement among scientists."
+    ],
+    "explanation": "Researchers who later studied them, including primatologist Cleve Hicks, found that they are eastern chimpanzees, genetically ordinary, but unusually large and with distinctive behaviour, including nesting on the ground and their own tool-use traditions. They are a real and special population, not a new species.",
+    "wiki": "Bili ape"
+  },
+  {
+    "slug": "taniwha-karu-tahi",
+    "category": "creatures",
+    "title": "The Taniwha of Meremere",
+    "region": "Meremere, Waikato, New Zealand",
+    "lat": -37.32,
+    "lon": 175.08,
+    "dateLabel": "Told for generations; road changed in 2002",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Ngāti Naho; road engineers",
+    "hook": "When a New Zealand highway was planned through a swamp, local Māori warned it would disturb a one-eyed guardian. The road was moved.",
+    "summary": [
+      "In Māori tradition, taniwha are powerful beings that live in rivers, lakes and the sea. Some are guardians of a tribe or a place; others are dangerous. They are often described as giant reptiles, sharks or eels.",
+      "In 2002, the local Ngāti Naho people told the transport authority that a planned stretch of State Highway 1 at Meremere would disturb the home of Karu Tahi, a one-eyed taniwha, in a swamp beside the Waikato River. The road was redesigned to avoid the swamp."
+    ],
+    "explanation": "The taniwha is a figure of Māori belief. The redesign also had practical value: in 2004, the Waikato River flooded the swamp, which would have threatened the original route. Some engineers have since pointed to the case as an example of local knowledge about the land.",
+    "wiki": "Taniwha"
+  },
+  {
+    "slug": "cadborosaurus",
+    "category": "creatures",
+    "title": "Cadborosaurus",
+    "region": "Cadboro Bay, Victoria, British Columbia, Canada",
+    "lat": 48.46,
+    "lon": -123.29,
+    "dateLabel": "Reported since the 1930s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Sailors, fishermen and coastal residents",
+    "hook": "Off the coast of British Columbia, people report a long sea serpent with a horse-like head, nicknamed Caddy.",
+    "summary": [
+      "Since the 1930s, people along the coast of British Columbia and Washington state have reported a long, serpent-like animal in the sea, with a head like a horse or camel and humps along its back. A Victoria newspaper editor named it Cadborosaurus, 'Caddy' for short, after Cadboro Bay.",
+      "Coastal First Nations traditions also include sea creatures, and in 1937, whalers photographed a strange carcass found in a whale's stomach that some believed was a young Caddy."
+    ],
+    "explanation": "The 1937 remains were never kept or tested, and many think they were a fish or another known animal. Suggested explanations for sightings include sea lions swimming in a line, oarfish, elephant seals and floating kelp. No specimen has been confirmed.",
+    "wiki": "Cadborosaurus"
+  },
+  {
+    "slug": "rolling-calf",
+    "category": "creatures",
+    "title": "The Rolling Calf",
+    "region": "Rural Jamaica",
+    "lat": 18.1,
+    "lon": -77.3,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Jamaican tradition",
+    "hook": "In Jamaican folklore, a calf with blazing eyes roams the roads at night, dragging a chain behind it.",
+    "summary": [
+      "The rolling calf is one of the best-known figures in Jamaican folklore: a creature that looks like a calf or bull, with fiery red eyes, that roams country roads and lanes at night, dragging a clanking chain. People walking home in the dark said they heard the chain before they saw it.",
+      "Stories say it can be kept away by certain tricks, such as dropping grains or seeds for it to count, or by the light of a full moon."
+    ],
+    "explanation": "The rolling calf is a figure of folklore, with roots in both African and European traditions, and it is often told as a warning against wandering at night. Stray livestock and the sounds of the night may have helped keep the stories alive.",
+    "wiki": "Rolling calf"
+  },
+  {
+    "slug": "asteroid-2018-la",
+    "category": "sky",
+    "title": "The Asteroid Seen Before It Struck",
+    "region": "Central Kalahari Game Reserve, Botswana",
+    "lat": -21.5,
+    "lon": 23.8,
+    "dateLabel": "2 June 2018",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Astronomers; a security camera; meteorite searchers",
+    "hook": "Astronomers spotted a small asteroid just eight hours before it hit Earth, and then found its pieces in the Kalahari.",
+    "summary": [
+      "On 2 June 2018, the Catalina Sky Survey in Arizona spotted a small asteroid heading for Earth, about 2 metres across. Just eight hours later, it entered the atmosphere over southern Africa and exploded as a brilliant fireball over Botswana, caught on a security camera.",
+      "It was only the third time in history that an asteroid had been seen in space before striking Earth."
+    ],
+    "explanation": "Scientists calculated where fragments should have landed, and a team from Botswana, South Africa, Finland and the United States searched the Central Kalahari Game Reserve. On the fifth day, they found the first of 23 meteorites. Studies suggest the asteroid came from Vesta, one of the largest bodies in the asteroid belt.",
+    "wiki": "2018 LA"
+  },
+  {
+    "slug": "lake-cote-1971",
+    "category": "sky",
+    "title": "The Lake Cote Photograph",
+    "region": "Lake Cote, Guanacaste, Costa Rica",
+    "lat": 10.58,
+    "lon": -84.91,
+    "dateLabel": "4 September 1971",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "A government mapping camera; the crew saw nothing",
+    "hook": "A Costa Rican government survey plane photographing a lake for mapping captured a sharp, metallic disc in a single frame.",
+    "summary": [
+      "On 4 September 1971, a plane from Costa Rica's National Geographic Institute was flying at about 3,000 metres over Lake Cote, taking aerial photographs for a hydroelectric project. Its mapping camera fired automatically every few seconds.",
+      "When the film was developed, one frame showed a disc-shaped, apparently metallic object over the lake, which did not appear in the frames before or after. The crew had not seen anything unusual."
+    ],
+    "explanation": "Several analysts found no sign of a hoax or film defect. Sceptics suggest an object near the plane, such as a balloon or a piece of debris, a reflection, or a bird caught in mid-flight, and note that one frame is not enough to judge size or distance. The original negative is kept by the institute.",
+    "wiki": "Lake Cote"
+  },
+  {
+    "slug": "brocken-spectre",
+    "category": "sky",
+    "title": "The Brocken Spectre",
+    "region": "The Brocken, Harz Mountains, Germany",
+    "lat": 51.8,
+    "lon": 10.62,
+    "dateLabel": "Described since 1780",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Hikers and climbers",
+    "hook": "On a misty German mountain, climbers saw a giant shadowy figure in the clouds, crowned with a rainbow halo, that moved when they moved.",
+    "summary": [
+      "The Brocken is the highest peak in northern Germany, often wrapped in mist and long linked with legends of witches. In 1780, the scientist Johann Silberschlag described a strange sight there: a huge, dark human figure standing in the clouds, surrounded by rings of coloured light.",
+      "Climbers on many mountains have since reported the same thing, and some found it frightening until they noticed that the giant copied their own movements."
+    ],
+    "explanation": "The 'spectre' is the observer's own shadow, cast by the low sun onto mist or cloud below, which makes it look enormous and far away. The coloured rings, called a glory, are caused by light bending around tiny water droplets. It is now known simply as a Brocken spectre wherever it appears.",
+    "wiki": "Brocken spectre"
+  },
+  {
+    "slug": "berwyn-1974",
+    "category": "sky",
+    "title": "The Berwyn Mountain Incident",
+    "region": "Berwyn Mountains, near Llandrillo, Wales",
+    "lat": 52.9,
+    "lon": -3.4,
+    "dateLabel": "23 January 1974",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Villagers, a nurse and police",
+    "hook": "One winter evening in Wales, a loud bang shook a village, lights glowed on the mountain, and rumours spread of a crashed craft.",
+    "summary": [
+      "On the evening of 23 January 1974, people around Llandrillo in north Wales heard a loud explosion and felt the ground shake. Some reported a bright light in the sky, and others saw glowing lights on the hillside of the Berwyn Mountains.",
+      "A nurse who drove up the mountain said she saw a large glowing sphere. Rumours grew over the years of a crashed craft and a military cover-up, and the case became known as the 'Welsh Roswell'."
+    ],
+    "explanation": "Researchers found that a small earthquake of about magnitude 3.5 struck the area at that moment, and that a bright meteor was seen across Britain at almost the same time. The lights on the hill were probably from hunters using lamps. Together, these explain the events, though some still believe more happened.",
+    "wiki": "Berwyn Mountains UFO incident"
+  },
+  {
+    "slug": "tissint-meteorite",
+    "category": "sky",
+    "title": "The Tissint Mars Meteorite",
+    "region": "Tata Province, Morocco",
+    "lat": 29.48,
+    "lon": -7.61,
+    "dateLabel": "18 July 2011",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Nomads and local residents",
+    "hook": "One July night, people in the Moroccan desert saw a bright fireball. The stones it scattered turned out to be from Mars.",
+    "summary": [
+      "Around 2 am on 18 July 2011, people in the desert of south-eastern Morocco saw a bright yellow fireball turn green, then break apart with two loud bangs. Months later, nomads began finding black, glassy stones in the area near Tissint.",
+      "Scientists who examined them found gas bubbles trapped inside that matched the atmosphere of Mars, as measured by spacecraft."
+    ],
+    "explanation": "Tissint is a piece of Mars, blasted off by an impact about 700,000 years ago, which drifted through space before falling to Earth. It is only the fifth Martian meteorite ever seen to fall, which meant it was collected before it could be changed by Earth's weather, making it extremely valuable to science.",
+    "wiki": "Tissint meteorite"
+  },
+  {
+    "slug": "morning-glory-clouds",
+    "category": "sky",
+    "title": "The Morning Glory Clouds",
+    "region": "Burketown, Gulf of Carpentaria, Queensland, Australia",
+    "lat": -17.74,
+    "lon": 139.55,
+    "dateLabel": "Most years, September to November",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Locals, glider pilots and scientists",
+    "hook": "On spring mornings over a small Australian town, a single cloud up to 1,000 km long rolls in from the sea like a giant tube.",
+    "summary": [
+      "Near Burketown, in the remote Gulf Country of northern Australia, a spectacular cloud appears on some mornings between September and November: a long, rolling tube of cloud that can stretch for hundreds of kilometres, sometimes in several parallel bands, moving in from the Gulf of Carpentaria at dawn.",
+      "Aboriginal people of the region have long known it. Today, glider pilots travel from around the world to ride the rising air on its front edge, like surfers on a wave."
+    ],
+    "explanation": "Scientists explain it as a kind of atmospheric wave. When sea breezes from opposite sides of the Cape York Peninsula collide overnight, they create a wave in a layer of cool, moist air, and cloud forms along its crest. Morning glory clouds appear elsewhere, but are most regular here.",
+    "wiki": "Morning Glory cloud"
+  },
+  {
+    "slug": "popocatepetl-objects",
+    "category": "sky",
+    "title": "The Popocatépetl Webcam Objects",
+    "region": "Popocatépetl volcano, Puebla, Mexico",
+    "lat": 19.02,
+    "lon": -98.62,
+    "dateLabel": "From 2012",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "A volcano webcam and TV viewers",
+    "hook": "A webcam watching Mexico's most active volcano caught a glowing object that seemed to dive straight into the crater.",
+    "summary": [
+      "Popocatépetl is an active volcano south-east of Mexico City, watched around the clock by cameras. In October 2012, a television network broadcast footage from one camera that appeared to show a long, glowing object descending straight into the crater.",
+      "More clips followed over the years showing lights and shapes near the summit, and the volcano gained a reputation as a 'UFO base' online."
+    ],
+    "explanation": "Analysts pointed out that the webcam takes images at intervals, which makes anything passing through look much faster and stranger than it is. The 2012 object is widely thought to be a meteor or an aircraft caught across several frames, and other clips show insects, birds, lens reflections or volcanic debris.",
+    "wiki": null
+  },
+  {
+    "slug": "paulding-light",
+    "category": "sky",
+    "title": "The Paulding Light",
+    "region": "Robbins Pond Road, near Paulding, Michigan, USA",
+    "lat": 46.36,
+    "lon": -89.18,
+    "dateLabel": "Reported since the 1960s; tested in 2010",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Visitors; Michigan Tech students",
+    "hook": "At the end of a forest road in Michigan, a light appears in the distance at night, glows and fades. Legend says it's an old railwayman's lantern.",
+    "summary": [
+      "Since the 1960s, people have driven to a viewing spot on a forest road near Paulding, in Michigan's Upper Peninsula, to watch a light that appears in the valley at night: a white or red glow that brightens, wavers and fades away. A sign at the spot tells the local legend that it is the lantern of a railwayman killed on the line.",
+      "Crowds gather on summer nights to see it."
+    ],
+    "explanation": "In 2010, students from Michigan Technological University studied the light with a telescope and found they could see car headlights and tail lights on a highway several kilometres away, distorted by the hills and the air. They timed lights to passing cars. Most researchers accept this explanation.",
+    "wiki": "Paulding Light"
+  },
+  {
+    "slug": "mohenjo-daro-claims",
+    "category": "places",
+    "title": "Mohenjo-daro and the 'Ancient Blast'",
+    "region": "Mohenjo-daro, Sindh, Pakistan",
+    "lat": 27.33,
+    "lon": 68.14,
+    "dateLabel": "City built about 4,500 years ago",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Archaeologists and writers",
+    "hook": "Some writers claim the great Indus city of Mohenjo-daro was destroyed by an ancient nuclear blast. Archaeologists found something else.",
+    "summary": [
+      "Mohenjo-daro, in Sindh, Pakistan, was one of the great cities of the Indus Valley Civilisation, built around 2500 BCE, with brick houses, drains, granaries and a great bath. It was abandoned around 1900 BCE, and its writing has never been deciphered.",
+      "Since the 1970s, some writers have claimed the city was destroyed in a nuclear war thousands of years ago, pointing to stories in ancient texts and claims of high radioactivity and melted stone."
+    ],
+    "explanation": "Archaeologists have found no unusual radioactivity, no melted city and no sign of sudden destruction. The city declined slowly, probably because of changes in rivers and climate that affected farming and trade across the Indus region. It is a UNESCO World Heritage Site, threatened today by salt and flooding.",
+    "wiki": "Mohenjo-daro"
+  },
+  {
+    "slug": "singapore-stone",
+    "category": "places",
+    "title": "The Singapore Stone",
+    "region": "Mouth of the Singapore River, Singapore",
+    "lat": 1.29,
+    "lon": 103.85,
+    "dateLabel": "Inscribed about 700 years ago; blown up in 1843",
+    "status": "open",
+    "statusLabel": "Unread",
+    "witnesses": "Historians and visitors",
+    "hook": "A great inscribed boulder stood at the mouth of the Singapore River for centuries. The British blew it up, and nobody can read what's left.",
+    "summary": [
+      "At the mouth of the Singapore River once stood a huge sandstone boulder covered in an ancient inscription. Malay legend said it was thrown there by Badang, a strongman of old Singapore, in a contest of strength.",
+      "In 1843, British engineers blew the boulder up to widen the river mouth and make room for a fort. Scholars saved a few fragments, and one is now in the National Museum of Singapore."
+    ],
+    "explanation": "The writing is thought to be an old script related to those of Java or Sumatra, from the 10th to 14th centuries, but too little survives to read it. It may record a king or an event in early Singapore's history. The fragment is one of Singapore's national treasures.",
+    "wiki": "Singapore Stone"
+  },
+  {
+    "slug": "issyk-kul-ruins",
+    "category": "places",
+    "title": "The City Beneath Issyk-Kul",
+    "region": "Toru-Aygyr, Lake Issyk-Kul, Kyrgyzstan",
+    "lat": 42.53,
+    "lon": 76.48,
+    "dateLabel": "Flooded in the early 1400s; surveyed from the 2000s",
+    "status": "explained",
+    "statusLabel": "Partly confirmed",
+    "witnesses": "Local fishermen and archaeologists",
+    "hook": "Legends said cities lay drowned under a great mountain lake in Kyrgyzstan. Divers have found streets and buildings beneath the water.",
+    "summary": [
+      "Lake Issyk-Kul, high in the Tian Shan mountains of Kyrgyzstan, is one of the largest mountain lakes in the world. Local legends told of towns swallowed by its waters, and fishermen sometimes pulled up old pots and bricks in their nets.",
+      "Underwater archaeologists have explored the shallows near the village of Toru-Aygyr, a few metres below the surface, and found the remains of brick buildings, a mill, ceramic vessels and a cemetery."
+    ],
+    "explanation": "Archaeologists think a powerful earthquake in the early 1400s caused part of a medieval Silk Road trading town to sink beneath the lake. The legends had a real basis, though there was no single lost city of gold. Surveys of the lake bed continue.",
+    "wiki": null
+  },
+  {
+    "slug": "genghis-khan-tomb",
+    "category": "places",
+    "title": "The Lost Tomb of Genghis Khan",
+    "region": "Near Burkhan Khaldun, Khentii, Mongolia",
+    "lat": 48.76,
+    "lon": 108.65,
+    "dateLabel": "Lost since 1227",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Historians, archaeologists and searchers",
+    "hook": "Genghis Khan ruled the largest land empire in history. Where he was buried has been kept secret for 800 years.",
+    "summary": [
+      "Genghis Khan, founder of the Mongol Empire, died in 1227. According to tradition, he was buried in secret, perhaps near Burkhan Khaldun, a mountain in north-eastern Mongolia sacred to him, and the place was hidden: horses were said to have trampled the ground, and forests grew over it.",
+      "For centuries, the area was a forbidden zone, guarded and closed to outsiders. Expeditions in modern times have searched with satellites, drones and ground radar, including a project that asked thousands of volunteers to scan satellite images online."
+    ],
+    "explanation": "The tomb has never been found. Many Mongolians feel it should not be disturbed, out of respect for Genghis Khan's wishes, and the area around Burkhan Khaldun is now a UNESCO World Heritage Site.",
+    "wiki": "Tomb of Genghis Khan"
+  },
+  {
+    "slug": "mustatils",
+    "category": "places",
+    "title": "The Mustatils of Arabia",
+    "region": "Near AlUla and Khaybar, north-western Saudi Arabia",
+    "lat": 26.6,
+    "lon": 37.9,
+    "dateLabel": "Built about 7,000 years ago",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists",
+    "hook": "Across the deserts of north-west Arabia, satellite images reveal over a thousand giant stone rectangles, some longer than five football pitches.",
+    "summary": [
+      "In north-western Saudi Arabia, hundreds of long, low stone structures lie across the desert, each a rectangle with thick walls and a 'head' at one end. Some are more than 600 metres long. Local Bedouin knew them, but their scale only became clear from satellite images and aerial surveys.",
+      "Archaeologists named them mustatils, from the Arabic for 'rectangle'. More than 1,600 have been mapped."
+    ],
+    "explanation": "Excavations found that they were built around 7,000 years ago, which makes them older than Stonehenge and the pyramids. Animal bones and horns found inside suggest they were used for rituals, perhaps offerings. Who built them, and exactly what for, is still being studied.",
+    "wiki": "Mustatil"
+  },
+  {
+    "slug": "ubar-shisr",
+    "category": "places",
+    "title": "Ubar, the Atlantis of the Sands",
+    "region": "Shisr, Dhofar, Oman",
+    "lat": 18.26,
+    "lon": 53.65,
+    "dateLabel": "Legend for centuries; found in 1992",
+    "status": "explained",
+    "statusLabel": "Partly confirmed",
+    "witnesses": "Explorers, archaeologists and NASA radar",
+    "hook": "Legend told of Ubar, a rich city of the incense trade swallowed by the sand. In 1992, satellite images led explorers to its ruins.",
+    "summary": [
+      "Arabian legends and the Quran speak of Iram or Ubar, a wealthy city destroyed for its people's pride. T.E. Lawrence called it 'the Atlantis of the sands'. Explorers searched the deserts of southern Arabia for it for decades.",
+      "In the early 1990s, a team including filmmaker Nicholas Clapp, archaeologist Juris Zarins and explorer Ranulph Fiennes used radar images from NASA's Space Shuttle to trace old caravan tracks, which converged on Shisr in Oman."
+    ],
+    "explanation": "There, in 1992, they excavated a fortress around a well, a trading post on the frankincense route, which had partly collapsed into a sinkhole beneath it. Many think this was the Ubar of legend, though some historians argue Ubar was a region rather than a single city.",
+    "wiki": "Ubar"
+  },
+  {
+    "slug": "nan-madol",
+    "category": "places",
+    "title": "Nan Madol",
+    "region": "Pohnpei, Federated States of Micronesia",
+    "lat": 6.84,
+    "lon": 158.33,
+    "dateLabel": "Built from about the 1100s",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Pohnpeians, archaeologists and visitors",
+    "hook": "On a Pacific reef stand the ruins of a city built from stacked basalt columns. Legend says two sorcerers flew the stones into place.",
+    "summary": [
+      "Off the island of Pohnpei in Micronesia lie the ruins of Nan Madol: nearly a hundred artificial islands linked by canals, with walls built of huge, dark basalt columns stacked like logs, some weighing several tonnes. It was the seat of the Saudeleur dynasty that ruled Pohnpei for centuries.",
+      "Pohnpeian legend says it was built by twin sorcerers, Olisihpa and Olosohpa, who used magic to fly the stones through the air. It is a UNESCO World Heritage Site."
+    ],
+    "explanation": "Archaeologists say the basalt came from natural columns on the island, and was moved by raft and lever, probably over generations. Exactly how the heaviest stones were moved and lifted is still debated. The ruins are threatened today by mangroves and rising seas.",
+    "wiki": "Nan Madol"
+  },
+  {
+    "slug": "pitch-lake",
+    "category": "places",
+    "title": "The Pitch Lake",
+    "region": "La Brea, Trinidad and Tobago",
+    "lat": 10.23,
+    "lon": -61.63,
+    "dateLabel": "Known for centuries",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Local people, sailors and scientists",
+    "hook": "In Trinidad, a lake of black, oozing asphalt bubbles and shifts. Legend says it swallowed a village that angered the spirits.",
+    "summary": [
+      "The Pitch Lake at La Brea, in southern Trinidad, is the largest natural deposit of asphalt in the world: about 40 hectares of black, sticky pitch, firm enough to walk on in places, with pools of water and bubbles of gas. Sir Walter Raleigh used it to seal his ships in 1595.",
+      "A legend of the Chaima people says the lake appeared when the gods punished a village for killing sacred hummingbirds, swallowing it whole."
+    ],
+    "explanation": "Geologists explain that oil seeps up from deep underground along a fault, and the lighter parts evaporate, leaving thick asphalt. The lake slowly churns, which brings up old objects. Scientists have even found microbes living in tiny water droplets in the pitch.",
+    "wiki": "Pitch Lake"
+  },
+  {
+    "slug": "teotihuacan-mercury",
+    "category": "places",
+    "title": "The Mercury Under Teotihuacan",
+    "region": "Temple of the Feathered Serpent, Teotihuacan, Mexico",
+    "lat": 19.68,
+    "lon": -98.85,
+    "dateLabel": "Found in 2015",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists",
+    "hook": "At the end of a sealed tunnel beneath a great Mexican pyramid, archaeologists found pools of liquid mercury.",
+    "summary": [
+      "In 2003, heavy rain opened a hole at the foot of the Temple of the Feathered Serpent in Teotihuacan, the ancient city near Mexico City. It led to a tunnel, sealed nearly 1,800 years ago, running deep beneath the pyramid.",
+      "Archaeologist Sergio Gómez spent years excavating it, using robots to explore. In 2015, his team announced that they had found large amounts of liquid mercury in chambers at the end of the tunnel, along with thousands of offerings, including jade, shells and carvings."
+    ],
+    "explanation": "Mercury does not occur naturally in pools like this, so it was put there deliberately, probably extracted from cinnabar ore by heating. Archaeologists think it may have represented an underworld river or lake. Whether a royal tomb lies nearby is still unknown.",
+    "wiki": "Teotihuacan"
+  },
+  {
+    "slug": "crooked-forest",
+    "category": "places",
+    "title": "The Crooked Forest",
+    "region": "Nowe Czarnowo, West Pomerania, Poland",
+    "lat": 53.21,
+    "lon": 14.48,
+    "dateLabel": "Planted around 1930",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Visitors and foresters",
+    "hook": "In a small Polish wood, about 400 pine trees all bend sharply at the base and curve north, like a row of hooks.",
+    "summary": [
+      "Near the village of Nowe Czarnowo in western Poland is a small grove of around 400 pine trees, each bent at a sharp angle just above the ground, before curving up and growing straight. They all bend the same way, towards the north.",
+      "The trees were planted around 1930, when the area was part of Germany, and the people who planted them left no records explaining the shape."
+    ],
+    "explanation": "No explanation has been confirmed. The most popular idea is that the trees were deliberately shaped while young, perhaps to produce curved timber for furniture or boat-building, a project abandoned during the Second World War. Other suggestions include heavy snow or tanks flattening them when young.",
+    "wiki": "Crooked Forest"
+  },
+  {
+    "slug": "baltic-sea-anomaly",
+    "category": "places",
+    "title": "The Baltic Sea Anomaly",
+    "region": "Northern Baltic Sea, between Sweden and Finland",
+    "lat": 60.6,
+    "lon": 19.5,
+    "dateLabel": "Found in 2011",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "A Swedish treasure-hunting team",
+    "hook": "A sonar image from the bottom of the Baltic showed a round object with a 'runway' behind it, and some said it looked like a spaceship.",
+    "summary": [
+      "In June 2011, a Swedish team of wreck hunters called Ocean X, searching the northern Baltic Sea for sunken ships and cargo, picked up a sonar image of a round object about 60 metres across lying on the seabed, with a long track behind it.",
+      "The grainy image looked to some people like the Millennium Falcon from 'Star Wars', and the 'Baltic Sea anomaly' made headlines worldwide, with theories ranging from a crashed spacecraft to a sunken Nazi device."
+    ],
+    "explanation": "Geologists who examined samples from the site said they were ordinary rocks, such as granite, gneiss and sandstone, left by glaciers at the end of the last Ice Age. Most scientists consider it a natural rock formation, shaped and exposed by ice and currents.",
+    "wiki": "Baltic Sea anomaly"
+  },
+  {
+    "slug": "egg-laying-cliff",
+    "category": "places",
+    "title": "The Cliff That Lays Eggs",
+    "region": "Gulu village, Sandu County, Guizhou, China",
+    "lat": 25.98,
+    "lon": 107.87,
+    "dateLabel": "Known for generations",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "The Shui people of Gulu and visitors",
+    "hook": "In a village in southern China, a cliff slowly 'lays' smooth stone eggs, which drop to the ground every few decades.",
+    "summary": [
+      "In the village of Gulu in Guizhou province, home to the Shui people, a small cliff face called Chan Da Ya is studded with smooth, round, dark stones. Every few decades, one of these 'eggs' works loose and drops to the ground. Villagers say the cliff lays an egg about every 30 years.",
+      "Families collect the eggs and keep them as treasures, believing they bring good luck and prosperity. Many homes in the village have one."
+    ],
+    "explanation": "Geologists explain that the cliff is made of soft, layered rock, which weathers away relatively quickly, while the eggs are harder concretions of mineral that formed inside it hundreds of millions of years ago. As the softer rock erodes around them, the eggs are slowly exposed until they fall.",
+    "wiki": null
   }
 ];

@@ -30,7 +30,7 @@ Narration and the season pass are deliberately left out for now (see [Later](#la
 
 ## 3. Content
 
-- [ ] Check all 279 famous cases against a primary source (`src/data/seed-cases.ts`). Consider a `sources` field shown on each case page.
+- [ ] Check all 359 famous cases against a primary source (`src/data/seed-cases.ts`). Consider a `sources` field shown on each case page.
 - [ ] Collect 30–50 real stories with the writers' permission, and seed them.
 - [ ] Remove the 30 sample stories (`is_sample = 1`) once real ones are in.
 
