@@ -1,0 +1,11 @@
+# Streams every change to the SQLite database to Cloudflare R2 (S3-compatible). Values come from deploy/.env.
+dbs:
+  - path: /data/coldspot.db
+    replicas:
+      - type: s3
+        bucket: ${LITESTREAM_BUCKET}
+        path: coldspot.db
+        endpoint: ${LITESTREAM_ENDPOINT}
+        region: auto
+        access-key-id: ${LITESTREAM_ACCESS_KEY_ID}
+        secret-access-key: ${LITESTREAM_SECRET_ACCESS_KEY}

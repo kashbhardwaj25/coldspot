@@ -30,7 +30,7 @@ Narration and the season pass are deliberately left out for now (see [Later](#la
 
 ## 3. Content
 
-- [ ] Check all 359 famous cases against a primary source (`src/data/seed-cases.ts`). Consider a `sources` field shown on each case page.
+- [ ] Check all 409 famous cases against a primary source (`src/data/seed-cases.ts`). Consider a `sources` field shown on each case page.
 - [ ] Collect 30–50 real stories with the writers' permission, and seed them.
 - [ ] Remove the 30 sample stories (`is_sample = 1`) once real ones are in.
 
@@ -64,7 +64,8 @@ Jump to a region rather than filter the map: the globe already shows one region 
 ## 6. Launch setup
 
 - [ ] Trademark and domain checks for "Coldspot" (India classes 9 and 41; .com, .app, .in; social handles).
-- [ ] Deployment files: a Dockerfile or systemd service, a Caddyfile, and production environment variables.
+- [x] Deployment files: a Dockerfile or systemd service, a Caddyfile, and production environment variables. (`Dockerfile`, `deploy/`, guide in `docs/DEPLOY.md`.)
+- [x] Hide People's stories for the first release (`STORIES_ENABLED` in `src/lib/features.ts`).
 - [ ] VPS near India, with the database on a persistent disk.
 - [ ] Litestream backups to Cloudflare R2, with a restore that's actually been tested.
 - [ ] Cloudflare proxy in front, with the server accepting only Cloudflare traffic (pairs with the `TRUST_PROXY` fix).

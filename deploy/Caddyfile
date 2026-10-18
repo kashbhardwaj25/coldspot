@@ -1,0 +1,5 @@
+# SITE_ADDRESS is ":80" (plain HTTP on the server's IP) until you set a domain, then Caddy fetches a certificate.
+{$SITE_ADDRESS::80} {
+	encode zstd gzip
+	reverse_proxy app:3000
+}

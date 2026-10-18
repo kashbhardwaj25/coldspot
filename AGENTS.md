@@ -79,12 +79,14 @@ src/db/
   client.ts                      SQLite connection (WAL, busy_timeout, foreign keys), dev-safe singleton
 src/lib/                         shared, framework-free helpers
   categories.ts types.ts         category keys, labels, colours, status enums; CaseItem, StoryItem, MapItem
+  features.ts                    STORIES_ENABLED: people's stories are off for the first release
   format.ts geo.ts signal.ts     labels; formatCoords, haversineKm; observable for per-frame values
   server/env.ts                  environment variables, validated with zod
   server/security.ts             admin cookie (HMAC), IP hash, visitor id cookie
 src/styles/                      tokens, base, map, tuner, sheets, reading, forms, article, admin
 src/data/                        seed-cases.ts (real), seed-stories.ts (samples, is_sample = true)
 scripts/setup.ts                 migrate and seed
+Dockerfile deploy/               production image; Docker Compose with Caddy and Litestream (see docs/DEPLOY.md)
 drizzle/                         SQL migrations (generated, committed)
 public/land-50m.json             coastlines only
 ```
@@ -110,6 +112,10 @@ public/land-50m.json             coastlines only
 - SQLite allows one writer at a time. Keep writes short and synchronous (better-sqlite3 is sync); don't hold transactions across `await`.
 - Keep `better-sqlite3` on **v12**. It installs a prebuilt binary. v13 compiles from source during `npm ci`, which breaks on machines without a C++ toolchain.
 - The site must keep working without Supabase or any hosted database service. That's a deliberate choice.
+
+### First release: famous cases only
+
+- `STORIES_ENABLED` in `src/lib/features.ts` is `false`. Story queries return nothing, story pages and `/admin` are 404, the story server actions refuse requests, and the map hides the mode switch and the share and "stories near here" buttons. Keep all of these behind the flag when touching stories, so switching it on later is a one-line change.
 
 ### Privacy and safety (product rules, not style)
 

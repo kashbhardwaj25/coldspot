@@ -1,0 +1,52 @@
+# Coldspot on a single server: the app, Caddy in front (HTTPS once you have a domain) and, optionally,
+# Litestream streaming the SQLite database to Cloudflare R2. See docs/DEPLOY.md.
+#   cd deploy && docker compose up -d --build                      # app + Caddy
+#   cd deploy && docker compose --profile backup up -d --build     # ... plus Litestream backups
+services:
+  app:
+    build:
+      context: ..
+      args:
+        NEXT_PUBLIC_SITE_URL: ${SITE_URL:?Set SITE_URL in deploy/.env}
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_SITE_URL: ${SITE_URL}
+      SESSION_SECRET: ${SESSION_SECRET:?Set SESSION_SECRET in deploy/.env}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-}
+    volumes:
+      - data:/data
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on: [app]
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      # ":80" serves plain HTTP on the server's IP. Set it to your domain to get HTTPS automatically.
+      SITE_ADDRESS: ${SITE_ADDRESS:-:80}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+  litestream:
+    image: litestream/litestream:0.3.13
+    profiles: [backup]
+    restart: unless-stopped
+    depends_on: [app]
+    command: replicate
+    environment:
+      LITESTREAM_BUCKET: ${LITESTREAM_BUCKET:-}
+      LITESTREAM_ENDPOINT: ${LITESTREAM_ENDPOINT:-}
+      LITESTREAM_ACCESS_KEY_ID: ${LITESTREAM_ACCESS_KEY_ID:-}
+      LITESTREAM_SECRET_ACCESS_KEY: ${LITESTREAM_SECRET_ACCESS_KEY:-}
+    volumes:
+      - data:/data
+      - ./litestream.yml:/etc/litestream.yml:ro
+
+volumes:
+  data:
+  caddy_data:
+  caddy_config:

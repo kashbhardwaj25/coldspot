@@ -1,0 +1,10 @@
+node_modules
+.next
+data
+.git
+.husky
+.env
+.env*.local
+coverage
+*.tsbuildinfo
+deploy/.env

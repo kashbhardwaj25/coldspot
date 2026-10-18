@@ -38,3 +38,6 @@ next-env.d.ts
 # coldspot: local SQLite database (keep production data on the server)
 /data/*.db
 /data/*.db-*
+
+# coldspot: server secrets
+/deploy/.env
