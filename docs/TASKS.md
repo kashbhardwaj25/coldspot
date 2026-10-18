@@ -11,7 +11,7 @@ Decisions behind this list:
 
 ## 1. Accounts (Google sign-in)
 
-- [ ] Google Cloud OAuth client (yours, steps in `docs/DEPLOY.md`): consent screen with basic scopes, redirect URIs for `localhost:3000` and the domain. Client ID and secret go in `.env.local` and Railway, never in chat or git.
+- [x] Google Cloud OAuth client (yours, steps in `docs/DEPLOY.md`): consent screen with basic scopes, redirect URIs for `localhost:3000` and the domain. Client ID and secret go in `.env.local` and Railway, never in chat or git.
 - [x] Better Auth with the Drizzle SQLite adapter, Google as the only provider. New `src/features/accounts/`. Add the auth variables to `lib/server/env.ts` and `.env.example`.
 - [x] Store only the Google account ID and email. Add a `userId` to `stories` (and `echoes`), then run `npm run db:generate`.
 - [x] Share flow: write first, sign in when submitting, and keep the draft through the sign-in redirect.
@@ -24,9 +24,9 @@ Decisions behind this list:
 ## 2. Stories: security
 
 - [x] Phone-number and link checks no longer reject year ranges and missing spaces.
-- [ ] Rate limit trusts `cf-connecting-ip` and `x-forwarded-for` as sent. Only read proxy headers when a `TRUST_PROXY` setting says to.
-- [ ] Admin sessions: the cookie is a fixed HMAC, so logout and password changes don't revoke it. Add an expiry, tie the token to the password, and limit repeated login attempts.
-- [ ] Cloudflare Turnstile on the share form, verified on the server (lower priority now that sharing needs sign-in).
+- [x] IPs are read only from the header `TRUST_PROXY` names (`none`, `cloudflare`, `forwarded`); with `none`, IP limits are skipped.
+- [x] Admin sessions are random tokens stored hashed, expiring after 7 days and ending on sign-out or a password change; 5 wrong passwords per 15 minutes.
+- [x] Cloudflare Turnstile on the share form, verified on the server; skipped when the keys aren't set. (Yours: create the widget, steps in `docs/DEPLOY.md`.)
 
 ## 3. Admin
 

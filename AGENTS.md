@@ -72,6 +72,7 @@ src/features/
     echoes.ts                    "use server": toggleEcho, myEchoes
     validation.ts                zod schema, link/phone checks, blur(), firstSentence() (pure)
     draft.ts                     keeps a half-written story in localStorage while the writer signs in
+    spamCheck.ts Turnstile.tsx   Turnstile: server verification (server-only); the widget on the share form
     queries.ts                   approved stories (server-only)
     StoryArticle.tsx             story body shared by the page and the sheet
   accounts/
@@ -85,7 +86,8 @@ src/features/
     queries.ts CaseArticle.tsx   famous cases; case file shared by the page and the sheet
   moderation/
     actions.ts                   "use server": approve, reject
-    auth.ts                      "use server": login, logout
+    auth.ts                      "use server": login (rate limited), logout
+    session.ts attempts.ts       isAdmin() and admin sessions (server-only); failed-login limiter (pure)
     queries.ts                   pending stories, counts (server-only)
     ReviewCard.tsx LoginForm.tsx
 src/components/                  shared UI with no feature knowledge: brand.tsx, PageTop.tsx, article.tsx
@@ -97,8 +99,9 @@ src/lib/                         shared, framework-free helpers
   categories.ts types.ts         category keys, labels, colours, status enums; CaseItem, StoryItem, MapItem
   features.ts                    STORIES_ENABLED: people's stories are off for the first release
   format.ts geo.ts signal.ts     labels; formatCoords, haversineKm; observable for per-frame values
+  proxy.ts                       which proxy header to trust for the visitor's IP (TRUST_PROXY)
   server/env.ts                  environment variables, validated with zod
-  server/security.ts             admin cookie (HMAC), IP hash, visitor id cookie
+  server/security.ts             IP hash, keyed hashes, constant-time compare
 src/styles/                      tokens, base, map, tuner, sheets, reading, forms, controls, article, account, admin
 src/data/                        seed-cases.ts (real), seed-stories.ts (samples, is_sample = true)
 scripts/setup.ts                 migrate and seed
@@ -130,20 +133,21 @@ public/land-50m.json             coastlines only
 - Keep `better-sqlite3` on **v12**. It installs a prebuilt binary. v13 compiles from source during `npm ci`, which breaks on machines without a C++ toolchain.
 - The site must keep working without Supabase or any hosted database service. That's a deliberate choice.
 
-### First release: famous cases only
+### People's stories switch
 
-- `STORIES_ENABLED` in `src/lib/features.ts` is `false`. Story queries return nothing, story pages, `/my-stories`, `/admin` and `/api/auth` are 404, the story and account server actions refuse requests, and the map hides the mode switch, the sign-in button and the share and "stories near here" buttons. Keep all of these behind the flag when touching stories, so switching it on later is a one-line change.
+- `STORIES_ENABLED` in `src/lib/features.ts` is `true`. Set to `false`, story queries return nothing, story pages, `/my-stories`, `/admin` and `/api/auth` are 404, the story and account server actions refuse requests, and the map hides the mode switch, the sign-in button and the share and "stories near here" buttons. Keep all of these behind the flag when touching stories, so switching it off stays a one-line change.
 
 ### Privacy and safety (product rules, not style)
 
 - **Never store exact locations** for people's stories. `submitStory` rounds to a ~5 km grid (`blur()`); keep it that way.
-- IPs are stored only as a salted SHA-256 hash, and only for rate limiting.
+- IPs are stored only as a salted SHA-256 hash, and only for rate limiting. Read the IP only through `ipHash()`, which trusts just the header named by `TRUST_PROXY`; never read `x-forwarded-for` or similar directly, since visitors can forge them.
+- Admin sessions are random tokens stored hashed in `admin_sessions` (`features/moderation/session.ts`). They expire after 7 days and end on sign-out or when `ADMIN_PASSWORD` changes. Sign-in allows 5 wrong passwords per 15 minutes.
 - **Accounts keep only the Google account id and the email address.** Google sign-in requests only `openid email`; `features/accounts/auth.ts` drops OAuth tokens and stores no IP address or user agent on sessions. Don't add the `profile` scope or store more without a decision.
 - Stories are anonymous in public: a pen name or "Anonymous". Never send an email address or `userId` to a public page or the map.
 - Sharing a story and echoing need sign-in; reading never does. One echo per account per story.
 - Deleting an account deletes its stories and echoes (`deleteMyAccount`). Keep that working; it's how people exercise their right to delete their data.
 - Submissions always start as `pending`. Nothing user-written reaches the public site without admin approval.
-- Keep the existing submission checks: sign-in, honeypot field, 3 per account and 3 per IP per 24 hours, no links (also in the pen name), no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
+- Keep the existing submission checks: sign-in, Turnstile (when configured), honeypot field, 3 per account and 3 per IP per 24 hours, no links (also in the pen name), no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
 - Content rules shown to users: no real names, no exact addresses, nothing about crime, violence or anyone getting hurt, no selling remedies, rituals or charms.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.
 - Famous cases must present what was reported **and** the explanations offered, without taking a side. Don't write that a case is proven.
@@ -179,11 +183,14 @@ public/land-50m.json             coastlines only
 
 Read them through `env` from `src/lib/server/env.ts`, never `process.env` directly (`NODE_ENV` is the one exception).
 
-| Name                   | Purpose                                                                                   |
-| ---------------------- | ----------------------------------------------------------------------------------------- |
-| `DATABASE_PATH`        | SQLite file path. Default `data/coldspot.db`. Must be on a persistent disk in production. |
-| `ADMIN_PASSWORD`       | Password for `/admin`. The value `change-me` is refused.                                  |
-| `SESSION_SECRET`       | 16+ character secret. Signs the admin cookie and sign-in sessions, and salts IP hashes.   |
-| `GOOGLE_CLIENT_ID`     | Google OAuth client for sign-in (Google Cloud Console)                                    |
-| `GOOGLE_CLIENT_SECRET` | Its secret. Never commit it or paste it anywhere public.                                  |
-| `NEXT_PUBLIC_SITE_URL` | Canonical site URL for the sitemap and metadata                                           |
+| Name                             | Purpose                                                                                                        |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `DATABASE_PATH`                  | SQLite file path. Default `data/coldspot.db`. Must be on a persistent disk in production.                      |
+| `ADMIN_PASSWORD`                 | Password for `/admin`. The value `change-me` is refused.                                                       |
+| `SESSION_SECRET`                 | 16+ character secret. Signs sign-in sessions; salts IP and admin-session hashes.                               |
+| `GOOGLE_CLIENT_ID`               | Google OAuth client for sign-in (Google Cloud Console)                                                         |
+| `GOOGLE_CLIENT_SECRET`           | Its secret. Never commit it or paste it anywhere public.                                                       |
+| `TRUST_PROXY`                    | `none` (default), `cloudflare` or `forwarded`: which proxy header the visitor IP is read from (`lib/proxy.ts`) |
+| `NEXT_PUBLIC_TURNSTILE_SITE_KEY` | Turnstile site key (public, needed at build time). Without both keys the check is skipped                      |
+| `TURNSTILE_SECRET_KEY`           | Turnstile secret, checked on the server in `submitStory`                                                       |
+| `NEXT_PUBLIC_SITE_URL`           | Canonical site URL for the sitemap and metadata                                                                |
