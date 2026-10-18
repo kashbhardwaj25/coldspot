@@ -5,6 +5,7 @@ import { db, schema } from "@/db/client";
 import { currentUser } from "@/features/accounts/session";
 import { STORIES_ENABLED } from "@/lib/features";
 import { ipHash } from "@/lib/server/security";
+import { regionFor, regionLabel } from "@/features/regions/lookup";
 import { verifyTurnstile } from "./spamCheck";
 import { blockedContent, blur, firstSentence, MAX_PER_DAY, paragraphs, submission } from "./validation";
 
@@ -50,13 +51,18 @@ export async function submitStory(_prev: SubmitState, form: FormData): Promise<S
     return { ok: false, error: "You've shared 3 stories today. Try again tomorrow." };
   }
 
+  const lat = blur(d.lat);
+  const lon = blur(d.lon);
+  const region = regionFor(lat, lon);
   db.insert(stories)
     .values({
+      ...region,
       category: d.category,
       place: d.place,
-      region: d.region,
-      lat: blur(d.lat),
-      lon: blur(d.lon),
+      // Left blank, it's filled in from the pin: "Kerala, India".
+      region: d.region || regionLabel(region.countryKey, region.stateKey),
+      lat,
+      lon,
       year: d.year,
       timeLabel: d.timeLabel || null,
       witnesses: d.witnesses || null,

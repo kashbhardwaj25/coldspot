@@ -19,6 +19,7 @@ export function StoryMeta({ story: s }: { story: AdminStory }) {
         {s.timeLabel && <span>Time: {s.timeLabel}</span>}
         {s.witnesses && <span>Witnesses: {s.witnesses}</span>}
         <span>Pen name: {s.penName ?? "Anonymous"}</span>
+        {s.lookedUp && <span>Pin is in: {s.lookedUp}</span>}
       </div>
     </>
   );

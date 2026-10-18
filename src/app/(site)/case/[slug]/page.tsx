@@ -11,6 +11,7 @@ import { CaseLinks } from "@/features/cases/CaseLinks";
 import { caseJsonLd } from "@/features/cases/jsonld";
 import { getAllCases, getCase } from "@/features/cases/queries";
 import { relatedCases } from "@/features/cases/related";
+import { placeLinkFor } from "@/features/regions/queries";
 import { CATEGORIES } from "@/lib/categories";
 import { env } from "@/lib/server/env";
 
@@ -38,6 +39,7 @@ export default async function CasePage({ params }: Params) {
   if (!c) notFound();
   const cat = CATEGORIES[c.category];
   const { nearby, sameCategory } = relatedCases(getAllCases(), c);
+  const place = placeLinkFor(c.countryKey, c.stateKey);
   return (
     <main className="page" style={{ "--tc": cat.color } as CSSProperties}>
       <PageTop mapHref={`/?case=${c.slug}`} />
@@ -61,9 +63,16 @@ export default async function CasePage({ params }: Params) {
             <CaseLinks cases={sameCategory} />
           </section>
         )}
-        <Link className="btn" href="/cases">
-          All famous cases
-        </Link>
+        <div className="links">
+          {place && (
+            <Link className="btn" href={place.path}>
+              More from {place.name}
+            </Link>
+          )}
+          <Link className="btn" href="/cases">
+            All famous cases
+          </Link>
+        </div>
       </article>
       <JsonLd data={caseJsonLd(c, env.NEXT_PUBLIC_SITE_URL)} />
     </main>

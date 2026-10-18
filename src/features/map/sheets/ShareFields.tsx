@@ -25,6 +25,7 @@ export function ShareFields({ draft, onPickTown }: Props) {
           placeholder="e.g. Kerala, India"
           maxLength={80}
           defaultValue={v.region}
+          description="Leave it blank to fill it in from the pin."
         />
       </div>
       <div className="f2">

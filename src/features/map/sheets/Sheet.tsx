@@ -5,8 +5,8 @@ import { useState, type CSSProperties, type ReactNode } from "react";
 import { IconButton } from "@/components/ui/IconButton";
 import { CATEGORIES } from "@/lib/categories";
 import { catColor } from "@/lib/format";
-import type { CaseSummary, MapItem, Mode, StoryItem } from "@/lib/types";
-import type { EchoState, SetEchoState, SheetState } from "../state";
+import type { CaseSummary, MapItem, Mode, Place } from "@/lib/types";
+import type { EchoState, MapData, SetEchoState, SheetState } from "../state";
 import { CaseSheet } from "./CaseSheet";
 import { ListSheet } from "./ListSheet";
 import { ShareSheet } from "./ShareSheet";
@@ -16,13 +16,15 @@ type Props = {
   /** The sheet to show, or null to close it. */
   sheet: SheetState | null;
   mode: Mode;
-  cases: CaseSummary[];
-  stories: StoryItem[];
+  data: MapData;
+  /** The place the list is narrowed to, if any. */
+  placeFilter: string | null;
   echoState: EchoState;
-  turnstileSiteKey: string | null;
   setEchoState: SetEchoState;
   onClose: () => void;
   onPick: (item: MapItem) => void;
+  onPickPlace: (place: Place) => void;
+  onClearPlace: () => void;
   onNearbyStories: (c: CaseSummary) => void;
 };
 
@@ -81,7 +83,7 @@ function content(p: Props & { sheet: SheetState }): [ReactNode, ReactNode] {
             <i className="d" />
             {label} · Case file
           </span>,
-          <CaseSheet key="b" c={item} stories={p.stories} onNearby={p.onNearbyStories} />,
+          <CaseSheet key="b" c={item} stories={p.data.stories} onNearby={p.onNearbyStories} />,
         ];
       }
       return [
@@ -94,13 +96,22 @@ function content(p: Props & { sheet: SheetState }): [ReactNode, ReactNode] {
       ];
     }
     case "list": {
-      const items: MapItem[] = p.mode === "famous" ? p.cases : p.stories;
+      const items: MapItem[] = p.mode === "famous" ? p.data.cases : p.data.stories;
       const title = p.mode === "famous" ? "Famous cases" : "People's stories";
       return [
         <span key="h" className="tag">
           {title}
         </span>,
-        <ListSheet key="b" title={title} items={items} onPick={p.onPick} />,
+        <ListSheet
+          key="b"
+          title={title}
+          items={items}
+          places={p.data.places[p.mode]}
+          placeFilter={p.placeFilter}
+          onPick={p.onPick}
+          onPickPlace={p.onPickPlace}
+          onClearPlace={p.onClearPlace}
+        />,
       ];
     }
     case "share":
@@ -112,8 +123,8 @@ function content(p: Props & { sheet: SheetState }): [ReactNode, ReactNode] {
           key="b"
           center={sheet.center}
           draft={sheet.draft}
-          cases={p.cases}
-          turnstileSiteKey={p.turnstileSiteKey}
+          cases={p.data.cases}
+          turnstileSiteKey={p.data.turnstileSiteKey}
           onClose={p.onClose}
         />,
       ];

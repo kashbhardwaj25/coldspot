@@ -2,7 +2,7 @@ import type { RefObject } from "react";
 import type { GlobeEngine, View } from "@/features/globe/engine";
 import { loadDraft, RESUME_QUERY } from "@/features/stories/draft";
 import type { Category } from "@/lib/categories";
-import { itemKey, type MapItem, type Mode } from "@/lib/types";
+import { itemKey, type MapItem, type Mode, type Place } from "@/lib/types";
 import type { SheetState } from "./state";
 import { allCategories, VIEWS } from "./useGlobe";
 
@@ -15,10 +15,16 @@ type Args = {
   setMode: (m: Mode) => void;
   setActive: (s: Set<Category> | ((prev: Set<Category>) => Set<Category>)) => void;
   setSheet: (s: SheetState | null) => void;
+  places: Record<Mode, Place[]>;
+  setPlaceFilter: (key: string | null) => void;
 };
 
+/** A place by key among countries and their states. */
+const findPlace = (places: Place[], key: string) => places.flatMap((p) => [p, ...p.states]).find((p) => p.key === key);
+
 /** What the header, list and share flow do to the globe: switch modes, fly somewhere, open the share form. */
-export function useMapActions({ engine, mode, active, tunedKey, itemsFor, setMode, setActive, setSheet }: Args) {
+export function useMapActions(args: Args) {
+  const { engine, mode, active, tunedKey, itemsFor, setMode, setActive, setSheet, places, setPlaceFilter } = args;
   const switchMode = (m: Mode, target?: View) => {
     setMode(m);
     setActive(allCategories());
@@ -60,5 +66,26 @@ export function useMapActions({ engine, mode, active, tunedKey, itemsFor, setMod
     setSheet({ type: "share", center: { lat: draft.lat, lon: draft.lon }, draft });
   };
 
-  return { switchMode, random, pickFromList, openShare, resumeShare };
+  /** Fly to a country or state and narrow the list to it. */
+  const goToPlace = (place: Place) => {
+    setSheet(null);
+    setPlaceFilter(place.key);
+    engine.current?.flyTo(place.lon, place.lat, place.zoom, 1300);
+  };
+
+  /** Deep link from a place page: /?place=india or /?place=india/kerala. */
+  const openPlaceFromUrl = () => {
+    const key = new URLSearchParams(window.location.search).get("place");
+    if (!key) return;
+    window.history.replaceState(null, "", "/");
+    const famous = findPlace(places.famous, key);
+    const people = famous ? undefined : findPlace(places.people, key);
+    const place = famous ?? people;
+    if (!place) return;
+    if (people) switchMode("people", { lon: place.lon, lat: place.lat, zoom: place.zoom });
+    else engine.current?.flyTo(place.lon, place.lat, place.zoom, 1300);
+    setPlaceFilter(place.key);
+  };
+
+  return { switchMode, random, pickFromList, openShare, resumeShare, goToPlace, openPlaceFromUrl };
 }

@@ -5,10 +5,11 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Category } from "@/lib/categories";
 import { catColor } from "@/lib/format";
 import { signal } from "@/lib/signal";
-import { itemKey, type CaseSummary, type MapItem, type Mode, type StoryItem } from "@/lib/types";
+import { itemKey, type MapItem, type Mode } from "@/lib/types";
 import { MapHeader } from "./MapHeader";
-import { Ring, ZoomControls } from "./parts";
-import type { SheetState } from "./state";
+import { MapStage } from "./MapStage";
+import { ZoomControls } from "./parts";
+import type { MapData, SheetState } from "./state";
 import { TunerCard } from "./TunerCard";
 import { useEchoes } from "./useEchoes";
 import { allCategories, toMarkers, useGlobe } from "./useGlobe";
@@ -18,14 +19,16 @@ import { useSound } from "./useSound";
 // Sheets (Base UI Drawer, forms) load after the page, off the critical path: nobody needs one before the globe.
 const Sheet = dynamic(() => import("./sheets/Sheet").then((m) => m.Sheet), { ssr: false });
 
-type Props = { cases: CaseSummary[]; stories: StoryItem[]; turnstileSiteKey: string | null };
+type Props = { data: MapData };
 
-export default function ColdspotApp({ cases, stories, turnstileSiteKey }: Props) {
+export default function ColdspotApp({ data }: Props) {
+  const { cases, stories } = data;
   const [mode, setMode] = useState<Mode>("famous");
   const [active, setActive] = useState<Set<Category>>(allCategories);
   const [tunedKey, setTunedKey] = useState<string | null>(null);
   const [nearestKey, setNearestKey] = useState<string | null>(null);
   const [sheet, setSheet] = useState<SheetState | null>(null);
+  const [placeFilter, setPlaceFilter] = useState<string | null>(null);
   const [hintHidden, setHintHidden] = useState(false);
   const [coords] = useState(() => signal(""));
   const [echoState, setEchoState] = useEchoes(stories);
@@ -47,6 +50,7 @@ export default function ColdspotApp({ cases, stories, turnstileSiteKey }: Props)
         e.setItems(toMarkers(itemsFor(m), allCategories()), m === "famous");
         setMode(m);
         resumeShare();
+        openPlaceFromUrl();
       },
       onTune: setTunedKey,
       onNearest: setNearestKey,
@@ -70,7 +74,7 @@ export default function ColdspotApp({ cases, stories, turnstileSiteKey }: Props)
     return () => cancelAnimationFrame(id);
   }, [engine, mode]);
 
-  const { switchMode, random, pickFromList, openShare, resumeShare } = useMapActions({
+  const { switchMode, random, pickFromList, openShare, resumeShare, goToPlace, openPlaceFromUrl } = useMapActions({
     engine,
     mode,
     active,
@@ -79,6 +83,8 @@ export default function ColdspotApp({ cases, stories, turnstileSiteKey }: Props)
     setMode,
     setActive,
     setSheet,
+    places: data.places,
+    setPlaceFilter,
   });
 
   const toggleCategory = (c: Category) =>
@@ -93,17 +99,10 @@ export default function ColdspotApp({ cases, stories, turnstileSiteKey }: Props)
 
   return (
     <div className="cs-map" data-mode={mode}>
-      <canvas className="globe-base" ref={baseRef} aria-hidden="true" />
-      <canvas
-        className="globe-dots"
-        ref={dotsRef}
-        tabIndex={0}
-        aria-label="Coldspot map. Drag or use arrow keys to move. Anything that reaches the centre ring tunes in. Press Enter to open it."
+      <MapStage
+        {...{ baseRef, dotsRef, ringRef, hintRef, hintHidden }}
+        color={tuned ? catColor(tuned.category) : null}
       />
-      <Ring ref={ringRef} color={tuned ? catColor(tuned.category) : null} />
-      <div className="hint" ref={hintRef} style={{ opacity: hintHidden ? 0 : 1 }}>
-        Drag the map · anything in the ring tunes in
-      </div>
 
       <MapHeader
         ref={topRef}
@@ -111,7 +110,11 @@ export default function ColdspotApp({ cases, stories, turnstileSiteKey }: Props)
         items={itemsFor(mode)}
         active={active}
         soundOn={soundOn}
-        onMode={(m) => m !== mode && switchMode(m)}
+        onMode={(m) => {
+          if (m === mode) return;
+          setPlaceFilter(null); // a place in one mode may have nothing in the other
+          switchMode(m);
+        }}
         onToggleCategory={toggleCategory}
         onShare={openShare}
         onSound={() => toggleSound(!!tunedKey)}
@@ -134,13 +137,14 @@ export default function ColdspotApp({ cases, stories, turnstileSiteKey }: Props)
       <Sheet
         sheet={sheet}
         mode={mode}
-        cases={cases}
-        stories={stories}
+        data={data}
+        placeFilter={placeFilter}
         echoState={echoState}
-        turnstileSiteKey={turnstileSiteKey}
         setEchoState={setEchoState}
         onClose={closeSheet}
         onPick={pickFromList}
+        onPickPlace={goToPlace}
+        onClearPlace={() => setPlaceFilter(null)}
         onNearbyStories={(c) => {
           setSheet(null);
           switchMode("people", { lon: c.lon, lat: c.lat, zoom: 3.2 });

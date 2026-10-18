@@ -1,6 +1,7 @@
 import "server-only";
 import { asc, count, desc, eq, getTableColumns, sql } from "drizzle-orm";
 import { db, schema } from "@/db/client";
+import { regionLabel } from "@/features/regions/lookup";
 import type { Category, ReportReason, StoryStatus } from "@/lib/categories";
 
 const { stories, reports } = schema;
@@ -24,6 +25,8 @@ export type AdminStory = {
   sharedOn: string;
   reviewedOn: string | null;
   reports: ReportReason[];
+  /** The region looked up from the pin, to compare with what the writer typed. */
+  lookedUp: string;
 };
 
 const day = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
@@ -59,6 +62,7 @@ export function getAdminStories(status: StoryStatus): AdminStory[] {
       sharedOn: day(r.createdAt),
       reviewedOn: r.reviewedAt ? day(r.reviewedAt) : null,
       reports: r.reasons ? (r.reasons.split(",") as ReportReason[]) : [],
+      lookedUp: regionLabel(r.countryKey, r.stateKey),
     }));
 }
 

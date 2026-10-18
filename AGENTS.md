@@ -46,6 +46,7 @@ src/app/                         routes only
   api/cases/[slug]/route.ts      a case file's full text as JSON, pre-built per case; fetched when a case is opened on the map
   api/auth/[...all]/route.ts     Better Auth: Google sign-in, sign-out, session
   (site)/my-stories/page.tsx     your own stories and their review status; delete them or your account (dynamic, noindex)
+  (site)/places/...              /places, /places/[country], /places/[country]/[state]: regions with 3+ items
   (site)/privacy, (site)/terms   the privacy policy and terms of use (content in features/legal)
   (site)/layout.tsx              the footer on every page outside the map
   (site)/case/[slug]/page.tsx    pre-rendered page per famous case (SEO)
@@ -55,7 +56,7 @@ src/app/                         routes only
   layout.tsx not-found.tsx sitemap.ts robots.ts globals.css (imports src/styles/*)
 src/features/
   map/                           the map screen (client)
-    ColdspotApp.tsx              state and wiring between globe, header, card and sheets
+    ColdspotApp.tsx MapStage.tsx state and wiring between globe, header, card and sheets; the canvases and ring
     MapHeader.tsx TunerCard.tsx  header (actions, mode switch, chips); card under the ring
     parts.tsx                    ScrambleText, Freq, Ring, ZoomControls
     useGlobe.ts                  creates the GlobeEngine, deep links, ring layout, marker mapping
@@ -86,6 +87,11 @@ src/features/
     actions.ts                   "use server": deleteMyStory, deleteMyAccount, signOut
     queries.ts                   the signed-in person's stories (server-only)
     AccountButton.tsx MyStories.tsx SignInButton.tsx
+  regions/
+    lookup.ts geometry.ts        regionFor(lat, lon) and regionLabel from src/data/regions.json (server and setup only)
+    places.ts                    buildPlaces (pure): countries and busy states with counts; MIN_PER_PLACE = 3
+    queries.ts metadata.ts       places for pages, the map and the sitemap (server-only)
+    PlacesIndex.tsx PlaceArticle.tsx
   legal/
     PrivacyPolicy.tsx TermsOfUse.tsx Legal.tsx   the two policies, written to match what the code does
   cases/
@@ -116,6 +122,7 @@ src/styles/                      tokens, base, map, tuner, sheets, reading, form
 src/data/                        seed-cases.ts (real), seed-stories.ts (samples, is_sample = true), towns-extra.ts (hand-added towns)
 scripts/setup.ts                 migrate and seed
 scripts/build-towns.ts           rebuilds public/towns.json from Natural Earth (public domain) plus towns-extra.ts
+scripts/build-regions.ts         rebuilds src/data/regions.json (country and state outlines, India's view) from Natural Earth
 Dockerfile deploy/               production image; Docker Compose with Caddy and Litestream (see docs/DEPLOY.md)
 drizzle/                         SQL migrations (generated, committed)
 public/land-50m.json             coastlines only
@@ -164,6 +171,7 @@ public/towns.json                towns for the share form's search (generated; d
 - Keep the existing submission checks: sign-in, the consent checkbox, Turnstile (when configured), honeypot field, 3 per account and 3 per IP per 24 hours, no links (also in the pen name), no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
 - Content rules shown to users: no real names, no exact addresses, nothing about crime, violence or anyone getting hurt, no selling remedies, rituals or charms.
 - The town list leaves out places that Natural Earth files under another country in disputed areas (`DISPUTED_ADM1` in `scripts/build-towns.ts`), and Indian places show their Indian state.
+- Regions are looked up from coordinates (`regionFor`), never typed: countries follow Natural Earth's India edition, so Kashmir, Ladakh and Arunachal Pradesh are in India. The outlines in `src/data/regions.json` are for server-side lookups only; never draw them or send them to the browser.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.
 - Famous cases must present what was reported **and** the explanations offered, without taking a side. Don't write that a case is proven.
 - The privacy policy (`features/legal/PrivacyPolicy.tsx`) describes exactly what's collected. If you change what's stored, sent to a third party or kept in cookies, update it and its date in the same change.

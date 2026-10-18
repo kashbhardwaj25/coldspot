@@ -26,6 +26,9 @@ export const cases = sqliteTable("cases", {
   wiki: text("wiki"),
   /** Shown first where markers crowd at low zoom. */
   featured: integer("featured", { mode: "boolean" }).notNull().default(false),
+  // Looked up from lat/lon by features/regions (India's view of disputed areas). `at-sea` for cases at sea.
+  countryKey: text("country_key"),
+  stateKey: text("state_key"),
   createdAt: createdAt(),
 });
 
@@ -120,6 +123,9 @@ export const stories = sqliteTable(
     userId: text("user_id").references(() => users.id, { onDelete: "cascade" }),
     // Shown in public instead of any account detail. Null means "Anonymous".
     penName: text("pen_name"),
+    // Looked up from the blurred lat/lon by features/regions.
+    countryKey: text("country_key"),
+    stateKey: text("state_key"),
     createdAt: createdAt(),
     reviewedAt: integer("reviewed_at", { mode: "timestamp" }),
   },

@@ -129,3 +129,36 @@
 .list-foot a {
   color: var(--ink-2);
 }
+.list-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.list-tabs button {
+  height: 30px;
+  padding: 0 12px;
+  border-radius: 15px;
+  border: 1px solid var(--line);
+  font-size: 11.5px;
+  color: var(--ink-2);
+}
+.list-tabs button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--night);
+}
+/* Place rows have a name and a count, no colour dot. States sit indented under their country. */
+.item.place-item {
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.item.place-item[data-state] {
+  padding-left: 24px;
+}
+.item.place-item[data-state] b {
+  font-size: 15px;
+  color: var(--ink-2);
+}
+.place-chip {
+  align-self: flex-start;
+  margin-bottom: 8px;
+}

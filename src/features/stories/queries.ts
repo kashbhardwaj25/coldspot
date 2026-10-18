@@ -28,6 +28,8 @@ function toStoryItem(r: StoryRow): StoryItem {
     body: r.body,
     isSample: r.isSample,
     echoes: r.echoSeed + Number(r.echoCount),
+    countryKey: r.countryKey,
+    stateKey: r.stateKey,
   };
 }
 

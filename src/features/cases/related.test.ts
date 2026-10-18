@@ -19,6 +19,8 @@ const c = (slug: string, lat: number, lon: number, category: CaseItem["category"
   explanation: "",
   wiki: null,
   featured: false,
+  countryKey: null,
+  stateKey: null,
 });
 
 describe("relatedCases", () => {

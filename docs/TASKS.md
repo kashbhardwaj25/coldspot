@@ -46,13 +46,23 @@ Decisions behind this list:
 
 ## 5. Regions
 
-Jump to a region rather than filter the map: the globe already shows one region at a time, so the value is getting there fast. Regions are a list we write ourselves, with no border data, because country borders are politically sensitive in India.
+Coldspot is global: famous cases span 165 countries, and stories can come from anywhere. Regions are worked out from coordinates, not typed: one consistent system for every case and story, with no hand-tagging. The free-text `region` stays for display. The map still shows no borders; outlines are used only on the server to look regions up.
 
-- [ ] New feature folder `src/features/regions/`. `regions.ts`: Indian states and countries, each with a key, name, centre point and zoom level.
-- [ ] Add a `regionKey` column to `stories` and `cases`, then run `npm run db:generate`. Keep the free-text `region` for display. Give every case and story a `regionKey`.
-- [ ] "Go to region" picker: a searchable list behind a "Places" button. Choosing a region flies the globe there and narrows the List view.
-- [ ] Region pages for search engines (`app/(site)/place/[region]`), such as "Strange encounters near Dehradun", added to the sitemap.
-- [ ] Share form: a region dropdown, with "Other" as a fallback. Admin confirms or corrects it when approving.
+Decisions (2026-10-18):
+
+- Two levels: every country, plus a state/province level where a state has 3+ items (today the US and India; others appear as content grows). The UK uses England, Scotland, Wales and Northern Ireland as its states. Cases at sea go under "At sea".
+- Lookups follow India's point of view for disputed areas (Natural Earth's India edition), so Kashmir, Ladakh and Arunachal Pradesh are in India.
+- On the map: a Places view inside the List sheet, not a new header button.
+- Pages exist only for regions with 3+ items, so search engines never see near-empty pages.
+
+Tasks:
+
+- [x] `scripts/build-regions.ts`: download Natural Earth countries (India edition) and states, simplify them, and write a compact lookup file with each region's name, slug, centre and zoom.
+- [x] `src/features/regions/`: `regionFor(lat, lon)` (server-only), region names and slugs, counts.
+- [x] `countryKey` and `stateKey` columns on `cases` and `stories`; filled when cases are synced and when a story is submitted; backfilled by `db:setup`.
+- [x] Pages: `/places` (every country with its count), `/places/[country]` and `/places/[country]/[state]`, with titles like "Unexplained encounters in Japan", in the sitemap and linked from case and story pages.
+- [x] Places view in the List sheet: regions with counts for the current mode; tap to fly the globe there and narrow the list.
+- [x] Share form: fill in "State and country" from the pin; admin sees the looked-up region when reviewing.
 
 ## 6. Site-wide
 
@@ -72,7 +82,7 @@ Jump to a region rather than filter the map: the globe already shows one region 
 
 ## 7. Code upkeep
 
-- [ ] `features/globe/engine.ts` and `features/map/ColdspotApp.tsx` are close to the 150-line limit. Split them before adding regions and the pin picker.
+- [ ] `features/globe/engine.ts` is close to the 150-line limit; split it before adding to it. (`ColdspotApp.tsx` was split: `MapStage`, `MapData`, place actions in `useMapActions`.)
 - [ ] Tests for `lib/geo.ts`, `features/globe/tuning.ts`, the rate limits and reports.
 
 ## 8. Content (yours)
