@@ -4,6 +4,7 @@ import { getCaseSummaries } from "@/features/cases/queries";
 import { siteJsonLd } from "@/features/cases/jsonld";
 import ColdspotApp from "@/features/map/ColdspotApp";
 import { getApprovedStories } from "@/features/stories/queries";
+import { turnstileEnabled } from "@/features/stories/spamCheck";
 import { env } from "@/lib/server/env";
 
 // Rebuilt at most every 5 minutes, and immediately when you approve a story.
@@ -20,7 +21,11 @@ export default function Home() {
   const stories = getApprovedStories();
   return (
     <>
-      <ColdspotApp cases={cases} stories={stories} />
+      <ColdspotApp
+        cases={cases}
+        stories={stories}
+        turnstileSiteKey={turnstileEnabled() ? (env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? null) : null}
+      />
       <JsonLd data={siteJsonLd(env.NEXT_PUBLIC_SITE_URL)} />
     </>
   );

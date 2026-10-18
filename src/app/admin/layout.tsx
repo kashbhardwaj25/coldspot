@@ -5,7 +5,7 @@ import { Logo } from "@/components/Logo";
 import { logout } from "@/features/moderation/auth";
 import { notFound } from "next/navigation";
 import { STORIES_ENABLED } from "@/lib/features";
-import { isAdmin } from "@/lib/server/security";
+import { isAdmin } from "@/features/moderation/session";
 
 export const metadata: Metadata = { title: "Review queue", robots: { index: false } };
 

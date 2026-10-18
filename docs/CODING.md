@@ -42,7 +42,7 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 
 - **Server Components by default.** Add `"use client"` only to the component that needs state, effects or browser APIs, as low in the tree as possible.
 - **Server-only modules** start with `import "server-only"` (every feature's `queries.ts`, `lib/server/security.ts`). `db/client.ts` and `lib/server/env.ts` don't, because `scripts/setup.ts` loads them outside Next.
-- **Server actions are public HTTP endpoints.** Validate input with `zod`, check `isAdmin()` inside every admin action and every admin page (not only in `admin/layout.tsx`: layouts render in parallel with pages, so a layout check doesn't stop a page's queries), keep writes short and synchronous, and `revalidatePath` every public page the change affects.
+- **Server actions are public HTTP endpoints.** Validate input with `zod`, check `isAdmin()` (from `features/moderation/session.ts`) inside every admin action and every admin page (not only in `admin/layout.tsx`: layouts render in parallel with pages, so a layout check doesn't stop a page's queries), keep writes short and synchronous, and `revalidatePath` every public page the change affects.
 - `params`, `cookies()` and `headers()` are async; `await` them.
 - Keep `/` static: no `cookies()`, `headers()` or `searchParams` on it. Read deep links on the client.
 - Use `next/link` for internal links, `next/font` for fonts (already set up in `layout.tsx`), and the Metadata API for titles, descriptions and Open Graph tags.

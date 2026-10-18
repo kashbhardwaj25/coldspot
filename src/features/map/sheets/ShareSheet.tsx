@@ -5,13 +5,20 @@ import { startTransition, useActionState, useEffect, useRef, useState, type Form
 import { signInWithGoogle, useSignedIn } from "@/features/accounts/client";
 import { clearDraft, RESUME_QUERY, saveDraft, type ShareDraft } from "@/features/stories/draft";
 import { submitStory, type SubmitState } from "@/features/stories/submit";
+import { Turnstile } from "@/features/stories/Turnstile";
 import { formatCoords } from "@/lib/geo";
 import { ShareFields } from "./ShareFields";
 
-type Props = { center: { lat: number; lon: number }; draft?: ShareDraft; onClose: () => void };
+type Props = {
+  center: { lat: number; lon: number };
+  draft?: ShareDraft;
+  /** Cloudflare Turnstile site key, or null when the spam check isn't set up. */
+  turnstileSiteKey: string | null;
+  onClose: () => void;
+};
 
 /** The share form. The story is pinned where the ring is; the server blurs it to ~5 km. Sending needs sign-in. */
-export function ShareSheet({ center, draft, onClose }: Props) {
+export function ShareSheet({ center, draft, turnstileSiteKey, onClose }: Props) {
   const [state, action, pending] = useActionState<SubmitState, FormData>(submitStory, null);
   const signedIn = useSignedIn();
   const formRef = useRef<HTMLFormElement>(null);
@@ -105,7 +112,8 @@ export function ShareSheet({ center, draft, onClose }: Props) {
             </small>
           </div>
         ) : (
-          <div>
+          <div className="send">
+            {signedIn && turnstileSiteKey && <Turnstile siteKey={turnstileSiteKey} resetKey={state} />}
             <button className="btn primary" type="submit" disabled={pending || signedIn === null}>
               {pending ? "Sending…" : "Send for review"}
             </button>

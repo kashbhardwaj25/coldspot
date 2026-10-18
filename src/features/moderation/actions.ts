@@ -4,7 +4,7 @@ import { and, eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { db, schema } from "@/db/client";
-import { isAdmin } from "@/lib/server/security";
+import { isAdmin } from "./session";
 
 const { stories } = schema;
 

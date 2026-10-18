@@ -17,6 +17,9 @@ COPY . .
 # Baked into the client bundle, so it must be known at build time. Pass your real URL as a build arg.
 ARG NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
+# The home page is pre-rendered, so the Turnstile site key (public) must be known at build time too.
+ARG NEXT_PUBLIC_TURNSTILE_SITE_KEY=
+ENV NEXT_PUBLIC_TURNSTILE_SITE_KEY=$NEXT_PUBLIC_TURNSTILE_SITE_KEY
 
 RUN DATABASE_PATH=/tmp/build.db npm run db:setup && DATABASE_PATH=/tmp/build.db npm run build && rm -f /tmp/build.db*
 

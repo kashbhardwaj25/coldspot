@@ -18,6 +18,7 @@ type Props = {
   cases: CaseSummary[];
   stories: StoryItem[];
   echoState: EchoState;
+  turnstileSiteKey: string | null;
   setEchoState: SetEchoState;
   onClose: () => void;
   onPick: (item: MapItem) => void;
@@ -108,7 +109,13 @@ function content(p: Props & { sheet: SheetState }): [ReactNode, ReactNode] {
         <span key="h" className="tag">
           Share a story
         </span>,
-        <ShareSheet key="b" center={sheet.center} draft={sheet.draft} onClose={p.onClose} />,
+        <ShareSheet
+          key="b"
+          center={sheet.center}
+          draft={sheet.draft}
+          turnstileSiteKey={p.turnstileSiteKey}
+          onClose={p.onClose}
+        />,
       ];
   }
 }

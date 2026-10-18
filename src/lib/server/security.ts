@@ -1,15 +1,14 @@
 import "server-only";
 import { createHash, createHmac, timingSafeEqual } from "node:crypto";
-import { cookies, headers } from "next/headers";
+import { headers } from "next/headers";
+import { trustedIp } from "../proxy";
 import { env } from "./env";
 
-const secret = () => {
+export const secret = () => {
   const s = env.SESSION_SECRET;
   if (!s || s.length < 16) throw new Error("Set SESSION_SECRET (16+ characters) in .env.local");
   return s;
 };
-
-export const ADMIN_COOKIE = "cs_admin";
 
 /** Constant-time string comparison. */
 export function safeEqual(a: string, b: string) {
@@ -18,19 +17,15 @@ export function safeEqual(a: string, b: string) {
   return timingSafeEqual(ha, hb);
 }
 
-export function adminToken() {
-  return createHmac("sha256", secret()).update("coldspot-admin").digest("hex");
-}
+/** Keyed hash, so stored values can't be reversed or matched without the secret. */
+export const keyedHash = (value: string) => createHmac("sha256", secret()).update(value).digest("hex");
 
-export async function isAdmin() {
-  const c = (await cookies()).get(ADMIN_COOKIE)?.value;
-  return !!c && safeEqual(c, adminToken());
-}
-
-/** Hash of the caller's IP, salted with the secret. Only used for rate limits. */
-export async function ipHash() {
+/**
+ * Hash of the caller's IP, salted with the secret, for rate limits only. Null when TRUST_PROXY doesn't name a
+ * proxy we trust: then the IP can't be known, and IP limits are skipped rather than lumping everyone together.
+ */
+export async function ipHash(): Promise<string | null> {
   const h = await headers();
-  const ip =
-    h.get("cf-connecting-ip") ?? h.get("x-real-ip") ?? h.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "local";
-  return createHash("sha256").update(`${secret()}:${ip}`).digest("hex");
+  const ip = trustedIp(env.TRUST_PROXY, (name) => h.get(name));
+  return ip ? createHash("sha256").update(`${secret()}:${ip}`).digest("hex") : null;
 }

@@ -26,6 +26,7 @@ In the service, open **Variables** and add:
 | ---------------------- | ------------------------------------------------------------------------------------------- |
 | `NEXT_PUBLIC_SITE_URL` | `https://yourdomain.com` (your real domain, with `https://` and no trailing slash)          |
 | `SESSION_SECRET`       | a long random string. On a Mac, run `openssl rand -hex 32` in Terminal and paste the result |
+| `TRUST_PROXY`          | `cloudflare`, so rate limits use the visitor IP that Cloudflare sends                       |
 
 Then, in **Settings**:
 
@@ -70,6 +71,10 @@ Once stories are on, the database holds data that exists nowhere else (submissio
   1. In [Google Cloud Console](https://console.cloud.google.com/), create a project, then **APIs & Services → OAuth consent screen**: app name "Coldspot", your support email, and only the basic scopes (`openid`, `email`). These don't need Google's review. Publish the app ("In production") so anyone can sign in.
   2. **Credentials → Create credentials → OAuth client ID**, type "Web application". Add the authorised redirect URIs `https://yourdomain.com/api/auth/callback/google` and, for local testing, `http://localhost:3000/api/auth/callback/google`.
   3. Add `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` to Railway's variables (and to `.env.local` for local testing). Never commit the secret.
+- Set up Turnstile, the spam check on the share form:
+  1. In Cloudflare, go to **Turnstile → Add widget**. Name it "Coldspot", add your domain (and `localhost` if you want it locally), and choose **Managed**.
+  2. Add `NEXT_PUBLIC_TURNSTILE_SITE_KEY` (the site key, public) and `TURNSTILE_SECRET_KEY` to Railway's variables, then redeploy: the site key is needed at build time.
+- Note on IPs: with `TRUST_PROXY=cloudflare`, the IP limit trusts the `cf-connecting-ip` header. Someone who reaches Railway directly, bypassing Cloudflare, could forge it. That only weakens the second layer: the main limit is per signed-in account.
 - Read the pre-launch items for stories in `docs/TASKS.md` (Turnstile, moderation, privacy policy).
 
 ## Troubleshooting

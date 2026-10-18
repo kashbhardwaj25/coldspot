@@ -67,8 +67,8 @@ For people's stories:
 
 Spam protection, in layers:
 
-- **Built:** Google sign-in to share, honeypot field, 3 posts per account and per IP per day, and link and phone-number blocking.
-- **Planned:** Cloudflare Turnstile, an automatic moderation API, a report button with automatic hiding, and trusted submitters who can publish directly after a few approved stories.
+- **Built:** Google sign-in to share, Cloudflare Turnstile, honeypot field, 3 posts per account and per IP per day, and link and phone-number blocking.
+- **Planned:** an automatic moderation API, a report button with automatic hiding, and trusted submitters who can publish directly after a few approved stories.
 
 ## Competition
 

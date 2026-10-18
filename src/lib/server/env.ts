@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { PROXY_MODES } from "../proxy";
 
 /**
  * Environment variables, validated once at startup. Secrets are optional here so the site can still be built
@@ -13,6 +14,11 @@ const schema = z.object({
   // Google sign-in for sharing stories and echoes (Google Cloud Console → OAuth client).
   GOOGLE_CLIENT_ID: z.string().optional(),
   GOOGLE_CLIENT_SECRET: z.string().optional(),
+  // Which proxy sets the visitor's IP (see lib/proxy.ts). "cloudflare" in production behind the Cloudflare proxy.
+  TRUST_PROXY: z.enum(PROXY_MODES).default("none"),
+  // Cloudflare Turnstile on the share form. Both or neither; without them the check is skipped.
+  NEXT_PUBLIC_TURNSTILE_SITE_KEY: z.string().optional(),
+  TURNSTILE_SECRET_KEY: z.string().optional(),
 });
 
 export const env = schema.parse(process.env);

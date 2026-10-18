@@ -3,7 +3,7 @@ import { getPendingStories, getStoryCounts } from "@/features/moderation/queries
 import { ReviewCard } from "@/features/moderation/ReviewCard";
 import { notFound } from "next/navigation";
 import { STORIES_ENABLED } from "@/lib/features";
-import { isAdmin } from "@/lib/server/security";
+import { isAdmin } from "@/features/moderation/session";
 
 export const dynamic = "force-dynamic";
 

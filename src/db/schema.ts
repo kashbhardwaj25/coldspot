@@ -144,3 +144,14 @@ export const echoes = sqliteTable(
   },
   (t) => [primaryKey({ columns: [t.storyId, t.userId] }), index("echoes_user_idx").on(t.userId)],
 );
+
+/**
+ * Signed-in admin sessions. The cookie holds a random token; only its keyed hash is stored. A session ends when
+ * it expires, on sign-out, or when ADMIN_PASSWORD changes (the password fingerprint no longer matches).
+ */
+export const adminSessions = sqliteTable("admin_sessions", {
+  tokenHash: text("token_hash").primaryKey(),
+  passwordFingerprint: text("password_fingerprint").notNull(),
+  expiresAt: integer("expires_at", { mode: "timestamp" }).notNull(),
+  createdAt: createdAt(),
+});

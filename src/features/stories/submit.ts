@@ -5,6 +5,7 @@ import { db, schema } from "@/db/client";
 import { currentUser } from "@/features/accounts/session";
 import { STORIES_ENABLED } from "@/lib/features";
 import { ipHash } from "@/lib/server/security";
+import { verifyTurnstile } from "./spamCheck";
 import { blockedContent, blur, firstSentence, MAX_PER_DAY, paragraphs, submission } from "./validation";
 
 const { stories } = schema;
@@ -37,11 +38,14 @@ export async function submitStory(_prev: SubmitState, form: FormData): Promise<S
   const blocked = blockedContent(d);
   if (blocked) return { ok: false, error: blocked };
 
-  // Per account, and per IP as an extra layer against someone with several accounts.
+  const human = await verifyTurnstile(String(form.get("cf-turnstile-response") ?? "") || null);
+  if (!human) return { ok: false, error: "The spam check didn't go through. Wait a moment for it, then send again." };
+
+  // Per account, and per IP (when it can be trusted) as an extra layer against someone with several accounts.
   const hash = await ipHash();
   if (
     sharedToday(eq(stories.userId, viewer.id)) >= MAX_PER_DAY ||
-    sharedToday(eq(stories.ipHash, hash)) >= MAX_PER_DAY
+    (hash !== null && sharedToday(eq(stories.ipHash, hash)) >= MAX_PER_DAY)
   ) {
     return { ok: false, error: "You've shared 3 stories today. Try again tomorrow." };
   }

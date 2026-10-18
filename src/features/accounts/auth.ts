@@ -3,6 +3,7 @@ import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { nextCookies } from "better-auth/next-js";
 import { db, schema } from "@/db/client";
+import { IP_HEADERS } from "@/lib/proxy";
 import { env } from "@/lib/server/env";
 
 /**
@@ -53,6 +54,10 @@ function createAuth() {
       session: {
         create: { before: async (s) => ({ data: { ...s, ipAddress: null, userAgent: null } }) },
       },
+    },
+    // Its built-in rate limit reads the IP only from the header our trusted proxy sets.
+    advanced: {
+      ipAddress: { ipAddressHeaders: IP_HEADERS[env.TRUST_PROXY], disableIpTracking: env.TRUST_PROXY === "none" },
     },
     telemetry: { enabled: false },
     plugins: [nextCookies()],
