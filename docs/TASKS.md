@@ -6,15 +6,20 @@ Narration and the season pass are deliberately left out for now (see [Later](#la
 
 ## 1. Fix what's already built
 
-- [ ] Phone-number check rejects year ranges like "2003 - 2004". Tighten `PHONE_RE` in `src/features/stories/validation.ts`.
-- [ ] Link check rejects typos like "night.In the morning" because `LINK_RE` is case-insensitive. Fix it in `src/features/stories/validation.ts`.
+- [x] Phone-number check rejects year ranges like "2003 - 2004". Tighten `PHONE_RE` in `src/features/stories/validation.ts`.
+- [x] Link check rejects typos like "night.In the morning" because `LINK_RE` is case-insensitive. Fix it in `src/features/stories/validation.ts`.
 - [ ] Rate limit trusts `cf-connecting-ip` and `x-forwarded-for` as sent. Only read proxy headers when a `TRUST_PROXY` setting says to.
 - [ ] Admin sessions: the cookie is a fixed HMAC, so logout and password changes don't revoke it. Add an expiry, tie the token to the password, and limit repeated login attempts.
-- [ ] Echo copy says "within 50 km" and "echoes nearby", but echoes aren't location-based. Fix the wording in `features/map/sheets/StorySheet.tsx` and `features/map/TunerCard.tsx`.
+- [ ] Echo copy says "within 50 km", "echoes nearby" and "people nearby can echo it", but echoes aren't location-based. Fix the wording in `features/map/sheets/StorySheet.tsx`, `features/map/TunerCard.tsx` and `features/map/sheets/ShareSheet.tsx`.
 - [ ] Admin can only see pending stories. Add a list of approved stories with an Unpublish action.
 - [ ] Admin can edit place, region and opening line only. Also allow changing the category and fixing typos in the story text before approving.
+- [ ] Echoes can be inflated: `toggleEcho` in `features/stories/echoes.ts` has no rate limit, and clearing the `cs_vid` cookie gives a new visitor id. Add a per-IP-hash limit.
+- [ ] `toggleEcho` doesn't revalidate, so echo counts on `/` lag by up to 5 minutes and on story pages by up to an hour. Decide whether that's acceptable or revalidate the story page.
+- [ ] `approve()` in `features/moderation/actions.ts` reads form fields by hand: no zod schema, no length limits on place, region and opening line, and edits skip the link and phone checks. Validate with zod (pairs with the category and text editing task).
+- [ ] Slugs come from the place name plus the id, so re-approving an unpublished story with a different place changes its URL. Keep the first slug once one exists (pairs with Unpublish).
+- [ ] `features/globe/engine.ts` and `features/map/ColdspotApp.tsx` are close to the 150-line limit. Split them by responsibility before adding to them.
 - [ ] Sheets don't trap focus: Tab can leave an open sheet and reach the map behind it. Trap focus inside `Sheet`, or move to a native `<dialog>` with `showModal()`.
-- [ ] No tests yet. Add Vitest for the pure logic first: `features/stories/validation.ts`, `lib/geo.ts` and `features/globe/tuning.ts`. Tests sit next to the file they test.
+- [ ] Tests for the rest of the pure logic: `lib/geo.ts` and `features/globe/tuning.ts`. Vitest is set up and `features/stories/validation.ts` is covered; tests sit next to the file they test.
 
 ## 2. Safety and moderation
 
@@ -25,7 +30,7 @@ Narration and the season pass are deliberately left out for now (see [Later](#la
 
 ## 3. Content
 
-- [ ] Check all 19 famous cases against a primary source (`src/data/seed-cases.ts`). Consider a `sources` field shown on each case page.
+- [ ] Check all 279 famous cases against a primary source (`src/data/seed-cases.ts`). Consider a `sources` field shown on each case page.
 - [ ] Collect 30–50 real stories with the writers' permission, and seed them.
 - [ ] Remove the 30 sample stories (`is_sample = 1`) once real ones are in.
 
