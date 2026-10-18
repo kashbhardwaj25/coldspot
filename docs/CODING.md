@@ -110,7 +110,7 @@ Start with those files in the feature folder. Add subfolders (like `map/sheets/`
 ### Where new code goes
 
 - **A new domain** (regions, reports): a new folder in `src/features/`.
-- **A new public page**: a thin route in `app/(site)/`, with the content as a feature component. A shared `(site)/layout.tsx` arrives with the footer and legal links (see `docs/TASKS.md`); until then each page renders `PageTop` itself.
+- **A new public page**: a thin route in `app/(site)/`, with the content as a feature component. `(site)/layout.tsx` adds the footer; each page renders `PageTop` itself.
 - **A new admin page**: `app/admin/<name>/page.tsx`. It gets the shell from `admin/layout.tsx` and must check `isAdmin()` itself.
 - **Tests** go next to the code they test: `validation.test.ts` beside `validation.ts`.
 

@@ -121,3 +121,11 @@
 .opening a {
   color: var(--ink);
 }
+.list-foot {
+  margin: 20px 4px 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+.list-foot a {
+  color: var(--ink-2);
+}

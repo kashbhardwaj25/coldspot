@@ -56,12 +56,13 @@ Jump to a region rather than filter the map: the globe already shows one region 
 
 ## 6. Site-wide
 
-- [ ] Privacy policy at `app/(site)/privacy`: Google sign-in (account ID and email only), cookies, the IP hash, the blurred location, analytics, and how to delete stories or your account.
-- [ ] Terms of use at `app/(site)/terms`, including permission to use submitted stories and a revenue share if they're ever licensed. Have them read by a lawyer if possible.
-- [ ] `app/(site)/layout.tsx` with a footer linking to both.
-- [ ] Share button on case and story pages.
+- [x] Privacy policy at `app/(site)/privacy`: Google sign-in (account ID and email only), cookies, the IP hash, the blurred location, analytics, and how to delete stories or your account.
+- [x] Terms of use at `app/(site)/terms`, including permission to use submitted stories and a revenue share if they're ever licensed. Have them read by a lawyer if possible.
+- [x] `app/(site)/layout.tsx` with a footer linking to both.
+- [x] Share button on case and story pages.
 - [x] Sheets don't trap focus: Tab can leave an open sheet and reach the map behind it. Trap focus inside `Sheet`, or move to a native `<dialog>` with `showModal()`.
-- [ ] Analytics: Cloudflare Web Analytics (no cookies).
+- [x] Analytics: Cloudflare Web Analytics (no cookies), loaded only when `CF_ANALYTICS_TOKEN` is set.
+- [ ] Have the privacy policy and terms read by a lawyer, and set `CONTACT_EMAIL` (shown on both pages).
 
 ### Done
 

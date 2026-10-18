@@ -19,6 +19,10 @@ const schema = z.object({
   // Cloudflare Turnstile on the share form. Both or neither; without them the check is skipped.
   NEXT_PUBLIC_TURNSTILE_SITE_KEY: z.string().optional(),
   TURNSTILE_SECRET_KEY: z.string().optional(),
+  // Shown on the privacy and terms pages for questions and removal requests.
+  CONTACT_EMAIL: z.email().optional(),
+  // Cloudflare Web Analytics (no cookies). Without it, no analytics script is loaded.
+  CF_ANALYTICS_TOKEN: z.string().optional(),
 });
 
 export const env = schema.parse(process.env);

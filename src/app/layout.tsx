@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Mono, Newsreader } from "next/font/google";
+import Script from "next/script";
 import type { ReactNode } from "react";
 import { SITE_DESCRIPTION } from "@/features/cases/jsonld";
 import { env } from "@/lib/server/env";
@@ -35,7 +36,17 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={`${serif.variable} ${mono.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* Cloudflare Web Analytics: page counts without cookies. Only when a token is set. */}
+        {env.CF_ANALYTICS_TOKEN && (
+          <Script
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={JSON.stringify({ token: env.CF_ANALYTICS_TOKEN })}
+            strategy="afterInteractive"
+          />
+        )}
+      </body>
     </html>
   );
 }

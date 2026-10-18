@@ -46,6 +46,8 @@ src/app/                         routes only
   api/cases/[slug]/route.ts      a case file's full text as JSON, pre-built per case; fetched when a case is opened on the map
   api/auth/[...all]/route.ts     Better Auth: Google sign-in, sign-out, session
   (site)/my-stories/page.tsx     your own stories and their review status; delete them or your account (dynamic, noindex)
+  (site)/privacy, (site)/terms   the privacy policy and terms of use (content in features/legal)
+  (site)/layout.tsx              the footer on every page outside the map
   (site)/case/[slug]/page.tsx    pre-rendered page per famous case (SEO)
   (site)/story/[slug]/page.tsx   pre-rendered page per approved story (SEO)
   admin/layout.tsx               admin shell (brand, sign out)
@@ -84,6 +86,8 @@ src/features/
     actions.ts                   "use server": deleteMyStory, deleteMyAccount, signOut
     queries.ts                   the signed-in person's stories (server-only)
     AccountButton.tsx MyStories.tsx SignInButton.tsx
+  legal/
+    PrivacyPolicy.tsx TermsOfUse.tsx Legal.tsx   the two policies, written to match what the code does
   cases/
     queries.ts CaseArticle.tsx   famous cases; case file shared by the page and the sheet
   moderation/
@@ -96,8 +100,8 @@ src/features/
   reports/
     actions.ts                   "use server": reportStory (sign-in, one per account, 3 reports hide a story)
     ReportButton.tsx             report dialog (Base UI Dialog + RadioGroup), on the story page and sheet
-src/components/                  shared UI with no feature knowledge: brand.tsx, PageTop.tsx, article.tsx
-  ui/                            Base UI wrappers: TextField/TextArea, SelectField, ConfirmButton, IconButton (SVG icons, never text glyphs)
+src/components/                  shared UI with no feature knowledge: brand.tsx, PageTop.tsx, article.tsx, SiteFooter.tsx
+  ui/                            Base UI wrappers: TextField/TextArea, SelectField, ConfirmButton, IconButton (SVG icons, never text glyphs), ShareButton
 src/db/
   schema.ts                      cases, stories, echoes, reports, admin_sessions; users, sessions, accounts, verifications (Better Auth)
   client.ts                      SQLite connection (WAL, busy_timeout, foreign keys), dev-safe singleton
@@ -162,6 +166,7 @@ public/towns.json                towns for the share form's search (generated; d
 - The town list leaves out places that Natural Earth files under another country in disputed areas (`DISPUTED_ADM1` in `scripts/build-towns.ts`), and Indian places show their Indian state.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.
 - Famous cases must present what was reported **and** the explanations offered, without taking a side. Don't write that a case is proven.
+- The privacy policy (`features/legal/PrivacyPolicy.tsx`) describes exactly what's collected. If you change what's stored, sent to a third party or kept in cookies, update it and its date in the same change.
 
 ### Globe engine
 
@@ -204,4 +209,6 @@ Read them through `env` from `src/lib/server/env.ts`, never `process.env` direct
 | `TRUST_PROXY`                    | `none` (default), `cloudflare` or `forwarded`: which proxy header the visitor IP is read from (`lib/proxy.ts`) |
 | `NEXT_PUBLIC_TURNSTILE_SITE_KEY` | Turnstile site key (public, needed at build time). Without both keys the check is skipped                      |
 | `TURNSTILE_SECRET_KEY`           | Turnstile secret, checked on the server in `submitStory`                                                       |
+| `CONTACT_EMAIL`                  | Shown on the privacy and terms pages for questions and removal requests                                        |
+| `CF_ANALYTICS_TOKEN`             | Cloudflare Web Analytics (no cookies). Without it, no analytics script loads                                   |
 | `NEXT_PUBLIC_SITE_URL`           | Canonical site URL for the sitemap and metadata                                                                |

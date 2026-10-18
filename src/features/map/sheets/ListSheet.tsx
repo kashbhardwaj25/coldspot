@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState, type CSSProperties, type KeyboardEvent } from "react";
 import { catColor } from "@/lib/format";
 import { itemKey, itemName, type MapItem } from "@/lib/types";
@@ -65,6 +66,9 @@ export function ListSheet({ title, items, onPick }: Props) {
           ))}
         </div>
       )}
+      <p className="list-foot">
+        <Link href="/privacy">Privacy</Link> · <Link href="/terms">Terms</Link>
+      </p>
     </div>
   );
 }

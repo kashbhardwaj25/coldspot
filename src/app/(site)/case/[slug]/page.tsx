@@ -5,6 +5,7 @@ import Link from "next/link";
 import { SectionHeading } from "@/components/article";
 import { JsonLd } from "@/components/JsonLd";
 import { PageTop } from "@/components/PageTop";
+import { ShareButton } from "@/components/ui/ShareButton";
 import { CaseArticle } from "@/features/cases/CaseArticle";
 import { CaseLinks } from "@/features/cases/CaseLinks";
 import { caseJsonLd } from "@/features/cases/jsonld";
@@ -45,7 +46,11 @@ export default async function CasePage({ params }: Params) {
           <i className="d" />
           {cat.label} · Case file
         </span>
-        <CaseArticle c={c} variant="page" />
+        <CaseArticle
+          c={c}
+          variant="page"
+          actions={<ShareButton path={`/case/${c.slug}`} title={c.title} text={c.hook} />}
+        />
         <section className="related">
           <SectionHeading variant="page">Nearby cases</SectionHeading>
           <CaseLinks cases={nearby} />

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ShareButton } from "@/components/ui/ShareButton";
 import { ArticleTitle } from "@/components/article";
 import { CaseArticle } from "@/features/cases/CaseArticle";
 import { STORIES_ENABLED } from "@/lib/features";
@@ -33,6 +34,7 @@ export function CaseSheet({ c, stories, onNearby }: Props) {
           <Link className="btn" href={`/case/${c.slug}`}>
             Full page
           </Link>
+          <ShareButton path={`/case/${c.slug}`} title={c.title} text={c.hook} />
         </>
       }
     />

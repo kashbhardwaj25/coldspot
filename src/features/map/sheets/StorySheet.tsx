@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { ShareButton } from "@/components/ui/ShareButton";
 import { useState, useTransition } from "react";
 import { signInWithGoogle, useSignedIn } from "@/features/accounts/client";
 import { ReportButton } from "@/features/reports/ReportButton";
@@ -50,6 +51,7 @@ export function StorySheet({ s, echoState, setEchoState }: Props) {
         <Link className="btn" href={`/story/${s.slug}`}>
           Full page
         </Link>
+        <ShareButton path={`/story/${s.slug}`} title={`${s.place}: a story on Coldspot`} text={s.hook} />
         <ReportButton slug={s.slug} returnTo={`/?story=${s.slug}`} />
       </div>
     </StoryArticle>
