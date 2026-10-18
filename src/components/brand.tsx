@@ -27,21 +27,16 @@ export const Icon: Record<"plus" | "sound" | "shuffle" | "list", ReactNode> = {
   ),
 };
 
+/** The Coldspot mark: isotherm rings drawing in towards a cold core, inside the dashed tuning ring. */
 export function Logo() {
   return (
-    <svg className="mark" viewBox="0 0 20 20" aria-hidden="true">
-      <circle cx="10" cy="10" r="2.2" fill="currentColor" />
-      <circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor" strokeWidth="1.3" opacity=".75" />
-      <circle
-        cx="10"
-        cy="10"
-        r="9"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.1"
-        strokeDasharray="2 2.6"
-        opacity=".5"
-      />
+    <svg className="mark" viewBox="0 0 32 32" aria-hidden="true">
+      <g fill="none" stroke="currentColor" strokeLinecap="round">
+        <circle cx="16" cy="16" r="14.2" strokeWidth="1.3" strokeDasharray="0.1 3.62" opacity=".55" />
+        <circle cx="16.6" cy="15.4" r="10.2" strokeWidth="1.5" opacity=".45" />
+        <circle cx="17.3" cy="14.7" r="6.3" strokeWidth="1.7" opacity=".75" />
+      </g>
+      <circle cx="17.9" cy="14.1" r="2.7" fill="currentColor" />
     </svg>
   );
 }
