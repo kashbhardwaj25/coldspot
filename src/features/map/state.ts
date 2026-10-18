@@ -1,8 +1,11 @@
+import type { ShareDraft } from "@/features/stories/draft";
 import type { MapItem } from "@/lib/types";
 
 /** Which bottom sheet is open. */
 export type SheetState =
-  { type: "item"; item: MapItem } | { type: "list" } | { type: "share"; center: { lat: number; lon: number } };
+  | { type: "item"; item: MapItem }
+  | { type: "list" }
+  | { type: "share"; center: { lat: number; lon: number }; draft?: ShareDraft };
 
 /** Echo count per story slug, and whether this visitor has echoed it. */
 export type EchoState = Record<string, { echoes: number; mine: boolean }>;

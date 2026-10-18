@@ -5,14 +5,14 @@ import type { Category } from "@/lib/categories";
 import { catColor } from "@/lib/format";
 import { signal } from "@/lib/signal";
 import { itemKey, type CaseSummary, type MapItem, type Mode, type StoryItem } from "@/lib/types";
-import type { View } from "@/features/globe/engine";
 import { MapHeader } from "./MapHeader";
 import { Ring, ZoomControls } from "./parts";
 import { Sheet } from "./sheets/Sheet";
 import type { SheetState } from "./state";
 import { TunerCard } from "./TunerCard";
 import { useEchoes } from "./useEchoes";
-import { allCategories, toMarkers, useGlobe, VIEWS } from "./useGlobe";
+import { allCategories, toMarkers, useGlobe } from "./useGlobe";
+import { useMapActions } from "./useMapActions";
 import { useSound } from "./useSound";
 
 type Props = { cases: CaseSummary[]; stories: StoryItem[] };
@@ -43,6 +43,7 @@ export default function ColdspotApp({ cases, stories }: Props) {
       onReady: (e, m) => {
         e.setItems(toMarkers(itemsFor(m), allCategories()), m === "famous");
         setMode(m);
+        resumeShare();
       },
       onTune: setTunedKey,
       onNearest: setNearestKey,
@@ -66,15 +67,16 @@ export default function ColdspotApp({ cases, stories }: Props) {
     return () => cancelAnimationFrame(id);
   }, [engine, mode]);
 
-  const switchMode = (m: Mode, target?: View) => {
-    setMode(m);
-    setActive(allCategories());
-    const e = engine.current;
-    if (!e) return;
-    e.clearTune();
-    const v = target ?? VIEWS[m];
-    e.flyTo(v.lon, v.lat, v.zoom, 1300);
-  };
+  const { switchMode, random, pickFromList, openShare, resumeShare } = useMapActions({
+    engine,
+    mode,
+    active,
+    tunedKey,
+    itemsFor,
+    setMode,
+    setActive,
+    setSheet,
+  });
 
   const toggleCategory = (c: Category) =>
     setActive((prev) => {
@@ -83,27 +85,6 @@ export default function ColdspotApp({ cases, stories }: Props) {
       else if (next.size > 1) next.delete(c);
       return next;
     });
-
-  const random = () => {
-    const pool = itemsFor(mode).filter((i) => active.has(i.category) && itemKey(i) !== tunedKey);
-    const pick = pool[Math.floor(Math.random() * pool.length)];
-    if (!pick) return;
-    const zoom = mode === "famous" ? 2.2 + Math.random() : 3.6 + Math.random() * 1.5;
-    engine.current?.pin(itemKey(pick));
-    engine.current?.flyTo(pick.lon, pick.lat, zoom);
-  };
-
-  const pickFromList = (item: MapItem) => {
-    setSheet(null);
-    setActive((prev) => new Set(prev).add(item.category));
-    engine.current?.pin(itemKey(item));
-    engine.current?.flyTo(item.lon, item.lat, item.kind === "case" ? 2.4 : 4);
-  };
-
-  const openShare = () => {
-    const center = engine.current?.center() ?? { lat: VIEWS.people.lat, lon: VIEWS.people.lon };
-    setSheet({ type: "share", center });
-  };
 
   const closeSheet = useCallback(() => setSheet(null), []);
 

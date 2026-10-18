@@ -98,7 +98,7 @@ function content(p: Props): [ReactNode, ReactNode] {
         <span key="h" className="tag">
           Share a story
         </span>,
-        <ShareSheet key="b" center={sheet.center} onClose={p.onClose} />,
+        <ShareSheet key="b" center={sheet.center} draft={sheet.draft} onClose={p.onClose} />,
       ];
   }
 }

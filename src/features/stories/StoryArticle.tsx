@@ -22,6 +22,7 @@ export function StoryArticle({ s, variant, lastField, children }: Props) {
             {s.region}
             {s.year ? ` · ${s.year}` : ""}
           </span>
+          <span>Shared by {s.penName ?? "Anonymous"}</span>
         </div>
       </div>
       <p className="quote">{s.hook}</p>

@@ -29,6 +29,69 @@ export const cases = sqliteTable("cases", {
   createdAt: createdAt(),
 });
 
+// Accounts (Better Auth). Sign-in is Google only, and we keep just the Google account and the email address:
+// no name, photo, OAuth tokens, IP address or user agent (see `features/accounts/auth.ts`).
+const stamp = (name: string) => integer(name, { mode: "timestamp_ms" }).notNull();
+
+export const users = sqliteTable("users", {
+  id: text("id").primaryKey(),
+  name: text("name").notNull().default(""),
+  email: text("email").notNull().unique(),
+  emailVerified: integer("email_verified", { mode: "boolean" }).notNull().default(false),
+  image: text("image"),
+  createdAt: stamp("created_at"),
+  updatedAt: stamp("updated_at"),
+});
+
+export const sessions = sqliteTable(
+  "sessions",
+  {
+    id: text("id").primaryKey(),
+    token: text("token").notNull().unique(),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    expiresAt: stamp("expires_at"),
+    ipAddress: text("ip_address"),
+    userAgent: text("user_agent"),
+    createdAt: stamp("created_at"),
+    updatedAt: stamp("updated_at"),
+  },
+  (t) => [index("sessions_user_idx").on(t.userId)],
+);
+
+export const accounts = sqliteTable(
+  "accounts",
+  {
+    id: text("id").primaryKey(),
+    accountId: text("account_id").notNull(),
+    providerId: text("provider_id").notNull(),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    accessToken: text("access_token"),
+    refreshToken: text("refresh_token"),
+    idToken: text("id_token"),
+    accessTokenExpiresAt: integer("access_token_expires_at", { mode: "timestamp_ms" }),
+    refreshTokenExpiresAt: integer("refresh_token_expires_at", { mode: "timestamp_ms" }),
+    scope: text("scope"),
+    password: text("password"),
+    createdAt: stamp("created_at"),
+    updatedAt: stamp("updated_at"),
+  },
+  (t) => [index("accounts_user_idx").on(t.userId)],
+);
+
+/** Short-lived sign-in state (OAuth). */
+export const verifications = sqliteTable("verifications", {
+  id: text("id").primaryKey(),
+  identifier: text("identifier").notNull(),
+  value: text("value").notNull(),
+  expiresAt: stamp("expires_at"),
+  createdAt: stamp("created_at"),
+  updatedAt: stamp("updated_at"),
+});
+
 /** People's stories. Submissions arrive as `pending` and go live when approved. */
 export const stories = sqliteTable(
   "stories",
@@ -55,21 +118,31 @@ export const stories = sqliteTable(
     echoSeed: integer("echo_seed").notNull().default(0),
     // SHA-256 of IP + secret, used only for rate limiting.
     ipHash: text("ip_hash"),
+    // Who shared it. Never shown in public; deleting the account deletes their stories. Null for samples.
+    userId: text("user_id").references(() => users.id, { onDelete: "cascade" }),
+    // Shown in public instead of any account detail. Null means "Anonymous".
+    penName: text("pen_name"),
     createdAt: createdAt(),
     reviewedAt: integer("reviewed_at", { mode: "timestamp" }),
   },
-  (t) => [index("stories_status_idx").on(t.status), index("stories_ip_idx").on(t.ipHash, t.createdAt)],
+  (t) => [
+    index("stories_status_idx").on(t.status),
+    index("stories_ip_idx").on(t.ipHash, t.createdAt),
+    index("stories_user_idx").on(t.userId, t.createdAt),
+  ],
 );
 
-/** "Echo this, I've seen something similar." One per visitor per story. */
+/** "Echo this, I've seen something similar." One per account per story. */
 export const echoes = sqliteTable(
   "echoes",
   {
     storyId: integer("story_id")
       .notNull()
       .references(() => stories.id, { onDelete: "cascade" }),
-    visitorId: text("visitor_id").notNull(),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
     createdAt: createdAt(),
   },
-  (t) => [primaryKey({ columns: [t.storyId, t.visitorId] })],
+  (t) => [primaryKey({ columns: [t.storyId, t.userId] }), index("echoes_user_idx").on(t.userId)],
 );

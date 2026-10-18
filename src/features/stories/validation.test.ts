@@ -39,6 +39,12 @@ describe("blockedContent: links", () => {
   it("checks the place and witness fields too", () => {
     expect(blocked("", { place: "example.com" })).toMatch(/links/);
     expect(blocked("", { witnesses: "see www.example.org" })).toMatch(/links/);
+    expect(blocked("", { penName: "example.com" })).toMatch(/links/);
+  });
+
+  it("limits the pen name to 40 characters", () => {
+    expect(() => draft("", { penName: "x".repeat(41) })).toThrow(/pen name/);
+    expect(draft("", { penName: "  Night walker  " }).penName).toBe("Night walker");
   });
 });
 

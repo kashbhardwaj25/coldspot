@@ -25,6 +25,7 @@ export function ReviewCard({ story: s }: { story: PendingStory }) {
         {s.year && <span>Year: {s.year}</span>}
         {s.timeLabel && <span>Time: {s.timeLabel}</span>}
         {s.witnesses && <span>Witnesses: {s.witnesses}</span>}
+        <span>Pen name: {s.penName ?? "Anonymous"}</span>
       </div>
       <form action={approve} className="form">
         <input type="hidden" name="id" value={s.id} />

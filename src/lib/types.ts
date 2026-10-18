@@ -40,6 +40,8 @@ export type StoryItem = {
   year: number | null;
   timeLabel: string | null;
   witnesses: string | null;
+  /** The writer's chosen pen name, or null for "Anonymous". Never anything from their account. */
+  penName: string | null;
   hook: string;
   body: string[];
   isSample: boolean;

@@ -29,6 +29,7 @@ export const submission = z.object({
     ),
   timeLabel: z.string().trim().max(40).optional(),
   witnesses: z.string().trim().max(80).optional(),
+  penName: z.string().trim().max(40, "Keep the pen name under 40 characters.").optional(),
   story: z
     .string()
     .trim()
@@ -43,7 +44,7 @@ export type Submission = z.infer<typeof submission>;
 
 /** The error to show if the text contains links or phone numbers, otherwise null. */
 export function blockedContent(d: Submission): string | null {
-  const text = `${d.place} ${d.region} ${d.story} ${d.witnesses ?? ""}`;
+  const text = `${d.place} ${d.region} ${d.story} ${d.witnesses ?? ""} ${d.penName ?? ""}`;
   if (LINK_RE.test(text) || WORD_TLD_RE.test(text)) return "Remove links and website names from your story.";
   if (hasPhone(text)) return "Remove phone numbers from your story.";
   return null;

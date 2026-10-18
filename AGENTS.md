@@ -14,7 +14,8 @@ Coldspot is a website with a Radio Garden-style globe of unexplained encounters.
 - Plain CSS in `src/styles/`, imported in order by `src/app/globals.css` (no Tailwind, no CSS-in-JS); fonts through `next/font`
 - ESLint 9 (flat config), Prettier, Husky + lint-staged pre-commit hook
 - `zod` for validating input
-- Hosting target: a single VPS (SQLite on a persistent disk), Caddy, Litestream backups to Cloudflare R2, Cloudflare proxy in front
+- **Better Auth** for Google sign-in (sharing and echoing need an account; reading doesn't), stored in the same SQLite database
+- Hosting: Railway (the `Dockerfile`, SQLite on a volume) behind the Cloudflare proxy; a VPS with Caddy and Litestream backups to R2 is the documented alternative (`docs/DEPLOY.md`)
 
 ## Commands
 
@@ -42,6 +43,8 @@ Code is organised by feature. Routes in `src/app/` stay thin: they load data thr
 src/app/                         routes only
   (map)/page.tsx                 the globe at / (static, revalidate 300s; sends case summaries, renders ColdspotApp)
   api/cases/[slug]/route.ts      a case file's full text as JSON, pre-built per case; fetched when a case is opened on the map
+  api/auth/[...all]/route.ts     Better Auth: Google sign-in, sign-out, session
+  (site)/my-stories/page.tsx     your own stories and their review status; delete them or your account (dynamic, noindex)
   (site)/case/[slug]/page.tsx    pre-rendered page per famous case (SEO)
   (site)/story/[slug]/page.tsx   pre-rendered page per approved story (SEO)
   admin/layout.tsx               admin shell (brand, sign out)
@@ -55,8 +58,9 @@ src/features/
     useGlobe.ts                  creates the GlobeEngine, deep links, ring layout, marker mapping
     useEchoes.ts useSound.ts     echo state; Radio and the sound toggle
     useCaseFile.ts search.ts     load a case file on open (prefetched on tune-in); list search
+    useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
     state.ts                     SheetState, EchoState
-    sheets/                      Sheet (shell: focus, Esc) + CaseSheet, StorySheet, ListSheet, ShareSheet
+    sheets/                      Sheet (shell: focus, Esc) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields
   globe/                         framework-free canvas globe (no React, no Next)
     engine.ts                    GlobeEngine: public API, frame loop, input handling
     camera.ts input.ts motion.ts view and projection; pointer/keyboard; animations, momentum, snap
@@ -66,8 +70,16 @@ src/features/
     submit.ts                    "use server": submitStory
     echoes.ts                    "use server": toggleEcho, myEchoes
     validation.ts                zod schema, link/phone checks, blur(), firstSentence() (pure)
+    draft.ts                     keeps a half-written story in localStorage while the writer signs in
     queries.ts                   approved stories (server-only)
     StoryArticle.tsx             story body shared by the page and the sheet
+  accounts/
+    auth.ts                      Better Auth instance (Google only), created lazily; strips everything but id and email
+    session.ts                   currentUser() for server code (server-only)
+    client.ts                    browser auth client, useSignedIn(), signInWithGoogle()
+    actions.ts                   "use server": deleteMyStory, deleteMyAccount, signOut
+    queries.ts                   the signed-in person's stories (server-only)
+    AccountButton.tsx MyStories.tsx SignInButton.tsx ConfirmButton.tsx
   cases/
     queries.ts CaseArticle.tsx   famous cases; case file shared by the page and the sheet
   moderation/
@@ -77,7 +89,7 @@ src/features/
     ReviewCard.tsx LoginForm.tsx
 src/components/                  shared UI with no feature knowledge: brand.tsx, PageTop.tsx, article.tsx
 src/db/
-  schema.ts                      cases, stories, echoes
+  schema.ts                      cases, stories, echoes; users, sessions, accounts, verifications (Better Auth)
   client.ts                      SQLite connection (WAL, busy_timeout, foreign keys), dev-safe singleton
 src/lib/                         shared, framework-free helpers
   categories.ts types.ts         category keys, labels, colours, status enums; CaseItem, StoryItem, MapItem
@@ -85,7 +97,7 @@ src/lib/                         shared, framework-free helpers
   format.ts geo.ts signal.ts     labels; formatCoords, haversineKm; observable for per-frame values
   server/env.ts                  environment variables, validated with zod
   server/security.ts             admin cookie (HMAC), IP hash, visitor id cookie
-src/styles/                      tokens, base, map, tuner, sheets, reading, forms, article, admin
+src/styles/                      tokens, base, map, tuner, sheets, reading, forms, article, account, admin
 src/data/                        seed-cases.ts (real), seed-stories.ts (samples, is_sample = true)
 scripts/setup.ts                 migrate and seed
 Dockerfile deploy/               production image; Docker Compose with Caddy and Litestream (see docs/DEPLOY.md)
@@ -118,14 +130,18 @@ public/land-50m.json             coastlines only
 
 ### First release: famous cases only
 
-- `STORIES_ENABLED` in `src/lib/features.ts` is `false`. Story queries return nothing, story pages and `/admin` are 404, the story server actions refuse requests, and the map hides the mode switch and the share and "stories near here" buttons. Keep all of these behind the flag when touching stories, so switching it on later is a one-line change.
+- `STORIES_ENABLED` in `src/lib/features.ts` is `false`. Story queries return nothing, story pages, `/my-stories`, `/admin` and `/api/auth` are 404, the story and account server actions refuse requests, and the map hides the mode switch, the sign-in button and the share and "stories near here" buttons. Keep all of these behind the flag when touching stories, so switching it on later is a one-line change.
 
 ### Privacy and safety (product rules, not style)
 
 - **Never store exact locations** for people's stories. `submitStory` rounds to a ~5 km grid (`blur()`); keep it that way.
 - IPs are stored only as a salted SHA-256 hash, and only for rate limiting.
+- **Accounts keep only the Google account id and the email address.** Google sign-in requests only `openid email`; `features/accounts/auth.ts` drops OAuth tokens and stores no IP address or user agent on sessions. Don't add the `profile` scope or store more without a decision.
+- Stories are anonymous in public: a pen name or "Anonymous". Never send an email address or `userId` to a public page or the map.
+- Sharing a story and echoing need sign-in; reading never does. One echo per account per story.
+- Deleting an account deletes its stories and echoes (`deleteMyAccount`). Keep that working; it's how people exercise their right to delete their data.
 - Submissions always start as `pending`. Nothing user-written reaches the public site without admin approval.
-- Keep the existing submission checks: honeypot field, 3 per IP per 24 hours, no links, no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
+- Keep the existing submission checks: sign-in, honeypot field, 3 per account and 3 per IP per 24 hours, no links (also in the pen name), no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
 - Content rules shown to users: no real names, no exact addresses, nothing about crime, violence or anyone getting hurt, no selling remedies, rituals or charms.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.
 - Famous cases must present what was reported **and** the explanations offered, without taking a side. Don't write that a case is proven.
@@ -152,7 +168,7 @@ public/land-50m.json             coastlines only
 1. `npm run check` passes (typecheck, lint, format). No file over 150 lines (see `docs/CODING.md`).
 2. `npm run build` passes (after `npm run db:setup`).
 3. If you touched the map, sheets or forms: run `npm run dev` and check the flow at 400px and at desktop width. Check that famous and people modes switch, a story tunes in, a sheet opens and closes, and Esc closes it.
-4. If you touched submissions or admin: submit a story, approve it at `/admin`, and confirm it shows on `/`, at `/story/<slug>` and in `/sitemap.xml`.
+4. If you touched submissions, accounts or admin: sign in, submit a story, approve it at `/admin`, and confirm it shows on `/`, at `/story/<slug>` and in `/sitemap.xml`. Without Google keys locally, insert a test user and session row and sign the `better-auth.session_token` cookie with `SESSION_SECRET` (HMAC-SHA256, base64, `token.signature`).
 5. Don't commit `.env.local`, `data/*.db*` or `.next/`.
 
 ## Environment variables
@@ -163,5 +179,7 @@ Read them through `env` from `src/lib/server/env.ts`, never `process.env` direct
 | ---------------------- | ----------------------------------------------------------------------------------------- |
 | `DATABASE_PATH`        | SQLite file path. Default `data/coldspot.db`. Must be on a persistent disk in production. |
 | `ADMIN_PASSWORD`       | Password for `/admin`. The value `change-me` is refused.                                  |
-| `SESSION_SECRET`       | 16+ character secret. Signs the admin cookie and salts IP hashes.                         |
+| `SESSION_SECRET`       | 16+ character secret. Signs the admin cookie and sign-in sessions, and salts IP hashes.   |
+| `GOOGLE_CLIENT_ID`     | Google OAuth client for sign-in (Google Cloud Console)                                    |
+| `GOOGLE_CLIENT_SECRET` | Its secret. Never commit it or paste it anywhere public.                                  |
 | `NEXT_PUBLIC_SITE_URL` | Canonical site URL for the sitemap and metadata                                           |

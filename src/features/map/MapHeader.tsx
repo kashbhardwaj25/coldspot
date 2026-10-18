@@ -7,6 +7,7 @@ import type { MapItem, Mode } from "@/lib/types";
 import { Icon } from "@/components/brand";
 import { STORIES_ENABLED } from "@/lib/features";
 import { Logo } from "@/components/Logo";
+import { AccountButton } from "@/features/accounts/AccountButton";
 
 const NOTES: Record<Mode, string> = {
   famous: "Real, well-known cases, with the explanations offered.",
@@ -53,6 +54,7 @@ export function MapHeader({ ref, items, ...p }: Props) {
               <span>Share a story</span>
             </button>
           )}
+          {STORIES_ENABLED && <AccountButton />}
           <button
             type="button"
             className="btn"

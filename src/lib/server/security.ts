@@ -10,7 +10,6 @@ const secret = () => {
 };
 
 export const ADMIN_COOKIE = "cs_admin";
-export const VISITOR_COOKIE = "cs_vid";
 
 /** Constant-time string comparison. */
 export function safeEqual(a: string, b: string) {
@@ -34,25 +33,4 @@ export async function ipHash() {
   const ip =
     h.get("cf-connecting-ip") ?? h.get("x-real-ip") ?? h.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "local";
   return createHash("sha256").update(`${secret()}:${ip}`).digest("hex");
-}
-
-/** Anonymous id for echoes, or null if this visitor has none yet. */
-export async function getVisitorId() {
-  return (await cookies()).get(VISITOR_COOKIE)?.value ?? null;
-}
-
-/** Anonymous id for echoes. Created on first use. */
-export async function ensureVisitorId() {
-  const jar = await cookies();
-  const existing = jar.get(VISITOR_COOKIE)?.value;
-  if (existing) return existing;
-  const id = crypto.randomUUID();
-  jar.set(VISITOR_COOKIE, id, {
-    httpOnly: true,
-    sameSite: "lax",
-    secure: process.env.NODE_ENV === "production",
-    maxAge: 60 * 60 * 24 * 365,
-    path: "/",
-  });
-  return id;
 }

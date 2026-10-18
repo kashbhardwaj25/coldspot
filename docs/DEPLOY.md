@@ -66,6 +66,10 @@ Once stories are on, the database holds data that exists nowhere else (submissio
 
 - Keep the `/data` volume attached, and set up backups. Railway offers volume backups in its dashboard; alternatively, run Litestream to Cloudflare R2 (see `deploy/litestream.yml` and the server setup below).
 - Set `ADMIN_PASSWORD` in Railway's variables.
+- Set up Google sign-in, which sharing and echoing need:
+  1. In [Google Cloud Console](https://console.cloud.google.com/), create a project, then **APIs & Services → OAuth consent screen**: app name "Coldspot", your support email, and only the basic scopes (`openid`, `email`). These don't need Google's review. Publish the app ("In production") so anyone can sign in.
+  2. **Credentials → Create credentials → OAuth client ID**, type "Web application". Add the authorised redirect URIs `https://yourdomain.com/api/auth/callback/google` and, for local testing, `http://localhost:3000/api/auth/callback/google`.
+  3. Add `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` to Railway's variables (and to `.env.local` for local testing). Never commit the secret.
 - Read the pre-launch items for stories in `docs/TASKS.md` (Turnstile, moderation, privacy policy).
 
 ## Troubleshooting

@@ -129,7 +129,7 @@
   filter: brightness(1.08);
 }
 .btn.danger {
-  color: #e3836a;
+  color: var(--danger);
   border-color: rgba(227, 131, 106, 0.4);
 }
 .btn svg {
@@ -332,6 +332,19 @@
     width: 34px;
     padding: 0;
     justify-content: center;
+  }
+  /* Five buttons (people's stories, with Share) don't fit beside the full-size wordmark at 400px. */
+  .bar:has(.actions > :nth-child(5)) .actions {
+    gap: 6px;
+  }
+  .bar:has(.actions > :nth-child(5)) .brand b {
+    font-size: 18px;
+    letter-spacing: 0.15em;
+    gap: 7px;
+  }
+  .bar:has(.actions > :nth-child(5)) .brand span {
+    font-size: 9px;
+    letter-spacing: 0.1em;
   }
   .seg {
     width: 100%;

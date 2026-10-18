@@ -62,11 +62,12 @@ For people's stories:
 - Nothing about crime, murder, violence or anyone getting hurt.
 - No selling remedies, rituals, charms or stones.
 - No witchcraft accusations against real people. In India these can cause real harm.
-- Every submission is reviewed before it's published.
+- Every submission is reviewed by hand before it's published.
+- Sharing needs a Google sign-in, but stories are anonymous in public: a pen name or "Anonymous". We keep only the Google account id and email, and people can delete their stories or their whole account.
 
 Spam protection, in layers:
 
-- **Built:** honeypot field, 3 posts per IP per day, and link and phone-number blocking.
+- **Built:** Google sign-in to share, honeypot field, 3 posts per account and per IP per day, and link and phone-number blocking.
 - **Planned:** Cloudflare Turnstile, an automatic moderation API, a report button with automatic hiding, and trusted submitters who can publish directly after a few approved stories.
 
 ## Competition
@@ -101,7 +102,7 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 
 - Website first; the Android app (Capacitor) comes later.
 - Next.js with SQLite, our own backend under our control, and the admin panel inside the Next.js app. Supabase was considered and rejected in favour of full control.
-- Hosting: a small VPS (about $5–7 a month) near India, with Caddy, Litestream backups to R2, and the Cloudflare proxy in front. Narration audio will live on R2 later.
+- Hosting: Railway (about $5 a month) with SQLite on a volume, and the Cloudflare proxy in front. A small VPS with Caddy and Litestream is the fallback. Narration audio will live on R2 later.
 - Coastlines only on the map, no country borders.
 
 ## Decisions log
@@ -117,6 +118,9 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 | 2026-09-28 | Name: Coldspot (was Otherwave). Tagline: "Something happened here."                            |
 | 2026-09-28 | Website first, app later                                                                       |
 | 2026-09-28 | Stack: Next.js + SQLite, own backend, admin inside the app                                     |
+| 2026-10-18 | Host on Railway behind Cloudflare; the VPS setup stays documented as a fallback                |
+| 2026-10-18 | Every story is reviewed by hand. Automatic approval was considered and rejected                |
+| 2026-10-18 | Sharing and echoing need Google sign-in; reading doesn't. Stories show a pen name or Anonymous |
 
 ## Open questions
 

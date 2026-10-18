@@ -2,7 +2,7 @@ import { z } from "zod";
 
 /**
  * Environment variables, validated once at startup. Secrets are optional here so the site can still be built
- * without them; the code that needs a secret checks for it (see `security.ts` and `moderation/auth.ts`).
+ * without them; the code that needs a secret checks for it (see `security.ts`, `moderation/auth.ts` and `accounts/auth.ts`).
  * No `server-only` import: `scripts/setup.ts` loads this through `db/client.ts` outside Next.
  */
 const schema = z.object({
@@ -10,6 +10,9 @@ const schema = z.object({
   ADMIN_PASSWORD: z.string().optional(),
   SESSION_SECRET: z.string().optional(),
   NEXT_PUBLIC_SITE_URL: z.url().default("http://localhost:3000"),
+  // Google sign-in for sharing stories and echoes (Google Cloud Console → OAuth client).
+  GOOGLE_CLIENT_ID: z.string().optional(),
+  GOOGLE_CLIENT_SECRET: z.string().optional(),
 });
 
 export const env = schema.parse(process.env);

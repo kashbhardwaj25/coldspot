@@ -1,15 +1,46 @@
 "use client";
 
-import { useActionState, type ReactNode } from "react";
+import Link from "next/link";
+import { startTransition, useActionState, useEffect, useRef, useState, type FormEvent } from "react";
+import { signInWithGoogle, useSignedIn } from "@/features/accounts/client";
+import { clearDraft, RESUME_QUERY, saveDraft, type ShareDraft } from "@/features/stories/draft";
 import { submitStory, type SubmitState } from "@/features/stories/submit";
-import { CATEGORIES, CATEGORY_KEYS } from "@/lib/categories";
 import { formatCoords } from "@/lib/geo";
+import { ShareFields } from "./ShareFields";
 
-type Props = { center: { lat: number; lon: number }; onClose: () => void };
+type Props = { center: { lat: number; lon: number }; draft?: ShareDraft; onClose: () => void };
 
-/** The share form. The story is pinned where the ring is; the server blurs it to ~5 km. */
-export function ShareSheet({ center, onClose }: Props) {
+/** The share form. The story is pinned where the ring is; the server blurs it to ~5 km. Sending needs sign-in. */
+export function ShareSheet({ center, draft, onClose }: Props) {
   const [state, action, pending] = useActionState<SubmitState, FormData>(submitStory, null);
+  const signedIn = useSignedIn();
+  const formRef = useRef<HTMLFormElement>(null);
+  const [signInError, setSignInError] = useState<string | null>(null);
+  const [leaving, setLeaving] = useState(false);
+
+  useEffect(() => {
+    if (state?.ok) clearDraft();
+  }, [state]);
+
+  // Submitting through a transition rather than `action={…}` keeps what was typed if the server rejects it:
+  // React resets a form after a form action runs.
+  const onSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    startTransition(() => action(data));
+  };
+
+  // Google sign-in leaves the page, so keep the draft and reopen the form on the way back.
+  const signIn = async () => {
+    if (!formRef.current) return;
+    saveDraft(new FormData(formRef.current), center);
+    setLeaving(true);
+    const error = await signInWithGoogle(`/?${RESUME_QUERY}`);
+    if (error) {
+      setSignInError(error);
+      setLeaving(false);
+    }
+  };
 
   if (state?.ok) {
     return (
@@ -17,9 +48,12 @@ export function ShareSheet({ center, onClose }: Props) {
         <h2 className="s-title" id="sheetTitle">
           Your story is in the review queue
         </h2>
-        <p className="prose" style={{ margin: 0 }}>
-          Once it&apos;s approved, it appears on the map near {state.place}, and people nearby can echo it.
-        </p>
+        <div className="prose" style={{ margin: 0 }}>
+          <p>
+            Once it&apos;s approved, it appears on the map near {state.place}, where others who&apos;ve seen something
+            similar can echo it. You can follow it in <Link href="/my-stories">My stories</Link>.
+          </p>
+        </div>
         <button type="button" className="btn" onClick={onClose}>
           Back to the map
         </button>
@@ -27,6 +61,7 @@ export function ShareSheet({ center, onClose }: Props) {
     );
   }
 
+  const error = signInError ?? (state && !state.ok ? state.error : null);
   return (
     <>
       <div>
@@ -37,52 +72,14 @@ export function ShareSheet({ center, onClose }: Props) {
           <span>Stories are reviewed before they appear on the map.</span>
         </div>
       </div>
-      <form className="form" action={action} noValidate>
+      <form className="form" ref={formRef} onSubmit={onSubmit} noValidate>
         <input type="hidden" name="lat" value={center.lat} />
         <input type="hidden" name="lon" value={center.lon} />
         <div className="hp" aria-hidden="true">
           <label htmlFor="fWebsite">Website</label>
           <input id="fWebsite" name="website" tabIndex={-1} autoComplete="off" />
         </div>
-        <div className="f2">
-          <Field id="fCat" label="Category">
-            <select id="fCat" name="category" defaultValue="sky">
-              {CATEGORY_KEYS.map((k) => (
-                <option key={k} value={k}>
-                  {CATEGORIES[k].label}
-                </option>
-              ))}
-            </select>
-          </Field>
-          <Field id="fWhere" label="Town or area">
-            <input id="fWhere" name="place" placeholder="e.g. Munsiyari" required maxLength={80} />
-          </Field>
-          <Field id="fRegion" label="State and country">
-            <input id="fRegion" name="region" placeholder="e.g. Uttarakhand, India" maxLength={80} />
-          </Field>
-        </div>
-        <div className="f2">
-          <Field id="fYear" label="Year">
-            <input id="fYear" name="year" inputMode="numeric" placeholder="e.g. 2014" maxLength={4} />
-          </Field>
-          <Field id="fTime" label="Time of day">
-            <input id="fTime" name="timeLabel" placeholder="e.g. around 2 am" maxLength={40} />
-          </Field>
-          <Field id="fWit" label="Who else saw it?">
-            <input id="fWit" name="witnesses" placeholder="e.g. my brother and I" maxLength={80} />
-          </Field>
-        </div>
-        <Field id="fStory" label="Your story">
-          <textarea
-            id="fStory"
-            name="story"
-            placeholder="Start with the moment you noticed something was wrong."
-            required
-            maxLength={6000}
-            aria-describedby="fStoryHint"
-          />
-          <small id="fStoryHint">Leave a blank line between paragraphs.</small>
-        </Field>
+        <ShareFields draft={draft} />
         <p className="pin">
           Pinned where the ring is now: <b>{formatCoords(center.lat, center.lon)}</b>. The map shows only a ~5 km area.
           To move the pin, close this and drag the map.
@@ -92,26 +89,29 @@ export function ShareSheet({ center, onClose }: Props) {
           <li>Nothing about crime, violence or anyone getting hurt.</li>
           <li>No links, phone numbers, remedies, rituals or charms.</li>
         </ul>
-        {state && !state.ok && (
+        {error && (
           <p className="error" role="alert">
-            {state.error}
+            {error}
           </p>
         )}
-        <div>
-          <button className="btn primary" type="submit" disabled={pending}>
-            {pending ? "Sending…" : "Send for review"}
-          </button>
-        </div>
+        {signedIn === false ? (
+          <div className="signin-send">
+            <button className="btn primary" type="button" onClick={signIn} disabled={leaving}>
+              {leaving ? "Opening Google…" : "Sign in with Google to send"}
+            </button>
+            <small>
+              Sign-in keeps out spam. Your story shows your pen name, never your name or email. What you&apos;ve written
+              is kept while you sign in.
+            </small>
+          </div>
+        ) : (
+          <div>
+            <button className="btn primary" type="submit" disabled={pending || signedIn === null}>
+              {pending ? "Sending…" : "Send for review"}
+            </button>
+          </div>
+        )}
       </form>
     </>
-  );
-}
-
-function Field({ id, label, children }: { id: string; label: string; children: ReactNode }) {
-  return (
-    <div className="field">
-      <label htmlFor={id}>{label}</label>
-      {children}
-    </div>
   );
 }

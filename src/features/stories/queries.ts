@@ -10,7 +10,7 @@ const echoCount = sql<number>`(select count(*) from ${echoes} where ${echoes.sto
 
 type StoryRow = typeof stories.$inferSelect & { echoCount: number };
 
-/** Only the fields the browser needs. Never includes `ipHash` or raw dates. */
+/** Only the fields the browser needs. Never includes `ipHash`, `userId` or raw dates. */
 function toStoryItem(r: StoryRow): StoryItem {
   return {
     kind: "story",
@@ -23,6 +23,7 @@ function toStoryItem(r: StoryRow): StoryItem {
     year: r.year,
     timeLabel: r.timeLabel,
     witnesses: r.witnesses,
+    penName: r.penName,
     hook: r.hook,
     body: r.body,
     isSample: r.isSample,
