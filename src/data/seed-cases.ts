@@ -5367,5 +5367,575 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Using X-ray scans, scientists have shown that it is a Greek astronomical calculator, made around the 2nd or 1st century BCE. Turned by a handle, its gears modelled the movements of the sun, moon and planets, predicted eclipses and tracked the dates of the Olympic Games. Its full design is still being reconstructed.",
     "wiki": "Antikythera mechanism"
+  },
+  {
+    "slug": "hal-saflieni-hypogeum",
+    "category": "voices",
+    "title": "The Oracle Room of Ħal Saflieni",
+    "region": "Ħal Saflieni Hypogeum, Paola, Malta",
+    "lat": 35.87,
+    "lon": 14.51,
+    "dateLabel": "Carved about 5,000 years ago",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists, acoustics researchers and visitors",
+    "hook": "In an underground temple carved 5,000 years ago, a man's deep voice echoes through the whole complex, as if the rock itself were singing.",
+    "summary": [
+      "The Ħal Saflieni Hypogeum in Malta is a prehistoric underground complex carved into the rock on three levels, used as a sanctuary and burial site around 5,000 years ago. It was found by accident in 1902, when workers digging cisterns for new houses broke into it. It is a UNESCO World Heritage Site.",
+      "In one small chamber, known as the Oracle Room, a low male voice resonates strongly, and the sound seems to fill the rooms around it. Visitors have long described the effect as eerie."
+    ],
+    "explanation": "Acoustics studies have measured strong resonances in the chamber at low frequencies around 110 Hz, in the range of a deep male voice. Whether the builders shaped it deliberately for sound is debated. Claims that the frequency has special effects on the mind are not supported by solid evidence.",
+    "wiki": "Ħal Saflieni Hypogeum"
+  },
+  {
+    "slug": "earth-26-second-pulse",
+    "category": "voices",
+    "title": "Earth's 26-Second Pulse",
+    "region": "Gulf of Guinea, off West Africa",
+    "lat": 3.5,
+    "lon": 7.5,
+    "dateLabel": "Detected since the early 1960s",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Seismometers around the world",
+    "hook": "Every 26 seconds, a faint tremor ripples out from the Gulf of Guinea. Seismologists have known about it for 60 years, and still argue about the cause.",
+    "summary": [
+      "In the early 1960s, geologist Jack Oliver noticed a faint, regular 'pulse' on seismometers, repeating every 26 seconds. In 1962 he published a paper suggesting it came from somewhere in the Atlantic.",
+      "Later researchers traced it to the Bight of Bonny, in the Gulf of Guinea off the coast of West Africa. It is too weak to feel, but seismometers on several continents pick it up, and it has continued for decades."
+    ],
+    "explanation": "One leading idea is that ocean waves strike the continental shelf in a way that sets up a regular vibration in the Earth's crust. Another links it to volcanic activity near the island of São Tomé. Neither explanation has been confirmed, and similar pulses are not known anywhere else.",
+    "wiki": null
+  },
+  {
+    "slug": "ross-ice-shelf-song",
+    "category": "voices",
+    "title": "The Song of the Ross Ice Shelf",
+    "region": "Ross Ice Shelf, Antarctica",
+    "lat": -81.5,
+    "lon": -175.0,
+    "dateLabel": "Recorded 2014–2017; reported in 2018",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Seismic sensors buried in the ice",
+    "hook": "Scientists buried sensors in Antarctica's largest ice shelf and found it hums almost constantly, a song too low for human ears.",
+    "summary": [
+      "The Ross Ice Shelf is a floating slab of ice about the size of France. From 2014 to 2017, scientists buried 34 sensitive seismic sensors in its snow to study its structure.",
+      "They found that the ice shelf vibrates almost all the time, producing a range of low tones. When the recordings were sped up so people could hear them, they sounded like an eerie, shifting hum."
+    ],
+    "explanation": "The scientists concluded that wind blowing across the huge snow dunes on the ice shelf's surface makes the top layer of snow vibrate, like the skin of a drum. Changes in the 'song' could help scientists monitor the ice shelf for melting and cracking in the future.",
+    "wiki": "Ross Ice Shelf"
+  },
+  {
+    "slug": "singing-barkhan",
+    "category": "voices",
+    "title": "The Singing Dune of Altyn-Emel",
+    "region": "Altyn-Emel National Park, Almaty Region, Kazakhstan",
+    "lat": 43.86,
+    "lon": 78.56,
+    "dateLabel": "Known for centuries",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Local people, travellers and visitors",
+    "hook": "Between two mountain ranges in Kazakhstan stands a lone sand dune that groans like an organ when the sand slides.",
+    "summary": [
+      "In Altyn-Emel National Park in south-eastern Kazakhstan, a single huge sand dune, about 150 metres high and over a kilometre long, stands by itself between low mountains, far from any desert. In dry weather, when the wind blows or people slide down it, it gives out a deep, droning sound, like an organ or a distant aircraft.",
+      "Local legends explain the sound in different ways, and the dune is said to have stayed in the same place for centuries despite the wind."
+    ],
+    "explanation": "Like other 'booming dunes', its sound comes from dry, rounded sand grains sliding together in an avalanche. The surrounding winds blow from opposite directions in different seasons, which is thought to keep the dune in place.",
+    "wiki": null
+  },
+  {
+    "slug": "atencion-numbers-station",
+    "category": "voices",
+    "title": "The 'Atención' Numbers Station",
+    "region": "Broadcast from Cuba",
+    "lat": 22.95,
+    "lon": -82.5,
+    "dateLabel": "Heard since the 1960s; exposed in a trial in 2001",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Shortwave listeners and the FBI",
+    "hook": "For decades, a woman's voice on shortwave radio read out strings of numbers in Spanish. In 2001, it was heard in a US courtroom.",
+    "summary": [
+      "Shortwave listeners across the Americas have long heard a station that opens with the word 'Atención!' followed by a woman reading groups of numbers in Spanish. It was one of many 'numbers stations' that puzzled radio enthusiasts during the Cold War.",
+      "Its purpose was a matter of speculation, as no government admitted to running such stations."
+    ],
+    "explanation": "In 1998, the FBI arrested members of a Cuban spy ring in Florida, known as the Wasp Network. At their trial in 2001, prosecutors showed that the spies had used shortwave radios and decoding software to read secret instructions from the Atención broadcasts. It was the first time a numbers station was publicly tied to spies in court.",
+    "wiki": "Numbers station"
+  },
+  {
+    "slug": "serengeti-gong-rock",
+    "category": "voices",
+    "title": "The Gong Rock of the Serengeti",
+    "region": "Moru Kopjes, Serengeti, Tanzania",
+    "lat": -2.75,
+    "lon": 34.78,
+    "dateLabel": "Used for centuries",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Maasai people, earlier communities and visitors",
+    "hook": "In the middle of the Serengeti lies a great stone that rings like metal when struck, covered in hollows from centuries of drumming.",
+    "summary": [
+      "Among the rocky outcrops of the Moru Kopjes in the Serengeti lies a large, wedge-shaped boulder about 2 metres long. When struck with a smaller stone, it gives out clear, ringing, almost metallic notes, which change depending on where it is hit.",
+      "Its surface is covered in dozens of round hollows, worn by generations of people striking it. The Maasai are said to have used it to call people together for gatherings and ceremonies."
+    ],
+    "explanation": "Geologists explain that some granite boulders ring when struck because of their shape and the way they rest, which lets them vibrate freely. Archaeologists think the gong was used long before the Maasai arrived about two centuries ago, making it an ancient musical instrument.",
+    "wiki": null
+  },
+  {
+    "slug": "chime-repeating-burst",
+    "category": "voices",
+    "title": "The Signal That Repeats Every 16 Days",
+    "region": "CHIME radio telescope, near Penticton, British Columbia, Canada",
+    "lat": 49.32,
+    "lon": -119.62,
+    "dateLabel": "Detected from 2018; pattern reported in 2020",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Astronomers",
+    "hook": "A Canadian radio telescope picked up flashes of radio waves from another galaxy, arriving in a pattern that repeats every 16 days.",
+    "summary": [
+      "Fast radio bursts are flashes of radio waves lasting a few thousandths of a second, coming from far beyond our galaxy. Most are seen only once. In 2018, the CHIME telescope in British Columbia began detecting repeated bursts from one source, named FRB 20180916B.",
+      "In 2020, astronomers reported that its bursts follow a cycle: about four days of activity, then twelve days of silence, repeating every 16.35 days. The source was traced to a galaxy about 500 million light years away."
+    ],
+    "explanation": "Most astronomers think fast radio bursts come from magnetars, extremely magnetic neutron stars, and in 2020 one was caught producing a burst in our own galaxy. The 16-day cycle may come from the source orbiting another star or wobbling as it spins. Exactly what produces the pattern is still being studied.",
+    "wiki": "Fast radio burst"
+  },
+  {
+    "slug": "bhulbhulaiya-lucknow",
+    "category": "voices",
+    "title": "The Whispering Walls of the Bhulbhulaiya",
+    "region": "Bara Imambara, Lucknow, Uttar Pradesh, India",
+    "lat": 26.87,
+    "lon": 80.91,
+    "dateLabel": "Built in the 1780s",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Visitors and guides",
+    "hook": "In a maze of passages in Lucknow, guides strike a match against one wall, and a visitor across the hall hears it clearly.",
+    "summary": [
+      "The Bara Imambara in Lucknow was built in the 1780s by Nawab Asaf-ud-Daula, partly to give work to people during a famine. Above its great hall, which has no supporting beams, is the Bhulbhulaiya, a maze of hundreds of narrow, identical passages.",
+      "Guides show visitors how a whisper, the tearing of paper or the strike of a match on one side of the gallery around the hall can be heard clearly on the far side. It gave rise to the local saying that 'the walls have ears'."
+    ],
+    "explanation": "The effect comes from sound travelling along the hollow walls and curved surfaces with little loss, like the whispering galleries of Gol Gumbaz and St Paul's Cathedral. The maze itself is thought to have helped spread the weight of the great hall's roof.",
+    "wiki": "Bara Imambara"
+  },
+  {
+    "slug": "latoon-fairy-bush",
+    "category": "visitors",
+    "title": "The Fairy Bush of Latoon",
+    "region": "Latoon, County Clare, Ireland",
+    "lat": 52.88,
+    "lon": -8.95,
+    "dateLabel": "1999",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "A storyteller, local people and road builders",
+    "hook": "When a new motorway in Ireland was planned through a hawthorn bush, a storyteller warned it was a meeting place of the fairies. The road was moved.",
+    "summary": [
+      "In Irish folklore, lone hawthorn bushes and ancient circular earthworks, known as fairy forts, belong to the 'good people', the fairies, and harming them brings bad luck. Farmers across Ireland have long ploughed around them.",
+      "In 1999, the folklorist and storyteller Eddie Lenihan warned that a new road near Latoon, in County Clare, would destroy a whitethorn bush where, he said, local fairies gathered before setting out to fight their rivals. The story was reported around the world, and the road plans were altered to leave the bush standing."
+    ],
+    "explanation": "The fairies are folklore, but respect for fairy forts and bushes has protected many ancient sites across Ireland that might otherwise have been destroyed. The authorities did not say the fairies were the reason for the change, but the bush survived.",
+    "wiki": null
+  },
+  {
+    "slug": "big-grey-man",
+    "category": "visitors",
+    "title": "The Big Grey Man of Ben Macdhui",
+    "region": "Ben Macdhui, Cairngorms, Scotland",
+    "lat": 57.07,
+    "lon": -3.67,
+    "dateLabel": "Reported since 1925",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Mountaineers and hikers",
+    "hook": "A respected scientist told how, alone on a Scottish mountain in the mist, he heard huge footsteps following him, and fled in terror.",
+    "summary": [
+      "In 1925, J. Norman Collie, a respected chemist and mountaineer, told a mountaineering club that years earlier, while descending Ben Macdhui, the second-highest mountain in Britain, alone in the mist, he had heard crunching footsteps behind him, one for every few of his own, as if something enormous was following. He ran for miles.",
+      "Other climbers then came forward with similar stories of footsteps, a looming grey figure and a sudden feeling of dread on the mountain. It became known in Gaelic as Am Fear Liath Mòr, the Big Grey Man."
+    ],
+    "explanation": "Many think the giant figure is a Brocken spectre: a climber's own shadow cast onto mist below, magnified and ringed with light, which seems to move when they do. The footsteps may be echoes or the creaking of snow, and fear can grow in isolation on a misty summit.",
+    "wiki": "Am Fear Liath Mòr"
+  },
+  {
+    "slug": "tokoloshe",
+    "category": "visitors",
+    "title": "The Tokoloshe",
+    "region": "Eastern Cape and across southern Africa",
+    "lat": -32.0,
+    "lon": 27.5,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Zulu, Xhosa and other communities",
+    "hook": "In southern African folklore, a small, mischievous being called the tokoloshe comes at night, and some people still raise their beds on bricks to stay out of reach.",
+    "summary": [
+      "The tokoloshe is a figure of Zulu, Xhosa and other southern African folklore: a small, hairy, dwarf-like being that is said to cause mischief and illness, and can become invisible by drinking water or holding a pebble in its mouth.",
+      "Because the tokoloshe is said to be short, a custom grew of raising beds on bricks so it can't reach the sleeper. The practice is still seen in parts of South Africa."
+    ],
+    "explanation": "The tokoloshe is a folklore figure, and stories about it often explain misfortune, bad dreams or illness. Some researchers link the bed-raising custom to sleep paralysis, the frightening sense of a presence in the room while waking, which is common around the world.",
+    "wiki": "Tokoloshe"
+  },
+  {
+    "slug": "patupaiarehe",
+    "category": "visitors",
+    "title": "The Patupaiarehe",
+    "region": "Mount Pirongia, Waikato, New Zealand",
+    "lat": -37.99,
+    "lon": 175.09,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Māori tradition",
+    "hook": "Māori tradition tells of the patupaiarehe, fair-skinned people of the misty hills, who play haunting music on their flutes at night.",
+    "summary": [
+      "In Māori tradition, the patupaiarehe are a people who live in the high, misty forests of mountains such as Pirongia and the Hunua Ranges. They are said to be pale-skinned, with red or fair hair, and to come out only at night or in mist, as sunlight is harmful to them.",
+      "Stories tell that their flute music can be heard drifting from the hills, and that it sometimes lured people away."
+    ],
+    "explanation": "The patupaiarehe are figures of folklore, like the fairies of European tradition. Some writers have suggested the stories reflect early contact with other peoples, but there is no evidence for this, and many Māori see them as part of a spiritual landscape rather than a historical one.",
+    "wiki": "Patupaiarehe"
+  },
+  {
+    "slug": "ummo-letters",
+    "category": "visitors",
+    "title": "The Ummo Letters",
+    "region": "Madrid, Spain",
+    "lat": 40.42,
+    "lon": -3.7,
+    "dateLabel": "1960s – 1990s",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Hundreds of letter recipients",
+    "hook": "For decades, people in Spain received detailed typed letters from beings who said they came from a planet called Ummo.",
+    "summary": [
+      "From the mid-1960s, hundreds of people, mostly in Spain, received typed letters signed by beings who claimed to come from Ummo, a planet orbiting a star about 14 light years away. The letters described Ummo's science, society and language in great detail, with diagrams and a distinctive symbol.",
+      "In 1967, photographs of a craft bearing the Ummo symbol were taken near Madrid. The letters attracted a devoted following, and some scientists studied them seriously."
+    ],
+    "explanation": "In 1993, José Luis Jordán Peña, a Spanish psychologist, said he had written many of the letters as an experiment in how people come to believe things. Analysts had already found the photographs were faked, using a small model. Some followers still dispute his confession.",
+    "wiki": "Ummo"
+  },
+  {
+    "slug": "cergy-pontoise",
+    "category": "visitors",
+    "title": "The Cergy-Pontoise Case",
+    "region": "Cergy-Pontoise, Val-d'Oise, France",
+    "lat": 49.04,
+    "lon": 2.06,
+    "dateLabel": "26 November 1979",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Three young men",
+    "hook": "Three young men near Paris said one of them was taken by a glowing sphere. He reappeared a week later, and decades afterwards a friend admitted it was a hoax.",
+    "summary": [
+      "Early on 26 November 1979, three young men loading a car near Cergy-Pontoise, a new town outside Paris, said a ball of light surrounded the car while one of them, Franck Fontaine, sat inside. When it vanished, so had he.",
+      "He reappeared a week later, saying he had been aboard a craft. The case caused a sensation in France and was investigated by the police, who found no sign of a crime."
+    ],
+    "explanation": "Many investigators doubted the story at the time. In 2004, Jean-Pierre Prévost, one of the three, said in a book that they had invented the whole affair, and that Fontaine had been hiding with friends. The case is now widely regarded as a hoax.",
+    "wiki": "Cergy-Pontoise UFO incident"
+  },
+  {
+    "slug": "angelholm-1946",
+    "category": "visitors",
+    "title": "The Ängelholm Encounter",
+    "region": "Kronoskogen, Ängelholm, Sweden",
+    "lat": 56.24,
+    "lon": 12.86,
+    "dateLabel": "18 May 1946; told publicly from 1971",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Gösta Carlsson",
+    "hook": "A Swedish man said that in 1946 he met small beings beside a landed craft in a forest clearing, and that they taught him about healing plants.",
+    "summary": [
+      "Gösta Carlsson, a businessman from Ängelholm in southern Sweden, said that on the night of 18 May 1946 he was walking in the Kronoskogen forest when he came upon a disc-shaped craft in a clearing and several small figures in tight suits. He said one of them warned him away.",
+      "He kept the story to himself for decades. In the 1970s, after he had built a successful company making health products from pollen, he said the beings had given him the knowledge behind it. A monument with a model craft stands in the forest today."
+    ],
+    "explanation": "No other witnesses have been found, and his account appeared only 25 years later. Sceptics note that it grew in detail over time, and that it was told by a businessman who benefited from the publicity. Others say he was sincere.",
+    "wiki": null
+  },
+  {
+    "slug": "dokkaebi",
+    "category": "visitors",
+    "title": "The Dokkaebi",
+    "region": "Across Korea",
+    "lat": 36.5,
+    "lon": 127.8,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Korean tradition",
+    "hook": "Korean folklore tells of the dokkaebi, mischievous goblins who challenge travellers to wrestling matches at night.",
+    "summary": [
+      "In Korean folklore, dokkaebi are mischievous beings, sometimes said to be formed from old household objects like brooms. They are fond of playing tricks, love wrestling and challenge travellers to matches on lonely roads at night. Many carry a magic club that can produce whatever its owner wishes.",
+      "Stories describe dokkaebi rewarding good people and tricking greedy ones. Some tales say a traveller wrestling one all night might wake in the morning to find himself grappling with a broom or a tree."
+    ],
+    "explanation": "The dokkaebi are figures of folklore, different from the evil spirits of some traditions: they are usually playful rather than harmful. They remain popular in Korean children's stories, television dramas and festivals.",
+    "wiki": "Dokkaebi"
+  },
+  {
+    "slug": "mbale-meteorite",
+    "category": "sky",
+    "title": "The Mbale Meteorite",
+    "region": "Mbale, Uganda",
+    "lat": 1.08,
+    "lon": 34.18,
+    "dateLabel": "14 August 1992",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Thousands of residents of Mbale",
+    "hook": "One afternoon, an explosion over a Ugandan town rained stones from the sky, and a small one bounced off a banana tree onto a boy's head.",
+    "summary": [
+      "At about 3:40 pm on 14 August 1992, people in Mbale, in eastern Uganda, heard a deafening explosion and saw a smoke trail in the sky. Moments later, stones began falling over the town and surrounding countryside, punching holes in roofs.",
+      "One small fragment, weighing a few grams, fell through the leaves of a banana tree and struck a boy on the head. The leaves had slowed it down, and he was unhurt."
+    ],
+    "explanation": "Scientists identified the stones as fragments of a meteorite, an ordinary stony type, which broke apart in the air and scattered pieces across an area of about 3 by 7 km. Many kilograms of fragments were collected. It is one of the best-documented meteorite falls in Africa.",
+    "wiki": "Mbale meteorite"
+  },
+  {
+    "slug": "murchison-meteorite",
+    "category": "sky",
+    "title": "The Murchison Meteorite",
+    "region": "Murchison, Victoria, Australia",
+    "lat": -36.62,
+    "lon": 145.2,
+    "dateLabel": "28 September 1969",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Residents of Murchison",
+    "hook": "A fireball over a small Australian town scattered stones that turned out to contain the building blocks of life, and grains of dust older than the Sun.",
+    "summary": [
+      "Late on the morning of 28 September 1969, people in Murchison, Victoria, saw a fireball split into pieces and heard a loud bang. Stones fell across the area, some through roofs, and one into a haystack. Residents noticed they smelled strongly of methylated spirits.",
+      "More than 100 kg of fragments were collected. Because it was gathered so quickly, it reached scientists unusually free of contamination."
+    ],
+    "explanation": "Studies found it contains amino acids and many other organic compounds formed in space. In 2020, scientists reported that some of its tiny grains are stardust from before the Sun was born, the oldest solid material known on Earth, possibly up to 7 billion years old.",
+    "wiki": "Murchison meteorite"
+  },
+  {
+    "slug": "alh84001",
+    "category": "sky",
+    "title": "The Mars Rock from Antarctica",
+    "region": "Allan Hills, Antarctica",
+    "lat": -76.72,
+    "lon": 159.67,
+    "dateLabel": "Found 1984; claim made in 1996",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Meteorite hunters and NASA scientists",
+    "hook": "A rock picked up from the Antarctic ice turned out to have come from Mars, and in 1996 scientists said it might hold fossils of tiny life.",
+    "summary": [
+      "In December 1984, a team searching for meteorites on the ice of the Allan Hills in Antarctica picked up a greenish rock. It was later shown to have come from Mars, blasted off by an impact millions of years ago, before landing in Antarctica about 13,000 years ago. It was labelled ALH84001.",
+      "In 1996, a NASA-led team announced that the rock contained chemical traces and tiny tube-shaped structures that might be fossils of ancient Martian bacteria. US President Bill Clinton made a televised statement about it."
+    ],
+    "explanation": "Most scientists now think the features can be explained without life: the shapes are too small for known bacteria, and the chemistry can form through ordinary processes. The rock is still studied, and it helped launch decades of research into whether Mars ever had life.",
+    "wiki": "Allan Hills 84001"
+  },
+  {
+    "slug": "charlie-red-star",
+    "category": "sky",
+    "title": "Charlie Red Star",
+    "region": "Carman, Manitoba, Canada",
+    "lat": 49.5,
+    "lon": -98.0,
+    "dateLabel": "1975 – 1976",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Hundreds of residents of southern Manitoba",
+    "hook": "For more than a year, a red light flew over the farms of southern Manitoba almost nightly, and residents gave it a friendly name.",
+    "summary": [
+      "In 1975, people in southern Manitoba, especially around the town of Carman, began seeing a bright red light in the night sky. It was described as a red ball, sometimes with a dome, hovering silently, moving slowly or darting away at speed. Sightings continued for about 16 to 18 months.",
+      "It was seen so often that residents nicknamed it Charlie Red Star. People drove out to the countryside at night hoping to see it, and some photographed and filmed it."
+    ],
+    "explanation": "No official explanation was ever given. Suggestions include planets and stars seen through unusual atmospheric conditions, aircraft, and mass enthusiasm turning ordinary lights into sightings. Carman still celebrates it, and a book of residents' accounts has since been published.",
+    "wiki": null
+  },
+  {
+    "slug": "bonilla-1883",
+    "category": "sky",
+    "title": "The Bonilla Observation",
+    "region": "Zacatecas Observatory, Zacatecas, Mexico",
+    "lat": 22.77,
+    "lon": -102.58,
+    "dateLabel": "12–13 August 1883",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Astronomer José Bonilla",
+    "hook": "In 1883, a Mexican astronomer watching the Sun counted more than 400 dark objects crossing its face, and photographed them.",
+    "summary": [
+      "On 12 August 1883, José Bonilla, director of the observatory in Zacatecas, was observing sunspots when he saw a stream of dark objects crossing in front of the Sun. Over two days he counted 447 of them, and took photographs, some of the earliest of their kind.",
+      "He published his observations in 1886 in the French journal L'Astronomie. No other observatory reported seeing them."
+    ],
+    "explanation": "The journal's editors suggested the objects were birds, insects or dust passing close to the telescope, which would explain why no one else saw them. In 2011, researchers at Mexico's national university argued they might have been fragments of a comet passing very close to Earth. Neither explanation is agreed.",
+    "wiki": "Bonilla observation"
+  },
+  {
+    "slug": "scandinavian-rockets-1946",
+    "category": "sky",
+    "title": "The Rockets of 1946",
+    "region": "Lake Kölmjärv, Norrbotten, and across Sweden",
+    "lat": 66.2,
+    "lon": 22.8,
+    "dateLabel": "Summer 1946",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Thousands of people across Scandinavia",
+    "hook": "In the summer of 1946, people across Sweden reported fast, rocket-like objects streaking through the sky. One appeared to crash into a lake.",
+    "summary": [
+      "Between May and December 1946, nearly 2,000 reports came in from Sweden, and more from Norway and Finland, of objects like rockets or missiles crossing the sky, often silently, sometimes with a fiery tail. The press called them 'ghost rockets'.",
+      "On 19 July 1946, witnesses at Lake Kölmjärv in northern Sweden said an object dived into the lake. The Swedish military searched the lake bed but found nothing. Fears grew that the Soviet Union was testing captured German rockets."
+    ],
+    "explanation": "A Swedish military investigation concluded that most reports were meteors, aircraft or imagination, but a small number could not be explained. No evidence of Soviet tests was ever found. The wave helped set the stage for the 'flying saucer' reports in America the following year.",
+    "wiki": "Ghost rockets"
+  },
+  {
+    "slug": "wabar-craters",
+    "category": "sky",
+    "title": "The Wabar Craters",
+    "region": "Rub' al Khali (Empty Quarter), Saudi Arabia",
+    "lat": 21.5,
+    "lon": 50.47,
+    "dateLabel": "Found in 1932",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Explorer Harry St John Philby",
+    "hook": "An explorer went into the Empty Quarter to find a lost city destroyed by fire from heaven. He found craters made by a meteorite.",
+    "summary": [
+      "Arab legends told of Wabar, or Ubar, a wealthy city in the deserts of Arabia destroyed by fire from heaven for its people's wickedness. In 1932, the British explorer Harry St John Philby set out across the Rub' al Khali, the Empty Quarter, guided by Bedouin who described ruins and pieces of iron at a place called al-Hadida.",
+      "Philby found no ruins. Instead he found several craters in the sand, littered with black glass and chunks of iron."
+    ],
+    "explanation": "The craters were made by an iron meteorite that broke up and struck the desert, probably only a few hundred years ago. One fragment, the 'camel's hump', weighs over two tonnes. The legend of a city destroyed by fire may have been inspired by the impact.",
+    "wiki": "Wabar craters"
+  },
+  {
+    "slug": "storsjo-monster",
+    "category": "creatures",
+    "title": "The Storsjö Monster",
+    "region": "Storsjön, Jämtland, Sweden",
+    "lat": 63.18,
+    "lon": 14.64,
+    "dateLabel": "Reported since the 1600s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Hundreds of residents and visitors",
+    "hook": "In a deep lake in central Sweden, people report a long creature with humps, and for 19 years it was officially a protected species.",
+    "summary": [
+      "Storsjön, 'the Great Lake', in the province of Jämtland, has a long tradition of a large creature, often described with a long neck, humps and a dog-like head. A local legend from the 1600s tells of trolls who created it. Hundreds of sightings have been reported since the 19th century.",
+      "In 1894, a company was set up to catch it, with specially made traps, without success. In 1986, the county government declared the creature a protected species, a status that was removed in 2005."
+    ],
+    "explanation": "No body, bones or clear photographs have been found. Suggested explanations include large fish, swimming elk or deer, floating logs and waves. The monster is a beloved local symbol, and a camera project has watched the lake for it.",
+    "wiki": "Storsjöodjuret"
+  },
+  {
+    "slug": "kting-voar",
+    "category": "creatures",
+    "title": "The Kting Voar",
+    "region": "Mondulkiri, Cambodia",
+    "lat": 12.5,
+    "lon": 107.0,
+    "dateLabel": "Reported in the 1990s",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Hunters, market traders and scientists",
+    "hook": "Strange twisted horns sold in Cambodian markets were said to come from a hidden, snake-eating forest ox. Scientists tested them.",
+    "summary": [
+      "In the 1990s, scientists exploring Cambodia and Vietnam came across unusual horns being sold in markets: long and spirally twisted, with frayed tips. Local hunters said they came from the kting voar, the 'wild cow with twisted horns', a rare forest animal that was said to eat snakes.",
+      "After the discovery of the saola in Vietnam, some scientists wondered if another unknown large mammal was waiting to be found, and the horns were described as a possible new species."
+    ],
+    "explanation": "Later DNA studies and close examination showed that the horns came from ordinary domestic cattle, and had been heated, twisted and carved, probably to sell as charms or trophies. Most scientists now consider the kting voar a mistake, though the region's forests have hidden real discoveries.",
+    "wiki": "Kting voar"
+  },
+  {
+    "slug": "bakunawa",
+    "category": "creatures",
+    "title": "The Bakunawa",
+    "region": "Visayas, Philippines",
+    "lat": 10.3,
+    "lon": 123.9,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Filipino tradition",
+    "hook": "In Philippine mythology, a giant sea serpent rises from the ocean to swallow the moon, and people bang pots to make it spit it out.",
+    "summary": [
+      "In the folklore of the Visayas and other parts of the Philippines, the bakunawa is an enormous sea serpent or dragon. In one version, the sky once held seven moons, and the bakunawa swallowed six of them. To protect the last one, people bang pots and pans and make noise until the creature spits it back out.",
+      "The bakunawa is linked to eclipses of the moon and sun, and to the tides."
+    ],
+    "explanation": "The story explains lunar and solar eclipses, which are now understood as the Earth or moon passing into each other's shadow. Similar stories of creatures swallowing the moon or sun are found in many cultures, from India to China.",
+    "wiki": "Bakunawa"
+  },
+  {
+    "slug": "inkanyamba",
+    "category": "creatures",
+    "title": "The Inkanyamba of Howick Falls",
+    "region": "Howick Falls, KwaZulu-Natal, South Africa",
+    "lat": -29.48,
+    "lon": 30.23,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Zulu tradition and local residents",
+    "hook": "Zulu tradition says a great serpent lives in the pool beneath Howick Falls, and that its anger brings summer storms.",
+    "summary": [
+      "In Zulu tradition, the inkanyamba is a huge serpent-like creature, sometimes described with a horse-like head, that lives in deep pools, especially the one beneath Howick Falls, a 95-metre waterfall in KwaZulu-Natal. It is said to be most active in summer, and its anger is blamed for violent storms and tornadoes.",
+      "Some local residents and visitors have reported seeing a large shape in the pool, and traditional healers have long made offerings there."
+    ],
+    "explanation": "No evidence of a large unknown animal has been found. Large eels live in the region's rivers, and some suggest they or other animals explain sightings. Many people see the inkanyamba as a spiritual figure connected to water and weather.",
+    "wiki": "Inkanyamba"
+  },
+  {
+    "slug": "cadejo",
+    "category": "creatures",
+    "title": "The Cadejo",
+    "region": "El Salvador and across Central America",
+    "lat": 13.7,
+    "lon": -89.2,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Rural communities across Central America",
+    "hook": "In Central America, travellers on lonely roads at night tell of a great black dog with burning eyes, and a white one that protects them from it.",
+    "summary": [
+      "In the folklore of El Salvador, Guatemala, Honduras, Nicaragua and southern Mexico, the cadejo is a large, dog-like creature that appears to people walking alone at night. The black cadejo, with glowing red eyes, is said to follow and frighten them.",
+      "The white cadejo is its opposite: a protective spirit that walks beside travellers and keeps the black one away."
+    ],
+    "explanation": "The cadejo is a figure of folklore, often told to warn people about travelling alone at night or to explain fear on dark roads. Stray dogs following walkers at night may have helped keep the stories alive.",
+    "wiki": "Cadejo"
+  },
+  {
+    "slug": "waitoreke",
+    "category": "creatures",
+    "title": "The Waitoreke",
+    "region": "South Island, New Zealand",
+    "lat": -44.5,
+    "lon": 169.0,
+    "dateLabel": "Reported since the 1700s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Early explorers, settlers and Māori tradition",
+    "hook": "New Zealand has no native land mammals except bats, yet settlers reported an otter-like animal in its rivers and lakes.",
+    "summary": [
+      "New Zealand's only native land mammals are bats. Yet since the 18th century, explorers and settlers on the South Island have reported a small, furry, otter- or beaver-like animal in rivers and lakes, called the waitoreke. Some accounts describe tracks and a creature slipping into the water.",
+      "Māori traditions of creatures in the water are sometimes linked to the reports."
+    ],
+    "explanation": "No specimen has ever been found. Suggested explanations include seals swimming up rivers, escaped pets or introduced animals, and misidentified birds. Some researchers have wondered whether a now-extinct mammal once lived there, as fossils of a small land mammal have been found in New Zealand dating back millions of years.",
+    "wiki": "Waitoreke"
+  },
+  {
+    "slug": "chuchunaa",
+    "category": "creatures",
+    "title": "The Chuchunaa",
+    "region": "Verkhoyansk Range, Yakutia, Russia",
+    "lat": 64.5,
+    "lon": 126.0,
+    "dateLabel": "Reported in the 1800s and 1900s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Yakut and Evenk people, and Soviet-era researchers",
+    "hook": "In the far north of Siberia, Yakut and Evenk people told of a tall, wild man dressed in animal skins, who lived in the mountains.",
+    "summary": [
+      "In Yakutia, in north-eastern Siberia, Yakut and Evenk people told of the chuchunaa: a tall, strong, human-like being with long hair, dressed in animal skins, that lived in remote parts of the Verkhoyansk mountains. Stories described it stealing food and reindeer, and avoiding people.",
+      "In the 20th century, Soviet researchers collected reports, many from the 1920s and 1930s, and some wondered if the chuchunaa might be a relict population of early humans."
+    ],
+    "explanation": "No body, bones or photographs have been found. Some researchers think the stories describe people living wild in the taiga, escaped prisoners or isolated hunters, rather than an unknown species. The reports have become rare in recent decades.",
+    "wiki": "Chuchunaa"
   }
 ];
