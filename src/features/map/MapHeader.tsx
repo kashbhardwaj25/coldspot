@@ -4,6 +4,7 @@ import { useMemo, type CSSProperties, type Ref } from "react";
 import { CATEGORIES, CATEGORY_KEYS, type Category } from "@/lib/categories";
 import type { MapItem, Mode } from "@/lib/types";
 import { Icon } from "@/components/brand";
+import { STORIES_ENABLED } from "@/lib/features";
 import { Logo } from "@/components/Logo";
 
 const NOTES: Record<Mode, string> = {
@@ -74,14 +75,16 @@ export function MapHeader({ ref, items, ...p }: Props) {
         </div>
       </div>
       <div className="band">
-        <div className="seg" role="group" aria-label="Choose what to tune in to">
-          <button type="button" aria-pressed={p.mode === "famous"} onClick={() => p.onMode("famous")}>
-            Famous cases <em>{p.totals.famous}</em>
-          </button>
-          <button type="button" aria-pressed={p.mode === "people"} onClick={() => p.onMode("people")}>
-            People&apos;s stories <em>{p.totals.people}</em>
-          </button>
-        </div>
+        {STORIES_ENABLED && (
+          <div className="seg" role="group" aria-label="Choose what to tune in to">
+            <button type="button" aria-pressed={p.mode === "famous"} onClick={() => p.onMode("famous")}>
+              Famous cases <em>{p.totals.famous}</em>
+            </button>
+            <button type="button" aria-pressed={p.mode === "people"} onClick={() => p.onMode("people")}>
+              People&apos;s stories <em>{p.totals.people}</em>
+            </button>
+          </div>
+        )}
         <p>{NOTES[p.mode]}</p>
       </div>
       <div className="chips" role="group" aria-label="Show categories">

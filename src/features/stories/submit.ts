@@ -2,6 +2,7 @@
 
 import { and, count, eq, gt } from "drizzle-orm";
 import { db, schema } from "@/db/client";
+import { STORIES_ENABLED } from "@/lib/features";
 import { ipHash } from "@/lib/server/security";
 import { blockedContent, blur, firstSentence, MAX_PER_DAY, paragraphs, submission } from "./validation";
 
@@ -11,6 +12,7 @@ export type SubmitState = { ok: true; place: string } | { ok: false; error: stri
 
 /** Share a story. It's saved as `pending` and only appears once an admin approves it. */
 export async function submitStory(_prev: SubmitState, form: FormData): Promise<SubmitState> {
+  if (!STORIES_ENABLED) return { ok: false, error: "Sharing stories isn't open yet." };
   const parsed = submission.safeParse(Object.fromEntries(form));
   if (!parsed.success) return { ok: false, error: parsed.error.issues[0]?.message ?? "Check the form." };
   const d = parsed.data;

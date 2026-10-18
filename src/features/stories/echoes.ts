@@ -2,12 +2,14 @@
 
 import { and, count, eq, inArray } from "drizzle-orm";
 import { db, schema } from "@/db/client";
+import { STORIES_ENABLED } from "@/lib/features";
 import { ensureVisitorId, getVisitorId } from "@/lib/server/security";
 
 const { stories, echoes } = schema;
 
 /** "Echo this": adds or removes this visitor's echo on an approved story. */
 export async function toggleEcho(slug: string): Promise<{ echoes: number; mine: boolean } | null> {
+  if (!STORIES_ENABLED) return null;
   const story = db
     .select({ id: stories.id, seed: stories.echoSeed })
     .from(stories)
@@ -28,6 +30,7 @@ export async function toggleEcho(slug: string): Promise<{ echoes: number; mine: 
 
 /** Slugs of the stories this visitor has echoed. */
 export async function myEchoes(): Promise<string[]> {
+  if (!STORIES_ENABLED) return [];
   const vid = await getVisitorId();
   if (!vid) return [];
   const ids = db.select({ id: echoes.storyId }).from(echoes).where(eq(echoes.visitorId, vid)).all();

@@ -1,6 +1,7 @@
 import "server-only";
 import { and, desc, eq, getTableColumns, sql } from "drizzle-orm";
 import { db, schema } from "@/db/client";
+import { STORIES_ENABLED } from "@/lib/features";
 import type { StoryItem } from "@/lib/types";
 
 const { stories, echoes } = schema;
@@ -32,6 +33,7 @@ function toStoryItem(r: StoryRow): StoryItem {
 }
 
 export function getApprovedStories(): StoryItem[] {
+  if (!STORIES_ENABLED) return [];
   return db
     .select({ ...getTableColumns(stories), echoCount })
     .from(stories)
@@ -42,6 +44,7 @@ export function getApprovedStories(): StoryItem[] {
 }
 
 export function getApprovedStory(slug: string): StoryItem | null {
+  if (!STORIES_ENABLED) return null;
   const row = db
     .select({ ...getTableColumns(stories), echoCount })
     .from(stories)

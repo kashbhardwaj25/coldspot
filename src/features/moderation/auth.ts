@@ -2,10 +2,12 @@
 
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
+import { STORIES_ENABLED } from "@/lib/features";
 import { env } from "@/lib/server/env";
 import { ADMIN_COOKIE, adminToken, safeEqual } from "@/lib/server/security";
 
 export async function login(_prev: string | null, form: FormData): Promise<string | null> {
+  if (!STORIES_ENABLED) return "The review queue is closed.";
   const expected = env.ADMIN_PASSWORD;
   if (!expected || expected === "change-me") return "Set ADMIN_PASSWORD in .env.local first.";
   await new Promise((r) => setTimeout(r, 400)); // slow down guessing

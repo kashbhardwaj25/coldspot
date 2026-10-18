@@ -3,6 +3,8 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { Logo } from "@/components/Logo";
 import { logout } from "@/features/moderation/auth";
+import { notFound } from "next/navigation";
+import { STORIES_ENABLED } from "@/lib/features";
 import { isAdmin } from "@/lib/server/security";
 
 export const metadata: Metadata = { title: "Review queue", robots: { index: false } };
@@ -12,6 +14,7 @@ export const metadata: Metadata = { title: "Review queue", robots: { index: fals
  * with pages, so each page and each action still checks `isAdmin()` itself.
  */
 export default async function AdminLayout({ children }: { children: ReactNode }) {
+  if (!STORIES_ENABLED) notFound();
   const admin = await isAdmin();
   return (
     <main className="admin">
