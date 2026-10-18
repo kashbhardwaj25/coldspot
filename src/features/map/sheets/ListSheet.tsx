@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState, type CSSProperties, type KeyboardEvent } from "react";
+import { LEGAL_LINKS } from "@/lib/nav";
+import { useState, type CSSProperties, type KeyboardEvent } from "react";
 import { catColor } from "@/lib/format";
 import { itemKey, itemName, type MapItem, type Place } from "@/lib/types";
 import { searchItems } from "../search";
@@ -26,7 +27,7 @@ export function ListSheet({ title, items: all, places, placeFilter, onPick, onPi
     ? places.flatMap((p) => [p, ...p.states]).find((p) => p.key === placeFilter)?.name
     : null;
   const [query, setQuery] = useState("");
-  const shown = useMemo(() => searchItems(items, query), [items, query]);
+  const shown = searchItems(items, query);
   const searching = query.trim() !== "";
 
   const onKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
@@ -123,7 +124,12 @@ export function ListSheet({ title, items: all, places, placeFilter, onPick, onPi
         </>
       )}
       <p className="list-foot">
-        <Link href="/privacy">Privacy</Link> · <Link href="/terms">Terms</Link>
+        {LEGAL_LINKS.map((l, i) => (
+          <span key={l.href}>
+            {i > 0 && " · "}
+            <Link href={l.href}>{l.label}</Link>
+          </span>
+        ))}
       </p>
     </div>
   );

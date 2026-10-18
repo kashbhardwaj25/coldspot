@@ -51,7 +51,7 @@
 .explain {
   padding: 14px 16px;
   border-radius: 10px;
-  background: rgba(236, 229, 214, 0.04);
+  background: var(--field);
   border: 1px solid var(--line);
 }
 .explain .prose {
@@ -136,7 +136,7 @@
   border-bottom: 1px solid var(--line);
 }
 .item:hover {
-  background: rgba(236, 229, 214, 0.03);
+  background: var(--hover);
 }
 /* Rows on the all-cases page and under case pages are links. */
 a.item {

@@ -2,7 +2,7 @@
 
 import { Autocomplete } from "@base-ui/react/autocomplete";
 import { Field } from "@base-ui/react/field";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { loadTowns, searchTowns, type Town } from "../towns";
 
 type Props = { defaultValue?: string; onPick: (town: Town) => void };
@@ -14,7 +14,7 @@ type Props = { defaultValue?: string; onPick: (town: Town) => void };
 export function TownField({ defaultValue, onPick }: Props) {
   const [value, setValue] = useState(defaultValue ?? "");
   const [towns, setTowns] = useState<Town[]>([]);
-  const items = useMemo(() => searchTowns(towns, value), [towns, value]);
+  const items = searchTowns(towns, value);
 
   // The list loads on first focus, not with the page.
   const load = () => {

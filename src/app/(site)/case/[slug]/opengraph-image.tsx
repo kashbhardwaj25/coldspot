@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { PALETTE } from "@/lib/tokens";
 import { OgCard } from "@/components/OgCard";
 import { getAllCases, getCase } from "@/features/cases/queries";
 import { CATEGORIES } from "@/lib/categories";
@@ -16,7 +17,8 @@ export function generateStaticParams() {
 /** Link preview for a case page: category, title, place and date, and status. */
 export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
   const c = getCase((await params).slug);
-  if (!c) return new ImageResponse(<OgCard eyebrow="Case file" accent="#a9dceb" title="Coldspot" subtitle="" />, size);
+  if (!c)
+    return new ImageResponse(<OgCard eyebrow="Case file" accent={PALETTE.ice} title="Coldspot" subtitle="" />, size);
   const cat = CATEGORIES[c.category];
   return new ImageResponse(
     <OgCard

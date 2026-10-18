@@ -4,6 +4,12 @@
   flex-direction: column;
   gap: 14px;
 }
+.form.narrow {
+  max-width: 360px;
+}
+.field textarea.short {
+  min-height: 70px;
+}
 .f2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -24,7 +30,7 @@
 .field input,
 .field textarea,
 .select-trigger {
-  background: rgba(236, 229, 214, 0.04);
+  background: var(--field);
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 10px 12px;
@@ -169,7 +175,7 @@
   transform: rotate(-45deg);
   transform-origin: 50% 50%;
   background: var(--ice);
-  box-shadow: 0 0 0 3px rgba(17, 14, 24, 0.6);
+  box-shadow: 0 0 0 3px var(--on-ink-muted);
   pointer-events: none;
 }
 .picker-pin::after {

@@ -1,11 +1,8 @@
 import type { ReactNode } from "react";
+import { PALETTE } from "@/lib/tokens";
 
-// Social preview images are rendered by next/og, which can't read CSS variables, so the palette from
-// src/styles/tokens.css is repeated here.
-const NIGHT = "#110e18";
-const INK = "#ece5d6";
-const MUTED = "#857c94";
-const ICE = "#a9dceb";
+// Link previews are rendered by next/og, which can't read CSS variables, so the palette comes from lib/tokens.
+const { night: NIGHT, ink: INK, muted: MUTED, ice: ICE, ink2: INK_2 } = PALETTE;
 
 type Props = { eyebrow: string; accent: string; title: string; subtitle: string; footer?: ReactNode };
 
@@ -46,7 +43,7 @@ export function OgCard({ eyebrow, accent, title, subtitle, footer }: Props) {
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: 22, maxWidth: 860 }}>
         <div style={{ fontSize: title.length > 40 ? 64 : 80, lineHeight: 1.05, fontWeight: 700 }}>{title}</div>
-        <div style={{ fontSize: 32, lineHeight: 1.35, color: "#b4aabd" }}>{subtitle}</div>
+        <div style={{ fontSize: 32, lineHeight: 1.35, color: INK_2 }}>{subtitle}</div>
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: 18, fontSize: 26, color: MUTED }}>
         <span style={{ letterSpacing: 8, color: INK }}>COLDSPOT</span>

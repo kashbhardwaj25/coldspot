@@ -8,7 +8,7 @@ Coldspot is a website with a Radio Garden-style globe of unexplained encounters.
 
 ## Stack
 
-- **Next.js 16** (App Router, Server Components, Server Actions, Turbopack), React 19, TypeScript (strict)
+- **Next.js 16** (App Router, Server Components, Server Actions, Turbopack), React 19 with the **React Compiler** on (no manual `useMemo`/`useCallback`/`memo`), TypeScript (strict)
 - **SQLite** through `better-sqlite3` **v12** and **Drizzle ORM**
 - **d3-geo** + `topojson-client` drawing an orthographic globe on `<canvas>`
 - Plain CSS in `src/styles/`, imported in order by `src/app/globals.css` (no Tailwind, no CSS-in-JS); fonts through `next/font`
@@ -56,7 +56,9 @@ src/app/                         routes only
   layout.tsx not-found.tsx sitemap.ts robots.ts globals.css (imports src/styles/*)
 src/features/
   map/                           the map screen (client)
-    ColdspotApp.tsx MapStage.tsx state and wiring between globe, header, card and sheets; the canvases and ring
+    ColdspotApp.tsx MapStage.tsx renders the map screen from useMapState; the canvases and ring
+    useMapState.ts               all map state, the globe and the actions (ColdspotApp only renders it)
+    headerActions.ts             the header's buttons as config
     MapHeader.tsx TunerCard.tsx  header (actions, mode switch, chips); card under the ring
     parts.tsx                    ScrambleText, Freq, Ring, ZoomControls
     useGlobe.ts                  creates the GlobeEngine, deep links, ring layout, marker mapping
@@ -65,7 +67,7 @@ src/features/
     towns.ts                     town search for the share form: loads public/towns.json on first use, ranks matches
     useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
     state.ts                     SheetState, EchoState
-    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields, TownField (Base UI Autocomplete), PinPicker (a second GlobeEngine, famous cases as landmarks, no snapping)
+    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet (+ useShareForm), ShareFields (renders SHARE_FORM from shareForm.ts), TownField (Base UI Autocomplete), PinPicker (+ usePinPicker: a second GlobeEngine, famous cases as landmarks, no snapping); registry.tsx maps each sheet type to its header and body
   globe/                         framework-free canvas globe (no React, no Next)
     engine.ts                    GlobeEngine: public API, frame loop, input handling
     scene.ts                     the markers: items, declutter, visibility, tuning, drawing them each frame
@@ -114,6 +116,7 @@ src/db/
   client.ts                      SQLite connection (WAL, busy_timeout, foreign keys), dev-safe singleton
 src/lib/                         shared, framework-free helpers
   categories.ts types.ts         category keys, labels, colours, status enums; CaseItem, StoryItem, MapItem
+  tokens.ts nav.ts               the palette for canvas and preview images; the site's links as config
   features.ts                    STORIES_ENABLED: people's stories are off for the first release
   format.ts geo.ts signal.ts     labels; formatCoords, haversineKm; observable for per-frame values
   proxy.ts                       which proxy header to trust for the visitor's IP (TRUST_PROXY)

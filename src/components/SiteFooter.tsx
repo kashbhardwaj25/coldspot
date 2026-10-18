@@ -1,16 +1,16 @@
 import Link from "next/link";
-import { STORIES_ENABLED } from "@/lib/features";
+import { SITE_LINKS } from "@/lib/nav";
 
 /** Footer on every page outside the map: where to go next, and the legal pages. */
 export function SiteFooter() {
   return (
     <footer className="site-footer">
       <nav aria-label="Site">
-        <Link href="/">The map</Link>
-        <Link href="/cases">All famous cases</Link>
-        {STORIES_ENABLED && <Link href="/my-stories">My stories</Link>}
-        <Link href="/privacy">Privacy</Link>
-        <Link href="/terms">Terms</Link>
+        {SITE_LINKS.map((l) => (
+          <Link key={l.href} href={l.href}>
+            {l.label}
+          </Link>
+        ))}
       </nav>
       <p>Coldspot · Something happened here</p>
     </footer>

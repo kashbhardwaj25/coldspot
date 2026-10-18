@@ -7,7 +7,7 @@ import { login } from "./auth";
 export function LoginForm() {
   const [error, action, pending] = useActionState(login, null);
   return (
-    <form action={action} className="form" style={{ maxWidth: 360 }}>
+    <form action={action} className="form narrow">
       <TextField label="Admin password" name="password" type="password" autoComplete="current-password" required />
       {error && (
         <p className="error" role="alert">

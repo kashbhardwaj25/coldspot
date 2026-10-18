@@ -1,154 +1,72 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useCallback, useEffect, useMemo, useState } from "react";
-import type { Category } from "@/lib/categories";
 import { catColor } from "@/lib/format";
-import { signal } from "@/lib/signal";
-import { itemKey, type MapItem, type Mode } from "@/lib/types";
 import { MapHeader } from "./MapHeader";
 import { MapStage } from "./MapStage";
 import { ZoomControls } from "./parts";
-import type { MapData, SheetState } from "./state";
+import type { MapData } from "./state";
 import { TunerCard } from "./TunerCard";
-import { useEchoes } from "./useEchoes";
-import { allCategories, toMarkers, useGlobe } from "./useGlobe";
-import { useMapActions } from "./useMapActions";
-import { useSound } from "./useSound";
+import { useMapState } from "./useMapState";
 
 // Sheets (Base UI Drawer, forms) load after the page, off the critical path: nobody needs one before the globe.
 const Sheet = dynamic(() => import("./sheets/Sheet").then((m) => m.Sheet), { ssr: false });
 
 type Props = { data: MapData };
 
+/** The map screen: renders what useMapState knows, and hands its actions to the header, card and sheets. */
 export default function ColdspotApp({ data }: Props) {
-  const { cases, stories } = data;
-  const [mode, setMode] = useState<Mode>("famous");
-  const [active, setActive] = useState<Set<Category>>(allCategories);
-  const [tunedKey, setTunedKey] = useState<string | null>(null);
-  const [nearestKey, setNearestKey] = useState<string | null>(null);
-  const [sheet, setSheet] = useState<SheetState | null>(null);
-  const [placeFilter, setPlaceFilter] = useState<string | null>(null);
-  const [hintHidden, setHintHidden] = useState(false);
-  const [coords] = useState(() => signal(""));
-  const [echoState, setEchoState] = useEchoes(stories);
-  const { radio, soundOn, toggleSound } = useSound();
-
-  const byKey = useMemo(
-    () => new Map<string, MapItem>([...cases, ...stories].map((i) => [itemKey(i), i])),
-    [cases, stories],
-  );
-  const itemsFor = useCallback((m: Mode): MapItem[] => (m === "famous" ? cases : stories), [cases, stories]);
-  const tuned = tunedKey ? (byKey.get(tunedKey) ?? null) : null;
-  const nearest = nearestKey ? (byKey.get(nearestKey) ?? null) : null;
-
-  const { engine, baseRef, dotsRef, ringRef, hintRef, zoomRef, topRef } = useGlobe(
-    radio,
-    { cases, stories },
-    {
-      onReady: (e, m) => {
-        e.setItems(toMarkers(itemsFor(m), allCategories()), m === "famous");
-        setMode(m);
-        resumeShare();
-        openPlaceFromUrl();
-      },
-      onTune: setTunedKey,
-      onNearest: setNearestKey,
-      onCoords: coords.set,
-      onInteract: () => setHintHidden(true),
-      onOpenTuned: (key) => {
-        const item = byKey.get(key);
-        if (item) setSheet({ type: "item", item });
-      },
-    },
-  );
-
-  // Keep the globe's dots in sync with mode and filters.
-  useEffect(() => {
-    engine.current?.setItems(toMarkers(itemsFor(mode), active), mode === "famous");
-  }, [engine, mode, active, itemsFor]);
-
-  // The header height changes between modes, which moves the ring.
-  useEffect(() => {
-    const id = requestAnimationFrame(() => engine.current?.resize());
-    return () => cancelAnimationFrame(id);
-  }, [engine, mode]);
-
-  const { switchMode, random, pickFromList, openShare, resumeShare, goToPlace, openPlaceFromUrl } = useMapActions({
-    engine,
-    mode,
-    active,
-    tunedKey,
-    itemsFor,
-    setMode,
-    setActive,
-    setSheet,
-    places: data.places,
-    setPlaceFilter,
-  });
-
-  const toggleCategory = (c: Category) =>
-    setActive((prev) => {
-      const next = new Set(prev);
-      if (!next.has(c)) next.add(c);
-      else if (next.size > 1) next.delete(c);
-      return next;
-    });
-
-  const closeSheet = useCallback(() => setSheet(null), []);
+  const map = useMapState(data);
+  const { actions, tuned } = map;
+  // Refs stay standalone variables, as the React Compiler rules require.
+  const { baseRef, dotsRef, ringRef, hintRef, zoomRef, topRef } = map.globe;
 
   return (
-    <div className="cs-map" data-mode={mode}>
+    <div className="cs-map" data-mode={map.mode}>
       <MapStage
-        {...{ baseRef, dotsRef, ringRef, hintRef, hintHidden }}
+        {...{ baseRef, dotsRef, ringRef, hintRef }}
+        hintHidden={map.hintHidden}
         color={tuned ? catColor(tuned.category) : null}
       />
 
       <MapHeader
         ref={topRef}
-        mode={mode}
-        items={itemsFor(mode)}
-        active={active}
-        soundOn={soundOn}
-        onMode={(m) => {
-          if (m === mode) return;
-          setPlaceFilter(null); // a place in one mode may have nothing in the other
-          switchMode(m);
-        }}
-        onToggleCategory={toggleCategory}
-        onShare={openShare}
-        onSound={() => toggleSound(!!tunedKey)}
-        onRandom={random}
-        onList={() => setSheet({ type: "list" })}
+        mode={map.mode}
+        items={map.items}
+        active={map.active}
+        soundOn={map.sound.on}
+        onMode={actions.changeMode}
+        onToggleCategory={actions.toggleCategory}
+        onShare={actions.openShare}
+        onSound={map.sound.toggle}
+        onRandom={actions.random}
+        onList={actions.openList}
       />
 
-      <ZoomControls ref={zoomRef} onZoom={(f) => engine.current?.zoomBy(f)} />
+      <ZoomControls ref={zoomRef} onZoom={actions.zoom} />
 
       <div className="tuner">
         <TunerCard
           item={tuned}
-          nearest={nearest}
-          coords={coords}
-          echoes={tuned?.kind === "story" ? echoState[tuned.slug]?.echoes : undefined}
-          onOpen={(item) => setSheet({ type: "item", item })}
+          nearest={map.nearest}
+          coords={map.coords}
+          echoes={tuned?.kind === "story" ? map.echoState[tuned.slug]?.echoes : undefined}
+          onOpen={actions.openItem}
         />
       </div>
 
       <Sheet
-        sheet={sheet}
-        mode={mode}
+        sheet={map.sheet}
+        mode={map.mode}
         data={data}
-        placeFilter={placeFilter}
-        echoState={echoState}
-        setEchoState={setEchoState}
-        onClose={closeSheet}
-        onPick={pickFromList}
-        onPickPlace={goToPlace}
-        onClearPlace={() => setPlaceFilter(null)}
-        onNearbyStories={(c) => {
-          setSheet(null);
-          switchMode("people", { lon: c.lon, lat: c.lat, zoom: 3.2 });
-        }}
+        placeFilter={map.placeFilter}
+        echoState={map.echoState}
+        setEchoState={map.setEchoState}
+        onClose={actions.closeSheet}
+        onPick={actions.pickFromList}
+        onPickPlace={actions.goToPlace}
+        onClearPlace={actions.clearPlace}
+        onNearbyStories={actions.nearbyStories}
       />
     </div>
   );

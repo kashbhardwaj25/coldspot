@@ -1,4 +1,5 @@
 import { geoGraticule10, type GeoPath, type GeoPermissibleObjects } from "d3-geo";
+import { GLOBE } from "@/lib/tokens";
 import { CATEGORIES } from "@/lib/categories";
 import { drawLabels } from "./labels";
 import type { Visible } from "./tuning";
@@ -31,16 +32,16 @@ export function drawGlobe(
   begin(c, f);
 
   const halo = c.createRadialGradient(CX, CY, r * 0.96, CX, CY, r * 1.12);
-  halo.addColorStop(0, famous ? "rgba(230,220,198,0.12)" : "rgba(169,220,235,0.14)");
-  halo.addColorStop(1, "rgba(150,120,210,0)");
+  halo.addColorStop(0, famous ? GLOBE.haloFamous : GLOBE.haloPeople);
+  halo.addColorStop(1, GLOBE.haloEdge);
   c.fillStyle = halo;
   c.beginPath();
   c.arc(CX, CY, r * 1.12, 0, Math.PI * 2);
   c.fill();
 
   const g = c.createRadialGradient(CX - r * 0.3, CY - r * 0.35, r * 0.1, CX, CY, r);
-  g.addColorStop(0, "#1E1830");
-  g.addColorStop(1, "#0D0A14");
+  g.addColorStop(0, GLOBE.oceanLight);
+  g.addColorStop(1, GLOBE.oceanDark);
   c.fillStyle = g;
   c.beginPath();
   path({ type: "Sphere" });
@@ -48,21 +49,21 @@ export function drawGlobe(
 
   c.beginPath();
   path(graticule);
-  c.strokeStyle = famous ? "rgba(230,220,198,0.07)" : "rgba(236,229,214,0.045)";
+  c.strokeStyle = famous ? GLOBE.gridFamous : GLOBE.gridPeople;
   c.lineWidth = 1;
   c.stroke();
 
   c.beginPath();
   path(land);
-  c.fillStyle = "#262036";
+  c.fillStyle = GLOBE.land;
   c.fill();
-  c.strokeStyle = "rgba(122,108,160,0.55)";
+  c.strokeStyle = GLOBE.coast;
   c.lineWidth = 0.8;
   c.stroke();
 
   c.beginPath();
   path({ type: "Sphere" });
-  c.strokeStyle = "rgba(197,162,238,0.22)";
+  c.strokeStyle = GLOBE.rim;
   c.stroke();
 }
 
@@ -114,7 +115,7 @@ function drawDiamond(c: CanvasRenderingContext2D, v: Visible, color: string, on:
   c.rotate(Math.PI / 4);
   c.fillStyle = color;
   c.fillRect(-r / 1.4, -r / 1.4, r * 1.414, r * 1.414);
-  c.strokeStyle = "rgba(230,220,198,0.55)";
+  c.strokeStyle = GLOBE.diamondEdge;
   c.lineWidth = 1;
   c.strokeRect(-r * 1.25, -r * 1.25, r * 2.5, r * 2.5);
   c.restore();

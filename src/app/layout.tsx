@@ -5,6 +5,7 @@ import type { ReactNode } from "react";
 import { SITE_DESCRIPTION } from "@/features/cases/jsonld";
 import { env } from "@/lib/server/env";
 import { isIndexable } from "@/lib/site";
+import { PALETTE } from "@/lib/tokens";
 import "./globals.css";
 
 // Self-hosted at build time: no request to Google from the visitor's browser, and no layout shift.
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#110E18",
+  themeColor: PALETTE.night,
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",

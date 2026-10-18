@@ -1,4 +1,5 @@
-/* Colours and fonts. Category colours live in src/lib/categories.ts. */
+/* Colours, layers, shadows and fonts. Category colours live in src/lib/categories.ts; canvas and preview-image
+   copies of the palette live in src/lib/tokens.ts (a test keeps them in sync). */
 :root {
   color-scheme: dark;
   --night: #110e18;
@@ -16,6 +17,24 @@
   --disputed: #e9b45e;
   --explained: #92c99a;
   --danger: #e3836a;
+
+  /* See-through layers, built from the palette. Use these instead of writing rgba() in other files. */
+  --field: rgba(236, 229, 214, 0.04); /* input and panel backgrounds */
+  --hover: rgba(236, 229, 214, 0.03); /* row hover */
+  --highlight: rgba(236, 229, 214, 0.08); /* highlighted option */
+  --line-strong: rgba(236, 229, 214, 0.3); /* hover borders */
+  --glass: rgba(17, 14, 24, 0.76); /* buttons and switches floating over the globe */
+  --glass-soft: rgba(17, 14, 24, 0.62); /* category chips */
+  --on-ink-muted: rgba(17, 14, 24, 0.58); /* quiet text on an ink (light) background */
+  --danger-line: rgba(227, 131, 106, 0.38);
+  --scrim: rgb(8, 6, 12); /* behind sheets; its opacity follows the swipe */
+  --scrim-dialog: rgba(8, 6, 12, 0.7);
+
+  /* Shadows, from resting to raised. */
+  --shadow-card: 0 18px 40px rgba(0, 0, 0, 0.45);
+  --shadow-sheet: 0 -20px 50px rgba(0, 0, 0, 0.5);
+  --shadow-pop: 0 16px 40px rgba(0, 0, 0, 0.55);
+  --shadow-dialog: 0 20px 50px rgba(0, 0, 0, 0.6);
   --serif: var(--font-serif), "Iowan Old Style", Georgia, serif;
   --mono: var(--font-mono), ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 }

@@ -59,7 +59,9 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 - **Effects are for syncing with things outside React** (the globe engine, audio, DOM listeners, fetches). Always clean up. Don't use an effect to derive state from props; compute it during render or with `useMemo`.
 - Per-frame values never go through React state. Use a `Signal` (`src/lib/signal.ts`) and write to the DOM in a subscriber, like `Freq` in `parts.tsx`.
 - Keep state minimal and derived values derived (`tuned` is looked up from `tunedKey`, not stored).
-- `useCallback`/`useMemo` only where identity or cost matters (effect dependencies, props to memoised children, real computation).
+- **The React Compiler is on** (`reactCompiler: true` in `next.config.ts`). It memoises components and hooks automatically, so don't write `useMemo`, `useCallback` or `memo`. If an effect needs a stable dependency, depend on the underlying value (a prop array, a primitive) rather than a function built during render.
+- **Logic lives in hooks; components render.** A component with more than a couple of pieces of state, or any effect, gets a `useThing` hook beside it that returns the data and actions (see `useMapState`, `useShareForm`, `usePinPicker`). The component reads what the hook returns and passes it down. Refs returned from a hook are destructured into standalone variables before use.
+- **Repeated UI comes from config.** Lists of similar things (form fields, header buttons, links, sheet types) are described in a typed config and rendered by one component: `SHARE_FORM` (`map/sheets/shareForm.ts`), `headerActions()` (`map/headerActions.ts`), `SITE_LINKS` (`lib/nav.ts`), the sheet registry (`map/sheets/registry.tsx`). Add an entry there rather than more JSX. One-off layouts (a case file, the legal pages) stay as plain JSX.
 - Stable keys: use `itemKey(item)` or a slug. Array indexes are fine only for static lists of paragraphs.
 - Hooks live in `useX.ts` files beside the component that uses them.
 
@@ -77,6 +79,12 @@ The `jsx-a11y` recommended rules are errors. Beyond what the linter can see:
 - Respect `prefers-reduced-motion` in every animation, both CSS and canvas.
 - Anything you can do with a pointer on the globe must also work from the keyboard (arrow keys, +/−, Enter).
 - Colours come from the CSS variables, which were chosen for contrast on the dark background; check contrast before adding new ones.
+
+## Styling and tokens
+
+- Plain CSS in `src/styles/`, no Tailwind and no CSS-in-JS. Every colour, see-through layer and shadow is a token in `tokens.css` (`--field`, `--glass`, `--line-strong`, `--shadow-pop` and so on). Don't write a hex value or `rgba()` anywhere else in the CSS.
+- Places CSS variables can't reach (the globe's canvas, next/og preview images, `themeColor`) use `PALETTE` and `GLOBE` from `src/lib/tokens.ts`. `tokens.test.ts` fails if `PALETTE` drifts from `tokens.css`; update both together.
+- No inline `style={{}}` except for CSS custom properties (`--tc`, `--c`), SVG gradient stops, and `OgCard` (next/og has no stylesheets). Use a class or a `data-*` attribute instead.
 
 ## Folder structure
 

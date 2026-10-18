@@ -106,7 +106,7 @@
 }
 .place-links a:hover {
   color: var(--ink);
-  border-color: rgba(236, 229, 214, 0.3);
+  border-color: var(--line-strong);
 }
 .place-links b {
   font-weight: 500;

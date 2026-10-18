@@ -1,11 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
 import { IconButton } from "@/components/ui/IconButton";
-import { GlobeEngine, type EngineItem } from "@/features/globe/engine";
-import { loadLand } from "@/features/globe/land";
-import { Radio } from "@/features/globe/radio";
+import type { EngineItem } from "@/features/globe/engine";
 import { formatCoords } from "@/lib/geo";
+import { usePinPicker } from "./usePinPicker";
 
 type Point = { lat: number; lon: number };
 type Props = {
@@ -16,81 +14,16 @@ type Props = {
   target: Point | null;
 };
 
-const noop = () => {};
-
 /**
  * A small globe inside the share form: drag it until the place sits under the pin. Its centre goes into the
- * hidden `lat` and `lon` fields, written straight to the DOM so dragging never re-renders React.
- * The server still blurs the spot to about 5 km.
+ * hidden `lat` and `lon` fields (see usePinPicker). The server still blurs the spot to about 5 km.
  */
 export function PinPicker({ initial, landmarks, target }: Props) {
-  const baseRef = useRef<HTMLCanvasElement>(null);
-  const dotsRef = useRef<HTMLCanvasElement>(null);
-  const latRef = useRef<HTMLInputElement>(null);
-  const lonRef = useRef<HTMLInputElement>(null);
-  const coordsRef = useRef<HTMLElement>(null);
-  const engineRef = useRef<GlobeEngine | null>(null);
-  const landmarksRef = useRef(landmarks);
-  const [locating, setLocating] = useState<"idle" | "busy" | string>("idle");
+  const picker = usePinPicker({ initial, landmarks, target });
+  // Refs stay standalone variables, as the React Compiler rules require.
+  const { baseRef, dotsRef, latRef, lonRef, coordsRef } = picker;
   const { lat, lon } = initial;
-
-  // Only on request, and the server still blurs the spot to about 5 km.
-  const useMyLocation = () => {
-    if (!("geolocation" in navigator)) return setLocating("This browser can't share your location.");
-    setLocating("busy");
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        engineRef.current?.flyTo(pos.coords.longitude, pos.coords.latitude, 10, 900);
-        setLocating("idle");
-      },
-      () => setLocating("Couldn't get your location. Drag the map instead."),
-      { enableHighAccuracy: false, timeout: 10000, maximumAge: 600000 },
-    );
-  };
-
-  useEffect(() => {
-    let cancelled = false;
-    loadLand()
-      .then((land) => {
-        if (cancelled || !baseRef.current || !dotsRef.current) return;
-        const engine: GlobeEngine = new GlobeEngine({
-          base: baseRef.current,
-          dots: dotsRef.current,
-          land,
-          view: { lat, lon, zoom: 6 },
-          radio: new Radio(), // never switched on, so the picker stays silent
-          layout: (w, h) => ({ cx: w / 2, cy: h / 2 }),
-          snap: false, // the pin stays exactly where the writer puts it, never pulled to a landmark
-          onCoords: (text) => {
-            const c = engine.center();
-            if (latRef.current) latRef.current.value = c.lat.toFixed(4);
-            if (lonRef.current) lonRef.current.value = c.lon.toFixed(4);
-            if (coordsRef.current) coordsRef.current.textContent = text;
-          },
-          onTune: noop,
-          onNearest: noop,
-          onInteract: noop,
-          onOpenTuned: noop,
-        });
-        engine.setItems(landmarksRef.current, true);
-        engineRef.current = engine;
-      })
-      .catch((err: unknown) => console.error("Could not load the map", err));
-    return () => {
-      cancelled = true;
-      engineRef.current?.destroy();
-      engineRef.current = null;
-    };
-  }, [lat, lon]);
-
-  useEffect(() => {
-    landmarksRef.current = landmarks;
-    engineRef.current?.setItems(landmarks, true);
-  }, [landmarks]);
-
-  useEffect(() => {
-    if (target) engineRef.current?.flyTo(target.lon, target.lat, 10, 900);
-  }, [target]);
+  const problem = picker.locating !== "idle" && picker.locating !== "busy" ? picker.locating : null;
 
   return (
     <div className="picker-field">
@@ -109,19 +42,19 @@ export function PinPicker({ initial, landmarks, target }: Props) {
         />
         <span className="picker-pin" aria-hidden="true" />
         <div className="picker-zoom">
-          <IconButton icon="plus" label="Zoom in" size="small" onClick={() => engineRef.current?.zoomBy(1.6)} />
-          <IconButton icon="minus" label="Zoom out" size="small" onClick={() => engineRef.current?.zoomBy(1 / 1.6)} />
+          <IconButton icon="plus" label="Zoom in" size="small" onClick={picker.zoomIn} />
+          <IconButton icon="minus" label="Zoom out" size="small" onClick={picker.zoomOut} />
         </div>
       </div>
       <input type="hidden" name="lat" ref={latRef} defaultValue={lat} />
       <input type="hidden" name="lon" ref={lonRef} defaultValue={lon} />
       <div className="picker-tools">
-        <button type="button" className="btn" onClick={useMyLocation} disabled={locating === "busy"}>
-          {locating === "busy" ? "Finding you…" : "Use my location"}
+        <button type="button" className="btn" onClick={picker.locate} disabled={picker.locating === "busy"}>
+          {picker.locating === "busy" ? "Finding you…" : "Use my location"}
         </button>
-        {locating !== "idle" && locating !== "busy" && (
+        {problem && (
           <span className="error" role="alert">
-            {locating}
+            {problem}
           </span>
         )}
       </div>

@@ -35,7 +35,7 @@ export function ReviewCard({ story: s }: { story: AdminStory }) {
           label="Opening line (shown in the tuner card)"
           name="hook"
           defaultValue={s.hook}
-          style={{ minHeight: 70 }}
+          className="short"
           maxLength={240}
           required
         />

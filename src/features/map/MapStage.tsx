@@ -23,7 +23,7 @@ export function MapStage({ baseRef, dotsRef, ringRef, hintRef, color, hintHidden
         aria-label="Coldspot map. Drag or use arrow keys to move. Anything that reaches the centre ring tunes in. Press Enter to open it."
       />
       <Ring ref={ringRef} color={color} />
-      <div className="hint" ref={hintRef} style={{ opacity: hintHidden ? 0 : 1 }}>
+      <div className="hint" ref={hintRef} data-hidden={hintHidden || undefined}>
         Drag the map · anything in the ring tunes in
       </div>
     </>
