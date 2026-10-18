@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { ArticleTitle, SectionHeading } from "@/components/article";
+import { ConfirmButton } from "@/components/ui/ConfirmButton";
 import type { StoryStatus } from "@/lib/categories";
 import { deleteMyAccount, deleteMyStory, signOut } from "./actions";
-import { ConfirmButton } from "./ConfirmButton";
 import type { MyStory } from "./queries";
 import type { Viewer } from "./session";
 import { SignInButton } from "./SignInButton";
@@ -58,7 +58,12 @@ export function MyStories({ viewer, stories }: Props) {
                 {s.status === "approved" && s.slug && <Link href={`/story/${s.slug}`}>View</Link>}
                 <form action={deleteMyStory}>
                   <input type="hidden" name="id" value={s.id} />
-                  <ConfirmButton label="Delete" className="link-btn" confirm={`Delete your story from ${s.place}?`} />
+                  <ConfirmButton
+                    label="Delete"
+                    className="link-btn"
+                    title={`Delete your story from ${s.place}?`}
+                    description="It disappears from the map and its page straight away. This can't be undone."
+                  />
                 </form>
               </div>
             </li>
@@ -76,7 +81,8 @@ export function MyStories({ viewer, stories }: Props) {
           <form action={deleteMyAccount}>
             <ConfirmButton
               label="Delete my account"
-              confirm="Delete your account and every story you've shared? This can't be undone."
+              title="Delete your account?"
+              description="This removes every story you've shared, your echoes and your email address. It can't be undone."
             />
           </form>
         </div>

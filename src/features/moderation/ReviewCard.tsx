@@ -1,4 +1,5 @@
 import type { CSSProperties } from "react";
+import { TextArea, TextField } from "@/components/ui/TextField";
 import { CATEGORIES } from "@/lib/categories";
 import { approve, reject } from "./actions";
 import type { PendingStory } from "./queries";
@@ -30,19 +31,16 @@ export function ReviewCard({ story: s }: { story: PendingStory }) {
       <form action={approve} className="form">
         <input type="hidden" name="id" value={s.id} />
         <div className="f2">
-          <div className="field">
-            <label htmlFor={`place-${s.id}`}>Place</label>
-            <input id={`place-${s.id}`} name="place" defaultValue={s.place} required />
-          </div>
-          <div className="field">
-            <label htmlFor={`region-${s.id}`}>Region</label>
-            <input id={`region-${s.id}`} name="region" defaultValue={s.region} />
-          </div>
+          <TextField label="Place" name="place" defaultValue={s.place} required />
+          <TextField label="Region" name="region" defaultValue={s.region} />
         </div>
-        <div className="field">
-          <label htmlFor={`hook-${s.id}`}>Opening line (shown in the tuner card)</label>
-          <textarea id={`hook-${s.id}`} name="hook" defaultValue={s.hook} style={{ minHeight: 70 }} required />
-        </div>
+        <TextArea
+          label="Opening line (shown in the tuner card)"
+          name="hook"
+          defaultValue={s.hook}
+          style={{ minHeight: 70 }}
+          required
+        />
         <div className="review-actions">
           <button className="btn primary" type="submit">
             Approve and publish

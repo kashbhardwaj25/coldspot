@@ -14,22 +14,30 @@
   flex-direction: column;
   gap: 6px;
 }
-.field label {
+.field label,
+.field .label {
   font-size: 10px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--muted);
 }
 .field input,
-.field select,
-.field textarea {
+.field textarea,
+.select-trigger {
   background: rgba(236, 229, 214, 0.04);
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 10px 12px;
-  font-size: 14px;
+  font-size: 16px; /* below 16px, iPhones zoom in on focus */
+  line-height: 1.3;
   color: var(--ink);
   font-family: var(--serif);
+}
+.field input:focus-visible,
+.field textarea:focus-visible,
+.select-trigger:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
 }
 .field textarea {
   min-height: 140px;
@@ -37,7 +45,8 @@
   line-height: 1.5;
   font-size: 16px;
 }
-.field small {
+.field-hint {
+  margin: 0;
   font-size: 10.5px;
   color: var(--muted);
   line-height: 1.5;

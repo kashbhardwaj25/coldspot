@@ -1,16 +1,14 @@
 "use client";
 
 import { useActionState } from "react";
+import { TextField } from "@/components/ui/TextField";
 import { login } from "./auth";
 
 export function LoginForm() {
   const [error, action, pending] = useActionState(login, null);
   return (
     <form action={action} className="form" style={{ maxWidth: 360 }}>
-      <div className="field">
-        <label htmlFor="password">Admin password</label>
-        <input id="password" name="password" type="password" autoComplete="current-password" required />
-      </div>
+      <TextField label="Admin password" name="password" type="password" autoComplete="current-password" required />
       {error && (
         <p className="error" role="alert">
           {error}

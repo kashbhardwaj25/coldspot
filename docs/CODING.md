@@ -68,9 +68,9 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 The `jsx-a11y` recommended rules are errors. Beyond what the linter can see:
 
 - Use the right element: `<button type="button">` for actions, `<a>`/`<Link>` for navigation. Never a clickable `<div>` that keyboard users need.
-- Every form control has a `<label htmlFor>`. Hints are linked with `aria-describedby`.
+- Every form control has a label. Use `TextField`, `TextArea` and `SelectField` from `src/components/ui/`, which link labels and hints for you.
 - Toggles use `aria-pressed`. Groups of toggles have `role="group"` and an `aria-label`.
-- Dialogs (`Sheet`) have `role="dialog"`, `aria-modal`, `aria-labelledby`, close on Esc, move focus in on open, and return it on close.
+- Dialogs and sheets use Base UI (`Drawer` for `Sheet`, `AlertDialog` for confirmations), which traps focus, closes on Esc, and returns focus on close. Label them with `aria-labelledby` (each sheet's heading is `#sheetTitle`).
 - Decorative SVGs and glyphs get `aria-hidden="true"`. Icon-only buttons get an `aria-label`.
 - `aria-live` regions should announce meaningful changes only. Hide constantly changing text inside them (coordinates are `aria-hidden`).
 - No `autoFocus`.

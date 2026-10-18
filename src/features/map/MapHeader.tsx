@@ -1,5 +1,7 @@
 "use client";
 
+import { Toggle } from "@base-ui/react/toggle";
+import { ToggleGroup } from "@base-ui/react/toggle-group";
 import Link from "next/link";
 import { useMemo, type CSSProperties, type Ref } from "react";
 import { CATEGORIES, CATEGORY_KEYS, type Category } from "@/lib/categories";
@@ -79,14 +81,16 @@ export function MapHeader({ ref, items, ...p }: Props) {
       <div className="band">
         <h1 className="sr-only">Coldspot: a globe of unexplained encounters</h1>
         {STORIES_ENABLED && (
-          <div className="seg" role="group" aria-label="Choose what to tune in to">
-            <button type="button" aria-pressed={p.mode === "famous"} onClick={() => p.onMode("famous")}>
-              Famous cases
-            </button>
-            <button type="button" aria-pressed={p.mode === "people"} onClick={() => p.onMode("people")}>
-              People&apos;s stories
-            </button>
-          </div>
+          <ToggleGroup
+            className="seg"
+            aria-label="Choose what to tune in to"
+            value={[p.mode]}
+            // Pressing the active mode again would empty the group; keep it selected instead.
+            onValueChange={(v) => v[0] && p.onMode(v[0] as Mode)}
+          >
+            <Toggle value="famous">Famous cases</Toggle>
+            <Toggle value="people">People&apos;s stories</Toggle>
+          </ToggleGroup>
         )}
         <p>{NOTES[p.mode]}</p>
         <Link className="all-cases" href="/cases">
@@ -95,17 +99,16 @@ export function MapHeader({ ref, items, ...p }: Props) {
       </div>
       <div className="chips" role="group" aria-label="Show categories">
         {CATEGORY_KEYS.filter((k) => counts[k]).map((k) => (
-          <button
-            type="button"
+          <Toggle
             key={k}
             className="chip"
             style={{ "--c": CATEGORIES[k].color } as CSSProperties}
-            aria-pressed={p.active.has(k)}
-            onClick={() => p.onToggleCategory(k)}
+            pressed={p.active.has(k)}
+            onPressedChange={() => p.onToggleCategory(k)}
           >
             <i />
             {CATEGORIES[k].label} <em>{counts[k]}</em>
-          </button>
+          </Toggle>
         ))}
       </div>
     </header>

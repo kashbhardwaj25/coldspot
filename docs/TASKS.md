@@ -59,7 +59,7 @@ Jump to a region rather than filter the map: the globe already shows one region 
 - [ ] Terms of use at `app/(site)/terms`, including permission to use submitted stories and a revenue share if they're ever licensed. Have them read by a lawyer if possible.
 - [ ] `app/(site)/layout.tsx` with a footer linking to both.
 - [ ] Share button on case and story pages.
-- [ ] Sheets don't trap focus: Tab can leave an open sheet and reach the map behind it. Trap focus inside `Sheet`, or move to a native `<dialog>` with `showModal()`.
+- [x] Sheets don't trap focus: Tab can leave an open sheet and reach the map behind it. Trap focus inside `Sheet`, or move to a native `<dialog>` with `showModal()`.
 - [ ] Analytics: Cloudflare Web Analytics (no cookies).
 
 ### Done

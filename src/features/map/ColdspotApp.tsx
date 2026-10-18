@@ -1,5 +1,6 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Category } from "@/lib/categories";
 import { catColor } from "@/lib/format";
@@ -7,13 +8,15 @@ import { signal } from "@/lib/signal";
 import { itemKey, type CaseSummary, type MapItem, type Mode, type StoryItem } from "@/lib/types";
 import { MapHeader } from "./MapHeader";
 import { Ring, ZoomControls } from "./parts";
-import { Sheet } from "./sheets/Sheet";
 import type { SheetState } from "./state";
 import { TunerCard } from "./TunerCard";
 import { useEchoes } from "./useEchoes";
 import { allCategories, toMarkers, useGlobe } from "./useGlobe";
 import { useMapActions } from "./useMapActions";
 import { useSound } from "./useSound";
+
+// Sheets (Base UI Drawer, forms) load after the page, off the critical path: nobody needs one before the globe.
+const Sheet = dynamic(() => import("./sheets/Sheet").then((m) => m.Sheet), { ssr: false });
 
 type Props = { cases: CaseSummary[]; stories: StoryItem[] };
 
@@ -128,22 +131,20 @@ export default function ColdspotApp({ cases, stories }: Props) {
         />
       </div>
 
-      {sheet && (
-        <Sheet
-          sheet={sheet}
-          mode={mode}
-          cases={cases}
-          stories={stories}
-          echoState={echoState}
-          setEchoState={setEchoState}
-          onClose={closeSheet}
-          onPick={pickFromList}
-          onNearbyStories={(c) => {
-            setSheet(null);
-            switchMode("people", { lon: c.lon, lat: c.lat, zoom: 3.2 });
-          }}
-        />
-      )}
+      <Sheet
+        sheet={sheet}
+        mode={mode}
+        cases={cases}
+        stories={stories}
+        echoState={echoState}
+        setEchoState={setEchoState}
+        onClose={closeSheet}
+        onPick={pickFromList}
+        onNearbyStories={(c) => {
+          setSheet(null);
+          switchMode("people", { lon: c.lon, lat: c.lat, zoom: 3.2 });
+        }}
+      />
     </div>
   );
 }

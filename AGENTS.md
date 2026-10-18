@@ -12,6 +12,7 @@ Coldspot is a website with a Radio Garden-style globe of unexplained encounters.
 - **SQLite** through `better-sqlite3` **v12** and **Drizzle ORM**
 - **d3-geo** + `topojson-client` drawing an orthographic globe on `<canvas>`
 - Plain CSS in `src/styles/`, imported in order by `src/app/globals.css` (no Tailwind, no CSS-in-JS); fonts through `next/font`
+- **Base UI** (`@base-ui/react`): unstyled, accessible components (Drawer for sheets, Field, Select, Toggle, AlertDialog), styled with our own CSS and tokens
 - ESLint 9 (flat config), Prettier, Husky + lint-staged pre-commit hook
 - `zod` for validating input
 - **Better Auth** for Google sign-in (sharing and echoing need an account; reading doesn't), stored in the same SQLite database
@@ -60,7 +61,7 @@ src/features/
     useCaseFile.ts search.ts     load a case file on open (prefetched on tune-in); list search
     useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
     state.ts                     SheetState, EchoState
-    sheets/                      Sheet (shell: focus, Esc) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields
+    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields
   globe/                         framework-free canvas globe (no React, no Next)
     engine.ts                    GlobeEngine: public API, frame loop, input handling
     camera.ts input.ts motion.ts view and projection; pointer/keyboard; animations, momentum, snap
@@ -79,7 +80,7 @@ src/features/
     client.ts                    browser auth client, useSignedIn(), signInWithGoogle()
     actions.ts                   "use server": deleteMyStory, deleteMyAccount, signOut
     queries.ts                   the signed-in person's stories (server-only)
-    AccountButton.tsx MyStories.tsx SignInButton.tsx ConfirmButton.tsx
+    AccountButton.tsx MyStories.tsx SignInButton.tsx
   cases/
     queries.ts CaseArticle.tsx   famous cases; case file shared by the page and the sheet
   moderation/
@@ -88,6 +89,7 @@ src/features/
     queries.ts                   pending stories, counts (server-only)
     ReviewCard.tsx LoginForm.tsx
 src/components/                  shared UI with no feature knowledge: brand.tsx, PageTop.tsx, article.tsx
+  ui/                            Base UI wrappers: TextField/TextArea, SelectField, ConfirmButton
 src/db/
   schema.ts                      cases, stories, echoes; users, sessions, accounts, verifications (Better Auth)
   client.ts                      SQLite connection (WAL, busy_timeout, foreign keys), dev-safe singleton
@@ -97,7 +99,7 @@ src/lib/                         shared, framework-free helpers
   format.ts geo.ts signal.ts     labels; formatCoords, haversineKm; observable for per-frame values
   server/env.ts                  environment variables, validated with zod
   server/security.ts             admin cookie (HMAC), IP hash, visitor id cookie
-src/styles/                      tokens, base, map, tuner, sheets, reading, forms, article, account, admin
+src/styles/                      tokens, base, map, tuner, sheets, reading, forms, controls, article, account, admin
 src/data/                        seed-cases.ts (real), seed-stories.ts (samples, is_sample = true)
 scripts/setup.ts                 migrate and seed
 Dockerfile deploy/               production image; Docker Compose with Caddy and Litestream (see docs/DEPLOY.md)
@@ -156,6 +158,8 @@ public/land-50m.json             coastlines only
 
 ### UI and copy
 
+- For form fields, dropdowns, toggles, dialogs and sheets, use Base UI (through `src/components/ui/` where a wrapper exists) rather than hand-rolling focus and keyboard handling. Style them with classes and the `data-*` state attributes Base UI sets. Don't add Material UI or another styled library: they bring CSS-in-JS and a lot of JavaScript to every page.
+- Global class names collide easily (`.hint`, `.open` have both bitten us). Check `grep` before adding a short class name.
 - Colours and fonts come from the CSS variables in `src/styles/tokens.css`. Categories and their colours come from `src/lib/categories.ts`; don't hard-code them elsewhere.
 - Fonts: Newsreader (serif, story text and titles) and IBM Plex Mono (UI labels).
 - Write in plain English. The radio metaphor appears only in moments: "Between stations", tuning in, **echoes**. Everything else uses plain words: stories, cases, categories (Sky, Visitors, Creatures, Voices & sounds, Places).

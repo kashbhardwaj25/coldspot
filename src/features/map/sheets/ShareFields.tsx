@@ -1,6 +1,9 @@
-import type { ReactNode } from "react";
+import { SelectField } from "@/components/ui/SelectField";
+import { TextArea, TextField } from "@/components/ui/TextField";
 import type { ShareDraft } from "@/features/stories/draft";
 import { CATEGORIES, CATEGORY_KEYS } from "@/lib/categories";
+
+const CATEGORY_OPTIONS = CATEGORY_KEYS.map((k) => ({ value: k, label: CATEGORIES[k].label }));
 
 type Props = { draft?: ShareDraft };
 
@@ -10,84 +13,64 @@ export function ShareFields({ draft }: Props) {
   return (
     <>
       <div className="f2">
-        <Field id="fCat" label="Category">
-          <select id="fCat" name="category" defaultValue={v.category ?? "sky"}>
-            {CATEGORY_KEYS.map((k) => (
-              <option key={k} value={k}>
-                {CATEGORIES[k].label}
-              </option>
-            ))}
-          </select>
-        </Field>
-        <Field id="fWhere" label="Town or area">
-          <input id="fWhere" name="place" placeholder="e.g. Munsiyari" required maxLength={80} defaultValue={v.place} />
-        </Field>
-        <Field id="fRegion" label="State and country">
-          <input
-            id="fRegion"
-            name="region"
-            placeholder="e.g. Uttarakhand, India"
-            maxLength={80}
-            defaultValue={v.region}
-          />
-        </Field>
+        <SelectField label="Category" name="category" options={CATEGORY_OPTIONS} defaultValue={v.category ?? "sky"} />
+        <TextField
+          label="Town or area"
+          name="place"
+          placeholder="e.g. Munsiyari"
+          required
+          maxLength={80}
+          defaultValue={v.place}
+        />
+        <TextField
+          label="State and country"
+          name="region"
+          placeholder="e.g. Kerala, India"
+          maxLength={80}
+          defaultValue={v.region}
+        />
       </div>
       <div className="f2">
-        <Field id="fYear" label="Year">
-          <input
-            id="fYear"
-            name="year"
-            inputMode="numeric"
-            placeholder="e.g. 2014"
-            maxLength={4}
-            defaultValue={v.year}
-          />
-        </Field>
-        <Field id="fTime" label="Time of day">
-          <input id="fTime" name="timeLabel" placeholder="e.g. around 2 am" maxLength={40} defaultValue={v.timeLabel} />
-        </Field>
-        <Field id="fWit" label="Who else saw it?">
-          <input
-            id="fWit"
-            name="witnesses"
-            placeholder="e.g. my brother and I"
-            maxLength={80}
-            defaultValue={v.witnesses}
-          />
-        </Field>
-      </div>
-      <Field id="fStory" label="Your story">
-        <textarea
-          id="fStory"
-          name="story"
-          placeholder="Start with the moment you noticed something was wrong."
-          required
-          maxLength={6000}
-          aria-describedby="fStoryHint"
-          defaultValue={v.story}
+        <TextField
+          label="Year"
+          name="year"
+          inputMode="numeric"
+          placeholder="e.g. 2014"
+          maxLength={4}
+          defaultValue={v.year}
         />
-        <small id="fStoryHint">Leave a blank line between paragraphs.</small>
-      </Field>
-      <Field id="fPen" label="Pen name (optional)">
-        <input
-          id="fPen"
-          name="penName"
-          placeholder="Anonymous"
+        <TextField
+          label="Time of day"
+          name="timeLabel"
+          placeholder="e.g. around 2 am"
           maxLength={40}
-          aria-describedby="fPenHint"
-          defaultValue={v.penName}
+          defaultValue={v.timeLabel}
         />
-        <small id="fPenHint">Shown with your story. Leave it blank to appear as Anonymous.</small>
-      </Field>
+        <TextField
+          label="Who else saw it?"
+          name="witnesses"
+          placeholder="e.g. my brother and I"
+          maxLength={80}
+          defaultValue={v.witnesses}
+        />
+      </div>
+      <TextArea
+        label="Your story"
+        name="story"
+        placeholder="Start with the moment you noticed something was wrong."
+        required
+        maxLength={6000}
+        defaultValue={v.story}
+        description="Leave a blank line between paragraphs."
+      />
+      <TextField
+        label="Pen name (optional)"
+        name="penName"
+        placeholder="Anonymous"
+        maxLength={40}
+        defaultValue={v.penName}
+        description="Shown with your story. Leave it blank to appear as Anonymous."
+      />
     </>
-  );
-}
-
-function Field({ id, label, children }: { id: string; label: string; children: ReactNode }) {
-  return (
-    <div className="field">
-      <label htmlFor={id}>{label}</label>
-      {children}
-    </div>
   );
 }
