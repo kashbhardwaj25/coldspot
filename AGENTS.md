@@ -59,6 +59,7 @@ src/features/
     engine.ts                    GlobeEngine: public API, frame loop, input handling
     camera.ts input.ts motion.ts view and projection; pointer/keyboard; animations, momentum, snap
     draw.ts tuning.ts radio.ts   drawing; visibility, tune-in and hit testing; Web Audio
+    declutter.ts labels.ts       hide crowded low-priority markers by zoom; non-overlapping labels
   stories/
     submit.ts                    "use server": submitStory
     echoes.ts                    "use server": toggleEcho, myEchoes
@@ -122,8 +123,9 @@ public/land-50m.json             coastlines only
 
 ### Globe engine
 
-- `GlobeEngine` is framework-free on purpose. React talks to it only through `setItems`, `flyTo`, `zoomBy`, `clearTune`, `center`, `resize` and its callbacks. Don't move per-frame state into React state; that re-renders at 60 fps.
+- `GlobeEngine` is framework-free on purpose. React talks to it only through `setItems`, `pin`, `flyTo`, `zoomBy`, `clearTune`, `center`, `resize` and its callbacks. Don't move per-frame state into React state; that re-renders at 60 fps.
 - Coordinates in the tuner card go through a `Signal` and the `Freq` component, which writes to the DOM directly, so React doesn't re-render every frame.
+- Where markers crowd, lower-priority ones are hidden until you zoom in (`declutter.ts`). Featured cases (`featured` in `seed-cases.ts`) show first. Call `pin(key)` before `flyTo` when jumping to a specific item, so it's never hidden.
 - Respect `prefers-reduced-motion` for any new animation.
 - Test dragging on a phone-width viewport (400px). The interaction has to feel instant on mid-range Android.
 

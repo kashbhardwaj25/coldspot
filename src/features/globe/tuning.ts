@@ -9,6 +9,8 @@ export type EngineItem = {
   lon: number;
   label: string;
   narrated: boolean;
+  /** Higher shows first where markers crowd (see declutter.ts). */
+  priority: number;
 };
 
 /** An item on the visible side of the globe, in screen pixels, `d` from the ring. */

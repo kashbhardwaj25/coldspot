@@ -22,6 +22,7 @@ function toCaseItem(r: typeof cases.$inferSelect): CaseItem {
     summary: r.summary,
     explanation: r.explanation,
     wiki: r.wiki,
+    featured: r.featured,
   };
 }
 

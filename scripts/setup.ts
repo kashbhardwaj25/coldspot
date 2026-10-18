@@ -14,7 +14,8 @@ console.log("✓ Database schema is up to date");
 
 // Famous cases are curated in seed-cases.ts, so sync them by slug: new cases are added and edits are applied.
 db.transaction((tx) => {
-  for (const c of seedCases) {
+  for (const seed of seedCases) {
+    const c = { featured: false, ...seed };
     tx.insert(schema.cases).values(c).onConflictDoUpdate({ target: schema.cases.slug, set: c }).run();
   }
 });

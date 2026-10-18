@@ -4,6 +4,7 @@ import type { schema } from "../db/client";
 export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   {
     "slug": "chir-batti",
+    "featured": true,
     "category": "sky",
     "title": "Chir Batti",
     "region": "Banni grasslands, Kutch, India",
@@ -23,6 +24,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "jatinga",
+    "featured": true,
     "category": "places",
     "title": "Jatinga",
     "region": "Dima Hasao, Assam, India",
@@ -42,6 +44,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "magnetic-hill",
+    "featured": true,
     "category": "places",
     "title": "Magnetic Hill",
     "region": "Near Leh, Ladakh, India",
@@ -61,6 +64,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "phoenix-lights",
+    "featured": true,
     "category": "sky",
     "title": "The Phoenix Lights",
     "region": "Phoenix, Arizona, USA",
@@ -80,6 +84,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "roswell",
+    "featured": true,
     "category": "sky",
     "title": "The Roswell Incident",
     "region": "Roswell, New Mexico, USA",
@@ -99,6 +104,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "marfa",
+    "featured": true,
     "category": "sky",
     "title": "The Marfa Lights",
     "region": "Marfa, Texas, USA",
@@ -118,6 +124,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "kecksburg",
+    "featured": true,
     "category": "sky",
     "title": "The Kecksburg Fireball",
     "region": "Kecksburg, Pennsylvania, USA",
@@ -137,6 +144,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "nimitz",
+    "featured": true,
     "category": "sky",
     "title": "The Nimitz 'Tic Tac'",
     "region": "Pacific Ocean, off Baja California",
@@ -156,6 +164,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "shag-harbour",
+    "featured": true,
     "category": "sky",
     "title": "Shag Harbour",
     "region": "Nova Scotia, Canada",
@@ -175,6 +184,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "rendlesham",
+    "featured": true,
     "category": "visitors",
     "title": "Rendlesham Forest",
     "region": "Suffolk, England",
@@ -194,6 +204,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "loch-ness",
+    "featured": true,
     "category": "creatures",
     "title": "The Loch Ness Monster",
     "region": "Highland, Scotland",
@@ -213,6 +224,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "belgian-wave",
+    "featured": true,
     "category": "sky",
     "title": "The Belgian UFO Wave",
     "region": "Belgium",
@@ -232,6 +244,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "hessdalen",
+    "featured": true,
     "category": "sky",
     "title": "The Hessdalen Lights",
     "region": "Trøndelag, Norway",
@@ -251,6 +264,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "tunguska",
+    "featured": true,
     "category": "sky",
     "title": "The Tunguska Event",
     "region": "Siberia, Russia",
@@ -270,6 +284,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "tehran-1976",
+    "featured": true,
     "category": "sky",
     "title": "The Tehran Incident",
     "region": "Tehran, Iran",
@@ -289,6 +304,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "yeti-1951",
+    "featured": true,
     "category": "creatures",
     "title": "The Shipton Footprint",
     "region": "Menlung Glacier, Nepal–Tibet border",
@@ -308,6 +324,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "ariel-school",
+    "featured": true,
     "category": "visitors",
     "title": "The Ariel School Encounter",
     "region": "Ruwa, Zimbabwe",
@@ -327,6 +344,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "varginha",
+    "featured": true,
     "category": "creatures",
     "title": "The Varginha Creature",
     "region": "Minas Gerais, Brazil",
@@ -346,6 +364,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "westall",
+    "featured": true,
     "category": "sky",
     "title": "The Westall Sighting",
     "region": "Melbourne, Australia",
@@ -403,6 +422,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "wow-signal",
+    "featured": true,
     "category": "voices",
     "title": "The Wow! Signal",
     "region": "Big Ear radio telescope, Delaware, Ohio, USA",
@@ -422,6 +442,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "the-bloop",
+    "featured": true,
     "category": "voices",
     "title": "The Bloop",
     "region": "South Pacific Ocean, west of the tip of South America",
@@ -460,6 +481,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "uvb-76",
+    "featured": true,
     "category": "voices",
     "title": "UVB-76, 'The Buzzer'",
     "region": "Western Russia",
@@ -479,6 +501,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "52-hertz-whale",
+    "featured": true,
     "category": "voices",
     "title": "The 52-Hertz Whale",
     "region": "North Pacific Ocean",
@@ -498,6 +521,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "kuldhara",
+    "featured": true,
     "category": "places",
     "title": "Kuldhara",
     "region": "Near Jaisalmer, Rajasthan, India",
@@ -517,6 +541,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "bhangarh-fort",
+    "featured": true,
     "category": "places",
     "title": "Bhangarh Fort",
     "region": "Alwar district, Rajasthan, India",
@@ -536,6 +561,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "lonar-lake-pink",
+    "featured": true,
     "category": "places",
     "title": "Lonar Lake Turns Pink",
     "region": "Lonar, Buldhana district, Maharashtra, India",
@@ -669,6 +695,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "patterson-gimlin-film",
+    "featured": true,
     "category": "creatures",
     "title": "The Patterson–Gimlin Film",
     "region": "Bluff Creek, Northern California, USA",
@@ -688,6 +715,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "mothman",
+    "featured": true,
     "category": "creatures",
     "title": "The Mothman",
     "region": "Point Pleasant, West Virginia, USA",
@@ -745,6 +773,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "mokele-mbembe",
+    "featured": true,
     "category": "creatures",
     "title": "Mokele-mbembe",
     "region": "Likouala swamps, Republic of the Congo",
@@ -764,6 +793,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "betty-barney-hill",
+    "featured": true,
     "category": "visitors",
     "title": "Betty and Barney Hill",
     "region": "White Mountains, New Hampshire, USA",
@@ -783,6 +813,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "socorro-zamora",
+    "featured": true,
     "category": "visitors",
     "title": "The Socorro Landing",
     "region": "Socorro, New Mexico, USA",
@@ -878,6 +909,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "kerala-red-rain",
+    "featured": true,
     "category": "sky",
     "title": "The Red Rain of Kerala",
     "region": "Kottayam and Idukki, Kerala, India",
@@ -916,6 +948,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "naga-fireballs",
+    "featured": true,
     "category": "sky",
     "title": "The Naga Fireballs",
     "region": "Mekong River, Nong Khai, Thailand",
@@ -935,6 +968,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "hampi-musical-pillars",
+    "featured": true,
     "category": "voices",
     "title": "The Musical Pillars of Hampi",
     "region": "Vijaya Vittala temple, Hampi, Karnataka, India",
@@ -1182,6 +1216,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "nazca-lines",
+    "featured": true,
     "category": "places",
     "title": "The Nazca Lines",
     "region": "Nazca Desert, southern Peru",
@@ -1334,6 +1369,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "coelacanth",
+    "featured": true,
     "category": "creatures",
     "title": "The Coelacanth",
     "region": "East London, South Africa",
@@ -1353,6 +1389,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "travis-walton",
+    "featured": true,
     "category": "visitors",
     "title": "Travis Walton",
     "region": "Apache-Sitgreaves National Forest, Arizona, USA",
@@ -1486,6 +1523,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "nuremberg-1561",
+    "featured": true,
     "category": "sky",
     "title": "The Nuremberg Sky Battle",
     "region": "Nuremberg, Germany",
@@ -1638,6 +1676,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "iron-pillar-delhi",
+    "featured": true,
     "category": "places",
     "title": "The Iron Pillar of Delhi",
     "region": "Qutb complex, Mehrauli, Delhi, India",
@@ -1809,6 +1848,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "giant-squid",
+    "featured": true,
     "category": "creatures",
     "title": "The Giant Squid",
     "region": "Off the Ogasawara Islands, Japan",
@@ -1961,6 +2001,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "jal-1628",
+    "featured": true,
     "category": "sky",
     "title": "Japan Air Lines Flight 1628",
     "region": "Over north-eastern Alaska, USA",
@@ -2018,6 +2059,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "min-min-lights",
+    "featured": true,
     "category": "sky",
     "title": "The Min Min Lights",
     "region": "Boulia, Channel Country, Queensland, Australia",
@@ -2189,6 +2231,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "crop-circles",
+    "featured": true,
     "category": "places",
     "title": "The Crop Circles of Wiltshire",
     "region": "Wiltshire, England",
@@ -2645,6 +2688,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "colossi-of-memnon",
+    "featured": true,
     "category": "voices",
     "title": "The Singing Statue of Memnon",
     "region": "Luxor (ancient Thebes), Egypt",
@@ -2740,6 +2784,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "puma-punku",
+    "featured": true,
     "category": "places",
     "title": "Puma Punku",
     "region": "Tiwanaku, La Paz department, Bolivia",
@@ -2778,6 +2823,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "rapa-nui-moai",
+    "featured": true,
     "category": "places",
     "title": "The Walking Moai of Rapa Nui",
     "region": "Rapa Nui (Easter Island), Chile",
@@ -2854,6 +2900,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "great-zimbabwe",
+    "featured": true,
     "category": "places",
     "title": "Great Zimbabwe",
     "region": "Masvingo Province, Zimbabwe",
@@ -2987,6 +3034,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "okapi",
+    "featured": true,
     "category": "creatures",
     "title": "The Okapi",
     "region": "Ituri Forest, Democratic Republic of the Congo",
@@ -3044,6 +3092,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "dogon-sirius",
+    "featured": true,
     "category": "visitors",
     "title": "The Dogon and Sirius",
     "region": "Bandiagara Escarpment, Mali",
@@ -3120,6 +3169,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "catatumbo-lightning",
+    "featured": true,
     "category": "sky",
     "title": "The Catatumbo Lightning",
     "region": "Lake Maracaibo, Zulia, Venezuela",
@@ -3139,6 +3189,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "night-of-the-ufos-1986",
+    "featured": true,
     "category": "sky",
     "title": "Brazil's Night of the UFOs",
     "region": "São Paulo, Rio de Janeiro and nearby states, Brazil",
@@ -3519,6 +3570,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "kuhikugu-lost-city-z",
+    "featured": true,
     "category": "places",
     "title": "The Real Lost City of Z",
     "region": "Upper Xingu, Mato Grosso, Brazil",
@@ -3804,6 +3856,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "kola-well-to-hell",
+    "featured": true,
     "category": "voices",
     "title": "The Well to Hell",
     "region": "Kola Superdeep Borehole, Murmansk Oblast, Russia",
@@ -3842,6 +3895,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "sikhote-alin-meteorite",
+    "featured": true,
     "category": "sky",
     "title": "The Sikhote-Alin Meteorite",
     "region": "Sikhote-Alin Mountains, Primorsky Krai, Russia",
@@ -4089,6 +4143,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "batagaika-crater",
+    "featured": true,
     "category": "places",
     "title": "The Batagaika Crater",
     "region": "Verkhoyansk district, Yakutia, Russia",
@@ -4184,6 +4239,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "baalbek-stones",
+    "featured": true,
     "category": "places",
     "title": "The Giant Stones of Baalbek",
     "region": "Baalbek, Lebanon",
@@ -4241,6 +4297,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "derinkuyu",
+    "featured": true,
     "category": "places",
     "title": "The Underground City of Derinkuyu",
     "region": "Derinkuyu, Nevşehir, Cappadocia, Türkiye",
@@ -4298,6 +4355,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "gobekli-tepe",
+    "featured": true,
     "category": "places",
     "title": "Göbekli Tepe",
     "region": "Near Şanlıurfa, Türkiye",
@@ -4412,6 +4470,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "chichen-itza-chirp",
+    "featured": true,
     "category": "voices",
     "title": "The Chirp of Chichén Itzá",
     "region": "El Castillo, Chichén Itzá, Yucatán, Mexico",
@@ -4697,6 +4756,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "cottingley-fairies",
+    "featured": true,
     "category": "visitors",
     "title": "The Cottingley Fairies",
     "region": "Cottingley, West Yorkshire, England",
@@ -4773,6 +4833,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "kaikoura-lights",
+    "featured": true,
     "category": "sky",
     "title": "The Kaikōura Lights",
     "region": "Off Kaikōura, South Island, New Zealand",
@@ -4944,6 +5005,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "flores-hobbit",
+    "featured": true,
     "category": "creatures",
     "title": "The Ebu Gogo and the Hobbit of Flores",
     "region": "Liang Bua, Flores, Indonesia",
@@ -5039,6 +5101,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "kappa",
+    "featured": true,
     "category": "creatures",
     "title": "The Kappa",
     "region": "Tōno, Iwate, Japan",
@@ -5229,6 +5292,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "darvaza-crater",
+    "featured": true,
     "category": "places",
     "title": "The Door to Hell",
     "region": "Darvaza, Karakum Desert, Turkmenistan",
@@ -5286,6 +5350,7 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "antikythera-mechanism",
+    "featured": true,
     "category": "places",
     "title": "The Antikythera Mechanism",
     "region": "Antikythera, Greece",

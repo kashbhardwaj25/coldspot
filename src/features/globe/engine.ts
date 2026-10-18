@@ -1,6 +1,7 @@
 import { geoPath, type GeoPermissibleObjects } from "d3-geo";
 import { Camera, clampZoom, type View } from "./camera";
 import { drawGlobe, drawMarkers } from "./draw";
+import { Declutter } from "./declutter";
 import { bindInput, type InputTarget } from "./input";
 import { flight, Motion, zoomTo } from "./motion";
 import type { Radio } from "./radio";
@@ -45,6 +46,8 @@ export class GlobeEngine implements InputTarget {
   private font: string;
 
   private items: EngineItem[] = [];
+  private declutter = new Declutter();
+  private pinned: string | null = null;
   private famous = true;
   private visible: Visible[] = [];
   private motion = new Motion(SNAP);
@@ -75,6 +78,12 @@ export class GlobeEngine implements InputTarget {
   setItems(items: EngineItem[], famous: boolean) {
     this.items = items;
     this.famous = famous;
+    this.cam.dirty = true;
+  }
+
+  /** Always show this item, even where markers are thinned out. Use before flying to it. */
+  pin(key: string | null) {
+    this.pinned = key;
     this.cam.dirty = true;
   }
 
@@ -152,7 +161,8 @@ export class GlobeEngine implements InputTarget {
       drawGlobe(this.bctx, this.path, this.o.land, cam.frame, cam.radius, this.famous);
       const c = cam.center();
       this.o.onCoords(formatCoords(c.lat, c.lon));
-      this.visible = findVisible(this.items, cam.projection, cam.target, { x: cam.frame.CX, y: cam.frame.CY });
+      const shown = this.declutter.select(this.items, cam.radius, [this.pinned, this.tuner.key]);
+      this.visible = findVisible(shown, cam.projection, cam.target, { x: cam.frame.CX, y: cam.frame.CY });
       this.tuner.update(this.visible);
     }
     drawMarkers(this.dctx, this.visible, cam.frame, {

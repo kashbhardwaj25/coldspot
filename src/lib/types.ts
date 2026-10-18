@@ -17,6 +17,8 @@ export type CaseItem = {
   summary: string[];
   explanation: string;
   wiki: string | null;
+  /** Shown first where markers crowd at low zoom. */
+  featured: boolean;
 };
 
 /** An approved people's story as sent to the browser. */

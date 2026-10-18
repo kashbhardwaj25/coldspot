@@ -24,6 +24,7 @@ export function toMarkers(items: MapItem[], active: Set<Category>): EngineItem[]
       lon: i.lon,
       label: itemName(i),
       narrated: i.kind === "story" && i.narrated,
+      priority: i.kind === "case" ? Number(i.featured) : Number(i.narrated),
     }));
 }
 
@@ -105,6 +106,7 @@ export function useGlobe(radio: Radio, data: { cases: CaseItem[]; stories: Story
           onInteract: () => cb.current.onInteract(),
           onOpenTuned: () => tuned && cb.current.onOpenTuned(tuned),
         });
+        if (target) engine.pin(itemKey(target));
         engineRef.current = engine;
         cb.current.onReady(engine, mode);
       })

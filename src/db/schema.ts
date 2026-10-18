@@ -24,6 +24,8 @@ export const cases = sqliteTable("cases", {
   summary: text("summary", { mode: "json" }).$type<string[]>().notNull(),
   explanation: text("explanation").notNull(),
   wiki: text("wiki"),
+  /** Shown first where markers crowd at low zoom. */
+  featured: integer("featured", { mode: "boolean" }).notNull().default(false),
   createdAt: createdAt(),
 });
 

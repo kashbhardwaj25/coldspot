@@ -89,12 +89,14 @@ export default function ColdspotApp({ cases, stories }: Props) {
     const pick = pool[Math.floor(Math.random() * pool.length)];
     if (!pick) return;
     const zoom = mode === "famous" ? 2.2 + Math.random() : 3.6 + Math.random() * 1.5;
+    engine.current?.pin(itemKey(pick));
     engine.current?.flyTo(pick.lon, pick.lat, zoom);
   };
 
   const pickFromList = (item: MapItem) => {
     setSheet(null);
     setActive((prev) => new Set(prev).add(item.category));
+    engine.current?.pin(itemKey(item));
     engine.current?.flyTo(item.lon, item.lat, item.kind === "case" ? 2.4 : 4);
   };
 
