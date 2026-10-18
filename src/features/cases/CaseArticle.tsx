@@ -6,7 +6,7 @@ import type { CaseItem } from "@/lib/types";
 type Props = {
   c: CaseItem;
   variant: ArticleVariant;
-  /** Extra buttons shown before the Wikipedia link. */
+  /** Extra buttons shown before the Wikipedia and YouTube links. */
   actions?: ReactNode;
 };
 
@@ -41,21 +41,27 @@ export function CaseArticle({ c, variant, actions }: Props) {
           ["Status", status],
         ]}
       />
-      {(actions || c.wiki) && (
-        <div className="links">
-          {actions}
-          {c.wiki && (
-            <a
-              className="btn"
-              href={`https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(c.wiki)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read more on Wikipedia ↗
-            </a>
-          )}
-        </div>
-      )}
+      <div className="links">
+        {actions}
+        {c.wiki && (
+          <a
+            className="btn"
+            href={`https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(c.wiki)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read more on Wikipedia ↗
+          </a>
+        )}
+        <a
+          className="btn"
+          href={`https://www.youtube.com/results?search_query=${encodeURIComponent(c.title)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Search on YouTube ↗
+        </a>
+      </div>
       <p className="note">
         Famous cases are real, widely reported events. Each file sets out what witnesses said and the explanations that
         have been offered, without taking a side.
