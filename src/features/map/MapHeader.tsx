@@ -3,7 +3,8 @@
 import { useMemo, type CSSProperties, type Ref } from "react";
 import { CATEGORIES, CATEGORY_KEYS, type Category } from "@/lib/categories";
 import type { MapItem, Mode } from "@/lib/types";
-import { Icon, Logo } from "@/components/brand";
+import { Icon } from "@/components/brand";
+import { Logo } from "@/components/Logo";
 
 const NOTES: Record<Mode, string> = {
   famous: "Real, well-known cases, with the explanations offered.",

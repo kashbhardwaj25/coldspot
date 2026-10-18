@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { Logo } from "@/components/brand";
+import { Logo } from "@/components/Logo";
 import { logout } from "@/features/moderation/auth";
 import { isAdmin } from "@/lib/server/security";
 

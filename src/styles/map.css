@@ -73,6 +73,11 @@
   color: var(--ice);
   flex: none;
 }
+.mark .iris {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 0.12s ease-out;
+}
 .brand span {
   white-space: nowrap;
   font-size: 10.5px;

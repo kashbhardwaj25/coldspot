@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Logo } from "./brand";
+import { Logo } from "./Logo";
 
 export function PageTop({ mapHref }: { mapHref: string }) {
   return (
