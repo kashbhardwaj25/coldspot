@@ -15,11 +15,12 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "check": "npm run typecheck && npm run lint && npm run format:check",
+    "check": "npm run typecheck && npm run lint && npm run format:check && npm test",
     "db:generate": "drizzle-kit generate",
     "db:setup": "tsx scripts/setup.ts",
     "db:studio": "drizzle-kit studio",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "vitest run"
   },
   "dependencies": {
     "better-sqlite3": "^12.11.1",
@@ -49,6 +50,7 @@
     "prettier": "^3.9.9",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
+    "vitest": "^5.0.3",
     "world-atlas": "^2.0.2"
   },
   "lint-staged": {

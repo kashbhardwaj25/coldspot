@@ -4,12 +4,13 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 
 ## Tooling
 
-| Command             | What it does                                            |
-| ------------------- | ------------------------------------------------------- |
-| `npm run check`     | Typecheck, lint and format check. Run before finishing. |
-| `npm run lint:fix`  | ESLint with autofix                                     |
-| `npm run format`    | Prettier on the whole repo                              |
-| `npm run typecheck` | `tsc --noEmit`                                          |
+| Command             | What it does                                                   |
+| ------------------- | -------------------------------------------------------------- |
+| `npm run check`     | Typecheck, lint, format check and tests. Run before finishing. |
+| `npm test`          | Vitest, for files named `*.test.ts` beside the code they test  |
+| `npm run lint:fix`  | ESLint with autofix                                            |
+| `npm run format`    | Prettier on the whole repo                                     |
+| `npm run typecheck` | `tsc --noEmit`                                                 |
 
 - **ESLint** (`eslint.config.mjs`): Next core-web-vitals + TypeScript, the full `jsx-a11y` recommended set, React Compiler rules from `react-hooks` v7, and `eslint-config-prettier` last.
 - **Prettier** (`.prettierrc.json`): 120 columns, double quotes, semicolons, trailing commas. Don't hand-format; don't fight it.

@@ -23,7 +23,8 @@ npm install
 cp .env.example .env.local     # set ADMIN_PASSWORD and SESSION_SECRET (16+ characters)
 npm run db:setup               # migrate and seed if empty (safe to rerun)
 npm run dev                    # http://localhost:3000, admin at /admin
-npm run check                  # typecheck + lint + format check
+npm run check                  # typecheck + lint + format check + tests
+npm test                       # Vitest (src/**/*.test.ts)
 npm run lint:fix               # ESLint with autofix
 npm run format                 # Prettier on everything
 npm run build                  # needs the database: run db:setup first
