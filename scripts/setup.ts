@@ -1,6 +1,6 @@
 /**
- * Creates or migrates the SQLite database, then seeds the famous cases and
- * sample stories if the tables are empty. Safe to run more than once.
+ * Creates or migrates the SQLite database, syncs the famous cases from
+ * seed-cases.ts, and seeds sample stories if there are none. Safe to run more than once.
  *   npm run db:setup
  */
 import { count } from "drizzle-orm";
@@ -12,11 +12,13 @@ import { seedStories } from "../src/data/seed-stories";
 migrate(db, { migrationsFolder: "drizzle" });
 console.log("✓ Database schema is up to date");
 
-const caseCount = db.select({ n: count() }).from(schema.cases).get()?.n ?? 0;
-if (caseCount === 0) {
-  db.insert(schema.cases).values(seedCases).run();
-  console.log(`✓ Seeded ${seedCases.length} famous cases`);
-}
+// Famous cases are curated in seed-cases.ts, so sync them by slug: new cases are added and edits are applied.
+db.transaction((tx) => {
+  for (const c of seedCases) {
+    tx.insert(schema.cases).values(c).onConflictDoUpdate({ target: schema.cases.slug, set: c }).run();
+  }
+});
+console.log(`✓ Synced ${seedCases.length} famous cases`);
 
 const storyCount = db.select({ n: count() }).from(schema.stories).get()?.n ?? 0;
 if (storyCount === 0) {
