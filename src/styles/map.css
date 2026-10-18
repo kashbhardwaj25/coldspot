@@ -184,6 +184,17 @@
   color: var(--muted);
   letter-spacing: 0.03em;
 }
+.all-cases {
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  color: var(--ink-2);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--line);
+}
+.all-cases:hover {
+  color: var(--accent);
+}
 
 .chips {
   display: flex;

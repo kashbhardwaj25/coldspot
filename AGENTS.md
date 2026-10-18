@@ -40,7 +40,8 @@ Code is organised by feature. Routes in `src/app/` stay thin: they load data thr
 
 ```
 src/app/                         routes only
-  (map)/page.tsx                 the globe at / (static, revalidate 300s; reads data, renders ColdspotApp)
+  (map)/page.tsx                 the globe at / (static, revalidate 300s; sends case summaries, renders ColdspotApp)
+  api/cases/[slug]/route.ts      a case file's full text as JSON, pre-built per case; fetched when a case is opened on the map
   (site)/case/[slug]/page.tsx    pre-rendered page per famous case (SEO)
   (site)/story/[slug]/page.tsx   pre-rendered page per approved story (SEO)
   admin/layout.tsx               admin shell (brand, sign out)
@@ -53,6 +54,7 @@ src/features/
     parts.tsx                    ScrambleText, Freq, Ring, ZoomControls
     useGlobe.ts                  creates the GlobeEngine, deep links, ring layout, marker mapping
     useEchoes.ts useSound.ts     echo state; Radio and the sound toggle
+    useCaseFile.ts search.ts     load a case file on open (prefetched on tune-in); list search
     state.ts                     SheetState, EchoState
     sheets/                      Sheet (shell: focus, Esc) + CaseSheet, StorySheet, ListSheet, ShareSheet
   globe/                         framework-free canvas globe (no React, no Next)
@@ -97,7 +99,8 @@ public/land-50m.json             coastlines only
 
 - Files marked `"use client"` export components only. **Never export plain helper functions from a client file** and call them on the server. Server pages would get a client reference instead of the function. Put shared helpers in `src/lib/` or `src/components/brand.tsx`, which have no directive.
 - Database access happens only in a feature's `queries.ts` (reads, `server-only`) and its `"use server"` files (writes). Routes and components get data through those, never from `@/db/*` directly.
-- Pass plain, serialisable objects (`CaseItem`, `StoryItem`) to client components. Never pass raw rows containing `Date` objects or `ipHash`.
+- Pass plain, serialisable objects (`CaseSummary`, `CaseItem`, `StoryItem`) to client components. Never pass raw rows containing `Date` objects or `ipHash`.
+- The map gets `CaseSummary` (no case text) from `getCaseSummaries()`, to keep the home page small. A case's full text (`CaseDetail`) is fetched from `/api/cases/[slug]` when it's opened. Don't send full case text to the map again.
 
 ### Next.js 16
 

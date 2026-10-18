@@ -24,3 +24,16 @@
 .article .s-title {
   font-size: clamp(30px, 6vw, 44px);
 }
+
+/* "Nearby cases" and the category groups on the all-cases page. */
+.related {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+/* A button at the end of an article sits at its natural width. */
+.article > .btn {
+  align-self: flex-start;
+}

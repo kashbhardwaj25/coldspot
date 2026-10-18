@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, type CSSProperties, type Ref } from "react";
 import { CATEGORIES, CATEGORY_KEYS, type Category } from "@/lib/categories";
 import type { MapItem, Mode } from "@/lib/types";
@@ -15,7 +16,6 @@ const NOTES: Record<Mode, string> = {
 type Props = {
   ref: Ref<HTMLElement>;
   mode: Mode;
-  totals: Record<Mode, number>;
   /** Items in the current mode, counted per category. Categories with none are hidden. */
   items: MapItem[];
   active: Set<Category>;
@@ -75,17 +75,21 @@ export function MapHeader({ ref, items, ...p }: Props) {
         </div>
       </div>
       <div className="band">
+        <h1 className="sr-only">Coldspot: a globe of unexplained encounters</h1>
         {STORIES_ENABLED && (
           <div className="seg" role="group" aria-label="Choose what to tune in to">
             <button type="button" aria-pressed={p.mode === "famous"} onClick={() => p.onMode("famous")}>
-              Famous cases <em>{p.totals.famous}</em>
+              Famous cases
             </button>
             <button type="button" aria-pressed={p.mode === "people"} onClick={() => p.onMode("people")}>
-              People&apos;s stories <em>{p.totals.people}</em>
+              People&apos;s stories
             </button>
           </div>
         )}
         <p>{NOTES[p.mode]}</p>
+        <Link className="all-cases" href="/cases">
+          Browse all famous cases →
+        </Link>
       </div>
       <div className="chips" role="group" aria-label="Show categories">
         {CATEGORY_KEYS.filter((k) => counts[k]).map((k) => (

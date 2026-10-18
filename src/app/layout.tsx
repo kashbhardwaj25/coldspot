@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Mono, Newsreader } from "next/font/google";
 import type { ReactNode } from "react";
+import { SITE_DESCRIPTION } from "@/features/cases/jsonld";
 import { env } from "@/lib/server/env";
+import { isIndexable } from "@/lib/site";
 import "./globals.css";
 
 // Self-hosted at build time: no request to Google from the visitor's browser, and no layout shift.
@@ -17,9 +19,10 @@ const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variabl
 export const metadata: Metadata = {
   metadataBase: new URL(env.NEXT_PUBLIC_SITE_URL),
   title: { default: "Coldspot", template: "%s · Coldspot" },
-  description:
-    "Something happened here. Famous unexplained cases and people's own strange encounters on one globe. Drag the map and whatever reaches the ring tunes in.",
+  description: SITE_DESCRIPTION,
   openGraph: { siteName: "Coldspot", type: "website" },
+  twitter: { card: "summary_large_image" },
+  robots: isIndexable(env.NEXT_PUBLIC_SITE_URL) ? undefined : { index: false, follow: false },
 };
 
 export const viewport: Viewport = {

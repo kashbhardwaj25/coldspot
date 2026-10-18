@@ -1,11 +1,13 @@
 import "server-only";
 import { asc, eq } from "drizzle-orm";
 import { db, schema } from "@/db/client";
-import type { CaseItem } from "@/lib/types";
+import type { CaseDetail, CaseItem, CaseSummary } from "@/lib/types";
 
 const { cases } = schema;
 
-function toCaseItem(r: typeof cases.$inferSelect): CaseItem {
+type CaseRow = typeof cases.$inferSelect;
+
+function toCaseSummary(r: Omit<CaseRow, "id" | "summary" | "explanation" | "wiki" | "createdAt">): CaseSummary {
   return {
     kind: "case",
     slug: r.slug,
@@ -19,15 +21,54 @@ function toCaseItem(r: typeof cases.$inferSelect): CaseItem {
     statusLabel: r.statusLabel,
     witnesses: r.witnesses,
     hook: r.hook,
-    summary: r.summary,
-    explanation: r.explanation,
-    wiki: r.wiki,
     featured: r.featured,
   };
 }
 
+const toCaseItem = (r: CaseRow): CaseItem => ({
+  ...toCaseSummary(r),
+  summary: r.summary,
+  explanation: r.explanation,
+  wiki: r.wiki,
+});
+
+/** Every case with its full text, for the case pages, the all-cases page and the sitemap. */
 export function getAllCases(): CaseItem[] {
   return db.select().from(cases).orderBy(asc(cases.id)).all().map(toCaseItem);
+}
+
+/** Every case without its full text: what the map screen sends to the browser. */
+export function getCaseSummaries(): CaseSummary[] {
+  return db
+    .select({
+      slug: cases.slug,
+      category: cases.category,
+      title: cases.title,
+      region: cases.region,
+      lat: cases.lat,
+      lon: cases.lon,
+      dateLabel: cases.dateLabel,
+      status: cases.status,
+      statusLabel: cases.statusLabel,
+      witnesses: cases.witnesses,
+      hook: cases.hook,
+      featured: cases.featured,
+    })
+    .from(cases)
+    .orderBy(asc(cases.id))
+    .all()
+    .map(toCaseSummary);
+}
+
+/** The full text of one case file, fetched by the map when it's opened. */
+export function getCaseDetail(slug: string): CaseDetail | null {
+  return (
+    db
+      .select({ summary: cases.summary, explanation: cases.explanation, wiki: cases.wiki })
+      .from(cases)
+      .where(eq(cases.slug, slug))
+      .get() ?? null
+  );
 }
 
 export function getCase(slug: string): CaseItem | null {

@@ -167,6 +167,11 @@
 .item:hover {
   background: rgba(236, 229, 214, 0.03);
 }
+/* Rows on the all-cases page and under case pages are links. */
+a.item {
+  text-decoration: none;
+  color: inherit;
+}
 .item i {
   width: 8px;
   height: 8px;

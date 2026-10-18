@@ -54,3 +54,47 @@
 .x:hover {
   color: var(--ink);
 }
+
+/* Search at the top of the list sheet, staying in view while the list scrolls. */
+.list-search {
+  position: sticky;
+  top: -18px;
+  z-index: 1;
+  margin: -18px -18px 0;
+  padding: 18px 18px 10px;
+  background: var(--night-2);
+}
+.list-search input {
+  width: 100%;
+  background: rgba(236, 229, 214, 0.04);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 11px 14px;
+  font-family: var(--serif);
+  font-size: 16px; /* 16px stops iOS zooming in on focus */
+  color: var(--ink);
+}
+.list-search input::placeholder {
+  color: var(--muted);
+}
+.list-search input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+.list-empty {
+  margin: 18px 4px;
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink-2);
+}
+
+/* Shown while a case file loads in the sheet, or if it couldn't. */
+.opening {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.opening a {
+  color: var(--ink);
+}

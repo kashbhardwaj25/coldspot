@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import type { GeoPermissibleObjects } from "d3-geo";
 import { feature } from "topojson-client";
 import { CATEGORY_KEYS, type Category } from "@/lib/categories";
-import { itemKey, itemName, type CaseItem, type MapItem, type Mode, type StoryItem } from "@/lib/types";
+import { itemKey, itemName, type CaseSummary, type MapItem, type Mode, type StoryItem } from "@/lib/types";
 import { GlobeEngine, type EngineItem, type View } from "@/features/globe/engine";
 import type { Radio } from "@/features/globe/radio";
 
@@ -42,7 +42,7 @@ type Callbacks = {
 };
 
 /** Deep links: /?case=roswell or /?story=upper-lake-12 */
-function deepLinkTarget(cases: CaseItem[], stories: StoryItem[]): MapItem | undefined {
+function deepLinkTarget(cases: CaseSummary[], stories: StoryItem[]): MapItem | undefined {
   const q = new URLSearchParams(window.location.search);
   const c = q.get("case");
   if (c) return cases.find((i) => i.slug === c);
@@ -55,7 +55,7 @@ function deepLinkTarget(cases: CaseItem[], stories: StoryItem[]): MapItem | unde
  * Returns the engine and the refs to attach to the canvases and overlays.
  * Callbacks are read through a ref, so they can change between renders without recreating the globe.
  */
-export function useGlobe(radio: Radio, data: { cases: CaseItem[]; stories: StoryItem[] }, callbacks: Callbacks) {
+export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: StoryItem[] }, callbacks: Callbacks) {
   const engineRef = useRef<GlobeEngine | null>(null);
   const baseRef = useRef<HTMLCanvasElement>(null);
   const dotsRef = useRef<HTMLCanvasElement>(null);

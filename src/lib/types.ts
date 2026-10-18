@@ -1,7 +1,7 @@
 import type { CaseStatus, Category } from "./categories";
 
-/** A famous, real case as sent to the browser. */
-export type CaseItem = {
+/** A famous case as the map needs it: enough for the globe, the list, search and the tuner card. */
+export type CaseSummary = {
   kind: "case";
   slug: string;
   category: Category;
@@ -14,12 +14,19 @@ export type CaseItem = {
   statusLabel: string | null;
   witnesses: string;
   hook: string;
-  summary: string[];
-  explanation: string;
-  wiki: string | null;
   /** Shown first where markers crowd at low zoom. */
   featured: boolean;
 };
+
+/** The full text of a case file. The map fetches it only when a case is opened (see `useCaseFile`). */
+export type CaseDetail = {
+  summary: string[];
+  explanation: string;
+  wiki: string | null;
+};
+
+/** A famous, real case with its full case file, as on the case pages. */
+export type CaseItem = CaseSummary & CaseDetail;
 
 /** An approved people's story as sent to the browser. */
 export type StoryItem = {
@@ -41,7 +48,7 @@ export type StoryItem = {
   echoes: number;
 };
 
-export type MapItem = CaseItem | StoryItem;
+export type MapItem = CaseSummary | StoryItem;
 export type Mode = "famous" | "people";
 
 export const itemName = (i: MapItem) => (i.kind === "case" ? i.title : i.place);

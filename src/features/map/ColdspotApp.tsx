@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Category } from "@/lib/categories";
 import { catColor } from "@/lib/format";
 import { signal } from "@/lib/signal";
-import { itemKey, type CaseItem, type MapItem, type Mode, type StoryItem } from "@/lib/types";
+import { itemKey, type CaseSummary, type MapItem, type Mode, type StoryItem } from "@/lib/types";
 import type { View } from "@/features/globe/engine";
 import { MapHeader } from "./MapHeader";
 import { Ring, ZoomControls } from "./parts";
@@ -15,7 +15,7 @@ import { useEchoes } from "./useEchoes";
 import { allCategories, toMarkers, useGlobe, VIEWS } from "./useGlobe";
 import { useSound } from "./useSound";
 
-type Props = { cases: CaseItem[]; stories: StoryItem[] };
+type Props = { cases: CaseSummary[]; stories: StoryItem[] };
 
 export default function ColdspotApp({ cases, stories }: Props) {
   const [mode, setMode] = useState<Mode>("famous");
@@ -124,7 +124,6 @@ export default function ColdspotApp({ cases, stories }: Props) {
       <MapHeader
         ref={topRef}
         mode={mode}
-        totals={{ famous: cases.length, people: stories.length }}
         items={itemsFor(mode)}
         active={active}
         soundOn={soundOn}

@@ -3,7 +3,7 @@
 import { useEffect, useRef, type CSSProperties, type ReactNode } from "react";
 import { CATEGORIES } from "@/lib/categories";
 import { catColor } from "@/lib/format";
-import type { CaseItem, MapItem, Mode, StoryItem } from "@/lib/types";
+import type { CaseSummary, MapItem, Mode, StoryItem } from "@/lib/types";
 import type { EchoState, SetEchoState, SheetState } from "../state";
 import { CaseSheet } from "./CaseSheet";
 import { ListSheet } from "./ListSheet";
@@ -13,13 +13,13 @@ import { StorySheet } from "./StorySheet";
 type Props = {
   sheet: SheetState;
   mode: Mode;
-  cases: CaseItem[];
+  cases: CaseSummary[];
   stories: StoryItem[];
   echoState: EchoState;
   setEchoState: SetEchoState;
   onClose: () => void;
   onPick: (item: MapItem) => void;
-  onNearbyStories: (c: CaseItem) => void;
+  onNearbyStories: (c: CaseSummary) => void;
 };
 
 /** Bottom sheet: focuses the close button on open, closes on Esc, and returns focus when it closes. */
@@ -30,7 +30,8 @@ export function Sheet(props: Props) {
   useEffect(() => {
     const prev = document.activeElement as HTMLElement | null;
     closeRef.current?.focus();
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    // Ignore an Esc something inside already handled, like clearing a search box.
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && !e.defaultPrevented && onClose();
     document.addEventListener("keydown", onKey);
     return () => {
       document.removeEventListener("keydown", onKey);
@@ -87,9 +88,9 @@ function content(p: Props): [ReactNode, ReactNode] {
       const title = p.mode === "famous" ? "Famous cases" : "People's stories";
       return [
         <span key="h" className="tag">
-          {title} · {items.length}
+          {title}
         </span>,
-        <ListSheet key="b" items={items} onPick={p.onPick} />,
+        <ListSheet key="b" title={title} items={items} onPick={p.onPick} />,
       ];
     }
     case "share":

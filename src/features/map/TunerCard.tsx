@@ -1,11 +1,12 @@
 "use client";
 
-import type { CSSProperties } from "react";
+import { useEffect, type CSSProperties } from "react";
 import { CATEGORIES } from "@/lib/categories";
 import { caseStatusLabel } from "@/lib/format";
 import type { Signal } from "@/lib/signal";
-import { itemName, type CaseItem, type MapItem, type StoryItem } from "@/lib/types";
+import { itemName, type CaseSummary, type MapItem, type StoryItem } from "@/lib/types";
 import { Freq, ScrambleText } from "./parts";
+import { loadCaseFile } from "./useCaseFile";
 
 type Props = {
   item: MapItem | null;
@@ -48,8 +49,12 @@ function Searching({ nearest, coords }: { nearest: MapItem | null; coords: Signa
 
 type CardProps<T> = { item: T; coords: Signal<string>; onOpen: (item: MapItem) => void };
 
-function CaseCard({ item, coords, onOpen }: CardProps<CaseItem>) {
+function CaseCard({ item, coords, onOpen }: CardProps<CaseSummary>) {
   const cat = CATEGORIES[item.category];
+  // Fetch the full case file as soon as a case tunes in, so it's usually ready before it's opened.
+  useEffect(() => {
+    loadCaseFile(item.slug).catch(() => {});
+  }, [item.slug]);
   return (
     <div className="card case" style={{ "--tc": cat.color } as CSSProperties} aria-live="polite">
       <div className="row">
