@@ -1,6 +1,8 @@
 "use server";
 
 import { and, count, eq } from "drizzle-orm";
+import { revalidatePath } from "next/cache";
+import { after } from "next/server";
 import { db, schema } from "@/db/client";
 import { currentUser } from "@/features/accounts/session";
 import { STORIES_ENABLED } from "@/lib/features";
@@ -26,6 +28,11 @@ export async function toggleEcho(slug: string): Promise<{ echoes: number; mine: 
   else db.insert(echoes).values({ storyId: story.id, userId: viewer.id }).onConflictDoNothing().run();
 
   const n = db.select({ n: count() }).from(echoes).where(eq(echoes.storyId, story.id)).get()?.n ?? 0;
+  // The count on the story page and the map's cards; after the response, so the open sheet isn't re-rendered.
+  after(() => {
+    revalidatePath("/");
+    revalidatePath(`/story/${slug}`);
+  });
   return { echoes: story.seed + n, mine: !existing };
 }
 

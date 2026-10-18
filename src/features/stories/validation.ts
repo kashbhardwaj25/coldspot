@@ -37,6 +37,8 @@ export const submission = z.object({
     .max(6000, "Keep it under 6,000 characters."),
   lat: z.coerce.number().min(-85).max(85),
   lon: z.coerce.number().min(-180).max(180),
+  // The share form's checkbox: agreeing to the terms, including permission to publish the story.
+  consent: z.literal("on", { message: "Tick the box to agree to the terms before sending." }),
   website: z.string().optional(), // honeypot: real people never see this field
 });
 

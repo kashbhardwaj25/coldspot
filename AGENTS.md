@@ -61,12 +61,13 @@ src/features/
     useCaseFile.ts search.ts     load a case file on open (prefetched on tune-in); list search
     useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
     state.ts                     SheetState, EchoState
-    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields
+    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet, ShareFields, PinPicker (a second GlobeEngine to place the pin)
   globe/                         framework-free canvas globe (no React, no Next)
     engine.ts                    GlobeEngine: public API, frame loop, input handling
     camera.ts input.ts motion.ts view and projection; pointer/keyboard; animations, momentum, snap
     draw.ts tuning.ts radio.ts   drawing; visibility, tune-in and hit testing; Web Audio
     declutter.ts labels.ts       hide crowded low-priority markers by zoom; non-overlapping labels
+    land.ts                      loads the coastlines once for every globe on the page
   stories/
     submit.ts                    "use server": submitStory
     echoes.ts                    "use server": toggleEcho, myEchoes
@@ -153,7 +154,7 @@ public/land-50m.json             coastlines only
 - Submissions always start as `pending`. Nothing user-written reaches the public site without admin approval. Story statuses: `pending`, `approved`, `rejected`, and `hidden` (published, then hidden automatically after 3 reports from different accounts until an admin restores or removes it).
 - A story keeps the first slug it's given, so its URL never changes when it's edited or re-approved.
 - Admin edits go through the same link and phone checks as submissions (`blockedContent`).
-- Keep the existing submission checks: sign-in, Turnstile (when configured), honeypot field, 3 per account and 3 per IP per 24 hours, no links (also in the pen name), no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
+- Keep the existing submission checks: sign-in, the consent checkbox, Turnstile (when configured), honeypot field, 3 per account and 3 per IP per 24 hours, no links (also in the pen name), no phone numbers, length 80–6,000 characters. Add layers; don't remove them.
 - Content rules shown to users: no real names, no exact addresses, nothing about crime, violence or anyone getting hurt, no selling remedies, rituals or charms.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.
 - Famous cases must present what was reported **and** the explanations offered, without taking a side. Don't write that a case is proven.

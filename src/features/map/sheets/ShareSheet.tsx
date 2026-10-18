@@ -6,7 +6,7 @@ import { signInWithGoogle, useSignedIn } from "@/features/accounts/client";
 import { clearDraft, RESUME_QUERY, saveDraft, type ShareDraft } from "@/features/stories/draft";
 import { submitStory, type SubmitState } from "@/features/stories/submit";
 import { Turnstile } from "@/features/stories/Turnstile";
-import { formatCoords } from "@/lib/geo";
+import { PinPicker } from "./PinPicker";
 import { ShareFields } from "./ShareFields";
 
 type Props = {
@@ -17,7 +17,7 @@ type Props = {
   onClose: () => void;
 };
 
-/** The share form. The story is pinned where the ring is; the server blurs it to ~5 km. Sending needs sign-in. */
+/** The share form. The pin starts where the ring is and can be moved on the picker; the server blurs it to ~5 km. */
 export function ShareSheet({ center, draft, turnstileSiteKey, onClose }: Props) {
   const [state, action, pending] = useActionState<SubmitState, FormData>(submitStory, null);
   const signedIn = useSignedIn();
@@ -40,7 +40,9 @@ export function ShareSheet({ center, draft, turnstileSiteKey, onClose }: Props) 
   // Google sign-in leaves the page, so keep the draft and reopen the form on the way back.
   const signIn = async () => {
     if (!formRef.current) return;
-    saveDraft(new FormData(formRef.current), center);
+    // Keep the pin where the writer moved it on the picker.
+    const data = new FormData(formRef.current);
+    saveDraft(data, { lat: Number(data.get("lat")) || center.lat, lon: Number(data.get("lon")) || center.lon });
     setLeaving(true);
     const error = await signInWithGoogle(`/?${RESUME_QUERY}`);
     if (error) {
@@ -80,17 +82,12 @@ export function ShareSheet({ center, draft, turnstileSiteKey, onClose }: Props) 
         </div>
       </div>
       <form className="form" ref={formRef} onSubmit={onSubmit} noValidate>
-        <input type="hidden" name="lat" value={center.lat} />
-        <input type="hidden" name="lon" value={center.lon} />
         <div className="hp" aria-hidden="true">
           <label htmlFor="fWebsite">Website</label>
           <input id="fWebsite" name="website" tabIndex={-1} autoComplete="off" />
         </div>
         <ShareFields draft={draft} />
-        <p className="pin">
-          Pinned where the ring is now: <b>{formatCoords(center.lat, center.lon)}</b>. The map shows only a ~5 km area.
-          To move the pin, close this and drag the map.
-        </p>
+        <PinPicker initial={center} />
         <ul className="rules">
           <li>Leave out real names and exact addresses.</li>
           <li>Nothing about crime, violence or anyone getting hurt.</li>

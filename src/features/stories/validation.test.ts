@@ -10,6 +10,7 @@ function draft(story: string, extra: Partial<Submission> = {}): Submission {
     story: `${STORY} ${story}`,
     lat: 23.25,
     lon: 69.67,
+    consent: "on",
     ...extra,
   });
 }
@@ -40,6 +41,10 @@ describe("blockedContent: links", () => {
     expect(blocked("", { place: "example.com" })).toMatch(/links/);
     expect(blocked("", { witnesses: "see www.example.org" })).toMatch(/links/);
     expect(blocked("", { penName: "example.com" })).toMatch(/links/);
+  });
+
+  it("needs the consent box ticked", () => {
+    expect(() => draft("", { consent: undefined as unknown as "on" })).toThrow(/agree to the terms/);
   });
 
   it("limits the pen name to 40 characters", () => {

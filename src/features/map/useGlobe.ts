@@ -1,9 +1,8 @@
 import { useEffect, useRef } from "react";
-import type { GeoPermissibleObjects } from "d3-geo";
-import { feature } from "topojson-client";
 import { CATEGORY_KEYS, type Category } from "@/lib/categories";
 import { itemKey, itemName, type CaseSummary, type MapItem, type Mode, type StoryItem } from "@/lib/types";
 import { GlobeEngine, type EngineItem, type View } from "@/features/globe/engine";
+import { loadLand } from "@/features/globe/land";
 import type { Radio } from "@/features/globe/radio";
 
 export const VIEWS: Record<Mode, View> = {
@@ -73,11 +72,9 @@ export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: St
     let engine: GlobeEngine | null = null;
     let tuned: string | null = null;
 
-    fetch("/land-50m.json")
-      .then((r) => r.json())
-      .then((topo) => {
+    loadLand()
+      .then((land) => {
         if (cancelled || !baseRef.current || !dotsRef.current) return;
-        const land = feature(topo, topo.objects.land) as unknown as GeoPermissibleObjects;
         const target = deepLinkTarget(data.cases, data.stories);
         const mode: Mode = target?.kind === "story" ? "people" : "famous";
         const view = target ? { lon: target.lon, lat: target.lat, zoom: mode === "famous" ? 2.4 : 3.6 } : VIEWS[mode];

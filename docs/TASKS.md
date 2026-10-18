@@ -39,9 +39,10 @@ Decisions behind this list:
 ## 4. Stories: polish
 
 - [x] Echo copy says "within 50 km", "echoes nearby" and "people nearby can echo it", but echoes aren't location-based. Fix the wording in `features/map/sheets/StorySheet.tsx`, `features/map/TunerCard.tsx` and `features/map/sheets/ShareSheet.tsx`.
-- [ ] `toggleEcho` doesn't revalidate, so echo counts lag by up to 5 minutes on `/` and an hour on story pages. Revalidate the story page.
-- [ ] Place the pin inside the share form with a small map picker, so people don't have to close it and drag the globe.
-- [ ] Consent checkbox on the share form, linking to the terms.
+- [x] `toggleEcho` doesn't revalidate, so echo counts lag by up to 5 minutes on `/` and an hour on story pages. Revalidate the story page.
+- [x] Place the pin inside the share form with a small map picker, so people don't have to close it and drag the globe.
+- [x] Consent checkbox on the share form, linking to the terms.
+- [ ] The pin picker is blank inland (coastlines only, no borders). Add reference points: famous cases and stories as landmarks, and a town search that jumps the picker there. "Use my location" is done.
 
 ## 5. Regions
 

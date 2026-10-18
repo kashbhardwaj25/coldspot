@@ -1,3 +1,5 @@
+import { Checkbox } from "@base-ui/react/checkbox";
+import Link from "next/link";
 import { SelectField } from "@/components/ui/SelectField";
 import { TextArea, TextField } from "@/components/ui/TextField";
 import type { ShareDraft } from "@/features/stories/draft";
@@ -71,6 +73,15 @@ export function ShareFields({ draft }: Props) {
         defaultValue={v.penName}
         description="Shown with your story. Leave it blank to appear as Anonymous."
       />
+      <label className="consent">
+        <Checkbox.Root name="consent" className="checkbox">
+          <Checkbox.Indicator className="checkbox-tick">✓</Checkbox.Indicator>
+        </Checkbox.Root>
+        <span>
+          I agree to the <Link href="/terms">terms of use</Link> and the <Link href="/privacy">privacy policy</Link>,
+          and I&apos;m happy for Coldspot to publish my story.
+        </span>
+      </label>
     </>
   );
 }

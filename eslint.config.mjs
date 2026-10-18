@@ -45,6 +45,11 @@ export default defineConfig([
     rules: {
       // Accessibility: next only enables a handful of jsx-a11y rules; turn on the full recommended set.
       ...jsxA11y.flatConfigs.recommended.rules,
+      // Base UI's checkbox and radio render real controls; a wrapping <label> names them (as Base UI documents).
+      "jsx-a11y/label-has-associated-control": [
+        "error",
+        { controlComponents: ["Checkbox.Root", "Radio.Root"], assert: "either", depth: 3 },
+      ],
 
       // Small files. Split by responsibility before a file grows past this.
       "max-lines": ["error", { max: MAX_LINES, skipBlankLines: true, skipComments: true }],
