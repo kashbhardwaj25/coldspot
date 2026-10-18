@@ -7837,5 +7837,1734 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Geologists who studied it concluded it is beachrock, a natural limestone that forms along shorelines and cracks into rectangular slabs. Radiocarbon dating showed the blocks formed a few thousand years ago in place, not as a built structure. Some Atlantis enthusiasts still dispute this.",
     "wiki": "Bimini Road"
+  },
+  {
+    "slug": "tansen-raga",
+    "category": "voices",
+    "title": "Tansen and the Raga of Fire",
+    "region": "Gwalior, Madhya Pradesh, India",
+    "lat": 26.23,
+    "lon": 78.18,
+    "dateLabel": "16th century",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Musicians and storytellers through the centuries",
+    "hook": "Legend says the great musician Tansen sang a raga so powerful that the lamps of Akbar's court burst into flame.",
+    "summary": [
+      "Tansen was one of the most celebrated musicians in Indian history, a singer at the court of the Mughal emperor Akbar in the 16th century. He is buried in Gwalior, where a music festival is held in his honour every year.",
+      "A famous legend says that when Akbar asked him to sing Raga Deepak, the raga of fire, the lamps in the hall lit by themselves and the air grew so hot that Tansen's body burned, until a woman singing Raga Megh Malhar, the raga of rain, brought a downpour that cooled him."
+    ],
+    "explanation": "The story is a legend, told to show the power that Indian classical music was believed to hold over nature, with ragas linked to times of day, seasons and moods. There is no historical record of the event, but the tale is still told by musicians and taught to students.",
+    "wiki": "Tansen"
+  },
+  {
+    "slug": "whistling-schoolboy",
+    "category": "voices",
+    "title": "The Whistling Schoolboy",
+    "region": "Western Ghats, near Agumbe, Karnataka, India",
+    "lat": 13.5,
+    "lon": 75.09,
+    "dateLabel": "Heard every morning",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Hikers and villagers",
+    "hook": "At dawn in the forests of the Western Ghats, travellers hear what sounds like a boy whistling a tune, but no one is there.",
+    "summary": [
+      "In the hill forests of the Western Ghats, from Maharashtra to Kerala, people walking along streams at dawn and dusk often hear a loud, rambling, very human whistle, rising and falling as if a boy were idly whistling a song. Many have searched for the whistler and found nobody.",
+      "Local people and early naturalists gave the sound's owner the nickname 'the whistling schoolboy'."
+    ],
+    "explanation": "It is the Malabar whistling thrush, a dark blue bird found only in the Western Ghats, which lives along forest streams and sings its human-like whistle especially in the early morning. It is shy and blends into the shadows, so it is much easier to hear than to see.",
+    "wiki": "Malabar whistling thrush"
+  },
+  {
+    "slug": "ulama-devil-bird",
+    "category": "voices",
+    "title": "The Ulama, Sri Lanka's Devil Bird",
+    "region": "Central hill forests, Sri Lanka",
+    "lat": 7.0,
+    "lon": 80.6,
+    "dateLabel": "Told for generations; identified around 2001",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Villagers and naturalists",
+    "hook": "In the forests of Sri Lanka, a terrible scream at night was blamed on the ulama, a bird that folklore treated as a bad omen.",
+    "summary": [
+      "For centuries, people in Sri Lanka have told of the ulama, or devil bird, whose cry at night is described as a blood-curdling human scream. Folklore treated hearing it as a bad omen, and nobody was sure which creature made the sound.",
+      "Many birds were suggested over the years, including owls, nightjars and even forest eagles."
+    ],
+    "explanation": "In 2001, a spot-bellied eagle owl found by villagers was widely reported as the answer, and recordings of this large forest owl match the eerie, rising scream described for the ulama. Some naturalists think more than one species may lie behind the legend.",
+    "wiki": "Devil Bird"
+  },
+  {
+    "slug": "fiji-turtle-calling",
+    "category": "voices",
+    "title": "The Turtle Callers of Kadavu",
+    "region": "Namuana, Kadavu, Fiji",
+    "lat": -19.05,
+    "lon": 178.18,
+    "dateLabel": "Tradition handed down for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "The women of Namuana village",
+    "hook": "On an island in Fiji, the women of one village stand on the cliffs and sing, and turtles are said to rise from the sea to listen.",
+    "summary": [
+      "In the village of Namuana on Kadavu island, the women keep an old tradition: standing on the headland above the bay and singing a special chant, after which, it is said, sea turtles rise to the surface below. The ceremony has been described by visitors for over a century.",
+      "The legend says the turtles are a princess and her daughter from Namuana who were carried off by fishermen from a rival village and turned into turtles to escape. The turtles will not come, it is said, if anyone from that village is watching."
+    ],
+    "explanation": "The ceremony is a living cultural tradition, and visitors have reported seeing turtles surface during it. Turtles are common in Fijian waters and come up to breathe, so sightings can be explained naturally, but for the people of Namuana the song is a link to their ancestors.",
+    "wiki": null
+  },
+  {
+    "slug": "mapua-vaea-blowholes",
+    "category": "voices",
+    "title": "The Whistling Blowholes of Tonga",
+    "region": "Houma, Tongatapu, Tonga",
+    "lat": -21.18,
+    "lon": -175.32,
+    "dateLabel": "Known for generations",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Islanders and visitors",
+    "hook": "Along a reef in Tonga, hundreds of jets of sea water shoot into the air with a roar and a whistle, like a chorus of the sea.",
+    "summary": [
+      "On the south coast of Tongatapu, Tonga's main island, the waves strike a long, flat limestone reef full of holes and channels. With every wave, dozens or hundreds of plumes of spray burst up to 30 metres into the air, each with a whoosh and a whistle.",
+      "The place is called Mapu'a 'a Vaea, 'the chief's whistle', and the sound can carry a long way along the coast."
+    ],
+    "explanation": "The reef is riddled with tunnels formed by erosion. When a wave rushes in, it compresses the water and air inside, forcing them up through openings in the rock, which makes the jets and the whistling sound. The effect is strongest when the sea is rough.",
+    "wiki": null
+  },
+  {
+    "slug": "vietnam-lithophone",
+    "category": "voices",
+    "title": "The Stone Xylophone of the Highlands",
+    "region": "Ndut Liêng Krak, Đắk Lắk, Vietnam",
+    "lat": 12.4,
+    "lon": 108.0,
+    "dateLabel": "Found in 1949; about 3,000 years old",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Road builders and an ethnologist",
+    "hook": "Workers building a road in Vietnam's highlands dug up a set of long stones. Laid in a row and struck, they played a scale.",
+    "summary": [
+      "In February 1949, local people building a road near the village of Ndut Liêng Krak in Vietnam's Central Highlands found eleven long, chipped stone slabs. When the French ethnologist Georges Condominas laid them in order and struck them, it was clear they were a musical instrument.",
+      "More of these stone instruments, called lithophones, have since been found across the region, and highland peoples still play stone and bamboo instruments today."
+    ],
+    "explanation": "Archaeologists estimate the Ndut Liêng Krak lithophone is around 3,000 years old, making it one of the oldest known musical instruments in Southeast Asia. Its stones were carefully shaped to give a musical scale. It is now held in a museum in Paris.",
+    "wiki": "Lithophone"
+  },
+  {
+    "slug": "marquis-yi-bells",
+    "category": "voices",
+    "title": "The Two-Note Bells of Marquis Yi",
+    "region": "Suizhou, Hubei, China",
+    "lat": 31.69,
+    "lon": 113.38,
+    "dateLabel": "Made about 2,400 years ago; found in 1978",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Archaeologists and musicians",
+    "hook": "In a 2,400-year-old tomb in China, archaeologists found 65 bronze bells, each of which plays two different notes.",
+    "summary": [
+      "In 1978, soldiers levelling a hill near Suizhou in Hubei province uncovered the tomb of Marquis Yi of Zeng, a ruler who died around 433 BCE. Inside was a complete set of 65 bronze bells hanging from a wooden frame, along with other instruments.",
+      "When musicians struck the bells, they found that each one produced two distinct notes, depending on where it was hit, and that the whole set could still play music."
+    ],
+    "explanation": "The secret is the bells' almond-shaped cross-section, rather than round, which lets each bell vibrate in two different ways. It shows remarkable knowledge of acoustics and metalworking in ancient China. The bells are now in the Hubei Provincial Museum.",
+    "wiki": "Bianzhong of Marquis Yi"
+  },
+  {
+    "slug": "earth-hum",
+    "category": "voices",
+    "title": "The Hum of the Earth",
+    "region": "Japan, where it was first detected",
+    "lat": 35.68,
+    "lon": 139.69,
+    "dateLabel": "Discovered in 1998",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Seismometers worldwide",
+    "hook": "Even on days without earthquakes, the whole planet rings very faintly, like a bell. Japanese scientists found it in 1998.",
+    "summary": [
+      "After a large earthquake, the whole Earth vibrates for days, ringing at very low frequencies like a struck bell. Scientists long assumed that between earthquakes, the planet fell silent.",
+      "In 1998, Japanese research groups analysing sensitive seismometer records found that the Earth never stops ringing: a constant, faint vibration, far too low for humans to hear, continues even on the quietest days."
+    ],
+    "explanation": "Scientists now think the 'hum' is driven mainly by ocean waves, especially long waves pressing on the sea floor along coasts and continental shelves, with some contribution from the atmosphere. Its seasonal changes follow the stormy seasons in each hemisphere.",
+    "wiki": null
+  },
+  {
+    "slug": "fingals-cave",
+    "category": "voices",
+    "title": "The Music of Fingal's Cave",
+    "region": "Staffa, Inner Hebrides, Scotland",
+    "lat": 56.43,
+    "lon": -6.34,
+    "dateLabel": "Made famous in 1772",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Sailors, visitors and a composer",
+    "hook": "On a tiny Scottish island, waves boom and echo inside a cave of black columns, a sound that inspired a famous piece of music.",
+    "summary": [
+      "The uninhabited island of Staffa, off the west coast of Scotland, is made of tall, six-sided basalt columns. At its edge is Fingal's Cave, a sea cave about 70 metres deep, its walls and roof formed of columns, its floor the sea.",
+      "Visitors since the 18th century have described the eerie, cathedral-like booming and echoing of the waves inside. In 1829, the composer Felix Mendelssohn visited and wrote his Hebrides Overture, often called 'Fingal's Cave', inspired by it. Gaelic legend links the cave to the giant Fionn mac Cumhaill."
+    ],
+    "explanation": "The columns formed from lava that cooled and cracked into regular shapes about 60 million years ago, the same lava field that formed the Giant's Causeway. The cave's arched shape and the sea surging in make it act like a giant echo chamber.",
+    "wiki": "Fingal's Cave"
+  },
+  {
+    "slug": "ear-of-dionysius",
+    "category": "voices",
+    "title": "The Ear of Dionysius",
+    "region": "Syracuse, Sicily, Italy",
+    "lat": 37.07,
+    "lon": 15.28,
+    "dateLabel": "Named in 1586",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Visitors and acoustics researchers",
+    "hook": "A tall cave in Sicily shaped like an ear carries every whisper to the top. Legend says a tyrant used it to spy on his prisoners.",
+    "summary": [
+      "In an ancient limestone quarry at Syracuse in Sicily is a tall, narrow cave about 23 metres high, curving inward like the shape of an ear. Sounds inside are greatly amplified, and a whisper near the floor can be heard clearly near the top of the opening.",
+      "The painter Caravaggio is said to have named it in 1586, after the legend that Dionysius, a tyrant of ancient Syracuse, used it to listen secretly to the conversations of prisoners kept below."
+    ],
+    "explanation": "The cave was probably cut by ancient quarry workers, and its shape and smooth walls give it strong acoustic effects. There is no evidence it was designed for eavesdropping, and the legend appears long after Dionysius's time.",
+    "wiki": "Ear of Dionysius"
+  },
+  {
+    "slug": "weddell-seal-songs",
+    "category": "voices",
+    "title": "The Songs Under the Antarctic Ice",
+    "region": "McMurdo Sound, Antarctica",
+    "lat": -77.85,
+    "lon": 166.6,
+    "dateLabel": "Recorded for decades",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Researchers and divers",
+    "hook": "Beneath the Antarctic sea ice, divers hear sounds like laser guns and alien trills echoing through the water.",
+    "summary": [
+      "Scientists and divers working under the sea ice of Antarctica, such as in McMurdo Sound, have long been startled by the sounds around them: descending whistles, trills, chirps and sweeps that sound like science fiction sound effects, some of them loud enough to feel.",
+      "The sounds can be heard through the ice itself, and on hydrophones lowered through holes."
+    ],
+    "explanation": "They are made by Weddell seals, which live further south than any other mammal and spend the winter under the ice, keeping breathing holes open. Males use their calls to defend underwater territories and attract mates. Their sounds travel far in the cold water.",
+    "wiki": "Weddell seal"
+  },
+  {
+    "slug": "swedish-rhapsody",
+    "category": "voices",
+    "title": "The Swedish Rhapsody",
+    "region": "Broadcast from Poland",
+    "lat": 52.23,
+    "lon": 21.01,
+    "dateLabel": "Late 1950s – 1998",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Shortwave radio listeners",
+    "hook": "For decades, a shortwave station played a tinkling music box tune, then what sounded like a little girl reading numbers in German.",
+    "summary": [
+      "From the late 1950s until 1998, shortwave listeners in Europe could hear a station that began with a few bars of a melody played on a music box, followed by what sounded like a young girl reading out groups of numbers in German. Listeners nicknamed it the 'Swedish Rhapsody', after the tune they thought it was.",
+      "The child's voice made it one of the most unsettling of all the Cold War 'numbers stations'."
+    ],
+    "explanation": "After the Cold War, documents showed that the station was run by Polish intelligence to send coded messages to agents in the West. The 'girl' was not a child at all, but a voice machine developed in East Germany. The station was last heard in 1998.",
+    "wiki": "Swedish Rhapsody (numbers station)"
+  },
+  {
+    "slug": "indri-song",
+    "category": "voices",
+    "title": "The Song of the Indri",
+    "region": "Andasibe, Alaotra-Mangoro, Madagascar",
+    "lat": -18.94,
+    "lon": 48.42,
+    "dateLabel": "Heard every morning",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Malagasy villagers and visitors",
+    "hook": "In the rainforests of Madagascar, an eerie wailing song drifts across the treetops each morning, and a legend says the singers are lost relatives.",
+    "summary": [
+      "In the eastern rainforests of Madagascar, around Andasibe, visitors are often woken by an eerie, wailing chorus that rises and falls across the canopy and can carry for kilometres. It is sung by the indri, the largest living lemur.",
+      "Malagasy legend tells of two brothers, one of whom stayed in the forest and became the first indri, so the indri are considered relatives, and many communities hold it fady, or taboo, to hunt them."
+    ],
+    "explanation": "Indri families sing together to mark their territory and keep in contact. Each family's song is distinct, and young indri learn to sing in time with their parents. The indri is critically endangered, and its song is one of the most famous sounds of Madagascar.",
+    "wiki": "Indri"
+  },
+  {
+    "slug": "newgrange-resonance",
+    "category": "voices",
+    "title": "The Echoing Chamber of Newgrange",
+    "region": "Newgrange, Boyne Valley, County Meath, Ireland",
+    "lat": 53.69,
+    "lon": -6.48,
+    "dateLabel": "Built about 5,200 years ago",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists and acoustics researchers",
+    "hook": "Deep inside a 5,000-year-old Irish passage tomb, a low voice or drum seems to fill the whole stone chamber.",
+    "summary": [
+      "Newgrange is a great circular mound in Ireland's Boyne Valley, built about 5,200 years ago, older than Stonehenge and the pyramids of Giza. A long stone passage leads to a cross-shaped chamber, which is lit by the rising sun on the mornings around the winter solstice.",
+      "In the 1990s, acoustics researchers tested the chamber and found that it resonates strongly at low frequencies, in the range of a deep male voice or a drum, so that such sounds seem to swell and surround the listener."
+    ],
+    "explanation": "Similar resonances have been measured in other ancient chambers, such as the Ħal Saflieni Hypogeum in Malta. Whether the builders designed them for sound, or whether the effect simply comes from the size and shape of a stone room, is debated by archaeologists.",
+    "wiki": "Newgrange"
+  },
+  {
+    "slug": "arecibo-weird-signal",
+    "category": "voices",
+    "title": "The 'Weird!' Signal from Ross 128",
+    "region": "Arecibo Observatory, Puerto Rico",
+    "lat": 18.34,
+    "lon": -66.75,
+    "dateLabel": "May 2017",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Astronomers at Arecibo",
+    "hook": "In 2017, the great radio telescope at Arecibo picked up strange signals from a nearby star. The astronomers called them simply 'Weird!'.",
+    "summary": [
+      "In May 2017, astronomers using the Arecibo radio telescope in Puerto Rico were studying red dwarf stars when they recorded unusual, regular radio signals that seemed to come from the direction of Ross 128, a small star about 11 light years away.",
+      "Abel Méndez, who led the study, posted about the 'Weird!' signals, and the news spread around the world with speculation about alien transmissions. The team appealed for help from other observatories."
+    ],
+    "explanation": "Follow-up observations showed the signals most likely came from geostationary satellites, which sat close to the star's position in the sky. The episode showed how astronomers check unusual signals. The Arecibo telescope collapsed in 2020.",
+    "wiki": null
+  },
+  {
+    "slug": "divje-babe-flute",
+    "category": "voices",
+    "title": "The Divje Babe Flute",
+    "region": "Divje Babe cave, near Cerkno, Slovenia",
+    "lat": 46.07,
+    "lon": 13.92,
+    "dateLabel": "About 50,000 years old; found in 1995",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Archaeologists",
+    "hook": "In a Slovenian cave, archaeologists found a cave bear bone with holes in a row. Some say it is the oldest musical instrument in the world, made by Neanderthals.",
+    "summary": [
+      "In 1995, archaeologist Ivan Turk, excavating the Divje Babe cave in western Slovenia, found a piece of a young cave bear's thigh bone with two complete holes and traces of others in a line, in a layer dating to roughly 50,000 years ago, when Neanderthals lived in the area.",
+      "Turk argued it was a flute, which would make it the oldest known musical instrument, and the first made by Neanderthals. Musicians have played replicas of it."
+    ],
+    "explanation": "Other researchers argue the holes were made by a carnivore, such as a hyena, biting the bone, since similar punctures are seen on bones chewed by animals. The debate continues. The oldest undisputed flutes, made from bird bone and ivory by modern humans in Germany, are about 40,000 years old.",
+    "wiki": "Divje Babe flute"
+  },
+  {
+    "slug": "hurrian-hymn",
+    "category": "voices",
+    "title": "The Oldest Song in the World",
+    "region": "Ugarit (Ras Shamra), Latakia, Syria",
+    "lat": 35.6,
+    "lon": 35.78,
+    "dateLabel": "Written about 3,400 years ago",
+    "status": "disputed",
+    "statusLabel": "Interpretations differ",
+    "witnesses": "Archaeologists and musicologists",
+    "hook": "A clay tablet from an ancient Syrian city holds a hymn with musical notes, the oldest written melody known. Nobody agrees on how it sounded.",
+    "summary": [
+      "In the 1950s, archaeologists excavating the ancient city of Ugarit, on the coast of Syria, found clay tablets inscribed in cuneiform, written around 1400 BCE. One of them, known as Hurrian hymn number 6, contains the words of a hymn to a goddess, together with instructions for playing it on a lyre.",
+      "It is the oldest substantially complete piece of written music yet found."
+    ],
+    "explanation": "Scholars agree that it is music, but not on how to read the notation. Since the 1970s, several researchers have published very different reconstructions, and performers have recorded many versions. Each is an informed guess at a song last heard more than 3,000 years ago.",
+    "wiki": "Hurrian songs"
+  },
+  {
+    "slug": "kupgal-rock-gongs",
+    "category": "voices",
+    "title": "The Rock Gongs of Kupgal Hill",
+    "region": "Kupgal, near Ballari, Karnataka, India",
+    "lat": 15.2,
+    "lon": 76.98,
+    "dateLabel": "Used thousands of years ago",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Archaeologists and villagers",
+    "hook": "On a granite hill in Karnataka, Neolithic people struck boulders that ring like bells, and carved pictures on the rocks around them.",
+    "summary": [
+      "Kupgal Hill, near Ballari in Karnataka, is a granite hill crossed by a band of dark dolerite rock. Thousands of years ago, Neolithic people carved hundreds of pictures of cattle, people and other figures on its rocks.",
+      "Among them are boulders that ring with a clear, metallic note when struck with a stone. They are covered with small cup-shaped hollows, worn by people striking them again and again."
+    ],
+    "explanation": "Archaeologists, including Nicole Boivin, have studied the site and concluded the boulders were used as rock gongs, probably in gatherings or ceremonies. Dolerite boulders resting on other rocks can vibrate freely and ring. The site suggests sound and music were important to the region's early farming communities.",
+    "wiki": "Kupgal petroglyphs"
+  },
+  {
+    "slug": "bristol-hum",
+    "category": "voices",
+    "title": "The Bristol Hum",
+    "region": "Bristol, England",
+    "lat": 51.45,
+    "lon": -2.59,
+    "dateLabel": "Reported from the 1970s",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Hundreds of residents",
+    "hook": "In the 1970s, hundreds of people in Bristol complained of a low, droning hum that kept them awake, which most of their neighbours couldn't hear.",
+    "summary": [
+      "In the late 1970s, people in and around Bristol began reporting a low-frequency hum, often described as like a distant engine idling, mostly heard indoors at night. When a national newspaper wrote about it, hundreds of readers wrote in to say they heard it too.",
+      "Some sufferers said it caused headaches and sleeplessness, and many spent years trying to find its source."
+    ],
+    "explanation": "No single source was found. Suggestions included factories, traffic, pipelines and power lines, as well as a form of tinnitus or a sensitivity to low sounds that only some people have. Similar hums have since been reported around the world, including in Taos, New Mexico.",
+    "wiki": "The Hum"
+  },
+  {
+    "slug": "bush-stone-curlew",
+    "category": "voices",
+    "title": "The Wailing in the Australian Night",
+    "region": "Eastern Queensland, Australia",
+    "lat": -27.47,
+    "lon": 153.03,
+    "dateLabel": "Heard every night",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Residents and campers",
+    "hook": "On Australian nights, a long, mournful wail drifts through parks and bush, startling newcomers who think someone is crying.",
+    "summary": [
+      "Across northern and eastern Australia, people out after dark sometimes hear a drawn-out, eerie wailing, rising to a scream, that can sound like a woman or child crying. New arrivals and campers are often alarmed, and some Aboriginal traditions associate the call with sad news.",
+      "The wailing often comes from parks, golf courses and open woodland, even in suburbs."
+    ],
+    "explanation": "It is the call of the bush stone-curlew, a tall, long-legged bird with big yellow eyes that is active at night and stands frozen during the day, relying on camouflage. Its calls are a way for birds to keep in contact and defend territory.",
+    "wiki": "Bush stone-curlew"
+  },
+  {
+    "slug": "screaming-foxes",
+    "category": "voices",
+    "title": "The Screams in the Dark",
+    "region": "London and across Britain",
+    "lat": 51.51,
+    "lon": -0.13,
+    "dateLabel": "Heard every winter",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "City residents",
+    "hook": "On winter nights in British cities, people wake to a blood-curdling scream outside, and call the police thinking someone is in danger.",
+    "summary": [
+      "Every winter, especially in January and February, residents of London and other British towns report terrible screams in the night, like a woman shrieking. Police and emergency services receive calls from people convinced someone is being attacked.",
+      "Folklore once blamed such sounds on spirits, but the source is much closer to home."
+    ],
+    "explanation": "The scream belongs to the red fox. During the winter breeding season, foxes, especially vixens, make loud screaming calls to attract mates and warn rivals. Cities have large fox populations, so the sound is common, and when people see the fox, the mystery is solved.",
+    "wiki": "Red fox"
+  },
+  {
+    "slug": "kapre",
+    "category": "visitors",
+    "title": "The Kapre",
+    "region": "Bicol, Luzon, Philippines",
+    "lat": 13.6,
+    "lon": 123.2,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Filipino tradition",
+    "hook": "In Philippine folklore, a giant sits in the branches of an old tree at night, smoking a huge cigar. You can smell the smoke.",
+    "summary": [
+      "The kapre is a figure of Filipino folklore: a very tall, dark, hairy giant who lives in large old trees such as acacia, balete and mango, and is often seen smoking a big cigar. People walking at night say they smell tobacco smoke near such trees, or see a glowing ember high in the branches.",
+      "Kapres are usually said to be harmless, but they like to play tricks, making travellers lose their way in a familiar place. Some stories say a kapre may befriend a person and protect them."
+    ],
+    "explanation": "The kapre is a folklore figure, and many households still treat old trees with respect. Stories of being led in circles reflect how easy it is to get lost in the dark, and the 'smoke' may come from fires, plants or imagination.",
+    "wiki": "Kapre"
+  },
+  {
+    "slug": "kitsune",
+    "category": "visitors",
+    "title": "The Kitsune",
+    "region": "Fushimi Inari, Kyoto, Japan",
+    "lat": 34.97,
+    "lon": 135.77,
+    "dateLabel": "Told for over a thousand years",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Japanese tradition",
+    "hook": "In Japanese folklore, foxes grow wiser and more powerful with age, gaining extra tails and the power to take human form.",
+    "summary": [
+      "In Japanese tradition, kitsune, foxes, are intelligent beings with magical powers that grow with age. An old fox may have up to nine tails, and can take human form, often as a beautiful woman, to trick or test people.",
+      "Kitsune are also the messengers of Inari, the god of rice and prosperity. At Fushimi Inari Shrine in Kyoto, thousands of fox statues stand among the famous tunnels of red torii gates, and offerings of fried tofu, said to be their favourite food, are left for them."
+    ],
+    "explanation": "The kitsune is a figure of folklore and religion, found in stories, theatre and art for more than a thousand years. Foxes really do live close to Japanese farms and villages, and their cleverness and nighttime habits helped inspire the legends.",
+    "wiki": "Kitsune"
+  },
+  {
+    "slug": "trolls-norway",
+    "category": "visitors",
+    "title": "The Trolls of Norway",
+    "region": "Trollstigen, Møre og Romsdal, Norway",
+    "lat": 62.45,
+    "lon": 7.67,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Norwegian tradition",
+    "hook": "In Norway, they say the trolls who lived in the mountains turned to stone if the sun caught them, and you can still see them in the rocks.",
+    "summary": [
+      "In Norwegian folklore, trolls are huge, slow, often foolish beings who live in mountains, forests and under bridges. They avoid daylight, because the sun turns them to stone.",
+      "Many strange rock formations across Norway are said to be trolls who were caught by the dawn, and places are named after them, such as Trollstigen, the 'troll's ladder', a mountain road with steep hairpin bends, and Trolltunga, 'the troll's tongue'."
+    ],
+    "explanation": "Trolls are folklore, but they helped people explain Norway's dramatic landscape of jagged peaks and odd-shaped boulders. Today they are a beloved part of Norwegian culture, appearing in fairy tales, art and souvenir shops.",
+    "wiki": "Troll"
+  },
+  {
+    "slug": "mouras-encantadas",
+    "category": "visitors",
+    "title": "The Enchanted Moorish Maidens",
+    "region": "Minho, northern Portugal",
+    "lat": 41.7,
+    "lon": -8.3,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Portuguese and Galician tradition",
+    "hook": "In northern Portugal, they say enchanted maidens guard treasure in springs and caves, and appear on summer mornings combing their hair with golden combs.",
+    "summary": [
+      "In the folklore of northern Portugal and Galicia in Spain, the mouras encantadas are enchanted maidens who live in springs, caves, rocks and old hillforts. They are said to guard hidden treasure, and are most often seen on Midsummer morning, sitting by water and combing their long hair with a golden comb.",
+      "A person who finds one may be offered a choice between her and her treasure, or asked to break her enchantment, which usually requires a test that ends in failure."
+    ],
+    "explanation": "The mouras encantadas are folklore figures. Many of the places linked to them are prehistoric sites, such as Iron Age hillforts and ancient tombs, which local people explained with stories of a mysterious people of the past.",
+    "wiki": null
+  },
+  {
+    "slug": "leshy",
+    "category": "visitors",
+    "title": "The Leshy, Lord of the Forest",
+    "region": "Northern Russian forests",
+    "lat": 60.5,
+    "lon": 38.5,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Slavic tradition",
+    "hook": "In the great forests of Russia, people said the Leshy, lord of the woods, could lead you in circles until you turned your clothes inside out.",
+    "summary": [
+      "In Slavic folklore, the leshy is the spirit of the forest, who can be as tall as the tallest tree or as small as a blade of grass. He protects the forest and its animals, and herders and hunters made deals with him for good luck.",
+      "Travellers who got lost in the woods blamed the leshy for leading them astray. To break his spell, people said, you should turn your clothes inside out and put your shoes on the wrong feet."
+    ],
+    "explanation": "The leshy is a figure of folklore that reflects the real dangers and power of the vast northern forests. Getting lost and walking in circles is a common experience in dense woods without landmarks.",
+    "wiki": "Leshy"
+  },
+  {
+    "slug": "vazimba",
+    "category": "visitors",
+    "title": "The Vazimba",
+    "region": "Lake Itasy and the central highlands, Madagascar",
+    "lat": -19.07,
+    "lon": 46.78,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Malagasy tradition",
+    "hook": "In Madagascar's highlands, people tell of the Vazimba, the island's first inhabitants, whose spirits still live in springs and lakes.",
+    "summary": [
+      "In the traditions of Madagascar's central highlands, the Vazimba were the first people to live on the island, before the ancestors of today's Malagasy arrived. They are often described as small and living close to water.",
+      "Their spirits are believed to dwell in springs, rivers, lakes and rocks, and places associated with them are treated with care. Offerings are made there, and certain things, such as pork, are forbidden nearby."
+    ],
+    "explanation": "Historians debate who the Vazimba were: perhaps early settlers who lived in the highlands before later migrations, remembered in oral tradition. Others see them mainly as spiritual figures. Their sites remain important in Malagasy culture.",
+    "wiki": "Vazimba"
+  },
+  {
+    "slug": "bacoo",
+    "category": "visitors",
+    "title": "The Bacoo",
+    "region": "Coastal Guyana",
+    "lat": 6.8,
+    "lon": -58.16,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Guyanese tradition",
+    "hook": "In Guyanese folklore, a tiny being kept in a bottle can bring its owner riches, as long as it's fed bananas and milk.",
+    "summary": [
+      "The bacoo is a figure of Guyanese folklore: a small, man-like being who lives in a bottle or jar. Its owner must feed it bananas and milk, and in return it can bring wealth and good fortune.",
+      "But a bacoo that is neglected or let out is said to cause chaos in the house, throwing stones, moving objects and making noises."
+    ],
+    "explanation": "The bacoo is a folklore figure, with roots in African and other traditions brought to the Caribbean. Stories of a hidden helper that brings wealth also explain how some people seemed to grow rich mysteriously.",
+    "wiki": null
+  },
+  {
+    "slug": "papa-bois",
+    "category": "visitors",
+    "title": "Papa Bois, Father of the Forest",
+    "region": "Northern Range, Trinidad",
+    "lat": 10.72,
+    "lon": -61.3,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Trinidad and Tobago tradition",
+    "hook": "In Trinidad's forests, the old man Papa Bois guards the animals, and hunters who take too much may meet him, or chase a deer that leads them astray.",
+    "summary": [
+      "Papa Bois is the guardian of the forest in the folklore of Trinidad and Tobago: an old man with a beard of leaves, the hooves of a goat and a horn he blows to warn animals of hunters. He is said to be able to take the form of a deer.",
+      "Hunters who kill for sport or take more than they need may be led deep into the forest by a deer that turns out to be Papa Bois. Those who meet him are told to greet him politely, 'Bonjour, vieux papa'."
+    ],
+    "explanation": "Papa Bois is a figure of folklore, similar to forest guardians in Brazil and elsewhere. Like them, he teaches respect for nature, and he has become a symbol of conservation in Trinidad and Tobago.",
+    "wiki": null
+  },
+  {
+    "slug": "buff-ledge",
+    "category": "visitors",
+    "title": "The Buff Ledge Encounter",
+    "region": "Buff Ledge, Lake Champlain, Vermont, USA",
+    "lat": 44.6,
+    "lon": -73.25,
+    "dateLabel": "7 August 1968",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Two summer camp workers; other campers",
+    "hook": "Two teenagers sitting on a camp dock at sunset watched lights over Lake Champlain come closer and closer, and lost track of time.",
+    "summary": [
+      "On the evening of 7 August 1968, two young employees at a girls' summer camp on Lake Champlain, Michael Lapp, 16, and Janet Cornell, 19, were sitting on the dock when they saw bright lights over the lake. One came close, and they said it was a craft with domed top and figures inside.",
+      "In 1978, Lapp contacted a UFO investigator, Walter Webb, who tracked down Cornell. She had not seen Lapp since that summer. Under hypnosis, both described being taken aboard and examined, with similar details. Some campers remembered seeing lights over the lake that night."
+    ],
+    "explanation": "Sceptics point out that memories recovered under hypnosis are unreliable and can be shaped by the questions asked and by stories in films and books. Others find the matching details and the independent witnesses to the lights hard to dismiss.",
+    "wiki": null
+  },
+  {
+    "slug": "maria-makiling",
+    "category": "visitors",
+    "title": "Maria Makiling",
+    "region": "Mount Makiling, Laguna, Philippines",
+    "lat": 14.14,
+    "lon": 121.2,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Filipino tradition",
+    "hook": "A Philippine mountain is said to be watched over by Maria Makiling, a beautiful guardian spirit who helps the poor and punishes the greedy.",
+    "summary": [
+      "Mount Makiling, a forested dormant volcano south of Manila, is said to be home to Maria Makiling, a diwata, or guardian spirit. She is described as a beautiful young woman who protects the mountain's forests and animals, and its outline is sometimes said to look like a woman lying down.",
+      "Stories say she once gave villagers gifts of ginger that turned to gold, but withdrew when people grew greedy and cut down her trees. Hikers who get lost on the mountain sometimes say Maria is playing tricks on them."
+    ],
+    "explanation": "Maria Makiling is a figure of folklore, written about by the national hero José Rizal. Her stories reflect respect for the mountain, which is now a protected forest reserve.",
+    "wiki": "Maria Makiling"
+  },
+  {
+    "slug": "nyai-roro-kidul",
+    "category": "visitors",
+    "title": "The Queen of the Southern Sea",
+    "region": "Pelabuhan Ratu, West Java, Indonesia",
+    "lat": -6.99,
+    "lon": 106.54,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Javanese tradition",
+    "hook": "On Java's south coast, a hotel keeps a room reserved for the Queen of the Southern Sea, and visitors are warned not to wear green on the beach.",
+    "summary": [
+      "In Javanese tradition, Nyai Roro Kidul is the Queen of the Southern Sea, a powerful spirit who rules the waters of the Indian Ocean off Java's south coast. She is associated with the colour green, and the kings of Central Java's royal courts are traditionally said to be her spiritual consorts.",
+      "Along the coast, people still warn against wearing green on the beach. At the Samudra Beach Hotel in Pelabuhan Ratu, room 308 is kept decorated in green and reserved for her, with a painting of the queen."
+    ],
+    "explanation": "Nyai Roro Kidul is a figure of folklore and belief. The warnings along the coast have a practical side: the south coast of Java has strong waves and dangerous rip currents, and the legend encourages people to treat the sea with caution.",
+    "wiki": "Nyai Roro Kidul"
+  },
+  {
+    "slug": "clonmacnoise-sky-ship",
+    "category": "visitors",
+    "title": "The Ship in the Sky over Clonmacnoise",
+    "region": "Clonmacnoise, County Offaly, Ireland",
+    "lat": 53.33,
+    "lon": -7.99,
+    "dateLabel": "8th century",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Monks, as recorded in Irish annals",
+    "hook": "Irish chronicles tell of a ship sailing through the sky over a monastery, whose anchor caught on the church. A sailor climbed down the rope.",
+    "summary": [
+      "Medieval Irish annals and later writings tell a strange story set at the monastery of Clonmacnoise, on the River Shannon. During a gathering, a ship appeared sailing in the air, and its anchor caught on the church door, or on the altar rail.",
+      "A sailor climbed down the rope to free it, and the monks seized him. He cried out that he was drowning, and the abbot told them to let him go. He climbed back up, the anchor was freed and the ship sailed away."
+    ],
+    "explanation": "Historians see it as a wonder tale, perhaps a story about the boundary between this world and the otherworld, found in several medieval Irish and English sources. Some writers have read it as an early UFO sighting. The ruins of Clonmacnoise are still visited today.",
+    "wiki": "Clonmacnoise"
+  },
+  {
+    "slug": "levelland-1957",
+    "category": "sky",
+    "title": "The Levelland Sightings",
+    "region": "Levelland, Texas, USA",
+    "lat": 33.59,
+    "lon": -102.38,
+    "dateLabel": "2–3 November 1957",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Drivers, police officers and a fire marshal",
+    "hook": "One November night in Texas, drivers reported a glowing egg-shaped light crossing the road, and their engines and headlights died as it passed.",
+    "summary": [
+      "Over a few hours on the night of 2 to 3 November 1957, the police in Levelland, Texas, received a string of calls from drivers on roads around the town. They described a large, glowing, egg-shaped object that flew low over the road or sat on it, and said their car engines and headlights failed as it came near, then worked again when it left.",
+      "The local sheriff and other officers also reported seeing a bright light. It happened during a wave of sightings across the United States, days after the Soviet Union launched Sputnik 2."
+    ],
+    "explanation": "The US Air Force's Project Blue Book concluded the witnesses had seen ball lightning or a similar electrical storm effect, and that wet weather caused the car problems. Critics pointed out that the night was not stormy, and that cars stalling in this way is hard to explain.",
+    "wiki": "Levelland UFO case"
+  },
+  {
+    "slug": "lakenheath-bentwaters",
+    "category": "sky",
+    "title": "The Lakenheath-Bentwaters Radar Case",
+    "region": "RAF Lakenheath, Suffolk, England",
+    "lat": 52.41,
+    "lon": 0.56,
+    "dateLabel": "13–14 August 1956",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Radar operators, pilots and ground observers",
+    "hook": "One August night in 1956, radar operators at two airbases in England tracked fast-moving objects, and a fighter pilot said one got behind his plane.",
+    "summary": [
+      "On the night of 13 to 14 August 1956, radar operators at the RAF and US Air Force bases of Bentwaters and Lakenheath in Suffolk tracked several unidentified targets, some moving at very high speed and then stopping suddenly. Ground observers and the crew of a transport plane reported lights.",
+      "An RAF Venom night fighter was sent up. Its pilot said he locked onto an object on his radar, and that it then moved behind his aircraft and followed it. A second fighter was sent, and the objects were eventually lost."
+    ],
+    "explanation": "The University of Colorado UFO study in 1968 examined the case and said it was one of the few it could not explain, describing the apparently intelligent behaviour of the object. Sceptics suggest a combination of radar errors caused by weather, meteors and stars. The case is still debated.",
+    "wiki": "Lakenheath-Bentwaters incident"
+  },
+  {
+    "slug": "lubbock-lights",
+    "category": "sky",
+    "title": "The Lubbock Lights",
+    "region": "Lubbock, Texas, USA",
+    "lat": 33.58,
+    "lon": -101.85,
+    "dateLabel": "August – September 1951",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "University professors, residents and a teenage photographer",
+    "hook": "On late summer evenings in 1951, professors in Texas watched a curved formation of soft lights glide silently overhead.",
+    "summary": [
+      "On 25 August 1951, a group of professors from Texas Technological College, sitting outside in Lubbock, saw a semicircle of faint, bluish-green lights pass quickly and silently overhead. They saw it again on several later evenings, as did many residents.",
+      "A college student, Carl Hart Jr., took photographs of a V-shaped formation of bright lights, which were published widely and became some of the most famous UFO pictures of the time."
+    ],
+    "explanation": "Project Blue Book concluded that many sightings were of migrating plovers, birds whose pale undersides reflected the town's new mercury-vapour streetlights. One professor later suggested a natural effect in the atmosphere. Hart's photographs have never been fully explained, but were never shown to be faked.",
+    "wiki": "Lubbock Lights"
+  },
+  {
+    "slug": "stephenville-2008",
+    "category": "sky",
+    "title": "The Stephenville Lights",
+    "region": "Stephenville, Texas, USA",
+    "lat": 32.22,
+    "lon": -98.2,
+    "dateLabel": "8 January 2008",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Dozens of residents, including a pilot and a police officer",
+    "hook": "One January evening in Texas, residents reported a huge, silent craft with brilliant lights, chased by fighter jets.",
+    "summary": [
+      "On the evening of 8 January 2008, dozens of people around Stephenville, Texas, reported seeing a very large object, some said a mile long, with bright flashing lights, moving silently and at times very fast. Several said military jets were chasing it.",
+      "At first, the US Air Force said no aircraft were flying in the area that evening. Then it corrected itself and said F-16 fighters had been training nearby. The sightings made national news."
+    ],
+    "explanation": "The Air Force said the witnesses had probably seen the F-16s and the flares they released during exercises. A civilian UFO group studied radar data and argued that an unidentified object was tracked. Most investigators accept that military training explains most of what was seen.",
+    "wiki": "2008 Stephenville UFO sighting"
+  },
+  {
+    "slug": "gulf-breeze-1987",
+    "category": "sky",
+    "title": "The Gulf Breeze Photographs",
+    "region": "Gulf Breeze, Florida, USA",
+    "lat": 30.36,
+    "lon": -87.16,
+    "dateLabel": "1987 – 1988",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "A local builder and residents",
+    "hook": "A Florida builder took dozens of photographs of a glowing craft over his town. Years later, a model was found in his old house.",
+    "summary": [
+      "In November 1987, Ed Walters, a builder in the small town of Gulf Breeze, Florida, sent the local newspaper photographs of a glowing, cylinder-shaped craft hovering near his home. Over the following months he produced dozens more, and said he had been visited by the beings that flew it.",
+      "Many other residents reported lights in the sky, and the town became a centre of UFO interest, with crowds gathering at night."
+    ],
+    "explanation": "In 1990, the family who bought Walters's former house said they found a small model of a UFO hidden in the attic, very similar to the craft in his photos. Walters said it was planted. Most researchers consider his photographs a hoax, though some local sightings of lights were never explained.",
+    "wiki": "Gulf Breeze UFO incident"
+  },
+  {
+    "slug": "usovo-1982",
+    "category": "sky",
+    "title": "The Missile Base Incident of 1982",
+    "region": "Near Usovo, Zhytomyr Oblast, Ukraine",
+    "lat": 51.0,
+    "lon": 28.1,
+    "dateLabel": "4 October 1982",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Soldiers at a Soviet missile base, according to later reports",
+    "hook": "According to KGB files released decades later, a huge object hovered over a Soviet nuclear missile base, and the launch panel lit up by itself.",
+    "summary": [
+      "After the fall of the Soviet Union, American journalist George Knapp obtained KGB documents about unidentified flying objects. Among them were accounts of an event on 4 October 1982 at a nuclear missile base near Usovo, in what is now Ukraine.",
+      "Witnesses said a large, silent, saucer-shaped object hovered near the base for hours. According to the accounts, for about 15 seconds the launch control panel lit up as if the missiles were being prepared for launch, then went back to normal."
+    ],
+    "explanation": "There is no independent confirmation of the panel activating, and the accounts come from interviews collected years later. Sceptics suggest rumour and exaggeration, or a technical fault coinciding with lights in the sky. The case is often cited alongside similar claims from American missile bases.",
+    "wiki": null
+  },
+  {
+    "slug": "guizhou-forest-1994",
+    "category": "sky",
+    "title": "The Night the Forest Fell in Guizhou",
+    "region": "Duxi forest, near Guiyang, Guizhou, China",
+    "lat": 26.65,
+    "lon": 106.63,
+    "dateLabel": "30 November 1994",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Residents and factory workers",
+    "hook": "One night in 1994, witnesses saw glowing lights pass with a roar like a train. In the morning, a swathe of forest lay snapped and flattened.",
+    "summary": [
+      "Late on 30 November 1994, people near Guiyang, the capital of Guizhou province, saw glowing balls of light in the sky and heard a loud rumbling, like a train passing. The next morning, large areas of pine forest in the Duxi forest farm were found flattened, with trees snapped off in strips.",
+      "A nearby factory was also damaged, with roofs torn and a railway wagon pushed along its track. Chinese UFO researchers investigated, and the event became one of China's best-known UFO cases."
+    ],
+    "explanation": "Meteorologists and other scientists concluded the damage was most likely caused by a downburst or a tornado, powerful winds from a storm cell that can flatten trees in strips. The lights may have been lightning. Some researchers say the pattern of damage was unusual.",
+    "wiki": null
+  },
+  {
+    "slug": "mukundpura-meteorite",
+    "category": "sky",
+    "title": "The Mukundpura Meteorite",
+    "region": "Mukundpura, near Jaipur, Rajasthan, India",
+    "lat": 26.98,
+    "lon": 75.7,
+    "dateLabel": "6 June 2017",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Villagers near Jaipur",
+    "hook": "Early one June morning, villagers near Jaipur heard a thunderous bang and found a burning stone in their field: a rare meteorite, rich in the chemistry of life.",
+    "summary": [
+      "At about 5:15 am on 6 June 2017, villagers in Mukundpura, near Jaipur, saw a bright streak in the sky and heard a loud explosion. A stone crashed into a sandy field, making a small crater. The pieces were quickly collected by local authorities and handed to the Geological Survey of India.",
+      "Because it was picked up so soon after falling, it was almost untouched by Earth's air and water."
+    ],
+    "explanation": "Scientists found it is a carbonaceous chondrite, a rare and very old type of meteorite rich in water-bearing minerals and organic compounds, including amino acids, the building blocks of proteins. It has been studied by scientists in India and abroad.",
+    "wiki": "Mukundpura meteorite"
+  },
+  {
+    "slug": "polonnaruwa-meteorite",
+    "category": "sky",
+    "title": "The Polonnaruwa Meteorite",
+    "region": "Polonnaruwa, North Central Province, Sri Lanka",
+    "lat": 7.94,
+    "lon": 81.0,
+    "dateLabel": "29 December 2012",
+    "status": "disputed",
+    "statusLabel": "Claims rejected",
+    "witnesses": "Villagers and scientists",
+    "hook": "After a fireball fell in Sri Lanka, an astronomer claimed the stones held fossils of tiny life from space. Other scientists disagreed.",
+    "summary": [
+      "On 29 December 2012, villagers near Polonnaruwa in Sri Lanka saw a bright fireball break up, and collected dark, porous stones from rice fields. Around the same time, coloured rain was reported in parts of the country, as had happened in Kerala in 2001.",
+      "In 2013, astronomer Chandra Wickramasinghe, a long-time supporter of the idea that life arrived on Earth from space, published papers claiming the stones contained fossils of diatoms, tiny algae, and were proof of life beyond Earth."
+    ],
+    "explanation": "Other scientists tested the stones and concluded they were not meteorites at all, but ordinary rocks such as fulgurites, formed when lightning strikes the ground, and that any diatoms were Earth contamination. Most researchers reject the claims.",
+    "wiki": "Polonnaruwa (meteorite)"
+  },
+  {
+    "slug": "kitsunebi",
+    "category": "sky",
+    "title": "The Fox Fires of Ōji",
+    "region": "Ōji Inari Shrine, Tokyo, Japan",
+    "lat": 35.76,
+    "lon": 139.73,
+    "dateLabel": "Told for centuries",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Japanese tradition",
+    "hook": "Japanese folklore tells of kitsunebi, fox fires: strings of floating lights seen at night in the countryside, said to be carried by foxes.",
+    "summary": [
+      "In Japanese folklore, kitsunebi, 'fox fires', are mysterious lights seen floating in lines across fields and hillsides at night, appearing and vanishing. They were said to be carried by foxes, or to be the breath of foxes, and to lead travellers astray.",
+      "One famous legend says that on New Year's Eve, the foxes of the Kantō region gathered under a great tree near Ōji Inari Shrine in Edo, now Tokyo, their fires shining in the dark. The artist Hiroshige made a famous print of the scene. A festival there still remembers it."
+    ],
+    "explanation": "Suggested explanations include will-o'-the-wisps from marsh gas, mirages of distant lights, glowing fungi, and the lanterns of people walking in procession at night. The legend is now a celebrated part of Japanese art and festivals.",
+    "wiki": "Kitsunebi"
+  },
+  {
+    "slug": "kifuka-lightning",
+    "category": "sky",
+    "title": "Kifuka, Africa's Lightning Capital",
+    "region": "Kifuka, South Kivu, Democratic Republic of the Congo",
+    "lat": -2.5,
+    "lon": 28.0,
+    "dateLabel": "Every year",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Villagers and satellites",
+    "hook": "In the mountains of eastern Congo, one small village has some of the most lightning anywhere on Earth.",
+    "summary": [
+      "Kifuka is a village in the mountains of South Kivu, in the eastern Democratic Republic of the Congo. Satellite measurements show that the area around it has one of the highest rates of lightning on Earth, with an average of about 158 flashes per square kilometre every year.",
+      "Thunderstorms build up there on most days of the year, especially from October to March."
+    ],
+    "explanation": "Scientists explain it by geography: warm, moist air from the Atlantic travels across the Congo rainforest, and when it meets the cooler air of the eastern mountains it rises quickly and forms powerful thunderstorms. Kifuka was once ranked first in the world, but Lake Maracaibo in Venezuela now holds that title.",
+    "wiki": "Kifuka"
+  },
+  {
+    "slug": "almahata-sitta",
+    "category": "sky",
+    "title": "The First Asteroid Caught Before Impact",
+    "region": "Nubian Desert, Sudan",
+    "lat": 20.75,
+    "lon": 32.38,
+    "dateLabel": "7 October 2008",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Astronomers, a train station worker and university students",
+    "hook": "In 2008, astronomers spotted an asteroid 19 hours before it hit Earth, for the first time ever. Students then found its pieces in the Sudanese desert.",
+    "summary": [
+      "On 6 October 2008, an astronomer at the Catalina Sky Survey in Arizona spotted a small asteroid, a few metres across, named 2008 TC3. Calculations showed it would hit Earth in about 19 hours, over northern Sudan. It was the first time an asteroid had been seen in space before striking the planet.",
+      "Early on 7 October, it exploded in the atmosphere above the Nubian Desert in a brilliant fireball, seen by a pilot and by people on the ground, including workers at a remote railway station called Almahata Sitta."
+    ],
+    "explanation": "In December, astronomer Peter Jenniskens and Muawia Shaddad of the University of Khartoum led a team of students and staff who walked across the desert in a line, and found about 600 fragments. The meteorite, named Almahata Sitta, turned out to be a rare type. It showed that astronomers could predict and recover a strike.",
+    "wiki": "2008 TC3"
+  },
+  {
+    "slug": "cosford-1993",
+    "category": "sky",
+    "title": "The Cosford Incident",
+    "region": "RAF Cosford, Shropshire, England",
+    "lat": 52.64,
+    "lon": -2.3,
+    "dateLabel": "30–31 March 1993",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Police officers, military personnel and the public",
+    "hook": "One night in 1993, a huge triangular craft was reported crossing England, flying low over two RAF bases. The Ministry of Defence investigated.",
+    "summary": [
+      "On the night of 30 to 31 March 1993, people across England and Wales reported bright lights in the sky. Some witnesses, including police officers and military staff at RAF Cosford and RAF Shawbury, described a large, triangular object flying low and slowly, then speeding away. One said it shone a beam of light on the ground.",
+      "Nick Pope, who then worked on UFO reports at the Ministry of Defence, investigated and argued the case was of real defence interest."
+    ],
+    "explanation": "The Ministry of Defence concluded there was no threat. Investigators found that the earlier sightings that night matched the re-entry of a Russian rocket body, which would have looked like a formation of bright lights. The later, low-level sightings at Shawbury have not been fully explained.",
+    "wiki": null
+  },
+  {
+    "slug": "pribram-meteorite",
+    "category": "sky",
+    "title": "The Příbram Meteorite",
+    "region": "Příbram, Central Bohemia, Czech Republic",
+    "lat": 49.68,
+    "lon": 14.0,
+    "dateLabel": "7 April 1959",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Astronomers at Ondřejov Observatory and the public",
+    "hook": "In 1959, cameras in Czechoslovakia photographed a fireball as it fell, and for the first time scientists traced a meteorite back to its orbit in space.",
+    "summary": [
+      "On the evening of 7 April 1959, a brilliant fireball crossed the sky over central Czechoslovakia. It was photographed by cameras at two stations of the Ondřejov Observatory, which had been set up to record meteors.",
+      "Several stones were later found near the town of Příbram. They were ordinary stony meteorites."
+    ],
+    "explanation": "Using the photographs, astronomers calculated the fireball's path and worked out the orbit the meteorite had followed around the Sun, which reached out into the asteroid belt. It was the first time this had been done, and it proved that meteorites come from asteroids. Camera networks around the world now do the same.",
+    "wiki": "Příbram (meteorite)"
+  },
+  {
+    "slug": "tagish-lake-meteorite",
+    "category": "sky",
+    "title": "The Tagish Lake Meteorite",
+    "region": "Tagish Lake, British Columbia, Canada",
+    "lat": 59.7,
+    "lon": -134.2,
+    "dateLabel": "18 January 2000",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Residents of the Yukon and British Columbia",
+    "hook": "A fireball exploded over northern Canada in winter, and a local man gathered its fragments from the frozen lake without touching them by hand.",
+    "summary": [
+      "On the morning of 18 January 2000, a huge fireball lit up the sky over the Yukon and northern British Columbia, followed by sonic booms. A week later, Jim Brook, a local resident, found dark fragments lying on the ice of Tagish Lake.",
+      "Knowing they might be valuable to science, he collected them in clean plastic bags without touching them, and kept them frozen, so they were never warmed or contaminated."
+    ],
+    "explanation": "The Tagish Lake meteorite turned out to be a very rare, fragile type rich in carbon and organic compounds, possibly from the outer asteroid belt. Because it was kept frozen and clean, it is one of the most pristine meteorites ever studied, and has taught scientists about the early solar system.",
+    "wiki": "Tagish Lake (meteorite)"
+  },
+  {
+    "slug": "chicxulub-crater",
+    "category": "sky",
+    "title": "The Crater That Ended the Dinosaurs",
+    "region": "Chicxulub, Yucatán, Mexico",
+    "lat": 21.4,
+    "lon": -89.52,
+    "dateLabel": "About 66 million years ago; found in 1978",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Oil geologists, then scientists",
+    "hook": "Buried beneath the Yucatán Peninsula is a crater 180 km wide, left by the asteroid that wiped out the dinosaurs.",
+    "summary": [
+      "In 1978, geophysicists working for Mexico's state oil company, Pemex, noticed a huge buried ring structure under the Yucatán Peninsula while searching for oil. Separately, in 1980, scientists had proposed that an asteroid impact caused the extinction of the dinosaurs, based on a layer of rare metals found around the world.",
+      "In the early 1990s, researchers linked the two: the buried structure, centred near the town of Chicxulub, was a crater about 180 km across, the right age."
+    ],
+    "explanation": "Scientists now agree that an asteroid about 10 km wide struck here about 66 million years ago, causing fires, tsunamis and years of darkness that led to the extinction of the dinosaurs and many other species. A ring of cenotes, water-filled sinkholes, traces the crater's buried edge.",
+    "wiki": "Chicxulub crater"
+  },
+  {
+    "slug": "vinales-meteorite",
+    "category": "sky",
+    "title": "The Viñales Meteorite",
+    "region": "Viñales, Pinar del Río, Cuba",
+    "lat": 22.62,
+    "lon": -83.71,
+    "dateLabel": "1 February 2019",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Thousands of people across western Cuba",
+    "hook": "One afternoon in 2019, a fireball streaked over western Cuba and exploded with a bang that shook houses. Stones rained down around Viñales.",
+    "summary": [
+      "Around 1:20 pm on 1 February 2019, people across western Cuba saw a brilliant fireball cross the sky, leaving a long smoke trail, followed by a loud explosion that rattled windows. It was also seen from Florida.",
+      "Soon after, residents around Viñales, a valley famous for its tobacco farms and limestone hills, found dark stones scattered in fields and streets, some of which had fallen through roofs. No one was hurt."
+    ],
+    "explanation": "Scientists confirmed that a small asteroid had broken up in the atmosphere, scattering fragments of an ordinary stony meteorite over the area. It was one of the best-recorded meteorite falls in the Caribbean.",
+    "wiki": "Viñales meteorite"
+  },
+  {
+    "slug": "gimbal-gofast",
+    "category": "sky",
+    "title": "The 'Gimbal' and 'GoFast' Videos",
+    "region": "Off the coast of Florida, Atlantic Ocean",
+    "lat": 30.3,
+    "lon": -80.0,
+    "dateLabel": "2015; released 2017–2020",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "US Navy pilots",
+    "hook": "Navy fighter pilots filmed objects on their infrared cameras off the US East Coast, one seeming to rotate in mid-air. The Pentagon later confirmed the videos.",
+    "summary": [
+      "In 2015, US Navy F/A-18 pilots from the aircraft carrier USS Theodore Roosevelt, training off the East Coast, recorded several videos on their targeting cameras. In one, nicknamed 'Gimbal', a dark object appears to rotate as it moves. In another, 'GoFast', a small object seems to race low over the ocean.",
+      "The videos were published in 2017, and in 2020 the Pentagon officially released them as showing 'unidentified aerial phenomena'. Pilots described seeing many such objects during that period."
+    ],
+    "explanation": "Analysts have argued that the 'rotation' in Gimbal is an effect of the camera's mount and lens glare, and that the GoFast object was moving much more slowly and higher up than it appears, possibly a balloon. The Navy has not given an official explanation.",
+    "wiki": "Pentagon UFO videos"
+  },
+  {
+    "slug": "dhajala-meteorite",
+    "category": "sky",
+    "title": "The Dhajala Meteorite Shower",
+    "region": "Dhajala, Surendranagar, Gujarat, India",
+    "lat": 22.38,
+    "lon": 71.43,
+    "dateLabel": "28 January 1976",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Villagers across Saurashtra",
+    "hook": "One January night in 1976, a fireball brighter than the full moon exploded over Gujarat, and hundreds of stones rained down on the villages below.",
+    "summary": [
+      "On the night of 28 January 1976, people across the Saurashtra region of Gujarat saw a fireball much brighter than the full moon, ending in a flash and two loud explosions. Stones fell over an area about 18 km long around the village of Dhajala.",
+      "Villagers and scientists collected hundreds of fragments, more than 60 kg in all, the largest weighing about 12 kg."
+    ],
+    "explanation": "Dhajala is an ordinary stony meteorite of a rare, little-altered type. Because so many fragments were found and their positions mapped, scientists used it to study how meteoroids break up in the atmosphere. The main mass is held by the Geological Survey of India.",
+    "wiki": "Dhajala meteorite"
+  },
+  {
+    "slug": "forest-owlet",
+    "category": "creatures",
+    "title": "The Forest Owlet's Return",
+    "region": "Toranmal, Nandurbar, Maharashtra, India",
+    "lat": 21.9,
+    "lon": 74.47,
+    "dateLabel": "Lost after 1884; rediscovered 1997",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Ornithologists Pamela Rasmussen and Ben King",
+    "hook": "For 113 years, a small Indian owl was thought extinct, partly because of a museum fraud. Then two birdwatchers found it in Maharashtra.",
+    "summary": [
+      "The forest owlet, a small, stocky owl found only in central India, was last reliably recorded in 1884. Searches in the places listed on old museum specimens found nothing, and it was presumed extinct.",
+      "Researchers later discovered why: some specimens in a British museum had been stolen and re-labelled with false locations by a 20th-century collector, sending searchers to the wrong places. In November 1997, ornithologists Pamela Rasmussen and Ben King searched the right kind of forest and found a forest owlet at Toranmal in Maharashtra."
+    ],
+    "explanation": "Since then, small populations have been found in Maharashtra, Madhya Pradesh and Gujarat. The owlet is still endangered, but its rediscovery showed how a single dishonest record can make a living species seem lost.",
+    "wiki": "Forest owlet"
+  },
+  {
+    "slug": "jerdons-courser",
+    "category": "creatures",
+    "title": "Jerdon's Courser",
+    "region": "Lankamalla hills, Kadapa, Andhra Pradesh, India",
+    "lat": 14.55,
+    "lon": 78.95,
+    "dateLabel": "Lost after 1900; rediscovered 1986",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "A local trapper and researchers of the Bombay Natural History Society",
+    "hook": "A shy, night-flying bird of Andhra Pradesh was not seen for 86 years. A local man who knew the scrub forest helped find it again.",
+    "summary": [
+      "Jerdon's courser is a small, long-legged bird with striking bands on its neck, which lives in the scrub jungle of southern Andhra Pradesh and is active mainly at night. After 1900, there were no confirmed records, and many feared it was extinct.",
+      "In January 1986, a researcher from the Bombay Natural History Society, Bharat Bhushan, working with a local trapper named Aitanna who knew its call, found the bird near the Lankamalla hills."
+    ],
+    "explanation": "Its rediscovery led to the creation of the Sri Lankamalleswara Wildlife Sanctuary to protect it. It remains critically endangered and very rarely seen, and its survival depends on protecting the scrub forest.",
+    "wiki": "Jerdon's courser"
+  },
+  {
+    "slug": "arunachal-macaque",
+    "category": "creatures",
+    "title": "The Arunachal Macaque",
+    "region": "Tawang, Arunachal Pradesh, India",
+    "lat": 27.59,
+    "lon": 91.86,
+    "dateLabel": "Described in 2005",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Local communities and scientists",
+    "hook": "In 2005, scientists described a new species of monkey from the high forests of Arunachal Pradesh, one that local villagers had known all along.",
+    "summary": [
+      "In 2003 and 2004, researchers from the Nature Conservation Foundation in India surveyed the high-altitude forests of Tawang and West Kameng in Arunachal Pradesh. They studied a stocky, dark brown macaque with a short tail that lived at up to 3,500 metres, and that local Monpa people called 'mune'.",
+      "In 2005, they described it as a new species, the Arunachal macaque, the first new macaque species found in more than a century."
+    ],
+    "explanation": "The discovery showed that large, new animals can still be found in the forests of north-east India. The macaque lives near villages and sometimes raids crops, and conservation work involves local communities.",
+    "wiki": "Arunachal macaque"
+  },
+  {
+    "slug": "hoan-kiem-turtle",
+    "category": "creatures",
+    "title": "The Turtle of the Returned Sword",
+    "region": "Hoàn Kiếm Lake, Hanoi, Vietnam",
+    "lat": 21.03,
+    "lon": 105.85,
+    "dateLabel": "Legend from the 1400s; last turtle died in 2016",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Hanoi residents and scientists",
+    "hook": "Legend says a giant turtle in a Hanoi lake took back a magic sword from Vietnam's king. Giant turtles really did live in the lake, until 2016.",
+    "summary": [
+      "Hoàn Kiếm, 'Lake of the Returned Sword', lies in the heart of Hanoi. Legend says that in the 15th century, the emperor Lê Lợi was given a magic sword to drive out invaders, and after victory, while boating on the lake, a giant golden turtle rose and took the sword back to its divine owner.",
+      "For centuries, people reported seeing a huge turtle surfacing in the lake, and its appearances were taken as omens."
+    ],
+    "explanation": "A real giant softshell turtle lived in the lake, one of the last of the species Rafetus swinhoei, among the largest freshwater turtles in the world. It was treated with great reverence, and when it died in January 2016, it was mourned across Vietnam. Only a few of the species may survive.",
+    "wiki": "Hoan Kiem turtle"
+  },
+  {
+    "slug": "chinese-giant-salamander",
+    "category": "creatures",
+    "title": "The Fish That Cries Like a Baby",
+    "region": "Zhangjiajie, Hunan, China",
+    "lat": 29.12,
+    "lon": 110.48,
+    "dateLabel": "Known for centuries",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Villagers and scientists",
+    "hook": "In the mountain streams of China lives an amphibian almost two metres long, whose cry sounds like a human baby.",
+    "summary": [
+      "In Chinese, the Chinese giant salamander is called 'wawa yu', the 'baby fish', because its call is said to sound like a crying infant. It lives in cold, fast mountain streams and caves in central and southern China, and was once found widely there.",
+      "Old stories describe strange creatures in mountain pools, and its size, up to 1.8 metres long, and its slippery, wrinkled skin made it the stuff of legend."
+    ],
+    "explanation": "It is the largest amphibian in the world, a living relative of species that lived alongside the dinosaurs. It is now critically endangered in the wild because of hunting and habitat loss, and genetic studies have found that it is actually several separate species.",
+    "wiki": "Chinese giant salamander"
+  },
+  {
+    "slug": "formosan-clouded-leopard",
+    "category": "creatures",
+    "title": "The Formosan Clouded Leopard",
+    "region": "Mountains of Taitung, Taiwan",
+    "lat": 22.75,
+    "lon": 121.0,
+    "dateLabel": "Declared extinct in 2013; reported since",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Indigenous rangers and villagers",
+    "hook": "Taiwan's clouded leopard was declared extinct after years of camera traps found nothing. Then rangers said they had seen one.",
+    "summary": [
+      "The Formosan clouded leopard, a medium-sized wild cat with large cloud-shaped markings, once lived in the mountain forests of Taiwan and was important in the traditions of Indigenous peoples such as the Paiwan and Rukai. It was last reliably recorded decades ago.",
+      "A large camera-trap survey between 1997 and 2012 found no trace, and in 2013 scientists declared it extinct. In 2019, rangers from a Paiwan village reported seeing clouded leopards in the mountains of Taitung."
+    ],
+    "explanation": "No photographs or physical evidence have confirmed the 2019 sightings, and scientists remain cautious. The reports led to new searches. If it survives, it would be one of the rarest cats in the world.",
+    "wiki": "Formosan clouded leopard"
+  },
+  {
+    "slug": "orang-mawas",
+    "category": "creatures",
+    "title": "The Orang Mawas",
+    "region": "Endau-Rompin, Johor, Malaysia",
+    "lat": 2.5,
+    "lon": 103.3,
+    "dateLabel": "Reported for generations; wave of sightings in 2005–06",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Orang Asli villagers, workers and visitors",
+    "hook": "In the rainforests of southern Malaysia, people describe a tall, hairy creature that walks upright, and in 2006 the state government went looking.",
+    "summary": [
+      "The Orang Asli, the Indigenous peoples of Peninsular Malaysia, have long told of the orang mawas or hantu jarang gigi, a tall, hairy, ape-like being living in the forests of Johor. In 2005 and 2006, a wave of reported sightings and large footprints in the Endau-Rompin area made national news.",
+      "The Johor state government organised an expedition with scientists and rangers to search the forest, and the story drew international attention."
+    ],
+    "explanation": "No body, bones or clear photographs were found. Suggestions include sun bears standing upright, other animals, and footprints enlarged by rain. Some saw the interest as a boost for tourism. The forests of Endau-Rompin remain a protected national park.",
+    "wiki": null
+  },
+  {
+    "slug": "olitiau",
+    "category": "creatures",
+    "title": "The Olitiau",
+    "region": "Assumbo mountains, Manyu, Cameroon",
+    "lat": 5.7,
+    "lon": 9.7,
+    "dateLabel": "Reported in 1932",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Naturalist Ivan Sanderson and a companion",
+    "hook": "Wading through a river in Cameroon at dusk, two naturalists said a huge black bat with a jaw full of teeth swooped down at them.",
+    "summary": [
+      "In 1932, the naturalist Ivan Sanderson was collecting animals in the Assumbo mountains of Cameroon with a colleague. Wading in a stream at dusk, they said a huge dark creature, like a bat with a wingspan of about 3.5 metres and a gaping jaw full of teeth, flew straight at them, then returned before vanishing into the night.",
+      "Their local guides, Sanderson said, called it olitiau and were terrified of it."
+    ],
+    "explanation": "No such animal has been found. Most researchers think they saw a hammer-headed bat, Africa's largest bat, which has a wingspan of up to a metre and a large, strange-looking head, its size exaggerated by the shock and the dusk light.",
+    "wiki": null
+  },
+  {
+    "slug": "grootslang",
+    "category": "creatures",
+    "title": "The Grootslang",
+    "region": "Richtersveld, Northern Cape, South Africa",
+    "lat": -28.2,
+    "lon": 17.1,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Local tradition",
+    "hook": "In the deserts of north-western South Africa, legend tells of the Grootslang, a giant serpent guarding a bottomless cave full of diamonds.",
+    "summary": [
+      "The grootslang, Afrikaans for 'great snake', is a legendary creature said to live in a deep cave in the Richtersveld, a remote, rugged desert on the border with Namibia. It is described as a vast serpent, sometimes with the head of an elephant, created by the gods at the beginning of the world.",
+      "Its cave, sometimes called the 'Wonder Hole', is said to be bottomless and filled with diamonds, and the region really is rich in diamonds, which have drawn prospectors for over a century."
+    ],
+    "explanation": "The grootslang is a figure of legend. Stories of fearsome guardians around treasure may have grown among prospectors in a harsh, dangerous landscape. The Richtersveld is now a UNESCO World Heritage Site, known for its rare plants.",
+    "wiki": null
+  },
+  {
+    "slug": "megamouth-shark",
+    "category": "creatures",
+    "title": "The Megamouth Shark",
+    "region": "Off Oahu, Hawaiʻi, USA",
+    "lat": 21.15,
+    "lon": -157.5,
+    "dateLabel": "Discovered on 15 November 1976",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "A US Navy research crew",
+    "hook": "In 1976, a Navy ship hauled up its sea anchor and found a 4.5-metre shark tangled in it, unlike anything science had seen.",
+    "summary": [
+      "On 15 November 1976, a US Navy research vessel working off the island of Oahu in Hawaiʻi pulled in a parachute-like sea anchor it had lowered deep into the water. Tangled in it was a large shark, about 4.5 metres long, with a huge, rubbery mouth and soft, flabby body.",
+      "Scientists realised it belonged not just to a new species but to a whole new family of sharks. It was named megamouth."
+    ],
+    "explanation": "Megamouth sharks are gentle filter feeders that live in the deep ocean and rise towards the surface at night to feed on plankton. Only a few hundred have been seen since 1976. Their discovery showed that even large animals can remain hidden in the deep sea.",
+    "wiki": "Megamouth shark"
+  },
+  {
+    "slug": "moa-sightings",
+    "category": "creatures",
+    "title": "The Moa Sightings",
+    "region": "Craigieburn Range, Canterbury, New Zealand",
+    "lat": -43.15,
+    "lon": 171.72,
+    "dateLabel": "Reported in 1993",
+    "status": "disputed",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "Three hikers",
+    "hook": "New Zealand's giant moa birds died out centuries ago. In 1993, three hikers said they saw one, and photographed it.",
+    "summary": [
+      "Moa were giant flightless birds, some taller than an adult human, that lived only in New Zealand. They were hunted to extinction soon after people arrived, by around 1400 to 1450.",
+      "In January 1993, three hikers in the Craigieburn Range said they saw a large bird, which they believed was a moa, cross a stream. One of them, Paddy Freaney, took a blurry photograph. The story made headlines around the world."
+    ],
+    "explanation": "Experts who studied the photograph thought it showed a red deer, a person or something else, and some suspected a hoax. Scientists consider moa extinct; the last were seen by Māori and early Polynesian settlers, and their bones are common in caves and swamps.",
+    "wiki": "Moa"
+  },
+  {
+    "slug": "drop-bear",
+    "category": "creatures",
+    "title": "The Drop Bear",
+    "region": "Forests of Victoria, Australia",
+    "lat": -37.8,
+    "lon": 145.5,
+    "dateLabel": "A tall tale since the 20th century",
+    "status": "explained",
+    "statusLabel": "Tall tale",
+    "witnesses": "Visitors who were told about it",
+    "hook": "Australians warn visitors about the drop bear: a fierce relative of the koala that drops from trees onto unwary hikers.",
+    "summary": [
+      "Visitors to Australia are often warned, with a straight face, about drop bears: large, carnivorous relatives of the koala that hide in gum trees and drop onto the heads of passers-by. Locals suggest smearing toothpaste or Vegemite behind your ears, or speaking with an Australian accent, to keep them away.",
+      "The story is told around campfires, in tourist shops and even in a mock entry on the Australian Museum's website."
+    ],
+    "explanation": "Drop bears are a joke played on visitors, part of Australian humour. There is a grain of truth: a much larger, extinct relative of the koala and wombat did once live in Australia, and the marsupial lion, an extinct tree-climbing predator, may have ambushed prey from above.",
+    "wiki": "Drop bear"
+  },
+  {
+    "slug": "balls-pyramid-tree-lobster",
+    "category": "creatures",
+    "title": "The Tree Lobster of Ball's Pyramid",
+    "region": "Ball's Pyramid, off Lord Howe Island, Australia",
+    "lat": -31.75,
+    "lon": 159.25,
+    "dateLabel": "Thought extinct by 1920s; rediscovered 2001",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Scientists who climbed the rock",
+    "hook": "A giant insect thought extinct for 80 years was found living under a single bush on a sheer sea stack in the Pacific.",
+    "summary": [
+      "The Lord Howe Island stick insect, nicknamed the tree lobster, is a large, dark, flightless insect up to 15 cm long. It was common on Lord Howe Island until 1918, when rats escaped from a shipwreck and wiped it out. It was declared extinct.",
+      "Twenty kilometres away stands Ball's Pyramid, a sheer volcanic spike rising 562 metres from the ocean. In 2001, scientists David Priddel and Nicholas Carlile climbed it at night and found 24 of the insects living under a single shrub, high on the rock."
+    ],
+    "explanation": "Some of the insects were taken to breed in captivity at Melbourne Zoo, where thousands have since been raised. Plans are under way to return them to Lord Howe Island now that rats have been removed. It is one of the most remarkable rediscoveries in natural history.",
+    "wiki": "Dryococelus australis"
+  },
+  {
+    "slug": "basajaun",
+    "category": "creatures",
+    "title": "The Basajaun",
+    "region": "Gorbeia, Basque Country, Spain",
+    "lat": 43.03,
+    "lon": -2.78,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Basque tradition",
+    "hook": "In the Basque mountains, shepherds tell of the Basajaun, a giant, hairy lord of the woods who protects the flocks.",
+    "summary": [
+      "In Basque mythology, the basajaun, 'lord of the forest', is a giant, hairy, human-like being who lives in caves and forests high in the Pyrenees and Basque mountains. He protects flocks of sheep, warning shepherds of coming storms or wolves by shouting from the hills.",
+      "Some legends say the basajaun taught humans to farm, forge metal and make saws, after the knowledge was tricked from him."
+    ],
+    "explanation": "The basajaun is a figure of folklore, among the oldest in Europe. Some writers have compared him to wild-man legends elsewhere, such as the yeti. The Basque mountains are still farmed by shepherds today.",
+    "wiki": "Basajaun"
+  },
+  {
+    "slug": "owlman",
+    "category": "creatures",
+    "title": "The Owlman of Mawnan",
+    "region": "Mawnan, Cornwall, England",
+    "lat": 50.1,
+    "lon": -5.1,
+    "dateLabel": "April 1976",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Two young sisters, and a few others",
+    "hook": "Two young sisters on holiday in Cornwall said they saw a huge owl-like figure with glowing eyes hovering above a church tower.",
+    "summary": [
+      "In April 1976, two young sisters on holiday near Mawnan, in Cornwall, said they saw a large, feathered, man-sized figure with pointed ears and red eyes hovering above the tower of the village church. Their father reported it to a local writer.",
+      "A few more sightings were reported near the church woods over the following years. The creature was named the Owlman."
+    ],
+    "explanation": "The writer who publicised the story was known for playful hoaxes, and some suspect he exaggerated it. Others suggest the girls saw a large owl, such as an escaped eagle owl, which can have a wingspan of nearly two metres. No evidence of an unknown creature has been found.",
+    "wiki": "Owlman"
+  },
+  {
+    "slug": "fresno-nightcrawlers",
+    "category": "creatures",
+    "title": "The Fresno Nightcrawlers",
+    "region": "Fresno, California, USA",
+    "lat": 36.74,
+    "lon": -119.79,
+    "dateLabel": "Filmed in 2007 and 2011",
+    "status": "disputed",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "A homeowner's security camera",
+    "hook": "A security camera in California recorded two white figures that seemed to be just a pair of legs, walking across a garden at night.",
+    "summary": [
+      "In 2007, a man in Fresno, California, released footage from a security camera showing two small, white figures that seemed to consist of nothing but long legs, gliding across his front garden at night. In 2011, a similar clip was said to have been filmed in Yosemite National Park.",
+      "The 'nightcrawlers' became an internet sensation, and some linked them to Native American stories of small beings."
+    ],
+    "explanation": "Sceptics suggest the figures were created with puppets, people wearing white trousers filmed in a certain way, or editing. The people involved have never fully explained the footage, and many think it was a clever hoax.",
+    "wiki": null
+  },
+  {
+    "slug": "bear-lake-monster",
+    "category": "creatures",
+    "title": "The Bear Lake Monster",
+    "region": "Bear Lake, Utah–Idaho, USA",
+    "lat": 41.96,
+    "lon": -111.4,
+    "dateLabel": "1868",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "A newspaper writer's account",
+    "hook": "In 1868, a newspaper reported a serpent-like monster in a mountain lake on the Utah–Idaho border. Its author later admitted making it up.",
+    "summary": [
+      "In 1868, Joseph C. Rich, a settler in the Bear Lake valley, wrote an article for the Deseret News in Salt Lake City describing a huge, serpent-like creature seen by several people in Bear Lake, building on a local Shoshone legend.",
+      "The story caused a sensation, and more sightings followed as people came to look."
+    ],
+    "explanation": "Years later, Rich admitted he had invented or exaggerated the reports as a joke, partly to bring attention to the valley. Sightings continued anyway, and the monster is now a cheerful local mascot, with a monster-shaped boat taking tourists out on the lake.",
+    "wiki": "Bear Lake Monster"
+  },
+  {
+    "slug": "steller-sea-ape",
+    "category": "creatures",
+    "title": "Steller's Sea Ape",
+    "region": "Shumagin Islands, Alaska, USA",
+    "lat": 55.2,
+    "lon": -160.5,
+    "dateLabel": "August 1741",
+    "status": "open",
+    "statusLabel": "Unidentified",
+    "witnesses": "Naturalist Georg Steller",
+    "hook": "On a voyage to Alaska in 1741, a respected naturalist watched a strange animal with a dog-like head and a tail like a shark's play beside his ship.",
+    "summary": [
+      "In August 1741, Georg Steller, the naturalist on Vitus Bering's expedition to Alaska, described an animal that swam around the ship near the Shumagin Islands for two hours. It was about 1.5 metres long, with a head like a dog's, large eyes, long whiskers and a tail divided like a shark's, and it played with a piece of seaweed.",
+      "Steller was a careful observer who described many animals for the first time, including the Steller's sea cow and the Steller's jay. He called this one a sea ape."
+    ],
+    "explanation": "No animal matching his description is known. Suggestions include a young fur seal, a sea otter, or an unusual or deformed seal seen in poor conditions. Because Steller was so reliable, the sea ape remains a puzzle.",
+    "wiki": null
+  },
+  {
+    "slug": "guije",
+    "category": "creatures",
+    "title": "The Güije",
+    "region": "Rivers of central Cuba",
+    "lat": 21.9,
+    "lon": -79.97,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Cuban tradition",
+    "hook": "In Cuban folklore, a small, dark imp called the güije lives in rivers and pools, and plays tricks on anyone who comes too close.",
+    "summary": [
+      "The güije, or jigüe, is a figure of Cuban folklore: a small, dark, child-sized being with long hair who lives in rivers, ponds and pools. He is said to come out to sun himself on rocks and to play pranks, splashing people or stealing things from riverbanks.",
+      "Parents warned children not to swim alone in deep pools, or the güije might get them."
+    ],
+    "explanation": "The güije is a folklore figure, with roots in African and Indigenous Taíno traditions. Like many water spirits, the stories serve as a warning about the dangers of rivers.",
+    "wiki": "Güije"
+  },
+  {
+    "slug": "ropen",
+    "category": "creatures",
+    "title": "The Ropen",
+    "region": "Umboi Island, Papua New Guinea",
+    "lat": -5.6,
+    "lon": 147.9,
+    "dateLabel": "Reported in the 20th century",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Islanders and visiting expeditions",
+    "hook": "On islands off Papua New Guinea, people describe a large flying creature with a long tail that glows as it flies at night.",
+    "summary": [
+      "On Umboi Island and other parts of Papua New Guinea, local people tell of the ropen, a large flying creature that comes out at night. Some descriptions give it a long tail with a diamond-shaped tip, and say it glows as it flies.",
+      "Several expeditions, mostly by people hoping to prove that pterosaurs survived, have visited the island to look for it, and some have reported seeing lights moving in the night sky."
+    ],
+    "explanation": "Scientists consider a surviving pterosaur impossible. Suggested explanations include large fruit bats, frigatebirds, which have long forked tails, and bioluminescent insects or other natural lights. No physical evidence has been found.",
+    "wiki": "Ropen"
+  },
+  {
+    "slug": "lukwata",
+    "category": "creatures",
+    "title": "The Lukwata of Lake Victoria",
+    "region": "Lake Victoria, Uganda",
+    "lat": -0.2,
+    "lon": 32.8,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Baganda tradition and fishermen",
+    "hook": "Fishermen on Lake Victoria tell of the lukwata, a great serpent in the lake's depths that can overturn canoes.",
+    "summary": [
+      "Lake Victoria is Africa's largest lake, shared by Uganda, Kenya and Tanzania. The Baganda people of Uganda tell of the lukwata, a huge, serpent-like creature living in the lake. In the early 20th century, colonial officials and missionaries recorded stories of fishermen who said they had seen it.",
+      "It is described as large and dark, with a long neck, and is blamed for sudden disturbances on the water."
+    ],
+    "explanation": "No evidence of an unknown animal has been found. Suggested explanations include large crocodiles, Nile monitor lizards, giant catfish and lungfish, and the sudden storms that sweep the lake. The legend reflects the lake's importance and dangers for those who fish it.",
+    "wiki": null
+  },
+  {
+    "slug": "ramgarh-crater",
+    "category": "places",
+    "title": "The Ramgarh Crater",
+    "region": "Ramgarh, Baran, Rajasthan, India",
+    "lat": 25.33,
+    "lon": 76.62,
+    "dateLabel": "Formed hundreds of millions of years ago; confirmed in 2020",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Villagers, temple keepers and geologists",
+    "hook": "In Rajasthan, a ring of hills around a village and an ancient temple turned out to be the remains of a giant meteorite crater.",
+    "summary": [
+      "Near the village of Ramgarh in Baran district, a near-circular ring of hills about 3 km across rises from the flat plain, with the 10th-century Bhand Deva temple and a lake at its centre. Since the 19th century, geologists had debated whether it was formed by an impact or by other geological processes.",
+      "Some saw it as a volcanic or tectonic feature; others pointed to its shape as evidence of a meteorite."
+    ],
+    "explanation": "In 2020, a study found shocked quartz and other features that only form under the extreme pressure of an impact, and the Earth Impact Database confirmed Ramgarh as an impact structure. It is about 10 km across in total, and was formed hundreds of millions of years ago. It has since been recognised as a geological heritage site.",
+    "wiki": "Ramgarh crater"
+  },
+  {
+    "slug": "loktak-phumdis",
+    "category": "places",
+    "title": "The Floating Islands of Loktak",
+    "region": "Loktak Lake, Manipur, India",
+    "lat": 24.55,
+    "lon": 93.8,
+    "dateLabel": "Ancient",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Fishing communities and visitors",
+    "hook": "On a lake in Manipur, islands of grass and soil float and drift, and one of them carries the world's only floating national park.",
+    "summary": [
+      "Loktak Lake in Manipur, the largest freshwater lake in north-east India, is covered with phumdis: floating masses of vegetation, soil and organic matter, some large enough to walk on and to hold fishing huts. They drift with the wind and water levels.",
+      "At the southern end lies Keibul Lamjao National Park, the only floating national park in the world, home to the endangered sangai, a dancing deer found nowhere else."
+    ],
+    "explanation": "The phumdis form over years as plants grow and decay, binding together into thick, buoyant mats. Their thickness changes with the seasons, sinking partly in the dry season and rising in the monsoon. They are threatened today by a dam that keeps water levels high.",
+    "wiki": "Loktak Lake"
+  },
+  {
+    "slug": "unakoti",
+    "category": "places",
+    "title": "The Carvings of Unakoti",
+    "region": "Unakoti, Tripura, India",
+    "lat": 24.32,
+    "lon": 92.07,
+    "dateLabel": "Carved between the 7th and 9th centuries",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Pilgrims and archaeologists",
+    "hook": "In the forested hills of Tripura, giant faces are carved into the rock. Legend says there are one short of ten million of them.",
+    "summary": [
+      "Unakoti, in the hills of northern Tripura, is a site of huge rock carvings and stone images set among forest and streams. The largest is a carved head about 10 metres high. Its name means 'one less than a crore', or ten million.",
+      "Legend says that Shiva was travelling with a host of gods and stopped there for the night, telling them to rise before dawn. When none of them woke, he cursed them to stone, leaving one short of a crore of images in the hills."
+    ],
+    "explanation": "Archaeologists date the carvings to between roughly the 7th and 9th centuries, though nobody has counted anything like ten million. The site is protected by the Archaeological Survey of India and is a place of pilgrimage, especially during a spring festival.",
+    "wiki": "Unakoti"
+  },
+  {
+    "slug": "shambhala-roerich",
+    "category": "places",
+    "title": "The Search for Shambhala",
+    "region": "Naggar, Kullu, Himachal Pradesh, India",
+    "lat": 32.12,
+    "lon": 77.17,
+    "dateLabel": "Legend for centuries; expedition 1925–28",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Tibetan Buddhist tradition; the Roerich family",
+    "hook": "In Tibetan Buddhist tradition, Shambhala is a hidden kingdom beyond the Himalaya. A Russian painter spent years searching for it, then settled in Kullu.",
+    "summary": [
+      "In Tibetan Buddhist texts, Shambhala is a hidden kingdom somewhere beyond the Himalaya, ruled by wise kings who keep sacred teachings. It is said to be visible only to those who are spiritually ready.",
+      "In the 1920s, the Russian painter and mystic Nicholas Roerich and his family led a long expedition across Central Asia and Tibet, partly in search of Shambhala. Afterwards, they settled at Naggar in the Kullu valley, where Roerich painted many Himalayan scenes. His estate is now a museum."
+    ],
+    "explanation": "Most scholars see Shambhala as a spiritual idea rather than a real place, though some have linked the legend to historical kingdoms in Central Asia. It inspired the Western idea of Shangri-La.",
+    "wiki": "Shambhala"
+  },
+  {
+    "slug": "chocolate-hills",
+    "category": "places",
+    "title": "The Chocolate Hills",
+    "region": "Bohol, Philippines",
+    "lat": 9.83,
+    "lon": 124.17,
+    "dateLabel": "Formed over millions of years",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Islanders and visitors",
+    "hook": "On a Philippine island, more than a thousand almost identical round hills rise from the plain. In the dry season, they turn brown.",
+    "summary": [
+      "In the middle of the island of Bohol, more than 1,200 smooth, dome-shaped hills, most 30 to 50 metres high, are scattered across the landscape. They are covered in grass that turns brown in the dry season, giving them their name.",
+      "Local legends say they were formed by two giants who threw rocks and sand at each other, or by the tears of a giant mourning a lost love."
+    ],
+    "explanation": "Geologists explain that they are made of marine limestone, formed from old coral reefs that were lifted up and then worn into rounded shapes by rain and erosion over millions of years. Exactly why they are so regular is still discussed. They are a national geological monument.",
+    "wiki": "Chocolate Hills"
+  },
+  {
+    "slug": "son-doong",
+    "category": "places",
+    "title": "Son Doong, the Hidden Cave",
+    "region": "Phong Nha-Kẻ Bàng, Quảng Bình, Vietnam",
+    "lat": 17.46,
+    "lon": 106.29,
+    "dateLabel": "Found around 1990; explored in 2009",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "A local man and British cave explorers",
+    "hook": "A man sheltering from a storm in the Vietnamese jungle found a cave entrance with clouds coming out of it. It turned out to be the largest cave passage in the world.",
+    "summary": [
+      "Around 1990, Hồ Khanh, a local man from the area that is now Phong Nha-Kẻ Bàng National Park, was sheltering in the jungle when he found an opening in a cliff, with the sound of a river inside and mist pouring out. He could not find it again for years.",
+      "In 2009, he led a team from the British Cave Research Association back to it. They discovered a passage so vast that it has its own jungle, river and clouds."
+    ],
+    "explanation": "Son Doong is the largest known cave passage in the world, more than 5 km long and up to 200 metres high in places. It was carved by a river through limestone, and parts of its roof have collapsed, letting sunlight in and allowing forests to grow inside. Tours are strictly limited.",
+    "wiki": "Hang Sơn Đoòng"
+  },
+  {
+    "slug": "ishi-no-hoden",
+    "category": "places",
+    "title": "Ishi-no-Hōden, the Floating Stone",
+    "region": "Ōshiko Shrine, Takasago, Hyōgo, Japan",
+    "lat": 34.77,
+    "lon": 134.79,
+    "dateLabel": "Carved by the 7th century",
+    "status": "open",
+    "statusLabel": "Purpose unknown",
+    "witnesses": "Shrine keepers and visitors",
+    "hook": "In a Japanese shrine, a giant carved stone sits in a pool of water, seeming to float. No one knows who carved it, or why.",
+    "summary": [
+      "At the Ōshiko Shrine in Takasago, a huge block of stone weighing around 500 tonnes stands in a rock-cut pit filled with water, so that it appears to float. It was carved out of the surrounding rock, on all sides except a narrow strip beneath it, and has a strange box-like shape with a protrusion on one side.",
+      "It is one of the 'three wonders' of Japan, and a sacred object of the shrine. Records mention it as early as the 8th century."
+    ],
+    "explanation": "Who carved it, when, and for what purpose is unknown. Suggestions include an unfinished burial chamber or a stone that was meant to be moved but never was. The stone is still worshipped at the shrine today.",
+    "wiki": "Ishi-no-Hōden"
+  },
+  {
+    "slug": "fuxian-lake-ruins",
+    "category": "places",
+    "title": "The Ruins Beneath Fuxian Lake",
+    "region": "Fuxian Lake, Yunnan, China",
+    "lat": 24.53,
+    "lon": 102.9,
+    "dateLabel": "Found in 2001",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Divers and archaeologists",
+    "hook": "In 2001, a diver in one of China's deepest lakes spotted stone steps and walls on the lake bed. Surveys found a whole submerged complex.",
+    "summary": [
+      "Fuxian Lake, in Yunnan province, is one of the deepest lakes in China. In 2001, a local diver spotted large, regular stone blocks, steps and what looked like walls a few hundred metres from the shore.",
+      "Surveys using sonar and divers mapped structures across an area of about 2.4 square kilometres, including stone platforms, paved paths and large stepped mounds. Local legends had long told of a city that sank into the lake."
+    ],
+    "explanation": "Carbon dating of one object suggested an age of about 1,750 years, and some link the site to the ancient Dian kingdom or a Han-dynasty town. Other scientists have urged caution, arguing the evidence is not yet clear enough to say what the structures are or how they came to be underwater.",
+    "wiki": "Fuxian Lake"
+  },
+  {
+    "slug": "deer-stones",
+    "category": "places",
+    "title": "The Deer Stones of Mongolia",
+    "region": "Uushigiin Övör, Khövsgöl, Mongolia",
+    "lat": 49.66,
+    "lon": 99.92,
+    "dateLabel": "Carved about 3,000 years ago",
+    "status": "explained",
+    "statusLabel": "Purpose debated",
+    "witnesses": "Herders and archaeologists",
+    "hook": "Across the Mongolian steppe stand carved standing stones covered in flying deer, their antlers streaming behind them.",
+    "summary": [
+      "Across Mongolia and nearby regions stand more than 1,000 tall, carved stones from the Bronze Age, around 3,000 years ago. Many are decorated with stylised deer that seem to fly upward, with long, flowing antlers, as well as belts, weapons and earrings, as if the stone were a person.",
+      "At Uushigiin Övör, near the town of Mörön, a group of particularly fine deer stones stands in a valley."
+    ],
+    "explanation": "Archaeologists think the stones represent people, perhaps important warriors or ancestors, and were part of ritual sites, often surrounded by small stone mounds containing horse remains. What the flying deer meant is debated; one idea is that they carried spirits to the sky.",
+    "wiki": "Deer stone"
+  },
+  {
+    "slug": "nemrut-dag",
+    "category": "places",
+    "title": "The Great Heads of Nemrut Dağ",
+    "region": "Mount Nemrut, Adıyaman, Türkiye",
+    "lat": 37.98,
+    "lon": 38.74,
+    "dateLabel": "Built in the 1st century BCE",
+    "status": "open",
+    "statusLabel": "Tomb not found",
+    "witnesses": "Archaeologists and visitors",
+    "hook": "On a mountaintop in Türkiye, giant stone heads of gods and a king gaze out at the sunrise. The king's tomb has never been found.",
+    "summary": [
+      "On the summit of Mount Nemrut, about 2,100 metres high, King Antiochus I of Commagene built a monument to himself and the gods in the 1st century BCE. Giant stone statues of the king, lions, eagles and gods stood on terraces, their heads, now fallen, up to 2 metres high, facing sunrise and sunset.",
+      "Between the terraces rises a huge artificial mound of broken rock, 50 metres high, which is thought to cover the king's tomb."
+    ],
+    "explanation": "Archaeologists have searched for the tomb inside the mound for decades, using tunnels and scans, without finding it. The loose rock makes digging dangerous. The site is a UNESCO World Heritage Site, famous for its sunrise views.",
+    "wiki": "Mount Nemrut"
+  },
+  {
+    "slug": "gedi-ruins",
+    "category": "places",
+    "title": "The Ruins of Gedi",
+    "region": "Gedi, near Malindi, Kenya",
+    "lat": -3.31,
+    "lon": 40.02,
+    "dateLabel": "Built from the 12th century; abandoned in the 1600s",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists and visitors",
+    "hook": "Deep in a coastal forest in Kenya lie the ruins of a stone town, with a palace, mosques and houses, abandoned without a clear reason.",
+    "summary": [
+      "Hidden in the forest near Malindi on the Kenyan coast are the ruins of Gedi, a Swahili town of coral-stone houses, a great mosque, a palace, wells and streets. It was home to several thousand people, and finds of Chinese porcelain and Venetian beads show it traded across the Indian Ocean.",
+      "Yet Gedi is not mentioned in any surviving Portuguese or Arab records of the coast, and it was abandoned in the 17th century and swallowed by forest."
+    ],
+    "explanation": "Historians suggest several reasons for its abandonment: a falling water table that dried the wells, raids by nomadic groups, and the decline of trade after the Portuguese arrived. It is now a national monument, and local tradition treats the forest as a place to approach with respect.",
+    "wiki": "Gedi Ruins"
+  },
+  {
+    "slug": "axum-obelisks",
+    "category": "places",
+    "title": "The Giant Obelisks of Axum",
+    "region": "Axum, Tigray, Ethiopia",
+    "lat": 14.13,
+    "lon": 38.72,
+    "dateLabel": "Raised about 1,700 years ago",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Archaeologists and residents",
+    "hook": "In the ancient city of Axum stand towering carved stone obelisks, one of them the largest single stone people ever tried to raise.",
+    "summary": [
+      "Axum, in northern Ethiopia, was the capital of a powerful kingdom that traded with Rome and India around 1,700 years ago. In its stelae park stand tall granite obelisks carved to look like multi-storey buildings, with false doors and windows.",
+      "The largest, the Great Stele, was about 33 metres long and weighed some 520 tonnes, but it lies broken on the ground; it probably fell while it was being raised or soon after. Another, taken to Rome in 1937, was returned to Ethiopia in 2005 and re-erected."
+    ],
+    "explanation": "The obelisks were cut from quarries several kilometres away and probably moved with ramps, rollers and great numbers of people. They are thought to have marked royal tombs. The site is a UNESCO World Heritage Site.",
+    "wiki": "Obelisk of Axum"
+  },
+  {
+    "slug": "kaimanawa-wall",
+    "category": "places",
+    "title": "The Kaimanawa Wall",
+    "region": "Kaimanawa Forest Park, near Taupō, New Zealand",
+    "lat": -39.1,
+    "lon": 175.88,
+    "dateLabel": "Claimed in 1996",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "A visitor, writers and geologists",
+    "hook": "In a New Zealand forest, a wall of huge, neatly squared blocks was claimed to be built by a lost people before the Māori. Geologists disagreed.",
+    "summary": [
+      "In 1996, writers publicised a 'wall' in Kaimanawa Forest Park south of Lake Taupō: a line of large, rectangular stone blocks, neatly stacked, partly covered in forest. Some claimed it was built by an unknown people who lived in New Zealand before the Māori arrived.",
+      "The claim drew attention because it challenged the accepted history of the country's settlement."
+    ],
+    "explanation": "Geologists from New Zealand's Department of Conservation examined the site and concluded it is a natural outcrop of ignimbrite, a rock formed from volcanic ash, which cracks along straight lines into block-like shapes. There is no archaeological evidence of human work at the site.",
+    "wiki": null
+  },
+  {
+    "slug": "haamonga-a-maui",
+    "category": "places",
+    "title": "Ha'amonga 'a Maui",
+    "region": "Niutōua, Tongatapu, Tonga",
+    "lat": -21.13,
+    "lon": -175.05,
+    "dateLabel": "Built around 1200",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Tongans and visitors",
+    "hook": "In Tonga stands a giant stone gateway, like a piece of Stonehenge, which legend says the demigod Maui carried there.",
+    "summary": [
+      "Ha'amonga 'a Maui, 'the burden of Maui', is a trilithon on the island of Tongatapu: two upright coral limestone stones about 5 metres tall, topped by a third stone, each weighing many tonnes. Legend says the demigod Maui carried the stones there from another island on a pole across his shoulders.",
+      "Tongan tradition credits its construction to King Tu'itātui, around the 13th century, as a gateway to his royal compound."
+    ],
+    "explanation": "In 1967, King Tāufa'āhau Tupou IV pointed out that markings on the lintel line up with the sunrise on the solstices, suggesting it may also have marked the seasons. How the stones were quarried and raised is not recorded, but levers, ramps and large work crews could have done it.",
+    "wiki": "Haʻamonga ʻa Maui"
+  },
+  {
+    "slug": "giants-causeway",
+    "category": "places",
+    "title": "The Giant's Causeway",
+    "region": "County Antrim, Northern Ireland",
+    "lat": 55.24,
+    "lon": -6.51,
+    "dateLabel": "Formed about 60 million years ago",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Visitors and geologists",
+    "hook": "On the coast of Northern Ireland, 40,000 stone columns step down into the sea. Legend says a giant built them to reach Scotland.",
+    "summary": [
+      "On the north coast of County Antrim, around 40,000 interlocking basalt columns, most of them six-sided, form stepping stones that lead from the cliffs down into the sea.",
+      "Irish legend says the giant Fionn mac Cumhaill, Finn McCool, built the causeway to cross to Scotland and fight a rival giant, Benandonner. Similar columns appear across the sea on the Scottish island of Staffa, home of Fingal's Cave."
+    ],
+    "explanation": "Geologists explain that about 60 million years ago, lava flowed across the area and cooled slowly. As it cooled, it shrank and cracked into regular columns, in the same way drying mud cracks into polygons. It is a UNESCO World Heritage Site.",
+    "wiki": "Giant's Causeway"
+  },
+  {
+    "slug": "malta-cart-ruts",
+    "category": "places",
+    "title": "The Cart Ruts of Malta",
+    "region": "Misraħ Għar il-Kbir, Malta",
+    "lat": 35.88,
+    "lon": 14.4,
+    "dateLabel": "Age unknown",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "Archaeologists and visitors",
+    "hook": "Across the bare limestone of Malta run pairs of deep grooves like railway tracks. Nobody knows who made them, or how.",
+    "summary": [
+      "On the rocky plateaus of Malta and Gozo run hundreds of pairs of parallel grooves cut into the limestone, some up to 60 cm deep. At Misraħ Għar il-Kbir, so many cross and branch that the site is nicknamed 'Clapham Junction', after the busy London railway station. Some ruts even run off cliff edges and into the sea.",
+      "They have been studied for more than a century, and their age is uncertain: estimates range from the Bronze Age to Roman times."
+    ],
+    "explanation": "The most common explanation is that they were worn by carts or sledges carrying heavy loads, such as stone, over many years, deepening as the soft rock eroded. Why they run where they do, including into the sea, may be explained by changes in sea level and erosion since they were made.",
+    "wiki": "Clapham Junction (archaeological site)"
+  },
+  {
+    "slug": "cuba-underwater-city",
+    "category": "places",
+    "title": "The 'Underwater City' off Cuba",
+    "region": "Off the Guanahacabibes Peninsula, Cuba",
+    "lat": 21.8,
+    "lon": -84.75,
+    "dateLabel": "Reported in 2001",
+    "status": "disputed",
+    "statusLabel": "Probably natural",
+    "witnesses": "An ocean survey team",
+    "hook": "In 2001, a survey ship scanning the seabed off western Cuba found shapes that looked like pyramids and streets, half a kilometre down.",
+    "summary": [
+      "In 2001, a Canadian company led by Paulina Zelitsky and Paul Weinzweig, surveying the seabed off Cuba's western tip, reported sonar images showing large, regular shapes about 600 to 750 metres deep: what looked like rectangles, circles and pyramid-like forms.",
+      "The find was widely reported as a possible sunken city, and linked by some to legends of Atlantis."
+    ],
+    "explanation": "Geologists pointed out that the land could not have sunk so far in the time humans have existed, and that natural rock formations can look regular on sonar. Follow-up studies were limited, and no evidence of human work has been confirmed. Most scientists consider the shapes natural.",
+    "wiki": null
+  },
+  {
+    "slug": "peles-curse",
+    "category": "places",
+    "title": "Pele's Curse",
+    "region": "Hawaiʻi Volcanoes National Park, Hawaiʻi, USA",
+    "lat": 19.42,
+    "lon": -155.29,
+    "dateLabel": "Told since the 20th century",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Park rangers and visitors",
+    "hook": "Visitors who take a piece of lava home from Hawaiʻi's volcanoes are said to suffer bad luck, and every year, hundreds of rocks are posted back.",
+    "summary": [
+      "In Hawaiian tradition, Pele is the goddess of fire and volcanoes, who lives in the crater of Kīlauea. A modern legend says that anyone who takes rocks, sand or lava from her island will be cursed with bad luck until they return them.",
+      "Every year, Hawaiʻi Volcanoes National Park and local hotels receive packages of rocks posted back by visitors from around the world, often with letters apologising and describing the misfortunes they blame on the stones."
+    ],
+    "explanation": "Many historians think the 'curse' was invented or spread in the 20th century, possibly by park rangers or tour guides trying to stop visitors from taking rocks. Hawaiian cultural practitioners note that taking things from sacred places is disrespectful, curse or not, and removing rocks from the national park is illegal.",
+    "wiki": "Pele (deity)"
   }
 ];
