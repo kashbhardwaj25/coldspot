@@ -35,9 +35,16 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# coldspot: local SQLite database (keep production data on the server)
+# uncanny-map: local SQLite database (keep production data on the server)
 /data/*.db
 /data/*.db-*
 
-# coldspot: server secrets
+# uncanny-map: server secrets
 /deploy/.env
+
+# Impeccable scratch output; the surface briefs and design.json stay tracked
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/questions/
+.impeccable/hook.cache.json
+.impeccable/config.local.json

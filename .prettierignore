@@ -6,3 +6,7 @@ drizzle
 public
 package-lock.json
 next-env.d.ts
+src/data/regions.json
+
+# Impeccable design tooling (briefs, mocks, review captures)
+.impeccable/

@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, type CSSProperties } from "react";
+import { Icon } from "@/components/brand";
 import { CATEGORIES } from "@/lib/categories";
 import { caseStatusLabel } from "@/lib/format";
 import type { Signal } from "@/lib/signal";
 import { itemName, type CaseSummary, type MapItem, type StoryItem } from "@/lib/types";
-import { Freq, ScrambleText } from "./parts";
+import { Freq } from "./parts";
 import { loadCaseFile } from "./useCaseFile";
 
 type Props = {
@@ -17,31 +18,22 @@ type Props = {
   onOpen: (item: MapItem) => void;
 };
 
-/** The card under the ring: static between stations, or whatever is tuned in. */
+/** What's tuned in, under the ring: its title lit up, or unlit between stations. */
 export function TunerCard({ item, nearest, coords, echoes, onOpen }: Props) {
   if (!item) return <Searching nearest={nearest} coords={coords} />;
-  if (item.kind === "case") return <CaseCard item={item} coords={coords} onOpen={onOpen} />;
-  return <StoryCard item={item} echoes={echoes ?? item.echoes} onOpen={onOpen} coords={coords} />;
+  // Keyed, so the title charges up again each time something new tunes in.
+  if (item.kind === "case") return <CaseCard key={item.slug} item={item} coords={coords} onOpen={onOpen} />;
+  return <StoryCard key={item.slug} item={item} echoes={echoes ?? item.echoes} onOpen={onOpen} coords={coords} />;
 }
 
 function Searching({ nearest, coords }: { nearest: MapItem | null; coords: Signal<string> }) {
   return (
-    <div className="card search" aria-live="polite">
-      <div className="row">
-        <span className="tag">
-          <span className="bars" aria-hidden="true">
-            <s />
-            <s />
-            <s />
-            <s />
-          </span>{" "}
-          Between stations
-        </span>
-        <Freq source={coords} />
-      </div>
-      <p className="hook">Static. Keep dragging until a light sits inside the ring.</p>
-      <div className="meta">
+    <div className="tuned idle" aria-live="polite">
+      <h2 className="tuned-title">Between stations</h2>
+      <p className="tuned-line">Keep dragging until a light sits inside the ring.</p>
+      <div className="tuned-meta">
         <span>{nearest ? `Nearest: ${itemName(nearest)}` : "Nothing on this side of the globe"}</span>
+        <Freq source={coords} />
       </div>
     </div>
   );
@@ -56,25 +48,21 @@ function CaseCard({ item, coords, onOpen }: CardProps<CaseSummary>) {
     loadCaseFile(item.slug).catch(() => {});
   }, [item.slug]);
   return (
-    <div className="card case" style={{ "--tc": cat.color } as CSSProperties} aria-live="polite">
-      <div className="row">
+    <div className="tuned" style={{ "--tc": cat.color } as CSSProperties} aria-live="polite">
+      <h2 className="tuned-title">{item.title}</h2>
+      <p className="tuned-line">{item.hook}</p>
+      <div className="tuned-meta">
         <span className="tag">
           <i className="d" />
           {cat.label}
         </span>
         <span className={`pill ${item.status}`}>{caseStatusLabel(item)}</span>
+        <span>{item.region}</span>
+        <span>{item.dateLabel}</span>
       </div>
-      <h2 className="ctitle">{item.title}</h2>
-      <div className="place">
-        {item.region} · {item.dateLabel}
-      </div>
-      <ScrambleText className="hook" text={item.hook} />
-      <div className="meta">
-        <span>{item.witnesses}</span>
-      </div>
-      <div className="card-foot">
+      <div className="tuned-foot">
         <button type="button" className="read" onClick={() => onOpen(item)}>
-          Open case file <span aria-hidden="true">→</span>
+          Open the case file {Icon.arrow}
         </button>
         <Freq source={coords} />
       </div>
@@ -82,36 +70,35 @@ function CaseCard({ item, coords, onOpen }: CardProps<CaseSummary>) {
   );
 }
 
-const witnessLabel = (w: string | null) => (w && /^\d+$/.test(w) ? `${w} ${w === "1" ? "witness" : "witnesses"}` : w);
+const witnessLabel = (w: string | null) =>
+  w && /^\d+\+?$/.test(w) ? `${w} ${w === "1" ? "witness" : "witnesses"}` : w;
 
 function StoryCard({ item, coords, echoes, onOpen }: CardProps<StoryItem> & { echoes: number }) {
   const cat = CATEGORIES[item.category];
   const w = witnessLabel(item.witnesses);
   return (
-    <div className="card" style={{ "--tc": cat.color } as CSSProperties} aria-live="polite">
-      <div className="row">
+    <div className="tuned" style={{ "--tc": cat.color } as CSSProperties} aria-live="polite">
+      <h2 className="tuned-title">{item.place}</h2>
+      <p className="tuned-line">{item.hook}</p>
+      <div className="tuned-meta">
         <span className="tag">
           <i />
           {cat.label}
         </span>
-        <Freq source={coords} />
-      </div>
-      <div className="place">
-        <b>{item.place}</b> · {item.region}
-        {item.year ? ` · ${item.year}` : ""}
-      </div>
-      <ScrambleText className="hook" text={item.hook} />
-      <div className="meta">
+        <span>{item.region}</span>
+        {item.year && <span>{item.year}</span>}
         {item.timeLabel && <span>{item.timeLabel}</span>}
         {w && <span>{w}</span>}
-        <span>{echoes} echoes nearby</span>
-        {item.narrated && <span style={{ color: cat.color }}>▶ Narrated · {item.narrationLength}</span>}
+        <span>
+          {echoes} {echoes === 1 ? "echo" : "echoes"}
+        </span>
       </div>
-      <div className="card-foot">
+      <div className="tuned-foot">
         <button type="button" className="read" onClick={() => onOpen(item)}>
-          Read the story <span aria-hidden="true">→</span>
+          Read the story {Icon.arrow}
         </button>
         {item.isSample && <span className="sample">Sample story</span>}
+        <Freq source={coords} />
       </div>
     </div>
   );

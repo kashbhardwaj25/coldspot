@@ -1,5 +1,5 @@
 /**
- * People's stories are hidden for the first release, which launches with famous cases only.
- * Set to true to bring back the mode switch, story pages, sharing, echoes and the admin review queue.
+ * People's stories: the mode switch, story pages, sign-in, sharing, echoes and the admin review queue.
+ * Set to false to run the site with famous cases only.
  */
-export const STORIES_ENABLED = false;
+export const STORIES_ENABLED = true;

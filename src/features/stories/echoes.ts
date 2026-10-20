@@ -1,15 +1,19 @@
 "use server";
 
-import { and, count, eq, inArray } from "drizzle-orm";
+import { and, count, eq } from "drizzle-orm";
+import { revalidatePath } from "next/cache";
+import { after } from "next/server";
 import { db, schema } from "@/db/client";
+import { currentUser } from "@/features/accounts/session";
 import { STORIES_ENABLED } from "@/lib/features";
-import { ensureVisitorId, getVisitorId } from "@/lib/server/security";
 
 const { stories, echoes } = schema;
 
-/** "Echo this": adds or removes this visitor's echo on an approved story. */
+/** "Echo this": adds or removes the signed-in account's echo on an approved story. Null if signed out. */
 export async function toggleEcho(slug: string): Promise<{ echoes: number; mine: boolean } | null> {
   if (!STORIES_ENABLED) return null;
+  const viewer = await currentUser();
+  if (!viewer) return null;
   const story = db
     .select({ id: stories.id, seed: stories.echoSeed })
     .from(stories)
@@ -17,33 +21,31 @@ export async function toggleEcho(slug: string): Promise<{ echoes: number; mine: 
     .get();
   if (!story) return null;
 
-  const vid = await ensureVisitorId();
-  const mine = and(eq(echoes.storyId, story.id), eq(echoes.visitorId, vid));
+  const mine = and(eq(echoes.storyId, story.id), eq(echoes.userId, viewer.id));
   const existing = db.select().from(echoes).where(mine).get();
 
   if (existing) db.delete(echoes).where(mine).run();
-  else db.insert(echoes).values({ storyId: story.id, visitorId: vid }).onConflictDoNothing().run();
+  else db.insert(echoes).values({ storyId: story.id, userId: viewer.id }).onConflictDoNothing().run();
 
   const n = db.select({ n: count() }).from(echoes).where(eq(echoes.storyId, story.id)).get()?.n ?? 0;
+  // The count on the story page and the map's cards; after the response, so the open sheet isn't re-rendered.
+  after(() => {
+    revalidatePath("/");
+    revalidatePath(`/story/${slug}`);
+  });
   return { echoes: story.seed + n, mine: !existing };
 }
 
-/** Slugs of the stories this visitor has echoed. */
+/** Slugs of the stories the signed-in account has echoed. */
 export async function myEchoes(): Promise<string[]> {
   if (!STORIES_ENABLED) return [];
-  const vid = await getVisitorId();
-  if (!vid) return [];
-  const ids = db.select({ id: echoes.storyId }).from(echoes).where(eq(echoes.visitorId, vid)).all();
-  if (!ids.length) return [];
+  const viewer = await currentUser();
+  if (!viewer) return [];
   return db
     .select({ slug: stories.slug })
-    .from(stories)
-    .where(
-      inArray(
-        stories.id,
-        ids.map((r) => r.id),
-      ),
-    )
+    .from(echoes)
+    .innerJoin(stories, eq(stories.id, echoes.storyId))
+    .where(and(eq(echoes.userId, viewer.id), eq(stories.status, "approved")))
     .all()
     .flatMap((r) => (r.slug ? [r.slug] : []));
 }

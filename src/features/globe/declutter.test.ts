@@ -8,7 +8,6 @@ const item = (key: string, lat: number, lon: number, priority = 0): EngineItem =
   lat,
   lon,
   label: key,
-  narrated: false,
   priority,
 });
 

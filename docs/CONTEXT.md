@@ -1,14 +1,14 @@
-# Coldspot: product context
+# Uncanny Map: product context
 
 _Something happened here._
 
-This is the background for anyone, human or AI, working on Coldspot. It covers what the product is, who it's for, the decisions made so far and why. For engineering rules, see `AGENTS.md`.
+This is the background for anyone, human or AI, working on Uncanny Map. It covers what the product is, who it's for, the decisions made so far and why. For engineering rules, see `AGENTS.md`.
 
 ## What it is
 
-Coldspot is a website with a globe of unexplained encounters: UFOs and strange lights, visitors and figures, cryptids, voices, and places where something repeats. The interface borrows from **Radio Garden**. You drag the globe, and whatever lands inside the centre ring "tunes in" with a burst of static. The story's first line appears, and you tap it to read the rest.
+Uncanny Map is a website with a globe of unexplained encounters: UFOs and strange lights, visitors and figures, cryptids, voices, and places where something repeats. The interface borrows from **Radio Garden**. You drag the globe, and whatever lands inside the centre ring "tunes in" with a burst of static. The story's first line appears, and you tap it to read the rest.
 
-The name comes from the paranormal term _cold spot_, a patch of air where something is supposed to be present. It works as a map too: "find the cold spots near you."
+The name says what it is: a map of the uncanny, the strange and unexplained things people have seen and heard, placed where they happened. It was called Coldspot until October 2026; the name changed before launch because coldspot.org already belongs to a paranormal investigator and every Coldspot domain was taken (see the decisions log).
 
 ## Two modes
 
@@ -16,10 +16,10 @@ The name comes from the paranormal term _cold spot_, a patch of air where someth
 | ------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Content       | Real, widely reported incidents, curated by us                                | Encounters submitted by people, reviewed before publishing |
 | Opens on      | A zoomed-out globe centred on Kutch                                           | India, zoomed in                                           |
-| Markers       | Diamonds, with labels when zoomed in                                          | Round dots; narrated stories have an outer ring            |
+| Markers       | Diamonds, with labels when zoomed in                                          | Round dots                                                 |
 | Card          | Title, place, date, status (Unexplained, Disputed, Explained)                 | Place, year, time, witnesses, echoes                       |
-| Detail        | Case file: what was reported, explanations offered, fields, link to Wikipedia | Story, fields, echo button, narration slot                 |
-| Accent colour | Bone (#E6DCC6)                                                                | Ice (#A9DCEB)                                              |
+| Detail        | Case file: what was reported, explanations offered, fields, link to Wikipedia | Story, fields, echo button                                 |
+| Accent colour | Phosphor (#CDF3D4), shared by both modes; the modes differ by marker shape    | Phosphor (#CDF3D4)                                         |
 
 Each case file has a "People's stories near here" button that switches modes and flies to that spot. That's how the two halves send people to each other.
 
@@ -47,11 +47,12 @@ Everything outside those moments uses plain English, so first-time users never h
 
 ## Brand
 
-- **Name:** Coldspot. Wordmark in capitals: COLDSPOT.
+- **Name:** Uncanny Map. Wordmark in capitals: UNCANNY MAP. Domain: uncannymap.com.
 - **Tagline:** Something happened here.
-- **Logo:** concentric rings, like a cold patch on a thermal camera.
+- **Logo:** an eyeball that turns to follow the pointer (it holds still with reduced motion).
 - **Tone:** campfire, not jump scare. It's eerie, calm and literate, with no gore and no red-and-black horror styling. That's what sets it apart from ghost-detector apps.
-- **Palette:** deep violet night (#110E18), ink (#ECE5D6), ice (#A9DCEB) for the brand, bone (#E6DCC6) for famous cases, ember (#E9B45E) for narration. Category colours are sky #86BCE8, visitors #C5A2EE, creatures #92C99A, voices #E9B45E and places #E3836A.
+- **Look:** a glow-in-the-dark ceiling after lights-out. Surfaces are matte and unlit; the only light is phosphor. The story in the ring glows fully, and the ones you've passed keep a fading afterglow. Details in `DESIGN.md`.
+- **Palette:** night (#0D0B14), ink (#E8E5DC), phosphor (#CDF3D4) as the one emitted light. Category colours are sky #86BCE8, visitors #C5A2EE, creatures #92C99A, voices #E9B45E and places #E3836A.
 - **Type:** Newsreader for story text and titles, IBM Plex Mono for interface labels.
 
 ## Content and safety rules
@@ -62,12 +63,13 @@ For people's stories:
 - Nothing about crime, murder, violence or anyone getting hurt.
 - No selling remedies, rituals, charms or stones.
 - No witchcraft accusations against real people. In India these can cause real harm.
-- Every submission is reviewed before it's published.
+- Every submission is reviewed by hand before it's published.
+- Sharing needs a Google sign-in, but stories are anonymous in public: a pen name or "Anonymous". We keep only the Google account id and email, and people can delete their stories or their whole account.
 
 Spam protection, in layers:
 
-- **Built:** honeypot field, 3 posts per IP per day, and link and phone-number blocking.
-- **Planned:** Cloudflare Turnstile, an automatic moderation API, a report button with automatic hiding, and trusted submitters who can publish directly after a few approved stories.
+- **Built:** Google sign-in to share, Cloudflare Turnstile, honeypot field, 3 posts per account and per IP per day, and link and phone-number blocking.
+- **Planned:** an automatic moderation API, a report button with automatic hiding, and trusted submitters who can publish directly after a few approved stories.
 
 ## Competition
 
@@ -75,13 +77,13 @@ Spam protection, in layers:
 - **HauntMap:** haunted places in the UK and US. Free, with user submissions.
 - Smaller apps: Haunted Places Near Me, Cryptid Coordinates, The Haunted Map Project.
 
-None of them combine all categories, stories rather than database entries, the tuning interface, an India-first focus and audio narration. Their existence shows there's demand for this kind of product.
+None of them combine all categories, stories rather than database entries, the tuning interface, and an India-first focus. Their existence shows there's demand for this kind of product.
 
 ## Making money (realistic)
 
 In order of how likely it is to work:
 
-1. **Season pass for narrated stories.** A one-time ₹99–199 in India, about $3.99 abroad. Sell it on the web through Razorpay (about 2% fee) rather than the Play Store (about 15%).
+1. **Season pass for narrated stories (later).** Narration isn't built; it was removed from the first release. A one-time ₹99–199 in India, about $3.99 abroad. Sell it on the web through Razorpay (about 2% fee) rather than the Play Store (about 15%).
 2. **Display ads** on story and case pages that come from search. Never on the map screen.
 3. **Sponsorships** from horror film and OTT releases, once usage is worth showing.
 4. **Licensing stories** to podcasts or productions, only with the submitter's consent and a revenue share. This needs a clause in the terms of use.
@@ -101,28 +103,34 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 
 - Website first; the Android app (Capacitor) comes later.
 - Next.js with SQLite, our own backend under our control, and the admin panel inside the Next.js app. Supabase was considered and rejected in favour of full control.
-- Hosting: a small VPS (about $5–7 a month) near India, with Caddy, Litestream backups to R2, and the Cloudflare proxy in front. Narration audio will live on R2 later.
+- Hosting: Railway (about $5 a month) with SQLite on a volume, and the Cloudflare proxy in front. A small VPS with Caddy and Litestream is the fallback.
 - Coastlines only on the map, no country borders.
 
 ## Decisions log
 
-| Date       | Decision                                                                                       |
-| ---------- | ---------------------------------------------------------------------------------------------- |
-| 2026-09-27 | Build a crowd-sourced map of unexplained encounters (UFOs, visitors, cryptids, voices, places) |
-| 2026-09-27 | Radio Garden-style interface: drag the globe, tune in at the ring                              |
-| 2026-09-27 | English only (no Hinglish)                                                                     |
-| 2026-09-27 | Two modes: Famous cases and People's stories                                                   |
-| 2026-09-27 | Echoes replace "I've heard this too"                                                           |
-| 2026-09-27 | No YouTube channel tie-in; the product stands on its own                                       |
-| 2026-09-28 | Name: Coldspot (was Otherwave). Tagline: "Something happened here."                            |
-| 2026-09-28 | Website first, app later                                                                       |
-| 2026-09-28 | Stack: Next.js + SQLite, own backend, admin inside the app                                     |
+| Date       | Decision                                                                                                                               |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-09-27 | Build a crowd-sourced map of unexplained encounters (UFOs, visitors, cryptids, voices, places)                                         |
+| 2026-09-27 | Radio Garden-style interface: drag the globe, tune in at the ring                                                                      |
+| 2026-09-27 | English only (no Hinglish)                                                                                                             |
+| 2026-09-27 | Two modes: Famous cases and People's stories                                                                                           |
+| 2026-09-27 | Echoes replace "I've heard this too"                                                                                                   |
+| 2026-09-27 | No YouTube channel tie-in; the product stands on its own                                                                               |
+| 2026-09-28 | Name: Coldspot (was Otherwave). Tagline: "Something happened here."                                                                    |
+| 2026-10-19 | Renamed to Uncanny Map (uncannymap.com): coldspot.org is a paranormal investigator's site and coldspot.com/.in/.co/.app were all taken |
+| 2026-10-20 | Redesign: the "Glow Ceiling" look (matte night, phosphor light, afterglow on the globe); logo, fonts and category colours kept         |
+| 2026-09-28 | Website first, app later                                                                                                               |
+| 2026-09-28 | Stack: Next.js + SQLite, own backend, admin inside the app                                                                             |
+| 2026-10-18 | Host on Railway behind Cloudflare; the VPS setup stays documented as a fallback                                                        |
+| 2026-10-18 | Every story is reviewed by hand. Automatic approval was considered and rejected                                                        |
+| 2026-10-18 | Sharing and echoing need Google sign-in; reading doesn't. Stories show a pen name or Anonymous                                         |
+| 2026-10-18 | Narration removed from the product for now; it may return later with a season pass                                                     |
 
 ## Open questions
 
 - How narration gets made: recorded ourselves, voice artists paid per story, or AI voices
 - Pricing and exactly what the season pass includes
-- Trademark and domain checks for "Coldspot" (India classes 9 and 41; .com, .app, .in and social handles)
+- Trademark checks for "Uncanny Map" (India classes 9 and 41, and the US), and social handles
 - A way to place the pin inside the share form, instead of closing it and dragging the map
 - When to replace the sample stories with real seeded ones
 
@@ -134,4 +142,3 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 - [ ] Report button
 - [ ] Terms of use (including story licensing) and a privacy policy
 - [ ] Domain, deploy, Litestream backups and an uptime monitor
-- [ ] Narration player and season pass

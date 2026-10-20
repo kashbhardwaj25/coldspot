@@ -1,4 +1,4 @@
-# Coldspot: coding standards
+# Uncanny Map: coding standards
 
 How code is written in this repo. Product rules (privacy, content, map borders) live in `AGENTS.md`; this file covers the code itself. Most of it is enforced by tooling, so `npm run check` passing is the first bar, not the last.
 
@@ -21,7 +21,7 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 
 `max-lines` is an error at 150 lines, not counting blank lines and comments. Seed data in `src/data/` is exempt.
 
-- Split by responsibility, not by line number. A good split gives each file a one-line description (see `src/features/globe/`: camera, input, motion, draw, tuning, engine).
+- Split by responsibility, not by line number. A good split gives each file a one-line description (see `src/features/globe/`: camera, input, motion, draw, tuning, scene, engine).
 - Don't game the limit by cramming statements onto one line or deleting useful comments.
 - A component that renders several distinct regions becomes several components. Logic that isn't rendering (effects, subscriptions, derived data) moves into a `useX` hook next to it.
 - CSS isn't linted for length, but follows the same idea: styles live in `src/styles/`, one file per area. `map.css` is the largest; split it further before it grows much more.
@@ -42,7 +42,7 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 
 - **Server Components by default.** Add `"use client"` only to the component that needs state, effects or browser APIs, as low in the tree as possible.
 - **Server-only modules** start with `import "server-only"` (every feature's `queries.ts`, `lib/server/security.ts`). `db/client.ts` and `lib/server/env.ts` don't, because `scripts/setup.ts` loads them outside Next.
-- **Server actions are public HTTP endpoints.** Validate input with `zod`, check `isAdmin()` inside every admin action and every admin page (not only in `admin/layout.tsx`: layouts render in parallel with pages, so a layout check doesn't stop a page's queries), keep writes short and synchronous, and `revalidatePath` every public page the change affects.
+- **Server actions are public HTTP endpoints.** Validate input with `zod`, check `isAdmin()` (from `features/moderation/session.ts`) inside every admin action and every admin page (not only in `admin/layout.tsx`: layouts render in parallel with pages, so a layout check doesn't stop a page's queries), keep writes short and synchronous, and `revalidatePath` every public page the change affects.
 - `params`, `cookies()` and `headers()` are async; `await` them.
 - Keep `/` static: no `cookies()`, `headers()` or `searchParams` on it. Read deep links on the client.
 - Use `next/link` for internal links, `next/font` for fonts (already set up in `layout.tsx`), and the Metadata API for titles, descriptions and Open Graph tags.
@@ -59,7 +59,9 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 - **Effects are for syncing with things outside React** (the globe engine, audio, DOM listeners, fetches). Always clean up. Don't use an effect to derive state from props; compute it during render or with `useMemo`.
 - Per-frame values never go through React state. Use a `Signal` (`src/lib/signal.ts`) and write to the DOM in a subscriber, like `Freq` in `parts.tsx`.
 - Keep state minimal and derived values derived (`tuned` is looked up from `tunedKey`, not stored).
-- `useCallback`/`useMemo` only where identity or cost matters (effect dependencies, props to memoised children, real computation).
+- **The React Compiler is on** (`reactCompiler: true` in `next.config.ts`). It memoises components and hooks automatically, so don't write `useMemo`, `useCallback` or `memo`. If an effect needs a stable dependency, depend on the underlying value (a prop array, a primitive) rather than a function built during render.
+- **Logic lives in hooks; components render.** A component with more than a couple of pieces of state, or any effect, gets a `useThing` hook beside it that returns the data and actions (see `useMapState`, `useShareForm`, `usePinPicker`). The component reads what the hook returns and passes it down. Refs returned from a hook are destructured into standalone variables before use.
+- **Repeated UI comes from config.** Lists of similar things (form fields, header buttons, links, sheet types) are described in a typed config and rendered by one component: `SHARE_FORM` (`map/sheets/shareForm.ts`), `headerActions()` (`map/headerActions.ts`), `SITE_LINKS` (`lib/nav.ts`), the sheet registry (`map/sheets/registry.tsx`). Add an entry there rather than more JSX. One-off layouts (a case file, the legal pages) stay as plain JSX.
 - Stable keys: use `itemKey(item)` or a slug. Array indexes are fine only for static lists of paragraphs.
 - Hooks live in `useX.ts` files beside the component that uses them.
 
@@ -68,15 +70,21 @@ How code is written in this repo. Product rules (privacy, content, map borders) 
 The `jsx-a11y` recommended rules are errors. Beyond what the linter can see:
 
 - Use the right element: `<button type="button">` for actions, `<a>`/`<Link>` for navigation. Never a clickable `<div>` that keyboard users need.
-- Every form control has a `<label htmlFor>`. Hints are linked with `aria-describedby`.
+- Every form control has a label. Use `TextField`, `TextArea` and `SelectField` from `src/components/ui/`, which link labels and hints for you.
 - Toggles use `aria-pressed`. Groups of toggles have `role="group"` and an `aria-label`.
-- Dialogs (`Sheet`) have `role="dialog"`, `aria-modal`, `aria-labelledby`, close on Esc, move focus in on open, and return it on close.
+- Dialogs and sheets use Base UI (`Drawer` for `Sheet`, `AlertDialog` for confirmations), which traps focus, closes on Esc, and returns focus on close. Label them with `aria-labelledby` (each sheet's heading is `#sheetTitle`).
 - Decorative SVGs and glyphs get `aria-hidden="true"`. Icon-only buttons get an `aria-label`.
 - `aria-live` regions should announce meaningful changes only. Hide constantly changing text inside them (coordinates are `aria-hidden`).
 - No `autoFocus`.
 - Respect `prefers-reduced-motion` in every animation, both CSS and canvas.
 - Anything you can do with a pointer on the globe must also work from the keyboard (arrow keys, +/−, Enter).
 - Colours come from the CSS variables, which were chosen for contrast on the dark background; check contrast before adding new ones.
+
+## Styling and tokens
+
+- Plain CSS in `src/styles/`, no Tailwind and no CSS-in-JS. Every colour, see-through layer and shadow is a token in `tokens.css` (`--field`, `--glass`, `--line-strong`, `--shadow-pop` and so on). Don't write a hex value or `rgba()` anywhere else in the CSS.
+- Places CSS variables can't reach (the globe's canvas, next/og preview images, `themeColor`) use `PALETTE` and `GLOBE` from `src/lib/tokens.ts`. `tokens.test.ts` fails if `PALETTE` drifts from `tokens.css`; update both together.
+- No inline `style={{}}` except for CSS custom properties (`--tc`, `--c`), SVG gradient stops, and `OgCard` (next/og has no stylesheets). Use a class or a `data-*` attribute instead.
 
 ## Folder structure
 
@@ -110,7 +118,7 @@ Start with those files in the feature folder. Add subfolders (like `map/sheets/`
 ### Where new code goes
 
 - **A new domain** (regions, reports): a new folder in `src/features/`.
-- **A new public page**: a thin route in `app/(site)/`, with the content as a feature component. A shared `(site)/layout.tsx` arrives with the footer and legal links (see `docs/TASKS.md`); until then each page renders `PageTop` itself.
+- **A new public page**: a thin route in `app/(site)/`, with the content as a feature component. `(site)/layout.tsx` adds the footer; each page renders `PageTop` itself.
 - **A new admin page**: `app/admin/<name>/page.tsx`. It gets the shell from `admin/layout.tsx` and must check `isAdmin()` itself.
 - **Tests** go next to the code they test: `validation.test.ts` beside `validation.ts`.
 

@@ -1,37 +1,85 @@
-/* Bottom sheets and the scrim behind them. */
+/* Bottom sheets (Base UI Drawer) and the scrim behind them. */
 .scrim {
   position: fixed;
   inset: 0;
-  background: rgba(8, 6, 12, 0.55);
+  min-height: 100dvh;
+  background: var(--scrim);
+  opacity: calc(0.55 * (1 - var(--drawer-swipe-progress, 0)));
   z-index: 5;
+  transition: opacity 400ms cubic-bezier(0.32, 0.72, 0, 1);
+}
+.scrim[data-starting-style],
+.scrim[data-ending-style] {
+  opacity: 0;
+}
+.scrim[data-swiping] {
+  transition-duration: 0ms;
+}
+.sheet-viewport {
+  position: fixed;
+  inset: 0;
+  z-index: 6;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .sheet {
-  position: fixed;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
   width: 100%;
   max-width: 640px;
-  max-height: 90%;
-  z-index: 6;
+  max-height: 90dvh;
   background: var(--night-2);
   border: 1px solid var(--line);
   border-bottom: 0;
-  border-radius: 18px 18px 0 0;
+  border-radius: 14px 14px 0 0;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 -20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow-sheet);
+  outline: 0;
+  transform: translateY(var(--drawer-swipe-movement-y, 0px));
+  transition: transform 400ms cubic-bezier(0.32, 0.72, 0, 1);
+  will-change: transform;
+}
+.sheet[data-starting-style],
+.sheet[data-ending-style] {
+  transform: translateY(100%);
+}
+.sheet[data-swiping] {
+  transition-duration: 0ms;
+  user-select: none;
+}
+.sheet[data-ending-style],
+.scrim[data-ending-style] {
+  transition-duration: calc(var(--drawer-swipe-strength, 1) * 320ms);
+}
+@media (prefers-reduced-motion: reduce) {
+  .sheet,
+  .scrim {
+    transition-duration: 0ms;
+  }
 }
 .sheet-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  padding: 14px 18px 10px;
-  border-bottom: 1px solid var(--line);
+  padding: 10px 14px 0;
+}
+/* The sheet's top edge: a grab handle (it swipes down to close) and the close button. The title is in the body. */
+.grab {
+  width: 36px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--line-strong);
+  margin-inline: auto;
+  transform: translateX(17px); /* centred on the sheet, not on the space left of the close button */
+}
+.place-chip svg {
+  width: 11px;
+  height: 11px;
 }
 .sheet-body {
   overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 18px 18px calc(env(safe-area-inset-bottom, 0px) + 26px);
   display: flex;
   flex-direction: column;
@@ -40,19 +88,6 @@
 /* In a scrolling flex column, children would otherwise shrink, and boxes with overflow: hidden (like .fields) get clipped. */
 .sheet-body > * {
   flex-shrink: 0;
-}
-.x {
-  width: 34px;
-  height: 34px;
-  border-radius: 17px;
-  border: 1px solid var(--line);
-  display: grid;
-  place-items: center;
-  color: var(--ink-2);
-  flex: none;
-}
-.x:hover {
-  color: var(--ink);
 }
 
 /* Search at the top of the list sheet, staying in view while the list scrolls. */
@@ -66,9 +101,9 @@
 }
 .list-search input {
   width: 100%;
-  background: rgba(236, 229, 214, 0.04);
+  background: var(--field);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--radius);
   padding: 11px 14px;
   font-family: var(--serif);
   font-size: 16px; /* 16px stops iOS zooming in on focus */
@@ -78,7 +113,7 @@
   color: var(--muted);
 }
 .list-search input:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 1px solid var(--phosphor);
   outline-offset: 1px;
 }
 .list-empty {
@@ -91,10 +126,39 @@
 /* Shown while a case file loads in the sheet, or if it couldn't. */
 .opening {
   margin: 0;
-  font-size: 12px;
+  font-size: var(--control-size);
   letter-spacing: 0.06em;
   color: var(--muted);
 }
 .opening a {
   color: var(--ink);
+}
+.list-foot {
+  margin: 20px 4px 0;
+  font-size: var(--control-size);
+  color: var(--muted);
+}
+.list-foot a {
+  color: var(--ink-2);
+}
+/* List or Places uses the mode switch's look (.seg). The search below overlaps by its own top padding. */
+.list-tabs {
+  margin-bottom: 22px;
+}
+/* Place rows have a name and a count, no colour dot. States sit indented under their country. */
+.item.place-item {
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.item.place-item[data-state] {
+  padding-left: 24px;
+}
+.item.place-item[data-state] b {
+  font-size: 15px;
+  color: var(--ink-2);
+}
+/* The search below pulls itself up by its 18px top padding, so leave room for it. */
+.place-chip {
+  align-self: flex-start;
+  margin-bottom: 22px;
 }

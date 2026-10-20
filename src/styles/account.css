@@ -1,0 +1,89 @@
+/* My stories: your own stories and account controls. */
+.my-stories {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.my-stories li {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.my-stories p {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+.my-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 4px 12px;
+}
+.my-head b {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 19px;
+}
+.my-status {
+  font-size: var(--label-size);
+  letter-spacing: var(--label-track);
+  text-transform: uppercase;
+  color: var(--muted);
+}
+/* Status by form as well as colour: waiting is dashed, published solid, hidden dotted, rejected struck through. */
+[data-status="approved"] .my-status {
+  color: var(--explained);
+}
+[data-status="pending"] {
+  border-style: dashed;
+}
+[data-status="pending"] .my-status {
+  color: var(--disputed);
+}
+[data-status="hidden"] {
+  border-style: dotted;
+}
+[data-status="rejected"] .my-status {
+  text-decoration: line-through;
+}
+.my-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+  font-size: var(--control-size);
+  color: var(--muted);
+}
+.my-actions a {
+  color: var(--phosphor);
+}
+.my-actions form {
+  display: contents;
+}
+.link-btn {
+  font-size: var(--control-size);
+  color: var(--danger);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.my-account {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.link-btn.quiet {
+  color: var(--muted);
+}
+.link-btn.quiet:hover {
+  color: var(--ink-2);
+}

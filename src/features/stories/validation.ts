@@ -29,6 +29,7 @@ export const submission = z.object({
     ),
   timeLabel: z.string().trim().max(40).optional(),
   witnesses: z.string().trim().max(80).optional(),
+  penName: z.string().trim().max(40, "Keep the pen name under 40 characters.").optional(),
   story: z
     .string()
     .trim()
@@ -36,14 +37,18 @@ export const submission = z.object({
     .max(6000, "Keep it under 6,000 characters."),
   lat: z.coerce.number().min(-85).max(85),
   lon: z.coerce.number().min(-180).max(180),
+  // The share form's checkbox: agreeing to the terms, including permission to publish the story.
+  consent: z.literal("on", { message: "Tick the box to agree to the terms before sending." }),
   website: z.string().optional(), // honeypot: real people never see this field
 });
 
 export type Submission = z.infer<typeof submission>;
 
-/** The error to show if the text contains links or phone numbers, otherwise null. */
-export function blockedContent(d: Submission): string | null {
-  const text = `${d.place} ${d.region} ${d.story} ${d.witnesses ?? ""}`;
+type CheckedText = Pick<Submission, "place" | "region" | "story" | "witnesses" | "penName">;
+
+/** The error to show if the text contains links or phone numbers, otherwise null. Also used on admin edits. */
+export function blockedContent(d: CheckedText): string | null {
+  const text = `${d.place} ${d.region} ${d.story} ${d.witnesses ?? ""} ${d.penName ?? ""}`;
   if (LINK_RE.test(text) || WORD_TLD_RE.test(text)) return "Remove links and website names from your story.";
   if (hasPhone(text)) return "Remove phone numbers from your story.";
   return null;

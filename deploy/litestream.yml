@@ -1,10 +1,10 @@
 # Streams every change to the SQLite database to Cloudflare R2 (S3-compatible). Values come from deploy/.env.
 dbs:
-  - path: /data/coldspot.db
+  - path: /data/uncanny-map.db
     replicas:
       - type: s3
         bucket: ${LITESTREAM_BUCKET}
-        path: coldspot.db
+        path: uncanny-map.db
         endpoint: ${LITESTREAM_ENDPOINT}
         region: auto
         access-key-id: ${LITESTREAM_ACCESS_KEY_ID}

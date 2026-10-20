@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { JsonLd } from "@/components/JsonLd";
 import { getCaseSummaries } from "@/features/cases/queries";
 import { siteJsonLd } from "@/features/cases/jsonld";
-import ColdspotApp from "@/features/map/ColdspotApp";
+import UncannyMapApp from "@/features/map/UncannyMapApp";
+import { getMapPlaces } from "@/features/regions/queries";
 import { getApprovedStories } from "@/features/stories/queries";
 import { env } from "@/lib/server/env";
 
@@ -10,7 +11,7 @@ import { env } from "@/lib/server/env";
 export const revalidate = 300;
 
 export const metadata: Metadata = {
-  title: { absolute: "Coldspot: a globe of unexplained encounters" },
+  title: { absolute: "Uncanny Map: a globe of unexplained encounters" },
   alternates: { canonical: "/" },
 };
 
@@ -20,7 +21,15 @@ export default function Home() {
   const stories = getApprovedStories();
   return (
     <>
-      <ColdspotApp cases={cases} stories={stories} />
+      <UncannyMapApp
+        data={{
+          cases,
+          stories,
+          places: getMapPlaces(cases, stories),
+          // The site key is public and known at build time; the secret is only needed when the server checks.
+          turnstileSiteKey: env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? null,
+        }}
+      />
       <JsonLd data={siteJsonLd(env.NEXT_PUBLIC_SITE_URL)} />
     </>
   );

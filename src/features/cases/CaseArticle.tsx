@@ -1,5 +1,7 @@
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { ArticleTitle, Fields, Paragraphs, SectionHeading, type ArticleVariant } from "@/components/article";
+import { Icon } from "@/components/brand";
+import { CATEGORIES } from "@/lib/categories";
 import { caseStatusLabel } from "@/lib/format";
 import type { CaseItem } from "@/lib/types";
 
@@ -18,6 +20,10 @@ export function CaseArticle({ c, variant, actions }: Props) {
       <div>
         <ArticleTitle variant={variant}>{c.title}</ArticleTitle>
         <div className="s-sub">
+          <span className="tag" style={{ "--tc": CATEGORIES[c.category].color } as CSSProperties}>
+            <i className="d" />
+            {CATEGORIES[c.category].label}
+          </span>
           <span>
             {c.region} · {c.dateLabel}
           </span>
@@ -50,7 +56,7 @@ export function CaseArticle({ c, variant, actions }: Props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read more on Wikipedia ↗
+            Read more on Wikipedia {Icon.external}
           </a>
         )}
         <a
@@ -59,7 +65,7 @@ export function CaseArticle({ c, variant, actions }: Props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Search on YouTube ↗
+          Search on YouTube {Icon.external}
         </a>
       </div>
       <p className="note">

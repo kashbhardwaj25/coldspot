@@ -1,0 +1,246 @@
+/* Base UI controls styled with the site's tokens: icon buttons, the select popup and confirm dialogs. */
+.icon-btn {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--plate);
+  color: var(--ink-2);
+  line-height: 0;
+}
+.icon-btn svg {
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.icon-btn.small {
+  width: 32px;
+  height: 32px;
+}
+@media (hover: hover) {
+  .icon-btn:hover {
+    color: var(--ink);
+    border-color: var(--line-strong);
+  }
+}
+.icon-btn:focus-visible {
+  outline: 1px solid var(--phosphor);
+  outline-offset: 2px;
+}
+.select-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 43px;
+  text-align: left;
+  cursor: pointer;
+}
+.select-trigger[data-popup-open] {
+  border-color: var(--ink-2);
+}
+.select-icon {
+  display: flex;
+  color: var(--muted);
+}
+.select-icon svg {
+  width: 12px;
+  height: 12px;
+}
+.select-positioner {
+  z-index: 20;
+  outline: 0;
+}
+.select-popup {
+  min-width: var(--anchor-width);
+  max-height: var(--available-height);
+  overflow-y: auto;
+  padding: 5px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--night-2);
+  box-shadow: var(--shadow-pop);
+  outline: 0;
+  transition: opacity 120ms;
+}
+.select-popup[data-starting-style],
+.select-popup[data-ending-style] {
+  opacity: 0;
+}
+.select-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 9px 10px;
+  border-radius: 6px;
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ink-2);
+  cursor: default;
+  outline: 0;
+  user-select: none;
+}
+.select-item[data-highlighted] {
+  background: var(--highlight);
+  color: var(--ink);
+}
+.select-item[data-selected] {
+  color: var(--ink);
+}
+.select-check {
+  display: flex;
+  color: var(--phosphor);
+}
+.select-check svg,
+.checkbox svg {
+  width: 13px;
+  height: 13px;
+}
+
+.dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  min-height: 100dvh;
+  z-index: 30;
+  background: var(--scrim-dialog);
+  transition: opacity 150ms;
+}
+.dialog-viewport {
+  position: fixed;
+  inset: 0;
+  z-index: 31;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+.dialog {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--night-2);
+  box-shadow: var(--shadow-dialog);
+  outline: 0;
+  transition:
+    opacity 150ms,
+    transform 150ms;
+}
+.dialog-backdrop[data-starting-style],
+.dialog-backdrop[data-ending-style],
+.dialog[data-starting-style],
+.dialog[data-ending-style] {
+  opacity: 0;
+}
+.dialog[data-starting-style],
+.dialog[data-ending-style] {
+  transform: scale(0.97);
+}
+.dialog-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.25;
+}
+.dialog-text {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .select-popup,
+  .dialog,
+  .dialog-backdrop {
+    transition-duration: 0ms;
+  }
+}
+
+/* Report reasons: Base UI radios in a dialog. */
+.report-reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.report-reason {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 4px;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--ink-2);
+  cursor: pointer;
+}
+.radio {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  border-radius: 50%;
+  border: 1px solid var(--muted);
+  display: grid;
+  place-items: center;
+}
+.radio[data-checked] {
+  border-color: var(--phosphor);
+}
+.radio:focus-visible {
+  outline: 1px solid var(--phosphor);
+  outline-offset: 2px;
+}
+.radio-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--phosphor);
+}
+.radio-dot[data-unchecked] {
+  display: none;
+}
+
+/* Town suggestions: the name, with its state or country in small type. */
+.town-item {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.town-item small {
+  font-family: var(--mono);
+  font-size: var(--control-size);
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.town-popup:not(:has(.town-item)) {
+  display: none;
+}
+/* Never wider than the field or the screen, even in the first frame before Base UI sets --anchor-width:
+   a wider popup makes phones widen the whole page. Long state names wrap instead. */
+.town-popup {
+  width: var(--anchor-width, 240px);
+  max-width: calc(100vw - 32px);
+  overflow-x: hidden;
+}
+.town-item span,
+.town-item small {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}

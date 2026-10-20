@@ -8,7 +8,6 @@ export type EngineItem = {
   lat: number;
   lon: number;
   label: string;
-  narrated: boolean;
   /** Higher shows first where markers crowd (see declutter.ts). */
   priority: number;
 };

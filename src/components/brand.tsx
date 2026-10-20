@@ -1,9 +1,42 @@
 import type { ReactNode } from "react";
 
-export const Icon: Record<"plus" | "sound" | "shuffle" | "list", ReactNode> = {
+export const Icon: Record<
+  "plus" | "minus" | "close" | "share" | "sound" | "shuffle" | "list" | "user" | "arrow" | "external" | "check",
+  ReactNode
+> = {
+  arrow: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <path d="M2.5 8h10.5M9.5 4.5 13 8l-3.5 3.5" />
+    </svg>
+  ),
+  external: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <path d="M5 11 11.5 4.5M6 4.5h5.5V10" />
+    </svg>
+  ),
+  check: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+      <path d="m3.5 8.5 3 3 6-7" />
+    </svg>
+  ),
   plus: (
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
       <path d="M8 3v10M3 8h10" />
+    </svg>
+  ),
+  minus: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+      <path d="M3 8h10" />
+    </svg>
+  ),
+  close: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+      <path d="M4 4l8 8M12 4l-8 8" />
+    </svg>
+  ),
+  share: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <path d="M8 2v8M5 5l3-3 3 3M3 8v5.5h10V8" />
     </svg>
   ),
   sound: (
@@ -23,6 +56,12 @@ export const Icon: Record<"plus" | "sound" | "shuffle" | "list", ReactNode> = {
       <circle cx="2.2" cy="4" r=".6" fill="currentColor" />
       <circle cx="2.2" cy="8" r=".6" fill="currentColor" />
       <circle cx="2.2" cy="12" r=".6" fill="currentColor" />
+    </svg>
+  ),
+  user: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <circle cx="8" cy="5.5" r="2.8" />
+      <path d="M2.5 14c.8-2.8 3-4.2 5.5-4.2s4.7 1.4 5.5 4.2" />
     </svg>
   ),
 };

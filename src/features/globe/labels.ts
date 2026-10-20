@@ -1,3 +1,4 @@
+import { GLOBE } from "@/lib/tokens";
 import { type Visible } from "./tuning";
 
 type Box = { x: number; y: number; w: number; h: number };
@@ -27,7 +28,7 @@ export function drawLabels(c: CanvasRenderingContext2D, visible: Visible[], tune
   const placed: Box[] = [];
   // Every marker blocks labels, so text never covers a neighbouring diamond.
   const markers: Box[] = visible.map((v) => ({ x: v.x - 7, y: v.y - 7, w: 14, h: 14 }));
-  c.fillStyle = "rgba(230,220,198,0.72)";
+  c.fillStyle = GLOBE.label;
   for (const v of visible) {
     if (v.item.key === tunedKey) continue;
     const box = { x: v.x + 12, y: v.y - height / 2, w: measure(c, v.item.label), h: height };

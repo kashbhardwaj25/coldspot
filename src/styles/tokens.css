@@ -1,20 +1,62 @@
-/* Colours and fonts. Category colours live in src/lib/categories.ts. */
+/* Colours, layers, shadows, type and shape. The world: a glow-in-the-dark ceiling after lights-out. Surfaces are
+   matte and unlit; the only emitted light is phosphor (plus the category pigments on the globe). Category colours
+   live in src/lib/categories.ts; canvas and preview-image copies of the palette live in src/lib/tokens.ts (a test
+   keeps them in sync). */
 :root {
   color-scheme: dark;
-  --night: #110e18;
-  --night-2: #171322;
-  --ink: #ece5d6;
-  --ink-2: #b4aabd;
-  --muted: #857c94;
-  --line: rgba(236, 229, 214, 0.12);
-  --panel: rgba(22, 18, 32, 0.88);
+  --night: #0d0b14; /* the room: page ground */
+  --night-2: #15121d; /* unlit plastic: sheets, dialogs, controls */
+  --ink: #e8e5dc;
+  --ink-2: #aca8b6;
+  --muted: #8a8597;
+  --phosphor: #cdf3d4; /* the one emitted light */
   --ember: #e9b45e;
   --ice: #a9dceb;
   --bone: #e6dcc6;
-  --accent: var(--bone);
+  --accent: var(--phosphor);
   --open: #c5a2ee;
   --disputed: #e9b45e;
   --explained: #92c99a;
+  --danger: #e3836a;
+
+  /* See-through layers, built from the palette. Use these instead of writing rgba() in other files. */
+  --line: rgba(232, 229, 220, 0.11);
+  --line-strong: rgba(232, 229, 220, 0.28); /* hover borders */
+  --field: rgba(232, 229, 220, 0.035); /* input and panel backgrounds */
+  --hover: rgba(232, 229, 220, 0.03); /* row hover */
+  --highlight: rgba(232, 229, 220, 0.07); /* highlighted option */
+  --plate: rgba(13, 11, 20, 0.86); /* controls floating over the globe: flat, never blurred */
+  --on-ink-muted: rgba(13, 11, 20, 0.6); /* quiet text on a light background */
+  --danger-line: rgba(227, 131, 106, 0.38);
+  --scrim: rgb(6, 5, 10); /* behind sheets; its opacity follows the swipe */
+  --scrim-dialog: rgba(6, 5, 10, 0.72);
+  --phosphor-dim: rgba(205, 243, 212, 0.42); /* phosphor that has mostly faded */
+  --phosphor-faint: rgba(205, 243, 212, 0.14);
+  --selection: rgba(205, 243, 212, 0.24);
+  --mask-solid: rgb(0, 0, 0); /* mask-image stops: opaque and clear */
+  --mask-clear: rgba(0, 0, 0, 0);
+
+  /* Emission: only for things that give off light (the tuned title, the ring, focus). Never on panels or buttons. */
+  --emit-text: 0 0 14px rgba(205, 243, 212, 0.5), 0 0 2px rgba(205, 243, 212, 0.6);
+  --emit-focus: 0 0 0 1px var(--phosphor), 0 0 12px rgba(205, 243, 212, 0.35);
+
+  /* Shadows are darkness, not colour: they fall away from a raised surface. */
+  --shadow-sheet: 0 -24px 48px rgba(0, 0, 0, 0.55);
+  --shadow-pop: 0 14px 32px rgba(0, 0, 0, 0.55);
+  --shadow-dialog: 0 20px 48px rgba(0, 0, 0, 0.6);
+
+  /* Fade from the room into the globe, behind the header and the tuned title. */
+  --fade-top: linear-gradient(to bottom, var(--night) 0%, rgba(13, 11, 20, 0.8) 60%, rgba(13, 11, 20, 0) 100%);
+  --fade-bottom: linear-gradient(to top, var(--night) 0%, rgba(13, 11, 20, 0.88) 55%, rgba(13, 11, 20, 0) 100%);
+
+  /* One label scale for every interface label (small capitals in mono), and one size for controls. */
+  --label-size: 10.5px;
+  --label-track: 0.14em;
+  --control-size: 12px;
+  --radius: 8px; /* moulded plastic: controls, fields, sheets' inner boxes */
+  --radius-inner: 5px; /* a segment inside a control */
+
   --serif: var(--font-serif), "Iowan Old Style", Georgia, serif;
   --mono: var(--font-mono), ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }

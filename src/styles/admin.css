@@ -17,7 +17,7 @@
 .stats {
   display: flex;
   gap: 18px;
-  font-size: 12px;
+  font-size: var(--control-size);
   color: var(--muted);
 }
 .stats b {
@@ -26,7 +26,7 @@
 }
 .review {
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: var(--radius);
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
   background: var(--night-2);
 }
 .review .meta {
-  font-size: 11px;
+  font-size: var(--control-size);
 }
 .review-actions {
   display: flex;
@@ -47,8 +47,82 @@
   font-size: 17px;
 }
 .review .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+  gap: 6px 10px;
 }
 .review .freq {
   white-space: normal;
+}
+.admin-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+}
+.admin-tabs a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  font-size: var(--control-size);
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.admin-tabs a b {
+  font-weight: 500;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.admin-tabs a[aria-current="page"] {
+  color: var(--phosphor);
+  border-color: var(--phosphor-dim);
+}
+.admin-tabs a[aria-current="page"] b {
+  color: var(--phosphor);
+}
+.admin-tabs a[data-attention] b {
+  color: var(--danger);
+}
+.review-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 21px;
+}
+.review-hook {
+  margin: 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 17px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+.review .meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  color: var(--muted);
+}
+.report-summary {
+  margin: 0;
+  padding: 10px 14px 10px 30px;
+  border-radius: var(--radius);
+  border: 1px solid var(--danger-line);
+  font-size: var(--control-size);
+  line-height: 1.7;
+  color: var(--ink-2);
+}
+.report-summary b {
+  color: var(--danger);
+  font-weight: 500;
+}
+.review-actions form {
+  display: contents;
 }

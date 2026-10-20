@@ -1,36 +1,37 @@
 /* Reading styles shared by sheets and article pages. */
 .s-title {
   font-family: var(--serif);
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 1.12;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
   margin: 0;
+  color: var(--phosphor);
   text-wrap: balance;
 }
 .s-sub {
-  font-size: 11.5px;
+  font-size: var(--control-size);
   color: var(--muted);
-  letter-spacing: 0.04em;
-  margin-top: 7px;
+  margin-top: 12px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px 12px;
   align-items: center;
 }
+/* The opening line, set large: the moment a case or story first speaks. */
 .quote {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.4;
   margin: 0;
-  padding-left: 14px;
-  border-left: 2px solid var(--tc, var(--accent));
   color: var(--ink);
+  text-wrap: pretty;
 }
 .h {
-  font-size: 10px;
+  font-size: var(--label-size);
   font-weight: 500;
-  letter-spacing: 0.16em;
+  letter-spacing: var(--label-track);
   text-transform: uppercase;
   color: var(--muted);
   margin: 0 0 8px;
@@ -48,14 +49,10 @@
 .prose p {
   margin: 0;
 }
+/* What was reported and the explanations offered get the same weight: neither is boxed or highlighted. */
 .explain {
-  padding: 14px 16px;
-  border-radius: 10px;
-  background: rgba(236, 229, 214, 0.04);
-  border: 1px solid var(--line);
-}
-.explain .prose {
-  font-size: 16px;
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
 }
 .fields {
   display: grid;
@@ -63,7 +60,7 @@
   gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: var(--radius);
   overflow: hidden;
   margin: 0;
 }
@@ -75,51 +72,22 @@
   gap: 4px;
 }
 .fields dt {
-  font-size: 9.5px;
-  letter-spacing: 0.14em;
+  font-size: var(--label-size);
+  letter-spacing: var(--label-track);
   text-transform: uppercase;
   color: var(--muted);
 }
 .fields dd {
   margin: 0;
-  font-size: 12.5px;
+  font-size: var(--control-size);
   color: var(--ink);
   line-height: 1.4;
-}
-.narr {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 14px;
-  border: 1px dashed rgba(236, 229, 214, 0.2);
-  border-radius: 10px;
-}
-.narr .play {
-  width: 38px;
-  height: 38px;
-  border-radius: 19px;
-  background: rgba(233, 180, 94, 0.14);
-  color: var(--ember);
-  display: grid;
-  place-items: center;
-  flex: none;
-}
-.narr p {
-  margin: 0;
-  font-size: 11.5px;
-  color: var(--muted);
-  line-height: 1.5;
-}
-.narr strong {
-  display: block;
-  color: var(--ink-2);
-  font-weight: 500;
-  font-size: 12px;
 }
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  align-items: center;
+  gap: 8px 16px;
 }
 .same {
   display: flex;
@@ -130,20 +98,20 @@
 }
 .same p {
   margin: 0;
-  font-size: 12px;
+  font-size: var(--control-size);
   color: var(--ink-2);
 }
 .same b {
   color: var(--ink);
   font-weight: 500;
 }
+/* Echoed: lit text and rule in the story's colour, never a lit fill. */
 .same .btn[aria-pressed="true"] {
-  background: var(--tc, var(--ember));
-  border-color: transparent;
-  color: var(--night);
+  color: var(--tc, var(--phosphor));
+  border-color: var(--tc, var(--phosphor));
 }
 .note {
-  font-size: 10.5px;
+  font-size: var(--control-size);
   color: var(--muted);
   line-height: 1.6;
   border-top: 1px solid var(--line);
@@ -165,7 +133,7 @@
   border-bottom: 1px solid var(--line);
 }
 .item:hover {
-  background: rgba(236, 229, 214, 0.03);
+  background: var(--hover);
 }
 /* Rows on the all-cases page and under case pages are links. */
 a.item {
@@ -178,6 +146,10 @@ a.item {
   border-radius: 50%;
   background: var(--c);
   align-self: center;
+}
+.item i.d {
+  border-radius: 1px;
+  transform: rotate(45deg) scale(0.9);
 }
 .item b {
   font-family: var(--serif);
@@ -193,9 +165,15 @@ a.item {
   color: var(--ink-2);
   line-height: 1.4;
 }
+/* Status in a row uses the pill's forms (solid, dashed, dotted) at row scale. */
+.item em.pill {
+  justify-self: end;
+  height: 20px;
+  font-size: var(--label-size);
+}
 .item em {
   font-style: normal;
-  font-size: 11px;
+  font-size: var(--control-size);
   color: var(--muted);
   font-variant-numeric: tabular-nums;
   text-align: right;

@@ -19,6 +19,8 @@ const c = (slug: string, title: string, region: string, category: CaseItem["cate
   explanation: "",
   wiki: null,
   featured: false,
+  countryKey: null,
+  stateKey: null,
 });
 
 const items = [

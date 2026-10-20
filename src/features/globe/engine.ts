@@ -1,12 +1,12 @@
 import { geoPath, type GeoPermissibleObjects } from "d3-geo";
 import { Camera, clampZoom, type View } from "./camera";
-import { drawGlobe, drawMarkers } from "./draw";
-import { Declutter } from "./declutter";
+import { drawGlobe } from "./draw";
 import { bindInput, type InputTarget } from "./input";
 import { flight, Motion, zoomTo } from "./motion";
 import type { Radio } from "./radio";
 import { formatCoords } from "@/lib/geo";
-import { findVisible, hitTest, SNAP, Tuner, type EngineItem, type Visible } from "./tuning";
+import { Scene } from "./scene";
+import { hitTest, SNAP, type EngineItem } from "./tuning";
 
 export type { View } from "./camera";
 export type { EngineItem } from "./tuning";
@@ -24,6 +24,8 @@ type Options = {
   onCoords: (text: string) => void;
   onInteract: () => void;
   onOpenTuned: () => void;
+  /** Glide to a nearby marker when the view comes to rest (the main map). Off for the pin picker. */
+  snap?: boolean;
 };
 
 function context(canvas: HTMLCanvasElement) {
@@ -38,29 +40,20 @@ function context(canvas: HTMLCanvasElement) {
  */
 export class GlobeEngine implements InputTarget {
   private cam: Camera;
-  private tuner: Tuner;
+  private scene: Scene;
   private bctx: CanvasRenderingContext2D;
-  private dctx: CanvasRenderingContext2D;
   private path;
   private reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  private font: string;
-
-  private items: EngineItem[] = [];
-  private declutter = new Declutter();
-  private pinned: string | null = null;
-  private famous = true;
-  private visible: Visible[] = [];
   private motion = new Motion(SNAP);
   private raf = 0;
   private unbind: () => void;
 
   constructor(private o: Options) {
     this.cam = new Camera(o.view);
-    this.tuner = new Tuner(o);
     this.bctx = context(o.base);
-    this.dctx = context(o.dots);
     this.path = geoPath(this.cam.projection, this.bctx);
-    this.font = `400 10.5px ${getComputedStyle(o.dots).getPropertyValue("--mono").trim() || "monospace"}`;
+    const font = `400 10.5px ${getComputedStyle(o.dots).getPropertyValue("--mono").trim() || "monospace"}`;
+    this.scene = new Scene(o, context(o.dots), font, this.reduce);
     this.unbind = bindInput(o.dots, this);
     window.addEventListener("resize", this.resize);
     this.resize();
@@ -76,19 +69,18 @@ export class GlobeEngine implements InputTarget {
   /* ---------- public API ---------- */
 
   setItems(items: EngineItem[], famous: boolean) {
-    this.items = items;
-    this.famous = famous;
+    this.scene.setItems(items, famous);
     this.cam.dirty = true;
   }
 
   /** Always show this item, even where markers are thinned out. Use before flying to it. */
   pin(key: string | null) {
-    this.pinned = key;
+    this.scene.pin(key);
     this.cam.dirty = true;
   }
 
   clearTune() {
-    this.tuner.clear();
+    this.scene.tuner.clear();
   }
 
   center() {
@@ -141,37 +133,29 @@ export class GlobeEngine implements InputTarget {
     this.motion.settle(false, 250);
   }
   tap(x: number, y: number) {
-    const hit = hitTest(this.visible, x, y);
+    const hit = hitTest(this.scene.visible, x, y);
     const { CX, CY } = this.cam.frame;
-    if (hit && hit.item.key !== this.tuner.key) this.flyTo(hit.item.lon, hit.item.lat, this.cam.zoom, 650);
+    if (hit && hit.item.key !== this.scene.tuner.key) this.flyTo(hit.item.lon, hit.item.lat, this.cam.zoom, 650);
     else if (hit || Math.hypot(x - CX, y - CY) < 30) this.openTuned();
   }
   openTuned() {
-    if (this.tuner.key) this.o.onOpenTuned();
+    if (this.scene.tuner.key) this.o.onOpenTuned();
   }
 
   /* ---------- loop ---------- */
 
   private loop = (now: number) => {
-    this.motion.step(now, this.cam, this.visible[0]);
+    this.motion.step(now, this.cam, this.o.snap === false ? undefined : this.scene.visible[0]);
     const { cam } = this;
     if (cam.dirty) {
       cam.dirty = false;
       cam.update();
-      drawGlobe(this.bctx, this.path, this.o.land, cam.frame, cam.radius, this.famous);
+      drawGlobe(this.bctx, this.path, this.o.land, cam.frame, cam.radius);
       const c = cam.center();
       this.o.onCoords(formatCoords(c.lat, c.lon));
-      const shown = this.declutter.select(this.items, cam.radius, [this.pinned, this.tuner.key]);
-      this.visible = findVisible(shown, cam.projection, cam.target, { x: cam.frame.CX, y: cam.frame.CY });
-      this.tuner.update(this.visible);
+      this.scene.layout(cam);
     }
-    drawMarkers(this.dctx, this.visible, cam.frame, {
-      tunedKey: this.tuner.key,
-      famous: this.famous,
-      labels: this.famous && cam.zoom >= 2.3,
-      font: this.font,
-      t: this.reduce ? null : now / 1000,
-    });
+    this.scene.draw(cam, now);
     this.raf = requestAnimationFrame(this.loop);
   };
 }

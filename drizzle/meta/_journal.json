@@ -15,6 +15,41 @@
       "when": 1792298332943,
       "tag": "0001_calm_nico_minoru",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792334155178,
+      "tag": "0002_chunky_titania",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792337657137,
+      "tag": "0003_shallow_joshua_kane",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792338538909,
+      "tag": "0004_glossy_living_lightning",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1792339634908,
+      "tag": "0005_majestic_yellow_claw",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1792343603509,
+      "tag": "0006_flaky_owl",
+      "breakpoints": true
     }
   ]
 }

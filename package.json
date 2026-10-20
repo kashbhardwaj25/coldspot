@@ -1,5 +1,5 @@
 {
-  "name": "coldspot",
+  "name": "uncanny-map",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -23,6 +23,8 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@base-ui/react": "^1.9.0",
+    "better-auth": "^1.7.10",
     "better-sqlite3": "^12.11.1",
     "d3-geo": "^3.1.1",
     "drizzle-orm": "^0.45.3",
@@ -40,6 +42,9 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@types/topojson-client": "^3.1.5",
+    "@types/topojson-server": "^3.0.4",
+    "@types/topojson-simplify": "^3.0.3",
+    "babel-plugin-react-compiler": "^1.0.0",
     "drizzle-kit": "^0.31.11",
     "eslint": "^9.39.5",
     "eslint-config-next": "^16.3.6",
@@ -48,6 +53,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
     "prettier": "^3.9.9",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3",
     "vitest": "^5.0.3",

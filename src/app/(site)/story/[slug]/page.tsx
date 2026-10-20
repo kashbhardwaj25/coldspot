@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { CSSProperties } from "react";
 import { PageTop } from "@/components/PageTop";
+import { ShareButton } from "@/components/ui/ShareButton";
 import { getApprovedStories, getApprovedStory } from "@/features/stories/queries";
+import Link from "next/link";
+import { placeLinkFor } from "@/features/regions/queries";
+import { ReportButton } from "@/features/reports/ReportButton";
 import { StoryArticle } from "@/features/stories/StoryArticle";
 import { CATEGORIES } from "@/lib/categories";
 
@@ -30,16 +34,22 @@ export default async function StoryPage({ params }: Params) {
   const s = getApprovedStory((await params).slug);
   if (!s) notFound();
   const cat = CATEGORIES[s.category];
+  const place = placeLinkFor(s.countryKey, s.stateKey);
   return (
     <main className="page" style={{ "--tc": cat.color } as CSSProperties}>
       <PageTop mapHref={`/?story=${s.slug}`} />
       <article className="article">
-        <span className="tag">
-          <i />
-          {cat.label}
-          {s.isSample ? " · Sample story" : ""}
-        </span>
-        <StoryArticle s={s} variant="page" lastField={["Echoes", s.echoes]} />
+        <StoryArticle s={s} variant="page" lastField={["Echoes", s.echoes]}>
+          <div className="links">
+            <ShareButton path={`/story/${s.slug}`} title={`${s.place}: a story on Uncanny Map`} text={s.hook} />
+            {place && (
+              <Link className="btn" href={place.path}>
+                More from {place.name}
+              </Link>
+            )}
+            <ReportButton slug={s.slug} returnTo={`/story/${s.slug}`} />
+          </div>
+        </StoryArticle>
       </article>
     </main>
   );
