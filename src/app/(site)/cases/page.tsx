@@ -11,7 +11,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "All famous cases",
   description:
-    "Every famous unexplained case on Coldspot, from strange lights and visitors to creatures, mysterious sounds and places, with what was reported and the explanations offered.",
+    "Every famous unexplained case on Uncanny Map, from strange lights and visitors to creatures, mysterious sounds and places, with what was reported and the explanations offered.",
   alternates: { canonical: "/cases" },
 };
 
@@ -22,10 +22,6 @@ export default function CasesPage() {
     <main className="page">
       <PageTop mapHref="/" />
       <article className="article">
-        <span className="tag">
-          <i className="d" />
-          Famous cases
-        </span>
         <ArticleTitle variant="page">All famous cases</ArticleTitle>
         <p className="prose">
           Real, widely reported encounters from around the world: lights in the sky, visitors and figures, creatures,

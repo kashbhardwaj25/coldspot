@@ -1,5 +1,6 @@
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { ArticleTitle, Fields, Paragraphs, type ArticleVariant } from "@/components/article";
+import { CATEGORIES } from "@/lib/categories";
 import type { StoryItem } from "@/lib/types";
 
 type Props = {
@@ -18,11 +19,16 @@ export function StoryArticle({ s, variant, lastField, children }: Props) {
       <div>
         <ArticleTitle variant={variant}>{s.place}</ArticleTitle>
         <div className="s-sub">
+          <span className="tag" style={{ "--tc": CATEGORIES[s.category].color } as CSSProperties}>
+            <i />
+            {CATEGORIES[s.category].label}
+          </span>
           <span>
             {s.region}
             {s.year ? ` · ${s.year}` : ""}
           </span>
           <span>Shared by {s.penName ?? "Anonymous"}</span>
+          {s.isSample && <span className="sample">Sample story</span>}
         </div>
       </div>
       <p className="quote">{s.hook}</p>

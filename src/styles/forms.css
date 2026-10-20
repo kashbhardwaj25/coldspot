@@ -22,8 +22,8 @@
 }
 .field label,
 .field .label {
-  font-size: 10px;
-  letter-spacing: 0.14em;
+  font-size: var(--label-size);
+  letter-spacing: var(--label-track);
   text-transform: uppercase;
   color: var(--muted);
 }
@@ -42,7 +42,7 @@
 .field input:focus-visible,
 .field textarea:focus-visible,
 .select-trigger:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 1px solid var(--phosphor);
   outline-offset: 1px;
 }
 .field textarea {
@@ -53,7 +53,7 @@
 }
 .field-hint {
   margin: 0;
-  font-size: 10.5px;
+  font-size: var(--control-size);
   color: var(--muted);
   line-height: 1.5;
 }
@@ -66,27 +66,27 @@
 }
 .pin {
   margin: 0;
-  font-size: 11.5px;
+  font-size: var(--control-size);
   color: var(--ink-2);
   line-height: 1.6;
 }
 .pin b {
-  color: var(--ice);
+  color: var(--phosphor);
   font-weight: 500;
 }
 .rules {
   margin: 0;
   padding: 12px 14px 12px 30px;
-  border-radius: 10px;
+  border-radius: var(--radius);
   border: 1px solid var(--line);
-  font-size: 11.5px;
+  font-size: var(--control-size);
   color: var(--ink-2);
   line-height: 1.7;
 }
 .error {
   margin: 0;
   color: var(--disputed);
-  font-size: 12px;
+  font-size: var(--control-size);
 }
 .done {
   display: flex;
@@ -103,14 +103,14 @@
   gap: 8px;
 }
 .signin-send small {
-  font-size: 11.5px;
+  font-size: var(--control-size);
   color: var(--muted);
   line-height: 1.5;
   max-width: 46ch;
 }
 .done a,
 .prose a {
-  color: var(--ice);
+  color: var(--phosphor);
 }
 /* Turnstile sits above the send button; it only takes space once Cloudflare renders it. */
 .send {
@@ -133,15 +133,15 @@
   gap: 8px;
 }
 .picker-field .label {
-  font-size: 10px;
-  letter-spacing: 0.14em;
+  font-size: var(--label-size);
+  letter-spacing: var(--label-track);
   text-transform: uppercase;
   color: var(--muted);
 }
 .picker {
   position: relative;
   height: 220px;
-  border-radius: 10px;
+  border-radius: var(--radius);
   border: 1px solid var(--line);
   overflow: hidden;
   background: var(--night);
@@ -160,7 +160,7 @@
   cursor: grabbing;
 }
 .picker-dots:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 1px solid var(--phosphor);
   outline-offset: -2px;
 }
 /* A teardrop pin whose point sits exactly on the centre. */
@@ -174,7 +174,7 @@
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
   transform-origin: 50% 50%;
-  background: var(--ice);
+  background: var(--phosphor);
   box-shadow: 0 0 0 3px var(--on-ink-muted);
   pointer-events: none;
 }
@@ -198,13 +198,13 @@
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-size: 12px;
+  font-size: var(--control-size);
   line-height: 1.6;
   color: var(--ink-2);
   cursor: pointer;
 }
 .consent a {
-  color: var(--ice);
+  color: var(--phosphor);
 }
 .checkbox {
   flex: none;
@@ -220,11 +220,11 @@
   line-height: 1;
 }
 .checkbox[data-checked] {
-  background: var(--ice);
-  border-color: var(--ice);
+  background: var(--phosphor);
+  border-color: var(--phosphor);
 }
 .checkbox:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 1px solid var(--phosphor);
   outline-offset: 2px;
 }
 .picker-tools {

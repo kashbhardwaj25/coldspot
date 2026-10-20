@@ -20,9 +20,9 @@ const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variabl
 
 export const metadata: Metadata = {
   metadataBase: new URL(env.NEXT_PUBLIC_SITE_URL),
-  title: { default: "Coldspot", template: "%s · Coldspot" },
+  title: { default: "Uncanny Map", template: "%s · Uncanny Map" },
   description: SITE_DESCRIPTION,
-  openGraph: { siteName: "Coldspot", type: "website" },
+  openGraph: { siteName: "Uncanny Map", type: "website" },
   twitter: { card: "summary_large_image" },
   robots: isIndexable(env.NEXT_PUBLIC_SITE_URL) ? undefined : { index: false, follow: false },
 };

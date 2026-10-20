@@ -8,7 +8,7 @@ import { CATEGORIES, CATEGORY_KEYS, type Category } from "@/lib/categories";
 import type { MapItem, Mode } from "@/lib/types";
 import { Icon } from "@/components/brand";
 import { STORIES_ENABLED } from "@/lib/features";
-import { Logo } from "@/components/Logo";
+import { Wordmark } from "@/components/Wordmark";
 import { headerActions } from "./headerActions";
 import { AccountButton } from "@/features/accounts/AccountButton";
 
@@ -41,11 +41,7 @@ export function MapHeader({ ref, items, ...p }: Props) {
     <header className="top" ref={ref}>
       <div className="bar">
         <div className="brand">
-          <b>
-            <Logo />
-            COLDSPOT
-          </b>
-          <span>Something happened here</span>
+          <Wordmark tagline="Something happened here" />
         </div>
         <div className="actions">
           {headerActions(p).map((a) =>
@@ -69,7 +65,7 @@ export function MapHeader({ ref, items, ...p }: Props) {
         </div>
       </div>
       <div className="band">
-        <h1 className="sr-only">Coldspot: a globe of unexplained encounters</h1>
+        <h1 className="sr-only">Uncanny Map: a globe of unexplained encounters</h1>
         {STORIES_ENABLED && (
           <ToggleGroup
             className="seg"
@@ -83,9 +79,15 @@ export function MapHeader({ ref, items, ...p }: Props) {
           </ToggleGroup>
         )}
         <p>{NOTES[p.mode]}</p>
-        <Link className="all-cases" href="/cases">
-          Browse all famous cases →
-        </Link>
+        {p.mode === "famous" ? (
+          <Link className="all-cases" href="/cases">
+            Browse all famous cases {Icon.arrow}
+          </Link>
+        ) : (
+          <Link className="all-cases" href="/places">
+            Browse by place {Icon.arrow}
+          </Link>
+        )}
       </div>
       <div className="chips" role="group" aria-label="Show categories">
         {CATEGORY_KEYS.filter((k) => counts[k]).map((k) => (

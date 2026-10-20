@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { Logo } from "@/components/Logo";
+import { Wordmark } from "@/components/Wordmark";
 import { logout } from "@/features/moderation/auth";
 import { notFound } from "next/navigation";
 import { STORIES_ENABLED } from "@/lib/features";
@@ -20,11 +20,7 @@ export default async function AdminLayout({ children }: { children: ReactNode })
     <main className="admin">
       <div className="admin-head">
         <Link className="brand" href="/">
-          <b>
-            <Logo />
-            COLDSPOT
-          </b>
-          <span>Admin</span>
+          <Wordmark tagline="Admin" />
         </Link>
         {admin && (
           <form action={logout}>

@@ -1,6 +1,7 @@
 "use client";
 
 import { Select } from "@base-ui/react/select";
+import { Icon } from "@/components/brand";
 
 type Option = { value: string; label: string };
 type Props = { label: string; name: string; options: Option[]; defaultValue: string };
@@ -27,7 +28,7 @@ export function SelectField({ label, name, options, defaultValue }: Props) {
               {options.map((o) => (
                 <Select.Item key={o.value} value={o.value} className="select-item">
                   <Select.ItemText>{o.label}</Select.ItemText>
-                  <Select.ItemIndicator className="select-check">✓</Select.ItemIndicator>
+                  <Select.ItemIndicator className="select-check">{Icon.check}</Select.ItemIndicator>
                 </Select.Item>
               ))}
             </Select.List>

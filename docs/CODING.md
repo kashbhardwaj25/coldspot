@@ -1,4 +1,4 @@
-# Coldspot: coding standards
+# Uncanny Map: coding standards
 
 How code is written in this repo. Product rules (privacy, content, map borders) live in `AGENTS.md`; this file covers the code itself. Most of it is enforced by tooling, so `npm run check` passing is the first bar, not the last.
 

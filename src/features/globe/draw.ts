@@ -19,24 +19,24 @@ function begin(c: CanvasRenderingContext2D, f: Frame) {
   c.clearRect(0, 0, f.W, f.H);
 }
 
-/** Halo, sphere, graticule and coastlines. `r` is the globe radius in pixels. */
+/** Sphere, graticule and coastlines: a matte object in a dark room. `r` is the globe radius in pixels. */
 export function drawGlobe(
   c: CanvasRenderingContext2D,
   path: GeoPath,
   land: GeoPermissibleObjects,
   f: Frame,
   r: number,
-  famous: boolean,
 ) {
   const { CX, CY } = f;
   begin(c, f);
 
-  const halo = c.createRadialGradient(CX, CY, r * 0.96, CX, CY, r * 1.12);
-  halo.addColorStop(0, famous ? GLOBE.haloFamous : GLOBE.haloPeople);
-  halo.addColorStop(1, GLOBE.haloEdge);
-  c.fillStyle = halo;
+  // A soft shadow below the sphere, so it sits in the room instead of glowing in it.
+  const shade = c.createRadialGradient(CX, CY + r * 0.06, r * 0.92, CX, CY + r * 0.06, r * 1.1);
+  shade.addColorStop(0, GLOBE.shadow);
+  shade.addColorStop(1, "rgba(0, 0, 0, 0)");
+  c.fillStyle = shade;
   c.beginPath();
-  c.arc(CX, CY, r * 1.12, 0, Math.PI * 2);
+  c.arc(CX, CY + r * 0.06, r * 1.1, 0, Math.PI * 2);
   c.fill();
 
   const g = c.createRadialGradient(CX - r * 0.3, CY - r * 0.35, r * 0.1, CX, CY, r);
@@ -49,7 +49,7 @@ export function drawGlobe(
 
   c.beginPath();
   path(graticule);
-  c.strokeStyle = famous ? GLOBE.gridFamous : GLOBE.gridPeople;
+  c.strokeStyle = GLOBE.grid;
   c.lineWidth = 1;
   c.stroke();
 
@@ -75,11 +75,14 @@ type MarkerOptions = {
   famous: boolean;
   labels: boolean;
   font: string;
-  /** Animation time in seconds, or null for no pulsing (reduced motion). */
-  t: number | null;
+  /** Phosphor charge per marker key (see glow.ts). Missing means unlit. */
+  charge: Map<string, number>;
 };
 
-/** Glowing markers: diamonds for famous cases, dots for stories. Draws farthest first. */
+/**
+ * Markers as glow pigment: diamonds for famous cases, dots for stories. Unlit markers are dim and give off no
+ * light; charged ones (in the ring, or recently passed) glow in proportion to their charge. Draws farthest first.
+ */
 export function drawMarkers(c: CanvasRenderingContext2D, visible: Visible[], f: Frame, o: MarkerOptions) {
   begin(c, f);
   if (o.labels) {
@@ -91,23 +94,25 @@ export function drawMarkers(c: CanvasRenderingContext2D, visible: Visible[], f: 
     if (!v) continue;
     const color = CATEGORIES[v.item.category].color;
     const on = v.item.key === o.tunedKey;
-    const phase = o.t === null ? 0 : o.t + ((Math.abs(v.item.lat) * 0.37) % 1);
-    const pulse = 0.5 + 0.5 * Math.sin(phase * 2.4);
-    const gr = (on ? 22 : 11) + pulse * (on ? 6 : 4);
-    const grad = c.createRadialGradient(v.x, v.y, 0, v.x, v.y, gr);
-    grad.addColorStop(0, rgba(color, on ? 0.55 : 0.32));
-    grad.addColorStop(1, rgba(color, 0));
-    c.fillStyle = grad;
-    c.beginPath();
-    c.arc(v.x, v.y, gr, 0, Math.PI * 2);
-    c.fill();
-
+    const k = o.charge.get(v.item.key) ?? 0;
+    if (k > 0.02) {
+      const gr = 6 + 26 * k;
+      const grad = c.createRadialGradient(v.x, v.y, 0, v.x, v.y, gr);
+      grad.addColorStop(0, rgba(color, 0.75 * k));
+      grad.addColorStop(0.35, rgba(color, 0.22 * k));
+      grad.addColorStop(1, rgba(color, 0));
+      c.fillStyle = grad;
+      c.beginPath();
+      c.arc(v.x, v.y, gr, 0, Math.PI * 2);
+      c.fill();
+    }
+    c.globalAlpha = 0.42 + 0.58 * k;
     if (o.famous) drawDiamond(c, v, color, on);
     else drawDot(c, v, color, on);
+    c.globalAlpha = 1;
   }
   if (o.labels && o.famous) drawLabels(c, visible, o.tunedKey, LABEL_HEIGHT);
 }
-
 function drawDiamond(c: CanvasRenderingContext2D, v: Visible, color: string, on: boolean) {
   const r = on ? 5.4 : 4.2;
   c.save();

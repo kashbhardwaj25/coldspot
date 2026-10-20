@@ -12,7 +12,7 @@ export function SiteFooter() {
           </Link>
         ))}
       </nav>
-      <p>Coldspot · Something happened here</p>
+      <p>Uncanny Map · Something happened here</p>
     </footer>
   );
 }

@@ -1,7 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { catColor } from "@/lib/format";
 import { MapHeader } from "./MapHeader";
 import { MapStage } from "./MapStage";
 import { ZoomControls } from "./parts";
@@ -15,19 +14,15 @@ const Sheet = dynamic(() => import("./sheets/Sheet").then((m) => m.Sheet), { ssr
 type Props = { data: MapData };
 
 /** The map screen: renders what useMapState knows, and hands its actions to the header, card and sheets. */
-export default function ColdspotApp({ data }: Props) {
+export default function UncannyMapApp({ data }: Props) {
   const map = useMapState(data);
   const { actions, tuned } = map;
   // Refs stay standalone variables, as the React Compiler rules require.
   const { baseRef, dotsRef, ringRef, hintRef, zoomRef, topRef } = map.globe;
 
   return (
-    <div className="cs-map" data-mode={map.mode}>
-      <MapStage
-        {...{ baseRef, dotsRef, ringRef, hintRef }}
-        hintHidden={map.hintHidden}
-        color={tuned ? catColor(tuned.category) : null}
-      />
+    <div className="um-map" data-mode={map.mode}>
+      <MapStage {...{ baseRef, dotsRef, ringRef, hintRef }} hintHidden={map.hintHidden} tuned={tuned !== null} />
 
       <MapHeader
         ref={topRef}

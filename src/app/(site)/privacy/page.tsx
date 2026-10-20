@@ -5,7 +5,7 @@ import { env } from "@/lib/server/env";
 
 export const metadata: Metadata = {
   title: "Privacy policy",
-  description: "What Coldspot collects, why, and how to delete your stories or your account.",
+  description: "What Uncanny Map collects, why, and how to delete your stories or your account.",
   alternates: { canonical: "/privacy" },
 };
 

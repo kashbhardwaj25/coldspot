@@ -1,4 +1,4 @@
-# Coldspot: task list
+# Uncanny Map: task list
 
 The work left, in the order we plan to do it. Tick items off as they land. For product background, see `docs/CONTEXT.md`; for engineering rules, see `AGENTS.md`.
 
@@ -46,7 +46,7 @@ Decisions behind this list:
 
 ## 5. Regions
 
-Coldspot is global: famous cases span 165 countries, and stories can come from anywhere. Regions are worked out from coordinates, not typed: one consistent system for every case and story, with no hand-tagging. The free-text `region` stays for display. The map still shows no borders; outlines are used only on the server to look regions up.
+Uncanny Map is global: famous cases span 165 countries, and stories can come from anywhere. Regions are worked out from coordinates, not typed: one consistent system for every case and story, with no hand-tagging. The free-text `region` stays for display. The map still shows no borders; outlines are used only on the server to look regions up.
 
 Decisions (2026-10-18):
 
@@ -82,7 +82,7 @@ Tasks:
 
 ## 7. Code upkeep
 
-- [x] Split the two biggest files: `engine.ts` (markers moved to `scene.ts`) and `ColdspotApp.tsx` (`MapStage`, `MapData`, place actions in `useMapActions`).
+- [x] Split the two biggest files: `engine.ts` (markers moved to `scene.ts`) and `UncannyMapApp.tsx` (`MapStage`, `MapData`, place actions in `useMapActions`).
 - [x] Tests for `lib/geo.ts`, `features/globe/tuning.ts` and the admin login limiter.
 - [ ] Tests for the story, echo and report limits: they touch the database, so they need a test database setup (checked end to end in the browser so far).
 
@@ -92,9 +92,10 @@ Tasks:
 - [ ] Remove the 30 sample stories (`is_sample = 1`) once real ones are in.
 - [ ] Check every famous case against a primary source (`src/data/seed-cases.ts`), featured cases first. Consider a `sources` field shown on each case page.
 
-## 9. Deploy on Sunday (guide in `docs/DEPLOY.md`)
+## 9. Deploy (guide in `docs/DEPLOY.md`)
 
 - [x] Dockerfile, `railway.json`, and redirects from the Railway address and `www` to the domain.
+- [x] CI: GitHub Actions runs `npm run check` and the build on pull requests and `main`; Railway deploys `main` after CI passes ("Wait for CI").
 - [ ] Buy the domain on Cloudflare.
 - [ ] Railway project from GitHub, in a region near India, with a volume at `/data`.
 - [ ] Variables: `NEXT_PUBLIC_SITE_URL`, `SESSION_SECRET`, `ADMIN_PASSWORD` and the Google sign-in keys. Connect the domain; Cloudflare SSL/TLS set to **Full**. Add the domain's redirect URI to the Google OAuth client.
@@ -106,7 +107,7 @@ Tasks:
 
 ## 10. After launch
 
-- [ ] Trademark and domain checks for "Coldspot" (India classes 9 and 41; .com, .app, .in; social handles).
+- [ ] Trademark and domain checks for "Uncanny Map" (India classes 9 and 41; .com, .app, .in; social handles).
 - [ ] Short screen recordings for Reels and Shorts: the static, a story tuning in, a flight across the globe.
 - [ ] Posts in r/Paranormal, r/HighStrangeness, r/Thetruthishere and Indian city subreddits, and a Product Hunt launch.
 - [ ] One-month check: if strangers aren't submitting stories on their own, focus on the famous cases and search pages.

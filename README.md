@@ -1,4 +1,4 @@
-# Coldspot
+# Uncanny Map
 
 _Something happened here._ A globe of famous unexplained cases and people's own strange encounters. Drag the map, and whatever reaches the ring tunes in.
 
@@ -11,7 +11,7 @@ You need **Node.js 22 LTS** (20.9 or newer works). Use `npm`; the SQLite driver 
 ```bash
 npm install
 cp .env.example .env.local      # then set ADMIN_PASSWORD and SESSION_SECRET
-npm run db:setup                # creates data/coldspot.db and loads the seed data
+npm run db:setup                # creates data/uncanny-map.db and loads the seed data
 npm run dev                     # http://localhost:3000
 ```
 
@@ -20,7 +20,7 @@ npm run dev                     # http://localhost:3000
 - A case page: http://localhost:3000/case/roswell
 - Deep link into the map: http://localhost:3000/?case=hessdalen or `/?story=<slug>`
 
-To start from a clean database, delete `data/coldspot.db*` and run `npm run db:setup` again.
+To start from a clean database, delete `data/uncanny-map.db*` and run `npm run db:setup` again.
 
 > If `npm install` fails while building `better-sqlite3`, you're probably on a Node version without a prebuilt binary. Switch to Node 22 or 24 LTS and run it again.
 
@@ -49,7 +49,7 @@ src/
     (site)/story/[slug]/  Pre-rendered page per approved story
     admin/                Password-protected review queue
   features/
-    map/                  The map screen: ColdspotApp, header, tuner card, sheets
+    map/                  The map screen: UncannyMapApp, header, tuner card, sheets
     globe/                Framework-free canvas globe and Web Audio
     stories/              Submitting, echoes, queries, story article
     cases/                Queries and the case file

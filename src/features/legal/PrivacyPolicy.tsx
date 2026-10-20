@@ -3,14 +3,14 @@ import { Contact, LegalPage, LegalSection } from "./Legal";
 
 export const PRIVACY_UPDATED = "18 October 2026";
 
-/** What Coldspot collects and why, written to match what the code actually does. */
+/** What Uncanny Map collects and why, written to match what the code actually does. */
 export function PrivacyPolicy({ email }: { email: string | null }) {
   return (
     <LegalPage title="Privacy policy" updated={PRIVACY_UPDATED}>
       <div className="prose">
         <p>
-          Coldspot is a map of unexplained encounters. We collect as little as we can: you can read every case and story
-          without an account, and we never sell or share your information for advertising.
+          Uncanny Map is a globe of unexplained encounters. We collect as little as we can: you can read every case and
+          story without an account, and we never sell or share your information for advertising.
         </p>
       </div>
       <LegalSection title="When you read">
@@ -79,7 +79,8 @@ export function PrivacyPolicy({ email }: { email: string | null }) {
       </LegalSection>
       <LegalSection title="Children">
         <p>
-          Coldspot is meant for adults. If you&apos;re under 18, please don&apos;t create an account or share a story.
+          Uncanny Map is meant for adults. If you&apos;re under 18, please don&apos;t create an account or share a
+          story.
         </p>
       </LegalSection>
       <LegalSection title="Changes">

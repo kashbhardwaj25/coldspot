@@ -1,15 +1,11 @@
 import Link from "next/link";
-import { Logo } from "./Logo";
+import { Wordmark } from "./Wordmark";
 
 export function PageTop({ mapHref }: { mapHref: string }) {
   return (
     <header className="page-top">
       <Link className="brand" href="/">
-        <b>
-          <Logo />
-          COLDSPOT
-        </b>
-        <span>Something happened here</span>
+        <Wordmark tagline="Something happened here" />
       </Link>
       <Link className="btn primary" href={mapHref}>
         Open on the map

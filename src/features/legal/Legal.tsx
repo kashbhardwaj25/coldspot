@@ -5,7 +5,7 @@ import { ArticleTitle, SectionHeading } from "@/components/article";
 export function LegalPage({ title, updated, children }: { title: string; updated: string; children: ReactNode }) {
   return (
     <article className="article legal">
-      <span className="tag">Coldspot</span>
+      <span className="tag">Uncanny Map</span>
       <ArticleTitle variant="page">{title}</ArticleTitle>
       <p className="legal-updated">Last updated {updated}</p>
       {children}

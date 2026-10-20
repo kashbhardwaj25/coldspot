@@ -7,7 +7,7 @@ import { PROXY_MODES } from "../proxy";
  * No `server-only` import: `scripts/setup.ts` loads this through `db/client.ts` outside Next.
  */
 const schema = z.object({
-  DATABASE_PATH: z.string().min(1).default("data/coldspot.db"),
+  DATABASE_PATH: z.string().min(1).default("data/uncanny-map.db"),
   ADMIN_PASSWORD: z.string().optional(),
   SESSION_SECRET: z.string().optional(),
   NEXT_PUBLIC_SITE_URL: z.url().default("http://localhost:3000"),
@@ -25,4 +25,5 @@ const schema = z.object({
   CF_ANALYTICS_TOKEN: z.string().optional(),
 });
 
-export const env = schema.parse(process.env);
+// An empty value (`CONTACT_EMAIL=` in a .env file, or an unset Docker build arg) counts as not set.
+export const env = schema.parse(Object.fromEntries(Object.entries(process.env).filter(([, v]) => v !== "")));

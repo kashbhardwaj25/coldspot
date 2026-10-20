@@ -23,13 +23,13 @@ export function caseJsonLd(c: CaseItem, base: string) {
         name: c.region,
         geo: { "@type": "GeoCoordinates", latitude: c.lat, longitude: c.lon },
       },
-      publisher: { "@type": "Organization", name: "Coldspot", url: base },
+      publisher: { "@type": "Organization", name: "Uncanny Map", url: base },
     },
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Coldspot", item: base },
+        { "@type": "ListItem", position: 1, name: "Uncanny Map", item: base },
         { "@type": "ListItem", position: 2, name: "All cases", item: `${base}/cases` },
         { "@type": "ListItem", position: 3, name: c.title, item: url },
       ],
@@ -42,8 +42,8 @@ export function siteJsonLd(base: string) {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Coldspot",
-    alternateName: "Coldspot: something happened here",
+    name: "Uncanny Map",
+    alternateName: "Uncanny Map: something happened here",
     url: base,
     description: SITE_DESCRIPTION,
     inLanguage: "en",

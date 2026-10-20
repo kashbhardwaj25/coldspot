@@ -7,7 +7,7 @@ const REACH = 4.2;
 /** Pointer distance, in CSS pixels, at which the eye is looking fully that way. */
 const FULL_GAZE_AT = 220;
 
-/** The Coldspot mark: an eyeball that turns to follow the pointer. Holds still with reduced motion. */
+/** The Uncanny Map mark: an eyeball that turns to follow the pointer. Holds still with reduced motion. */
 export function Logo() {
   // useId can contain characters that break url(#…) references, so keep only safe ones.
   const id = `cs${useId().replace(/[^a-zA-Z0-9]/g, "")}`;

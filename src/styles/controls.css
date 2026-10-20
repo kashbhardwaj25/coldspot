@@ -6,10 +6,9 @@
   padding: 0;
   display: grid;
   place-items: center;
-  border-radius: 50%;
+  border-radius: var(--radius);
   border: 1px solid var(--line);
-  background: var(--glass);
-  backdrop-filter: blur(6px);
+  background: var(--plate);
   color: var(--ink-2);
   line-height: 0;
 }
@@ -29,7 +28,7 @@
   }
 }
 .icon-btn:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 1px solid var(--phosphor);
   outline-offset: 2px;
 }
 .select-trigger {
@@ -61,7 +60,7 @@
   max-height: var(--available-height);
   overflow-y: auto;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: var(--radius);
   border: 1px solid var(--line);
   background: var(--night-2);
   box-shadow: var(--shadow-pop);
@@ -94,8 +93,13 @@
   color: var(--ink);
 }
 .select-check {
-  color: var(--ice);
-  font-size: 13px;
+  display: flex;
+  color: var(--phosphor);
+}
+.select-check svg,
+.checkbox svg {
+  width: 13px;
+  height: 13px;
 }
 
 .dialog-backdrop {
@@ -121,7 +125,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 20px;
-  border-radius: 14px;
+  border-radius: var(--radius);
   border: 1px solid var(--line);
   background: var(--night-2);
   box-shadow: var(--shadow-dialog);
@@ -197,17 +201,17 @@
   place-items: center;
 }
 .radio[data-checked] {
-  border-color: var(--ice);
+  border-color: var(--phosphor);
 }
 .radio:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 1px solid var(--phosphor);
   outline-offset: 2px;
 }
 .radio-dot {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--ice);
+  background: var(--phosphor);
 }
 .radio-dot[data-unchecked] {
   display: none;
@@ -221,7 +225,7 @@
 }
 .town-item small {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: var(--control-size);
   letter-spacing: 0.04em;
   color: var(--muted);
 }

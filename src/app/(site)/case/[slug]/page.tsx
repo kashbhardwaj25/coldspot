@@ -44,10 +44,6 @@ export default async function CasePage({ params }: Params) {
     <main className="page" style={{ "--tc": cat.color } as CSSProperties}>
       <PageTop mapHref={`/?case=${c.slug}`} />
       <article className="article">
-        <span className="tag">
-          <i className="d" />
-          {cat.label} · Case file
-        </span>
         <CaseArticle
           c={c}
           variant="page"

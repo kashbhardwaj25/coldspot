@@ -1,6 +1,7 @@
 import type { Camera } from "./camera";
 import { Declutter } from "./declutter";
 import { drawMarkers } from "./draw";
+import { updateCharge } from "./glow";
 import type { Radio } from "./radio";
 import { findVisible, Tuner, type EngineItem, type Visible } from "./tuning";
 
@@ -21,6 +22,8 @@ export class Scene {
   private items: EngineItem[] = [];
   private declutter = new Declutter();
   private pinned: string | null = null;
+  private charge = new Map<string, number>();
+  private lastFrame = 0;
 
   constructor(
     events: Events,
@@ -34,6 +37,8 @@ export class Scene {
   setItems(items: EngineItem[], famous: boolean) {
     this.items = items;
     this.famous = famous;
+    // A new set of markers starts unlit: afterglow from the other mode would light the wrong places.
+    this.charge.clear();
   }
 
   /** Always show this item, even where markers are thinned out. */
@@ -48,14 +53,18 @@ export class Scene {
     this.tuner.update(this.visible);
   }
 
-  /** Every frame: the markers, gently pulsing unless motion is reduced. Labels only for famous cases zoomed in. */
+  /** Every frame: charge and fade the markers, then draw them. Labels only for famous cases zoomed in. */
   draw(cam: Camera, now: number) {
+    // Capped, so a backgrounded tab doesn't come back with every afterglow gone at once.
+    const dt = this.lastFrame ? Math.min(0.1, (now - this.lastFrame) / 1000) : 0;
+    this.lastFrame = now;
+    updateCharge(this.charge, this.tuner.key, this.visible, dt, this.reduce);
     drawMarkers(this.ctx, this.visible, cam.frame, {
       tunedKey: this.tuner.key,
       famous: this.famous,
       labels: this.famous && cam.zoom >= 2.3,
       font: this.font,
-      t: this.reduce ? null : now / 1000,
+      charge: this.charge,
     });
   }
 }

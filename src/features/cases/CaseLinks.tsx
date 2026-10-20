@@ -14,9 +14,9 @@ export function CaseLinks({ cases }: { cases: CaseSummary[] }) {
           href={`/case/${c.slug}`}
           style={{ "--c": catColor(c.category) } as CSSProperties}
         >
-          <i />
+          <i className="d" />
           <b>{c.title}</b>
-          <em>{caseStatusLabel(c)}</em>
+          <em className={`pill ${c.status}`}>{caseStatusLabel(c)}</em>
           <small>
             {c.region} · {c.dateLabel}
           </small>

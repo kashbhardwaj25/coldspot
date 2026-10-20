@@ -36,7 +36,7 @@ describe("share draft", () => {
   });
 
   it("ignores damaged data and clears", () => {
-    localStorage.setItem("cs_share_draft", "{not json");
+    localStorage.setItem("um_share_draft", "{not json");
     expect(loadDraft()).toBeNull();
     saveDraft(form({ place: "Munsiyari" }), center);
     clearDraft();

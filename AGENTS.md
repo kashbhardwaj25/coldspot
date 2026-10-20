@@ -1,10 +1,10 @@
 # AGENTS.md
 
-Instructions for AI coding agents (Claude Code and others) working in this repo. For what Coldspot is and why, read `docs/CONTEXT.md` first. Code style, tooling and React/Next/accessibility practices are in `docs/CODING.md`; the work left to do is in `docs/TASKS.md`.
+Instructions for AI coding agents (Claude Code and others) working in this repo. For what Uncanny Map is and why, read `docs/CONTEXT.md` first. Code style, tooling and React/Next/accessibility practices are in `docs/CODING.md`; the work left to do is in `docs/TASKS.md`.
 
 ## Project in one paragraph
 
-Coldspot is a website with a Radio Garden-style globe of unexplained encounters. Drag the map, and whatever reaches the centre ring "tunes in". It has two modes: **Famous cases** (real, curated incidents) and **People's stories** (user submissions, reviewed before publishing). It's built by one developer alongside a day job, so prefer simple, low-maintenance solutions over clever ones.
+Uncanny Map is a website with a Radio Garden-style globe of unexplained encounters. Drag the map, and whatever reaches the centre ring "tunes in". It has two modes: **Famous cases** (real, curated incidents) and **People's stories** (user submissions, reviewed before publishing). It's built by one developer alongside a day job, so prefer simple, low-maintenance solutions over clever ones.
 
 ## Stack
 
@@ -34,7 +34,7 @@ npm run db:generate            # after editing src/db/schema.ts
 npm run db:studio              # browse the database
 ```
 
-Reset the database: delete `data/coldspot.db*`, then run `npm run db:setup`.
+Reset the database: delete `data/uncanny-map.db*`, then run `npm run db:setup`.
 
 ## Layout
 
@@ -42,7 +42,7 @@ Code is organised by feature. Routes in `src/app/` stay thin: they load data thr
 
 ```
 src/app/                         routes only
-  (map)/page.tsx                 the globe at / (static, revalidate 300s; sends case summaries, renders ColdspotApp)
+  (map)/page.tsx                 the globe at / (static, revalidate 300s; sends case summaries, renders UncannyMapApp)
   api/cases/[slug]/route.ts      a case file's full text as JSON, pre-built per case; fetched when a case is opened on the map
   api/auth/[...all]/route.ts     Better Auth: Google sign-in, sign-out, session
   (site)/my-stories/page.tsx     your own stories and their review status; delete them or your account (dynamic, noindex)
@@ -56,8 +56,8 @@ src/app/                         routes only
   layout.tsx not-found.tsx sitemap.ts robots.ts globals.css (imports src/styles/*)
 src/features/
   map/                           the map screen (client)
-    ColdspotApp.tsx MapStage.tsx renders the map screen from useMapState; the canvases and ring
-    useMapState.ts               all map state, the globe and the actions (ColdspotApp only renders it)
+    UncannyMapApp.tsx MapStage.tsx renders the map screen from useMapState; the canvases and ring
+    useMapState.ts               all map state, the globe and the actions (UncannyMapApp only renders it)
     headerActions.ts             the header's buttons as config
     MapHeader.tsx TunerCard.tsx  header (actions, mode switch, chips); card under the ring
     parts.tsx                    ScrambleText, Freq, Ring, ZoomControls
@@ -127,7 +127,9 @@ src/data/                        seed-cases.ts (real), seed-stories.ts (samples,
 scripts/setup.ts                 migrate and seed
 scripts/build-towns.ts           rebuilds public/towns.json from Natural Earth (public domain) plus towns-extra.ts
 scripts/build-regions.ts         rebuilds src/data/regions.json (country and state outlines, India's view) from Natural Earth
-Dockerfile deploy/               production image; Docker Compose with Caddy and Litestream (see docs/DEPLOY.md)
+Dockerfile railway.json         production image, deployed by Railway from main after CI passes (docs/DEPLOY.md)
+.github/workflows/ci.yml         npm run check + build on every pull request and push to main
+deploy/                          the self-hosted alternative: Docker Compose with Caddy and Litestream
 drizzle/                         SQL migrations (generated, committed)
 public/land-50m.json             coastlines only
 public/towns.json                towns for the share form's search (generated; don't edit by hand)
@@ -201,7 +203,7 @@ public/towns.json                towns for the share form's search (generated; d
 
 ## Before you finish a task
 
-1. `npm run check` passes (typecheck, lint, format). No file over 150 lines (see `docs/CODING.md`).
+1. `npm run check` passes (typecheck, lint, format, tests). No file over 150 lines (see `docs/CODING.md`). CI runs the same checks plus a build on every pull request; Railway deploys `main` only after they pass.
 2. `npm run build` passes (after `npm run db:setup`).
 3. If you touched the map, sheets or forms: run `npm run dev` and check the flow at 400px and at desktop width. Check that famous and people modes switch, a story tunes in, a sheet opens and closes, and Esc closes it.
 4. If you touched submissions, accounts or admin: sign in, submit a story, approve it at `/admin`, and confirm it shows on `/`, at `/story/<slug>` and in `/sitemap.xml`. Without Google keys locally, insert a test user and session row and sign the `better-auth.session_token` cookie with `SESSION_SECRET` (HMAC-SHA256, base64, `token.signature`).
@@ -213,7 +215,7 @@ Read them through `env` from `src/lib/server/env.ts`, never `process.env` direct
 
 | Name                             | Purpose                                                                                                        |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| `DATABASE_PATH`                  | SQLite file path. Default `data/coldspot.db`. Must be on a persistent disk in production.                      |
+| `DATABASE_PATH`                  | SQLite file path. Default `data/uncanny-map.db`. Must be on a persistent disk in production.                   |
 | `ADMIN_PASSWORD`                 | Password for `/admin`. The value `change-me` is refused.                                                       |
 | `SESSION_SECRET`                 | 16+ character secret. Signs sign-in sessions; salts IP and admin-session hashes.                               |
 | `GOOGLE_CLIENT_ID`               | Google OAuth client for sign-in (Google Cloud Console)                                                         |

@@ -15,6 +15,12 @@ body {
   font-family: var(--mono);
   font-size: 13px;
   -webkit-tap-highlight-color: transparent;
+  caret-color: var(--phosphor);
+  scrollbar-color: var(--line-strong) transparent;
+}
+::selection {
+  background: var(--selection);
+  color: var(--ink);
 }
 a {
   color: inherit;
@@ -31,9 +37,11 @@ button {
   border: 0;
   cursor: pointer;
 }
+/* Focus is one of the few things that gives off light. */
 :focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
+  outline: 1px solid var(--phosphor);
+  outline-offset: 3px;
+  box-shadow: 0 0 12px var(--phosphor-faint);
 }
 
 @media (prefers-reduced-motion: reduce) {

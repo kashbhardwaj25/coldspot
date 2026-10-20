@@ -9,7 +9,7 @@
 }
 .my-stories li {
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: var(--radius);
   padding: 14px 16px;
   display: flex;
   flex-direction: column;
@@ -35,33 +35,43 @@
   font-size: 19px;
 }
 .my-status {
-  font-size: 10.5px;
-  letter-spacing: 0.12em;
+  font-size: var(--label-size);
+  letter-spacing: var(--label-track);
   text-transform: uppercase;
   color: var(--muted);
 }
+/* Status by form as well as colour: waiting is dashed, published solid, hidden dotted, rejected struck through. */
 [data-status="approved"] .my-status {
   color: var(--explained);
 }
+[data-status="pending"] {
+  border-style: dashed;
+}
 [data-status="pending"] .my-status {
   color: var(--disputed);
+}
+[data-status="hidden"] {
+  border-style: dotted;
+}
+[data-status="rejected"] .my-status {
+  text-decoration: line-through;
 }
 .my-actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 6px 16px;
-  font-size: 11.5px;
+  font-size: var(--control-size);
   color: var(--muted);
 }
 .my-actions a {
-  color: var(--ice);
+  color: var(--phosphor);
 }
 .my-actions form {
   display: contents;
 }
 .link-btn {
-  font-size: 11.5px;
+  font-size: var(--control-size);
   color: var(--danger);
   text-decoration: underline;
   text-underline-offset: 3px;

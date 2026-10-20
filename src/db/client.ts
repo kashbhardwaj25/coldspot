@@ -8,7 +8,7 @@ import * as schema from "./schema";
 const file = env.DATABASE_PATH;
 
 // Reuse one connection across hot reloads in development.
-const g = globalThis as unknown as { __coldspotSqlite?: Database.Database };
+const g = globalThis as unknown as { __uncannyMapSqlite?: Database.Database };
 
 function open() {
   mkdirSync(dirname(file), { recursive: true });
@@ -20,8 +20,8 @@ function open() {
   return conn;
 }
 
-export const sqlite = g.__coldspotSqlite ?? open();
-if (process.env.NODE_ENV !== "production") g.__coldspotSqlite = sqlite;
+export const sqlite = g.__uncannyMapSqlite ?? open();
+if (process.env.NODE_ENV !== "production") g.__uncannyMapSqlite = sqlite;
 
 export const db = drizzle(sqlite, { schema });
 export { schema };

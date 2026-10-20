@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import { PALETTE } from "@/lib/tokens";
 
 // Link previews are rendered by next/og, which can't read CSS variables, so the palette comes from lib/tokens.
-const { night: NIGHT, ink: INK, muted: MUTED, ice: ICE, ink2: INK_2 } = PALETTE;
+const { night: NIGHT, ink: INK, muted: MUTED, phosphor: PHOSPHOR, ink2: INK_2 } = PALETTE;
 
 type Props = { eyebrow: string; accent: string; title: string; subtitle: string; footer?: ReactNode };
 
@@ -32,7 +32,7 @@ export function OgCard({ eyebrow, accent, title, subtitle, footer }: Props) {
             width: size,
             height: size,
             borderRadius: size,
-            border: `${i === 2 ? 3 : 2}px ${i === 0 ? "dashed" : "solid"} ${ICE}`,
+            border: `${i === 2 ? 3 : 2}px ${i === 0 ? "dashed" : "solid"} ${PHOSPHOR}`,
             opacity: 0.18 + i * 0.12,
           }}
         />
@@ -42,11 +42,13 @@ export function OgCard({ eyebrow, accent, title, subtitle, footer }: Props) {
         <span style={{ color: accent }}>{eyebrow.toUpperCase()}</span>
       </div>
       <div style={{ display: "flex", flexDirection: "column", gap: 22, maxWidth: 860 }}>
-        <div style={{ fontSize: title.length > 40 ? 64 : 80, lineHeight: 1.05, fontWeight: 700 }}>{title}</div>
+        <div style={{ fontSize: title.length > 40 ? 64 : 80, lineHeight: 1.05, fontWeight: 700, color: PHOSPHOR }}>
+          {title}
+        </div>
         <div style={{ fontSize: 32, lineHeight: 1.35, color: INK_2 }}>{subtitle}</div>
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: 18, fontSize: 26, color: MUTED }}>
-        <span style={{ letterSpacing: 8, color: INK }}>COLDSPOT</span>
+        <span style={{ letterSpacing: 8, color: INK }}>UNCANNY MAP</span>
         <span>{footer ?? "Something happened here"}</span>
       </div>
     </div>

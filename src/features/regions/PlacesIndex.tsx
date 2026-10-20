@@ -9,7 +9,6 @@ export function PlacesIndex({ places }: { places: Place[] }) {
   const rest = places.length - pages.length;
   return (
     <article className="article">
-      <span className="tag">Places</span>
       <ArticleTitle variant="page">Unexplained encounters around the world</ArticleTitle>
       <div className="prose">
         <p>

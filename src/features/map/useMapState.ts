@@ -10,7 +10,7 @@ import { useSound } from "./useSound";
 
 /**
  * Everything the map screen knows and can do: the mode, filters, what's tuned in, the open sheet, the globe and
- * its refs, and the actions the header, list and sheets call. ColdspotApp only renders what this returns.
+ * its refs, and the actions the header, list and sheets call. UncannyMapApp only renders what this returns.
  */
 export function useMapState(data: MapData) {
   const { cases, stories } = data;

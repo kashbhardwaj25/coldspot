@@ -6,6 +6,7 @@ import type { ShareDraft } from "@/features/stories/draft";
 import type { Town } from "../towns";
 import { SHARE_FORM, type FieldConfig } from "./shareForm";
 import { TownField } from "./TownField";
+import { Icon } from "@/components/brand";
 
 type Props = { draft?: ShareDraft; onPickTown: (town: Town) => void };
 
@@ -42,11 +43,11 @@ export function ShareFields({ draft, onPickTown }: Props) {
       )}
       <label className="consent">
         <Checkbox.Root name="consent" className="checkbox">
-          <Checkbox.Indicator className="checkbox-tick">✓</Checkbox.Indicator>
+          <Checkbox.Indicator className="checkbox-tick">{Icon.check}</Checkbox.Indicator>
         </Checkbox.Root>
         <span>
           I agree to the <Link href="/terms">terms of use</Link> and the <Link href="/privacy">privacy policy</Link>,
-          and I&apos;m happy for Coldspot to publish my story.
+          and I&apos;m happy for Uncanny Map to publish my story.
         </span>
       </label>
     </>

@@ -3,27 +3,28 @@
  * The values must match src/styles/tokens.css; tokens.test.ts fails if they drift apart.
  */
 export const PALETTE = {
-  night: "#110e18",
-  night2: "#171322",
-  ink: "#ece5d6",
-  ink2: "#b4aabd",
-  muted: "#857c94",
+  night: "#0d0b14",
+  night2: "#15121d",
+  ink: "#e8e5dc",
+  ink2: "#aca8b6",
+  muted: "#8a8597",
+  phosphor: "#cdf3d4",
   ice: "#a9dceb",
   bone: "#e6dcc6",
 } as const;
 
-/** Colours only the globe uses, named for what they draw. Bone tints famous cases; ice tints people's stories. */
+/**
+ * Colours only the globe uses, named for what they draw. The globe is matte: no halo, a faint grid, and coastlines
+ * traced in faded phosphor, like glow paint on a ceiling. Only the markers give off light.
+ */
 export const GLOBE = {
-  haloFamous: "rgba(230, 220, 198, 0.12)",
-  haloPeople: "rgba(169, 220, 235, 0.14)",
-  haloEdge: "rgba(150, 120, 210, 0)",
-  oceanLight: "#1e1830",
-  oceanDark: "#0d0a14",
-  gridFamous: "rgba(230, 220, 198, 0.07)",
-  gridPeople: "rgba(236, 229, 214, 0.045)",
-  land: "#262036",
-  coast: "rgba(122, 108, 160, 0.55)",
-  rim: "rgba(197, 162, 238, 0.22)",
-  diamondEdge: "rgba(230, 220, 198, 0.55)",
-  label: "rgba(230, 220, 198, 0.72)",
+  shadow: "rgba(0, 0, 0, 0.55)",
+  oceanLight: "#16131f",
+  oceanDark: "#0b0a10",
+  grid: "rgba(232, 229, 220, 0.035)",
+  land: "#1c1926",
+  coast: "rgba(205, 243, 212, 0.2)",
+  rim: "rgba(205, 243, 212, 0.14)",
+  diamondEdge: "rgba(205, 243, 212, 0.5)",
+  label: "rgba(205, 243, 212, 0.7)",
 } as const;

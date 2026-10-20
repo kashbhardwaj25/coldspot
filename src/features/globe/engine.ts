@@ -150,7 +150,7 @@ export class GlobeEngine implements InputTarget {
     if (cam.dirty) {
       cam.dirty = false;
       cam.update();
-      drawGlobe(this.bctx, this.path, this.o.land, cam.frame, cam.radius, this.scene.famous);
+      drawGlobe(this.bctx, this.path, this.o.land, cam.frame, cam.radius);
       const c = cam.center();
       this.o.onCoords(formatCoords(c.lat, c.lon));
       this.scene.layout(cam);

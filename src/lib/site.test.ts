@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { isIndexable } from "./site";
 
 describe("isIndexable", () => {
-  it.each(["https://coldspot.in", "https://www.example.com/"])("indexes a real domain: %s", (url) => {
+  it.each(["https://uncannymap.com", "https://www.example.com/"])("indexes a real domain: %s", (url) => {
     expect(isIndexable(url)).toBe(true);
   });
 

@@ -6,6 +6,7 @@ import { useState, type CSSProperties, type KeyboardEvent } from "react";
 import { catColor } from "@/lib/format";
 import { itemKey, itemName, type MapItem, type Place } from "@/lib/types";
 import { searchItems } from "../search";
+import { Icon } from "@/components/brand";
 
 type Props = {
   title: string;
@@ -44,7 +45,7 @@ export function ListSheet({ title, items: all, places, placeFilter, onPick, onPi
       <h2 className="sr-only" id="sheetTitle">
         {title}
       </h2>
-      <div className="list-tabs" role="group" aria-label="View">
+      <div className="seg list-tabs" role="group" aria-label="View">
         <button type="button" aria-pressed={tab === "all"} onClick={() => setTab("all")}>
           List
         </button>
@@ -78,7 +79,7 @@ export function ListSheet({ title, items: all, places, placeFilter, onPick, onPi
               onClick={onClearPlace}
               aria-label={`Show everywhere, not just ${filterName}`}
             >
-              In {filterName} ✕
+              In {filterName} {Icon.close}
             </button>
           )}
           <div className="list-search">
@@ -113,7 +114,7 @@ export function ListSheet({ title, items: all, places, placeFilter, onPick, onPi
                   style={{ "--c": catColor(i.category) } as CSSProperties}
                   onClick={() => onPick(i)}
                 >
-                  <i />
+                  <i className={i.kind === "case" ? "d" : undefined} />
                   <b>{itemName(i)}</b>
                   <em>{i.kind === "case" ? i.dateLabel : (i.year ?? "")}</em>
                   <small>{i.kind === "case" ? i.region : i.hook}</small>

@@ -14,6 +14,7 @@ describe("tokens.ts matches tokens.css", () => {
   it.each([
     ["night", PALETTE.night],
     ["night-2", PALETTE.night2],
+    ["phosphor", PALETTE.phosphor],
     ["ink", PALETTE.ink],
     ["ink-2", PALETTE.ink2],
     ["muted", PALETTE.muted],

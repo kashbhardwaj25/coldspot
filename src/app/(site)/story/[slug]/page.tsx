@@ -39,14 +39,9 @@ export default async function StoryPage({ params }: Params) {
     <main className="page" style={{ "--tc": cat.color } as CSSProperties}>
       <PageTop mapHref={`/?story=${s.slug}`} />
       <article className="article">
-        <span className="tag">
-          <i />
-          {cat.label}
-          {s.isSample ? " · Sample story" : ""}
-        </span>
         <StoryArticle s={s} variant="page" lastField={["Echoes", s.echoes]}>
           <div className="links">
-            <ShareButton path={`/story/${s.slug}`} title={`${s.place}: a story on Coldspot`} text={s.hook} />
+            <ShareButton path={`/story/${s.slug}`} title={`${s.place}: a story on Uncanny Map`} text={s.hook} />
             {place && (
               <Link className="btn" href={place.path}>
                 More from {place.name}

@@ -5,7 +5,7 @@ import { env } from "@/lib/server/env";
 
 export const metadata: Metadata = {
   title: "Terms of use",
-  description: "The terms for using Coldspot and sharing stories on it, including permission to publish.",
+  description: "The terms for using Uncanny Map and sharing stories on it, including permission to publish.",
   alternates: { canonical: "/terms" },
 };
 

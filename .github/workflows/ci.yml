@@ -1,0 +1,39 @@
+# Checks every pull request and every push to main. Railway deploys main only after this passes
+# ("Wait for CI" in the Railway service settings), so a broken commit never reaches the site.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      HUSKY: "0"
+      NEXT_TELEMETRY_DISABLED: "1"
+      DATABASE_PATH: data/ci.db
+      # Placeholders so the build can render pages; nothing here is a real secret.
+      SESSION_SECRET: ci-only-secret-0123456789
+      NEXT_PUBLIC_SITE_URL: https://uncannymap.example
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      # `npm install`, not `npm ci`: the lockfile is written on macOS and misses some Linux-only optional
+      # packages, which `npm ci` rejects (same reason as in the Dockerfile).
+      - run: npm install --no-audit --no-fund
+      - name: Typecheck, lint, format and tests
+        run: npm run check
+      - name: Database for the build
+        run: npm run db:setup
+      - name: Production build
+        run: npm run build

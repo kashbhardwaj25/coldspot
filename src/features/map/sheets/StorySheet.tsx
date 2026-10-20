@@ -51,7 +51,7 @@ export function StorySheet({ s, echoState, setEchoState }: Props) {
         <Link className="btn" href={`/story/${s.slug}`}>
           Full page
         </Link>
-        <ShareButton path={`/story/${s.slug}`} title={`${s.place}: a story on Coldspot`} text={s.hook} />
+        <ShareButton path={`/story/${s.slug}`} title={`${s.place}: a story on Uncanny Map`} text={s.hook} />
         <ReportButton slug={s.slug} returnTo={`/?story=${s.slug}`} />
       </div>
     </StoryArticle>

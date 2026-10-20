@@ -3,7 +3,7 @@
  * Stored in this browser only, and cleared once the story is sent or after a day.
  */
 
-const KEY = "cs_share_draft";
+const KEY = "um_share_draft";
 const MAX_AGE = 24 * 60 * 60 * 1000;
 /** The query string the sign-in returns to, so the map reopens the share form. */
 export const RESUME_QUERY = "share=resume";

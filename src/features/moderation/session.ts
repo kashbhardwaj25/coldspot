@@ -7,7 +7,7 @@ import { env } from "@/lib/server/env";
 import { keyedHash } from "@/lib/server/security";
 
 const { adminSessions } = schema;
-const COOKIE = "cs_admin";
+const COOKIE = "um_admin";
 const MAX_AGE_S = 60 * 60 * 24 * 7;
 
 /** Changes whenever ADMIN_PASSWORD does, which ends every existing session. */

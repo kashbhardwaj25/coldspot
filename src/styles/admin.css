@@ -17,7 +17,7 @@
 .stats {
   display: flex;
   gap: 18px;
-  font-size: 12px;
+  font-size: var(--control-size);
   color: var(--muted);
 }
 .stats b {
@@ -26,7 +26,7 @@
 }
 .review {
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: var(--radius);
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
   background: var(--night-2);
 }
 .review .meta {
-  font-size: 11px;
+  font-size: var(--control-size);
 }
 .review-actions {
   display: flex;
@@ -47,7 +47,11 @@
   font-size: 17px;
 }
 .review .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
+  gap: 6px 10px;
 }
 .review .freq {
   white-space: normal;
@@ -65,10 +69,9 @@
   gap: 7px;
   height: 32px;
   padding: 0 12px;
-  border-radius: 16px;
+  border-radius: var(--radius);
   border: 1px solid var(--line);
-  font-size: 11.5px;
-  letter-spacing: 0.05em;
+  font-size: var(--control-size);
   color: var(--ink-2);
   text-decoration: none;
 }
@@ -78,12 +81,11 @@
   font-variant-numeric: tabular-nums;
 }
 .admin-tabs a[aria-current="page"] {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--night);
+  color: var(--phosphor);
+  border-color: var(--phosphor-dim);
 }
 .admin-tabs a[aria-current="page"] b {
-  color: var(--on-ink-muted);
+  color: var(--phosphor);
 }
 .admin-tabs a[data-attention] b {
   color: var(--danger);
@@ -111,9 +113,9 @@
 .report-summary {
   margin: 0;
   padding: 10px 14px 10px 30px;
-  border-radius: 10px;
+  border-radius: var(--radius);
   border: 1px solid var(--danger-line);
-  font-size: 11.5px;
+  font-size: var(--control-size);
   line-height: 1.7;
   color: var(--ink-2);
 }

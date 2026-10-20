@@ -24,7 +24,7 @@ export function Sheet(props: Props) {
   const current = sheet ?? shown;
 
   const tc = current?.type === "item" ? ({ "--tc": catColor(current.item.category) } as CSSProperties) : undefined;
-  const [head, body] = current ? renderSheet({ ...props, sheet: current }) : [null, null];
+  const body = current ? renderSheet({ ...props, sheet: current }) : null;
 
   return (
     <Drawer.Root
@@ -43,7 +43,7 @@ export function Sheet(props: Props) {
           <Drawer.Viewport className="sheet-viewport">
             <Drawer.Popup className="sheet" aria-labelledby="sheetTitle" style={tc}>
               <div className="sheet-head">
-                <span style={tc}>{head}</span>
+                <span className="grab" aria-hidden="true" />
                 <Drawer.Close render={<IconButton icon="close" label="Close" />} />
               </div>
               <Drawer.Content className="sheet-body">{body}</Drawer.Content>

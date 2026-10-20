@@ -1,6 +1,24 @@
 import type { ReactNode } from "react";
 
-export const Icon: Record<"plus" | "minus" | "close" | "share" | "sound" | "shuffle" | "list" | "user", ReactNode> = {
+export const Icon: Record<
+  "plus" | "minus" | "close" | "share" | "sound" | "shuffle" | "list" | "user" | "arrow" | "external" | "check",
+  ReactNode
+> = {
+  arrow: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <path d="M2.5 8h10.5M9.5 4.5 13 8l-3.5 3.5" />
+    </svg>
+  ),
+  external: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <path d="M5 11 11.5 4.5M6 4.5h5.5V10" />
+    </svg>
+  ),
+  check: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+      <path d="m3.5 8.5 3 3 6-7" />
+    </svg>
+  ),
   plus: (
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
       <path d="M8 3v10M3 8h10" />

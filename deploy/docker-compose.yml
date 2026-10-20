@@ -1,4 +1,4 @@
-# Coldspot on a single server: the app, Caddy in front (HTTPS once you have a domain) and, optionally,
+# Uncanny Map on a single server: the app, Caddy in front (HTTPS once you have a domain) and, optionally,
 # Litestream streaming the SQLite database to Cloudflare R2. See docs/DEPLOY.md.
 #   cd deploy && docker compose up -d --build                      # app + Caddy
 #   cd deploy && docker compose --profile backup up -d --build     # ... plus Litestream backups

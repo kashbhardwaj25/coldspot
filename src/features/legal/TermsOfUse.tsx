@@ -9,21 +9,21 @@ export function TermsOfUse({ email }: { email: string | null }) {
     <LegalPage title="Terms of use" updated={TERMS_UPDATED}>
       <div className="prose">
         <p>
-          These terms cover using Coldspot and sharing stories on it. By using the site you agree to them. They&apos;re
-          written in plain English; if anything is unclear, <Contact email={email} />.
+          These terms cover using Uncanny Map and sharing stories on it. By using the site you agree to them.
+          They&apos;re written in plain English; if anything is unclear, <Contact email={email} />.
         </p>
       </div>
-      <LegalSection title="What Coldspot is">
+      <LegalSection title="What Uncanny Map is">
         <p>
           Famous cases set out what witnesses reported and the explanations that have been offered, without taking a
           side. People&apos;s stories are personal accounts, shared in good faith and reviewed before they appear, but
-          not verified. Nothing on Coldspot is professional, medical or safety advice.
+          not verified. Nothing on Uncanny Map is professional, medical or safety advice.
         </p>
       </LegalSection>
       <LegalSection title="Your stories are yours">
         <p>You keep the rights to everything you write.</p>
         <p>
-          By sharing a story, you give Coldspot permission to publish it on the site, with your pen name or as
+          By sharing a story, you give Uncanny Map permission to publish it on the site, with your pen name or as
           Anonymous, and to show it in previews and in posts about the site on social media. This permission is
           worldwide, free and not exclusive: you can share your story anywhere else too.
         </p>
@@ -32,7 +32,7 @@ export function TermsOfUse({ email }: { email: string | null }) {
           details that break the rules below. We won&apos;t change what happened in your story.
         </p>
         <p>
-          If we ever want to use your story outside Coldspot, such as in a podcast, a book, a film or a narrated
+          If we ever want to use your story outside Uncanny Map, such as in a podcast, a book, a film or a narrated
           version, we&apos;ll ask you first, and offer you a share of what we earn from it. Nothing like that happens
           without your yes.
         </p>
@@ -63,9 +63,9 @@ export function TermsOfUse({ email }: { email: string | null }) {
       </LegalSection>
       <LegalSection title="Our responsibility">
         <p>
-          We work to keep Coldspot accurate, safe and available, but we provide it as it is, without guarantees. Stories
-          reflect their writers&apos; views, not ours. As far as the law allows, we aren&apos;t liable for losses that
-          come from using the site.
+          We work to keep Uncanny Map accurate, safe and available, but we provide it as it is, without guarantees.
+          Stories reflect their writers&apos; views, not ours. As far as the law allows, we aren&apos;t liable for
+          losses that come from using the site.
         </p>
       </LegalSection>
       <LegalSection title="Changes and the law">

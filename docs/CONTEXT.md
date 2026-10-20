@@ -1,14 +1,14 @@
-# Coldspot: product context
+# Uncanny Map: product context
 
 _Something happened here._
 
-This is the background for anyone, human or AI, working on Coldspot. It covers what the product is, who it's for, the decisions made so far and why. For engineering rules, see `AGENTS.md`.
+This is the background for anyone, human or AI, working on Uncanny Map. It covers what the product is, who it's for, the decisions made so far and why. For engineering rules, see `AGENTS.md`.
 
 ## What it is
 
-Coldspot is a website with a globe of unexplained encounters: UFOs and strange lights, visitors and figures, cryptids, voices, and places where something repeats. The interface borrows from **Radio Garden**. You drag the globe, and whatever lands inside the centre ring "tunes in" with a burst of static. The story's first line appears, and you tap it to read the rest.
+Uncanny Map is a website with a globe of unexplained encounters: UFOs and strange lights, visitors and figures, cryptids, voices, and places where something repeats. The interface borrows from **Radio Garden**. You drag the globe, and whatever lands inside the centre ring "tunes in" with a burst of static. The story's first line appears, and you tap it to read the rest.
 
-The name comes from the paranormal term _cold spot_, a patch of air where something is supposed to be present. It works as a map too: "find the cold spots near you."
+The name says what it is: a map of the uncanny, the strange and unexplained things people have seen and heard, placed where they happened. It was called Coldspot until October 2026; the name changed before launch because coldspot.org already belongs to a paranormal investigator and every Coldspot domain was taken (see the decisions log).
 
 ## Two modes
 
@@ -19,7 +19,7 @@ The name comes from the paranormal term _cold spot_, a patch of air where someth
 | Markers       | Diamonds, with labels when zoomed in                                          | Round dots                                                 |
 | Card          | Title, place, date, status (Unexplained, Disputed, Explained)                 | Place, year, time, witnesses, echoes                       |
 | Detail        | Case file: what was reported, explanations offered, fields, link to Wikipedia | Story, fields, echo button                                 |
-| Accent colour | Bone (#E6DCC6)                                                                | Ice (#A9DCEB)                                              |
+| Accent colour | Phosphor (#CDF3D4), shared by both modes; the modes differ by marker shape    | Phosphor (#CDF3D4)                                         |
 
 Each case file has a "People's stories near here" button that switches modes and flies to that spot. That's how the two halves send people to each other.
 
@@ -47,11 +47,12 @@ Everything outside those moments uses plain English, so first-time users never h
 
 ## Brand
 
-- **Name:** Coldspot. Wordmark in capitals: COLDSPOT.
+- **Name:** Uncanny Map. Wordmark in capitals: UNCANNY MAP. Domain: uncannymap.com.
 - **Tagline:** Something happened here.
-- **Logo:** concentric rings, like a cold patch on a thermal camera.
+- **Logo:** an eyeball that turns to follow the pointer (it holds still with reduced motion).
 - **Tone:** campfire, not jump scare. It's eerie, calm and literate, with no gore and no red-and-black horror styling. That's what sets it apart from ghost-detector apps.
-- **Palette:** deep violet night (#110E18), ink (#ECE5D6), ice (#A9DCEB) for the brand, bone (#E6DCC6) for famous cases, ember (#E9B45E) for disputed cases. Category colours are sky #86BCE8, visitors #C5A2EE, creatures #92C99A, voices #E9B45E and places #E3836A.
+- **Look:** a glow-in-the-dark ceiling after lights-out. Surfaces are matte and unlit; the only light is phosphor. The story in the ring glows fully, and the ones you've passed keep a fading afterglow. Details in `DESIGN.md`.
+- **Palette:** night (#0D0B14), ink (#E8E5DC), phosphor (#CDF3D4) as the one emitted light. Category colours are sky #86BCE8, visitors #C5A2EE, creatures #92C99A, voices #E9B45E and places #E3836A.
 - **Type:** Newsreader for story text and titles, IBM Plex Mono for interface labels.
 
 ## Content and safety rules
@@ -107,27 +108,29 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 
 ## Decisions log
 
-| Date       | Decision                                                                                       |
-| ---------- | ---------------------------------------------------------------------------------------------- |
-| 2026-09-27 | Build a crowd-sourced map of unexplained encounters (UFOs, visitors, cryptids, voices, places) |
-| 2026-09-27 | Radio Garden-style interface: drag the globe, tune in at the ring                              |
-| 2026-09-27 | English only (no Hinglish)                                                                     |
-| 2026-09-27 | Two modes: Famous cases and People's stories                                                   |
-| 2026-09-27 | Echoes replace "I've heard this too"                                                           |
-| 2026-09-27 | No YouTube channel tie-in; the product stands on its own                                       |
-| 2026-09-28 | Name: Coldspot (was Otherwave). Tagline: "Something happened here."                            |
-| 2026-09-28 | Website first, app later                                                                       |
-| 2026-09-28 | Stack: Next.js + SQLite, own backend, admin inside the app                                     |
-| 2026-10-18 | Host on Railway behind Cloudflare; the VPS setup stays documented as a fallback                |
-| 2026-10-18 | Every story is reviewed by hand. Automatic approval was considered and rejected                |
-| 2026-10-18 | Sharing and echoing need Google sign-in; reading doesn't. Stories show a pen name or Anonymous |
-| 2026-10-18 | Narration removed from the product for now; it may return later with a season pass             |
+| Date       | Decision                                                                                                                               |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-09-27 | Build a crowd-sourced map of unexplained encounters (UFOs, visitors, cryptids, voices, places)                                         |
+| 2026-09-27 | Radio Garden-style interface: drag the globe, tune in at the ring                                                                      |
+| 2026-09-27 | English only (no Hinglish)                                                                                                             |
+| 2026-09-27 | Two modes: Famous cases and People's stories                                                                                           |
+| 2026-09-27 | Echoes replace "I've heard this too"                                                                                                   |
+| 2026-09-27 | No YouTube channel tie-in; the product stands on its own                                                                               |
+| 2026-09-28 | Name: Coldspot (was Otherwave). Tagline: "Something happened here."                                                                    |
+| 2026-10-19 | Renamed to Uncanny Map (uncannymap.com): coldspot.org is a paranormal investigator's site and coldspot.com/.in/.co/.app were all taken |
+| 2026-10-20 | Redesign: the "Glow Ceiling" look (matte night, phosphor light, afterglow on the globe); logo, fonts and category colours kept         |
+| 2026-09-28 | Website first, app later                                                                                                               |
+| 2026-09-28 | Stack: Next.js + SQLite, own backend, admin inside the app                                                                             |
+| 2026-10-18 | Host on Railway behind Cloudflare; the VPS setup stays documented as a fallback                                                        |
+| 2026-10-18 | Every story is reviewed by hand. Automatic approval was considered and rejected                                                        |
+| 2026-10-18 | Sharing and echoing need Google sign-in; reading doesn't. Stories show a pen name or Anonymous                                         |
+| 2026-10-18 | Narration removed from the product for now; it may return later with a season pass                                                     |
 
 ## Open questions
 
 - How narration gets made: recorded ourselves, voice artists paid per story, or AI voices
 - Pricing and exactly what the season pass includes
-- Trademark and domain checks for "Coldspot" (India classes 9 and 41; .com, .app, .in and social handles)
+- Trademark checks for "Uncanny Map" (India classes 9 and 41, and the US), and social handles
 - A way to place the pin inside the share form, instead of closing it and dragging the map
 - When to replace the sample stories with real seeded ones
 

@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { CATEGORIES } from "@/lib/categories";
 import type { CaseSummary, MapItem, Mode, Place } from "@/lib/types";
 import type { EchoState, MapData, SetEchoState, SheetState } from "../state";
 import { CaseSheet } from "./CaseSheet";
@@ -23,20 +22,13 @@ export type SheetContext = {
 
 type Type = SheetState["type"];
 type Ctx<T extends Type> = SheetContext & { sheet: Extract<SheetState, { type: T }> };
-type Entry<T extends Type> = { head: (c: Ctx<T>) => ReactNode; body: (c: Ctx<T>) => ReactNode };
+type Entry<T extends Type> = { body: (c: Ctx<T>) => ReactNode };
 
 const listTitle = (mode: Mode) => (mode === "famous" ? "Famous cases" : "People's stories");
 
-/** Each kind of sheet: the label in its header and its body. Add a sheet type here and in SheetState. */
+/** Each kind of sheet and its body. Add a sheet type here and in SheetState. */
 const SHEETS: { [T in Type]: Entry<T> } = {
   item: {
-    head: ({ sheet: { item } }) => (
-      <span className="tag">
-        <i className={item.kind === "case" ? "d" : undefined} />
-        {CATEGORIES[item.category].label}
-        {item.kind === "case" ? " · Case file" : item.isSample ? " · Sample story" : ""}
-      </span>
-    ),
     body: ({ sheet: { item }, ...c }) =>
       item.kind === "case" ? (
         <CaseSheet c={item} stories={c.data.stories} onNearby={c.onNearbyStories} />
@@ -45,7 +37,6 @@ const SHEETS: { [T in Type]: Entry<T> } = {
       ),
   },
   list: {
-    head: (c) => <span className="tag">{listTitle(c.mode)}</span>,
     body: (c) => (
       <ListSheet
         title={listTitle(c.mode)}
@@ -59,7 +50,6 @@ const SHEETS: { [T in Type]: Entry<T> } = {
     ),
   },
   share: {
-    head: () => <span className="tag">Share a story</span>,
     body: ({ sheet, ...c }) => (
       <ShareSheet
         center={sheet.center}
@@ -72,8 +62,8 @@ const SHEETS: { [T in Type]: Entry<T> } = {
   },
 };
 
-/** The header label and body for whichever sheet is open. */
-export function renderSheet<T extends Type>(c: Ctx<T>): [head: ReactNode, body: ReactNode] {
+/** The body of whichever sheet is open. */
+export function renderSheet<T extends Type>(c: Ctx<T>): ReactNode {
   const entry = SHEETS[c.sheet.type] as Entry<T>;
-  return [entry.head(c), entry.body(c)];
+  return entry.body(c);
 }
