@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { itemKey } from "@/lib/types";
 import { MapHeader } from "./MapHeader";
 import { MapStage } from "./MapStage";
 import { ZoomControls } from "./parts";
@@ -46,6 +47,7 @@ export default function UncannyMapApp({ data }: Props) {
           nearest={map.nearest}
           coords={map.coords}
           echoes={tuned?.kind === "story" ? map.echoState[tuned.slug]?.echoes : undefined}
+          read={tuned ? map.read.has(itemKey(tuned)) : false}
           onOpen={actions.openItem}
         />
       </div>

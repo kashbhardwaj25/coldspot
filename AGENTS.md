@@ -64,6 +64,7 @@ src/features/
     useGlobe.ts                  creates the GlobeEngine, deep links, ring layout, marker mapping
     useEchoes.ts useSound.ts     echo state; Radio and the sound toggle
     useCaseFile.ts search.ts     load a case file on open (prefetched on tune-in); list search
+    logbook.ts useLogbook.ts     cases and stories opened in this browser (localStorage); the tuner card marks them read
     towns.ts                     town search for the share form: loads public/towns.json on first use, ranks matches
     useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
     state.ts                     SheetState, EchoState

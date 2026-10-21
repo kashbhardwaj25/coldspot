@@ -15,16 +15,21 @@ type Props = {
   coords: Signal<string>;
   /** Live echo count for a tuned story. */
   echoes?: number;
+  /** Already opened in this browser. */
+  read: boolean;
   onOpen: (item: MapItem) => void;
 };
 
 /** What's tuned in, under the ring: its title lit up, or unlit between stations. */
-export function TunerCard({ item, nearest, coords, echoes, onOpen }: Props) {
+export function TunerCard({ item, nearest, coords, echoes, read, onOpen }: Props) {
   if (!item) return <Searching nearest={nearest} coords={coords} />;
   // Keyed, so the title charges up again each time something new tunes in.
-  if (item.kind === "case") return <CaseCard key={item.slug} item={item} coords={coords} onOpen={onOpen} />;
-  return <StoryCard key={item.slug} item={item} echoes={echoes ?? item.echoes} onOpen={onOpen} coords={coords} />;
+  if (item.kind === "case") return <CaseCard key={item.slug} {...{ item, coords, read, onOpen }} />;
+  return <StoryCard key={item.slug} {...{ item, coords, read, onOpen }} echoes={echoes ?? item.echoes} />;
 }
+
+/** Marks a case or story you've opened before. */
+const ReadTag = () => <span className="read-tag">{Icon.check}Read</span>;
 
 function Searching({ nearest, coords }: { nearest: MapItem | null; coords: Signal<string> }) {
   return (
@@ -39,9 +44,9 @@ function Searching({ nearest, coords }: { nearest: MapItem | null; coords: Signa
   );
 }
 
-type CardProps<T> = { item: T; coords: Signal<string>; onOpen: (item: MapItem) => void };
+type CardProps<T> = { item: T; coords: Signal<string>; read: boolean; onOpen: (item: MapItem) => void };
 
-function CaseCard({ item, coords, onOpen }: CardProps<CaseSummary>) {
+function CaseCard({ item, coords, read, onOpen }: CardProps<CaseSummary>) {
   const cat = CATEGORIES[item.category];
   // Fetch the full case file as soon as a case tunes in, so it's usually ready before it's opened.
   useEffect(() => {
@@ -59,6 +64,7 @@ function CaseCard({ item, coords, onOpen }: CardProps<CaseSummary>) {
         <span className={`pill ${item.status}`}>{caseStatusLabel(item)}</span>
         <span>{item.region}</span>
         <span>{item.dateLabel}</span>
+        {read && <ReadTag />}
       </div>
       <div className="tuned-foot">
         <button type="button" className="read" onClick={() => onOpen(item)}>
@@ -73,7 +79,7 @@ function CaseCard({ item, coords, onOpen }: CardProps<CaseSummary>) {
 const witnessLabel = (w: string | null) =>
   w && /^\d+\+?$/.test(w) ? `${w} ${w === "1" ? "witness" : "witnesses"}` : w;
 
-function StoryCard({ item, coords, echoes, onOpen }: CardProps<StoryItem> & { echoes: number }) {
+function StoryCard({ item, coords, echoes, read, onOpen }: CardProps<StoryItem> & { echoes: number }) {
   const cat = CATEGORIES[item.category];
   const w = witnessLabel(item.witnesses);
   return (
@@ -92,6 +98,7 @@ function StoryCard({ item, coords, echoes, onOpen }: CardProps<StoryItem> & { ec
         <span>
           {echoes} {echoes === 1 ? "echo" : "echoes"}
         </span>
+        {read && <ReadTag />}
       </div>
       <div className="tuned-foot">
         <button type="button" className="read" onClick={() => onOpen(item)}>

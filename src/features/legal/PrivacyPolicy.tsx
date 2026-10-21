@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Contact, LegalPage, LegalSection } from "./Legal";
 
-export const PRIVACY_UPDATED = "18 October 2026";
+export const PRIVACY_UPDATED = "21 October 2026";
 
 /** What Uncanny Map collects and why, written to match what the code actually does. */
 export function PrivacyPolicy({ email }: { email: string | null }) {
@@ -17,6 +17,10 @@ export function PrivacyPolicy({ email }: { email: string | null }) {
         <p>
           Reading needs no account and sets no tracking cookies. If analytics are switched on, we use Cloudflare Web
           Analytics, which counts visits without cookies and without identifying you.
+        </p>
+        <p>
+          The cases and stories you open are remembered in your own browser, so they&apos;re marked as read when you
+          come back. That list never leaves your device; clearing your browser&apos;s site data deletes it.
         </p>
       </LegalSection>
       <LegalSection title="When you sign in">

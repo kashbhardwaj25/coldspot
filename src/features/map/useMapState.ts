@@ -5,6 +5,7 @@ import { itemKey, type MapItem, type Mode } from "@/lib/types";
 import type { MapData, SheetState } from "./state";
 import { useEchoes } from "./useEchoes";
 import { allCategories, toMarkers, useGlobe } from "./useGlobe";
+import { useLogbook } from "./useLogbook";
 import { useMapActions } from "./useMapActions";
 import { useSound } from "./useSound";
 
@@ -24,10 +25,16 @@ export function useMapState(data: MapData) {
   const [coords] = useState(() => signal(""));
   const [echoState, setEchoState] = useEchoes(stories);
   const sound = useSound();
+  const logbook = useLogbook();
 
   const byKey = new Map<string, MapItem>([...cases, ...stories].map((i) => [itemKey(i), i]));
   const itemsFor = (m: Mode): MapItem[] => (m === "famous" ? cases : stories);
   const lookup = (key: string | null) => (key ? (byKey.get(key) ?? null) : null);
+  /** Opening a case file or story marks it read, so the card can say so next time it tunes in. */
+  const openItem = (item: MapItem) => {
+    setSheet({ type: "item", item });
+    logbook.markRead(itemKey(item));
+  };
 
   const globe = useGlobe(
     sound.radio,
@@ -45,7 +52,7 @@ export function useMapState(data: MapData) {
       onInteract: () => setHintHidden(true),
       onOpenTuned: (key) => {
         const item = byKey.get(key);
-        if (item) setSheet({ type: "item", item });
+        if (item) openItem(item);
       },
     },
   );
@@ -80,6 +87,7 @@ export function useMapState(data: MapData) {
     mode,
     active,
     items: modeItems,
+    read: logbook.read,
     tuned: lookup(tunedKey),
     nearest: lookup(nearestKey),
     sheet,
@@ -105,7 +113,7 @@ export function useMapState(data: MapData) {
           else if (next.size > 1) next.delete(c);
           return next;
         }),
-      openItem: (item: MapItem) => setSheet({ type: "item", item }),
+      openItem,
       openList: () => setSheet({ type: "list" }),
       closeSheet: () => setSheet(null),
       clearPlace: () => setPlaceFilter(null),
