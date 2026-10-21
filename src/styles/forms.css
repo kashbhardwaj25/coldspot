@@ -57,6 +57,37 @@
   color: var(--muted);
   line-height: 1.5;
 }
+/* A question to start from, above the story box: quiet, in the story's serif, so it reads as a suggestion. */
+.story-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 12px 14px;
+  border-left: 2px solid var(--phosphor-dim);
+  background: var(--plate);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.story-prompt p {
+  margin: 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.story-prompt .link-btn {
+  padding: 0;
+}
+.story-prompt span {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--mono);
+  font-style: normal;
+  font-size: var(--control-size);
+  color: var(--muted);
+}
+
 .hp {
   position: absolute;
   left: -9999px;

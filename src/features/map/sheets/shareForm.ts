@@ -16,6 +16,8 @@ export type FieldConfig =
       required?: boolean;
       inputMode?: "numeric";
       description?: string;
+      /** Show a writing prompt above it (the story box). */
+      prompts?: boolean;
     };
 
 /**
@@ -55,6 +57,7 @@ export const SHARE_FORM: FieldConfig[][] = [
       maxLength: 6000,
       required: true,
       description: "Leave a blank line between paragraphs.",
+      prompts: true,
     },
   ],
   [

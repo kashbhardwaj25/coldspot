@@ -1,10 +1,12 @@
 import { Checkbox } from "@base-ui/react/checkbox";
 import Link from "next/link";
+import { Fragment } from "react";
 import { SelectField } from "@/components/ui/SelectField";
 import { TextArea, TextField } from "@/components/ui/TextField";
 import type { ShareDraft } from "@/features/stories/draft";
 import type { Town } from "../towns";
 import { SHARE_FORM, type FieldConfig } from "./shareForm";
+import { StoryPrompt } from "./StoryPrompt";
 import { TownField } from "./TownField";
 import { Icon } from "@/components/brand";
 
@@ -21,11 +23,16 @@ export function ShareFields({ draft, onPickTown }: Props) {
       case "town":
         return <TownField key={f.name} defaultValue={value} onPick={onPickTown} />;
       case "textarea": {
-        const { kind: _kind, ...props } = f;
-        return <TextArea key={f.name} {...props} defaultValue={value} />;
+        const { kind: _kind, prompts, ...props } = f;
+        return (
+          <Fragment key={f.name}>
+            {prompts && <StoryPrompt />}
+            <TextArea {...props} defaultValue={value} />
+          </Fragment>
+        );
       }
       case "text": {
-        const { kind: _kind, ...props } = f;
+        const { kind: _kind, prompts: _prompts, ...props } = f;
         return <TextField key={f.name} {...props} defaultValue={value} />;
       }
     }
