@@ -9,35 +9,46 @@ import { caseStatusLabel } from "@/lib/format";
 import { haversineKm } from "@/lib/geo";
 import type { CaseSummary, StoryItem } from "@/lib/types";
 import { useCaseFile } from "../useCaseFile";
+import { RelatedCases } from "./RelatedCases";
 
 /** Stories within this distance count as "near" a famous case. */
 const NEARBY_KM = 800;
 
-type Props = { c: CaseSummary; stories: StoryItem[]; onNearby: (c: CaseSummary) => void };
+type Props = {
+  c: CaseSummary;
+  /** Every famous case, to suggest where to go next. */
+  cases: CaseSummary[];
+  stories: StoryItem[];
+  onNearby: (c: CaseSummary) => void;
+  onPick: (c: CaseSummary) => void;
+};
 
-/** Case file in a sheet, loaded on open, with a way across to people's stories near it. */
-export function CaseSheet({ c, stories, onNearby }: Props) {
+/** Case file in a sheet, loaded on open, with a way across to people's stories near it and cases to try next. */
+export function CaseSheet({ c, cases, stories, onNearby, onPick }: Props) {
   const file = useCaseFile(c);
   if (file === "loading" || file === "error") return <Opening c={c} failed={file === "error"} />;
   const nearby = stories.filter((s) => haversineKm(s.lat, s.lon, c.lat, c.lon) < NEARBY_KM).length;
   return (
-    <CaseArticle
-      c={file}
-      variant="sheet"
-      actions={
-        <>
-          {STORIES_ENABLED && (
-            <button type="button" className="btn" onClick={() => onNearby(c)}>
-              {nearby ? `People's stories near here · ${nearby}` : "Look for people's stories near here"}
-            </button>
-          )}
-          <Link className="btn" href={`/case/${c.slug}`}>
-            Full page
-          </Link>
-          <ShareButton path={`/case/${c.slug}`} title={c.title} text={c.hook} />
-        </>
-      }
-    />
+    <>
+      <CaseArticle
+        c={file}
+        variant="sheet"
+        actions={
+          <>
+            {STORIES_ENABLED && (
+              <button type="button" className="btn" onClick={() => onNearby(c)}>
+                {nearby ? `People's stories near here · ${nearby}` : "Look for people's stories near here"}
+              </button>
+            )}
+            <Link className="btn" href={`/case/${c.slug}`}>
+              Full page
+            </Link>
+            <ShareButton path={`/case/${c.slug}`} title={c.title} text={c.hook} />
+          </>
+        }
+      />
+      <RelatedCases c={c} cases={cases} onPick={onPick} />
+    </>
   );
 }
 

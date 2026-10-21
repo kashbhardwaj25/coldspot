@@ -68,7 +68,7 @@ src/features/
     towns.ts                     town search for the share form: loads public/towns.json on first use, ranks matches
     useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
     state.ts                     SheetState, EchoState
-    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet, StorySheet, ListSheet, ShareSheet (+ useShareForm), ShareFields (renders SHARE_FORM from shareForm.ts), TownField (Base UI Autocomplete), PinPicker (+ usePinPicker: a second GlobeEngine, famous cases as landmarks, no snapping); registry.tsx maps each sheet type to its header and body
+    sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet (ends with RelatedCases, which open in place), StorySheet, ListSheet, ShareSheet (+ useShareForm), ShareFields (renders SHARE_FORM from shareForm.ts), TownField (Base UI Autocomplete), PinPicker (+ usePinPicker: a second GlobeEngine, famous cases as landmarks, no snapping); registry.tsx maps each sheet type to its header and body
   globe/                         framework-free canvas globe (no React, no Next)
     engine.ts                    GlobeEngine: public API, frame loop, input handling
     scene.ts                     the markers: items, declutter, visibility, tuning, drawing them each frame

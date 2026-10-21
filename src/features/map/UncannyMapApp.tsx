@@ -61,6 +61,7 @@ export default function UncannyMapApp({ data }: Props) {
         setEchoState={map.setEchoState}
         onClose={actions.closeSheet}
         onPick={actions.pickFromList}
+        onOpenNext={actions.openNext}
         onPickPlace={actions.goToPlace}
         onClearPlace={actions.clearPlace}
         onNearbyStories={actions.nearbyStories}

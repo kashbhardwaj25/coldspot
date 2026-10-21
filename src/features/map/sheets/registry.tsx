@@ -15,6 +15,7 @@ export type SheetContext = {
   setEchoState: SetEchoState;
   onClose: () => void;
   onPick: (item: MapItem) => void;
+  onOpenNext: (item: MapItem) => void;
   onPickPlace: (place: Place) => void;
   onClearPlace: () => void;
   onNearbyStories: (c: CaseSummary) => void;
@@ -31,7 +32,13 @@ const SHEETS: { [T in Type]: Entry<T> } = {
   item: {
     body: ({ sheet: { item }, ...c }) =>
       item.kind === "case" ? (
-        <CaseSheet c={item} stories={c.data.stories} onNearby={c.onNearbyStories} />
+        <CaseSheet
+          c={item}
+          cases={c.data.cases}
+          stories={c.data.stories}
+          onNearby={c.onNearbyStories}
+          onPick={c.onOpenNext}
+        />
       ) : (
         <StorySheet s={item} echoState={c.echoState} setEchoState={c.setEchoState} />
       ),

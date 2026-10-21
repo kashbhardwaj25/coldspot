@@ -50,7 +50,7 @@ export class Scene {
   layout(cam: Camera) {
     const shown = this.declutter.select(this.items, cam.radius, [this.pinned, this.tuner.key]);
     this.visible = findVisible(shown, cam.projection, cam.target, { x: cam.frame.CX, y: cam.frame.CY });
-    this.tuner.update(this.visible);
+    this.tuner.update(this.visible, this.pinned);
   }
 
   /** Every frame: charge and fade the markers, then draw them. Labels only for famous cases zoomed in. */

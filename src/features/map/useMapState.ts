@@ -114,6 +114,12 @@ export function useMapState(data: MapData) {
           return next;
         }),
       openItem,
+      /** From the end of a case file: open the next one in the sheet, and fly the globe there behind it. */
+      openNext: (item: MapItem) => {
+        engine.current?.pin(itemKey(item));
+        engine.current?.flyTo(item.lon, item.lat);
+        openItem(item);
+      },
       openList: () => setSheet({ type: "list" }),
       closeSheet: () => setSheet(null),
       clearPlace: () => setPlaceFilter(null),

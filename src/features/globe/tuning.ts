@@ -38,8 +38,15 @@ export function findVisible(
   return out.sort((a, b) => a.d - b.d);
 }
 
-/** Which item should be tuned in, keeping the current one until it leaves the wider radius. */
-function nextTuned(visible: Visible[], current: string | null): string | null {
+/**
+ * Which item should be tuned in, keeping the current one until it leaves the wider radius. An item flown to on
+ * purpose (`pinned`) wins once it's in the ring, even over a neighbour that's still tuned in.
+ */
+function nextTuned(visible: Visible[], current: string | null, pinned: string | null): string | null {
+  if (pinned && pinned !== current) {
+    const pin = visible.find((v) => v.item.key === pinned);
+    if (pin && pin.d <= TUNE_IN) return pinned;
+  }
   if (current) {
     const cur = visible.find((v) => v.item.key === current);
     if (cur && cur.d <= TUNE_OUT) return current;
@@ -61,8 +68,8 @@ export class Tuner {
 
   constructor(private events: TunerEvents) {}
 
-  update(visible: Visible[]) {
-    const next = nextTuned(visible, this.key);
+  update(visible: Visible[], pinned: string | null = null) {
+    const next = nextTuned(visible, this.key, pinned);
     if (next !== this.key) {
       this.key = next;
       this.events.onTune(next);

@@ -62,6 +62,15 @@ describe("Tuner", () => {
     expect(onTune).toHaveBeenLastCalledWith(null);
   });
 
+  it("switches to an item flown to on purpose once it's in the ring, even while a neighbour holds on", () => {
+    const { tuner } = setup();
+    tuner.update([at("a", 5)]);
+    tuner.update([at("b", 15), at("a", 20)], "b");
+    expect(tuner.key).toBe("b");
+    tuner.update([at("a", 20), at("b", 25)], "b");
+    expect(tuner.key).toBe("b");
+  });
+
   it("reports the nearest item only when it changes", () => {
     const { tuner, onNearest } = setup();
     tuner.update([at("a", 100)]);
