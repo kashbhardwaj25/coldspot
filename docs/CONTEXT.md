@@ -15,7 +15,7 @@ The name says what it is: a map of the uncanny, the strange and unexplained thin
 |               | Famous cases                                                                  | People's stories                                           |
 | ------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Content       | Real, widely reported incidents, curated by us                                | Encounters submitted by people, reviewed before publishing |
-| Opens on      | A zoomed-out globe centred on Kutch                                           | India, zoomed in                                           |
+| Opens on      | A case that happened on this day, or a zoomed-out globe                       | Zoomed in (default views: `VIEWS` in `useGlobe.ts`)        |
 | Markers       | Diamonds, with labels when zoomed in                                          | Round dots                                                 |
 | Card          | Title, place, date, status (Unexplained, Disputed, Explained)                 | Place, year, time, witnesses, echoes                       |
 | Detail        | Case file: what was reported, explanations offered, fields, link to Wikipedia | Story, fields, echo button                                 |
@@ -28,8 +28,8 @@ Each case file has a "People's stories near here" button that switches modes and
 ## Who it's for
 
 - People who love unexplained stories: readers of r/Paranormal and r/HighStrangeness, and listeners of story podcasts. Mostly 18–34.
-- India first, but English-only, so it can reach a global audience from day one.
-- Built for mobile first. Most Indian users are on mid-range Android phones.
+- An international audience from day one, in English. Cases and stories come from every part of the world.
+- Built for mobile first. Many visitors are on mid-range Android phones.
 
 ## Vocabulary
 
@@ -77,7 +77,7 @@ Spam protection, in layers:
 - **HauntMap:** haunted places in the UK and US. Free, with user submissions.
 - Smaller apps: Haunted Places Near Me, Cryptid Coordinates, The Haunted Map Project.
 
-None of them combine all categories, stories rather than database entries, the tuning interface, and an India-first focus. Their existence shows there's demand for this kind of product.
+None of them combine all categories, stories rather than database entries, the tuning interface, and worldwide coverage. Their existence shows there's demand for this kind of product.
 
 ## Making money (realistic)
 
@@ -94,7 +94,7 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 
 1. **Search traffic:** every case and story is its own page. People already search for "Chir Batti", "Jatinga birds" and "Magnetic Hill Ladakh", and pages for places ("strange encounters near Dehradun") add up over time.
 2. **Short screen recordings** of the app for Reels and Shorts: the static, a story tuning in, a flight across the globe.
-3. **Communities:** r/Paranormal, r/HighStrangeness, r/Glitch_in_the_Matrix, r/Thetruthishere and Indian city subreddits. The framing is "I built a map for these, add yours", not an ad.
+3. **Communities:** r/Paranormal, r/HighStrangeness, r/Glitch_in_the_Matrix, r/Thetruthishere and city subreddits. The framing is "I built a map for these, add yours", not an ad.
 4. **Launch coverage:** the pitch is "Radio Garden for the unexplained", aimed at Product Hunt, tech blogs and design newsletters.
 
 **First test:** launch with the famous cases plus 30–50 seeded stories, and share it in a few places. If strangers aren't submitting stories on their own after a month, focus on the famous cases and search pages.

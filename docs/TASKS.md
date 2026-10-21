@@ -109,7 +109,7 @@ Tasks:
 
 - [ ] Trademark and domain checks for "Uncanny Map" (India classes 9 and 41; .com, .app, .in; social handles).
 - [ ] Short screen recordings for Reels and Shorts: the static, a story tuning in, a flight across the globe.
-- [ ] Posts in r/Paranormal, r/HighStrangeness, r/Thetruthishere and Indian city subreddits, and a Product Hunt launch.
+- [ ] Posts in r/Paranormal, r/HighStrangeness, r/Thetruthishere and city subreddits, and a Product Hunt launch.
 - [ ] One-month check: if strangers aren't submitting stories on their own, focus on the famous cases and search pages.
 
 ## Later
