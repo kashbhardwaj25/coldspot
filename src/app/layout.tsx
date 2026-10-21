@@ -24,6 +24,8 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   openGraph: { siteName: "Uncanny Map", type: "website" },
   twitter: { card: "summary_large_image" },
+  // Added to an iPhone home screen, it opens full screen with a dark status bar above the page.
+  appleWebApp: { capable: true, title: "Uncanny Map", statusBarStyle: "black" },
   robots: isIndexable(env.NEXT_PUBLIC_SITE_URL) ? undefined : { index: false, follow: false },
 };
 

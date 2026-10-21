@@ -53,7 +53,7 @@ src/app/                         routes only
   (site)/story/[slug]/page.tsx   pre-rendered page per approved story (SEO)
   admin/layout.tsx               admin shell (brand, sign out)
   admin/page.tsx                 stories by status (?tab=): waiting, published, hidden by reports, rejected; checks isAdmin() itself
-  layout.tsx not-found.tsx sitemap.ts robots.ts globals.css (imports src/styles/*)
+  layout.tsx not-found.tsx sitemap.ts robots.ts manifest.ts globals.css (imports src/styles/*)
 src/features/
   map/                           the map screen (client)
     UncannyMapApp.tsx MapStage.tsx renders the map screen from useMapState; the canvases and ring
