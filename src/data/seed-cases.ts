@@ -547,16 +547,18 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     "region": "Alwar district, Rajasthan, India",
     "lat": 27.1,
     "lon": 76.29,
-    "dateLabel": "Ruined town from the 1600s",
+    "dateLabel": "Founded 1573, empty by the late 1700s",
     "status": "explained",
     "statusLabel": "Mostly explained",
     "witnesses": "Visitors and villagers",
     "hook": "A government sign at the gate of a ruined Rajasthan fort forbids anyone from entering after sunset.",
     "summary": [
-      "Bhangarh is a ruined fort and town at the edge of the Sariska Tiger Reserve, built in the late 16th or early 17th century. Its bazaars, temples and palace walls still stand, but the town has been empty for centuries.",
-      "Two legends explain its fall. In one, a sorcerer named Singhia fell for the princess Ratnavati and cursed the town when his spell failed. In the other, a holy man allowed the town to be built on condition that its buildings never cast a shadow on his retreat. The Archaeological Survey of India's sign banning entry between sunset and sunrise has made the legends famous."
+      "Bhangarh, at the edge of the Sariska Tiger Reserve, was founded in 1573 by Raja Bhagwant Das of Amber for his son Madho Singh. Its bazaar, temples, gateways and the palace at the top of the town still stand, but no one has lived inside its walls for more than two centuries.",
+      "Two legends explain why. In the first, a sorcerer named Singhia fell for the princess Ratnavati and enchanted a bottle of oil so that she would love him. She saw through the trick and poured the oil onto a boulder, which rolled down the hill and crushed him. As he died, he cursed Bhangarh so that no one would ever live there again, and the town fell soon after.",
+      "In the second, an ascetic called Guru Balu Nath allowed the town to be built on one condition: no building could ever cast a shadow on his retreat. When a later ruler raised the palace too high, its shadow fell across the retreat, and the town was doomed.",
+      "Visitors and villagers tell of footsteps and voices in the empty palace and of feeling watched among the ruins. The Archaeological Survey of India's sign at the gate, which forbids entry between sunset and sunrise, is often taken as proof that something is wrong there."
     ],
-    "explanation": "The Archaeological Survey of India puts up similar rules at many protected sites. At Bhangarh, the reasons are practical: crumbling ruins, no lighting and wildlife from the nearby reserve. Historians link the town's decline to ordinary causes, including the shifting fortunes of its rulers and famine.",
+    "explanation": "The Archaeological Survey of India puts up similar rules at many protected monuments. At Bhangarh the reasons are practical: crumbling walls, no lighting, and leopards and other animals from the nearby reserve. Historians trace the town's decline to ordinary causes: Madho Singh's successors lost power, Jai Singh II of Amber took the town over in 1720, and a severe famine in 1783 emptied what was left.",
     "wiki": "Bhangarh Fort"
   },
   {
