@@ -6,6 +6,9 @@ export class Radio {
   private ctx: AudioContext | null = null;
   private hiss: GainNode | null = null;
   private drone: GainNode | null = null;
+  /** The last view, so switching on or off takes effect at once, not on the next drag. */
+  private nearest = 999;
+  private tuned = false;
   on = false;
 
   private init(): AudioContext {
@@ -55,16 +58,27 @@ export class Radio {
     const ctx = this.ctx ?? this.init();
     if (ctx.state === "suspended") await ctx.resume();
     this.on = !this.on;
+    // Clear a burst still ramping, or it would carry on after the sound is switched off.
+    this.hiss?.gain.cancelScheduledValues(ctx.currentTime);
+    this.drone?.gain.cancelScheduledValues(ctx.currentTime);
+    this.apply();
     return this.on;
   }
 
   /** Called every time the view changes. */
   update(nearestDistance: number, tuned: boolean) {
+    this.nearest = nearestDistance;
+    this.tuned = tuned;
+    this.apply();
+  }
+
+  private apply() {
     if (!this.ctx || !this.hiss || !this.drone) return;
     const t = this.ctx.currentTime;
-    const hiss = !this.on ? 0 : tuned ? 0.006 : 0.018 + 0.05 * Math.min(1, nearestDistance / 160);
-    this.hiss.gain.setTargetAtTime(hiss, t, 0.08);
-    this.drone.gain.setTargetAtTime(this.on && tuned ? 0.05 : 0, t, tuned ? 0.6 : 0.25);
+    const { on, tuned } = this;
+    const hiss = !on ? 0 : tuned ? 0.006 : 0.018 + 0.05 * Math.min(1, this.nearest / 160);
+    this.hiss.gain.setTargetAtTime(hiss, t, on ? 0.08 : 0.03);
+    this.drone.gain.setTargetAtTime(on && tuned ? 0.05 : 0, t, !on ? 0.05 : tuned ? 0.6 : 0.25);
   }
 
   burst() {
