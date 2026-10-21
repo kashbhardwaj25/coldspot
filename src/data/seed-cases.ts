@@ -9568,5 +9568,1005 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Many historians think the 'curse' was invented or spread in the 20th century, possibly by park rangers or tour guides trying to stop visitors from taking rocks. Hawaiian cultural practitioners note that taking things from sacred places is disrespectful, curse or not, and removing rocks from the national park is illegal.",
     "wiki": "Pele (deity)"
+  },
+  {
+    "slug": "roopkund",
+    "featured": true,
+    "category": "places",
+    "title": "Roopkund, the Lake of Skeletons",
+    "region": "Chamoli, Uttarakhand, India",
+    "lat": 30.26,
+    "lon": 79.73,
+    "dateLabel": "Found in 1942; remains about 1,200 years old",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "A forest ranger, then trekkers and scientists",
+    "hook": "When the snow melts each summer, a small Himalayan lake shows hundreds of human bones along its edges.",
+    "summary": [
+      "Roopkund is a glacial lake about 5,000 metres up, on the trekking route to Trishul in Uttarakhand. In 1942 a forest ranger, H. K. Madhwal, reported human skeletons in and around it, and for years the lake was assumed to hold the remains of a lost army or a stranded group of travellers.",
+      "Local songs tell of pilgrims on the Nanda Devi yatra who angered the goddess, and of a storm of hailstones 'as hard as iron' that fell on them. The remains are still visible in summer, though many have been carried off by visitors."
+    ],
+    "explanation": "A 2004 study dated some of the bones to around the 9th century and linked head injuries to large hailstones, which fits the old song. A 2019 genetic study then found the remains belong to at least three separate groups, including people of eastern Mediterranean ancestry who died around 1800, so the lake holds several events, not one. How the later group came to be there is still not known.",
+    "wiki": "Roopkund"
+  },
+  {
+    "slug": "agrasen-ki-baoli",
+    "featured": false,
+    "category": "places",
+    "title": "Agrasen ki Baoli",
+    "region": "Hailey Road, New Delhi, India",
+    "lat": 28.63,
+    "lon": 77.22,
+    "dateLabel": "Stepwell from the 14th century or earlier",
+    "status": "explained",
+    "statusLabel": "Legend",
+    "witnesses": "Visitors and Delhi residents",
+    "hook": "A few minutes from Connaught Place, a stone stepwell drops a hundred steps into the dark, and people say it pulls at you.",
+    "summary": [
+      "Agrasen ki Baoli is a long, narrow stepwell of about 108 steps, protected by the Archaeological Survey of India. Who built it is uncertain; tradition credits the legendary King Agrasen, but the present structure is usually dated to the Tughlaq or Lodi period.",
+      "It has a reputation as one of Delhi's eeriest places. Visitors describe the air growing colder and the city noise falling away as they go down, the feeling of being watched near the bottom, and a story that the well once held black water that drew people towards it."
+    ],
+    "explanation": "The stepwell is dry now, and the effects people describe fit the space itself: thick stone walls that block traffic noise, cool air pooling at the bottom, deep shade, echoing pigeon and bat calls. There are no records behind the stories about the water. Its reputation grew in the 2010s, helped by films shot there.",
+    "wiki": "Agrasen ki Baoli"
+  },
+  {
+    "slug": "kheer-bhawani-spring",
+    "featured": false,
+    "category": "places",
+    "title": "The Spring of Kheer Bhawani",
+    "region": "Tulmul, Ganderbal, Jammu and Kashmir, India",
+    "lat": 34.22,
+    "lon": 74.73,
+    "dateLabel": "Described for centuries",
+    "status": "open",
+    "statusLabel": "Not studied",
+    "witnesses": "Devotees and temple priests",
+    "hook": "Devotees say the water of this sacred spring changes colour, and that dark shades come before hard times.",
+    "summary": [
+      "At Tulmul, near Srinagar, the temple of Kheer Bhawani stands in a small, many-sided spring. Kashmiri Pandits have worshipped there for centuries, offering milk and kheer, and the largest gathering comes on Jyeshtha Ashtami each summer.",
+      "The spring is believed to change colour. Shades of white, pink, green or blue are taken as good signs, and devotees say the water turned dark before troubled times in the valley. The colour seen on the festival day is watched closely each year."
+    ],
+    "explanation": "No scientific study of the colour changes has been published. Springs can change shade with dissolved minerals, algae, sediment stirred up by water flow, and the light, and the many offerings of milk and kheer may play a part. Devotees treat the colours as a matter of faith.",
+    "wiki": "Kheer Bhawani"
+  },
+  {
+    "slug": "talakadu",
+    "featured": false,
+    "category": "places",
+    "title": "Talakadu, the Town Under the Sand",
+    "region": "Mysuru district, Karnataka, India",
+    "lat": 12.19,
+    "lon": 77.03,
+    "dateLabel": "A curse said to date from 1610",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Pilgrims, historians and archaeologists",
+    "hook": "On the banks of the Kaveri, a temple town of the Gangas and Hoysalas lies buried under dunes that are still moving.",
+    "summary": [
+      "Talakadu was once a flourishing town with dozens of temples. Today most of them lie under sand dunes that rise beside the Kaveri, and archaeologists have dug a few back out. The Panchalinga Darshana festival draws large crowds every twelve years or so.",
+      "Local legend blames a curse. When the Mysore ruler Raja Wodeyar sought the jewels of Alamelamma, widow of the Vijayanagara viceroy, she is said to have thrown them into the river at Malangi and cursed the town: let Talakadu turn to sand, Malangi become a whirlpool, and the Mysore kings be without heirs."
+    ],
+    "explanation": "Geologists and historians link the sand to a dam built across the Kaveri in the 14th century, which changed the river's flow and left sand banks that the wind blew over the town. The rest of the curse is a matter of story: the Mysore line did often pass through adoption, which helped the legend last.",
+    "wiki": "Talakad"
+  },
+  {
+    "slug": "huma-leaning-temple",
+    "featured": false,
+    "category": "places",
+    "title": "The Leaning Temple of Huma",
+    "region": "Huma, Sambalpur district, Odisha, India",
+    "lat": 21.28,
+    "lon": 83.97,
+    "dateLabel": "Built in the 1600s",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Pilgrims and visitors",
+    "hook": "A Shiva temple on the Mahanadi leans to one side, and its inner shrine is said to lean another way.",
+    "summary": [
+      "The Bimaleswar temple at Huma, on the bank of the Mahanadi, is said to have been built by a Chauhan king of Sambalpur in the 17th century. The main temple leans visibly, and visitors are told that the smaller structures around it lean in different directions, and that the tilt has never stopped the temple from being used.",
+      "The fish in the river beside the temple are protected and fed by pilgrims, and are said to come to the bank when called."
+    ],
+    "explanation": "The usual explanation is that the temple stands on a slab of rock that has shifted, perhaps through floods or ground movement on the riverbank, rather than that it was built to lean. No detailed engineering survey has been widely published.",
+    "wiki": "Leaning Temple of Huma"
+  },
+  {
+    "slug": "gulf-of-khambhat",
+    "featured": false,
+    "category": "places",
+    "title": "The Ruins Under the Gulf of Khambhat",
+    "region": "Gulf of Khambhat, off Gujarat, India",
+    "lat": 21.15,
+    "lon": 72.45,
+    "dateLabel": "Found in 2001",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Scientists of the National Institute of Ocean Technology",
+    "hook": "Sonar off the Gujarat coast showed what looked like a sunken city, with finds dated to 9,500 years ago.",
+    "summary": [
+      "In 2001, the National Institute of Ocean Technology was surveying pollution in the Gulf of Khambhat when its sonar picked up regular, geometric shapes about 20 to 40 metres down. Dredging brought up pottery, beads, stone pieces and wood, and one piece of wood was carbon-dated to around 7500 BCE.",
+      "Some announced it as the ruins of a city thousands of years older than any known, which would rewrite the history of civilisation."
+    ],
+    "explanation": "Many archaeologists are unconvinced. The finds were dredged up, not excavated in place, so their link to the shapes is unclear; the dated wood could be natural; and sonar in strong tidal currents can produce misleading patterns. Without divers or a proper excavation, the site remains unconfirmed.",
+    "wiki": "Marine archaeology in the Gulf of Khambhat"
+  },
+  {
+    "slug": "lake-of-no-return",
+    "featured": false,
+    "category": "places",
+    "title": "The Lake of No Return",
+    "region": "Near the Pangsau Pass, Myanmar, by Arunachal Pradesh",
+    "lat": 27.23,
+    "lon": 96.16,
+    "dateLabel": "Stories from the 1940s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Wartime pilots and soldiers, later locals",
+    "hook": "Near the Pangsau Pass, a lake is said to have swallowed wartime aircraft and soldiers without a trace.",
+    "summary": [
+      "Nawng Yang lake lies just across the border from Arunachal Pradesh, near the Stilwell Road built during the Second World War. It is widely known as the Lake of No Return.",
+      "The stories say Allied aircraft flying the dangerous routes over the region came down into the lake, that soldiers who went to it never came back, and that something in the water draws people in. Local tellings add that no one who enters it comes out."
+    ],
+    "explanation": "Many aircraft were lost over these hills in the war, in bad weather and rough terrain, and some may have come down in or near the lake. No wreck has been confirmed in it, and the other stories have no records behind them. The lake's remoteness has kept the legend alive.",
+    "wiki": "Lake of No Return"
+  },
+  {
+    "slug": "delhi-monkey-man",
+    "featured": true,
+    "category": "creatures",
+    "title": "The Monkey Man of Delhi",
+    "region": "East Delhi, India",
+    "lat": 28.64,
+    "lon": 77.28,
+    "dateLabel": "May 2001",
+    "status": "explained",
+    "statusLabel": "Mass panic",
+    "witnesses": "Hundreds of residents",
+    "hook": "In the hot summer of 2001, East Delhi stayed awake looking for a creature that leapt across rooftops at night.",
+    "summary": [
+      "In May 2001, during a heatwave with frequent power cuts, many people in East Delhi slept on rooftops. Reports spread of a creature, part monkey and part man, about four feet tall, that jumped between buildings at night. Some described a helmet, metal claws or glowing red eyes.",
+      "Within days there were hundreds of reports across the city. Neighbourhoods formed night patrols, and panic led to injuries as people ran or fell in the dark. The police set up a special team and offered a reward."
+    ],
+    "explanation": "The police found no creature and no one behind it. Investigators and psychologists described it as a mass panic, fed by the heat, the dark, rumour and news coverage; many scratches reported as attacks were later put down to other causes. The reports stopped within a few weeks.",
+    "wiki": "Monkey-man of Delhi"
+  },
+  {
+    "slug": "bermuda-triangle",
+    "featured": true,
+    "category": "places",
+    "title": "The Bermuda Triangle",
+    "region": "Western North Atlantic, between Miami, Bermuda and Puerto Rico",
+    "lat": 25.0,
+    "lon": -71.0,
+    "dateLabel": "Named in 1964",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Writers, sailors and pilots",
+    "hook": "Ships and aircraft are said to vanish in a stretch of ocean off Florida more often than anywhere else.",
+    "summary": [
+      "The idea of a deadly triangle was popularised in a 1964 magazine article by Vincent Gaddis and became famous with Charles Berlitz's 1974 bestseller. The cases usually cited include the loss of the US Navy collier USS Cyclops in 1918 and of Flight 19, five Navy bombers, in 1945.",
+      "Explanations offered over the years have ranged from magnetic anomalies and methane bubbling up from the seabed to the lost city of Atlantis."
+    ],
+    "explanation": "When the librarian Lawrence Kusche checked the original records in 1975, he found many losses exaggerated, misplaced or not mysterious at all. The area is among the busiest stretches of ocean in the world, with strong currents and sudden storms, and insurers and the US Coast Guard say ships are not lost there at a higher rate than elsewhere.",
+    "wiki": "Bermuda Triangle"
+  },
+  {
+    "slug": "mary-celeste",
+    "featured": true,
+    "category": "places",
+    "title": "The Mary Celeste",
+    "region": "Atlantic, between the Azores and Portugal",
+    "lat": 38.2,
+    "lon": -17.0,
+    "dateLabel": "4 December 1872",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "The crew of the Dei Gratia",
+    "hook": "A ship was found sailing on its own in the Atlantic, in good order, with no one on board.",
+    "summary": [
+      "On 4 December 1872, the crew of the brigantine Dei Gratia sighted the Mary Celeste drifting under partial sail between the Azores and Portugal. She was seaworthy, with food and water on board and her cargo of over 1,700 barrels of alcohol nearly intact. Her lifeboat was gone. Captain Benjamin Briggs, his wife, their two-year-old daughter and seven crew were never seen again.",
+      "A short story by Arthur Conan Doyle in 1884 added invented details, like half-eaten meals and warm cups of tea, which are still often repeated."
+    ],
+    "explanation": "The most common explanation is that the crew abandoned ship in a hurry, perhaps fearing an explosion from alcohol fumes, a leak suggested by a faulty pump or a misread sounding, or a waterspout, and that the lifeboat was then lost. Nine empty barrels support some of these ideas, but no theory has been proved.",
+    "wiki": "Mary Celeste"
+  },
+  {
+    "slug": "carroll-a-deering",
+    "featured": false,
+    "category": "places",
+    "title": "The Carroll A. Deering",
+    "region": "Diamond Shoals, Cape Hatteras, North Carolina, USA",
+    "lat": 35.15,
+    "lon": -75.35,
+    "dateLabel": "31 January 1921",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Coast Guard crews and a lightship keeper",
+    "hook": "A five-masted schooner ran aground off Cape Hatteras with its sails set and its crew of eleven gone.",
+    "summary": [
+      "On 31 January 1921, the commercial schooner Carroll A. Deering was spotted aground on Diamond Shoals, a dangerous stretch off North Carolina. When boarders reached her days later, the crew's belongings, the navigation equipment and the lifeboats were gone. Food appeared to have been prepared in the galley.",
+      "A few days earlier, the keeper of the Cape Lookout lightship had seen a crewman on her deck who called out that the ship had lost her anchors. Several other ships vanished in the area around the same time, and a US government inquiry looked at piracy, mutiny and rum-runners."
+    ],
+    "explanation": "The inquiry reached no firm conclusion. Mutiny is often suggested, since there was tension between the captain and the first mate, as is a storm or hurricane that drove the crew to the lifeboats. A message in a bottle blaming pirates was later found to be a hoax.",
+    "wiki": "Carroll A. Deering"
+  },
+  {
+    "slug": "flannan-isles",
+    "featured": false,
+    "category": "places",
+    "title": "The Keepers of the Flannan Isles",
+    "region": "Eilean Mòr, Outer Hebrides, Scotland",
+    "lat": 58.29,
+    "lon": -7.59,
+    "dateLabel": "December 1900",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "The crew of the relief vessel Hesperus",
+    "hook": "On a remote Scottish island, the three keepers of a new lighthouse disappeared, and the light went dark.",
+    "summary": [
+      "The Flannan Isles lighthouse on Eilean Mòr was lit in 1899. On 15 December 1900, a passing ship noticed it was dark. When the relief vessel Hesperus arrived on 26 December, the three keepers, James Ducat, Thomas Marshall and Donald MacArthur, were gone. The clock had stopped, and one set of oilskins was still on its peg.",
+      "Later tellings, including a famous poem, added an overturned chair and an untouched meal, details not in the original reports."
+    ],
+    "explanation": "The Northern Lighthouse Board's investigator found storm damage at the west landing, high above the sea, and concluded the men had been swept away by an unusually large wave while securing equipment. Why the third man left without his oilskins is still debated, and freak waves at that height are still discussed.",
+    "wiki": "Flannan Isles Lighthouse"
+  },
+  {
+    "slug": "roanoke-colony",
+    "featured": false,
+    "category": "places",
+    "title": "The Lost Colony of Roanoke",
+    "region": "Roanoke Island, North Carolina, USA",
+    "lat": 35.89,
+    "lon": -75.66,
+    "dateLabel": "1587–1590",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "John White and his crew",
+    "hook": "An English colony vanished from its island, leaving only one word carved into a post.",
+    "summary": [
+      "In 1587, around 115 English settlers, led by John White, landed on Roanoke Island. White's granddaughter, Virginia Dare, was the first English child born in the Americas. White sailed home for supplies, and war with Spain kept him away for three years.",
+      "When he returned in August 1590, the settlement was abandoned and its buildings taken down. The word CROATOAN was carved into a post, and CRO into a tree. There was no sign of a struggle, and no one was found."
+    ],
+    "explanation": "Many historians think the colonists moved to Croatoan, now Hatteras Island, or inland, and joined Native American communities; digs on Hatteras and at an inland site have found English objects that may fit. Nothing found so far settles it.",
+    "wiki": "Roanoke Colony"
+  },
+  {
+    "slug": "oak-island",
+    "featured": false,
+    "category": "places",
+    "title": "The Oak Island Money Pit",
+    "region": "Oak Island, Nova Scotia, Canada",
+    "lat": 44.51,
+    "lon": -64.29,
+    "dateLabel": "Searched since 1795",
+    "status": "explained",
+    "statusLabel": "Nothing found",
+    "witnesses": "Treasure hunters for over two centuries",
+    "hook": "For more than two hundred years, people have dug into a small Canadian island in search of buried treasure.",
+    "summary": [
+      "The story begins in 1795, when a young man named Daniel McGinnis found a depression in the ground on Oak Island. Diggers later reported layers of logs every ten feet, and later still a flooded shaft that seemed to be fed from the sea. Rumours of a carved stone and of pirate gold, the Templars or Shakespeare's manuscripts followed.",
+      "Expeditions have spent large sums, and several people have died in the digging. Since 2014 a television series has followed a new search."
+    ],
+    "explanation": "Geologists point out that the island sits on limestone and gypsum, where natural sinkholes, caves and flooding through underground channels are common; these can look like man-made tunnels. Many of the early accounts were written down long after the fact. No treasure has been found.",
+    "wiki": "Oak Island mystery"
+  },
+  {
+    "slug": "area-51",
+    "featured": false,
+    "category": "places",
+    "title": "Area 51",
+    "region": "Groom Lake, Nevada, USA",
+    "lat": 37.24,
+    "lon": -115.81,
+    "dateLabel": "Opened in 1955",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Pilots, nearby residents, a man who claimed to work there",
+    "hook": "A secret desert airbase became the world's most famous place for stories of captured flying saucers.",
+    "summary": [
+      "Area 51 is a US Air Force facility around Groom Lake in the Nevada desert. For decades the government would not admit it existed, and people around it reported strange lights and aircraft moving in ways they could not explain.",
+      "In 1989, Bob Lazar said on television that he had worked near the base on alien spacecraft. Since then it has been the centre of stories about recovered UFOs and alien bodies."
+    ],
+    "explanation": "CIA papers released in 2013 confirmed the base was built to test spy planes, starting with the U-2 in 1955, and that the U-2 and later aircraft accounted for many UFO reports of the time, flying higher than anyone thought possible. Lazar's account has not been supported by records.",
+    "wiki": "Area 51"
+  },
+  {
+    "slug": "philadelphia-experiment",
+    "featured": false,
+    "category": "places",
+    "title": "The Philadelphia Experiment",
+    "region": "Philadelphia Naval Shipyard, Pennsylvania, USA",
+    "lat": 39.89,
+    "lon": -75.18,
+    "dateLabel": "Said to be October 1943",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "None confirmed",
+    "hook": "A navy destroyer is said to have been made invisible and moved to another port in a secret wartime test.",
+    "summary": [
+      "The story says that in October 1943, the US Navy destroyer escort USS Eldridge was made invisible in a secret experiment at the Philadelphia shipyard, vanished in a green fog, appeared briefly in Norfolk, Virginia, and returned, leaving its crew changed.",
+      "It began in 1955 and 1956 with letters to the UFO author Morris Jessup from a man calling himself Carlos Allende, and later inspired books and a 1984 film."
+    ],
+    "explanation": "The US Navy says no such experiment took place. Historians think the story may have grown from real wartime work on degaussing, which made ships harder for magnetic mines to detect, in that sense 'invisible'. The letter writer later gave conflicting accounts.",
+    "wiki": "Philadelphia Experiment"
+  },
+  {
+    "slug": "lake-natron",
+    "featured": false,
+    "category": "places",
+    "title": "Lake Natron",
+    "region": "Arusha Region, Tanzania",
+    "lat": -2.42,
+    "lon": 36.0,
+    "dateLabel": "Photographed in 2013",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Photographers and visitors",
+    "hook": "Photographs of birds and bats from a red African lake looked as if the water had turned them to stone.",
+    "summary": [
+      "Lake Natron, in northern Tanzania, is a shallow soda lake, often red from algae and so salty and alkaline that few animals live in it. It is the main breeding ground of the lesser flamingo.",
+      "In 2013 photographer Nick Brandt published pictures of birds and bats found on its shore, stiff and chalky white, perched as if alive. They spread online as proof that the lake turns animals to stone."
+    ],
+    "explanation": "The animals died naturally, perhaps by flying into the lake, which can be confusingly reflective. The water's high levels of sodium carbonate then preserved their bodies, as natron was once used in Egyptian mummification. Brandt said he posed them for the photographs.",
+    "wiki": "Lake Natron"
+  },
+  {
+    "slug": "borley-rectory",
+    "featured": false,
+    "category": "places",
+    "title": "Borley Rectory",
+    "region": "Borley, Essex, England",
+    "lat": 52.05,
+    "lon": 0.69,
+    "dateLabel": "1929–1939",
+    "status": "disputed",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "Rectors, their families and investigators",
+    "hook": "A Victorian rectory was called the most haunted house in England, until the man who made it famous was questioned.",
+    "summary": [
+      "Borley Rectory was built in 1862. Stories of a nun walking in the garden began early, and in the late 1920s and 1930s residents reported bells ringing, objects thrown and messages scrawled on the walls asking for help.",
+      "The investigator Harry Price spent years there and wrote two books calling it the most haunted house in England. The rectory burned down in 1939."
+    ],
+    "explanation": "A 1956 report for the Society for Psychical Research concluded that much of the activity was invented or exaggerated, and accused Price of staging some of it. Some who lived there said the effects were caused by family members or the house's own creaks. Price's supporters dispute the report.",
+    "wiki": "Borley Rectory"
+  },
+  {
+    "slug": "battle-of-los-angeles",
+    "featured": false,
+    "category": "sky",
+    "title": "The Battle of Los Angeles",
+    "region": "Los Angeles, California, USA",
+    "lat": 34.05,
+    "lon": -118.25,
+    "dateLabel": "24–25 February 1942",
+    "status": "explained",
+    "statusLabel": "False alarm",
+    "witnesses": "Thousands of residents and the army",
+    "hook": "In the early weeks of the war, Los Angeles fired more than a thousand anti-aircraft shells at something in the night sky.",
+    "summary": [
+      "Two days after a Japanese submarine shelled an oil field near Santa Barbara, radar picked up an unknown target off Los Angeles in the early hours of 25 February 1942. Air-raid sirens sounded, the city blacked out, and anti-aircraft guns fired over 1,400 shells into the sky for about an hour.",
+      "Witnesses described a large object caught in the searchlights that seemed to sit unharmed under the fire. A retouched newspaper photograph of searchlights meeting on a bright shape is still shared as a picture of a UFO."
+    ],
+    "explanation": "No bombs fell and no aircraft were shot down. The Secretary of the Navy called it a false alarm caused by war nerves; a weather balloon released that night, and the gunners firing at their own shell bursts, are the usual explanations. The famous photograph was heavily retouched.",
+    "wiki": "Battle of Los Angeles"
+  },
+  {
+    "slug": "foo-fighters",
+    "featured": false,
+    "category": "sky",
+    "title": "The Foo Fighters",
+    "region": "Over the Rhine valley and western Europe",
+    "lat": 49.0,
+    "lon": 7.9,
+    "dateLabel": "Late 1944 into 1945",
+    "status": "open",
+    "statusLabel": "Unidentified",
+    "witnesses": "Allied bomber and night-fighter crews",
+    "hook": "Late in the Second World War, Allied pilots reported glowing balls that flew beside their planes and kept pace.",
+    "summary": [
+      "From late 1944, crews of the US 415th Night Fighter Squadron and others flying over Germany reported small balls of light, red, orange or white, that followed their aircraft, matched their turns and then vanished. Pilots nicknamed them foo fighters, after a comic strip.",
+      "Similar lights were reported over the Pacific. Both sides seem to have suspected the other of a secret weapon."
+    ],
+    "explanation": "No German or Japanese weapon matching the descriptions was found after the war. Suggested explanations include St Elmo's fire on the aircraft, ball lightning, reflections, flares and the strain of night combat. A 1953 US government panel reviewed the reports and did not find them a threat.",
+    "wiki": "Foo fighter"
+  },
+  {
+    "slug": "gorman-dogfight",
+    "featured": false,
+    "category": "sky",
+    "title": "The Gorman Dogfight",
+    "region": "Fargo, North Dakota, USA",
+    "lat": 46.88,
+    "lon": -96.79,
+    "dateLabel": "1 October 1948",
+    "status": "explained",
+    "statusLabel": "Probably a balloon",
+    "witnesses": "Pilot George Gorman, air traffic controllers",
+    "hook": "A National Guard pilot chased a small light around the night sky over Fargo for nearly half an hour.",
+    "summary": [
+      "On the evening of 1 October 1948, Lieutenant George Gorman of the North Dakota Air National Guard was preparing to land his P-51 fighter at Fargo when he saw a small, blinking white light. Controllers in the tower saw it too.",
+      "For around 27 minutes Gorman chased it, and he said it turned, climbed and came head-on at him as if under intelligent control, before climbing out of sight."
+    ],
+    "explanation": "The Air Force's Project Sign concluded Gorman had chased a lighted weather balloon, with his own manoeuvres making it seem to move; the planet Jupiter was also suggested for part of the chase. Gorman stood by his account.",
+    "wiki": "Gorman dogfight"
+  },
+  {
+    "slug": "tinley-park-lights",
+    "featured": false,
+    "category": "sky",
+    "title": "The Tinley Park Lights",
+    "region": "Tinley Park, Illinois, USA",
+    "lat": 41.57,
+    "lon": -87.78,
+    "dateLabel": "August 2004 to October 2005",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Hundreds of residents, some with video",
+    "hook": "Three red lights hung in a triangle over a Chicago suburb, slowly drifting, while hundreds of people filmed them.",
+    "summary": [
+      "On the night of 21 August 2004, many people in Tinley Park and nearby towns saw three large red lights in a triangle, moving slowly and silently across the sky. They were filmed from several places, and the lights returned on Halloween 2004 and again in October 2005.",
+      "Witnesses said the lights kept a fixed formation, as if part of one dark object."
+    ],
+    "explanation": "Sceptics suggest flares or lights hung from helium balloons, which would explain the slow drift and the timing on special dates; no one has come forward to say they launched them. Studies of the videos by UFO researchers argued the lights were too regular for balloons. The source has not been identified.",
+    "wiki": "Tinley Park lights"
+  },
+  {
+    "slug": "yukon-1996",
+    "featured": false,
+    "category": "sky",
+    "title": "The Yukon Sighting of 1996",
+    "region": "Fox Lake to Carmacks, Yukon, Canada",
+    "lat": 61.24,
+    "lon": -135.47,
+    "dateLabel": "11 December 1996",
+    "status": "open",
+    "statusLabel": null,
+    "witnesses": "About 30 people along the Klondike Highway",
+    "hook": "On a winter night in the Yukon, people in several villages saw a huge, slow object covered in lights.",
+    "summary": [
+      "On the evening of 11 December 1996, people in and between Fox Lake, Carmacks and Pelly Crossing, along the Klondike Highway, reported a very large object with rows of lights moving slowly and silently overhead. Some described it as bigger than several football fields.",
+      "Researchers who collected the accounts later found about thirty witnesses, and built a model of the object from their descriptions."
+    ],
+    "explanation": "Sceptics suggest a meteor or a satellite re-entering the atmosphere, which can produce long trails of lights, though these move fast and many witnesses described something slow. No official explanation was given, and no film exists.",
+    "wiki": "Yukon UFO"
+  },
+  {
+    "slug": "jimmy-carter-sighting",
+    "featured": false,
+    "category": "sky",
+    "title": "Jimmy Carter's Sighting",
+    "region": "Leary, Georgia, USA",
+    "lat": 31.48,
+    "lon": -84.52,
+    "dateLabel": "Evening in 1969",
+    "status": "explained",
+    "statusLabel": "Probably Venus",
+    "witnesses": "Jimmy Carter and about ten others",
+    "hook": "Years before he became president, Jimmy Carter filed a report about a bright light that changed colour over Georgia.",
+    "summary": [
+      "In 1969, before a Lions Club meeting in Leary, Georgia, Jimmy Carter and around ten others watched a light in the western sky that he said was as bright as the moon, changed colour and seemed to come closer before moving away.",
+      "Carter filed a report in 1973, while governor. As a presidential candidate he said he had seen a UFO and promised to release government files."
+    ],
+    "explanation": "The researcher Robert Sheaffer compared the time and direction with the sky that evening and concluded Carter had seen the planet Venus, which was very bright in the west. Carter himself said he didn't think it was from another world, only that he couldn't identify it.",
+    "wiki": "Jimmy Carter UFO incident"
+  },
+  {
+    "slug": "coyne-helicopter",
+    "featured": false,
+    "category": "sky",
+    "title": "The Coyne Helicopter Encounter",
+    "region": "Near Mansfield, Ohio, USA",
+    "lat": 40.76,
+    "lon": -82.52,
+    "dateLabel": "18 October 1973",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "A four-man Army Reserve helicopter crew, people on the ground",
+    "hook": "An army helicopter crew said a red light came at them, held above them, and pulled them upward.",
+    "summary": [
+      "Late on 18 October 1973, a US Army Reserve UH-1 helicopter commanded by Captain Lawrence Coyne was flying near Mansfield, Ohio, when the crew saw a red light approaching fast on a collision course. Coyne put the helicopter into a dive.",
+      "The crew said a grey, cigar-shaped object stopped above them and shone a green light into the cockpit, and that the helicopter then climbed several hundred feet even though the controls were set to descend. People on the ground later said they had seen the encounter."
+    ],
+    "explanation": "The sceptic Philip Klass suggested a bright fireball meteor from the Orionid shower, then at its peak, with the climb caused by the pilots' own reactions. Others say the encounter lasted too long for a meteor. It is still debated.",
+    "wiki": "Coyne incident"
+  },
+  {
+    "slug": "rb-47-encounter",
+    "featured": false,
+    "category": "sky",
+    "title": "The RB-47 Encounter",
+    "region": "Over Mississippi, Louisiana and Texas, USA",
+    "lat": 32.5,
+    "lon": -92.5,
+    "dateLabel": "17 July 1957",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "The six crew of an RB-47 and ground radar operators",
+    "hook": "An air force spy plane tracked a signal and a light that followed it for over an hour across three states.",
+    "summary": [
+      "On 17 July 1957, an RB-47H electronic-intelligence aircraft was on a training flight over the southern US when its crew picked up a radar-like signal that seemed to move with the plane. The pilots then saw a large, bright light, and ground radar also reported a target.",
+      "The light and the signal followed the aircraft, sometimes disappearing and reappearing, for over an hour and more than 700 miles."
+    ],
+    "explanation": "The case is one of the most studied in the field. Later analysts suggested the signal came from a ground radar station and the light from an airliner, with confusion in the timing; others reject this. The Air Force's Project Blue Book listed it as an airliner.",
+    "wiki": "RB-47 UFO encounter"
+  },
+  {
+    "slug": "malmstrom-1967",
+    "featured": false,
+    "category": "sky",
+    "title": "The Malmstrom Missile Shutdowns",
+    "region": "Malmstrom Air Force Base, Montana, USA",
+    "lat": 47.5,
+    "lon": -111.18,
+    "dateLabel": "March 1967",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Missile officers, decades later",
+    "hook": "A flight of nuclear missiles went offline one morning, and years later an officer said a glowing object was overhead.",
+    "summary": [
+      "On 16 March 1967, all ten Minuteman missiles of Echo Flight at Malmstrom Air Force Base in Montana suddenly became unable to launch. An investigation began at once.",
+      "Decades later, former launch officer Robert Salas said that around that time, at another flight, missiles had shut down while guards reported a glowing red object hovering over the site. The story became one of the best-known claims of UFOs interfering with nuclear weapons."
+    ],
+    "explanation": "The official investigation, with Boeing, found an electrical pulse in the missiles' equipment caused the Echo shutdown and made changes to stop it happening again. Records from the time do not mention a UFO, and accounts of the second event differ on the date and place.",
+    "wiki": "Malmstrom Air Force Base"
+  },
+  {
+    "slug": "miracle-of-the-sun",
+    "featured": false,
+    "category": "sky",
+    "title": "The Miracle of the Sun",
+    "region": "Fátima, Portugal",
+    "lat": 39.63,
+    "lon": -8.67,
+    "dateLabel": "13 October 1917",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "A crowd of tens of thousands",
+    "hook": "A huge crowd in rural Portugal said they saw the sun spin, change colour and plunge towards the earth.",
+    "summary": [
+      "Three shepherd children in Fátima said a lady had appeared to them several times in 1917, and promised a miracle on 13 October. A crowd of tens of thousands gathered in the rain, including journalists and sceptics.",
+      "When the clouds parted, many said the sun turned pale, spun, cast coloured light over the crowd and zigzagged down towards them before returning to its place. Their wet clothes were said to have dried. Others present saw nothing unusual."
+    ],
+    "explanation": "Believers consider it a miracle, and the Catholic Church approved the apparitions in 1930. Scientists suggest the effects came from looking at the sun through thinning cloud, which can cause afterimages and apparent movement, and that expectation shaped what people saw. The sun did not move: no one elsewhere recorded anything.",
+    "wiki": "Miracle of the Sun"
+  },
+  {
+    "slug": "kentucky-meat-shower",
+    "featured": false,
+    "category": "sky",
+    "title": "The Kentucky Meat Shower",
+    "region": "Near Olympia Springs, Bath County, Kentucky, USA",
+    "lat": 38.1,
+    "lon": -83.7,
+    "dateLabel": "3 March 1876",
+    "status": "explained",
+    "statusLabel": "Probably vultures",
+    "witnesses": "Mrs Crouch and neighbours",
+    "hook": "On a clear spring day, flakes of raw meat fell from the sky over a farm in Kentucky.",
+    "summary": [
+      "On 3 March 1876, Mrs Allen Crouch was making soap outside her home in Bath County when pieces of what looked like fresh meat began falling from a clear sky. They fell over an area roughly 100 yards long and 50 wide.",
+      "The story was reported in newspapers across the country, and samples were sent to scientists to identify."
+    ],
+    "explanation": "Samples were identified as animal tissue. The explanation most often given, suggested by a local doctor, is that a flock of vultures was flying over: vultures throw up their food when startled, and a group doing it at once could cover a field. No one saw the birds, which keeps the story alive.",
+    "wiki": "Kentucky meat shower"
+  },
+  {
+    "slug": "hornet-spook-light",
+    "featured": false,
+    "category": "sky",
+    "title": "The Hornet Spook Light",
+    "region": "Near Hornet, Missouri, on the Oklahoma border, USA",
+    "lat": 36.97,
+    "lon": -94.63,
+    "dateLabel": "Reported since the late 1800s",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Generations of locals and visitors",
+    "hook": "On a gravel road on the Missouri–Oklahoma border, a ball of light rises, bobs and fades before anyone gets close.",
+    "summary": [
+      "On a stretch of road locals call the Devil's Promenade, people have long reported a light the size of a lantern that appears ahead, sways or splits, and retreats when approached. Stories link it to a lost miner or a pair of separated lovers.",
+      "It became a local attraction in the 20th century, with a small museum nearby."
+    ],
+    "explanation": "Studies, including one by the US Army Corps of Engineers in the 1940s, linked the light to car headlights on a highway miles to the west, which line up with the road and appear to float because of the hills and the atmosphere. Some people say it was seen before cars, which the studies cannot answer.",
+    "wiki": "Hornet spook light"
+  },
+  {
+    "slug": "chupacabra",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Chupacabra",
+    "region": "Canóvanas, Puerto Rico",
+    "lat": 18.38,
+    "lon": -65.9,
+    "dateLabel": "1995 onwards",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "Farmers and residents in Puerto Rico, Mexico and Texas",
+    "hook": "Livestock found with small puncture marks started the legend of a creature that drinks the blood of goats.",
+    "summary": [
+      "In 1995, farmers in Puerto Rico began finding goats, sheep and chickens dead with small puncture wounds, and the creature blamed became known as el chupacabra, the goat-sucker. A witness in Canóvanas described a spiny, upright creature with large eyes.",
+      "Reports spread to Mexico, the southern US and beyond. In Texas, the creature described changed to a hairless, dog-like animal, and several bodies were found."
+    ],
+    "explanation": "The writer Benjamin Radford found the first description closely matched an alien in a film released that year. The hairless bodies found in Texas were tested and turned out to be coyotes and dogs with severe mange. The livestock deaths have been put down to ordinary predators.",
+    "wiki": "Chupacabra"
+  },
+  {
+    "slug": "montauk-monster",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Montauk Monster",
+    "region": "Montauk, New York, USA",
+    "lat": 41.04,
+    "lon": -71.95,
+    "dateLabel": "July 2008",
+    "status": "explained",
+    "statusLabel": "Probably a raccoon",
+    "witnesses": "A few beachgoers, then the internet",
+    "hook": "A strange carcass on a Long Island beach, with a beak-like face and no fur, became one of the first viral monsters.",
+    "summary": [
+      "In July 2008, a photo of a bloated, hairless animal with a beak-like snout, washed up on a beach near Montauk, spread across the internet. It was called the Montauk Monster, and theories pointed to a nearby animal disease laboratory on Plum Island.",
+      "The body was said to have been taken away, and no one examined it."
+    ],
+    "explanation": "Scientists who looked at the photo said it was most likely a decomposed raccoon: time in water swells a body, removes the fur and exposes the teeth, so the face looks like a beak. Other suggestions were a dog or a turtle without its shell.",
+    "wiki": "Montauk Monster"
+  },
+  {
+    "slug": "feejee-mermaid",
+    "featured": false,
+    "category": "creatures",
+    "title": "The FeeJee Mermaid",
+    "region": "Barnum's American Museum, New York, USA",
+    "lat": 40.71,
+    "lon": -74.01,
+    "dateLabel": "1842",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Crowds of paying visitors",
+    "hook": "P. T. Barnum drew crowds to see a mermaid that was really half a monkey and half a fish.",
+    "summary": [
+      "In 1842, the showman P. T. Barnum exhibited a 'Feejee Mermaid' in New York, said to have been caught near Fiji. Posters showed a beautiful woman with a fish's tail. What visitors saw was a shrivelled body about three feet long, with a monkey's head and torso and a fish's tail.",
+      "It drew huge crowds, and the original was lost, probably in a museum fire."
+    ],
+    "explanation": "It was a made-up object, probably from Japan or the East Indies, where such figures were crafted from the upper half of a monkey sewn to the tail of a fish. Similar 'mermaids' are held in several museums today.",
+    "wiki": "FeeJee mermaid"
+  },
+  {
+    "slug": "skunk-ape",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Skunk Ape",
+    "region": "Big Cypress, Florida, USA",
+    "lat": 25.9,
+    "lon": -81.3,
+    "dateLabel": "Reported since the 1960s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Hunters, drivers and residents",
+    "hook": "In the swamps of southern Florida, people describe a tall, hairy ape that smells overpoweringly bad.",
+    "summary": [
+      "Florida's version of Bigfoot is named for its smell, which witnesses describe as rotting eggs or a skunk. It is said to be up to seven feet tall, covered in reddish or dark hair, and to live in the Everglades and Big Cypress swamps.",
+      "In 2000, the Sarasota County sheriff received an anonymous letter with two photographs of an ape-like animal said to have taken apples from a porch at night."
+    ],
+    "explanation": "No body, bones or clear evidence has been found. Sceptics suggest bears, escaped captive apes or hoaxes, including a person in a costume. The two photographs have never been traced to their maker.",
+    "wiki": "Skunk ape"
+  },
+  {
+    "slug": "ningen",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Ningen",
+    "region": "Antarctic waters",
+    "lat": -66.0,
+    "lon": 30.0,
+    "dateLabel": "First posted around 2007",
+    "status": "explained",
+    "statusLabel": "Internet legend",
+    "witnesses": "Anonymous internet posts",
+    "hook": "Online stories describe huge white human-shaped creatures seen at night by Japanese whalers in the Antarctic.",
+    "summary": [
+      "In the early 2000s, posts on a Japanese internet forum described ningen, 'humans', seen at night from Japanese research whaling ships in the Antarctic: smooth, white creatures tens of metres long, with arms or fins and a vaguely human face.",
+      "The story spread through magazines and websites, often with blurry pictures and claims of a government cover-up."
+    ],
+    "explanation": "No whaling crew has confirmed seeing such a creature, and no photo has been shown to be genuine. It is widely treated as a modern internet legend, perhaps inspired by icebergs, whales or sea animals seen in poor light.",
+    "wiki": "Ningen"
+  },
+  {
+    "slug": "zuiyo-maru-carcass",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Zuiyō-maru Carcass",
+    "region": "Off Christchurch, New Zealand",
+    "lat": -43.4,
+    "lon": 174.0,
+    "dateLabel": "25 April 1977",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "The crew of a Japanese trawler",
+    "hook": "A Japanese trawler hauled up a rotting body that looked like a long-necked sea monster.",
+    "summary": [
+      "On 25 April 1977, the Japanese fishing trawler Zuiyō-maru netted a huge, badly decomposed body off the coast of Christchurch, New Zealand. It was about ten metres long, with what looked like a long neck, a small head and four fins.",
+      "Fearing it would spoil their catch, the crew photographed it, took a few samples of fibres and threw it back. In Japan it was celebrated as a possible surviving plesiosaur."
+    ],
+    "explanation": "Tests on the fibres found a protein typical of sharks. Scientists think it was a basking shark: as one decays, its jaw and lower fins fall away, leaving a small 'head' on a long 'neck', a pattern seen in several sea-monster carcasses.",
+    "wiki": "Zuiyō-maru carcass"
+  },
+  {
+    "slug": "nandi-bear",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Nandi Bear",
+    "region": "Nandi Hills, Kenya",
+    "lat": 0.1,
+    "lon": 35.18,
+    "dateLabel": "Reports from the early 1900s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Settlers, hunters and local people",
+    "hook": "In the highlands of western Kenya, people described a large, bear-like animal, though Africa has no bears.",
+    "summary": [
+      "In the early 20th century, European settlers and travellers in western Kenya reported a heavy, shaggy animal with a sloping back, larger than a hyena, that moved like a bear. Local communities had names for such a creature, including chemosit.",
+      "The reports were collected in journals and books, and the creature was said to be aggressive and active at night."
+    ],
+    "explanation": "No specimen was ever produced. Zoologists suggest misidentified spotted hyenas, which have sloping backs, or honey badgers, baboons or ratels seen in poor light. Some writers speculated about an extinct animal, but there is no evidence it survived.",
+    "wiki": "Nandi bear"
+  },
+  {
+    "slug": "black-shuck",
+    "featured": false,
+    "category": "creatures",
+    "title": "Black Shuck",
+    "region": "Bungay and Blythburgh, Suffolk, England",
+    "lat": 52.46,
+    "lon": 1.44,
+    "dateLabel": "4 August 1577",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Churchgoers, according to a pamphlet",
+    "hook": "During a violent storm, a black dog is said to have run through two Suffolk churches, leaving scorch marks on a door.",
+    "summary": [
+      "The coast of East Anglia has long had stories of Black Shuck, a large black dog with glowing eyes seen on lonely roads. The most famous account comes from a pamphlet by Abraham Fleming about a storm on 4 August 1577.",
+      "It says that during a service at Bungay, a black dog ran through the church in the storm, and that the same morning at Blythburgh it appeared again; marks on the church door there are still pointed out as its claw marks."
+    ],
+    "explanation": "Historians think the events were a severe thunderstorm and lightning strikes on both churches, which could explain the damage, the burns and the terror; the dog was the way people made sense of it. The scorch marks may come from the lightning.",
+    "wiki": "Black Shuck"
+  },
+  {
+    "slug": "indrid-cold",
+    "featured": false,
+    "category": "visitors",
+    "title": "Indrid Cold",
+    "region": "Near Parkersburg, West Virginia, USA",
+    "lat": 39.27,
+    "lon": -81.56,
+    "dateLabel": "2 November 1966",
+    "status": "disputed",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Woodrow Derenberger",
+    "hook": "A salesman said a craft blocked the road, and a smiling man stepped out and spoke to him without moving his lips.",
+    "summary": [
+      "On the evening of 2 November 1966, Woodrow Derenberger was driving home near Parkersburg when, he said, a dark object like an old lamp chimney landed in front of his truck. A man with a broad smile and a dark coat walked over and spoke to him telepathically, calling himself Indrid Cold and saying he meant no harm.",
+      "Derenberger went to the police and later said he had met Cold many times and visited his planet, Lanulos. His story came during the same months as the Mothman reports nearby."
+    ],
+    "explanation": "Two other people reported seeing something that night, but no one else saw the man. Derenberger's claims grew over the years, which made many people doubt the first story. The 'grinning man' became a fixture of later folklore.",
+    "wiki": "Woodrow Derenberger"
+  },
+  {
+    "slug": "solway-firth-spaceman",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Solway Firth Spaceman",
+    "region": "Burgh Marsh, Cumbria, England",
+    "lat": 54.93,
+    "lon": -3.05,
+    "dateLabel": "23 May 1964",
+    "status": "explained",
+    "statusLabel": "Probably explained",
+    "witnesses": "Jim Templeton and his family",
+    "hook": "A father took a photo of his daughter on the marsh, and when it was printed, a figure in a white suit stood behind her.",
+    "summary": [
+      "On 23 May 1964, Jim Templeton, a firefighter, took photographs of his five-year-old daughter Elizabeth on Burgh Marsh, near the Solway Firth. One of the prints showed a tall figure in what looked like a white spacesuit and helmet standing behind her. Templeton said no one else was there.",
+      "Kodak found nothing wrong with the film. The picture was widely published, and Templeton later said he was visited by two men in suits who questioned him."
+    ],
+    "explanation": "Analysts noticed that Templeton's wife, Annie, was with them in a pale blue dress. They suggest the figure is her, seen from behind, overexposed into white and too far back to look her size. Templeton never accepted this.",
+    "wiki": "Solway Firth Spaceman"
+  },
+  {
+    "slug": "joe-simonton-pancakes",
+    "featured": false,
+    "category": "visitors",
+    "title": "Joe Simonton's Pancakes",
+    "region": "Eagle River, Wisconsin, USA",
+    "lat": 45.92,
+    "lon": -89.24,
+    "dateLabel": "18 April 1961",
+    "status": "disputed",
+    "statusLabel": "Unexplained",
+    "witnesses": "Joe Simonton",
+    "hook": "A chicken farmer said a silver craft landed in his yard, and its crew asked for water and gave him pancakes.",
+    "summary": [
+      "On the morning of 18 April 1961, Joe Simonton, a 60-year-old chicken farmer in Wisconsin, said a silver saucer landed in his yard. A hatch opened and three small, dark-haired men inside held out a jug, which he filled with water.",
+      "One of them was cooking on a flat grill, and they gave him three small pancakes in return. The craft then left. Simonton gave the pancakes to investigators."
+    ],
+    "explanation": "The US Food and Drug Administration tested a pancake and found it was an ordinary one made of buckwheat, wheat and soy, though without salt. Simonton was considered sincere by those who interviewed him. Sceptics suggest a waking dream; no one else saw the craft.",
+    "wiki": "Joe Simonton"
+  },
+  {
+    "slug": "brown-lady-of-raynham",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Brown Lady of Raynham Hall",
+    "region": "Raynham Hall, Norfolk, England",
+    "lat": 52.78,
+    "lon": 0.79,
+    "dateLabel": "Photographed in September 1936",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Two photographers working for Country Life",
+    "hook": "A photograph of a country-house staircase shows a pale, veiled figure coming down the steps.",
+    "summary": [
+      "Raynham Hall has been said since the 1830s to be visited by a lady in a brown dress, linked to Lady Dorothy Townshend, who lived there in the early 1700s.",
+      "In September 1936, Captain Hubert Provand and Indre Shira were photographing the house for Country Life magazine. Shira said he saw a misty figure on the main staircase and asked Provand to take a picture. The result, published in December, shows a translucent, robed shape on the stairs and is one of the most famous pictures of its kind."
+    ],
+    "explanation": "Sceptics suggest a double exposure or one photograph laid over another, or grease on the lens; some say the figure resembles a statue of the Virgin Mary. Provand said the image wasn't faked. The original has not been tested with modern methods.",
+    "wiki": "Brown Lady of Raynham Hall"
+  },
+  {
+    "slug": "okiku-doll",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Okiku Doll",
+    "region": "Mannenji Temple, Iwamizawa, Hokkaido, Japan",
+    "lat": 43.2,
+    "lon": 141.78,
+    "dateLabel": "Told since the 1930s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Temple priests and visitors",
+    "hook": "In a temple in Hokkaido, a traditional doll is said to have hair that keeps growing.",
+    "summary": [
+      "The story says that in 1918 a young man bought a doll for his sister, Kikuko, who loved it and died young the following year. The family kept the doll on their altar, and noticed its short, bobbed hair growing longer. When they moved, they left it with the Mannenji temple.",
+      "The doll is kept there today, with hair reaching below its shoulders, and the temple is said to trim it from time to time."
+    ],
+    "explanation": "Some say the doll's hair is human hair, which can't grow once cut. Sceptics suggest the hair was long to begin with and folded inside the head, and has slowly slipped out through the scalp. The temple has not allowed close study.",
+    "wiki": "Okiku (doll)"
+  },
+  {
+    "slug": "julia-sound",
+    "featured": false,
+    "category": "voices",
+    "title": "Julia",
+    "region": "Off Antarctica (approximate)",
+    "lat": -62.0,
+    "lon": -52.0,
+    "dateLabel": "1 March 1999",
+    "status": "explained",
+    "statusLabel": null,
+    "witnesses": "NOAA scientists, by hydrophone",
+    "hook": "Underwater microphones across the Pacific picked up a long, rising sound like a call, and scientists named it Julia.",
+    "summary": [
+      "On 1 March 1999, NOAA's array of underwater microphones in the Pacific recorded a loud sound lasting about fifteen seconds, which seemed to rise and fall like a voice. It was heard across a huge stretch of ocean.",
+      "Like the Bloop and the Upsweep, it was released to the public, and many people asked whether it came from an unknown animal."
+    ],
+    "explanation": "NOAA traced the sound to the waters off Antarctica and concluded it was most likely a large iceberg that had run aground, scraping and grinding on the seabed. Ice makes many such sounds, which travel far in a deep layer of the ocean.",
+    "wiki": "Julia (sound)"
+  },
+  {
+    "slug": "electronic-voices",
+    "featured": false,
+    "category": "voices",
+    "title": "The Voices on the Tape",
+    "region": "Mölnbo, Sweden",
+    "lat": 59.05,
+    "lon": 17.42,
+    "dateLabel": "1959 onwards",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Friedrich Jürgenson, Konstantīns Raudive and many listeners",
+    "hook": "A man recording birdsong played back his tape and heard a voice that wasn't there when he recorded.",
+    "summary": [
+      "In 1959, the Swedish painter and film-maker Friedrich Jürgenson was recording birdsong near his home when he heard, on playback, what sounded like a human voice, later followed by others he took to be the voices of the dead.",
+      "The Latvian writer Konstantīns Raudive went on to record tens of thousands of such voices and published a book in 1971. Recording voices in static, known as EVP, is now a hobby around the world."
+    ],
+    "explanation": "Most researchers put the voices down to pareidolia, the brain's habit of hearing words in random noise, along with stray radio broadcasts picked up by the equipment. Listeners often disagree about what a recording says, which fits this.",
+    "wiki": "Electronic voice phenomenon"
+  },
+  {
+    "slug": "kokomo-hum",
+    "featured": false,
+    "category": "voices",
+    "title": "The Kokomo Hum",
+    "region": "Kokomo, Indiana, USA",
+    "lat": 40.49,
+    "lon": -86.13,
+    "dateLabel": "From 1999",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Residents of the city",
+    "hook": "In a small American city, people said a low hum kept them awake and made them ill.",
+    "summary": [
+      "From around 1999, residents of Kokomo, Indiana, began complaining of a low humming or droning that they could hear and feel, especially at night. Some reported headaches, nausea and sleeplessness, and dozens of people came forward.",
+      "The city paid acoustic engineers to study it in 2003."
+    ],
+    "explanation": "The engineers found two low-frequency sources: a cooling fan at one factory and an air compressor at another. Both were fixed. Some residents said they could still hear the hum afterwards, so the cause of every report was never settled, as with other hums around the world.",
+    "wiki": "Kokomo Hum"
+  },
+  {
+    "slug": "enfield-poltergeist",
+    "featured": false,
+    "category": "voices",
+    "title": "The Enfield Poltergeist",
+    "region": "Enfield, London, England",
+    "lat": 51.65,
+    "lon": -0.06,
+    "dateLabel": "1977–1979",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "The Hodgson family, neighbours, police and investigators",
+    "hook": "In a council house in north London, furniture moved, knocks sounded, and a young girl spoke in a deep old man's voice.",
+    "summary": [
+      "In August 1977, Peggy Hodgson called the police to her home in Enfield, saying furniture was moving and knocking was coming from the walls. A police officer said she saw a chair slide across the floor.",
+      "Over the next two years, investigators Maurice Grosse and Guy Lyon Playfair recorded knocks, objects thrown, and eleven-year-old Janet speaking in a gruff voice that called itself Bill. Photographs showed Janet in mid-air above her bed."
+    ],
+    "explanation": "Other investigators, including members of the same Society, caught the children faking some events, and the 'levitation' photographs can be explained as jumping. Janet later said that some of it was faked, but not all. Grosse and Playfair remained convinced.",
+    "wiki": "Enfield poltergeist"
+  },
+  {
+    "slug": "bell-witch",
+    "featured": false,
+    "category": "voices",
+    "title": "The Bell Witch",
+    "region": "Adams, Tennessee, USA",
+    "lat": 36.59,
+    "lon": -87.07,
+    "dateLabel": "1817–1821",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "The Bell family and their neighbours, according to later accounts",
+    "hook": "A farming family in Tennessee said an invisible presence knocked, whispered, and finally talked to them out loud.",
+    "summary": [
+      "The story says that from 1817 the family of John Bell, a farmer near Adams, heard knocking and scratching in their house, then whispers and finally a voice that sang, argued and held conversations, and named itself after a neighbour. Visitors came to hear it.",
+      "In the legend it tormented John Bell until his death in 1820, and promised to return. A nearby cave is now a tourist site."
+    ],
+    "explanation": "There are no records of the haunting written at the time; the first full account appeared in 1894, more than seventy years later, in a book by M. V. Ingram. Historians think the story grew in the telling. Some suggest a family member was behind the voice.",
+    "wiki": "Bell Witch"
+  },
+  {
+    "slug": "lost-cosmonauts",
+    "featured": false,
+    "category": "voices",
+    "title": "The Lost Cosmonauts",
+    "region": "Torre Bert, near Turin, Italy",
+    "lat": 45.03,
+    "lon": 7.73,
+    "dateLabel": "Early 1960s",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "Two radio amateurs, the Judica-Cordiglia brothers",
+    "hook": "Two Italian brothers said their radio caught the voices of Soviet cosmonauts lost in space before Gagarin.",
+    "summary": [
+      "In the early 1960s, Achille and Giovanni Battista Judica-Cordiglia ran an amateur listening station at Torre Bert, near Turin. They said they had recorded signals and voices from Soviet spacecraft, including a heartbeat, an SOS in Morse code and a woman's voice describing heat in her capsule.",
+      "The recordings fed a belief that the Soviet Union had secretly lost cosmonauts before and after Yuri Gagarin's flight in 1961."
+    ],
+    "explanation": "When Soviet records opened after 1991, they showed no hidden deaths in space, though accidents on the ground had been kept secret. Russian speakers say the voices' Russian contains mistakes a cosmonaut wouldn't make, and the radio frequencies don't match. Most researchers think the recordings were faked or misheard.",
+    "wiki": "Lost Cosmonauts"
+  },
+  {
+    "slug": "kelly-hopkinsville",
+    "featured": true,
+    "category": "visitors",
+    "title": "The Kelly–Hopkinsville Encounter",
+    "region": "Kelly, near Hopkinsville, Kentucky, USA",
+    "lat": 36.78,
+    "lon": -87.48,
+    "dateLabel": "21–22 August 1955",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Eleven people at a farmhouse, then police",
+    "hook": "A family on a Kentucky farm said small, glowing creatures with huge ears circled their house all night.",
+    "summary": [
+      "On the evening of 21 August 1955, Billy Ray Taylor, visiting the Sutton family farm near Kelly, said he saw a bright object land in a gully nearby. Soon after, the household said a small, silvery figure with large pointed ears, big glowing eyes and long arms came towards the house, followed by others.",
+      "For several hours the family tried to drive the figures away, firing guns at them, and said the creatures floated rather than fell when hit. They then drove to the police in Hopkinsville. Officers searched the farm and found no trace of the visitors, though they noted the family was genuinely frightened."
+    ],
+    "explanation": "The investigator Joe Nickell suggested the family saw great horned owls, which have ear tufts, glowing eyes and silvery feathers in light, are active at night and defend their nests aggressively; the 'landing' may have been a meteor. Others note the witnesses knew the local wildlife. The case gave rise to the popular image of little green men.",
+    "wiki": "Kelly–Hopkinsville encounter"
   }
 ];
