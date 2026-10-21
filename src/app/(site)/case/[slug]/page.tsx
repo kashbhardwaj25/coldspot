@@ -10,6 +10,7 @@ import { CaseArticle } from "@/features/cases/CaseArticle";
 import { CaseLinks } from "@/features/cases/CaseLinks";
 import { caseJsonLd } from "@/features/cases/jsonld";
 import { getAllCases, getCase } from "@/features/cases/queries";
+import { MarkRead } from "@/features/map/MarkRead";
 import { relatedCases } from "@/features/cases/related";
 import { placeLinkFor } from "@/features/regions/queries";
 import { CATEGORIES } from "@/lib/categories";
@@ -43,6 +44,7 @@ export default async function CasePage({ params }: Params) {
   return (
     <main className="page" style={{ "--tc": cat.color } as CSSProperties}>
       <PageTop mapHref={`/?case=${c.slug}`} />
+      <MarkRead kind="case" slug={c.slug} />
       <article className="article">
         <CaseArticle
           c={c}

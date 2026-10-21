@@ -5,6 +5,7 @@ import { PageTop } from "@/components/PageTop";
 import { ShareButton } from "@/components/ui/ShareButton";
 import { getApprovedStories, getApprovedStory } from "@/features/stories/queries";
 import Link from "next/link";
+import { MarkRead } from "@/features/map/MarkRead";
 import { placeLinkFor } from "@/features/regions/queries";
 import { ReportButton } from "@/features/reports/ReportButton";
 import { StoryArticle } from "@/features/stories/StoryArticle";
@@ -38,6 +39,7 @@ export default async function StoryPage({ params }: Params) {
   return (
     <main className="page" style={{ "--tc": cat.color } as CSSProperties}>
       <PageTop mapHref={`/?story=${s.slug}`} />
+      <MarkRead kind="story" slug={s.slug} />
       <article className="article">
         <StoryArticle s={s} variant="page" lastField={["Echoes", s.echoes]}>
           <div className="links">
