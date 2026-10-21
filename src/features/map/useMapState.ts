@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { Category } from "@/lib/categories";
 import { signal } from "@/lib/signal";
 import { itemKey, type MapItem, type Mode } from "@/lib/types";
+import { yearOnThisDay } from "@/features/cases/onThisDay";
 import type { MapData, SheetState } from "./state";
 import { useEchoes } from "./useEchoes";
 import { allCategories, toMarkers, useGlobe } from "./useGlobe";
@@ -23,6 +24,7 @@ export function useMapState(data: MapData) {
   const [placeFilter, setPlaceFilter] = useState<string | null>(null);
   const [hintHidden, setHintHidden] = useState(false);
   const [coords] = useState(() => signal(""));
+  const [today] = useState(() => new Date());
   const [echoState, setEchoState] = useEchoes(stories);
   const sound = useSound();
   const logbook = useLogbook();
@@ -83,12 +85,15 @@ export function useMapState(data: MapData) {
     setPlaceFilter,
   });
 
+  const tuned = lookup(tunedKey);
   return {
     mode,
     active,
     items: modeItems,
     read: logbook.read,
-    tuned: lookup(tunedKey),
+    tuned,
+    /** The year a tuned case happened, when today is its anniversary. */
+    onThisDay: tuned?.kind === "case" ? yearOnThisDay(tuned.dateLabel, today) : null,
     nearest: lookup(nearestKey),
     sheet,
     placeFilter,

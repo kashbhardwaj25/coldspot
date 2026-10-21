@@ -21,6 +21,14 @@
   gap: 10px;
   text-align: center;
 }
+/* Above the title when today is a case's anniversary: a quiet label in the emitted light. */
+.on-this-day {
+  margin: 0 0 6px;
+  font-size: var(--label-size);
+  letter-spacing: var(--label-track);
+  text-transform: uppercase;
+  color: var(--phosphor);
+}
 .tuned-title {
   margin: 0;
   font-family: var(--serif);

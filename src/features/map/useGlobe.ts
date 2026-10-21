@@ -3,6 +3,7 @@ import { CATEGORY_KEYS, type Category } from "@/lib/categories";
 import { itemKey, itemName, type CaseSummary, type MapItem, type Mode, type StoryItem } from "@/lib/types";
 import { GlobeEngine, type EngineItem, type View } from "@/features/globe/engine";
 import { loadLand } from "@/features/globe/land";
+import { casesOnThisDay } from "@/features/cases/onThisDay";
 import type { Radio } from "@/features/globe/radio";
 
 export const VIEWS: Record<Mode, View> = {
@@ -40,13 +41,17 @@ type Callbacks = {
   onOpenTuned: (key: string) => void;
 };
 
-/** Deep links: /?case=roswell or /?story=upper-lake-12 */
-function deepLinkTarget(cases: CaseSummary[], stories: StoryItem[]): MapItem | undefined {
+/**
+ * Where the map opens: a deep link (/?case=roswell or /?story=upper-lake-12), otherwise a case that happened on
+ * this day in an earlier year, otherwise nothing (the default view).
+ */
+function openingTarget(cases: CaseSummary[], stories: StoryItem[]): MapItem | undefined {
   const q = new URLSearchParams(window.location.search);
   const c = q.get("case");
   if (c) return cases.find((i) => i.slug === c);
   const s = q.get("story");
-  return s ? stories.find((i) => i.slug === s) : undefined;
+  if (s) return stories.find((i) => i.slug === s);
+  return casesOnThisDay(cases, new Date())[0];
 }
 
 /**
@@ -75,7 +80,7 @@ export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: St
     loadLand()
       .then((land) => {
         if (cancelled || !baseRef.current || !dotsRef.current) return;
-        const target = deepLinkTarget(data.cases, data.stories);
+        const target = openingTarget(data.cases, data.stories);
         const mode: Mode = target?.kind === "story" ? "people" : "famous";
         const view = target ? { lon: target.lon, lat: target.lat, zoom: mode === "famous" ? 2.4 : 3.6 } : VIEWS[mode];
 

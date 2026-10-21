@@ -17,14 +17,16 @@ type Props = {
   echoes?: number;
   /** Already opened in this browser. */
   read: boolean;
+  /** The year a tuned case happened, when today is its anniversary. */
+  onThisDay: number | null;
   onOpen: (item: MapItem) => void;
 };
 
 /** What's tuned in, under the ring: its title lit up, or unlit between stations. */
-export function TunerCard({ item, nearest, coords, echoes, read, onOpen }: Props) {
+export function TunerCard({ item, nearest, coords, echoes, read, onThisDay, onOpen }: Props) {
   if (!item) return <Searching nearest={nearest} coords={coords} />;
   // Keyed, so the title charges up again each time something new tunes in.
-  if (item.kind === "case") return <CaseCard key={item.slug} {...{ item, coords, read, onOpen }} />;
+  if (item.kind === "case") return <CaseCard key={item.slug} {...{ item, coords, read, onThisDay, onOpen }} />;
   return <StoryCard key={item.slug} {...{ item, coords, read, onOpen }} echoes={echoes ?? item.echoes} />;
 }
 
@@ -46,7 +48,7 @@ function Searching({ nearest, coords }: { nearest: MapItem | null; coords: Signa
 
 type CardProps<T> = { item: T; coords: Signal<string>; read: boolean; onOpen: (item: MapItem) => void };
 
-function CaseCard({ item, coords, read, onOpen }: CardProps<CaseSummary>) {
+function CaseCard({ item, coords, read, onThisDay, onOpen }: CardProps<CaseSummary> & { onThisDay: number | null }) {
   const cat = CATEGORIES[item.category];
   // Fetch the full case file as soon as a case tunes in, so it's usually ready before it's opened.
   useEffect(() => {
@@ -54,6 +56,7 @@ function CaseCard({ item, coords, read, onOpen }: CardProps<CaseSummary>) {
   }, [item.slug]);
   return (
     <div className="tuned" style={{ "--tc": cat.color } as CSSProperties} aria-live="polite">
+      {onThisDay && <p className="on-this-day">On this day in {onThisDay}</p>}
       <h2 className="tuned-title">{item.title}</h2>
       <p className="tuned-line">{item.hook}</p>
       <div className="tuned-meta">

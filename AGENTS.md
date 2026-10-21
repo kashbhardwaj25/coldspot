@@ -102,6 +102,7 @@ src/features/
     PrivacyPolicy.tsx TermsOfUse.tsx Legal.tsx   the two policies, written to match what the code does
   cases/
     queries.ts CaseArticle.tsx   famous cases; case file shared by the page and the sheet
+    onThisDay.ts                 exact dates read from dateLabel; with no deep link, the map opens on a case from this day
   moderation/
     actions.ts                   "use server": approve (with edits), reject, unpublish, restore, remove, requeue
     auth.ts                      "use server": login (rate limited), logout

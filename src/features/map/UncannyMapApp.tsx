@@ -48,6 +48,7 @@ export default function UncannyMapApp({ data }: Props) {
           coords={map.coords}
           echoes={tuned?.kind === "story" ? map.echoState[tuned.slug]?.echoes : undefined}
           read={tuned ? map.read.has(itemKey(tuned)) : false}
+          onThisDay={map.onThisDay}
           onOpen={actions.openItem}
         />
       </div>
