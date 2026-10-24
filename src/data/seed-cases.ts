@@ -12477,5 +12477,959 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Historians say there's little evidence for the medium story, which spread after her death when the house opened as an attraction. Sarah Winchester was a private woman with a large fortune and a keen interest in design, and much of the oddness comes from repairs after the 1906 earthquake and from rooms being built over and changed.",
     "wiki": "Winchester Mystery House"
+  },
+  {
+    "slug": "willamette-meteorite",
+    "category": "sky",
+    "title": "The Willamette Meteorite",
+    "region": "West Linn, Oregon, USA",
+    "lat": 45.37,
+    "lon": -122.63,
+    "dateLabel": "Found in 1902",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Ellis Hughes, a settler, and the Clackamas people long before him",
+    "hook": "A settler secretly dragged a 15-tonne iron meteorite across his neighbour's land, and ended up in court.",
+    "summary": [
+      "The Willamette Meteorite is the largest meteorite ever found in North America, a mass of iron and nickel weighing about 15.5 tonnes. Long before settlers arrived, it was known to the Clackamas people, who called it Tomanowos and regarded it as a visitor from the sky with spiritual power.",
+      "In 1902 a settler, Ellis Hughes, found it on land owned by the Oregon Iron and Steel Company and spent about three months secretly hauling it to his own property. The company sued and won, and in 1906 it was sold and given to the American Museum of Natural History in New York."
+    ],
+    "explanation": "It's an iron meteorite that probably landed farther north and was carried to Oregon by ice and the great floods at the end of the last Ice Age. Its deep pits formed as it weathered. Under an agreement made in 2000, members of the Confederated Tribes of Grand Ronde hold a private ceremony with it each year.",
+    "wiki": "Willamette Meteorite"
+  },
+  {
+    "slug": "laigle-meteorite",
+    "category": "sky",
+    "title": "The Stones That Fell at L'Aigle",
+    "region": "L'Aigle, Normandy, France",
+    "lat": 48.76,
+    "lon": 0.63,
+    "dateLabel": "26 April 1803",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Hundreds of townspeople and villagers",
+    "hook": "When thousands of stones fell on a Normandy town, they finally convinced scientists that rocks really do fall from the sky.",
+    "summary": [
+      "Around one o'clock on 26 April 1803, people in and around L'Aigle in Normandy heard explosions and saw a fireball. Then a shower of stones, some 3,000 of them, fell over a wide stretch of countryside.",
+      "At the time many scientists doubted that stones could fall from the sky and dismissed such reports as superstition. The French Academy of Sciences sent the young physicist Jean-Baptiste Biot to investigate."
+    ],
+    "explanation": "Biot interviewed witnesses, mapped where the stones had landed and showed they were unlike any local rock. His report convinced the scientific world that meteorites come from space, and L'Aigle is often called the birth of meteorite science. The stones are ordinary chondrites.",
+    "wiki": "L'Aigle (meteorite)"
+  },
+  {
+    "slug": "orgueil-meteorite",
+    "category": "sky",
+    "title": "The Orgueil Meteorite",
+    "region": "Orgueil, Tarn-et-Garonne, France",
+    "lat": 43.9,
+    "lon": 1.41,
+    "dateLabel": "14 May 1864",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Villagers in south-western France",
+    "hook": "A meteorite that fell in France was found, a century later, to contain seeds glued in by a 19th-century prankster.",
+    "summary": [
+      "On the evening of 14 May 1864, a fireball crossed south-western France, and about 20 black stones fell near the village of Orgueil. They were soft and crumbly, rich in carbon compounds and water-bearing minerals, a rare kind of meteorite.",
+      "In 1964 scientists examining a sealed sample found plant seeds and coal dust embedded in it, held in place with glue. For a moment it looked like evidence of life from space."
+    ],
+    "explanation": "The seeds turned out to be a hoax, almost certainly planted soon after the fall, perhaps to stir up the debate over spontaneous generation and Louis Pasteur's experiments of the time. The meteorite itself is genuine and one of the most studied in the world, because its chemistry is close to the material the solar system formed from.",
+    "wiki": "Orgueil (meteorite)"
+  },
+  {
+    "slug": "qingyang-stone-fall",
+    "category": "sky",
+    "title": "The Qingyang Stone Fall",
+    "region": "Qingyang, Gansu, China",
+    "lat": 35.71,
+    "lon": 107.64,
+    "dateLabel": "1490",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Recorded in Chinese chronicles",
+    "hook": "Chinese records say stones fell like rain over a city in 1490, with a terrible loss of life.",
+    "summary": [
+      "Chinese records from the Ming dynasty describe stones falling 'like rain' at Qingyang, in Gansu province, in 1490. The largest were said to be the size of a goose's egg, the smallest the size of a water chestnut.",
+      "Some later accounts say more than 10,000 people died, which would make it by far the deadliest meteorite event known."
+    ],
+    "explanation": "Some researchers think a large stony meteorite broke up in the air and showered the area with fragments, like the L'Aigle fall but much bigger. Others doubt the death toll, which appears only in later sources, or suggest a severe hailstorm. No fragments from the event have been identified.",
+    "wiki": "Qingyang event"
+  },
+  {
+    "slug": "vela-incident",
+    "category": "sky",
+    "title": "The Vela Incident",
+    "region": "South Atlantic Ocean, near the Prince Edward Islands",
+    "lat": -47,
+    "lon": 40,
+    "dateLabel": "22 September 1979",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "A US Vela satellite",
+    "hook": "A US satellite recorded a double flash of light over a remote ocean, the signature of a nuclear test, but no country ever claimed it.",
+    "summary": [
+      "On 22 September 1979, the US satellite Vela 6911, built to detect nuclear explosions, recorded a 'double flash' of light over the remote far south of the Atlantic and Indian Oceans, near South Africa's Prince Edward Islands. That pattern had only ever been seen from nuclear tests.",
+      "No country announced a test. A panel of scientists appointed by the White House concluded in 1980 that the signal was probably not a nuclear explosion."
+    ],
+    "explanation": "The panel suggested a small meteoroid striking the satellite might have caused a false reading. Many others, including some US intelligence analysts, have argued it was a secret nuclear test, most often attributed to Israel, perhaps with South Africa; both have denied it. There has been no official confirmation either way.",
+    "wiki": "Vela incident"
+  },
+  {
+    "slug": "carrington-event",
+    "category": "sky",
+    "title": "The Carrington Event",
+    "region": "Redhill, Surrey, England",
+    "lat": 51.24,
+    "lon": -0.17,
+    "dateLabel": "1 September 1859",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Richard Carrington, and people all over the world",
+    "hook": "A day after an astronomer saw a flash on the Sun, auroras lit up the tropics and telegraph lines threw sparks.",
+    "summary": [
+      "On the morning of 1 September 1859, the astronomer Richard Carrington was sketching sunspots at his observatory in Redhill when two patches of intense white light flared up among them for about five minutes. Richard Hodgson saw the same thing independently in London.",
+      "Less than a day later, the strongest geomagnetic storm on record struck Earth. Auroras were seen as far south as the Caribbean, bright enough in places to read by, and telegraph systems failed, gave operators electric shocks, and in some cases kept working with their batteries disconnected."
+    ],
+    "explanation": "Carrington had seen the first recorded solar flare, which came with a huge burst of charged particles from the Sun, a coronal mass ejection, that hit Earth's magnetic field. A storm that strong today could damage satellites and power grids, which is why space weather is now watched closely.",
+    "wiki": "Carrington Event"
+  },
+  {
+    "slug": "new-england-dark-day",
+    "category": "sky",
+    "title": "New England's Dark Day",
+    "region": "New England, USA",
+    "lat": 42.6,
+    "lon": -71.8,
+    "dateLabel": "19 May 1780",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "People across New England and eastern Canada",
+    "hook": "On a spring morning in 1780 the sky over New England went so dark that people lit candles at noon.",
+    "summary": [
+      "On 19 May 1780, the sky over New England and parts of eastern Canada darkened in the middle of the morning. By noon people needed candles, birds fell silent and went to roost, and many thought the Day of Judgement had come.",
+      "In Connecticut's legislature, a member named Abraham Davenport is remembered for refusing to adjourn: if it was the end, he said, he wanted to be found doing his duty, and he asked for candles to be brought in."
+    ],
+    "explanation": "The darkness was caused by smoke from large forest fires, most likely in what is now Ontario, carried on the wind and combined with fog and low cloud. Researchers have since found tree rings in Canada scarred by fire in that year.",
+    "wiki": "New England's Dark Day"
+  },
+  {
+    "slug": "year-without-a-summer",
+    "category": "sky",
+    "title": "The Year Without a Summer",
+    "region": "Villa Diodati, Cologny, Geneva, Switzerland",
+    "lat": 46.24,
+    "lon": 6.1,
+    "dateLabel": "1816",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "People across Europe and North America",
+    "hook": "In 1816 summer never came, and a stormy holiday on Lake Geneva gave the world Frankenstein.",
+    "summary": [
+      "In 1816, much of the Northern Hemisphere had a summer of frost, snow and cold rain. Crops failed in New England and western Europe, food prices soared, and there was famine and unrest. In some places snow fell in June.",
+      "At the Villa Diodati by Lake Geneva, Lord Byron and his guests, including Mary Shelley and John Polidori, were kept indoors by storms and challenged each other to write ghost stories. Mary Shelley began Frankenstein, and Polidori wrote The Vampyre."
+    ],
+    "explanation": "The cold followed the eruption of Mount Tambora in Indonesia in April 1815, the largest volcanic eruption in recorded history. Its sulphur formed a haze high in the atmosphere that reflected sunlight and cooled the planet for more than a year.",
+    "wiki": "Year Without a Summer"
+  },
+  {
+    "slug": "great-meteor-1783",
+    "category": "sky",
+    "title": "The Great Meteor of 1783",
+    "region": "Windsor Castle, Berkshire, England",
+    "lat": 51.48,
+    "lon": -0.6,
+    "dateLabel": "18 August 1783",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "People across Britain, including the Sandby brothers",
+    "hook": "A slow, glowing procession of fireballs crossed Britain on a summer night, and was painted from the terrace of Windsor Castle.",
+    "summary": [
+      "On the evening of 18 August 1783, a bright fireball crossed Britain from Scotland towards the south-east, breaking into a train of glowing pieces. It was seen across the country and on the continent.",
+      "The artists Thomas and Paul Sandby watched it from the terrace of Windsor Castle and made a well-known picture of it. It was already a strange year: a dry haze from the Laki eruption in Iceland had hung over Europe all summer."
+    ],
+    "explanation": "It was a large meteor grazing the atmosphere on a long, shallow path, like the Great Meteor Procession of 1913. Scientists of the time, including Charles Blagden of the Royal Society, collected accounts and estimated its height and speed, an early step in the study of meteors.",
+    "wiki": "1783 Great Meteor"
+  },
+  {
+    "slug": "novaya-zemlya-effect",
+    "category": "sky",
+    "title": "The Sun That Rose Too Early",
+    "region": "Novaya Zemlya, Russia",
+    "lat": 75.5,
+    "lon": 60,
+    "dateLabel": "24 January 1597",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Willem Barentsz's stranded crew",
+    "hook": "Stranded through the polar night, Barentsz's crew saw the Sun come back two weeks before it should have.",
+    "summary": [
+      "In 1596 the Dutch explorer Willem Barentsz's ship was trapped in the ice off Novaya Zemlya, in the Arctic, and his crew built a hut and survived the winter there. By their reckoning, the Sun should not rise above the horizon again until around 8 February.",
+      "But on 24 January 1597, Gerrit de Veer and two others saw part of the Sun's disc. Their account was doubted for centuries, since it seemed two weeks too early."
+    ],
+    "explanation": "It was a real mirage, now called the Novaya Zemlya effect. When very cold air lies beneath warmer air, light from the Sun below the horizon can be bent along the boundary and carried hundreds of kilometres, making the Sun appear early. The effect has since been observed and explained.",
+    "wiki": "Novaya Zemlya effect"
+  },
+  {
+    "slug": "kaspar-hauser",
+    "featured": true,
+    "category": "visitors",
+    "title": "Kaspar Hauser",
+    "region": "Nuremberg, Germany",
+    "lat": 49.45,
+    "lon": 11.08,
+    "dateLabel": "26 May 1828",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Nuremberg townspeople and officials",
+    "hook": "A teenage boy appeared in a Nuremberg square holding a letter, barely able to speak, and said he'd spent his life in a dark cell.",
+    "summary": [
+      "On 26 May 1828 a youth of about 16 appeared in Nuremberg carrying a letter addressed to a cavalry captain. He knew few words, but could write his name: Kaspar Hauser. He later said he'd been kept alone in a small dark cell for as long as he could remember, fed bread and water by a man he never saw.",
+      "He became famous across Europe, and rumours spread that he was a lost prince of the House of Baden. He died in 1833 from a wound he said a stranger had given him."
+    ],
+    "explanation": "His origins have never been established. DNA tests over the years have given conflicting results on the Baden theory, and a 2024 study found no link. Some historians think he was a fantasist whose story grew in the telling; others accept that he was genuinely kept isolated and mistreated.",
+    "wiki": "Kaspar Hauser"
+  },
+  {
+    "slug": "man-from-taured",
+    "category": "visitors",
+    "title": "The Man from Taured",
+    "region": "Haneda Airport, Tokyo, Japan",
+    "lat": 35.55,
+    "lon": 139.78,
+    "dateLabel": "Said to be 1954",
+    "status": "explained",
+    "statusLabel": "Legend",
+    "witnesses": "None that can be traced",
+    "hook": "A traveller landed in Tokyo with a passport from a country that doesn't exist, the story goes, then vanished from a guarded room.",
+    "summary": [
+      "The story, told in books on the paranormal since the 1980s, says a man landed at Tokyo's Haneda Airport in 1954 with a passport from Taured, a country he said lay between France and Spain. Shown Andorra on a map, he was baffled. He was put in a hotel room overnight under guard, and by morning he and his papers were gone.",
+      "It's often retold online as proof of travellers from a parallel world."
+    ],
+    "explanation": "No record of the event has been found in Japanese archives or newspapers, and the story first appears decades later. Researchers have traced parts of it to earlier tales, including the case of John Zegrus, a man held in Japan in 1959 with irregular papers. It's generally regarded as an urban legend.",
+    "wiki": "Man from Taured"
+  },
+  {
+    "slug": "princess-caraboo",
+    "category": "visitors",
+    "title": "Princess Caraboo",
+    "region": "Almondsbury, Gloucestershire, England",
+    "lat": 51.55,
+    "lon": -2.57,
+    "dateLabel": "3 April 1817",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Villagers and the Worrall household",
+    "hook": "A young woman speaking an unknown language turned up in an English village and was welcomed as a princess from a faraway island.",
+    "summary": [
+      "On 3 April 1817, a young woman in unusual dress appeared in the village of Almondsbury, near Bristol, speaking a language no one understood. Elizabeth Worrall, the wife of the local magistrate, took her in. A visiting sailor claimed to understand her and said she was Princess Caraboo of Javasu, an island in the Indian Ocean, carried off by pirates.",
+      "For ten weeks she lived as a celebrity, fencing, swimming and praying to a god she called Allah Tallah, while curious visitors came to see her."
+    ],
+    "explanation": "A Bristol lodging-house keeper recognised her from a newspaper portrait. She was Mary Willcocks, a cobbler's daughter from Devon, who had invented the language and the story. Mrs Worrall paid for her passage to America; she later returned to England and settled in Bristol.",
+    "wiki": "Princess Caraboo"
+  },
+  {
+    "slug": "count-of-st-germain",
+    "category": "visitors",
+    "title": "The Count of St Germain",
+    "region": "Paris, France",
+    "lat": 48.86,
+    "lon": 2.35,
+    "dateLabel": "From the 1740s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "European courts and diarists",
+    "hook": "A charming courtier of the 1700s was said never to age, and to have met people dead for centuries.",
+    "summary": [
+      "The Count of St Germain appeared in European high society in the 1740s: a gifted musician, linguist and chemist with mysterious wealth, who became a favourite of Louis XV in Paris. His real name and origins were never known.",
+      "Rumours spread that he had found the elixir of life, that he was hundreds of years old and had met figures from history. He reportedly died in Germany in 1784, yet people claimed to meet him for decades afterwards."
+    ],
+    "explanation": "Historians see him as a talented adventurer who encouraged an air of mystery around himself; some of the wildest stories came from jokes and impersonators. Later occult movements, such as Theosophy, made him an immortal spiritual master, which kept the legend alive.",
+    "wiki": "Count of St. Germain"
+  },
+  {
+    "slug": "mad-gasser-of-mattoon",
+    "category": "visitors",
+    "title": "The Mad Gasser of Mattoon",
+    "region": "Mattoon, Illinois, USA",
+    "lat": 39.48,
+    "lon": -88.37,
+    "dateLabel": "September 1944",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Dozens of residents, and the local press",
+    "hook": "For two weeks in 1944, people in a small Illinois town reported a prowler spraying a sweet-smelling gas into their homes.",
+    "summary": [
+      "In early September 1944, a woman in Mattoon reported a sweet smell in her bedroom, followed by nausea and a feeling of numbness in her legs. Over the next two weeks, dozens more reports came in of a 'mad gasser' spraying gas through windows, and some people said they glimpsed a tall figure in dark clothes.",
+      "Residents armed themselves and formed patrols, but no gasser was ever caught."
+    ],
+    "explanation": "Police and many researchers concluded it was mass hysteria, fed by sensational newspaper coverage and wartime fears: symptoms faded quickly, doctors found no lasting effects, and no gas or culprit was found. Others have suggested a real prowler, or fumes from local factories.",
+    "wiki": "Mad Gasser of Mattoon"
+  },
+  {
+    "slug": "tulli-papyrus",
+    "category": "visitors",
+    "title": "The Tulli Papyrus",
+    "region": "Rome, Italy",
+    "lat": 41.9,
+    "lon": 12.49,
+    "dateLabel": "Published in 1953",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "No one has produced the original",
+    "hook": "A 'translated' Egyptian papyrus describing circles of fire in the sky has been passed around for decades. No one has ever seen the papyrus.",
+    "summary": [
+      "In 1953 the magazine Doubt published what it said was a translation of an ancient Egyptian papyrus from the reign of Thutmose III, found among the papers of Alberto Tulli, a former director of the Egyptian section of the Vatican Museums. It described 'circles of fire' in the sky, brighter than the Sun, watched by the pharaoh and his army.",
+      "It became a favourite of books about ancient UFOs."
+    ],
+    "explanation": "The original papyrus has never been found, and the Vatican Museums say they don't have it. Egyptologists who studied the published hieroglyphic text say it's a clumsy forgery, mixing phrases from different periods. Most regard it as a hoax from the 20th century.",
+    "wiki": "Tulli Papyrus"
+  },
+  {
+    "slug": "valcamonica-astronauts",
+    "category": "visitors",
+    "title": "The 'Astronauts' of Valcamonica",
+    "region": "Capo di Ponte, Valcamonica, Lombardy, Italy",
+    "lat": 46.03,
+    "lon": 10.34,
+    "dateLabel": "Carved over thousands of years",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Archaeologists and visitors",
+    "hook": "Among Europe's greatest collections of rock art are two figures with haloed heads that some call ancient astronauts.",
+    "summary": [
+      "Valcamonica, an Alpine valley in Lombardy, holds one of the largest collections of prehistoric rock carvings in the world, well over 100,000 figures made over thousands of years. In 1979 it became Italy's first UNESCO World Heritage Site.",
+      "Two figures at Zurla, near Capo di Ponte, have rays around their heads and hold objects in their hands. Since the 1960s, ancient-astronaut writers have called them space travellers in helmets."
+    ],
+    "explanation": "Archaeologists interpret the rayed heads as headdresses, sun symbols or images of gods, and the objects as tools or ritual items. Similar stylised figures appear elsewhere in the valley in clearly human scenes.",
+    "wiki": "Rock Drawings in Valcamonica"
+  },
+  {
+    "slug": "salamanca-astronaut",
+    "category": "visitors",
+    "title": "The Astronaut on Salamanca Cathedral",
+    "region": "New Cathedral, Salamanca, Spain",
+    "lat": 40.96,
+    "lon": -5.666,
+    "dateLabel": "Carved in 1992",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors who spot it",
+    "hook": "A cathedral begun in the 1500s has an astronaut carved beside its door, and the answer is simpler than time travel.",
+    "summary": [
+      "The New Cathedral of Salamanca was built between 1513 and 1733. Among the stone carvings around its northern doorway is a small figure of an astronaut in a spacesuit, complete with breathing tubes, floating among the stone foliage.",
+      "Photos of it often spread online as supposed proof of time travel or ancient knowledge of spaceflight."
+    ],
+    "explanation": "It was added in 1992, when the doorway was restored. The stonemasons were invited to include a symbol of the 20th century, as craftsmen traditionally left their own marks, and chose an astronaut. A small dragon eating an ice cream was carved nearby at the same time.",
+    "wiki": "New Cathedral of Salamanca"
+  },
+  {
+    "slug": "selma-seljord",
+    "category": "creatures",
+    "title": "Selma of Seljord",
+    "region": "Seljordsvatnet, Telemark, Norway",
+    "lat": 59.48,
+    "lon": 8.65,
+    "dateLabel": "Reported since the 1700s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Local people and visitors",
+    "hook": "A Norwegian lake has its own serpent, reported since the 1700s and still searched for with cameras and sonar.",
+    "summary": [
+      "Seljordsvatnet, a lake in Telemark, is home in local lore to Selma, a long, serpent-like creature often described with a horse-like head and humps along its back. Reports go back to at least the 1700s.",
+      "The town has embraced the legend, and expeditions with sonar and underwater cameras have searched the lake since the 1970s."
+    ],
+    "explanation": "Suggested explanations include otters or elk swimming in a line, waves, floating logs and large fish. Nothing unusual has been found.",
+    "wiki": "Selma (lake monster)"
+  },
+  {
+    "slug": "issie",
+    "category": "creatures",
+    "title": "Issie of Lake Ikeda",
+    "region": "Lake Ikeda, Kagoshima, Japan",
+    "lat": 31.23,
+    "lon": 130.56,
+    "dateLabel": "Reported from 1978",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "People at the lakeside",
+    "hook": "People at a Japanese crater lake said they saw large humps moving through the water, and a monster craze followed.",
+    "summary": [
+      "Lake Ikeda is a large crater lake near the southern tip of Kyushu. In 1978, people at the lakeside said they saw two large humps moving through the water.",
+      "The sighting set off a wave of excitement, with a reward offered for photographs, and the creature was named Issie, after Scotland's Nessie. The lake is known for its giant eels, which can grow well over a metre long."
+    ],
+    "explanation": "Most suspect the sightings were of the lake's huge mottled eels, of waves or of boat wakes. No evidence of a larger animal has been found.",
+    "wiki": "Lake Ikeda"
+  },
+  {
+    "slug": "kraken",
+    "featured": true,
+    "category": "creatures",
+    "title": "The Kraken",
+    "region": "Norwegian Sea, off Norway",
+    "lat": 66,
+    "lon": 9,
+    "dateLabel": "Described in 1752",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Norwegian fishermen, as told to a bishop",
+    "hook": "Norwegian sailors told of a sea monster so vast it could be mistaken for a group of islands.",
+    "summary": [
+      "In 1752–53 Erik Pontoppidan, bishop of Bergen, published a natural history of Norway describing the kraken, a creature fishermen said was more than a mile and a half around, which rose beneath their boats and could be mistaken for islands. Fishing was said to be especially good above it.",
+      "Older Norse writings mention similar monsters, and the kraken later appeared in literature from Tennyson's poem to Jules Verne's Twenty Thousand Leagues Under the Seas."
+    ],
+    "explanation": "Most think the legend grew from sightings of giant squid, which can reach over 12 metres including tentacles and sometimes float at the surface when dying, combined with sailors' exaggeration. The Danish zoologist Japetus Steenstrup established the giant squid as real in the 1850s, and it was first photographed alive in its habitat in 2004.",
+    "wiki": "Kraken"
+  },
+  {
+    "slug": "tatzelwurm",
+    "category": "creatures",
+    "title": "The Tatzelwurm",
+    "region": "Near Meiringen, Bernese Oberland, Switzerland",
+    "lat": 46.73,
+    "lon": 8.19,
+    "dateLabel": "Reported for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Alpine farmers and hunters",
+    "hook": "Alpine farmers describe a stubby, cat-faced lizard with short legs, and a 1934 photo seemed to show one.",
+    "summary": [
+      "In the Alps of Switzerland, Austria, Bavaria and northern Italy, the Tatzelwurm, or 'clawed worm', is said to be a lizard-like creature a metre or so long, with a cat-like face and short legs, sometimes only two. Accounts go back centuries, and some say it hisses.",
+      "In 1934 a Swiss photographer named Balkin published a picture of what he said was a Tatzelwurm, taken near Meiringen."
+    ],
+    "explanation": "The 1934 photo is generally thought to show a ceramic fish or similar model. Sightings may have been of large lizards, salamanders, otters or martens glimpsed among rocks. No specimen has ever been collected.",
+    "wiki": "Tatzelwurm"
+  },
+  {
+    "slug": "manipogo",
+    "category": "creatures",
+    "title": "Manipogo",
+    "region": "Lake Manitoba, Manitoba, Canada",
+    "lat": 51,
+    "lon": -98.8,
+    "dateLabel": "Named in 1957",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Fishermen and people on the lakeshore",
+    "hook": "Lake Manitoba's monster was photographed from a boat in 1962: a snake-like shape in the water.",
+    "summary": [
+      "Reports of a large, serpent-like creature in Lake Manitoba go back to at least the early 1900s. After more sightings in 1957, it was nicknamed Manipogo, after British Columbia's Ogopogo.",
+      "In 1962 two fishermen, Richard Vincent and John Konefell, photographed what they said was a large, snake-like animal swimming in the lake."
+    ],
+    "explanation": "The 1962 photo is too unclear to identify. Suggestions include large fish such as lake sturgeon, otters or beavers swimming in a line, and floating debris. No physical evidence has been found.",
+    "wiki": "Manipogo"
+  },
+  {
+    "slug": "mamlambo",
+    "category": "creatures",
+    "title": "Mamlambo",
+    "region": "Mzintlava River, Eastern Cape, South Africa",
+    "lat": -30.8,
+    "lon": 29.37,
+    "dateLabel": "1997",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Villagers near Mount Ayliff",
+    "hook": "In 1997 villagers in South Africa's Eastern Cape said a giant river creature, part horse and part snake, was lurking in the Mzintlava River.",
+    "summary": [
+      "Mamlambo is a river creature from Zulu and Xhosa folklore, often described as a huge serpent with a horse-like head and a body that glows green at night. In some stories it can bring wealth to those who make a bargain with it, at a price.",
+      "In 1997, people near Mount Ayliff in the Eastern Cape blamed it for several drownings in the Mzintlava River, and newspapers around the world picked up the story."
+    ],
+    "explanation": "Police and officials put the deaths down to drowning in a river swollen by rain, and suggested the 'creature' might be a crocodile or a large python, though neither usually lives there. Mamlambo remains a figure of folklore, and the 1997 sightings were never confirmed.",
+    "wiki": "Mamlambo"
+  },
+  {
+    "slug": "lambton-worm",
+    "category": "creatures",
+    "title": "The Lambton Worm",
+    "region": "Lambton, County Durham, England",
+    "lat": 54.84,
+    "lon": -1.54,
+    "dateLabel": "Legend set in the Middle Ages",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Told in local ballads and song",
+    "hook": "A young heir fished a strange worm from the River Wear and threw it in a well. It grew into a monster that coiled around a hill.",
+    "summary": [
+      "The legend, told in the north-east of England, says young John Lambton skipped church to fish in the River Wear and caught a small, ugly, eel-like creature. He threw it into a well and went off to the Crusades. While he was away it grew huge, wrapped itself around a hill and demanded milk from the villagers.",
+      "On his return he defeated it in the river, wearing armour covered in spikes on a wise woman's advice. The tale became a popular local song in the 1860s and is still sung in the region."
+    ],
+    "explanation": "'Worm' is an old word for dragon, and folklorists see this as one of many English dragon tales, perhaps attached to the Lambton family to explain a run of later misfortune, the 'curse' said to have lasted nine generations. Worm Hill, near Fatfield, is still pointed out as the creature's coil.",
+    "wiki": "Lambton Worm"
+  },
+  {
+    "slug": "bermuda-petrel",
+    "category": "creatures",
+    "title": "The Cahow's Return",
+    "region": "Castle Harbour, Bermuda",
+    "lat": 32.35,
+    "lon": -64.67,
+    "dateLabel": "28 January 1951",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Robert Cushman Murphy, Louis Mowbray and the teenage David Wingate",
+    "hook": "A seabird thought extinct for nearly 300 years was found nesting on rocky islets off Bermuda.",
+    "summary": [
+      "Early visitors to Bermuda knew a seabird, the cahow, whose eerie night cries are said to have given the islands a reputation as the 'Isle of Devils'. Settlers, and the pigs and rats they brought, ate the birds, and by the 1620s they were thought to be extinct.",
+      "On 28 January 1951, an expedition led by the ornithologist Robert Cushman Murphy and Louis Mowbray found cahows nesting in crevices on small islets in Castle Harbour. A 15-year-old local boy on the trip, David Wingate, went on to devote his life to saving them."
+    ],
+    "explanation": "The Bermuda petrel is real, and still endangered. Only a handful of pairs survived. Decades of conservation, including artificial burrows and moving chicks to safer Nonsuch Island, have brought the population back to well over 100 breeding pairs.",
+    "wiki": "Bermuda petrel"
+  },
+  {
+    "slug": "night-parrot",
+    "category": "creatures",
+    "title": "The Night Parrot",
+    "region": "Western Queensland, Australia",
+    "lat": -23,
+    "lon": 141,
+    "dateLabel": "Photographed in 2013",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The naturalist John Young",
+    "hook": "One of the world's most elusive birds, unseen alive for decades, was finally photographed in the Queensland outback.",
+    "summary": [
+      "The night parrot is a small, plump green parrot of Australia's arid interior, which hides in spinifex grass by day and feeds at night. After the late 1800s there were almost no confirmed records, and many thought it extinct; dead birds were found in 1990 and 2006.",
+      "In 2013 the naturalist John Young announced he had photographed and filmed a living night parrot in western Queensland, after years of searching."
+    ],
+    "explanation": "The bird is real and has since been found at a few other sites, including in Western Australia, though it remains critically rare and its locations are kept secret. Some of Young's later claims were questioned in 2018, but other researchers have confirmed the Queensland population.",
+    "wiki": "Night parrot"
+  },
+  {
+    "slug": "indonesian-coelacanth",
+    "category": "creatures",
+    "title": "The Coelacanth in the Fish Market",
+    "region": "Manado, North Sulawesi, Indonesia",
+    "lat": 1.49,
+    "lon": 124.84,
+    "dateLabel": "September 1997",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The marine biologist Mark Erdmann, and local fishermen",
+    "hook": "A honeymooning biologist spotted a coelacanth in an Indonesian fish market, 10,000 km from the only population known to science.",
+    "summary": [
+      "The coelacanth, a fish known from fossils and thought to have died out with the dinosaurs, was found alive off South Africa in 1938, and later around the Comoros Islands.",
+      "In September 1997, the American marine biologist Mark Erdmann, on his honeymoon in Sulawesi, saw a strange brown fish being wheeled through a market in Manado and recognised it as a coelacanth. In 1998 local fishermen caught another, which he photographed and studied."
+    ],
+    "explanation": "It turned out to be a separate species, the Indonesian coelacanth, described in 1999. Local fishermen already knew the fish, calling it raja laut, 'king of the sea'. Its discovery so far from Africa showed how little is known about where these deep-water fish live.",
+    "wiki": "Indonesian coelacanth"
+  },
+  {
+    "slug": "ivory-billed-woodpecker",
+    "category": "creatures",
+    "title": "The Ivory-billed Woodpecker",
+    "region": "Cache River, Arkansas, USA",
+    "lat": 34.9,
+    "lon": -91.3,
+    "dateLabel": "11 February 2004",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "A kayaker, then a team of ornithologists",
+    "hook": "A woodpecker thought extinct was reported in an Arkansas swamp, backed by a few seconds of blurry video.",
+    "summary": [
+      "The ivory-billed woodpecker, the largest woodpecker in the United States, lost most of its old-growth forest habitat to logging; the last widely accepted sighting was in Louisiana in 1944.",
+      "On 11 February 2004, a kayaker, Gene Sparling, reported seeing one in the Cache River National Wildlife Refuge in Arkansas. In 2005 a team led by Cornell University announced several more sightings and a brief, blurry video."
+    ],
+    "explanation": "Some ornithologists argue the bird in the video is a pileated woodpecker, a common relative with similar markings, and years of searching produced no clear photograph. Others believe it survives. In 2023 the US Fish and Wildlife Service held off declaring it extinct, citing continued uncertainty.",
+    "wiki": "Ivory-billed woodpecker"
+  },
+  {
+    "slug": "pangboche-hand",
+    "category": "creatures",
+    "title": "The Pangboche Hand",
+    "region": "Pangboche, Khumbu, Nepal",
+    "lat": 27.857,
+    "lon": 86.79,
+    "dateLabel": "Examined from 1958",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Monks at Pangboche, and expedition members",
+    "hook": "A Himalayan monastery kept a withered hand said to be a yeti's, until part of it was taken away and tested.",
+    "summary": [
+      "For generations the monastery at Pangboche, in the Everest region, kept a mummified hand said to come from a yeti. In 1958–59, an expedition funded by the American oilman Tom Slick examined it. By the expedition's own later accounts, the climber Peter Byrne took some finger bones, replacing them with human ones, and the actor James Stewart helped smuggle them out of India.",
+      "The hand itself was stolen from the monastery in 1991."
+    ],
+    "explanation": "A finger kept at the Royal College of Surgeons in London was DNA-tested in 2011 and found to be human. The Pangboche hand is now understood to be human remains, venerated as a relic. A replica has since been made for the monastery.",
+    "wiki": "Pangboche Hand"
+  },
+  {
+    "slug": "lorimer-burst",
+    "category": "voices",
+    "title": "The Lorimer Burst",
+    "region": "Parkes Observatory, New South Wales, Australia",
+    "lat": -32.99,
+    "lon": 148.27,
+    "dateLabel": "24 July 2001",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "Duncan Lorimer and his student, going through old data",
+    "hook": "A five-millisecond flash of radio waves from far beyond our galaxy turned up in old data and started a new field of astronomy.",
+    "summary": [
+      "In 2007 the astronomer Duncan Lorimer and his student David Narkevic were searching archived data from the Parkes radio telescope when they found a single, intense burst of radio waves lasting about five milliseconds, recorded on 24 July 2001.",
+      "The way the signal was smeared across frequencies showed it had travelled through a vast amount of space, suggesting it came from billions of light years away. It never repeated, and for years some astronomers suspected it was a local glitch."
+    ],
+    "explanation": "Many more of these fast radio bursts have since been found, some of them repeating, so they're now accepted as real cosmic signals. At least some come from magnetars, highly magnetised neutron stars, but what causes most of them is still being worked out. The idea that they're alien transmissions has little support.",
+    "wiki": "Fast radio burst"
+  },
+  {
+    "slug": "denge-sound-mirrors",
+    "category": "voices",
+    "title": "The Listening Mirrors of Denge",
+    "region": "Denge, near Dungeness, Kent, England",
+    "lat": 50.956,
+    "lon": 0.954,
+    "dateLabel": "Built around 1930",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Walkers on the shingle",
+    "hook": "Huge concrete dishes stand on a lonely stretch of the Kent coast, built to listen for enemy aircraft.",
+    "summary": [
+      "On the shingle at Denge, near Dungeness, stand three strange concrete structures: two curved dishes, about 6 and 9 metres across, and a long, curved wall about 60 metres wide. Seen across the flat, empty landscape, they look like relics of some forgotten purpose.",
+      "They were built around 1930 as acoustic mirrors, to give early warning of aircraft approaching over the Channel by focusing the sound of their engines onto microphones."
+    ],
+    "explanation": "The mirrors could pick up aircraft some minutes before they could be heard by ear. But faster planes, and the invention of radar in the mid-1930s, made them obsolete almost as soon as they were finished. They now stand in a nature reserve.",
+    "wiki": "Acoustic mirror"
+  },
+  {
+    "slug": "ghost-in-the-machine",
+    "category": "voices",
+    "title": "The Ghost in the Machine",
+    "region": "A laboratory in the West Midlands, England",
+    "lat": 52.41,
+    "lon": -1.51,
+    "dateLabel": "Published in 1998",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "The engineer Vic Tandy and his colleagues",
+    "hook": "A lab that felt haunted turned out to have a fan making sound too low to hear, which left people uneasy and seeing shapes.",
+    "summary": [
+      "Vic Tandy, an engineer working in a laboratory in the English Midlands, kept hearing from colleagues that the place felt uncomfortable. Late one night he broke into a cold sweat, felt watched, and saw a grey shape at the edge of his vision that vanished when he turned to look.",
+      "The next day, with a fencing foil clamped in a vice, he noticed the blade vibrating on its own. He traced it to a newly fitted extractor fan that was producing a standing wave of infrasound, sound too low to hear, at about 19 Hz."
+    ],
+    "explanation": "In 1998 Tandy and Tony Lawrence published a paper, 'The Ghost in the Machine', suggesting that infrasound near 19 Hz can make the eyeball vibrate and cause unease, blurred vision and shapes at the edge of sight. Adjusting the fan stopped the effects. Later studies have found the effects of infrasound weaker and less consistent than first thought.",
+    "wiki": "Vic Tandy"
+  },
+  {
+    "slug": "nesyamun",
+    "category": "voices",
+    "title": "The Voice of Nesyamun",
+    "region": "Leeds City Museum, Leeds, England",
+    "lat": 53.8,
+    "lon": -1.546,
+    "dateLabel": "Voice recreated in 2020",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Researchers in Leeds and London",
+    "hook": "Scientists used a 3D-printed copy of his throat to let a 3,000-year-old Egyptian priest make a sound again.",
+    "summary": [
+      "Nesyamun was a priest at Karnak in Egypt around 1100 BC, whose duties included speaking and singing in temple rituals. His mummy came to Leeds in 1823 and survived the bombing of the city museum in 1941.",
+      "In 2020 researchers used CT scans of his well-preserved throat and mouth to 3D-print a copy of his vocal tract, then played sound through it with an electronic larynx. The result was a single vowel-like sound, somewhere between the vowels in 'bed' and 'bad'."
+    ],
+    "explanation": "It isn't his speech, only the sound his vocal tract would shape in its present position, since his tongue has shrunk and the muscles are gone. The team hopes to model more sounds in future. His coffin is inscribed with a wish that his voice would live on.",
+    "wiki": "Nesyamun"
+  },
+  {
+    "slug": "silbo-gomero",
+    "category": "voices",
+    "title": "The Whistled Language of La Gomera",
+    "region": "La Gomera, Canary Islands, Spain",
+    "lat": 28.1,
+    "lon": -17.22,
+    "dateLabel": "Used for centuries",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Islanders, and the schoolchildren who learn it",
+    "hook": "On a steep Canary island, people talk across valleys in a language made entirely of whistles.",
+    "summary": [
+      "On La Gomera, deep ravines make travel slow, and for centuries shepherds and farmers have spoken across them in Silbo Gomero, a whistled form of Spanish. It can be understood several kilometres away, and early European visitors wrote about it with amazement.",
+      "By the late 20th century it was dying out, so in 1999 the island made it a compulsory school subject. UNESCO recognised it as part of the world's intangible cultural heritage in 2009."
+    ],
+    "explanation": "Silbo replaces the sounds of spoken Spanish with whistled pitches and changes in tone, often using a finger in the mouth. Listeners decode it with the same parts of the brain they use for speech. Similar whistled languages exist in Turkey, France, Mexico and elsewhere.",
+    "wiki": "Silbo Gomero"
+  },
+  {
+    "slug": "moaning-cavern",
+    "category": "voices",
+    "title": "Moaning Cavern",
+    "region": "Vallecito, Calaveras County, California, USA",
+    "lat": 38.07,
+    "lon": -120.47,
+    "dateLabel": "Known since the Gold Rush",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Gold miners and early visitors",
+    "hook": "A California cave once moaned loudly enough to be heard at its entrance, until people widened the way in.",
+    "summary": [
+      "Moaning Cavern, in the Sierra Nevada foothills, has a single vertical chamber big enough to hold the Statue of Liberty. Gold Rush miners named it after the eerie moaning sound that drifted up from its entrance.",
+      "It opened to visitors in 1922, and a long spiral staircase now leads down into the main chamber."
+    ],
+    "explanation": "The moan came from water dripping into bowl-shaped hollows in the cave floor, its sound amplified by the shape of the chamber. When the entrance was enlarged for visitors, the acoustics changed and the moaning stopped.",
+    "wiki": "Moaning Cavern"
+  },
+  {
+    "slug": "lorelei",
+    "category": "voices",
+    "title": "The Lorelei",
+    "region": "St. Goarshausen, Rhine Gorge, Germany",
+    "lat": 50.14,
+    "lon": 7.73,
+    "dateLabel": "Legend from 1801",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Rhine boatmen",
+    "hook": "On a high rock above a dangerous bend of the Rhine, a golden-haired woman is said to sing boatmen to their doom.",
+    "summary": [
+      "The Lorelei is a slate rock rising about 130 metres above the Rhine near St. Goarshausen, at a narrow, fast-flowing bend long feared by boatmen. The rock was known for its echo, which may be where its name comes from: old German words for 'murmuring' and 'rock'.",
+      "In 1801 the writer Clemens Brentano told of a beautiful woman linked to the rock. Heinrich Heine's poem of 1824, later set to music, turned her into a siren who sat combing her golden hair and singing, so that boatmen forgot the rocks and were wrecked."
+    ],
+    "explanation": "The legend is a literary creation of the Romantic era rather than ancient folklore, though it drew on the real dangers of the bend and the rock's famous echo. The river has since been widened and deepened, and the Lorelei is one of the Rhine's best-known sights.",
+    "wiki": "Lorelei"
+  },
+  {
+    "slug": "bell-of-dhammazedi",
+    "category": "voices",
+    "title": "The Lost Bell of Dhammazedi",
+    "region": "Yangon River, Yangon, Myanmar",
+    "lat": 16.77,
+    "lon": 96.17,
+    "dateLabel": "Lost in 1608",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Portuguese and Burmese records",
+    "hook": "The largest bell ever made is said to lie in the mud of a river in Myanmar, lost when the vessel carrying it sank.",
+    "summary": [
+      "In 1484 King Dhammazedi of the Hanthawaddy kingdom had an enormous bronze bell cast and gave it to the Shwedagon Pagoda. Accounts suggest it weighed around 300 tonnes, which would make it the largest bell ever made.",
+      "In 1608 the Portuguese adventurer Filipe de Brito e Nicote took it from the pagoda, intending to melt it down for cannon. As it was being carried across the river, the vessel sank, and the bell went down near where the Bago and Yangon rivers meet."
+    ],
+    "explanation": "Many searches, including sonar surveys, have failed to find it. The river bed is deep mud, the water is almost opaque and strong currents make diving dangerous. Some doubt it was ever as heavy as claimed. The search goes on.",
+    "wiki": "Great Bell of Dhammazedi"
+  },
+  {
+    "slug": "utah-monolith",
+    "featured": true,
+    "category": "places",
+    "title": "The Utah Monolith",
+    "region": "San Juan County, Utah, USA",
+    "lat": 38.34,
+    "lon": -109.66,
+    "dateLabel": "18 November 2020",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Wildlife officers counting bighorn sheep",
+    "hook": "A shiny metal pillar was found standing in a remote Utah canyon, and then, just as suddenly, it was gone.",
+    "summary": [
+      "On 18 November 2020, state wildlife officers counting bighorn sheep from a helicopter spotted a three-sided, mirror-like metal pillar about 3 metres tall standing in a red-rock canyon in southern Utah. Photographs spread around the world, and comparisons with 2001: A Space Odyssey were immediate.",
+      "About ten days later it was gone. Within weeks, similar monoliths appeared in Romania, California and dozens of other places."
+    ],
+    "explanation": "Satellite images showed it had been installed around 2016. A group of men filmed themselves taking it down, saying they were protecting the fragile landscape from crowds. Many of the later monoliths were made by artists and pranksters; who made the first one has never been confirmed.",
+    "wiki": "Utah monolith"
+  },
+  {
+    "slug": "senegambian-stone-circles",
+    "category": "places",
+    "title": "The Stone Circles of the Gambia River",
+    "region": "Wassu, Central River, The Gambia",
+    "lat": 13.69,
+    "lon": -14.88,
+    "dateLabel": "Raised over many centuries",
+    "status": "open",
+    "statusLabel": "Purpose debated",
+    "witnesses": "Archaeologists and villagers",
+    "hook": "Along the Gambia River stand more than a thousand circles of carved stone pillars, many of them marking ancient graves.",
+    "summary": [
+      "In a band of land along the Gambia River, in The Gambia and Senegal, there are more than 1,000 stone circles made of carefully shaped laterite pillars, some over 2 metres tall and weighing several tonnes. Four groups of them, including Wassu in The Gambia and Wanar in Senegal, are a UNESCO World Heritage Site.",
+      "Some pillars are lyre-shaped, split at the top into a V. Local stories say giants built them, or that disturbing them brings bad luck."
+    ],
+    "explanation": "Excavations have found burials beneath many of the circles, so they're understood as funerary monuments, made over a long period from roughly the 3rd century BC to the 16th century AD. Who built them, and what the different shapes meant, is still not well understood.",
+    "wiki": "Senegambian stone circles"
+  },
+  {
+    "slug": "heracleion",
+    "category": "places",
+    "title": "The Sunken City of Heracleion",
+    "region": "Abu Qir Bay, near Alexandria, Egypt",
+    "lat": 31.33,
+    "lon": 30.1,
+    "dateLabel": "Rediscovered in 2000",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The underwater archaeologist Franck Goddio and his team",
+    "hook": "A great Egyptian port known only from ancient texts was found under the sea off Alexandria.",
+    "summary": [
+      "Ancient writers, including Herodotus, mentioned Thonis and Heracleion, a port at the mouth of the Nile where ships entered Egypt. Over time it vanished from the map, and some thought it might be legend.",
+      "In 2000 the French underwater archaeologist Franck Goddio and his team found its remains several kilometres off the coast in Abu Qir Bay, under about 10 metres of water: colossal statues of a king, a queen and the god Hapi, temple ruins, dozens of shipwrecks and hundreds of anchors."
+    ],
+    "explanation": "Thonis and Heracleion turned out to be one city, with an Egyptian and a Greek name. It sank gradually, probably through earthquakes, rising water and the collapse of waterlogged clay ground, and was largely gone by the 8th century AD. Excavation continues.",
+    "wiki": "Heracleion"
+  },
+  {
+    "slug": "lanse-aux-meadows",
+    "category": "places",
+    "title": "The Vikings of L'Anse aux Meadows",
+    "region": "L'Anse aux Meadows, Newfoundland, Canada",
+    "lat": 51.596,
+    "lon": -55.53,
+    "dateLabel": "Found in 1960",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Helge and Anne Stine Ingstad, guided by a local man",
+    "hook": "Norse sagas told of a land called Vinland to the west. In 1960 a Norwegian couple found Viking houses in Newfoundland.",
+    "summary": [
+      "Icelandic sagas tell of Leif Eriksson and others sailing west from Greenland around the year 1000 to lands they called Helluland, Markland and Vinland. For centuries historians argued over whether the voyages really happened.",
+      "In 1960 the Norwegian explorer Helge Ingstad and his wife, the archaeologist Anne Stine Ingstad, were shown grassy mounds at L'Anse aux Meadows by a local man, George Decker. Excavations revealed Norse turf buildings, an iron forge and a bronze cloak pin."
+    ],
+    "explanation": "It's the only confirmed Norse site in North America and the earliest known European presence in the Americas. A 2021 study of tree rings in wood cut with metal tools dated activity there to the year 1021. Whether it was the Vinland of the sagas, or a base for reaching it, is still debated.",
+    "wiki": "L'Anse aux Meadows"
+  },
+  {
+    "slug": "dallol",
+    "category": "places",
+    "title": "Dallol",
+    "region": "Danakil Depression, Afar, Ethiopia",
+    "lat": 14.24,
+    "lon": 40.3,
+    "dateLabel": "Ongoing",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Afar salt traders and visiting scientists",
+    "hook": "In one of the hottest places on Earth, acid pools glow neon yellow and green among chimneys of salt.",
+    "summary": [
+      "Dallol lies in the Danakil Depression of north-eastern Ethiopia, more than 100 metres below sea level, and has one of the highest average temperatures of any place where people live. Its hot springs have built a landscape of salt terraces and chimneys in bright yellow, green, orange and white.",
+      "Afar people have long cut salt in the area and carried it away by camel caravan."
+    ],
+    "explanation": "The colours come from minerals such as sulphur and iron salts deposited by hot, extremely acidic and salty water rising through the volcanic ground. In 2019 a study reported that some pools are so extreme that no life could be found in them at all, making them useful for studying the limits of life.",
+    "wiki": "Dallol (hydrothermal system)"
+  },
+  {
+    "slug": "rongorongo",
+    "category": "places",
+    "title": "The Rongorongo Tablets",
+    "region": "Rapa Nui (Easter Island), Chile",
+    "lat": -27.12,
+    "lon": -109.36,
+    "dateLabel": "First noted in 1864",
+    "status": "open",
+    "statusLabel": "Unread",
+    "witnesses": "Missionaries and islanders",
+    "hook": "Easter Island's wooden tablets carry rows of tiny carved symbols that may be a writing system no one can read.",
+    "summary": [
+      "In 1864 a missionary on Rapa Nui reported wooden tablets in islanders' houses carved with rows of small glyphs: people, animals, plants and shapes. The script, called rongorongo, is written in lines that alternate direction and turn upside down, so the reader rotates the tablet.",
+      "Only about two dozen objects carrying it survive, scattered among museums around the world. By the time outsiders took an interest, few islanders could read them, after slave raids and disease devastated the population in the 1860s."
+    ],
+    "explanation": "No one has deciphered rongorongo. Scholars debate whether it's true writing or a set of memory aids for chants, and whether it was invented before or after Europeans arrived. A radiocarbon study published in 2024 suggested the wood of one tablet dates from the 1400s, before contact.",
+    "wiki": "Rongorongo"
+  },
+  {
+    "slug": "nabta-playa",
+    "category": "places",
+    "title": "The Stone Circle of Nabta Playa",
+    "region": "Nubian Desert, Aswan, Egypt",
+    "lat": 22.51,
+    "lon": 30.73,
+    "dateLabel": "Built around 7,000 years ago",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Archaeologists",
+    "hook": "In the Egyptian desert, a small ring of standing stones may be one of the oldest astronomical sites in the world.",
+    "summary": [
+      "Nabta Playa is a dry basin in the Nubian Desert, about 100 km west of Abu Simbel. Thousands of years ago, seasonal rains filled it with a lake, and herders gathered there with their cattle.",
+      "Archaeologists found a small circle of stones about 4 metres across, with pairs of upright slabs that seem to line up north–south and towards the midsummer sunrise, along with lines of standing stones and cattle burials. The site was in use long before the pyramids were built."
+    ],
+    "explanation": "Some researchers argue the circle worked as a calendar, marking the summer solstice that brought the rains, and that some stones lined up with bright stars. Others think the alignments are coincidental or overstated. The circle has since been moved to the Nubian Museum in Aswan.",
+    "wiki": "Nabta Playa"
+  },
+  {
+    "slug": "great-blue-hole",
+    "category": "places",
+    "title": "The Great Blue Hole",
+    "region": "Lighthouse Reef, Belize",
+    "lat": 17.316,
+    "lon": -87.535,
+    "dateLabel": "Explored from 1971",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Divers, including Jacques Cousteau",
+    "hook": "A perfectly round, deep-blue hole in a Caribbean reef holds stalactites from a time when it was dry land.",
+    "summary": [
+      "The Great Blue Hole is a round sinkhole about 300 metres across and more than 120 metres deep, in the middle of Lighthouse Reef off Belize. From the air it looks like a dark blue eye in the turquoise water.",
+      "Jacques Cousteau brought his ship Calypso there in 1971 and called it one of the world's great dive sites. Divers found stalactites hanging from ledges far below the surface."
+    ],
+    "explanation": "It formed as a limestone cave during the ice ages, when the sea was much lower; the roof later collapsed and the sea flooded in. Stalactites only grow in air, which shows it was once dry. Expeditions have found that its deepest water holds no oxygen.",
+    "wiki": "Great Blue Hole"
+  },
+  {
+    "slug": "lake-hillier",
+    "category": "places",
+    "title": "Lake Hillier",
+    "region": "Middle Island, Recherche Archipelago, Western Australia, Australia",
+    "lat": -34.095,
+    "lon": 123.2,
+    "dateLabel": "Recorded in 1802",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The explorer Matthew Flinders, and visitors from the air",
+    "hook": "On an island off Western Australia lies a lake as pink as bubblegum, and it stays pink in a glass.",
+    "summary": [
+      "Lake Hillier is a salt lake about 600 metres long on Middle Island, the largest island of the Recherche Archipelago off the south coast of Western Australia. From the air its bright pink water sits beside the deep blue sea, separated by a strip of white sand and green bush.",
+      "The explorer Matthew Flinders recorded it in 1802. Unlike some pink lakes, its colour doesn't change with the light, and the water stays pink in a bottle."
+    ],
+    "explanation": "A 2015 study found the colour comes from microorganisms that thrive in very salty water, especially the alga Dunaliella salina, which makes red pigments, along with salt-loving archaea and bacteria. The water is too salty for most life, but harmless to touch.",
+    "wiki": "Lake Hillier"
+  },
+  {
+    "slug": "sacsayhuaman",
+    "category": "places",
+    "title": "The Walls of Sacsayhuamán",
+    "region": "Cusco, Peru",
+    "lat": -13.508,
+    "lon": -71.982,
+    "dateLabel": "Built in the 1400s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Spanish chroniclers, and visitors ever since",
+    "hook": "Above Cusco, Inca walls are built from stones weighing many tonnes, cut to fit so tightly that a knife blade won't slip between them.",
+    "summary": [
+      "Sacsayhuamán is a walled complex on a hill above Cusco, the old Inca capital. Its three zigzag terraces are built of enormous limestone blocks, the largest estimated at more than 100 tonnes, fitted together without mortar in irregular shapes that lock like a puzzle.",
+      "Spanish chroniclers were astonished by it, and some modern writers have claimed the stones must have been shaped by lost technology or visitors from elsewhere."
+    ],
+    "explanation": "Archaeologists have found Inca quarries, ramps and stones abandoned along the routes, and experiments show the blocks could be shaped by pounding with harder hammerstones and fitted by repeated trial and grinding. The tight joints and slight inward lean also make the walls resistant to earthquakes.",
+    "wiki": "Sacsayhuamán"
+  },
+  {
+    "slug": "amelia-earhart",
+    "featured": true,
+    "category": "places",
+    "title": "The Disappearance of Amelia Earhart",
+    "region": "Near Howland Island, Pacific Ocean",
+    "lat": 0.807,
+    "lon": -176.616,
+    "dateLabel": "2 July 1937",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Radio operators on the US Coast Guard ship Itasca",
+    "hook": "On the hardest leg of her round-the-world flight, Amelia Earhart radioed that she must be near tiny Howland Island, and was never seen again.",
+    "summary": [
+      "On 2 July 1937, Amelia Earhart and her navigator Fred Noonan took off from Lae, in New Guinea, in their Lockheed Electra, bound for Howland Island, a speck of land in the central Pacific, on the longest leg of their attempt to fly around the world.",
+      "The Coast Guard ship Itasca, waiting off Howland, heard her radio messages growing stronger: they must be on top of the island, she said, but couldn't see it, and fuel was running low. Then the transmissions stopped. A huge search found no trace."
+    ],
+    "explanation": "The official conclusion is that they ran out of fuel and came down in the sea near Howland. Another theory, pursued by the group TIGHAR, is that they landed on Nikumaroro, an uninhabited atoll several hundred kilometres to the south-east, where bones and other items were found in 1940. A claim that they were captured by Japanese forces lacks firm evidence. Searches continue.",
+    "wiki": "Amelia Earhart"
+  },
+  {
+    "slug": "ninth-legion",
+    "category": "places",
+    "title": "The Lost Ninth Legion",
+    "region": "York, England",
+    "lat": 53.96,
+    "lon": -1.08,
+    "dateLabel": "Last recorded in Britain around 108 AD",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Roman inscriptions",
+    "hook": "A Roman legion of thousands of soldiers drops out of Britain's records, and no one knows exactly what became of it.",
+    "summary": [
+      "The Ninth Legion, Legio IX Hispana, took part in the Roman invasion of Britain in 43 AD and was later based at Eboracum, now York. Its last dated record in Britain is an inscription from around 108 AD. By the middle of the 2nd century, it no longer appears in lists of legions.",
+      "The idea that it marched into Scotland and vanished in the mists became famous through Rosemary Sutcliff's novel The Eagle of the Ninth (1954)."
+    ],
+    "explanation": "Historians now mostly think the legion left Britain: stamped tiles and inscriptions suggest units of the Ninth were at Nijmegen, in the Netherlands, after 108 AD. It may then have been destroyed in a later war, perhaps in the east, or disbanded. How and where it ended is still unknown.",
+    "wiki": "Legio IX Hispana"
   }
 ];
