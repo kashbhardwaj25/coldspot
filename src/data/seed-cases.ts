@@ -14385,5 +14385,959 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Barringer was right that it was an impact, the first crater on Earth proven to be one, and it helped scientists understand craters on the Moon. But the meteorite, about 50 metres across, mostly vaporised or shattered when it struck around 50,000 years ago, so there was no great mass to find. The crater is still owned by his family's company.",
     "wiki": "Meteor Crater"
+  },
+  {
+    "slug": "sn-1006",
+    "category": "sky",
+    "title": "The Brightest Star Ever Recorded",
+    "region": "Cairo, Egypt",
+    "lat": 30.04,
+    "lon": 31.24,
+    "dateLabel": "May 1006",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Astronomers in Egypt, China, Japan, the Arab world and Europe",
+    "hook": "In 1006 a new star appeared in the southern sky, bright enough to light the ground at night.",
+    "summary": [
+      "In late April or early May 1006, observers around the world recorded a new star low in the southern sky, in the constellation Lupus. The Egyptian astronomer Ali ibn Ridwan, in Cairo, wrote that it was two and a half to three times the size of Venus and lit the ground like a quarter Moon.",
+      "Chinese, Japanese, Arab and European records also describe it. It stayed visible for months."
+    ],
+    "explanation": "It was a supernova, a white dwarf star exploding about 7,000 light years away, and it's thought to be the brightest star seen in recorded history. Its remnant, called SN 1006, was identified by radio astronomers in 1965 and is still studied today.",
+    "wiki": "SN 1006"
+  },
+  {
+    "slug": "winchcombe-meteorite",
+    "category": "sky",
+    "title": "The Winchcombe Meteorite",
+    "region": "Winchcombe, Gloucestershire, England",
+    "lat": 51.95,
+    "lon": -1.96,
+    "dateLabel": "28 February 2021",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Doorbell cameras, dashcams, and a family who found it on their driveway",
+    "hook": "A fireball over England was caught on doorbell cameras, and a family found the meteorite on their driveway the next morning.",
+    "summary": [
+      "On the evening of 28 February 2021, a bright fireball crossed the sky over south-west England. It was filmed by specialist meteor cameras and by many doorbell and dashboard cameras, which let scientists work out where any pieces had fallen.",
+      "The next morning, the Wilcock family in Winchcombe, Gloucestershire, found a pile of black, crumbly stones on their driveway. Volunteer searchers later found more, including a piece in a sheep field."
+    ],
+    "explanation": "It was a carbonaceous chondrite, a rare kind of meteorite rich in water and carbon compounds, and it was collected so quickly that it was barely affected by Earth's environment. It was the first meteorite recovered in the UK in about 30 years, and its water turned out to be similar to Earth's, supporting the idea that asteroids helped bring water to our planet.",
+    "wiki": "Winchcombe meteorite"
+  },
+  {
+    "slug": "cape-york-meteorite",
+    "category": "sky",
+    "title": "The Iron from the Sky",
+    "region": "Cape York, Avannaata, Greenland",
+    "lat": 76,
+    "lon": -65.1,
+    "dateLabel": "Taken to New York in 1897",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The Inughuit, and the explorer Robert Peary",
+    "hook": "For centuries Greenland's Inughuit chipped knives from giant lumps of iron that had fallen from the sky. Then an explorer took them away.",
+    "summary": [
+      "Near Cape York in north-west Greenland lay several huge masses of iron, which the Inughuit people called the Woman, the Dog and the Tent. For centuries they chipped flakes of metal from them to make knife blades and harpoon tips, in a land with no other source of iron.",
+      "In 1894 and 1897 the American explorer Robert Peary, guided by Inughuit, removed the three largest and shipped them to New York, where they were sold to the American Museum of Natural History. The largest, the Tent, or Ahnighito, weighs about 31 tonnes."
+    ],
+    "explanation": "They're fragments of a single iron meteorite that broke up as it fell, thousands of years ago. Peary's removal of them, and of six Inughuit people he took to New York at the same time, most of whom died there, is now remembered as a shameful episode.",
+    "wiki": "Cape York meteorite"
+  },
+  {
+    "slug": "aatip",
+    "category": "sky",
+    "title": "The Pentagon's Secret UFO Programme",
+    "region": "The Pentagon, Arlington, Virginia, USA",
+    "lat": 38.871,
+    "lon": -77.056,
+    "dateLabel": "16 December 2017",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Former officials, Navy pilots and journalists",
+    "hook": "In 2017 the New York Times revealed the Pentagon had quietly been studying UFOs, along with videos filmed by Navy jets.",
+    "summary": [
+      "On 16 December 2017, the New York Times and Politico reported that the US Department of Defense had run a little-known programme, the Advanced Aerospace Threat Identification Program, from about 2007 to 2012, with around $22 million in funding championed by Senator Harry Reid. A former official linked to it, Luis Elizondo, said he had resigned in protest at the secrecy.",
+      "The reports came with cockpit videos of unidentified objects filmed by Navy fighter jets, including the 'Tic Tac' of 2004. In 2020 the Navy officially released them."
+    ],
+    "explanation": "The revelations led Congress to set up new offices to study what are now called UAP, unidentified anomalous phenomena. A 2024 Pentagon report found no evidence that any sightings involved alien technology, explaining many as balloons, drones and other ordinary objects, while some remain unresolved. Critics say important information is still being withheld.",
+    "wiki": "Advanced Aerospace Threat Identification Program"
+  },
+  {
+    "slug": "great-comet-1811",
+    "category": "sky",
+    "title": "Napoleon's Comet",
+    "region": "Viviers, Ardèche, France",
+    "lat": 44.48,
+    "lon": 4.69,
+    "dateLabel": "25 March 1811",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "People across the Northern Hemisphere",
+    "hook": "A great comet hung in the sky for most of 1811, and people later saw it as an omen of Napoleon's march on Moscow.",
+    "summary": [
+      "On 25 March 1811, the French astronomer Honoré Flaugergues, at Viviers in the Rhône valley, spotted a comet that grew into one of the most spectacular ever seen. It was visible to the naked eye for about 260 days, a record that stood for almost two centuries.",
+      "Many saw it as an omen. The next year Napoleon invaded Russia, and Tolstoy later described Pierre gazing up at the comet over Moscow in War and Peace."
+    ],
+    "explanation": "It was an unusually large comet whose path kept it well placed in the sky for months. It won't return for thousands of years. Wine makers of the time even sold their 1811 vintage as 'comet wine'.",
+    "wiki": "Great Comet of 1811"
+  },
+  {
+    "slug": "mbozi-meteorite",
+    "category": "sky",
+    "title": "The Mbozi Meteorite",
+    "region": "Mbozi, Songwe, Tanzania",
+    "lat": -9.11,
+    "lon": 32.95,
+    "dateLabel": "Reported to science in 1930",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Local people, then a land surveyor",
+    "hook": "On a hillside in Tanzania sits a 16-tonne iron meteorite that local people long knew and left alone.",
+    "summary": [
+      "The Mbozi meteorite is a mass of iron and nickel about 3 metres long and weighing around 16 tonnes, one of the largest meteorites in the world. It lies on a hillside in south-western Tanzania and was reported to scientists by a land surveyor in 1930.",
+      "Local people had long known of it, calling it kimondo, and it was treated with respect and left undisturbed."
+    ],
+    "explanation": "It's an iron meteorite that fell long ago; no crater survives. In 1930 the soil around it was dug away, leaving it standing on a plinth of earth that was later built up in stone, and it's now a protected site.",
+    "wiki": "Mbosi meteorite"
+  },
+  {
+    "slug": "volcanic-lightning-eyjafjallajokull",
+    "category": "sky",
+    "title": "Lightning in the Ash Cloud",
+    "region": "Eyjafjallajökull, Iceland",
+    "lat": 63.63,
+    "lon": -19.62,
+    "dateLabel": "April 2010",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Photographers and people across Iceland",
+    "hook": "When an Icelandic volcano erupted in 2010, photographers caught lightning forking through its ash cloud.",
+    "summary": [
+      "In April 2010 the Icelandic volcano Eyjafjallajökull erupted beneath its ice cap, sending a huge cloud of ash into the sky that shut down air travel across Europe for days. At night, photographers captured lightning crackling through the dark plume above the glowing crater.",
+      "Volcanic lightning has been described since ancient times; Pliny the Younger mentioned it during the eruption of Vesuvius in 79 AD."
+    ],
+    "explanation": "As ash, ice and rock fragments collide in the plume, they build up electric charge, much as in a thunderstorm, until it discharges as lightning. Researchers now use the lightning to monitor eruptions and estimate how much ash a volcano is releasing.",
+    "wiki": "Volcanic lightning"
+  },
+  {
+    "slug": "mount-fuji-cloud-hats",
+    "category": "sky",
+    "title": "The Hats of Mount Fuji",
+    "region": "Mount Fuji, Shizuoka and Yamanashi, Japan",
+    "lat": 35.36,
+    "lon": 138.73,
+    "dateLabel": "Ongoing",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Photographers and people living around the mountain",
+    "hook": "Smooth, saucer-shaped clouds settle over Mount Fuji like hats, and clouds like them are often reported as UFOs.",
+    "summary": [
+      "Mount Fuji often wears a 'hat': a smooth, layered cloud, called kasagumo in Japanese, sitting on or just above the summit. Nearby, lens-shaped clouds called tsurushigumo can hang in the sky without moving for hours.",
+      "Around the world, lenticular clouds like these, sharp-edged and saucer-shaped, are among the things most often reported as flying saucers."
+    ],
+    "explanation": "They form when moist air flowing over a mountain rises and cools, condensing into cloud, then sinks and warms again on the far side, where the cloud evaporates. Because the air flows through while the cloud stays put, they can look solid and stationary. Local weather lore says a hat on Fuji means rain is coming.",
+    "wiki": "Lenticular cloud"
+  },
+  {
+    "slug": "zashiki-warashi",
+    "category": "visitors",
+    "title": "The Zashiki-warashi",
+    "region": "Kintaichi Onsen, Ninohe, Iwate, Japan",
+    "lat": 40.24,
+    "lon": 141.27,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Families and innkeepers in northern Japan",
+    "hook": "In old houses of northern Japan, a mischievous child spirit is said to bring good luck, as long as it stays.",
+    "summary": [
+      "The zashiki-warashi, 'parlour child', is a yōkai from the folklore of Iwate and nearby regions: a spirit that looks like a child of five or six, living in the inner rooms of old houses. It plays harmless tricks, like leaving small footprints in ash or making noises at night.",
+      "A house with a zashiki-warashi is said to prosper, but when it leaves, the family's luck goes with it. Some inns, such as one at Kintaichi Onsen, became famous for guests who say they've seen one, and visitors leave toys for it."
+    ],
+    "explanation": "Folklorists, starting with Kunio Yanagita's The Legends of Tōno (1910), recorded the stories as part of rural belief, and some link them to the hardships of country life in earlier centuries. Sightings are generally put down to dreams, imagination and old, creaking houses.",
+    "wiki": "Zashiki-warashi"
+  },
+  {
+    "slug": "selkies",
+    "category": "visitors",
+    "title": "The Selkies",
+    "region": "Shetland, Scotland",
+    "lat": 60.3,
+    "lon": -1.3,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Islanders of Orkney, Shetland, Ireland and the Faroes",
+    "hook": "In northern island lore, seals could shed their skins and walk ashore as people, and a stolen skin could keep a selkie on land.",
+    "summary": [
+      "Selkies are the seal folk of the folklore of Orkney, Shetland, the Faroe Islands and Ireland: seals who can take off their skins and come ashore in human form, often to dance on moonlit beaches.",
+      "In the most common tale, a man hides a selkie woman's skin so she can't return to the sea, and she becomes his wife. Years later she finds the skin and goes back to the water, sometimes watching her children from the waves."
+    ],
+    "explanation": "Folklorists suggest the stories grew from the human-like eyes and calls of seals and from island communities' close bond with the sea. Some families in the Northern Isles once claimed selkie ancestry. In the Faroes, a statue of the seal woman, Kópakonan, stands at Mikladalur.",
+    "wiki": "Selkie"
+  },
+  {
+    "slug": "rusalka",
+    "category": "visitors",
+    "title": "The Rusalka",
+    "region": "Dnieper River, Ukraine",
+    "lat": 49.5,
+    "lon": 32,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Slavic village tradition",
+    "hook": "In Slavic folklore, water spirits with long, loose hair rise from rivers in early summer to dance in the fields.",
+    "summary": [
+      "The rusalka is a female water spirit of Slavic folklore, from Ukraine, Russia, Belarus and beyond. She's usually described as a young woman with long, loose hair, pale skin and a wreath of flowers, who lives in rivers and lakes and comes out during Rusalia week in early summer.",
+      "In some regions rusalki were said to dance in the fields and bring rain for the crops; in others they lured young men into the water. Villagers left gifts and avoided swimming at certain times."
+    ],
+    "explanation": "Historians think the rusalka may come from older beliefs about fertility spirits, later blended with ideas about the spirits of the dead. She became famous far beyond Eastern Europe through Dvořák's opera Rusalka (1901).",
+    "wiki": "Rusalka"
+  },
+  {
+    "slug": "brahan-seer",
+    "category": "visitors",
+    "title": "The Brahan Seer",
+    "region": "Chanonry Point, Black Isle, Scotland",
+    "lat": 57.585,
+    "lon": -4.093,
+    "dateLabel": "Said to have lived in the 1600s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Highland tradition",
+    "hook": "A Highland seer is said to have looked through a stone with a hole in it and foretold the fall of a great family.",
+    "summary": [
+      "The Brahan Seer, Coinneach Odhar, is a figure of Highland legend, said to have lived in the 17th century and to have seen the future through a small stone with a hole in it. Many prophecies are credited to him, including that ships would one day sail behind Tomnahurich hill, near Inverness, where the Caledonian Canal now runs.",
+      "His best-known prophecy foretold the downfall of the Mackenzies of Seaforth. In the legend, the Countess of Seaforth had him put to death at Chanonry Point, where a memorial stone now stands."
+    ],
+    "explanation": "Historians have found no clear record of him in the 1600s, and most of his prophecies were first written down in the 19th century, after the events they seem to predict. A man with a similar name appears in records from the 1500s, which may have seeded the legend.",
+    "wiki": "Brahan Seer"
+  },
+  {
+    "slug": "nostradamus",
+    "featured": true,
+    "category": "visitors",
+    "title": "Nostradamus",
+    "region": "Salon-de-Provence, France",
+    "lat": 43.64,
+    "lon": 5.1,
+    "dateLabel": "Prophecies published in 1555",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Readers for nearly 500 years",
+    "hook": "A French physician's book of four-line verses has been claimed to predict nearly every major event for five centuries.",
+    "summary": [
+      "Michel de Nostredame, known as Nostradamus, was a French physician and astrologer who lived in Salon-de-Provence. In 1555 he published Les Prophéties, a collection of quatrains, four-line verses, written in a mix of French, Latin and other languages, deliberately vague and mostly undated.",
+      "Since then, readers have claimed the verses foretold the Great Fire of London, the French Revolution, Napoleon, Hitler and much more. Interest surges whenever disaster strikes."
+    ],
+    "explanation": "Historians note that the verses are so ambiguous they can be matched to many events, and that 'successful' readings are almost always made after the fact. Some of his imagery draws on earlier history and older texts. No verse has been shown to predict a specific event in advance.",
+    "wiki": "Nostradamus"
+  },
+  {
+    "slug": "mother-shipton",
+    "category": "visitors",
+    "title": "Mother Shipton",
+    "region": "Knaresborough, North Yorkshire, England",
+    "lat": 54,
+    "lon": -1.47,
+    "dateLabel": "Said to be born in 1488",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Yorkshire tradition, and pamphlets from 1641",
+    "hook": "A Yorkshire prophetess was said to be born in a cave beside a well that turns objects to stone.",
+    "summary": [
+      "Mother Shipton, said to be Ursula Southeil, born in 1488 in a cave beside the River Nidd at Knaresborough, is England's most famous prophetess. A pamphlet of 1641 credited her with foretelling the fall of Cardinal Wolsey and other events of the Tudor age.",
+      "Next to her cave is the Petrifying Well, where water trickling over a ledge slowly turns hanging objects, such as teddy bears and hats, to what looks like stone. It has drawn visitors since the 1600s."
+    ],
+    "explanation": "There's no reliable evidence that she existed, and many famous prophecies in her name, including ones about cars and the world ending in 1881, were invented by Charles Hindley in an 1862 edition, as he later admitted. The well is real: its water is so rich in minerals that it coats objects in a crust of stone.",
+    "wiki": "Mother Shipton"
+  },
+  {
+    "slug": "baba-vanga",
+    "category": "visitors",
+    "title": "Baba Vanga",
+    "region": "Rupite, near Petrich, Bulgaria",
+    "lat": 41.44,
+    "lon": 23.26,
+    "dateLabel": "1911–1996",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Thousands of visitors, including officials",
+    "hook": "A blind Bulgarian mystic received thousands of visitors, and predictions attributed to her still go viral every year.",
+    "summary": [
+      "Vangeliya Gushterova, known as Baba Vanga, lost her sight as a child, she said after being caught up in a storm. From the 1940s she became famous across Bulgaria and beyond as a healer and clairvoyant, receiving visitors at her home near Petrich, including officials and people from abroad.",
+      "Since her death in 1996, lists of prophecies attributed to her, stretching far into the future, have spread online, and new ones appear every January."
+    ],
+    "explanation": "Researchers note that there are few reliable records of what she actually said, and that most 'predictions' circulating online can't be traced to her at all. Some claimed hits were reported only after the events. Her house in Petrich is now a museum.",
+    "wiki": "Baba Vanga"
+  },
+  {
+    "slug": "secret-of-glamis",
+    "category": "visitors",
+    "title": "The Secret of Glamis",
+    "region": "Glamis Castle, Angus, Scotland",
+    "lat": 56.62,
+    "lon": -3,
+    "dateLabel": "Told since the 1800s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Guests, staff and storytellers",
+    "hook": "One of Scotland's grandest castles is said to hide a secret room, and a secret told only to each heir.",
+    "summary": [
+      "Glamis Castle, in Angus, the childhood home of Queen Elizabeth the Queen Mother, has gathered more legends than almost any other house in Britain. The most famous says there's a hidden chamber, and a family secret passed to each heir on coming of age, which they never reveal.",
+      "Victorian visitors told of a room with no door, said to have been discovered when towels were hung from every window and one window had none."
+    ],
+    "explanation": "No secret room has been confirmed. Many of the stories date from the Victorian fashion for mysterious tales, and the castle's owners have generally treated them with good humour. Old castles, with thick walls, blocked-up rooms and centuries of rebuilding, make fertile ground for such legends.",
+    "wiki": "Glamis Castle"
+  },
+  {
+    "slug": "fairy-bridge",
+    "category": "visitors",
+    "title": "The Fairy Bridge",
+    "region": "Ballalona, Isle of Man",
+    "lat": 54.12,
+    "lon": -4.6,
+    "dateLabel": "A custom still followed",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Islanders and visitors, who greet the fairies",
+    "hook": "On the Isle of Man, it's still bad luck to cross a certain bridge without saying hello to the fairies.",
+    "summary": [
+      "On the road between Douglas and Castletown, on the Isle of Man, is the Fairy Bridge. By long tradition, anyone crossing it says 'hello, fairies' or 'good morning, little people' to avoid bad luck.",
+      "The custom is still widely kept by islanders and visitors, and people leave notes, photos and messages for the fairies on nearby trees. Manx folklore often avoids naming the fairies directly, calling them 'themselves' or 'the little people'."
+    ],
+    "explanation": "It's a living folk custom rather than a claim anyone sets out to prove. Belief in fairies was once common on the island, and the greeting survives as a mix of tradition, superstition and fun.",
+    "wiki": "Fairy Bridge"
+  },
+  {
+    "slug": "kelpie",
+    "category": "creatures",
+    "title": "The Kelpie",
+    "region": "Falkirk, Scotland",
+    "lat": 56.02,
+    "lon": -3.75,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Scottish tradition",
+    "hook": "Scottish rivers and lochs were said to hide a water horse that tempted travellers onto its back, then dived.",
+    "summary": [
+      "The kelpie is a shape-shifting water spirit of Scottish folklore, most often seen as a beautiful black or grey horse standing by a river or loch. Anyone who climbed onto its back would find themselves stuck fast as it plunged into the water.",
+      "Some tales say a kelpie could be tamed by taking its bridle. Many Scottish rivers and lochs had their own kelpie stories, often told to keep children away from dangerous water."
+    ],
+    "explanation": "Folklorists see the kelpie as a warning about fast rivers and deep lochs. Since 2013 two huge steel horse heads, The Kelpies, about 30 metres tall, have stood beside the Forth and Clyde Canal near Falkirk, a tribute to the legend and to Scotland's working horses.",
+    "wiki": "Kelpie"
+  },
+  {
+    "slug": "afanc",
+    "category": "creatures",
+    "title": "The Afanc",
+    "region": "River Conwy, near Betws-y-Coed, Wales",
+    "lat": 53.08,
+    "lon": -3.79,
+    "dateLabel": "Medieval legend",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Welsh tradition",
+    "hook": "A Welsh water monster was blamed for floods, until oxen dragged it from its pool and over the mountains.",
+    "summary": [
+      "The afanc is a water monster of Welsh legend, described as a giant beaver, a crocodile or a dwarf-like creature that lived in deep pools and caused floods. One of its best-known homes was Llyn yr Afanc, a pool on the River Conwy near Betws-y-Coed.",
+      "In one tale, a young woman lured it out by singing, it was bound in chains, and a pair of mighty oxen dragged it over the mountains to a lake in Snowdonia, where it could do no more harm."
+    ],
+    "explanation": "Some think the legend preserves memories of real beavers, which lived in Wales until the Middle Ages; in modern Welsh, afanc means beaver. Like other water monsters, it explained floods and warned people about dangerous water.",
+    "wiki": "Afanc"
+  },
+  {
+    "slug": "lightning-bird",
+    "category": "creatures",
+    "title": "The Lightning Bird",
+    "region": "Pondoland, Eastern Cape, South Africa",
+    "lat": -31.4,
+    "lon": 29.6,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Xhosa, Zulu and Mpondo tradition",
+    "hook": "In southern African folklore, a black-and-white bird summons thunder with its wings and lightning with its claws.",
+    "summary": [
+      "The impundulu, or lightning bird, appears in the folklore of the Xhosa, Zulu and Mpondo peoples. It's described as a large black-and-white bird, sometimes able to take human form, that makes thunder by beating its wings and lightning with its talons.",
+      "Where lightning strikes, the bird is said to have laid an egg in the ground, and traditional healers were called to dig it out."
+    ],
+    "explanation": "The legend is closely tied to the region's fierce summer thunderstorms, which strike the high ground of the Eastern Cape and KwaZulu-Natal often. Some suggest real birds such as the hamerkop helped inspire it.",
+    "wiki": "Lightning bird"
+  },
+  {
+    "slug": "agogwe",
+    "category": "creatures",
+    "title": "The Agogwe",
+    "region": "Western Tanzania",
+    "lat": -5,
+    "lon": 32.8,
+    "dateLabel": "Reported in the early 1900s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Hunters and colonial officers",
+    "hook": "Hunters in East Africa told of small, upright, reddish-haired figures walking through the forest.",
+    "summary": [
+      "The agogwe is a small, ape-like creature reported in East Africa, especially Tanzania, said to be around 1 to 1.5 metres tall, walking upright, with reddish-brown hair. In 1937 the British officer William Hichens wrote that he had seen two while hunting years earlier, and others reported similar sightings.",
+      "Some local traditions in the region describe little forest people."
+    ],
+    "explanation": "Zoologists suggest the sightings were of baboons, chimpanzees or other primates seen briefly, or of people. Some cryptozoologists imagine an African equivalent of the small human species found on Flores, for which there's no evidence.",
+    "wiki": "Agogwe"
+  },
+  {
+    "slug": "piuchen",
+    "category": "creatures",
+    "title": "The Piuchén",
+    "region": "Southern Chile",
+    "lat": -38.7,
+    "lon": -72.6,
+    "dateLabel": "Told in Chilean folklore",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Mapuche and Chilote tradition",
+    "hook": "In Chilean folklore, a winged serpent that whistles like a bird is said to haunt the caves and forests.",
+    "summary": [
+      "The piuchén is a creature of Mapuche and Chilote folklore in southern Chile, usually described as a large flying serpent, sometimes with bat-like wings or feathers, that lives in caves and hollow trees and makes a whistling cry.",
+      "It was blamed when livestock sickened, and its stare was said to paralyse. Similar stories appear elsewhere in Chile under other names."
+    ],
+    "explanation": "Folklorists suggest the legend may draw on vampire bats, which do feed on livestock in parts of South America, and on owls and other night birds. In later years the piuchén was sometimes linked to the chupacabra stories of the 1990s.",
+    "wiki": "Piuchén"
+  },
+  {
+    "slug": "earthquake-fish",
+    "category": "creatures",
+    "title": "The Earthquake Fish",
+    "region": "Sea of Japan coast, Japan",
+    "lat": 36.85,
+    "lon": 137.25,
+    "dateLabel": "Strandings before March 2011",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Fishermen and beachgoers",
+    "hook": "In Japanese lore, a giant silver fish washing ashore is a warning that an earthquake is coming.",
+    "summary": [
+      "The giant oarfish, the longest bony fish in the world, can grow more than 8 metres long, with a silvery ribbon of a body and a red crest. It lives deep in the ocean and is rarely seen alive. In Japan it's called ryūgū no tsukai, 'messenger from the sea god's palace'.",
+      "Folklore says oarfish rise to the surface before earthquakes. About 20 were reported washed up or caught along Japan's coasts in the year before the Tōhoku earthquake of March 2011, which strengthened the belief."
+    ],
+    "explanation": "A 2019 study compared records of deep-sea fish appearances in Japan with earthquakes and found no meaningful link. Oarfish may come to the surface when they're sick or swept up by currents. The fish are real and remarkable; the earthquake connection is folklore.",
+    "wiki": "Giant oarfish"
+  },
+  {
+    "slug": "colossal-squid",
+    "featured": true,
+    "category": "creatures",
+    "title": "The Colossal Squid",
+    "region": "Ross Sea, Southern Ocean",
+    "lat": -70,
+    "lon": 175,
+    "dateLabel": "Caught in February 2007",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "New Zealand fishermen",
+    "hook": "Fishermen in the Ross Sea hauled up the heaviest squid ever found, with an eye as big as a football.",
+    "summary": [
+      "The colossal squid lives in the deep, cold waters of the Southern Ocean and for decades was known mostly from pieces found in the stomachs of sperm whales. In February 2007, a New Zealand fishing boat in the Ross Sea hauled up a nearly intact specimen that had been feeding on a fish caught on its line.",
+      "It weighed about 495 kg, making it the heaviest invertebrate ever recorded. Its eye, about 27 cm across, is thought to be the largest of any known animal."
+    ],
+    "explanation": "The specimen is now on display at the Te Papa museum in Wellington. In 2025 a research expedition near the South Sandwich Islands recorded the first confirmed video of a living colossal squid in the deep sea, a young one only about 30 cm long.",
+    "wiki": "Colossal squid"
+  },
+  {
+    "slug": "barreleye",
+    "category": "creatures",
+    "title": "The Fish with a See-through Head",
+    "region": "Monterey Bay, California, USA",
+    "lat": 36.8,
+    "lon": -122,
+    "dateLabel": "Described in 2009",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Researchers at the Monterey Bay Aquarium Research Institute",
+    "hook": "A deep-sea fish has a transparent head, and the 'eyes' on its face aren't eyes at all.",
+    "summary": [
+      "The barreleye, Macropinna microstoma, lives 600 to 800 metres down in the Pacific. For decades it was known only from damaged specimens hauled up in nets, which lost their fragile heads on the way.",
+      "In the 2000s, researchers at the Monterey Bay Aquarium Research Institute filmed living barreleyes with remotely operated vehicles. The footage showed a dome of clear, fluid-filled tissue over the head, with two glowing green eyes inside, looking upwards."
+    ],
+    "explanation": "The two dark spots above its mouth, which look like eyes, are its nostrils. Its tube-shaped eyes can turn inside the transparent shield, looking up for prey silhouetted against the faint light from above, or forward as it feeds.",
+    "wiki": "Barreleye"
+  },
+  {
+    "slug": "dobhar-chu",
+    "category": "creatures",
+    "title": "The Dobhar-chú",
+    "region": "Glenade Lough, County Leitrim, Ireland",
+    "lat": 54.34,
+    "lon": -8.32,
+    "dateLabel": "Gravestone dated 1722",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Tradition in Leitrim and Sligo, and a carved gravestone",
+    "hook": "An Irish legend of a giant 'water hound' is carved on an 18th-century gravestone.",
+    "summary": [
+      "The dobhar-chú, 'water hound', is a creature of Irish folklore said to look like a huge otter or dog that lives in lakes. The best-known story is set at Glenade Lough in County Leitrim, where a woman named Grace Connolly is said to have met one at the water's edge in 1722 and not survived.",
+      "In Conwal cemetery nearby, a gravestone dated 1722 carries a carving of an otter-like animal, which local people link to the legend."
+    ],
+    "explanation": "Most think the legend grew around encounters with otters, which can be bold, magnified in the retelling. The carving may simply be decorative. Occasional modern reports of large animals in Irish lakes have never been confirmed.",
+    "wiki": "Dobhar-chú"
+  },
+  {
+    "slug": "igopogo",
+    "category": "creatures",
+    "title": "Igopogo",
+    "region": "Lake Simcoe, Ontario, Canada",
+    "lat": 44.42,
+    "lon": -79.35,
+    "dateLabel": "Reported since the 1950s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Boaters and fishermen",
+    "hook": "An Ontario lake has a monster with a dog-like face, named after its more famous cousin Ogopogo.",
+    "summary": [
+      "Igopogo, also called Kempenfelt Kelly, is said to live in Lake Simcoe, north of Toronto. Witnesses describe a dark creature with a dog-like or seal-like face, sometimes with a long neck or fins.",
+      "Stories of a creature in the lake are said to go back to the region's First Nations, and modern sightings date from the 1950s onwards, including a sonar trace recorded by a fisherman in 1983."
+    ],
+    "explanation": "Suggestions include seals that strayed inland, otters, large fish such as sturgeon, and floating logs. The lake is relatively shallow, and no physical evidence has been found.",
+    "wiki": "Igopogo"
+  },
+  {
+    "slug": "kussie",
+    "category": "creatures",
+    "title": "Kussie of Lake Kussharo",
+    "region": "Lake Kussharo, Hokkaido, Japan",
+    "lat": 43.62,
+    "lon": 144.33,
+    "dateLabel": "Reported from 1973",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Lakeside visitors and tourists",
+    "hook": "A volcanic lake in Hokkaido drew crowds in the 1970s after people reported a large creature with humps.",
+    "summary": [
+      "Lake Kussharo is a large caldera lake in eastern Hokkaido, in Akan-Mashu National Park, with hot springs along its shore. In 1973 a group of people reported seeing a large animal with humps moving through the water, and more sightings followed.",
+      "The creature was named Kussie, after Nessie, and became a local mascot with statues and souvenirs."
+    ],
+    "explanation": "Suggestions include large fish, deer swimming across the lake, waves and floating debris. The lake's acidic water, from volcanic activity, makes it a poor home for large animals, and no evidence has been found.",
+    "wiki": "Kussie"
+  },
+  {
+    "slug": "hamilton-mausoleum",
+    "category": "voices",
+    "title": "The Echo of the Hamilton Mausoleum",
+    "region": "Hamilton, South Lanarkshire, Scotland",
+    "lat": 55.776,
+    "lon": -4.035,
+    "dateLabel": "Built 1842–1858",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors and acoustic researchers",
+    "hook": "Close the door of this Scottish tomb and the echo hangs in the air for around 15 seconds.",
+    "summary": [
+      "The Hamilton Mausoleum was built in the mid-1800s for Alexander, 10th Duke of Hamilton, as a grand tomb and chapel crowned by a stone dome. The chapel was never usable for services, because the echo was too long for speech to be understood.",
+      "When the heavy door is closed, its echo lingers for about 15 seconds. For years it was said to have the longest echo of any man-made structure."
+    ],
+    "explanation": "Its hard stone surfaces and the shape of the dome reflect sound around the space again and again, losing very little. In 2014 a disused fuel tank at Inchindown, also in Scotland, took the record, but the mausoleum remains a famous place to hear a single note linger.",
+    "wiki": "Hamilton Mausoleum"
+  },
+  {
+    "slug": "inchindown-oil-tanks",
+    "category": "voices",
+    "title": "The Longest Echo in the World",
+    "region": "Inchindown, near Invergordon, Highland, Scotland",
+    "lat": 57.75,
+    "lon": -4.22,
+    "dateLabel": "Record set in 2014",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The acoustic engineer Trevor Cox",
+    "hook": "A secret wartime fuel tank buried in a Scottish hillside holds the record for the longest echo: 75 seconds.",
+    "summary": [
+      "Before the Second World War, the Royal Navy dug huge fuel tanks into a hillside at Inchindown, near the naval base at Invergordon, safe from bombing. The largest is about 237 metres long and 13.5 metres high, carved into solid rock.",
+      "In 2014 the acoustic engineer Trevor Cox squeezed in through a small pipe and fired a blank from a pistol. The sound took 75 seconds to die away, setting the Guinness record for the longest echo in a man-made structure."
+    ],
+    "explanation": "The tank's concrete walls are hard and smooth, and the vast, empty, sealed space lets sound bounce back and forth with almost nothing to absorb it. Low notes lingered even longer than the gunshot as a whole.",
+    "wiki": "Inchindown oil tanks"
+  },
+  {
+    "slug": "tsar-bell",
+    "category": "voices",
+    "title": "The Bell That Never Rang",
+    "region": "The Kremlin, Moscow, Russia",
+    "lat": 55.751,
+    "lon": 37.619,
+    "dateLabel": "Cast in 1735",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors to the Kremlin",
+    "hook": "The largest bell in the world has never rung, because a huge piece broke off before it was ever hung.",
+    "summary": [
+      "The Tsar Bell, in the Moscow Kremlin, is the largest bell in the world, about 6 metres tall and weighing around 200 tonnes. It was cast in 1733–35 by Ivan Motorin and his son Mikhail on the orders of Empress Anna.",
+      "In 1737, while it was still in its casting pit, a great fire broke out in the Kremlin. Water thrown onto the burning timbers over the pit is thought to have cooled the hot metal unevenly, and a piece weighing about 11 tonnes cracked away."
+    ],
+    "explanation": "With the crack, it could never be rung. It lay in the pit for nearly a century until 1836, when it was lifted onto a stone pedestal, where it stands today with its broken piece beside it.",
+    "wiki": "Tsar Bell"
+  },
+  {
+    "slug": "badain-jaran-dunes",
+    "category": "voices",
+    "title": "The Singing Dunes of Badain Jaran",
+    "region": "Badain Jaran Desert, Inner Mongolia, China",
+    "lat": 39.8,
+    "lon": 102.4,
+    "dateLabel": "Ongoing",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Herders and travellers",
+    "hook": "In a Chinese desert of some of the world's tallest dunes, the sand roars and hidden lakes lie between the peaks.",
+    "summary": [
+      "The Badain Jaran Desert, in Inner Mongolia, has some of the tallest stationary sand dunes on Earth, some rising around 500 metres. Between them lie more than a hundred small lakes, some fresh and some salty, fed by water from beneath the sand.",
+      "On dry days, sand sliding down the steep faces of the dunes gives off a deep booming hum, and local people call some of them singing dunes."
+    ],
+    "explanation": "The booming comes from dry sand grains avalanching together and vibrating, the same effect heard at Kelso and elsewhere. The lakes are fed by groundwater, though scientists still debate where it comes from: local rain, water stored from wetter times long ago, or distant mountains.",
+    "wiki": "Badain Jaran Desert"
+  },
+  {
+    "slug": "oracle-of-dodona",
+    "category": "voices",
+    "title": "The Whispering Oak of Dodona",
+    "region": "Dodona, Epirus, Greece",
+    "lat": 39.546,
+    "lon": 20.788,
+    "dateLabel": "Active for over 1,000 years",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Ancient writers, from Homer onwards",
+    "hook": "At Greece's oldest oracle, priests listened to the rustling of a sacred oak to hear the words of Zeus.",
+    "summary": [
+      "Dodona, in the mountains of Epirus, was home to the oldest oracle in Greece, mentioned by Homer. At its heart stood a sacred oak, and priests and priestesses interpreted the rustling of its leaves, and the ringing of bronze vessels in the wind, as messages from Zeus.",
+      "Visitors wrote their questions on thin strips of lead. Archaeologists have found thousands of them, asking about marriages, journeys, health, money and lost property."
+    ],
+    "explanation": "The oracle's 'voice' was the wind, read by its priests. The lead tablets give a rare, personal glimpse of what ordinary ancient Greeks worried about. The site, with its large theatre, is open to visitors.",
+    "wiki": "Dodona"
+  },
+  {
+    "slug": "inchcape-rock",
+    "category": "voices",
+    "title": "The Bell on the Inchcape Rock",
+    "region": "Bell Rock, off Arbroath, Angus, Scotland",
+    "lat": 56.434,
+    "lon": -2.387,
+    "dateLabel": "Legend; lighthouse built 1807–1810",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Sailors of the North Sea",
+    "hook": "Legend says an abbot hung a bell on a deadly reef to warn ships, and a pirate who stole it was wrecked on the same rock.",
+    "summary": [
+      "The Inchcape, or Bell Rock, is a reef about 18 km off Arbroath that's covered by the sea at high tide and was long a danger to ships. Legend says the Abbot of Arbroath fixed a bell to it, which rang in the waves to warn sailors.",
+      "In the tale, told in Robert Southey's ballad The Inchcape Rock (1802), a pirate called Ralph the Rover cut the bell loose to spite the abbot. A year later, lost in fog, his own ship struck the reef."
+    ],
+    "explanation": "There's no record proving the bell existed, though the story is old. The real solution came in 1810, when the engineer Robert Stevenson completed the Bell Rock Lighthouse, built on the reef itself. It's the world's oldest surviving sea-washed lighthouse.",
+    "wiki": "Inchcape"
+  },
+  {
+    "slug": "sirens-li-galli",
+    "category": "voices",
+    "title": "The Islands of the Sirens",
+    "region": "Li Galli, off Positano, Amalfi Coast, Italy",
+    "lat": 40.58,
+    "lon": 14.43,
+    "dateLabel": "Ancient legend",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Ancient Greek poets, and the sailors of their stories",
+    "hook": "Three small islands off Italy's Amalfi Coast were said to be home to the Sirens, whose song lured sailors onto the rocks.",
+    "summary": [
+      "Li Galli are three small islands off the Amalfi Coast, known in ancient times as the Sirenuse, the islands of the Sirens. In Greek myth, the Sirens' irresistible singing drew passing sailors to wreck on the rocks.",
+      "In Homer's Odyssey, Odysseus has his crew plug their ears with wax and tie him to the mast, so he can hear the song and live. In the 20th century the islands were owned by the choreographer Léonide Massine and later by the dancer Rudolf Nureyev."
+    ],
+    "explanation": "The Sirens are creatures of myth, and several places around the Mediterranean claimed them. Some suggest the stories reflect the real dangers of rocky coasts, and the sounds of wind and waves among the rocks. The islands are private and can be seen only from the sea.",
+    "wiki": "Sirenuse"
+  },
+  {
+    "slug": "arecibo-message",
+    "category": "voices",
+    "title": "The Arecibo Message",
+    "region": "Arecibo Observatory, Puerto Rico",
+    "lat": 18.35,
+    "lon": -66.76,
+    "dateLabel": "16 November 1974",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Astronomers at the dedication ceremony",
+    "hook": "In 1974 astronomers beamed a picture message at a star cluster 25,000 light years away. It won't arrive for 25,000 years.",
+    "summary": [
+      "On 16 November 1974, at a ceremony marking an upgrade to the Arecibo radio telescope in Puerto Rico, astronomers transmitted a short radio message towards the star cluster M13. Designed by Frank Drake with Carl Sagan and others, it was made of 1,679 binary digits.",
+      "Arranged in a grid of 73 rows by 23 columns, the digits form a simple picture: the numbers one to ten, the chemistry of DNA, a human figure, the solar system and the telescope itself."
+    ],
+    "explanation": "It was mainly a demonstration of what the telescope could do rather than a serious attempt at contact. The message will take about 25,000 years to reach M13, by which time the cluster will have moved. The Arecibo telescope itself collapsed in 2020.",
+    "wiki": "Arecibo message"
+  },
+  {
+    "slug": "curse-of-the-pharaohs",
+    "featured": true,
+    "category": "places",
+    "title": "The Curse of Tutankhamun",
+    "region": "Valley of the Kings, Luxor, Egypt",
+    "lat": 25.74,
+    "lon": 32.6,
+    "dateLabel": "From 1923",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Newspapers, archaeologists and the public",
+    "hook": "When Lord Carnarvon died months after Tutankhamun's tomb was opened, the press announced a pharaoh's curse.",
+    "summary": [
+      "In November 1922 Howard Carter, funded by Lord Carnarvon, found the tomb of Tutankhamun in the Valley of the Kings, almost intact. In April 1923 Carnarvon died in Cairo, from an infection that began with a mosquito bite he had nicked while shaving.",
+      "Newspapers seized on the idea of a curse on anyone who disturbed the tomb, helped by stories that the lights of Cairo went out at the moment he died. Other deaths among people linked to the tomb were soon added to the tally."
+    ],
+    "explanation": "A 2002 study compared people present at the tomb's opening with others and found no difference in how long they lived. Carter himself lived until 1939. No curse was inscribed in the tomb; the story was largely a newspaper creation, fuelled by rival papers shut out of Carnarvon's exclusive deal with The Times.",
+    "wiki": "Curse of the pharaohs"
+  },
+  {
+    "slug": "otzi",
+    "featured": true,
+    "category": "places",
+    "title": "Ötzi, the Iceman",
+    "region": "Tisenjoch, Ötztal Alps, South Tyrol, Italy",
+    "lat": 46.78,
+    "lon": 10.84,
+    "dateLabel": "19 September 1991",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Two German hikers",
+    "hook": "Hikers in the Alps found a body in the melting ice, thought to be a lost climber. He turned out to be 5,300 years old.",
+    "summary": [
+      "On 19 September 1991, Helmut and Erika Simon, German tourists hiking in the Ötztal Alps near the border between Austria and Italy, spotted a body emerging from melting ice. Officials at first assumed it was a mountaineer who had died in recent decades.",
+      "As the body and belongings were recovered, it became clear he was prehistoric: a man with a copper axe, a flint knife, a bow, arrows, and clothes of leather and grass. Radiocarbon dating showed he lived around 3300 BC."
+    ],
+    "explanation": "Ötzi is the oldest known natural mummy in Europe, preserved by ice. Scans in 2001 showed he had died from an arrow wound to the shoulder. He's now kept at a museum in Bolzano. Talk of a 'curse', after several people linked to the find died, has no evidence behind it.",
+    "wiki": "Ötzi"
+  },
+  {
+    "slug": "caleuche",
+    "category": "places",
+    "title": "The Caleuche, the Ghost Ship of Chiloé",
+    "region": "Chiloé Archipelago, Los Lagos, Chile",
+    "lat": -42.6,
+    "lon": -73.9,
+    "dateLabel": "Told in Chilote folklore",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Fishermen of Chiloé",
+    "hook": "Fishermen off Chiloé tell of a glowing ship full of music that vanishes as you approach.",
+    "summary": [
+      "The Caleuche is a phantom ship from the folklore of Chiloé, an archipelago in southern Chile. It's said to sail on foggy nights, brightly lit and full of music and laughter like a party at sea, before vanishing or sinking beneath the waves.",
+      "Its crew are said to be the drowned, or sorcerers, and fishermen who see it are advised to look away. Some say merchants who grew rich suddenly had struck a deal with its crew."
+    ],
+    "explanation": "Folklorists see the Caleuche as part of Chiloé's rich tradition of sea stories, a way of explaining the losses of a fishing community and warning about the sea. Phantom ships appear in sailors' legends worldwide, and lights on fog banks or mirages may lie behind some sightings.",
+    "wiki": "Caleuche"
+  },
+  {
+    "slug": "city-of-ys",
+    "category": "places",
+    "title": "The Drowned City of Ys",
+    "region": "Bay of Douarnenez, Brittany, France",
+    "lat": 48.12,
+    "lon": -4.42,
+    "dateLabel": "Breton legend",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Breton tradition",
+    "hook": "A great Breton city was said to lie behind sea walls with a single gate, until the key was stolen and the sea poured in.",
+    "summary": [
+      "Ys was a legendary city on the coast of Brittany, said to be the most beautiful in the world, built below the level of the sea and protected by a dyke with a single gate. King Gradlon kept the key on a chain around his neck.",
+      "In the legend, his daughter Dahut stole the key and opened the gate, and the sea flooded the city. Gradlon escaped on horseback, and Ys was lost beneath the waves, often said to lie in the Bay of Douarnenez."
+    ],
+    "explanation": "There's no archaeological evidence that Ys existed. The legend may preserve memories of real coastal flooding and rising seas, like other drowned-city tales along Europe's Atlantic coast. Fishermen in the bay are said to hear its church bells on calm days.",
+    "wiki": "Ys"
+  },
+  {
+    "slug": "lost-continent-of-mu",
+    "category": "places",
+    "title": "The Lost Continent of Mu",
+    "region": "Central Pacific Ocean",
+    "lat": -5,
+    "lon": -160,
+    "dateLabel": "Popularised in 1926",
+    "status": "explained",
+    "statusLabel": "Never existed",
+    "witnesses": "The writers Augustus Le Plongeon and James Churchward",
+    "hook": "A writer claimed an advanced civilisation once lived on a vast continent in the Pacific, before it sank.",
+    "summary": [
+      "The idea of Mu began in the 1860s, when the French scholar Charles Étienne Brasseur de Bourbourg misread an ancient Maya manuscript as describing a land destroyed by catastrophe. Augustus Le Plongeon later took up the idea.",
+      "In 1926 the writer James Churchward published The Lost Continent of Mu, describing a vast Pacific continent that was the birthplace of humanity, home to 64 million people, until it sank about 12,000 years ago. He said he learned this from ancient tablets shown to him by a priest in India, which no one else ever saw."
+    ],
+    "explanation": "Geology rules it out: the Pacific floor is dense ocean crust, not a sunken continent, and there's no evidence of any lost landmass there. Brasseur's reading of the Maya text was based on a mistaken alphabet. Mu lives on in fiction, games and New Age ideas.",
+    "wiki": "Mu (mythical lost continent)"
+  },
+  {
+    "slug": "doggerland",
+    "category": "places",
+    "title": "Doggerland, the Land Under the North Sea",
+    "region": "Southern North Sea",
+    "lat": 54.5,
+    "lon": 2.5,
+    "dateLabel": "Flooded by around 6000 BC",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Fishermen who dragged up bones and tools",
+    "hook": "Fishing nets in the North Sea brought up mammoth bones and Stone Age tools from a lost land now under the waves.",
+    "summary": [
+      "At the end of the last Ice Age, Britain was joined to continental Europe by a broad, low-lying land of hills, rivers, marshes and forests, now called Doggerland. People hunted and fished there.",
+      "Since the 1800s, fishing boats trawling the North Sea have dragged up the bones of mammoths and woolly rhinos, and in 1931 a trawler brought up a harpoon point made of antler. Seismic surveys have since mapped its buried rivers and hills."
+    ],
+    "explanation": "As the ice melted, sea levels rose and Doggerland was gradually flooded. A huge undersea landslide off Norway around 6200 BC, the Storegga Slide, sent a tsunami across the region, and soon afterwards Britain became an island. Researchers are now searching the seabed for traces of settlements.",
+    "wiki": "Doggerland"
+  },
+  {
+    "slug": "paititi",
+    "category": "places",
+    "title": "Paititi, the Lost Inca City",
+    "region": "Madre de Dios, Peru",
+    "lat": -12.6,
+    "lon": -71.3,
+    "dateLabel": "Sought since the 1500s",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Spanish chroniclers and generations of explorers",
+    "hook": "Some believe the Incas carried their treasure to a hidden jungle city when the Spanish came. Explorers are still looking.",
+    "summary": [
+      "Paititi is a legendary lost Inca city said to lie in the rainforest east of the Andes, on the borders of Peru, Bolivia and Brazil. In the legend, the Incas fled there with their treasures after the Spanish conquest.",
+      "Explorers have searched for it since the 16th century, and in 2001 a Jesuit document from around 1600, found in archives in Rome, was reported to describe a rich jungle city called Paititi. Expeditions into Peru's Madre de Dios region and Bolivia continue."
+    ],
+    "explanation": "No lost city has been confirmed. Archaeologists have found Inca outposts and other sites in the eastern lowlands, and some think Paititi preserves memories of real trading centres. The forest is vast, remote and little explored, so the legend endures.",
+    "wiki": "Paititi"
+  },
+  {
+    "slug": "rungholt",
+    "category": "places",
+    "title": "Rungholt, the Drowned Town",
+    "region": "North Frisian Wadden Sea, Germany",
+    "lat": 54.53,
+    "lon": 8.68,
+    "dateLabel": "16 January 1362",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Medieval chronicles, and archaeologists today",
+    "hook": "A rich medieval port on Germany's North Sea coast vanished in a single storm flood, and its traces still surface in the mud.",
+    "summary": [
+      "Rungholt was a wealthy trading town in North Frisia, on what is now Germany's North Sea coast. On 16 January 1362, the great storm flood known as the Grote Mandrenke, the 'great drowning of men', broke through the dykes and swept it away along with wide areas of farmland.",
+      "For centuries it was half a legend, with tales that its people's pride had angered God. Fishermen said they could hear its church bells under the sea."
+    ],
+    "explanation": "Archaeologists have found traces of its dykes, wells, fields and buildings in the Wadden Sea mud near the island of Hallig Südfall, and in 2023 a survey located what's thought to be its church. The town's existence is now confirmed, though its size is still being studied.",
+    "wiki": "Rungholt"
+  },
+  {
+    "slug": "dunwich",
+    "category": "places",
+    "title": "Dunwich, the Town Taken by the Sea",
+    "region": "Dunwich, Suffolk, England",
+    "lat": 52.277,
+    "lon": 1.629,
+    "dateLabel": "Lost from 1286",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Medieval records, and divers today",
+    "hook": "One of medieval England's busiest ports has fallen into the sea, church by church.",
+    "summary": [
+      "In the early Middle Ages Dunwich, on the Suffolk coast, was a major port and one of the largest towns in England, with many churches and a busy harbour. Then the sea began to take it. Great storms in the late 1200s and in 1347 swept away buildings and blocked the harbour mouth.",
+      "Over the following centuries the cliffs kept falling. The last of its old churches, All Saints, toppled over the cliff edge between 1904 and 1919. Today Dunwich is a small village."
+    ],
+    "explanation": "The town was built on soft sand and gravel cliffs that the North Sea wears away. Divers and sonar surveys have since located the ruins of several churches on the seabed. Local legend says the drowned bells can still be heard ringing beneath the waves.",
+    "wiki": "Dunwich"
+  },
+  {
+    "slug": "port-royal",
+    "category": "places",
+    "title": "Port Royal, the Sunken Pirate Port",
+    "region": "Port Royal, Kingston, Jamaica",
+    "lat": 17.937,
+    "lon": -76.841,
+    "dateLabel": "7 June 1692",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Survivors, and underwater archaeologists",
+    "hook": "A notorious pirate port slid into the sea in an earthquake, and part of the town still lies preserved underwater.",
+    "summary": [
+      "In the 17th century Port Royal, on a sand spit at the mouth of Kingston Harbour, was one of the richest and busiest ports in the Americas, a base for privateers and merchants. Preachers called it the 'wickedest city on Earth'.",
+      "Just before noon on 7 June 1692, a powerful earthquake struck, and much of the town, built on loose sand, slid into the harbour. About 2,000 people died in the earthquake, and many more in the disease that followed."
+    ],
+    "explanation": "Underwater excavations have found streets and buildings much as they were, and a pocket watch recovered from the harbour had stopped at 11:43. Many at the time saw the disaster as divine punishment; today it's understood as liquefaction, when shaking turns waterlogged sand into something like quicksand.",
+    "wiki": "Port Royal"
+  },
+  {
+    "slug": "nazi-gold-train",
+    "category": "places",
+    "title": "The Nazi Gold Train",
+    "region": "Wałbrzych, Lower Silesia, Poland",
+    "lat": 50.77,
+    "lon": 16.28,
+    "dateLabel": "Claimed in August 2015",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Two treasure hunters, and the world's press",
+    "hook": "Two treasure hunters said radar showed a buried Nazi train full of gold near a Polish city. Digging found nothing.",
+    "summary": [
+      "Stories have circulated since the end of the Second World War that, as the Red Army advanced in 1945, German forces hid an armoured train loaded with gold and valuables in a tunnel near Wałbrzych, then part of German Silesia.",
+      "In August 2015 two treasure hunters announced they had found it, showing ground-penetrating radar images of what they said was a buried train. The story went around the world, and a Polish deputy culture minister said he was '99 per cent' sure it existed."
+    ],
+    "explanation": "Experts from a Kraków university found no evidence of a train, and an excavation in August 2016 turned up only natural rock formations. The region does hold real Nazi-era tunnels, the Project Riese complex, built with forced labour, which keeps such rumours alive.",
+    "wiki": "Nazi gold train"
+  },
+  {
+    "slug": "lake-toplitz",
+    "category": "places",
+    "title": "The Forged Fortune of Lake Toplitz",
+    "region": "Lake Toplitz, Styria, Austria",
+    "lat": 47.64,
+    "lon": 13.93,
+    "dateLabel": "Searched since 1946",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Divers and investigators",
+    "hook": "At the end of the war, Nazi officers were seen sinking crates into a deep Alpine lake. Divers later found millions in forged British pounds.",
+    "summary": [
+      "Lake Toplitz is a narrow, deep lake hidden in forest in the Austrian Alps, about 100 metres deep. In the last days of the Second World War, witnesses said, SS men sank heavy crates in it, and rumours spread of hidden gold and secret documents.",
+      "In 1959 an expedition funded by the German magazine Stern recovered crates of counterfeit British banknotes from the lake bed. They had been made by prisoners in a Nazi forgery scheme, Operation Bernhard, meant to wreck Britain's economy."
+    ],
+    "explanation": "Later dives, including a large expedition in 2000, found more forged notes and wartime debris, but no gold. The lake's depth, cold water and a thick layer of sunken logs make searching dangerous, and diving there now needs special permission. The hope of hidden treasure persists.",
+    "wiki": "Lake Toplitz"
+  },
+  {
+    "slug": "yamashitas-gold",
+    "category": "places",
+    "title": "Yamashita's Gold",
+    "region": "Near Baguio, Luzon, Philippines",
+    "lat": 16.4,
+    "lon": 120.6,
+    "dateLabel": "Rumoured since 1945",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Rumour, treasure hunters and a famous lawsuit",
+    "hook": "Legend says a Japanese general buried a vast hoard of looted treasure in the Philippines at the end of the war.",
+    "summary": [
+      "Yamashita's gold is said to be loot taken by Japanese forces across Southeast Asia during the Second World War and hidden in tunnels and caves in the Philippines in 1945. It's named after General Tomoyuki Yamashita, the commander there.",
+      "In 1971 a Filipino treasure hunter, Rogelio Roxas, said he had found a golden Buddha and gold bars near Baguio, which he said were then seized on behalf of President Ferdinand Marcos. In 1996 a court in Hawaii found in his estate's favour against Marcos's estate."
+    ],
+    "explanation": "Historians are divided on how much looted treasure was ever hidden in the Philippines, and most think tales of vast hoards are greatly exaggerated. The Roxas case showed that he had found something valuable. Treasure hunters still dig, sometimes damaging historic sites.",
+    "wiki": "Yamashita's gold"
+  },
+  {
+    "slug": "kruger-millions",
+    "category": "places",
+    "title": "The Kruger Millions",
+    "region": "Lowveld, Mpumalanga, South Africa",
+    "lat": -24.9,
+    "lon": 31.3,
+    "dateLabel": "Rumoured since 1900",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Rumour, prospectors and historians",
+    "hook": "As British forces advanced in 1900, the Boer republic's gold is said to have been hidden somewhere in the bushveld.",
+    "summary": [
+      "During the Second Boer War, as British forces closed in on Pretoria in 1900, the government of the South African Republic under President Paul Kruger moved gold and coins out of the capital. Kruger later left for Europe.",
+      "Stories spread that a large part of the gold, the 'Kruger millions', was buried somewhere in the eastern lowveld to keep it from the British, and it has been hunted ever since."
+    ],
+    "explanation": "Historians think most of the gold was spent on the war, taken abroad or seized, and no hidden hoard has been found. The legend is kept alive by occasional finds of old coins in the region and by the vast, rugged landscape.",
+    "wiki": "Kruger Millions"
   }
 ];
