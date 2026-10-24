@@ -10568,5 +10568,1914 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "The investigator Joe Nickell suggested the family saw great horned owls, which have ear tufts, glowing eyes and silvery feathers in light, are active at night and defend their nests aggressively; the 'landing' may have been a meteor. Others note the witnesses knew the local wildlife. The case gave rise to the popular image of little green men.",
     "wiki": "Kelly–Hopkinsville encounter"
+  },
+  {
+    "slug": "chelyabinsk-meteor",
+    "featured": true,
+    "category": "sky",
+    "title": "The Chelyabinsk Meteor",
+    "region": "Chelyabinsk, Russia",
+    "lat": 55.15,
+    "lon": 61.41,
+    "dateLabel": "15 February 2013",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Thousands of people, dashboard cameras and satellites",
+    "hook": "A morning fireball brighter than the Sun crossed the Urals, and the shock wave that followed shattered windows across a city.",
+    "summary": [
+      "Just after sunrise on 15 February 2013, a fireball streaked across the sky over the southern Urals, for a moment brighter than the Sun. Dozens of dashboard cameras, common in Russian cars, caught it from different angles.",
+      "About a minute and a half later the shock wave arrived. It blew out windows across Chelyabinsk and nearby towns, and around 1,500 people needed medical help, mostly for cuts from broken glass. A round hole appeared in the ice of Lake Chebarkul, west of the city."
+    ],
+    "explanation": "An asteroid roughly 20 metres across entered the atmosphere and broke apart about 30 km up. Fragments were recovered, including a piece of more than 500 kg lifted from Lake Chebarkul later that year. No one saw it coming, because it approached from the direction of the Sun. It's the largest known object to enter Earth's atmosphere since Tunguska in 1908.",
+    "wiki": "Chelyabinsk meteor"
+  },
+  {
+    "slug": "mcminnville-photographs",
+    "category": "sky",
+    "title": "The McMinnville Photographs",
+    "region": "Near Sheridan, Oregon, USA",
+    "lat": 45.1,
+    "lon": -123.39,
+    "dateLabel": "11 May 1950",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Evelyn and Paul Trent",
+    "hook": "A farming couple took two photographs of a disc over their yard, and people are still arguing about them more than seventy years later.",
+    "summary": [
+      "On the evening of 11 May 1950, Evelyn Trent was feeding rabbits on the family farm in Oregon when she saw a metallic, disc-shaped object moving slowly across the sky. Her husband Paul fetched the camera and took two pictures before it drifted away.",
+      "The photos stayed in the house until a local newspaper heard about them and printed them that June; Life magazine followed. In the late 1960s the US government's Condon Committee studied them and called this one of the few reports in which everything examined seemed consistent with what the witnesses described."
+    ],
+    "explanation": "Sceptics argue the disc was a small model hanging from the overhead wires visible above it, and that the shadows suggest the photos were taken in the morning, not the evening as the Trents said. Others have analysed the same pictures and disagreed. The Trents never made money from them and never changed their story.",
+    "wiki": "McMinnville UFO photographs"
+  },
+  {
+    "slug": "mantell-incident",
+    "category": "sky",
+    "title": "The Mantell Incident",
+    "region": "Near Franklin, Kentucky, USA",
+    "lat": 36.72,
+    "lon": -86.58,
+    "dateLabel": "7 January 1948",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Control tower staff at Godman Field, police and the pilots",
+    "hook": "Sent up to identify a huge object over Kentucky, a fighter pilot kept climbing after it and never came back.",
+    "summary": [
+      "On the afternoon of 7 January 1948, state police and the control tower at Godman Field, near Fort Knox, reported a large, bright object in the sky. Four P-51 Mustangs of the Kentucky Air National Guard, led by Captain Thomas Mantell, were asked to take a look.",
+      "Mantell kept climbing after the object, describing it as metallic and enormous, even after the others turned back. He lost consciousness at high altitude without oxygen, and his plane came down near Franklin. The death of a pilot chasing a 'flying saucer' made headlines across the country."
+    ],
+    "explanation": "At first the Air Force said it was the planet Venus. Later investigators concluded Mantell had most likely been chasing a Skyhook balloon, a huge high-altitude research balloon from a Navy programme that was then secret. In sunlight it would have looked bright and metallic, and launches were taking place at the time.",
+    "wiki": "Mantell UFO incident"
+  },
+  {
+    "slug": "kinross-incident",
+    "category": "sky",
+    "title": "The Kinross Incident",
+    "region": "Over Lake Superior, Michigan, USA",
+    "lat": 47.6,
+    "lon": -87,
+    "dateLabel": "23 November 1953",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Radar operators at Kinross Air Force Base",
+    "hook": "Radar watched an interceptor jet close in on an unknown target over Lake Superior. Then both blips merged and the jet was gone.",
+    "summary": [
+      "On the evening of 23 November 1953, radar at Kinross Air Force Base in Michigan picked up an unidentified target over Lake Superior. An F-89 Scorpion jet was sent to intercept it, with the pilot Felix Moncla and the radar operator Robert Wilson on board.",
+      "Controllers watched the two blips draw together on the screen until they seemed to merge. Then the jet's return disappeared. No wreckage and no trace of either man was ever found, despite a search of the lake."
+    ],
+    "explanation": "The Air Force said the target had been a Canadian aircraft and that the jet probably crashed into the lake, perhaps after the pilot became disoriented; Canadian officials said none of their planes had been involved. Those who favour an ordinary explanation point to the dangers of night interceptions over water in winter. What the target was has never been settled.",
+    "wiki": "Felix Moncla"
+  },
+  {
+    "slug": "carancas-impact",
+    "category": "sky",
+    "title": "The Carancas Impact",
+    "region": "Carancas, Puno, Peru",
+    "lat": -16.66,
+    "lon": -69.04,
+    "dateLabel": "15 September 2007",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Villagers near Lake Titicaca",
+    "hook": "A fireball crashed near a village high in the Andes, leaving a crater of bubbling water and a smell that made people feel ill.",
+    "summary": [
+      "Around midday on 15 September 2007, people near the village of Carancas, close to Lake Titicaca and the Bolivian border, saw a fireball and heard a loud explosion. A crater about 13 metres across appeared in a field and filled with boiling, bubbling water.",
+      "Villagers who went to look complained of headaches and nausea, and rumours spread of a mysterious illness. Some experts at first doubted it was a meteorite at all, because a stony meteorite that size was expected to break up high in the atmosphere."
+    ],
+    "explanation": "Fragments confirmed it was a stony meteorite, an ordinary chondrite. It surprised scientists by reaching the ground in one piece at high speed. The illness was most likely caused by gases from arsenic-bearing groundwater heated by the impact, or simply by fear.",
+    "wiki": "2007 Carancas impact event"
+  },
+  {
+    "slug": "peekskill-meteorite",
+    "category": "sky",
+    "title": "The Peekskill Meteorite",
+    "region": "Peekskill, New York, USA",
+    "lat": 41.29,
+    "lon": -73.92,
+    "dateLabel": "9 October 1992",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Football crowds in several states, and one car owner",
+    "hook": "A fireball filmed over a string of Friday night football games ended its journey in the back of a parked car.",
+    "summary": [
+      "On the evening of 9 October 1992, a bright green fireball crossed the sky over several eastern US states, breaking into pieces as it went. Because it happened during Friday night high school football, at least 16 people caught it on home video cameras.",
+      "In Peekskill, 18-year-old Michelle Knapp heard a crash outside and found a hole through the back of her Chevrolet Malibu. Under the car was a warm rock the size of a football, weighing about 12 kg."
+    ],
+    "explanation": "The rock was an ordinary chondrite. The videos let scientists work out its path and its orbit around the Sun, one of the first times that had been possible for a meteorite. The car and the meteorite have since been shown in museums around the world.",
+    "wiki": "Peekskill meteorite"
+  },
+  {
+    "slug": "sylacauga-meteorite",
+    "category": "sky",
+    "title": "The Sylacauga Meteorite",
+    "region": "Oak Grove, near Sylacauga, Alabama, USA",
+    "lat": 33.18,
+    "lon": -86.27,
+    "dateLabel": "30 November 1954",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Ann Hodges, her mother and neighbours",
+    "hook": "A woman resting on her sofa was woken by a rock from space that came through the roof.",
+    "summary": [
+      "On the afternoon of 30 November 1954, people across Alabama saw a bright fireball. Moments later, in a house in Oak Grove, a stone about the size of a grapefruit smashed through the roof, bounced off a radio and struck Ann Hodges, who was resting on the sofa under a quilt.",
+      "She was left with a large bruise on her hip, and a crowd gathered outside. Air Force officers took the stone for examination, and a dispute followed over who owned it: Hodges, or her landlady."
+    ],
+    "explanation": "It was a stony meteorite of about 4 kg, and it's the first well-documented case of a meteorite striking a person. Hodges eventually kept it and gave it to the Alabama Museum of Natural History, where it's still on show.",
+    "wiki": "Sylacauga (meteorite)"
+  },
+  {
+    "slug": "great-daylight-fireball",
+    "category": "sky",
+    "title": "The Great Daylight Fireball",
+    "region": "Grand Teton National Park, Wyoming, USA",
+    "lat": 43.85,
+    "lon": -110.6,
+    "dateLabel": "10 August 1972",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Holidaymakers across the western US and Canada",
+    "hook": "A meteor skimmed through the atmosphere over the Rockies in broad daylight, then went back out into space.",
+    "summary": [
+      "On the afternoon of 10 August 1972, a brilliant fireball crossed the sky from Utah northwards over Idaho and Montana into Canada, visible for more than a minute and a half. A tourist at Jackson Lake, in Grand Teton National Park, filmed it, and a photograph taken there became famous.",
+      "Unlike most fireballs, it neither exploded nor fell. It left a glowing trail across the clear sky and disappeared to the north."
+    ],
+    "explanation": "It was an object a few metres across that entered the atmosphere at a very shallow angle, came within about 57 km of the ground, then skipped back out into space like a stone off water. US military satellites tracked it too. The encounter changed its orbit around the Sun.",
+    "wiki": "1972 Great Daylight Fireball"
+  },
+  {
+    "slug": "frederick-valentich",
+    "category": "sky",
+    "title": "The Disappearance of Frederick Valentich",
+    "region": "Over Bass Strait, south of Melbourne, Australia",
+    "lat": -39.4,
+    "lon": 144.8,
+    "dateLabel": "21 October 1978",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "A Melbourne air traffic controller, by radio",
+    "hook": "A young pilot radioed that a strange craft was circling his plane. Then the line went silent.",
+    "summary": [
+      "On the evening of 21 October 1978, 20-year-old Frederick Valentich was flying a small Cessna 182 from Moorabbin, near Melbourne, towards King Island. Over Bass Strait he radioed Melbourne air traffic control that a large aircraft with four bright lights was moving around him.",
+      "Over several minutes he described it as long, with a green light and a metallic shine, and said his engine was rough-idling. His last words were 'it is not an aircraft', followed by 17 seconds of a metallic scraping sound. Neither he nor the plane was ever found."
+    ],
+    "explanation": "Investigators couldn't say what happened. Suggestions include that he became disoriented in the dark, mistook stars or his own lights reflected for another craft, and went down in the sea; that he staged his disappearance; or, among UFO researchers, that something truly unknown was there. The official report gave the cause as unknown.",
+    "wiki": "Disappearance of Frederick Valentich"
+  },
+  {
+    "slug": "cash-landrum-incident",
+    "category": "sky",
+    "title": "The Cash–Landrum Incident",
+    "region": "Near Huffman, Texas, USA",
+    "lat": 30.03,
+    "lon": -95.08,
+    "dateLabel": "29 December 1980",
+    "status": "open",
+    "statusLabel": "Unidentified",
+    "witnesses": "Betty Cash, Vickie Landrum and her grandson",
+    "hook": "Three people on a Texas back road said a diamond of fire hovered over them, then flew off surrounded by helicopters.",
+    "summary": [
+      "Late on 29 December 1980, Betty Cash, Vickie Landrum and Landrum's seven-year-old grandson Colby were driving home through pine forest near Huffman when, they said, a huge, diamond-shaped object blocked the road ahead, hovering over the trees with flames shooting from beneath it.",
+      "They described fierce heat. As it moved away, they said, it was followed by a large number of helicopters, some with twin rotors. In the days after, all three felt unwell, and Cash had long-lasting health problems."
+    ],
+    "explanation": "The US military said it had no aircraft like that in the area, and a lawsuit against the government was dismissed in 1986. Some think the witnesses saw a secret military craft with an escort of Chinook helicopters; sceptics point out that their symptoms had other possible causes and that no one else confirmed the object. No explanation has been agreed.",
+    "wiki": "Cash–Landrum incident"
+  },
+  {
+    "slug": "maury-island-incident",
+    "category": "sky",
+    "title": "The Maury Island Incident",
+    "region": "Maury Island, Washington, USA",
+    "lat": 47.37,
+    "lon": -122.45,
+    "dateLabel": "21 June 1947",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Harold Dahl, by his own account",
+    "hook": "A man in a boat said six doughnut-shaped craft dropped hot metal over Puget Sound, three days before the first 'flying saucers'.",
+    "summary": [
+      "Harold Dahl said that on 21 June 1947 he was in a boat off Maury Island, in Puget Sound, when six large, doughnut-shaped craft appeared overhead. One seemed to be in trouble and showered the water and shore with hot, slag-like metal that damaged his boat.",
+      "He also said a man in a dark suit visited him the next morning and warned him not to talk, an early version of the 'Men in Black' story. Two Army Air Forces intelligence officers flew to Tacoma to look into it."
+    ],
+    "explanation": "The officers concluded the slag was ordinary industrial waste and the story a hoax, and Dahl later told the FBI he'd made it up, though his accounts changed over the years. The case is remembered partly because the plane carrying the officers home crashed, which fed rumours for decades.",
+    "wiki": "Maury Island incident"
+  },
+  {
+    "slug": "gurdon-light",
+    "category": "sky",
+    "title": "The Gurdon Light",
+    "region": "Near Gurdon, Arkansas, USA",
+    "lat": 33.92,
+    "lon": -93.15,
+    "dateLabel": "Reported for decades",
+    "status": "open",
+    "statusLabel": "Unexplained",
+    "witnesses": "Local people and visitors walking the tracks",
+    "hook": "Walk far enough along a railway line in the Arkansas woods at night, people say, and a light comes bobbing towards you.",
+    "summary": [
+      "Along a stretch of railway track in the woods outside Gurdon, in south-west Arkansas, people have long reported a light that floats above or beside the tracks at night, usually white or bluish, sometimes orange. It's said to sway like a lantern and to fade when approached.",
+      "The light became widely known after the television series Unsolved Mysteries featured it in the 1990s, and walking out to look for it is a local tradition."
+    ],
+    "explanation": "Suggested causes include headlights from a distant highway, though some say the line of sight doesn't fit, and glows from stressed quartz rock underground. Local legend ties it to a railway worker's lantern. No proper scientific study has been made.",
+    "wiki": "Gurdon Light"
+  },
+  {
+    "slug": "great-thunderstorm-widecombe",
+    "category": "sky",
+    "title": "The Great Thunderstorm of Widecombe",
+    "region": "Widecombe-in-the-Moor, Devon, England",
+    "lat": 50.576,
+    "lon": -3.811,
+    "dateLabel": "21 October 1638",
+    "status": "explained",
+    "statusLabel": "Probably natural",
+    "witnesses": "Around 300 people at an afternoon service",
+    "hook": "During a Sunday service on Dartmoor, a ball of fire is said to have burst into the church.",
+    "summary": [
+      "On Sunday 21 October 1638, a violent storm broke over Widecombe while the church of St Pancras was full for the afternoon service. Witnesses described the church going dark, then a great ball of fire coming through a window, filling the building with flame and a smell of sulphur.",
+      "Part of the tower fell through the roof. Four people died and around sixty were hurt. Pamphlets printed soon after described the event in detail, and local legend says the Devil had stopped at the inn on his way to collect a gambler."
+    ],
+    "explanation": "It's now thought to be one of the earliest detailed accounts of ball lightning, or of a powerful lightning strike on the tower. Ball lightning is still poorly understood, but it's accepted as a real, rare phenomenon. Boards in the church still record the event in verse.",
+    "wiki": "The Great Thunderstorm"
+  },
+  {
+    "slug": "sun-dog-painting",
+    "category": "sky",
+    "title": "The Sun Dog Painting",
+    "region": "Stockholm, Sweden",
+    "lat": 59.325,
+    "lon": 18.07,
+    "dateLabel": "20 April 1535",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The people of Stockholm",
+    "hook": "For a morning in 1535 the sky above Stockholm filled with rings and extra suns, and someone painted it.",
+    "summary": [
+      "On the morning of 20 April 1535, people in Stockholm saw white rings arc across the sky, with several extra suns sitting on them, for about two hours. In a time of religious upheaval, many took it as a sign from God.",
+      "A painting of the scene, known in Swedish as Vädersolstavlan, was made soon after. The version in Stockholm's cathedral today is a copy from 1636, and it's also the oldest known picture of the city."
+    ],
+    "explanation": "What they saw was a halo display: sunlight refracted and reflected by ice crystals high in the air, which makes sun dogs, circles and arcs. Displays this complete are rare, but they're well understood, and the painting records them closely.",
+    "wiki": "Vädersolstavlan"
+  },
+  {
+    "slug": "great-meteor-procession",
+    "category": "sky",
+    "title": "The Great Meteor Procession",
+    "region": "Toronto, Ontario, Canada",
+    "lat": 43.65,
+    "lon": -79.38,
+    "dateLabel": "9 February 1913",
+    "status": "explained",
+    "statusLabel": "Probably natural",
+    "witnesses": "Hundreds of people across Canada, the US and at sea",
+    "hook": "On a winter night, a slow parade of fireballs crossed the sky in formation, one group after another.",
+    "summary": [
+      "On the evening of 9 February 1913, people across Canada and the north-eastern United States saw a long procession of bright fireballs moving slowly and steadily across the sky in groups, from north-west to south-east. Many said it lasted several minutes and was followed by a rumble like thunder.",
+      "The astronomer Clarence Chant of the University of Toronto collected reports from observers and published a study the same year. Later researchers found more sightings from ships far out in the Atlantic."
+    ],
+    "explanation": "The usual explanation is that a single meteoroid, or a small natural object briefly orbiting Earth, broke up as it skimmed through the atmosphere on a very shallow path, its pieces travelling in a line for thousands of kilometres. No fragments were ever found.",
+    "wiki": "1913 Great Meteor Procession"
+  },
+  {
+    "slug": "oumuamua",
+    "featured": true,
+    "category": "sky",
+    "title": "ʻOumuamua, the Visitor from Another Star",
+    "region": "Haleakalā, Maui, Hawaiʻi, USA",
+    "lat": 20.71,
+    "lon": -156.26,
+    "dateLabel": "19 October 2017",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Astronomers at the Pan-STARRS telescope",
+    "hook": "The first object known to arrive from another star system was long, tumbling, and sped up as it left.",
+    "summary": [
+      "On 19 October 2017, the Pan-STARRS telescope on Haleakalā spotted a faint object already heading away from the Sun. Its path showed it wasn't bound to the Sun at all: it had come from interstellar space and was passing straight through. It was named ʻOumuamua, a Hawaiian word for a scout or messenger.",
+      "It was small and reddish, probably very long and thin or flat, and it tumbled as it went. It also accelerated slightly as it moved away, more than gravity alone could explain, yet showed no visible tail of gas or dust."
+    ],
+    "explanation": "Most astronomers think it's a natural fragment, perhaps an icy body giving off gas too faint to see, such as hydrogen, which would explain the push. The Harvard astronomer Avi Loeb has argued it could be an artificial object, such as a light sail. It's now too far away to observe, so the question can't be settled.",
+    "wiki": "1I/ʻOumuamua"
+  },
+  {
+    "slug": "wycliffe-well",
+    "category": "sky",
+    "title": "Wycliffe Well",
+    "region": "Wycliffe Well, Northern Territory, Australia",
+    "lat": -20.8,
+    "lon": 134.24,
+    "dateLabel": "Reported for decades",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Travellers, truck drivers and roadhouse staff",
+    "hook": "A roadhouse on the Stuart Highway calls itself Australia's UFO capital, and visitors keep reporting lights over the desert.",
+    "summary": [
+      "Wycliffe Well is a tiny stop on the Stuart Highway, south of Tennant Creek in the Northern Territory. Travellers and locals have reported strange lights in the night sky there for years, and the roadhouse leans into it with alien statues, murals and walls of newspaper clippings.",
+      "Reports describe lights that hover, change colour or move in ways planes don't, over the flat, dark country around the settlement."
+    ],
+    "explanation": "Sceptics point out that the outback has almost no light pollution, so stars, planets, satellites, aircraft and distant headlights are unusually bright and easy to misjudge. The roadhouse's fame also draws people who are watching for something. No single sighting has been recorded well enough to study.",
+    "wiki": "Wycliffe Well"
+  },
+  {
+    "slug": "calvine-photograph",
+    "category": "sky",
+    "title": "The Calvine Photograph",
+    "region": "Near Calvine, Perth and Kinross, Scotland",
+    "lat": 56.78,
+    "lon": -4.01,
+    "dateLabel": "4 August 1990",
+    "status": "open",
+    "statusLabel": "Unidentified",
+    "witnesses": "Two walkers, whose names have never been made public",
+    "hook": "A photo of a huge diamond-shaped craft over the Scottish Highlands, with a jet nearby, stayed hidden for thirty years.",
+    "summary": [
+      "On 4 August 1990, two men near Calvine, in the Highlands, said they watched a large, diamond-shaped object hover silently for about ten minutes while military jets flew around it, before it shot straight up and away. They gave their photographs to the Daily Record newspaper, which passed them to the Ministry of Defence.",
+      "The pictures were never published. For years the only known copy was a print kept by a former Ministry press officer. In 2022 the journalist David Clarke tracked it down and made it public."
+    ],
+    "explanation": "No one has identified the object. Suggestions include a secret military aircraft or airship, or a hoax using a rock reflected in still water, though the witnesses described it in the sky. The photographers have never come forward publicly, and the original negatives are lost.",
+    "wiki": "Calvine UFO photograph"
+  },
+  {
+    "slug": "basel-1566",
+    "category": "sky",
+    "title": "The Basel Sky Spheres",
+    "region": "Basel, Switzerland",
+    "lat": 47.56,
+    "lon": 7.59,
+    "dateLabel": "7 August 1566",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "The people of Basel, as told in a broadsheet",
+    "hook": "At sunrise, a broadsheet reported, the sky over Basel filled with black spheres that seemed to race and fight.",
+    "summary": [
+      "A broadsheet printed in Basel by Samuel Coccius described signs in the sky in the summer of 1566. On 27 and 28 July, it said, the Sun and Moon looked blood red as they rose and set. Then at sunrise on 7 August, many large black spheres were seen moving at speed towards the Sun or against each other, as if fighting, and some turned red and fiery before fading.",
+      "Like the Nuremberg sky battle of 1561, the account is popular with people who believe it records a battle between unknown craft."
+    ],
+    "explanation": "Historians note that broadsheets of the time reported signs in the sky as moral warnings, in the religious language of the day. Suggested natural causes include sunspots seen through haze, halo effects, or dust and smoke over the city. There's no other independent record of what people actually saw.",
+    "wiki": "1566 celestial phenomenon over Basel"
+  },
+  {
+    "slug": "villas-boas",
+    "category": "visitors",
+    "title": "Antônio Villas Boas",
+    "region": "Near São Francisco de Sales, Minas Gerais, Brazil",
+    "lat": -19.86,
+    "lon": -49.77,
+    "dateLabel": "16 October 1957",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Antônio Villas Boas alone",
+    "hook": "A young farmer ploughing at night said an egg-shaped craft landed in his field and he was taken on board.",
+    "summary": [
+      "Antônio Villas Boas was a 23-year-old farmer who ploughed at night to avoid the heat. He said that in the early hours of 16 October 1957, an egg-shaped craft with a red light landed in front of his tractor. When the engine died and he tried to run, small figures in grey suits and helmets caught him and took him aboard.",
+      "Inside, he said, they took a blood sample, and he met a woman who looked almost human. Months later he was examined by a doctor in Rio de Janeiro, who noted marks on his skin and symptoms he thought might be linked to radiation."
+    ],
+    "explanation": "His account, published in the 1960s, became one of the first widely known abduction stories. Sceptics suggest a dream, a fantasy, or the influence of stories in popular magazines. He never changed his account and later became a lawyer. There's no physical evidence beyond the doctor's notes.",
+    "wiki": "Antônio Vilas-Boas"
+  },
+  {
+    "slug": "whitley-strieber",
+    "category": "visitors",
+    "title": "Whitley Strieber's Visitors",
+    "region": "A cabin in upstate New York, USA",
+    "lat": 41.9,
+    "lon": -74.3,
+    "dateLabel": "26 December 1985",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Whitley Strieber",
+    "hook": "A bestselling novelist woke in his cabin to small figures in the room, and wrote a book that put their faces on bookshop covers.",
+    "summary": [
+      "Whitley Strieber was already a successful writer of horror novels when, he said, he woke on the night of 26 December 1985 in his family's cabin in upstate New York to find small beings in his bedroom, who took him outside into the woods.",
+      "Shaken, he underwent hypnosis to recover the memory and wrote Communion (1987), presented as a true account. Its cover showed a painting of a grey face with large, black, almond-shaped eyes. The book became a number one bestseller and fixed that image in popular culture."
+    ],
+    "explanation": "Strieber has always said the experiences were real, though he doesn't claim to know what the visitors were. Sceptics suggest sleep paralysis, which can bring vivid sensations of figures in the room, and point out that memories recovered under hypnosis are unreliable. Some critics also noted his background in fiction.",
+    "wiki": "Whitley Strieber"
+  },
+  {
+    "slug": "zanfretta",
+    "category": "visitors",
+    "title": "The Zanfretta Case",
+    "region": "Marzano, near Torriglia, Genoa, Italy",
+    "lat": 44.51,
+    "lon": 9.15,
+    "dateLabel": "6 December 1978",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Fortunato Zanfretta, and colleagues who found him",
+    "hook": "A night watchman said he met a tall, ridged giant by a country house above Genoa, and reported more meetings over the following year.",
+    "summary": [
+      "Pier Fortunato Zanfretta was a private security guard. On the night of 6 December 1978, checking a house at Marzano, in the hills near Torriglia, he radioed that his car had died and that he'd seen strange lights. He then said he'd come face to face with a huge figure about 3 metres tall, with ridged green skin, before it vanished in a blaze of light.",
+      "Colleagues found him badly shaken. Over the next year he reported several more encounters and, under hypnosis, described being taken aboard a craft."
+    ],
+    "explanation": "Doctors and investigators judged him sincere, and he wasn't found to have a mental illness. Sceptics suggest hallucination, or false memories built up under hypnosis, which can produce detailed accounts of things that never happened. No one else saw the figure.",
+    "wiki": "Zanfretta UFO Incident"
+  },
+  {
+    "slug": "falcon-lake-incident",
+    "category": "visitors",
+    "title": "The Falcon Lake Incident",
+    "region": "Near Falcon Lake, Whiteshell, Manitoba, Canada",
+    "lat": 49.71,
+    "lon": -95.31,
+    "dateLabel": "20 May 1967",
+    "status": "open",
+    "statusLabel": "Unexplained",
+    "witnesses": "Stefan Michalak",
+    "hook": "A prospector walked up to a landed craft in the Manitoba woods and came away with burns in a grid pattern on his chest.",
+    "summary": [
+      "Stefan Michalak, an amateur prospector, was looking for quartz near Falcon Lake on 20 May 1967 when, he said, two glowing, cigar-shaped objects appeared and one landed on a rock nearby. He heard voices and a whirring sound and walked over to it.",
+      "When he touched the side of the craft, his glove melted. The craft turned, and a blast of hot air from a vent in its side set his shirt on fire. He was left with burns in a grid-like pattern on his chest and felt ill for weeks."
+    ],
+    "explanation": "The Royal Canadian Mounted Police and the military investigated, and traces of radioactivity were found at the site, though some thought these could have a natural source. Sceptics have suggested a hoax or an accident with something else; supporters point to his consistent story and medical records. Canadian government files list the case as unexplained.",
+    "wiki": "Falcon Lake Incident"
+  },
+  {
+    "slug": "spring-heeled-jack",
+    "featured": true,
+    "category": "visitors",
+    "title": "Spring-heeled Jack",
+    "region": "London, England",
+    "lat": 51.46,
+    "lon": -0.14,
+    "dateLabel": "From 1837",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "People in London, and later across England",
+    "hook": "In Victorian London, people said a tall figure with glowing eyes leapt over walls and breathed blue flame.",
+    "summary": [
+      "From late 1837, reports spread through London's suburbs of a strange figure who jumped out at people at night. Witnesses described him as tall and thin, in a cloak, with glowing eyes and clawed hands, able to leap high walls and breathe blue and white flames.",
+      "In February 1838 two young women, Jane Alsop and Lucy Scales, gave widely reported accounts of being frightened by such a figure. Sightings continued around England for decades, and Spring-heeled Jack became a favourite character of cheap Victorian fiction and the stage."
+    ],
+    "explanation": "No one was ever caught. Historians think the reports began as pranks, perhaps by wealthy young men, and grew through rumour, newspaper coverage and imitators; the Marquess of Waterford was blamed at the time without proof. Later sightings were probably copycats or simply stories.",
+    "wiki": "Spring-heeled Jack"
+  },
+  {
+    "slug": "dulce-base",
+    "category": "visitors",
+    "title": "The Dulce Base",
+    "region": "Archuleta Mesa, near Dulce, New Mexico, USA",
+    "lat": 36.93,
+    "lon": -106.95,
+    "dateLabel": "Claims from 1979",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Paul Bennewitz, and the storytellers who followed",
+    "hook": "A rumour says aliens and humans share a vast underground base beneath a mesa in New Mexico.",
+    "summary": [
+      "From 1979, Paul Bennewitz, a businessman in Albuquerque, became convinced that signals and lights he recorded near Kirtland Air Force Base were alien communications, and that a secret underground base lay beneath Archuleta Mesa, near the small town of Dulce on the Jicarilla Apache Nation.",
+      "The story grew through the 1980s and 1990s, with claims of many underground levels and joint human and alien staff, and it remains a fixture of conspiracy culture."
+    ],
+    "explanation": "No evidence of a base has ever been found. Researchers including Greg Bishop showed that Air Force counter-intelligence officers deliberately fed Bennewitz false information to draw his attention away from real classified projects, which helped the story spread.",
+    "wiki": "Dulce Base"
+  },
+  {
+    "slug": "elizabeth-klarer",
+    "category": "visitors",
+    "title": "Elizabeth Klarer",
+    "region": "Cathkin Peak, Drakensberg, KwaZulu-Natal, South Africa",
+    "lat": -29.06,
+    "lon": 29.36,
+    "dateLabel": "1950s",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Elizabeth Klarer",
+    "hook": "A South African woman said a craft landed on the slopes of the Drakensberg and its pilot took her to his planet.",
+    "summary": [
+      "Elizabeth Klarer, who lived in Natal, said she'd seen strange craft over the Drakensberg mountains since childhood. In the 1950s, she said, one landed near her family's farm below Cathkin Peak, and its pilot, a tall, fair-haired man named Akon, invited her aboard.",
+      "In her book Beyond the Light Barrier she wrote that Akon was a scientist from a planet she called Meton, in the Alpha Centauri system, and that she had lived there for a time and had his son. She lectured about her experiences internationally."
+    ],
+    "explanation": "No independent witness or physical evidence supports her account, which follows the pattern of 1950s 'contactee' stories such as George Adamski's. Supporters note she was well educated and consistent; sceptics regard the story as sincere fantasy or invention.",
+    "wiki": "Elizabeth Klarer"
+  },
+  {
+    "slug": "george-adamski",
+    "category": "visitors",
+    "title": "George Adamski's Visitor from Venus",
+    "region": "Near Desert Center, California, USA",
+    "lat": 33.71,
+    "lon": -115.4,
+    "dateLabel": "20 November 1952",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "Adamski, with six companions watching from a distance",
+    "hook": "A man who ran a café below Palomar Mountain said he met a long-haired visitor from Venus in the California desert.",
+    "summary": [
+      "George Adamski ran a café near Palomar Mountain, home of the famous observatory, though he wasn't connected with it. On 20 November 1952, he and six companions drove into the desert near Desert Center. Adamski walked off alone and said he met a man from Venus called Orthon, with long fair hair, who spoke through gestures and telepathy and warned about nuclear weapons.",
+      "His companions said they watched from a distance. His book Flying Saucers Have Landed (1953), with photographs of bell-shaped 'scout ships', became a bestseller and made him the most famous of the 1950s 'contactees'."
+    ],
+    "explanation": "Critics pointed out that his scout ship looked very like a lamp or part of a chicken brooder, and later space probes found Venus far too hot for the life he described. He's generally regarded as having invented or embellished his story, though he kept a following until his death in 1965.",
+    "wiki": "George Adamski"
+  },
+  {
+    "slug": "atacama-skeleton",
+    "category": "visitors",
+    "title": "The Atacama 'Alien'",
+    "region": "La Noria, Atacama Desert, Chile",
+    "lat": -20.38,
+    "lon": -69.87,
+    "dateLabel": "Found in 2003",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Found in an abandoned mining town",
+    "hook": "A tiny skeleton with a long, pointed skull was shown as an alien, until its DNA was read.",
+    "summary": [
+      "In 2003 a mummified skeleton only about 15 cm long was found in La Noria, an abandoned nitrate-mining town in the Atacama Desert. It had a cone-shaped skull, large eye sockets and fewer ribs than usual, and it was sold on and shown as possible evidence of an extraterrestrial.",
+      "It featured in the 2013 documentary Sirius. Many people, including scientists in Chile, objected to human remains being displayed in this way."
+    ],
+    "explanation": "Genetic studies published in 2013 and 2018 showed it was human: a girl, most likely born very early, with local ancestry, and with changes in genes linked to bone growth that may explain her shape. The remains are only a few decades old. In Chile, there have been calls for them to be returned and buried.",
+    "wiki": "Atacama skeleton"
+  },
+  {
+    "slug": "starchild-skull",
+    "category": "visitors",
+    "title": "The Starchild Skull",
+    "region": "South-west of Chihuahua, Mexico",
+    "lat": 27.9,
+    "lon": -107,
+    "dateLabel": "Found around 1930",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Found, the story goes, by a teenager in an old mine tunnel",
+    "hook": "An oddly shaped skull from a Mexican mine was promoted for years as half alien.",
+    "summary": [
+      "The story goes that around 1930 a teenage girl found two skeletons in a mine tunnel south-west of Chihuahua city: an adult's, and a child's with an unusually broad, shallow skull. The skulls passed through several hands, and from 1999 the researcher Lloyd Pye promoted the child's as the 'Starchild', a human–alien hybrid.",
+      "Pye pointed to the skull's shape, its thin, light bone and the absence of the usual sinuses, and paid for DNA tests that he said supported his idea."
+    ],
+    "explanation": "Scientists who examined it concluded it belonged to a human child, probably a boy, whose skull was misshapen by hydrocephalus or a similar condition. DNA testing in 2003 found human X and Y chromosomes. Pye's later claims of unusual DNA weren't accepted by geneticists.",
+    "wiki": "Starchild skull"
+  },
+  {
+    "slug": "nazca-mummies",
+    "category": "visitors",
+    "title": "The Nazca 'Mummies'",
+    "region": "Nazca, Ica, Peru",
+    "lat": -14.83,
+    "lon": -74.94,
+    "dateLabel": "Shown from 2017",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Promoters, journalists and Peruvian forensic scientists",
+    "hook": "Three-fingered 'mummies' from the Peruvian desert were shown to the world, and even to Mexico's Congress.",
+    "summary": [
+      "In 2017 a set of small, three-fingered mummified bodies, said to come from a cave in the Nazca desert, was promoted online as evidence of non-human beings. The Mexican journalist Jaime Maussan became their best-known champion.",
+      "In September 2023 Maussan presented two of the bodies at a hearing in Mexico's Congress, and the images went around the world."
+    ],
+    "explanation": "Peruvian forensic experts who examined some of the figures in 2024 reported they were dolls made from animal bones held together with modern glue and paper. Others appear to have been made from looted human remains, and Peru treats the case as a matter of protecting its archaeological heritage.",
+    "wiki": "Jaime Maussan"
+  },
+  {
+    "slug": "alien-autopsy-film",
+    "featured": true,
+    "category": "visitors",
+    "title": "The Alien Autopsy Film",
+    "region": "London, England",
+    "lat": 51.52,
+    "lon": -0.1,
+    "dateLabel": "5 May 1995",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Invited guests, then millions of television viewers",
+    "hook": "Grainy film of doctors examining a body from Roswell was shown on television around the world.",
+    "summary": [
+      "On 5 May 1995 the London businessman Ray Santilli showed invited guests at the Museum of London a black-and-white film he said came from a retired US military cameraman. It appeared to show doctors carrying out an autopsy on a pale, humanoid body recovered after the Roswell crash of 1947.",
+      "The film was broadcast in many countries that year, including on the Fox network in the US, and drew huge audiences."
+    ],
+    "explanation": "Experts in film, medicine and special effects found many problems with it. In 2006 Santilli said the film was a 'restoration' he had staged, after original footage he claimed to have seen had decayed. The sculptor John Humphreys said he made the body.",
+    "wiki": "Alien Autopsy"
+  },
+  {
+    "slug": "majestic-12",
+    "category": "visitors",
+    "title": "The Majestic 12 Papers",
+    "region": "Burbank, California, USA",
+    "lat": 34.18,
+    "lon": -118.31,
+    "dateLabel": "December 1984",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Jaime Shandera, who received the film",
+    "hook": "A roll of film arrived in the post, showing a top-secret briefing about a committee set up to handle crashed saucers.",
+    "summary": [
+      "In December 1984, the television producer Jaime Shandera received an envelope with no return address. Inside was undeveloped film of what claimed to be a 1952 briefing for President-elect Eisenhower about 'Majestic 12', a secret group of scientists and officials formed in 1947 to deal with a crashed craft and alien bodies found near Roswell.",
+      "Shandera and the researchers William Moore and Stanton Friedman released the documents in 1987, setting off decades of debate."
+    ],
+    "explanation": "The FBI investigated and concluded the documents were fake. Researchers found problems with dates and formats, and a Truman signature that appears to have been copied from a genuine letter. Friedman went on defending them, but most researchers, including many ufologists, regard them as forgeries. Who made them is unknown.",
+    "wiki": "Majestic 12"
+  },
+  {
+    "slug": "saqqara-bird",
+    "category": "visitors",
+    "title": "The Saqqara Bird",
+    "region": "Saqqara, Giza, Egypt",
+    "lat": 29.87,
+    "lon": 31.22,
+    "dateLabel": "Found in 1898",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Archaeologists, and later ancient-astronaut writers",
+    "hook": "A small wooden bird from an Egyptian tomb has been held up as a model glider, proof that the ancients knew how to fly.",
+    "summary": [
+      "In 1898 a small bird carved from sycamore wood, about 18 cm across the wings, was found in a tomb at Saqqara, the ancient burial ground near Memphis. It's thought to date from around 200 BC and is now in the Egyptian Museum in Cairo.",
+      "In the 1970s writers noticed its straight wings and upright tail and suggested it was a scale model of a glider, evidence that ancient Egyptians understood flight."
+    ],
+    "explanation": "Egyptologists say it's simply a bird, perhaps a falcon, with carved eyes and a beak, and that it may have been a toy or a weathervane. Replicas don't glide well unless a horizontal tailplane is added, which the original doesn't have.",
+    "wiki": "Saqqara Bird"
+  },
+  {
+    "slug": "quimbaya-aeroplanes",
+    "category": "visitors",
+    "title": "The Gold 'Aeroplanes' of Colombia",
+    "region": "Quindío, Colombia",
+    "lat": 4.53,
+    "lon": -75.68,
+    "dateLabel": "Made over 1,000 years ago",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Archaeologists and museum visitors",
+    "hook": "Small gold figures from ancient Colombia look so much like jets that people have built flying copies.",
+    "summary": [
+      "Among the gold work of ancient Colombia are small pendants, a few centimetres long, with swept-back wings and an upright tail. They're usually linked with the Quimbaya and Tolima cultures, and some are held in the Museo del Oro in Bogotá.",
+      "In the 1990s enthusiasts built scale models based on them and showed that, with changes, they could fly. Ancient-astronaut writers took this as evidence of lost knowledge of flight."
+    ],
+    "explanation": "Archaeologists see them as stylised animals, such as flying fish, birds or insects, which are common subjects in the region's gold work. The flying models needed added engines or propellers and changes to the shape before they would fly.",
+    "wiki": "Quimbaya artifacts"
+  },
+  {
+    "slug": "dogu",
+    "category": "visitors",
+    "title": "The Goggle-Eyed Dogū",
+    "region": "Kamegaoka, Tsugaru, Aomori, Japan",
+    "lat": 40.86,
+    "lon": 140.33,
+    "dateLabel": "Made around 1000–400 BC",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Archaeologists",
+    "hook": "Ancient clay figures with huge goggle eyes look to some people like visitors in spacesuits.",
+    "summary": [
+      "Dogū are clay figurines made in Japan during the Jōmon period, thousands of years ago. The best-known kind, the shakōki-dogū or 'goggle-eyed dogū', has huge eyes with horizontal slits, a body that looks padded and a decorated head. A fine example was found at Kamegaoka in Aomori.",
+      "Since the 1960s, ancient-astronaut writers have described them as visitors in spacesuits and helmets."
+    ],
+    "explanation": "Archaeologists say the eyes resemble the snow goggles used by Arctic peoples, and that the figures are stylised human forms, often female, perhaps made for rituals of healing or fertility; many were deliberately broken. The 'spacesuit' look comes from the Jōmon style of decoration.",
+    "wiki": "Dogū"
+  },
+  {
+    "slug": "beast-of-bray-road",
+    "category": "creatures",
+    "title": "The Beast of Bray Road",
+    "region": "Bray Road, near Elkhorn, Wisconsin, USA",
+    "lat": 42.67,
+    "lon": -88.54,
+    "dateLabel": "Reported from 1989",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Local drivers and residents",
+    "hook": "Drivers on a country road in Wisconsin said they saw a wolf-like animal that stood up on two legs.",
+    "summary": [
+      "In the late 1980s and early 1990s, several people around Elkhorn, in southern Wisconsin, said they'd seen a large, hairy, dog- or wolf-like animal along Bray Road, a quiet route through farmland. Some said it crouched by the roadside and stood up on its hind legs.",
+      "The local reporter Linda Godfrey wrote about the sightings for the Walworth County Week in 1991, and the story spread across the country. She went on to collect many similar 'dogman' reports from across the Midwest."
+    ],
+    "explanation": "Suggested explanations include large dogs, wolves or coyotes, a bear standing upright, and mistakes in poor light, especially from a moving car. No body, clear photograph or other physical evidence has been found.",
+    "wiki": "Beast of Bray Road"
+  },
+  {
+    "slug": "fouke-monster",
+    "category": "creatures",
+    "title": "The Fouke Monster",
+    "region": "Fouke, Arkansas, USA",
+    "lat": 33.26,
+    "lon": -93.89,
+    "dateLabel": "May 1971",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "The Ford family and neighbours",
+    "hook": "A family in rural Arkansas said a tall, hairy creature reached through their window, and a film about it filled cinemas.",
+    "summary": [
+      "In May 1971 the Ford family, who had just moved into a house outside Fouke, in south-west Arkansas, reported that a hairy creature about 2 metres tall had been prowling around their home at night and had reached through a window. Bobby Ford said it grabbed him on the porch, and he was treated for shock.",
+      "Stories of a creature around Boggy Creek went back years. The 1972 low-budget film The Legend of Boggy Creek, made partly with local people, was a surprise hit, and the town still celebrates its monster."
+    ],
+    "explanation": "Investigators found three-toed tracks that some thought were faked. Bears, which live in the region, and other animals have been suggested, along with hoaxes inspired by the publicity. No creature has been caught or clearly photographed.",
+    "wiki": "Fouke Monster"
+  },
+  {
+    "slug": "honey-island-swamp-monster",
+    "category": "creatures",
+    "title": "The Honey Island Swamp Monster",
+    "region": "Honey Island Swamp, Louisiana, USA",
+    "lat": 30.33,
+    "lon": -89.67,
+    "dateLabel": "Reported from 1963",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Harlan Ford and other people in the swamp",
+    "hook": "In the swamps of Louisiana, people describe a tall creature with grey hair and yellow eyes.",
+    "summary": [
+      "Honey Island Swamp lies along the Pearl River, on the border between Louisiana and Mississippi. In 1963 Harlan Ford, a retired air traffic controller, said he and a friend saw a large, upright creature there with grey hair and yellow eyes. In 1974 he said he'd found strange footprints with webbed toes and made plaster casts of them.",
+      "The creature became a local legend, and swamp tour guides still tell the story."
+    ],
+    "explanation": "No bones, body or confirmed photographs exist. Sceptics suggest the tracks were faked or came from known animals, and that sightings were of bears, deer or people seen in poor light.",
+    "wiki": "Honey Island Swamp monster"
+  },
+  {
+    "slug": "morag",
+    "category": "creatures",
+    "title": "Morag of Loch Morar",
+    "region": "Loch Morar, Lochaber, Scotland",
+    "lat": 56.95,
+    "lon": -5.72,
+    "dateLabel": "16 August 1969",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Two men in a boat in 1969, and others before them",
+    "hook": "Britain's deepest lake has its own monster, and two men said it once bumped into their boat.",
+    "summary": [
+      "Loch Morar, in the western Highlands, is the deepest body of fresh water in Britain, at over 300 metres. Local folklore told of Morag, a creature whose appearance was said to foretell a death in one of the local families.",
+      "On 16 August 1969, Duncan McDonnell and William Simpson said a large creature, many metres long with rough brown skin, struck their boat. They tried to drive it off before it sank out of sight. A study group later collected dozens of reports from around the loch."
+    ],
+    "explanation": "No physical evidence has been found. As with Loch Ness, sightings may be logs, boat wakes, waves, swimming deer or birds, misjudged in size on open water. The loch has held fresh water only since the last Ice Age, which makes it hard to see how a population of large animals could live there.",
+    "wiki": "Morag (lake monster)"
+  },
+  {
+    "slug": "beast-of-exmoor",
+    "category": "creatures",
+    "title": "The Beast of Exmoor",
+    "region": "Exmoor, Somerset and Devon, England",
+    "lat": 51.15,
+    "lon": -3.65,
+    "dateLabel": "Reported from the 1970s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Farmers, walkers and drivers",
+    "hook": "When a farmer lost dozens of sheep in 1983, the government sent Royal Marines to look for a big cat on the moors.",
+    "summary": [
+      "People on Exmoor have reported seeing a large black or tawny cat, much bigger than a pet cat, since the 1970s. In 1983 a farmer near South Molton said he'd lost around 100 sheep in a few months and suspected a big cat.",
+      "The Ministry of Agriculture sent Royal Marines marksmen to watch the area. They reported glimpses of a large dark animal but never got a clear sight of it, and the search was called off."
+    ],
+    "explanation": "Some think a puma or leopard was released into the wild after the Dangerous Wild Animals Act of 1976 made keeping them harder. Others put the losses down to dogs, and the sightings to large pet cats, dogs or foxes seen at a distance. No big cat has been caught on Exmoor.",
+    "wiki": "British big cats"
+  },
+  {
+    "slug": "queensland-tiger",
+    "category": "creatures",
+    "title": "The Queensland Tiger",
+    "region": "Atherton Tableland, Queensland, Australia",
+    "lat": -17.27,
+    "lon": 145.48,
+    "dateLabel": "Reported since the 1800s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Settlers, Aboriginal people and bushwalkers",
+    "hook": "In the forests of north Queensland, people describe a striped, dog-sized cat that no zoologist has caught.",
+    "summary": [
+      "Since European settlement, people in Queensland have described a cat-like animal about the size of a large dog, with stripes, a big head and powerful legs, living in forest and scrub. Aboriginal peoples in the region also have names for such an animal.",
+      "Naturalists collected accounts in the 19th and 20th centuries, and reports still turn up now and then."
+    ],
+    "explanation": "Some researchers have suggested a surviving marsupial lion, Thylacoleo, though it died out tens of thousands of years ago and there's no sign of a later survivor. Others suggest feral cats, which can grow large, or thylacines on the mainland. No specimen or clear photograph has been found.",
+    "wiki": "Queensland tiger"
+  },
+  {
+    "slug": "loveland-frog",
+    "category": "creatures",
+    "title": "The Loveland Frogman",
+    "region": "Loveland, Ohio, USA",
+    "lat": 39.27,
+    "lon": -84.26,
+    "dateLabel": "3 March 1972",
+    "status": "explained",
+    "statusLabel": "Probably a lizard",
+    "witnesses": "Two Loveland police officers",
+    "hook": "Two police officers said they saw a frog-like creature by a river in Ohio. One later said it was a lizard.",
+    "summary": [
+      "Early on 3 March 1972, a police officer driving beside the Little Miami River in Loveland, Ohio, said he saw an animal about a metre long crouched by the road. It stood up, he said, and leapt over the guard rail into the river. He described a leathery, frog-like face.",
+      "Two weeks later a second officer said he saw a similar creature crawling across the road. The 'Loveland Frogman' became a local legend, with a festival and even a musical."
+    ],
+    "explanation": "The second officer, Mark Matthews, later said the animal was a large lizard, probably an escaped pet, and that the story had been exaggerated. Most people now think it was a reptile seen briefly at night.",
+    "wiki": "Loveland frog"
+  },
+  {
+    "slug": "flathead-lake-monster",
+    "category": "creatures",
+    "title": "The Flathead Lake Monster",
+    "region": "Flathead Lake, Montana, USA",
+    "lat": 47.88,
+    "lon": -114.1,
+    "dateLabel": "Reported since 1889",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Boaters and people on the shore",
+    "hook": "One of the biggest lakes in the American West has more than a century of reports of a large, dark creature in the water.",
+    "summary": [
+      "Flathead Lake, in north-western Montana, is one of the largest natural freshwater lakes in the western United States. The first widely cited sighting came in 1889, when the captain of a steamboat said passengers saw a large, whale-like animal.",
+      "Since then people have reported a dark, eel- or serpent-like creature, sometimes said to be many metres long, swimming at the surface. Local people keep a record of the sightings."
+    ],
+    "explanation": "The lake holds large fish, including lake trout, which some think explain the reports. Logs, wakes and waves on a big lake are easily misread too. No firm evidence of an unknown animal has been found.",
+    "wiki": "Flathead Lake Monster"
+  },
+  {
+    "slug": "white-river-monster",
+    "category": "creatures",
+    "title": "The White River Monster",
+    "region": "White River, near Newport, Arkansas, USA",
+    "lat": 35.61,
+    "lon": -91.27,
+    "dateLabel": "July 1937",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "A landowner, fishermen and townspeople",
+    "hook": "A creature as big as a railway wagon was said to rise from an Arkansas river, and the state made a refuge for it.",
+    "summary": [
+      "In July 1937 Bramblett Bateman, who owned land along the White River near Newport, said he'd seen a huge grey creature rising in the river. Others came forward, and a diver was sent down to look, without success. In 1971 a new run of sightings described an animal with peeling grey skin and something like a horn, and large tracks on a sandbar.",
+      "The creature was nicknamed Whitey, and in 1973 the Arkansas legislature created the White River Monster Refuge along part of the river, making it illegal to harm it there."
+    ],
+    "explanation": "The most popular theory is a stray elephant seal, which has a large, wrinkled snout and can travel up rivers, though one this far inland would be extraordinary. Others suggest large fish, or floating debris.",
+    "wiki": "White River Monster"
+  },
+  {
+    "slug": "stronsay-beast",
+    "category": "creatures",
+    "title": "The Stronsay Beast",
+    "region": "Stronsay, Orkney, Scotland",
+    "lat": 59.08,
+    "lon": -2.56,
+    "dateLabel": "September 1808",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Islanders who found the carcass",
+    "hook": "A huge carcass washed up on an Orkney island was named as a new sea serpent, with six legs.",
+    "summary": [
+      "In September 1808, after a storm, a large carcass washed ashore on the island of Stronsay. Witnesses said it was about 16 metres long, with a long neck, a small head, a mane down its back and three pairs of limbs.",
+      "Learned societies in Edinburgh took it seriously, and the Wernerian Natural History Society gave it a scientific name, Halsydrus pontoppidani, as a new kind of sea serpent."
+    ],
+    "explanation": "The anatomist Everard Home examined surviving pieces and concluded it was a basking shark, which is how it's understood today. As a basking shark rots, its jaw and gills fall away, leaving what looks like a small head on a long neck, and the fins can look like legs. Many 'sea monster' carcasses since have turned out the same way.",
+    "wiki": "Stronsay Beast"
+  },
+  {
+    "slug": "trunko",
+    "category": "creatures",
+    "title": "Trunko",
+    "region": "Margate, KwaZulu-Natal, South Africa",
+    "lat": -30.86,
+    "lon": 30.37,
+    "dateLabel": "1924",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "People on the beach at Margate",
+    "hook": "People said they watched two whales fight a white, furry sea monster with a trunk, which then washed up on the beach.",
+    "summary": [
+      "In 1924 a British newspaper reported that people at Margate, on the coast of what is now KwaZulu-Natal, had watched two whales battle a large white creature offshore for hours. Afterwards a huge carcass washed up on the beach, said to be covered in snow-white hair, with no visible head and a trunk-like limb.",
+      "It reportedly lay there for days without any scientist studying it, then was carried back out to sea. The story was largely forgotten until photographs of it came to light in 2010."
+    ],
+    "explanation": "Researchers now think the carcass was a mass of whale blubber, a so-called globster, which can look hairy as its tough fibres come apart. The photographs show a large, shapeless mass, and the 'battle' may have been killer whales hunting a whale. The name Trunko was given later.",
+    "wiki": "Trunko"
+  },
+  {
+    "slug": "st-augustine-monster",
+    "category": "creatures",
+    "title": "The St. Augustine Monster",
+    "region": "Anastasia Island, St. Augustine, Florida, USA",
+    "lat": 29.85,
+    "lon": -81.27,
+    "dateLabel": "30 November 1896",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Two boys, then the local doctor DeWitt Webb",
+    "hook": "A giant carcass on a Florida beach was announced as an octopus far larger than any known.",
+    "summary": [
+      "On 30 November 1896, two boys cycling on Anastasia Island found an enormous, pale carcass half-buried in the sand. A local doctor, DeWitt Webb, examined and photographed it and decided it was a gigantic octopus, reporting what he took to be remains of arms nearby.",
+      "The Yale zoologist Addison Verrill, working from Webb's reports, named it Octopus giganteus, though he soon changed his mind."
+    ],
+    "explanation": "Studies of preserved tissue in the 1990s and again in 2004 found it was whale blubber, a mass of tough tissue from a dead whale. Many globsters washed up around the world since have turned out the same way.",
+    "wiki": "St. Augustine Monster"
+  },
+  {
+    "slug": "jackalope",
+    "category": "creatures",
+    "title": "The Jackalope",
+    "region": "Douglas, Wyoming, USA",
+    "lat": 42.76,
+    "lon": -105.38,
+    "dateLabel": "1930s onwards",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Hunters, tourists and taxidermists",
+    "hook": "The horned rabbit of Western legend is mostly a taxidermy joke, but real rabbits with horns do exist.",
+    "summary": [
+      "The jackalope, a jackrabbit with an antelope's horns, became a symbol of the American West after Douglas Herrick, a hunter and taxidermist in Douglas, Wyoming, fixed antlers to a stuffed rabbit in the 1930s and sold it to a local hotel. Mounts and postcards spread across the region, and Douglas calls itself the home of the jackalope.",
+      "Horned hares also appear in older European folklore and natural history books."
+    ],
+    "explanation": "The mounts are taxidermy, but the legend may draw on something real: rabbits infected with the Shope papilloma virus can grow hard, horn-like growths on their heads. The virus was identified in the 1930s in wild cottontails with such growths.",
+    "wiki": "Jackalope"
+  },
+  {
+    "slug": "skookum-cast",
+    "category": "creatures",
+    "title": "The Skookum Cast",
+    "region": "Gifford Pinchot National Forest, Washington, USA",
+    "lat": 46.2,
+    "lon": -121.6,
+    "dateLabel": "September 2000",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "A Bigfoot research expedition",
+    "hook": "Researchers baiting for Bigfoot found a body-shaped imprint in the mud and cast it in plaster.",
+    "summary": [
+      "In September 2000, members of a Bigfoot research expedition in the Gifford Pinchot National Forest, in Washington, left fruit as bait near a muddy wallow at Skookum Meadow. The next morning they found a large imprint in the mud, as if an animal had lain on its side to reach the fruit, with shapes they read as a forearm, hip, thigh and heel.",
+      "They made a plaster cast about 1.5 metres long. Some anthropologists and primatologists who studied it said they couldn't match it to a known animal."
+    ],
+    "explanation": "Sceptics argue it was made by an elk lying down, noting elk tracks and hair at the site and that the shapes match an elk's body and legs. With no clear match either way, it's still argued over.",
+    "wiki": "Skookum cast"
+  },
+  {
+    "slug": "minnesota-iceman",
+    "category": "creatures",
+    "title": "The Minnesota Iceman",
+    "region": "Rollingstone, Minnesota, USA",
+    "lat": 44.1,
+    "lon": -91.82,
+    "dateLabel": "Shown from 1967",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Fairgoers and two zoologists",
+    "hook": "A hairy, man-like figure frozen in a block of ice toured American fairs, and two zoologists thought it was real.",
+    "summary": [
+      "From 1967 the showman Frank Hansen exhibited a hairy, man-like body frozen in a block of ice at shopping centres and county fairs across the US. In 1968 the zoologists Ivan Sanderson and Bernard Heuvelmans examined it through the ice and became convinced it was a real, unknown kind of human.",
+      "Heuvelmans published a scientific description, and the Smithsonian took an interest. Hansen then said the figure on display was a model, and his account of an 'original' changed several times."
+    ],
+    "explanation": "It was most likely a latex model from the start; model makers later said they'd built it, and Hansen's own stories contradicted each other. A figure said to be the Iceman turned up for sale online in 2013 and went on show in a museum of oddities in Texas.",
+    "wiki": "Minnesota Iceman"
+  },
+  {
+    "slug": "amabie",
+    "category": "creatures",
+    "title": "Amabie",
+    "region": "Kumamoto, Kyushu, Japan",
+    "lat": 32.8,
+    "lon": 130.71,
+    "dateLabel": "Reported in 1846",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "A local official, according to a printed sheet",
+    "hook": "A glowing sea creature with a beak and three tails was said to rise off Kumamoto with a warning about disease.",
+    "summary": [
+      "A woodblock print from 1846 reports that in Higo Province, now Kumamoto, a light kept appearing at sea night after night. When an official went to look, a creature with long hair, a bird's beak, a scaly body and three legs or tails rose from the water.",
+      "It said its name was Amabie and foretold six years of good harvests, but also an epidemic. If disease spread, it said, people should show its picture to others."
+    ],
+    "explanation": "Amabie is a yōkai, a creature of Japanese folklore, and the print was probably as much a way to sell printed sheets as a record of a sighting; similar 'prophetic beast' prints were common then. It became famous again in 2020, when people in Japan and around the world shared drawings of it during the COVID-19 pandemic.",
+    "wiki": "Amabie"
+  },
+  {
+    "slug": "de-loys-ape",
+    "category": "creatures",
+    "title": "De Loys's Ape",
+    "region": "Tarra River, Zulia, Venezuela",
+    "lat": 9.05,
+    "lon": -72.55,
+    "dateLabel": "1920",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "François de Loys and his expedition",
+    "hook": "A photo of a large ape propped up on a crate became South America's most famous cryptid picture.",
+    "summary": [
+      "In 1920 the Swiss geologist François de Loys was leading an oil exploration party near the Tarra River when, he said, two large, tailless apes confronted the group. One was killed, and he photographed it sitting on a crate, held up with a stick under its chin.",
+      "Nine years later the anthropologist George Montandon published the photograph and named the animal Ameranthropoides loysi, a new American ape. No ape had ever been found in the Americas."
+    ],
+    "explanation": "Most primatologists think it was a spider monkey with its tail hidden, made to look bigger because nothing in the frame shows scale. Estimates of the crate's size suggest an animal of spider-monkey height. The skin and skull were said to have been lost.",
+    "wiki": "De Loys's ape"
+  },
+  {
+    "slug": "bukit-timah-monkey-man",
+    "category": "creatures",
+    "title": "The Bukit Timah Monkey Man",
+    "region": "Bukit Timah, Singapore",
+    "lat": 1.35,
+    "lon": 103.78,
+    "dateLabel": "Reported over many decades",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Walkers, soldiers and residents",
+    "hook": "In Singapore's last big patch of rainforest, people describe a grey, hairy figure, part monkey and part man.",
+    "summary": [
+      "Bukit Timah Nature Reserve, around Singapore's highest hill, is one of the island's last areas of old rainforest. People have long told of a grey-haired creature, between a monkey and a man, walking upright among the trees.",
+      "Sightings were reported in local newspapers in the 1990s and 2000s, and the Monkey Man has become a fixture of Singapore's urban folklore."
+    ],
+    "explanation": "The reserve is home to long-tailed macaques, which are common and can stand upright for short spells, and sightings may be of these, or of people seen in poor light. The forest is far too small to support a population of unknown apes. There's no evidence beyond the stories.",
+    "wiki": "Bukit Timah Monkey Man"
+  },
+  {
+    "slug": "komodo-dragon",
+    "category": "creatures",
+    "title": "The Land Crocodiles of Komodo",
+    "region": "Komodo Island, East Nusa Tenggara, Indonesia",
+    "lat": -8.55,
+    "lon": 119.48,
+    "dateLabel": "Confirmed in 1910",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Islanders, then a Dutch colonial officer",
+    "hook": "Stories of giant 'land crocodiles' on a remote Indonesian island turned out to be true.",
+    "summary": [
+      "People on Komodo, Flores and nearby islands had long known a huge lizard, and sailors and pearl divers passed on stories of 'land crocodiles' several metres long. In 1910 a Dutch officer on Flores, Lieutenant van Steyn van Hensbroek, went to investigate and obtained a specimen.",
+      "In 1912 Peter Ouwens, director of the zoological museum at Buitenzorg (now Bogor), described the animal for science as Varanus komodoensis."
+    ],
+    "explanation": "The Komodo dragon is the largest living lizard, growing to around 3 metres. Its story is often cited as proof that rumours of large unknown animals are sometimes right, though early reports of lizards 7 metres long were never confirmed.",
+    "wiki": "Komodo dragon"
+  },
+  {
+    "slug": "platypus",
+    "category": "creatures",
+    "title": "The Platypus That Looked Like a Hoax",
+    "region": "New South Wales, Australia",
+    "lat": -33.6,
+    "lon": 150.75,
+    "dateLabel": "1799",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Naturalists in Britain",
+    "hook": "When the first platypus skin reached Britain, scientists suspected someone had sewn a duck's bill onto a mammal.",
+    "summary": [
+      "In 1798 a platypus skin and a sketch were sent from New South Wales to Britain. The naturalist George Shaw, who described it in 1799, could hardly believe it: it had a bill like a duck's, webbed feet, thick fur and a tail like a beaver's.",
+      "Shaw is said to have looked for stitches around the bill, suspecting a taxidermist's joke, since fake creatures sewn together from different animals were then being sold to collectors."
+    ],
+    "explanation": "The platypus is entirely real: one of the few mammals that lay eggs, found in eastern Australia. Its egg-laying wasn't confirmed by scientists until 1884. Males have venomous spurs on their hind legs, and the bill senses the tiny electric fields of prey under water.",
+    "wiki": "Platypus"
+  },
+  {
+    "slug": "wolpertinger",
+    "category": "creatures",
+    "title": "The Wolpertinger",
+    "region": "Bavarian Forest, Bavaria, Germany",
+    "lat": 48.95,
+    "lon": 13.4,
+    "dateLabel": "Told for centuries",
+    "status": "explained",
+    "statusLabel": "Tall tale",
+    "witnesses": "Bavarian hunters, in tall tales",
+    "hook": "In the Bavarian forests, so the story goes, lives a creature with a hare's body, antlers, wings and fangs.",
+    "summary": [
+      "The Wolpertinger is a creature of Bavarian folklore, usually described as a hare or squirrel with antlers, wings and fangs, and sometimes a duck's feet. It's said to live in the forests of the Alps and the Bavarian Forest.",
+      "Taxidermists have made Wolpertinger mounts from parts of real animals for at least a century, and they hang in inns and in the German Hunting and Fishing Museum in Munich. Legend says only a young woman in the company of a handsome man, under a full moon, can see one."
+    ],
+    "explanation": "It's understood as a joke played on visitors, much like the American jackalope. Some think rabbits with horn-like growths, caused by a papilloma virus, helped inspire tales of horned hares. No real animal is involved.",
+    "wiki": "Wolpertinger"
+  },
+  {
+    "slug": "hodag",
+    "category": "creatures",
+    "title": "The Hodag",
+    "region": "Rhinelander, Wisconsin, USA",
+    "lat": 45.64,
+    "lon": -89.41,
+    "dateLabel": "1893",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Eugene Shepard and the people of Rhinelander",
+    "hook": "A Wisconsin timber man said he'd captured a horned, fanged beast, and put it on show at the county fair.",
+    "summary": [
+      "In 1893 newspapers reported that Eugene Shepard, a timber surveyor in Rhinelander, Wisconsin, had found a fearsome creature with horns, fangs, spikes down its back and a terrible smell. In 1896 he said he'd caught a live one, and showed it at the county fair in a dimly lit tent, where it moved and growled.",
+      "Visitors paid to see it, until Shepard admitted it was a carved wooden figure covered in hide, moved with hidden wires."
+    ],
+    "explanation": "It was a hoax from the start, in the tradition of logging-camp tall tales. Rhinelander embraced it: the Hodag is the city's mascot and gives its name to a music festival.",
+    "wiki": "Hodag"
+  },
+  {
+    "slug": "lake-worth-monster",
+    "category": "creatures",
+    "title": "The Lake Worth Monster",
+    "region": "Lake Worth, Fort Worth, Texas, USA",
+    "lat": 32.81,
+    "lon": -97.48,
+    "dateLabel": "July 1969",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Couples parked by the lake, then crowds of searchers",
+    "hook": "Fort Worth's newspaper reported a hairy 'goat-man' that leapt onto a car by the lake.",
+    "summary": [
+      "In July 1969, police in Fort Worth took a report from three couples who said a large, hairy creature, part man and part goat, had jumped from a tree onto their car near Lake Worth and scratched it. The Fort Worth Star-Telegram ran the story under the headline 'Fishy Man-Goat Terrifies Couples Parked at Lake Worth'.",
+      "Crowds went looking for it, and some said they saw it throw a tyre at them from a bluff. A local woman, Sallie Ann Clarke, wrote a book about the sightings."
+    ],
+    "explanation": "Many think the sightings were pranks, perhaps a young man in a costume, amplified by publicity and excitement. A blurry photograph from that year has never been identified. The story is still celebrated locally.",
+    "wiki": "Lake Worth Monster"
+  },
+  {
+    "slug": "blc1",
+    "category": "voices",
+    "title": "BLC1, the Signal from Proxima",
+    "region": "Parkes Observatory, New South Wales, Australia",
+    "lat": -33,
+    "lon": 148.26,
+    "dateLabel": "29 April 2019",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Breakthrough Listen astronomers",
+    "hook": "A radio telescope pointed at our nearest star picked up a narrow signal that seemed to come from there and nowhere else.",
+    "summary": [
+      "On 29 April 2019, the Parkes radio telescope was observing Proxima Centauri, the closest star to the Sun, for Breakthrough Listen, a project that searches for signs of technology elsewhere. Its data held a narrow signal at around 982 MHz that drifted slowly in frequency and seemed to appear only when the telescope pointed at the star.",
+      "It was spotted in the data in 2020 and named BLC1, Breakthrough Listen Candidate 1. News of it leaked before the analysis was finished, causing a stir."
+    ],
+    "explanation": "Detailed analysis published in 2021 found that BLC1 was almost certainly interference from human technology on Earth. The team found many similar signals at related frequencies, produced when signals from electronic equipment mix, and the timing that made it look like it came from Proxima was a coincidence. It's now a textbook example of how such signals are checked.",
+    "wiki": "BLC1"
+  },
+  {
+    "slug": "shgb02-14a",
+    "category": "voices",
+    "title": "SHGb02+14a",
+    "region": "Arecibo Observatory, Puerto Rico",
+    "lat": 18.34,
+    "lon": -66.75,
+    "dateLabel": "2003",
+    "status": "explained",
+    "statusLabel": "Probably noise",
+    "witnesses": "SETI@home researchers",
+    "hook": "A search for alien signals run on volunteers' home computers found a candidate that showed up three times in the same patch of sky.",
+    "summary": [
+      "SETI@home let millions of volunteers' computers analyse data from the Arecibo radio telescope in Puerto Rico. One candidate, later named SHGb02+14a, was a signal near 1420 MHz, the natural frequency of hydrogen, which some think aliens might choose. It turned up at least three times from a point between the constellations Pisces and Aries.",
+      "In 2004 a magazine article described it as the best candidate yet, which drew wide press attention."
+    ],
+    "explanation": "The SETI@home team said it was probably random noise or chance, not a real signal. Its frequency drifted rapidly, which would be odd for a deliberate transmitter, and no nearby star lies in that direction. It hasn't been detected again.",
+    "wiki": "SHGb02+14a"
+  },
+  {
+    "slug": "lgm-1",
+    "category": "voices",
+    "title": "LGM-1, 'Little Green Men'",
+    "region": "Mullard Radio Astronomy Observatory, Cambridgeshire, England",
+    "lat": 52.17,
+    "lon": 0.04,
+    "dateLabel": "28 November 1967",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Jocelyn Bell and Antony Hewish",
+    "hook": "A radio signal ticked too regularly to seem natural, so its discoverers jokingly named it 'Little Green Men'.",
+    "summary": [
+      "In 1967 Jocelyn Bell, a PhD student at Cambridge, was checking long paper charts from a new radio telescope when she noticed a small patch of 'scruff' that kept coming back. On 28 November a faster recording showed it was a series of sharp pulses, exactly 1.337 seconds apart.",
+      "The pulses were so regular that the team briefly wondered whether they were artificial and nicknamed the source LGM-1, for Little Green Men. Then Bell found a second source in another part of the sky."
+    ],
+    "explanation": "The signals came from a pulsar: a rapidly spinning neutron star, the collapsed core of a massive star, sweeping beams of radio waves past Earth like a lighthouse. It was the first ever found, now known as PSR B1919+21. Hewish shared the 1974 Nobel Prize in Physics for the work; Bell's exclusion became a famous example of a discovery going unrecognised.",
+    "wiki": "PSR B1919+21"
+  },
+  {
+    "slug": "kelso-dunes",
+    "category": "voices",
+    "title": "The Booming Dunes of Kelso",
+    "region": "Kelso Dunes, Mojave National Preserve, California, USA",
+    "lat": 34.9,
+    "lon": -115.72,
+    "dateLabel": "Ongoing",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors to the Mojave",
+    "hook": "Slide down the steep face of these Mojave dunes and the sand starts to boom like a distant engine.",
+    "summary": [
+      "The Kelso Dunes rise about 200 metres above the Mojave Desert. When the sand is dry and someone slides down a steep face, or the sand slips on its own, the dunes give off a deep, droning boom that can last for a minute and carry a long way.",
+      "Visitors compare it to a low-flying plane or a cello. Only some dunes do it, and only when conditions are right."
+    ],
+    "explanation": "Booming happens when dry, rounded sand grains of similar size slide together and their movement falls into step, setting up a vibration. Scientists still debate the details, including whether layers inside the dune act as a sounding box. Only a few dozen dune fields around the world are known to boom.",
+    "wiki": "Kelso Dunes"
+  },
+  {
+    "slug": "krakatoa-sound",
+    "category": "voices",
+    "title": "The Loudest Sound in History",
+    "region": "Krakatoa, Sunda Strait, Indonesia",
+    "lat": -6.1,
+    "lon": 105.42,
+    "dateLabel": "27 August 1883",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "People around the Indian Ocean, as far away as Rodrigues Island",
+    "hook": "When Krakatoa erupted, people nearly 5,000 km away thought they were hearing distant gunfire.",
+    "summary": [
+      "On the morning of 27 August 1883, the volcanic island of Krakatoa, between Java and Sumatra, tore itself apart in a series of huge explosions. On Rodrigues Island in the Indian Ocean, nearly 4,800 km away, the police chief reported a sound like the roar of heavy guns from the east.",
+      "Barometers around the world recorded the pressure wave as it circled the Earth several times. Sailors closer to the volcano described the noise as painfully loud."
+    ],
+    "explanation": "The explosion is thought to be the loudest sound in recorded history. The eruption and the tsunamis that followed killed more than 36,000 people. Ash high in the atmosphere turned sunsets a vivid red around the world for months afterwards.",
+    "wiki": "1883 eruption of Krakatoa"
+  },
+  {
+    "slug": "whispering-wall",
+    "category": "voices",
+    "title": "The Whispering Wall",
+    "region": "Barossa Reservoir, Williamstown, South Australia, Australia",
+    "lat": -34.65,
+    "lon": 138.88,
+    "dateLabel": "Built in 1902",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors",
+    "hook": "Whisper at one end of this curved dam wall, and someone 140 metres away can hear you clearly.",
+    "summary": [
+      "The Barossa Reservoir dam in South Australia, finished in 1902, has a curved concrete wall about 140 metres across. Two people standing at either end can hold a quiet conversation, hearing each other's whispers as if they were standing close by.",
+      "It's a popular stop for visitors to the Barossa Valley, who test it with whispers and secrets."
+    ],
+    "explanation": "The curve of the wall acts as a whispering gallery: sound travelling along the concave surface is reflected again and again and stays close to the wall, losing little energy on the way. The same effect works in St Paul's Cathedral and other curved buildings.",
+    "wiki": "Barossa Dam"
+  },
+  {
+    "slug": "mapparium",
+    "category": "voices",
+    "title": "The Mapparium",
+    "region": "Mary Baker Eddy Library, Boston, Massachusetts, USA",
+    "lat": 42.345,
+    "lon": -71.086,
+    "dateLabel": "Built in 1935",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors",
+    "hook": "Stand inside a three-storey glass globe in Boston and your own voice seems to come from inside your head.",
+    "summary": [
+      "The Mapparium is a three-storey stained-glass globe, about 9 metres across, built in 1935 for the Christian Science Publishing Society. Visitors walk through it on a glass bridge and see the world's countries, as they were in 1935, from the inside.",
+      "Its hard, round glass surface plays tricks with sound. A whisper at one end of the bridge can be heard clearly at the other, and a person speaking at the centre hears their own voice loud and close, as if it were all around them."
+    ],
+    "explanation": "A sphere focuses reflected sound back to points inside it, and the glass, which absorbs almost no sound, acts like a near-perfect acoustic mirror. It's the same effect as a whispering gallery.",
+    "wiki": "Mapparium"
+  },
+  {
+    "slug": "st-pauls-whispering-gallery",
+    "category": "voices",
+    "title": "The Whispering Gallery of St Paul's",
+    "region": "St Paul's Cathedral, London, England",
+    "lat": 51.5138,
+    "lon": -0.0984,
+    "dateLabel": "Completed in the early 1700s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors for three centuries",
+    "hook": "Whisper against the wall of St Paul's dome, and someone on the far side, more than 30 metres away, can hear you.",
+    "summary": [
+      "Around the base of the dome of St Paul's Cathedral, more than 250 steps up, runs the Whispering Gallery. A whisper spoken close to the wall on one side can be heard clearly on the other, more than 30 metres away, while someone standing nearby may hear nothing.",
+      "The effect was a puzzle, and a favourite of visitors, long before anyone could explain it."
+    ],
+    "explanation": "In 1878 Lord Rayleigh showed that sound waves cling to the curved wall, reflecting along it in a series of short hops so they don't spread out and fade. Such 'whispering-gallery waves' are now used in physics, including in tiny devices that trap light in the same way.",
+    "wiki": "Whispering gallery"
+  },
+  {
+    "slug": "dancing-plague-1518",
+    "featured": true,
+    "category": "voices",
+    "title": "The Dancing Plague of 1518",
+    "region": "Strasbourg, Alsace, France",
+    "lat": 48.58,
+    "lon": 7.75,
+    "dateLabel": "July 1518",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "City officials, physicians and chroniclers",
+    "hook": "One woman started dancing in a Strasbourg street, and within weeks crowds were dancing and couldn't stop.",
+    "summary": [
+      "In July 1518, a woman known as Frau Troffea began dancing in a street in Strasbourg, then a free city of the Holy Roman Empire. She kept going for days. Within weeks dozens of people, by some accounts hundreds, had joined in, dancing almost without rest.",
+      "On the advice of physicians, the city at first hired musicians and built a stage, believing the dancers needed to dance it out. When that seemed to make things worse, the dancers were taken to a shrine of St Vitus. Some chronicles say people died of exhaustion, though historians doubt the numbers."
+    ],
+    "explanation": "The historian John Waller argues it was a mass psychogenic illness, brought on by famine, disease and fear in a community that believed St Vitus could curse people with uncontrollable dancing. Another suggestion, poisoning from ergot, a fungus on rye, is now thought less likely, because it causes convulsions rather than dancing.",
+    "wiki": "Dancing plague of 1518"
+  },
+  {
+    "slug": "pied-piper-of-hamelin",
+    "featured": true,
+    "category": "voices",
+    "title": "The Pied Piper of Hamelin",
+    "region": "Hamelin, Lower Saxony, Germany",
+    "lat": 52.1,
+    "lon": 9.36,
+    "dateLabel": "26 June 1284",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "The town's own records, and a church window now lost",
+    "hook": "A town's records say that in 1284 a piper in bright clothes led 130 of its children away, and they never came back.",
+    "summary": [
+      "The earliest known account comes from a stained-glass window made for Hamelin's market church around 1300, now lost but described in later sources. It showed a piper in coloured clothes leading children away. Town records say that on 26 June 1284, 130 children of Hamelin followed a piper out of the town and were lost.",
+      "The rats came later: they were added to the story in the 16th century, and the tale reached its best-known form through the Brothers Grimm and the poet Robert Browning."
+    ],
+    "explanation": "Historians have offered many explanations: young people leaving to settle new lands in eastern Europe, which fits Hamelin surnames later found there; a children's crusade; a disaster or an epidemic; or a dance. No record from the time settles which, if any, is right.",
+    "wiki": "Pied Piper of Hamelin"
+  },
+  {
+    "slug": "oracle-of-delphi",
+    "category": "voices",
+    "title": "The Oracle of Delphi",
+    "region": "Delphi, Phocis, Greece",
+    "lat": 38.48,
+    "lon": 22.5,
+    "dateLabel": "Active for over 1,000 years",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Ancient writers, including Plutarch, a priest at Delphi",
+    "hook": "Ancient writers said the priestess at Delphi breathed sweet-smelling vapours from the earth before speaking for Apollo.",
+    "summary": [
+      "For more than a thousand years, people travelled to Delphi to consult the Pythia, the priestess of Apollo, who sat on a tripod in the temple and gave answers in a trance-like state. Rulers consulted her before going to war or founding new cities.",
+      "Ancient authors, including Plutarch, who served as a priest there, described a vapour rising from the ground, sometimes with a sweet smell, that inspired her."
+    ],
+    "explanation": "For a long time scholars dismissed the vapours as myth, since excavations found no chasm under the temple. In 2001 a team of geologists reported two faults crossing beneath it and traces of ethylene and other gases in nearby springs, suggesting a natural cause. Other researchers doubt the gas levels could ever have been high enough, so the question remains open.",
+    "wiki": "Pythia"
+  },
+  {
+    "slug": "philip-experiment",
+    "category": "voices",
+    "title": "The Philip Experiment",
+    "region": "Toronto, Ontario, Canada",
+    "lat": 43.66,
+    "lon": -79.39,
+    "dateLabel": "1972–1973",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "A Toronto research group, and later television audiences",
+    "hook": "A group in Toronto invented a ghost called Philip, and then, they said, he started knocking on their table.",
+    "summary": [
+      "In 1972 a group from the Toronto Society for Psychical Research, guided by the mathematician A. R. G. Owen and his wife Iris, set out to test whether a group's shared belief could produce the effects usually blamed on spirits. They invented a character, Philip Aylesford, an English nobleman of the 1600s with a tragic love story.",
+      "After months of quiet meditation with no result, they switched to a relaxed, cheerful séance. Then, they said, raps came from the table in answer to their questions, and the table moved around the room. A session was filmed for television."
+    ],
+    "explanation": "The group concluded the effects came from their own minds rather than a real spirit, since Philip only 'knew' what they had invented. Sceptics say the raps and movements were most likely caused by small unconscious muscle movements, known as the ideomotor effect, and ordinary noises.",
+    "wiki": "Philip experiment"
+  },
+  {
+    "slug": "fox-sisters",
+    "category": "voices",
+    "title": "The Fox Sisters' Rappings",
+    "region": "Hydesville, Arcadia, New York, USA",
+    "lat": 43.12,
+    "lon": -77.13,
+    "dateLabel": "31 March 1848",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "The Fox family and their neighbours",
+    "hook": "Two young sisters said they could talk with a spirit through knocks, and started a movement that swept the world.",
+    "summary": [
+      "In March 1848, Kate and Margaret Fox, aged about 11 and 14, said that rapping noises in their family's house in Hydesville, in upstate New York, came from a spirit that answered their questions with knocks. On 31 March they showed neighbours, who were convinced.",
+      "The sisters went on to hold public séances, and their fame launched Spiritualism, a movement that by the late 1800s had millions of followers in the US and Britain."
+    ],
+    "explanation": "In 1888 Margaret publicly confessed that the raps had been made by cracking the joints of their toes, and demonstrated it on stage, though she later took the confession back. Most historians accept the knocks were a children's trick that grew far beyond their control.",
+    "wiki": "Fox sisters"
+  },
+  {
+    "slug": "drummer-of-tedworth",
+    "category": "voices",
+    "title": "The Drummer of Tedworth",
+    "region": "Tidworth, Wiltshire, England",
+    "lat": 51.24,
+    "lon": -1.66,
+    "dateLabel": "1661–1663",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "John Mompesson's household and visitors, including Joseph Glanvill",
+    "hook": "After a magistrate took away a wandering drummer's drum, his house filled with drumming every night.",
+    "summary": [
+      "In 1661 John Mompesson, a magistrate at Tedworth (now Tidworth) in Wiltshire, had a travelling drummer, William Drury, arrested for using a forged pass, and kept his drum. Soon after, the household said, loud drumming and knocking began at night, especially around the children's beds, and went on for about two years.",
+      "The clergyman Joseph Glanvill visited and wrote about it as evidence of a spirit world. The story became famous and inspired Joseph Addison's play The Drummer."
+    ],
+    "explanation": "No cause was ever proven. Visitors sent from the royal court reportedly heard nothing on the night they stayed. Sceptics suggest pranks by servants or the children, or ordinary noises magnified by fear and gossip; Mompesson was accused at the time of staging it, which he denied.",
+    "wiki": "Drummer of Tedworth"
+  },
+  {
+    "slug": "whistling-sands-porthor",
+    "category": "voices",
+    "title": "The Whistling Sands of Porthor",
+    "region": "Porthor, Llŷn Peninsula, Wales",
+    "lat": 52.83,
+    "lon": -4.72,
+    "dateLabel": "Ongoing",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Beach visitors",
+    "hook": "Walk across this Welsh beach on a dry day and the sand squeaks under your feet.",
+    "summary": [
+      "Porthor, a small cove near the tip of the Llŷn Peninsula in north-west Wales, is known in English as Whistling Sands. When the sand is dry, walking on it or scuffing it with your feet makes a high squeak or whistle.",
+      "It's one of only a handful of beaches in Europe where the effect is strong, and families have come to hear it for generations."
+    ],
+    "explanation": "The sound comes from sand grains that are unusually rounded, of a similar size and free of dust. When they're pressed, they slip against each other in a way that sets up a vibration. If the sand gets wet or dirty, it falls silent.",
+    "wiki": "Porthor"
+  },
+  {
+    "slug": "dyatlov-pass",
+    "featured": true,
+    "category": "places",
+    "title": "The Dyatlov Pass Incident",
+    "region": "Kholat Syakhl, northern Urals, Russia",
+    "lat": 61.75,
+    "lon": 59.46,
+    "dateLabel": "2 February 1959",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "The hikers' diaries and photographs, and the search teams",
+    "hook": "Nine experienced hikers left their tent on a snowy mountainside in the night and never came back.",
+    "summary": [
+      "In early 1959, nine students and graduates of the Ural Polytechnic Institute, led by Igor Dyatlov, set off on a skiing expedition in the northern Urals. On the night of 1–2 February they camped on the slope of Kholat Syakhl.",
+      "When searchers found the tent weeks later, it had been cut open from the inside, and footprints led down the slope towards the forest. All nine had died, several in light clothing in severe cold, and some had serious injuries. Soviet investigators closed the case, citing an 'unknown compelling force'."
+    ],
+    "explanation": "Theories over the years have included avalanches, military tests, violent winds and infrasound. In 2019 Russian prosecutors reopened the inquiry and concluded that a small slab avalanche had driven the group from the tent. A 2021 study in a scientific journal showed how such an avalanche could happen on that slope and cause the injuries. Not everyone accepts this, partly because the tent wasn't buried.",
+    "wiki": "Dyatlov Pass incident"
+  },
+  {
+    "slug": "voynich-manuscript",
+    "featured": true,
+    "category": "places",
+    "title": "The Voynich Manuscript",
+    "region": "Beinecke Library, Yale University, New Haven, Connecticut, USA",
+    "lat": 41.311,
+    "lon": -72.927,
+    "dateLabel": "Made in the early 1400s",
+    "status": "open",
+    "statusLabel": "Unread",
+    "witnesses": "Generations of codebreakers and scholars",
+    "hook": "A 600-year-old book in an unknown script, full of plants no one recognises, has beaten every codebreaker who has tried it.",
+    "summary": [
+      "The Voynich manuscript is a small book of about 240 vellum pages, written in a script found nowhere else. It's illustrated with plants that don't match any known species, charts of the stars, and small figures bathing in pools linked by tubes. It's named after Wilfrid Voynich, a book dealer who bought it in 1912.",
+      "Radiocarbon dating in 2009 placed the vellum in the early 1400s. Its earlier owners seem to have included the Holy Roman Emperor Rudolf II. Some of the best codebreakers of the 20th century, including William Friedman, tried to read it and failed."
+    ],
+    "explanation": "The text has patterns like a real language, which argues against meaningless nonsense, but also features no known language shares. Theories include an unknown or extinct language, a cipher, an invented language, or an elaborate hoax made in the 1400s. Many solutions have been announced; none has been accepted.",
+    "wiki": "Voynich manuscript"
+  },
+  {
+    "slug": "kensington-runestone",
+    "category": "places",
+    "title": "The Kensington Runestone",
+    "region": "Kensington, Minnesota, USA",
+    "lat": 45.78,
+    "lon": -95.7,
+    "dateLabel": "Found in 1898",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "Olof Ohman, a farmer",
+    "hook": "A Swedish farmer in Minnesota said he dug up a stone carved with runes about Viking explorers in 1362.",
+    "summary": [
+      "In 1898 Olof Ohman, a Swedish immigrant farmer near Kensington, Minnesota, said he found a flat stone tangled in the roots of a tree while clearing land. It was carved with runes telling of a party of Swedes and Norwegians on a journey west in 1362 who met with misfortune.",
+      "If genuine, it would put Scandinavians in the middle of North America more than a century before Columbus. It's on display in a museum in Alexandria, Minnesota."
+    ],
+    "explanation": "Most experts in runes and Scandinavian languages consider it a 19th-century creation, pointing to words and runes they say didn't exist in the 1300s and match the speech of local immigrants. Defenders argue those forms did appear in medieval texts. Norse visitors did reach North America, at L'Anse aux Meadows in Newfoundland, but nothing similar has been found in Minnesota.",
+    "wiki": "Kensington Runestone"
+  },
+  {
+    "slug": "phaistos-disc",
+    "category": "places",
+    "title": "The Phaistos Disc",
+    "region": "Phaistos, Crete, Greece",
+    "lat": 35.05,
+    "lon": 24.81,
+    "dateLabel": "3 July 1908",
+    "status": "open",
+    "statusLabel": "Unread",
+    "witnesses": "The archaeologist Luigi Pernier's team",
+    "hook": "A clay disc from Crete is covered in 45 kinds of stamped symbols, spiralling to the centre, and no one can read them.",
+    "summary": [
+      "On 3 July 1908, the Italian archaeologist Luigi Pernier found a fired clay disc about 16 cm across in the Minoan palace of Phaistos, in southern Crete. It dates from the second millennium BC.",
+      "Both sides carry 241 symbols arranged in a spiral, made with 45 different stamps pressed into the wet clay, like an early form of printing. They include heads with plumed headdresses, fish, birds, plants and shields."
+    ],
+    "explanation": "It's the only object of its kind ever found, so there isn't enough text to decipher it, and its language is unknown. It may be a prayer, a song or a list. A few scholars think it's a forgery, but most accept it as genuine. It's in the Heraklion Archaeological Museum.",
+    "wiki": "Phaistos Disc"
+  },
+  {
+    "slug": "plain-of-jars",
+    "category": "places",
+    "title": "The Plain of Jars",
+    "region": "Phonsavan, Xiangkhouang, Laos",
+    "lat": 19.43,
+    "lon": 103.15,
+    "dateLabel": "Made more than 2,000 years ago",
+    "status": "open",
+    "statusLabel": "Purpose debated",
+    "witnesses": "Local people and archaeologists",
+    "hook": "Thousands of huge stone jars lie scattered across the hills of northern Laos, and no one knows exactly why.",
+    "summary": [
+      "Across the Xiangkhouang plateau in northern Laos lie thousands of stone jars, some up to 3 metres tall, in groups spread over dozens of sites. They were carved from stone more than two thousand years ago.",
+      "Local legend says they were made by giants, or that a king used them to brew rice wine to celebrate a great victory."
+    ],
+    "explanation": "Archaeologists think they were linked to funerals: human remains and grave goods have been found around them, and one idea is that bodies were placed in the jars before the bones were buried. The area was heavily bombed during the Vietnam War, and only cleared sites can be visited safely. The jars became a UNESCO World Heritage Site in 2019.",
+    "wiki": "Plain of Jars"
+  },
+  {
+    "slug": "callanish-stones",
+    "category": "places",
+    "title": "The Callanish Stones",
+    "region": "Callanish, Isle of Lewis, Outer Hebrides, Scotland",
+    "lat": 58.197,
+    "lon": -6.745,
+    "dateLabel": "Raised around 2900 BC",
+    "status": "open",
+    "statusLabel": "Purpose debated",
+    "witnesses": "Islanders and archaeologists",
+    "hook": "On a ridge in the Outer Hebrides stands a cross of standing stones older than Stonehenge's great circle, its purpose still argued over.",
+    "summary": [
+      "The Callanish stones, Calanais in Gaelic, are a ring of 13 tall stones with a burial cairn in the middle and rows of stones running out from it, making a rough cross. They were put up between about 2900 and 2600 BC.",
+      "Local tradition says they were giants turned to stone, and that at sunrise on midsummer morning a 'Shining One' walks along the avenue."
+    ],
+    "explanation": "Many think the layout is linked to the Moon: every 18.6 years, when the Moon's path is at its lowest, it seems to skim along the hills to the south and set among the stones. Whether the builders intended this is debated. The stones were partly buried in peat until it was cleared in 1857.",
+    "wiki": "Callanish Stones"
+  },
+  {
+    "slug": "serpent-mound",
+    "category": "places",
+    "title": "Serpent Mound",
+    "region": "Adams County, Ohio, USA",
+    "lat": 39.025,
+    "lon": -83.43,
+    "dateLabel": "Built over 900 years ago",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Archaeologists",
+    "hook": "A huge earthwork snake winds across a ridge in Ohio, its head pointing towards the midsummer sunset, and no one agrees who built it.",
+    "summary": [
+      "Serpent Mound is an earthwork in the shape of a snake, about 400 metres long and around a metre high, lying on a plateau in Adams County, Ohio. Its body coils across the ridge, and its open jaws seem to hold an oval shape.",
+      "Its head lines up with the sunset on the summer solstice, and some argue that its coils point to other events in the Sun's and Moon's cycles."
+    ],
+    "explanation": "Radiocarbon dates have pointed to two different cultures: the Adena, around 300 BC, and the Fort Ancient culture, around 1070 AD. It may have been built by one and rebuilt by the other. Some have suggested it was inspired by Halley's Comet of 1066, though there's no way to confirm that.",
+    "wiki": "Serpent Mound"
+  },
+  {
+    "slug": "atlantis-santorini",
+    "featured": true,
+    "category": "places",
+    "title": "Atlantis and Santorini",
+    "region": "Santorini, Cyclades, Greece",
+    "lat": 36.4,
+    "lon": 25.43,
+    "dateLabel": "Told by Plato around 360 BC",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Plato, retelling a story he said came from Egypt",
+    "hook": "Plato described a great island empire that sank in a single day. Some think he was remembering an island in the Aegean.",
+    "summary": [
+      "In his dialogues Timaeus and Critias, written around 360 BC, Plato described Atlantis, a powerful island civilisation beyond the Pillars of Hercules that attacked Athens and was swallowed by the sea in a single day and night, some 9,000 years before his time.",
+      "Since then, people have placed Atlantis everywhere from the Atlantic to Antarctica. One popular theory links it to Thera, now Santorini, whose volcano erupted catastrophically in the second millennium BC and buried the Bronze Age town of Akrotiri under ash."
+    ],
+    "explanation": "Most classicists think Plato invented Atlantis as a moral tale about pride and power, as he did with other stories in his works. Supporters of the Thera theory point to the eruption, the Minoan civilisation it affected, and the island's ring shape. No archaeological evidence ties any site to Plato's Atlantis.",
+    "wiki": "Atlantis"
+  },
+  {
+    "slug": "mystery-spot",
+    "category": "places",
+    "title": "The Mystery Spot",
+    "region": "Near Santa Cruz, California, USA",
+    "lat": 37.017,
+    "lon": -122,
+    "dateLabel": "Open since 1941",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Millions of visitors",
+    "hook": "On a hillside in the redwoods, balls seem to roll uphill and people seem to change height.",
+    "summary": [
+      "The Mystery Spot is a small patch of forest near Santa Cruz, California, opened as an attraction in 1941. Inside a tilted wooden cabin and around the site, balls seem to roll uphill, people lean at impossible angles, and someone appears to grow or shrink when they swap places on a level board.",
+      "Its owners say the cause is unknown, and its bumper stickers are a familiar sight on Californian cars."
+    ],
+    "explanation": "Scientists who have visited explain it as an optical illusion: the cabin and its surroundings are tilted, so the brain picks the wrong reference for level. The height trick uses the slope of the ground. Similar 'gravity hills' and 'mystery houses' exist around the world, such as the Magnetic Hill near Leh.",
+    "wiki": "Mystery Spot"
+  },
+  {
+    "slug": "devils-sea",
+    "category": "places",
+    "title": "The Devil's Sea",
+    "region": "Pacific Ocean, south of Tokyo, Japan",
+    "lat": 30,
+    "lon": 140,
+    "dateLabel": "Reported from the 1950s",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Sailors, Japanese authorities and writers",
+    "hook": "Japan's 'Dragon's Triangle' is said to swallow ships, a Bermuda Triangle of the Pacific.",
+    "summary": [
+      "The Devil's Sea, or Dragon's Triangle, is an area of the Pacific south of Tokyo, around the Izu Islands. Writers from the 1950s onwards claimed that unusually many ships and planes had vanished there.",
+      "In 1952 the Japanese research ship Kaiyō Maru No. 5 was lost with everyone on board while studying an undersea volcanic eruption in the area. The American writer Charles Berlitz later spread the legend in his book The Dragon's Triangle."
+    ],
+    "explanation": "The Kaiyō Maru was destroyed by the eruption of Myōjin-shō, the undersea volcano it had gone to observe. The area is volcanically active, with heavy shipping and frequent storms, which explains losses there. Researchers who checked the claims found the number of disappearances had been exaggerated.",
+    "wiki": "Devil's Sea"
+  },
+  {
+    "slug": "sanxingdui",
+    "category": "places",
+    "title": "The Bronze Faces of Sanxingdui",
+    "region": "Guanghan, Sichuan, China",
+    "lat": 31,
+    "lon": 104.2,
+    "dateLabel": "Discovered in 1986",
+    "status": "open",
+    "statusLabel": "Origins debated",
+    "witnesses": "Brickworks labourers and archaeologists",
+    "hook": "Workers digging clay in Sichuan uncovered bronze masks with bulging eyes from a culture no ancient Chinese text describes.",
+    "summary": [
+      "In 1986, brickworks labourers at Sanxingdui, near Guanghan in Sichuan, uncovered two pits full of extraordinary objects: bronze heads and masks with huge, protruding eyes and wide ears, a bronze figure more than 2.5 metres tall, a bronze tree about 4 metres high, gold, jade and elephant tusks.",
+      "They date from around 1200 to 1000 BC and are unlike anything known from the Shang dynasty to the north. In 2021 archaeologists began excavating six more pits nearby and found a gold mask and more bronzes."
+    ],
+    "explanation": "The objects belong to an advanced Bronze Age kingdom in Sichuan, probably the ancient state of Shu, which developed its own art and beliefs. Why the objects were broken, burned and buried is unknown, and the culture left no written records. Claims of an alien origin have no support among archaeologists.",
+    "wiki": "Sanxingdui"
+  },
+  {
+    "slug": "tomb-of-the-first-emperor",
+    "category": "places",
+    "title": "The Unopened Tomb of the First Emperor",
+    "region": "Lintong, Xi'an, Shaanxi, China",
+    "lat": 34.38,
+    "lon": 109.25,
+    "dateLabel": "Built around 246–208 BC",
+    "status": "open",
+    "statusLabel": "Never opened",
+    "witnesses": "The historian Sima Qian, writing about a century later",
+    "hook": "China's first emperor lies under a mound that has never been opened, said to hold rivers of mercury.",
+    "summary": [
+      "Qin Shi Huang, who unified China in 221 BC, was buried near present-day Xi'an under a great earth mound. The terracotta army, found by farmers digging a well in 1974, was buried in pits about 1.5 km to the east as part of the same complex.",
+      "The historian Sima Qian, writing about a century after the burial, described a tomb chamber with a model of the empire, rivers and seas of flowing mercury, a ceiling set with the stars, and crossbows rigged to shoot intruders."
+    ],
+    "explanation": "Soil tests on the mound have found unusually high levels of mercury, suggesting Sima Qian's account may be partly true. Chinese authorities have decided not to excavate the tomb until it can be done without damaging what's inside, so what lies there is still unknown.",
+    "wiki": "Mausoleum of Qin Shi Huang"
+  },
+  {
+    "slug": "eternal-flame-falls",
+    "category": "places",
+    "title": "Eternal Flame Falls",
+    "region": "Chestnut Ridge Park, Orchard Park, New York, USA",
+    "lat": 42.7,
+    "lon": -78.75,
+    "dateLabel": "Ongoing",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Hikers",
+    "hook": "Behind a small waterfall near Buffalo, a flame burns in a rock grotto, sometimes for most of the year.",
+    "summary": [
+      "In Chestnut Ridge Park, south of Buffalo, a short trail leads to a small waterfall on Shale Creek. In a grotto at its base, a small flame flickers behind the falling water.",
+      "The flame sometimes goes out, and visitors often relight it."
+    ],
+    "explanation": "Natural gas seeps out through cracks in the shale and feeds the flame. Studies have found the gas is unusually rich in ethane and propane and suggest it rises from deeper, older rock along faults, rather than from the shale right beneath the falls.",
+    "wiki": "Eternal Flame Falls"
+  },
+  {
+    "slug": "boiling-river",
+    "category": "places",
+    "title": "The Boiling River of the Amazon",
+    "region": "Mayantuyacu, Huánuco, Peru",
+    "lat": -8.81,
+    "lon": -74.71,
+    "dateLabel": "Studied from 2011",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Local healers and the geoscientist Andrés Ruzo",
+    "hook": "Deep in the Peruvian Amazon, far from any volcano, a river runs hot enough to scald.",
+    "summary": [
+      "As a child, the Peruvian geoscientist Andrés Ruzo heard stories of a river in the Amazon so hot it boiled. Most people he asked said it couldn't exist. In 2011 he found it: the Shanay-timpishka, a river a few kilometres long in the central Peruvian Amazon, sacred to local healers.",
+      "Parts of it run close to boiling, hot enough to scald, though there's no active volcano anywhere nearby."
+    ],
+    "explanation": "Ruzo's research suggests the water is rain that seeps deep underground, is warmed by the Earth's natural heat, and comes back to the surface along faults. It's a rare example of a large hot river with no link to a volcano.",
+    "wiki": "Shanay-timpishka"
+  },
+  {
+    "slug": "rennes-le-chateau",
+    "category": "places",
+    "title": "The Priest's Treasure of Rennes-le-Château",
+    "region": "Rennes-le-Château, Aude, France",
+    "lat": 42.928,
+    "lon": 2.263,
+    "dateLabel": "From the 1950s",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Villagers, writers and treasure hunters",
+    "hook": "A village priest's sudden wealth sparked theories about buried treasure, the Holy Grail and a secret society.",
+    "summary": [
+      "Bérenger Saunière was the parish priest of Rennes-le-Château, a hilltop village in the south of France, from 1885. He spent large sums restoring the church and building a villa and a tower, the Tour Magdala, and people wondered where the money came from.",
+      "From the 1950s, a local hotel owner and then the writer Pierre Plantard promoted the idea that Saunière had found secret parchments and treasure. The story fed into the book The Holy Blood and the Holy Grail (1982), and later The Da Vinci Code."
+    ],
+    "explanation": "Saunière was disciplined by his bishop for selling masses, the likely source of his money. Plantard later admitted that the parchments, and the 'Priory of Sion' he said was behind them, were his own invention. The village still draws treasure hunters, and digging there is banned.",
+    "wiki": "Rennes-le-Château"
+  },
+  {
+    "slug": "beale-ciphers",
+    "category": "places",
+    "title": "The Beale Ciphers",
+    "region": "Bedford County, Virginia, USA",
+    "lat": 37.33,
+    "lon": -79.52,
+    "dateLabel": "Published in 1885",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "A pamphlet by an anonymous author",
+    "hook": "A pamphlet promised that three coded pages led to buried gold in Virginia. Only one has ever been read.",
+    "summary": [
+      "In 1885 a pamphlet published in Lynchburg, Virginia, told the story of Thomas J. Beale, who it said had buried gold, silver and jewels in Bedford County in the 1820s and left three coded pages describing where it was, what it was and who it belonged to.",
+      "The second page was decoded using the US Declaration of Independence as the key: each number stands for a word, and the first letter of that word spells out the text. It describes the treasure and says it lies about four miles from Buford's tavern. The other two pages have never been solved."
+    ],
+    "explanation": "Many cryptographers and historians think the whole thing is a hoax, perhaps written to sell pamphlets: there's no record of Beale, the story's language has words that weren't used in the 1820s, and statistical studies suggest the unsolved pages may not hide real text. Treasure hunters still dig in Bedford County.",
+    "wiki": "Beale ciphers"
+  },
+  {
+    "slug": "amber-room",
+    "category": "places",
+    "title": "The Lost Amber Room",
+    "region": "Kaliningrad, Russia (then Königsberg, Germany)",
+    "lat": 54.71,
+    "lon": 20.51,
+    "dateLabel": "Last seen in 1945",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Museum staff in Königsberg",
+    "hook": "A whole room made of amber was taken apart, packed into crates in wartime Germany, and vanished.",
+    "summary": [
+      "The Amber Room was a chamber panelled in carved amber, gold leaf and mirrors, made in Prussia in the early 1700s and given to Peter the Great of Russia in 1716. It was later installed in the Catherine Palace near St Petersburg, and called the eighth wonder of the world.",
+      "German troops took it apart in 1941 and moved it to Königsberg, where it was shown in the castle museum. In 1945, as the war ended, it was packed into crates, and it hasn't been seen since."
+    ],
+    "explanation": "It may have been destroyed when Königsberg was bombed and fought over, or hidden and lost; theories point to bunkers, mines and shipwrecks, and searches continue. A full reconstruction, made by Russian craftsmen over more than twenty years, opened in the Catherine Palace in 2003.",
+    "wiki": "Amber Room"
+  },
+  {
+    "slug": "treasure-of-lima",
+    "category": "places",
+    "title": "The Treasure of Lima",
+    "region": "Cocos Island, Costa Rica",
+    "lat": 5.53,
+    "lon": -87.06,
+    "dateLabel": "Said to be hidden in 1820",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Legend, and generations of treasure hunters",
+    "hook": "A ship's captain is said to have sailed off with the riches of Lima's churches and buried them on a Pacific island.",
+    "summary": [
+      "In 1820, as Spanish rule in Peru faced revolution, the story goes that the treasures of Lima, including gold, silver, jewels and a life-size gold statue of the Virgin Mary, were loaded onto a British merchant ship, the Mary Dear, under Captain William Thompson, for safekeeping. Thompson and his crew sailed off with them instead and buried them on Cocos Island.",
+      "Cocos Island, about 550 km off the coast of Costa Rica, has since drawn hundreds of treasure-hunting expeditions."
+    ],
+    "explanation": "There's no solid evidence that the treasure existed in the form the legend describes, and none has ever been found. Cocos Island is now a protected national park and a UNESCO World Heritage Site, and treasure hunting there is banned.",
+    "wiki": "Treasure of Lima"
+  },
+  {
+    "slug": "lost-army-of-cambyses",
+    "category": "places",
+    "title": "The Lost Army of Cambyses",
+    "region": "Western Desert, near Siwa, Egypt",
+    "lat": 29.2,
+    "lon": 25.5,
+    "dateLabel": "Around 524 BC",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "The Greek historian Herodotus",
+    "hook": "Herodotus wrote that a Persian army of 50,000 marched into the Egyptian desert and was buried by a sandstorm.",
+    "summary": [
+      "According to Herodotus, writing in the 5th century BC, the Persian king Cambyses II, who had conquered Egypt, sent an army of 50,000 men from Thebes against the oracle of Amun at the Siwa Oasis. Halfway there, as they ate their midday meal, a violent wind blew up and buried them all in sand.",
+      "The story has drawn explorers into the Western Desert ever since, and several have claimed to find traces of the army."
+    ],
+    "explanation": "No find has been confirmed. Some historians doubt the story entirely: in 2014 the Egyptologist Olaf Kaper suggested the army was actually defeated by an Egyptian rebel, Petubastis III, and that the sandstorm was a cover story. The desert is vast and shifting, so it may never be settled.",
+    "wiki": "Lost Army of Cambyses"
+  },
+  {
+    "slug": "london-hammer",
+    "category": "places",
+    "title": "The London Hammer",
+    "region": "London, Texas, USA",
+    "lat": 30.67,
+    "lon": -99.58,
+    "dateLabel": "Found in 1936",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Max and Emma Hahn",
+    "hook": "A hammer encased in stone was claimed to be hundreds of millions of years old.",
+    "summary": [
+      "In 1936 Max and Emma Hahn found a rock with a piece of wood sticking out of it near London, Texas. When it was later cracked open, it held a metal hammer head, with the remains of the wooden handle partly turned to coal.",
+      "Creationists later promoted it as an 'out-of-place artefact', arguing that the rock was hundreds of millions of years old, so a human tool inside it overturned geology."
+    ],
+    "explanation": "Geologists say the stone is a concretion, a hard lump of minerals that can form quite quickly around an object in water, not ancient bedrock. The hammer's style suggests it was made in America in the 1800s, and similar concretions have formed around modern objects.",
+    "wiki": "London Hammer"
+  },
+  {
+    "slug": "klerksdorp-spheres",
+    "category": "places",
+    "title": "The Klerksdorp Spheres",
+    "region": "Ottosdal, North West, South Africa",
+    "lat": -26.81,
+    "lon": 25.99,
+    "dateLabel": "Found by miners",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Miners digging pyrophyllite",
+    "hook": "Miners in South Africa found small grooved spheres in rock billions of years old, and some said an ancient civilisation made them.",
+    "summary": [
+      "Miners digging pyrophyllite, a soft mineral, near Ottosdal in South Africa have found small spheres and discs, a few centimetres across, some with fine grooves running around their middles. The rock they come from is about 3 billion years old.",
+      "From the 1980s, books and articles described them as perfectly round and harder than steel, impossible to explain without someone having made them. Some even claimed one in the Klerksdorp Museum turned slowly on its own."
+    ],
+    "explanation": "Geologists explain them as concretions of minerals such as hematite that formed naturally in volcanic sediments. They aren't perfectly round, and the grooves follow layers in the rock. The claims that they rotate by themselves have never been supported.",
+    "wiki": "Klerksdorp sphere"
+  },
+  {
+    "slug": "hy-brasil",
+    "category": "places",
+    "title": "Hy-Brasil, the Phantom Island",
+    "region": "North Atlantic, west of Ireland",
+    "lat": 52,
+    "lon": -14,
+    "dateLabel": "On maps from 1325",
+    "status": "explained",
+    "statusLabel": "Never existed",
+    "witnesses": "Mapmakers and sailors",
+    "hook": "For centuries, maps showed a round island off the west coast of Ireland that no one could find.",
+    "summary": [
+      "Hy-Brasil, from the Irish Í Bhreasail, appeared on maps from 1325 as a round island, often split by a channel, in the Atlantic west of Ireland. Irish legends said it was hidden in mist and could be seen only once every seven years.",
+      "It stayed on some charts into the 1800s, and there were stories of sightings and even of landings."
+    ],
+    "explanation": "There's no island there, only deep ocean, though a shallower area called the Porcupine Bank lies to the west. The island probably came from legend and from mapmakers copying each other's mistakes, helped by mirages and cloud banks on the horizon.",
+    "wiki": "Hy Brasil"
+  },
+  {
+    "slug": "sandy-island",
+    "category": "places",
+    "title": "Sandy Island",
+    "region": "Coral Sea, between Australia and New Caledonia",
+    "lat": -19.22,
+    "lon": 159.93,
+    "dateLabel": "22 November 2012",
+    "status": "explained",
+    "statusLabel": "Never existed",
+    "witnesses": "Scientists on the research ship Southern Surveyor",
+    "hook": "An island shown on maps for over a century turned out not to exist when a ship sailed straight through it.",
+    "summary": [
+      "Sandy Island appeared on nautical charts and world maps as a small island, about 24 km long, in the Coral Sea between Australia and New Caledonia. It was even shown in Google Earth.",
+      "In November 2012 the Australian research ship Southern Surveyor sailed to the spot and found open ocean around 1,400 metres deep. The island was quickly removed from maps."
+    ],
+    "explanation": "Researchers traced it to a whaling ship, the Velocity, which reported sandy breakers in the area in 1876; it was copied onto charts and never taken off. The whalers may have seen a raft of floating volcanic pumice, or made an error in their position.",
+    "wiki": "Sandy Island, New Caledonia"
+  },
+  {
+    "slug": "flying-dutchman",
+    "category": "places",
+    "title": "The Flying Dutchman",
+    "region": "Off the Cape of Good Hope, South Africa",
+    "lat": -34.6,
+    "lon": 18.2,
+    "dateLabel": "Told since the 1700s",
+    "status": "explained",
+    "statusLabel": "Legend",
+    "witnesses": "Sailors, including a future king",
+    "hook": "Sailors rounding the Cape told of a ship doomed never to reach port. A future king said he saw it.",
+    "summary": [
+      "The legend of the Flying Dutchman tells of a ship condemned to sail the oceans forever, usually around the Cape of Good Hope, never able to make harbour. Seeing it was said to bring bad luck. The story was in print by the late 1700s, and Wagner turned it into an opera in 1843.",
+      "On 11 July 1881, off the coast of Australia, the log of HMS Bacchante, which was carrying the teenage Prince George, later King George V, recorded that the Flying Dutchman had crossed their bows."
+    ],
+    "explanation": "Many sightings were probably a kind of mirage called a Fata Morgana, in which a ship beyond the horizon appears to float above the sea, stretched or upside down. The legend itself grew from sailors' stories in the age of Dutch trade around the Cape.",
+    "wiki": "Flying Dutchman"
+  },
+  {
+    "slug": "coso-artifact",
+    "category": "places",
+    "title": "The Coso Artifact",
+    "region": "Coso Range, near Olancha, California, USA",
+    "lat": 36.28,
+    "lon": -117.95,
+    "dateLabel": "13 February 1961",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Three rock hunters",
+    "hook": "Rock hunters cut open a geode and found what looked like a machine part, supposedly half a million years old.",
+    "summary": [
+      "On 13 February 1961, three people collecting geodes in the Coso Mountains near Olancha, California, found a rock crusted with fossil shells. When they sawed it open, they found a core of porcelain with a metal shaft through the middle, inside a six-sided casing.",
+      "Writers claimed the rock was 500,000 years old, and it became a famous 'out-of-place artefact' in books about ancient mysteries."
+    ],
+    "explanation": "In 1999 sceptical researchers sent X-rays of it to spark plug collectors, who identified it as a Champion spark plug from the 1920s. The 'geode' was a crust of hardened, iron-rich clay and rust that had formed around it. The original object's whereabouts are now unknown.",
+    "wiki": "Coso artifact"
+  },
+  {
+    "slug": "bridgewater-triangle",
+    "category": "places",
+    "title": "The Bridgewater Triangle",
+    "region": "Bridgewater, Massachusetts, USA",
+    "lat": 41.99,
+    "lon": -70.97,
+    "dateLabel": "Named in the 1970s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Residents of south-eastern Massachusetts",
+    "hook": "A patch of swamp and woodland south of Boston has gathered stories of lights, odd creatures and strange happenings.",
+    "summary": [
+      "The Bridgewater Triangle covers about 500 square kilometres of south-eastern Massachusetts, roughly between the towns of Abington, Freetown and Rehoboth. At its heart is the Hockomock Swamp. The name was coined by the writer Loren Coleman.",
+      "Stories from the area include UFO sightings, glowing lights over the swamp, giant birds, hairy creatures and phantom hitchhikers."
+    ],
+    "explanation": "Folklorists point out that the 'triangle' groups unrelated stories from a large, populated area, and that the swamp's mists, wildlife and darkness invite mistakes. The idea also borrows from the fame of the Bermuda Triangle. None of the reports has been recorded in a way that can be checked.",
+    "wiki": "Bridgewater Triangle"
+  },
+  {
+    "slug": "winchester-mystery-house",
+    "category": "places",
+    "title": "The Winchester Mystery House",
+    "region": "San Jose, California, USA",
+    "lat": 37.318,
+    "lon": -121.951,
+    "dateLabel": "Built 1886–1922",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Builders, staff and visitors",
+    "hook": "A wealthy widow kept builders working on her California house for decades, adding stairs to nowhere and doors that open onto walls.",
+    "summary": [
+      "Sarah Winchester, widow of the heir to the Winchester rifle company, bought an unfinished farmhouse in what is now San Jose in 1886. She kept carpenters working on it almost constantly until her death in 1922, adding rooms, towers and wings without an overall plan.",
+      "The house has around 160 rooms, staircases that end at the ceiling, doors that open onto blank walls, and many details featuring the number 13. Legend says a medium told her to keep building to appease spirits connected with the rifles behind her family's fortune."
+    ],
+    "explanation": "Historians say there's little evidence for the medium story, which spread after her death when the house opened as an attraction. Sarah Winchester was a private woman with a large fortune and a keen interest in design, and much of the oddness comes from repairs after the 1906 earthquake and from rooms being built over and changed.",
+    "wiki": "Winchester Mystery House"
   }
 ];
