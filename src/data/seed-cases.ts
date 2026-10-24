@@ -13431,5 +13431,959 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Historians now mostly think the legion left Britain: stamped tiles and inscriptions suggest units of the Ninth were at Nijmegen, in the Netherlands, after 108 AD. It may then have been destroyed in a later war, perhaps in the east, or disbanded. How and where it ended is still unknown.",
     "wiki": "Legio IX Hispana"
+  },
+  {
+    "slug": "guest-star-1054",
+    "category": "sky",
+    "title": "The Guest Star of 1054",
+    "region": "Kaifeng, Henan, China",
+    "lat": 34.8,
+    "lon": 114.31,
+    "dateLabel": "4 July 1054",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Astronomers at the Song dynasty court",
+    "hook": "Chinese astronomers recorded a 'guest star' bright enough to see in daylight for three weeks. Its wreckage still glows.",
+    "summary": [
+      "On 4 July 1054, astronomers at the Song dynasty court recorded a 'guest star' near what we call the constellation Taurus. It was visible in daylight for 23 days and in the night sky for nearly two years before it faded.",
+      "Japanese records also describe it, and a rock painting by the Ancestral Puebloans at Chaco Canyon, in New Mexico, may show it too. Strangely, almost no European record of it survives."
+    ],
+    "explanation": "It was a supernova, the explosion of a massive star about 6,500 light years away. Its remains are the Crab Nebula, an expanding cloud of gas with a pulsar, a spinning neutron star, at its centre, flashing about 30 times a second. Why European chroniclers seem to have missed it is still debated.",
+    "wiki": "SN 1054"
+  },
+  {
+    "slug": "tychos-new-star",
+    "category": "sky",
+    "title": "Tycho's New Star",
+    "region": "Herrevad Abbey, Skåne, Sweden",
+    "lat": 56.09,
+    "lon": 13.25,
+    "dateLabel": "11 November 1572",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Tycho Brahe and observers across Europe",
+    "hook": "A new star blazed up in Cassiopeia, and a young Danish astronomer used it to prove the heavens could change.",
+    "summary": [
+      "On the evening of 11 November 1572, the 26-year-old Danish nobleman Tycho Brahe, walking back to Herrevad Abbey from his uncle's laboratory, noticed a brilliant new star in the constellation Cassiopeia, where none had been before. For a time it was as bright as Venus and could be seen by day.",
+      "At the time most scholars followed Aristotle in believing that the heavens beyond the Moon were perfect and unchanging. Tycho measured the star carefully and found it didn't shift against the background stars as a nearby object would."
+    ],
+    "explanation": "He concluded it lay far beyond the Moon, proving the heavens could change, and published his findings in 1573. It was a supernova, a white dwarf star blowing itself apart thousands of light years away, and its remnant is still studied by X-ray telescopes.",
+    "wiki": "SN 1572"
+  },
+  {
+    "slug": "curuca-river-event",
+    "category": "sky",
+    "title": "The Curuçá River Event",
+    "region": "Curuçá River, Amazonas, Brazil",
+    "lat": -5.18,
+    "lon": -71.63,
+    "dateLabel": "13 August 1930",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Riverside villagers, as reported by a missionary",
+    "hook": "A missionary in the Amazon reported that the sky turned red and fireballs fell with a blast like Tunguska.",
+    "summary": [
+      "On the morning of 13 August 1930, according to a Capuchin missionary's account later published in the Vatican newspaper L'Osservatore Romano, people near the Curuçá River in the far west of the Brazilian Amazon saw the Sun turn blood red and heard a whistling noise. Three fireballs fell, followed by explosions, tremors and a fall of fine ash.",
+      "The event was largely forgotten until the astronomer Mark Bailey and colleagues found the reports in the 1990s and compared it to Tunguska."
+    ],
+    "explanation": "Some researchers think a meteoroid exploded in the air over the forest. A circular structure seen in satellite images has been proposed as a crater, though this hasn't been confirmed. Others argue the accounts are too vague and second-hand to be sure. No fragments have been recovered.",
+    "wiki": "1930 Curuçá River event"
+  },
+  {
+    "slug": "rio-cuarto-craters",
+    "category": "sky",
+    "title": "The Río Cuarto Craters",
+    "region": "Río Cuarto, Córdoba, Argentina",
+    "lat": -32.87,
+    "lon": -64.22,
+    "dateLabel": "Spotted in 1989",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "A pilot flying over the pampas",
+    "hook": "A pilot spotted a line of long, shallow hollows in the Argentine pampas that looked as if something had skimmed the ground.",
+    "summary": [
+      "In 1989 a pilot flying over farmland near Río Cuarto, in Córdoba province, noticed a group of long, oval hollows in the ground, the largest about 4.5 km long, all pointing the same way. In 1992 a study in the journal Nature proposed they were made by an asteroid striking at a very low angle, within the last 10,000 years.",
+      "Pieces of glassy rock found nearby seemed to support the idea."
+    ],
+    "explanation": "Later studies argued that the hollows are natural, wind-carved features like others found across the pampas, and that the glass came from different, older events. The question is still argued over.",
+    "wiki": "Río Cuarto craters"
+  },
+  {
+    "slug": "steve-aurora",
+    "category": "sky",
+    "title": "STEVE",
+    "region": "Near Calgary, Alberta, Canada",
+    "lat": 51.05,
+    "lon": -114.07,
+    "dateLabel": "Studied from 2016",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Amateur aurora watchers in Canada",
+    "hook": "Aurora chasers in Canada kept photographing a purple ribbon in the sky that scientists couldn't explain, so they named it Steve.",
+    "summary": [
+      "For years, members of an online group of aurora photographers in Alberta shared pictures of a narrow ribbon of purple or mauve light stretching east to west across the sky, sometimes with a 'picket fence' of green streaks below it. It didn't look like an ordinary aurora, and it appeared farther south.",
+      "In 2016 they showed it to scientists, who didn't recognise it either. The photographers had nicknamed it Steve, after a scene in the film Over the Hedge; scientists later turned the name into an acronym, Strong Thermal Emission Velocity Enhancement."
+    ],
+    "explanation": "Satellite measurements showed Steve is a fast-flowing stream of very hot charged particles high in the atmosphere. Research in 2019 suggested it isn't technically an aurora at all, because it isn't caused by particles raining down from space. Exactly how it glows is still being studied.",
+    "wiki": "STEVE"
+  },
+  {
+    "slug": "halleys-comet-1066",
+    "category": "sky",
+    "title": "The Comet on the Bayeux Tapestry",
+    "region": "Bayeux, Normandy, France",
+    "lat": 49.28,
+    "lon": -0.7,
+    "dateLabel": "April 1066",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The English and the Normans, recorded in thread",
+    "hook": "In the spring of 1066 a long-haired star crossed the sky, and the Bayeux Tapestry shows the English pointing at it in fear.",
+    "summary": [
+      "In April 1066, a bright comet appeared in the night sky over Europe for several weeks. In England, where Harold Godwinson had just been crowned king, many took it as an omen.",
+      "The Bayeux Tapestry, embroidered soon after to tell the story of the Norman conquest, shows men pointing up at the comet beside the words 'isti mirant stella', 'these men marvel at the star', while Harold is told the news. In October he was defeated at the Battle of Hastings."
+    ],
+    "explanation": "It was Halley's Comet, which returns about every 76 years. In 1705 Edmond Halley worked out that comets seen in 1531, 1607 and 1682 were the same object and predicted it would come back in 1758; when it did, it was named after him. The tapestry is one of the earliest pictures of it.",
+    "wiki": "Bayeux Tapestry"
+  },
+  {
+    "slug": "project-blue-book",
+    "featured": true,
+    "category": "sky",
+    "title": "Project Blue Book",
+    "region": "Wright-Patterson Air Force Base, Dayton, Ohio, USA",
+    "lat": 39.82,
+    "lon": -84.05,
+    "dateLabel": "1952–1969",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "US Air Force investigators, and thousands of people who sent in reports",
+    "hook": "For 17 years the US Air Force investigated UFO reports. Of 12,618, it left 701 unidentified.",
+    "summary": [
+      "Project Blue Book was the US Air Force's official study of UFO reports, run from Wright-Patterson Air Force Base in Ohio from 1952 to 1969, after earlier projects called Sign and Grudge. Its scientific consultant was the astronomer J. Allen Hynek.",
+      "Over its life it examined 12,618 reports. Most were identified as aircraft, balloons, stars, planets and other ordinary things; 701 stayed 'unidentified'."
+    ],
+    "explanation": "It closed after the University of Colorado's Condon Report concluded that further study of UFOs was unlikely to advance science. Critics, including Hynek himself in later years, said many cases were dismissed too quickly. Its files are now public at the US National Archives.",
+    "wiki": "Project Blue Book"
+  },
+  {
+    "slug": "geipan",
+    "category": "sky",
+    "title": "France's Official UFO Office",
+    "region": "Toulouse, France",
+    "lat": 43.6,
+    "lon": 1.44,
+    "dateLabel": "Since 1977",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Members of the public, reporting through the police and gendarmerie",
+    "hook": "France's space agency has studied UFO reports since 1977, and anyone can read its case files online.",
+    "summary": [
+      "In 1977 France's national space agency, CNES, set up a unit in Toulouse to collect and study reports of unidentified aerial phenomena. Now called GEIPAN, it receives reports through the police and gendarmerie, investigates them and classifies each one.",
+      "In 2007 it became one of the first government bodies in the world to publish its case files online."
+    ],
+    "explanation": "Most cases are explained as aircraft, satellites, balloons, sky lanterns, planets or other known causes. A few per cent are classed 'D', unexplained even after investigation, usually because the evidence is thin rather than because anything extraordinary has been shown. French cases such as Trans-en-Provence are among them.",
+    "wiki": "GEIPAN"
+  },
+  {
+    "slug": "somerton-man",
+    "featured": true,
+    "category": "visitors",
+    "title": "The Somerton Man",
+    "region": "Somerton Park, Adelaide, South Australia, Australia",
+    "lat": -34.99,
+    "lon": 138.51,
+    "dateLabel": "1 December 1948",
+    "status": "open",
+    "statusLabel": "Partly solved",
+    "witnesses": "People on the beach, and Adelaide police",
+    "hook": "A well-dressed stranger found on an Adelaide beach carried no identification, only a scrap of paper reading 'Tamám Shud'.",
+    "summary": [
+      "On the morning of 1 December 1948, a man was found dead on Somerton beach, south of Adelaide, resting against the sea wall. He was neatly dressed, but the labels had been removed from his clothes and he carried no identification. The cause of his death was never established.",
+      "Months later a tiny rolled-up paper was found in a hidden pocket, printed with the words 'Tamám Shud', 'it is ended', torn from a copy of the Rubáiyát of Omar Khayyám. The matching book turned up with a phone number and a short sequence of letters that looked like a code."
+    ],
+    "explanation": "In 2022 researchers led by Derek Abbott used DNA from the man's hair to identify him as Carl 'Charles' Webb, an electrical engineer from Melbourne. Why he came to Adelaide, how he died and what the letters mean are still unknown. The 'code' has never been cracked, and may not be a code at all.",
+    "wiki": "Somerton Man"
+  },
+  {
+    "slug": "wild-boy-of-aveyron",
+    "category": "visitors",
+    "title": "The Wild Boy of Aveyron",
+    "region": "Saint-Sernin-sur-Rance, Aveyron, France",
+    "lat": 43.88,
+    "lon": 2.6,
+    "dateLabel": "8 January 1800",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Villagers, then doctors in Paris",
+    "hook": "A boy who seemed to have grown up alone in the forests of southern France walked out of the woods one winter's day.",
+    "summary": [
+      "On 8 January 1800, a boy of about 12 came out of the woods near Saint-Sernin-sur-Rance, in southern France. He was naked, couldn't speak and behaved like a wild animal; people had glimpsed him in the forests for some years.",
+      "He was taken to Paris, where the young doctor Jean Itard took him in, named him Victor and spent five years trying to teach him language and social skills. Victor came to understand a good deal, but never learned to speak more than a few words."
+    ],
+    "explanation": "Some think Victor had lived alone in the woods for years; others think he had a developmental condition, perhaps autism, and had been abandoned not long before he was found. Itard's detailed reports became founding works in special education and inspired François Truffaut's film The Wild Child.",
+    "wiki": "Victor of Aveyron"
+  },
+  {
+    "slug": "hairy-hands",
+    "category": "visitors",
+    "title": "The Hairy Hands of Dartmoor",
+    "region": "Near Postbridge, Dartmoor, Devon, England",
+    "lat": 50.59,
+    "lon": -3.93,
+    "dateLabel": "Reported from 1921",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Motorists and cyclists",
+    "hook": "Drivers on a lonely Dartmoor road said a pair of large, hairy hands closed over theirs and forced them off the road.",
+    "summary": [
+      "In the early 1920s, a run of accidents on the road between Postbridge and Two Bridges, on Dartmoor, gave rise to a strange story. Some drivers and cyclists said that just before they lost control, a pair of large, hairy hands appeared over theirs and wrenched the wheel or handlebars.",
+      "The tale was taken up by the national press in 1921 and has been retold ever since."
+    ],
+    "explanation": "After the press coverage, the road's camber was found to be poor and it was rebuilt, after which the reports largely stopped. The story is now seen as a local legend that grew around a dangerous stretch of road.",
+    "wiki": "Hairy Hands"
+  },
+  {
+    "slug": "herne-the-hunter",
+    "category": "visitors",
+    "title": "Herne the Hunter",
+    "region": "Windsor Great Park, Berkshire, England",
+    "lat": 51.44,
+    "lon": -0.6,
+    "dateLabel": "Told since at least 1597",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "First written down by Shakespeare",
+    "hook": "An antlered hunter is said to ride through Windsor Great Park at midnight.",
+    "summary": [
+      "Herne the Hunter is a figure of Windsor Forest folklore, first written down by Shakespeare in The Merry Wives of Windsor, around 1597. There he is a forest keeper who walks around an oak tree at midnight in winter, wearing great antlers, blasting trees and frightening cattle.",
+      "Later writers added more: that Herne had been a royal huntsman, and that he appears before times of national crisis. Herne's Oak, the tree linked to him, stood in the Home Park until it fell in the 1860s."
+    ],
+    "explanation": "Folklorists debate whether Herne is based on a real person, an older forest spirit, or largely Shakespeare's invention. Some link him to antlered figures in older European myth. The legend is still part of Windsor's identity.",
+    "wiki": "Herne the Hunter"
+  },
+  {
+    "slug": "yuki-onna",
+    "category": "visitors",
+    "title": "Yuki-onna, the Snow Woman",
+    "region": "Ōme, Tokyo, Japan",
+    "lat": 35.79,
+    "lon": 139.26,
+    "dateLabel": "Written down in 1904",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Japanese folklore, and the writer Lafcadio Hearn",
+    "hook": "In Japanese folklore, a pale woman in white appears on snowy nights, with breath that can freeze a man.",
+    "summary": [
+      "Yuki-onna, the 'snow woman', is a yōkai of Japanese folklore: a tall, beautiful woman with very pale skin and long black hair, dressed in white, who appears on snowy nights. In some tales she leads travellers astray in blizzards; in others she is gentle, or falls in love with a human.",
+      "The best-known version was written down by Lafcadio Hearn in Kwaidan (1904). He said it was told to him by a farmer from the area that is now Ōme, west of Tokyo, where a monument marks the story."
+    ],
+    "explanation": "She's a figure of folklore, probably shaped by the real dangers of winter in the mountains, where people could lose their way and freeze. Her stories vary from region to region, and she remains a popular figure in Japanese film, anime and games.",
+    "wiki": "Yuki-onna"
+  },
+  {
+    "slug": "mujina-akasaka",
+    "category": "visitors",
+    "title": "The Faceless Woman of Akasaka",
+    "region": "Akasaka, Tokyo, Japan",
+    "lat": 35.674,
+    "lon": 139.736,
+    "dateLabel": "Written down in 1904",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "An old merchant, in Lafcadio Hearn's retelling",
+    "hook": "On a dark slope in old Tokyo, a man found a woman crying by the moat. When she turned to him, she had no face.",
+    "summary": [
+      "In Kwaidan (1904), Lafcadio Hearn tells of the Kii-no-kuni-zaka slope in Akasaka, Tokyo, a lonely road beside an old castle moat. One night an old merchant found a young woman crouched there, crying. When she turned and stroked her face, it was smooth like an egg: no eyes, no nose, no mouth.",
+      "He fled to the lantern of a roadside noodle-seller. When he told the man what he'd seen, the noodle-seller stroked his own face, which became smooth as an egg, and the light went out."
+    ],
+    "explanation": "In Japanese folklore, mujina (badgers) and foxes are tricksters that can take human shape to fool people, and the faceless spirit is usually called a noppera-bō. Hearn's tale became the best-known version in English and has inspired many stories since.",
+    "wiki": "Mujina"
+  },
+  {
+    "slug": "dozmary-pool",
+    "category": "visitors",
+    "title": "The Lady of Dozmary Pool",
+    "region": "Dozmary Pool, Bodmin Moor, Cornwall, England",
+    "lat": 50.54,
+    "lon": -4.55,
+    "dateLabel": "Arthurian legend",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Told in Cornish tradition",
+    "hook": "On Bodmin Moor lies a small lake said to be where King Arthur's sword was returned to the Lady of the Lake.",
+    "summary": [
+      "Dozmary Pool is a small natural lake high on Bodmin Moor. In Cornish tradition it's one of the places where, after Arthur's last battle, Sir Bedivere threw the sword Excalibur into the water, and an arm rose from the lake to catch it and draw it under.",
+      "Local legend also said the pool was bottomless, and that the spirit of Jan Tregeagle, a wicked steward, was condemned to empty it with a leaking limpet shell."
+    ],
+    "explanation": "The pool is actually quite shallow and has been known to dry up in droughts. Several other lakes in Britain claim the Excalibur story, and there's no historical evidence that Arthur existed as the legends describe.",
+    "wiki": "Dozmary Pool"
+  },
+  {
+    "slug": "bessie-lake-erie",
+    "category": "creatures",
+    "title": "Bessie of Lake Erie",
+    "region": "Lake Erie, off Ohio, USA",
+    "lat": 41.7,
+    "lon": -82,
+    "dateLabel": "Reported since the 1790s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Sailors, fishermen and beachgoers",
+    "hook": "The shallowest of the Great Lakes has its own serpent, reported for more than two centuries.",
+    "summary": [
+      "Lake Erie lies between the United States and Canada. Since at least the 1790s, people have reported a long, dark, serpent-like creature in its waters, nicknamed Bessie or South Bay Bessie.",
+      "A wave of reports in the early 1990s led a company in Huron, Ohio, to offer a large reward for its capture, and the creature became a local mascot."
+    ],
+    "explanation": "Lake Erie is the shallowest of the Great Lakes, which some say makes a large unknown animal unlikely. Suggested explanations include lake sturgeon, which can grow over 2 metres, large catfish, floating logs and waves. No evidence has been found.",
+    "wiki": "Bessie (lake monster)"
+  },
+  {
+    "slug": "nuckelavee",
+    "category": "creatures",
+    "title": "The Nuckelavee",
+    "region": "Orkney, Scotland",
+    "lat": 59,
+    "lon": -3,
+    "dateLabel": "Told in Orkney folklore",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Orkney islanders",
+    "hook": "Orkney's most feared sea demon was a skinless horse and rider joined as one, and it couldn't cross fresh water.",
+    "summary": [
+      "In the folklore of Orkney, the Nuckelavee was a demon from the sea, the worst of them all. It was said to look like a horse with a man's body growing from its back, with no skin, a huge head and a single fiery eye.",
+      "Its breath was said to wither crops and sicken livestock, and islanders blamed it for droughts and epidemics. The only escape was to cross running fresh water, which it couldn't bear."
+    ],
+    "explanation": "The fullest account comes from the folklorist Walter Traill Dennison, who collected Orkney tales in the 1800s. Historians see the Nuckelavee as a way of explaining disasters such as crop failures and outbreaks of disease, which were a real threat to island communities.",
+    "wiki": "Nuckelavee"
+  },
+  {
+    "slug": "mbielu-mbielu-mbielu",
+    "category": "creatures",
+    "title": "Mbielu-mbielu-mbielu",
+    "region": "Likouala swamps, Republic of the Congo",
+    "lat": 1.5,
+    "lon": 17.5,
+    "dateLabel": "Reported in the 1980s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Local people, as told to visiting expeditions",
+    "hook": "In the Congo swamps, people searching for Mokele-mbembe heard of a second creature, with planks growing from its back.",
+    "summary": [
+      "Mbielu-mbielu-mbielu, said to mean 'the animal with planks growing out of its back', is a creature reported from the Likouala swamps of the Republic of the Congo, the same region as the better-known Mokele-mbembe. It's described as a large animal that lives partly in water, with plates along its back.",
+      "Most accounts were collected by Western expeditions searching for Mokele-mbembe in the 1980s, including those of the biologist Roy Mackal."
+    ],
+    "explanation": "Because of the plates, some enthusiasts have compared it to a stegosaurus, an idea with no supporting evidence. Researchers suggest that leading questions from foreign visitors and misunderstood descriptions of real animals may account for the reports. No physical evidence exists.",
+    "wiki": "Mbielu-mbielu-mbielu"
+  },
+  {
+    "slug": "gambo",
+    "category": "creatures",
+    "title": "Gambo",
+    "region": "Bungalow Beach, Kotu, The Gambia",
+    "lat": 13.46,
+    "lon": -16.7,
+    "dateLabel": "12 June 1983",
+    "status": "open",
+    "statusLabel": "Unidentified",
+    "witnesses": "Owen Burnham, a teenager, and his family",
+    "hook": "A teenager on a Gambian beach sketched a strange carcass with a long, toothy snout and four flippers before it was buried.",
+    "summary": [
+      "On 12 June 1983, 15-year-old Owen Burnham and his family were on Bungalow Beach in The Gambia when they came across two local men with the carcass of a large sea animal, about 4.5 to 5 metres long. Burnham, who knew the local wildlife well, said it had a long, dolphin-like snout full of teeth, two pairs of flippers and a long tail.",
+      "He sketched and measured it before the men took the head away to sell and buried the rest. His account was published in 1986."
+    ],
+    "explanation": "No remains were kept, so it can't be identified for certain. Suggestions include a decomposed dolphin or beaked whale, a crocodile, or, as some cryptozoologists hope, a surviving marine reptile. Most zoologists favour a beaked whale or another known animal altered by decay.",
+    "wiki": "Gambo (cryptid)"
+  },
+  {
+    "slug": "chilean-blob",
+    "category": "creatures",
+    "title": "The Chilean Blob",
+    "region": "Los Muermos, Los Lagos, Chile",
+    "lat": -41.4,
+    "lon": -73.72,
+    "dateLabel": "June 2003",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Beachgoers and Chilean scientists",
+    "hook": "A 13-tonne mass of pale flesh washed up on a Chilean beach and was hailed as a giant octopus.",
+    "summary": [
+      "In June 2003, a huge, shapeless, pale mass about 12 metres long and weighing an estimated 13 tonnes washed ashore at Pinuno beach, near Los Muermos in southern Chile. Some speculated it was a giant octopus or another unknown sea creature.",
+      "Like the St. Augustine Monster of 1896, its fibrous, boneless look invited comparisons with octopuses."
+    ],
+    "explanation": "DNA analysis in 2004 showed it was the remains of a sperm whale: a mass of decomposed blubber and connective tissue. It's one of the clearest examples of how globsters, the strange carcasses that wash up around the world, usually turn out.",
+    "wiki": "Chilean blob"
+  },
+  {
+    "slug": "haasts-eagle",
+    "category": "creatures",
+    "title": "Pouakai, the Giant Eagle",
+    "region": "Canterbury, South Island, New Zealand",
+    "lat": -43.5,
+    "lon": 171.5,
+    "dateLabel": "Extinct around 1400",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Māori tradition, and fossil hunters",
+    "hook": "Māori traditions tell of a giant bird that could swoop on people. Bones of the largest eagle ever known showed it was real.",
+    "summary": [
+      "Some Māori traditions speak of the pouakai or hōkioi, a huge bird of prey said to swoop down on people. When scientists began studying New Zealand's fossils, they found the bones of a massive eagle, described by Julius von Haast in 1871.",
+      "Haast's eagle weighed up to around 15 kg, with talons as large as a tiger's claws, the biggest eagle known to have lived."
+    ],
+    "explanation": "It hunted moa, giant flightless birds that could weigh 200 kg or more. When the moa were hunted to extinction after people arrived, the eagle died out too, around 1400. Whether the traditions preserve real memories of it is debated, but they fit what the bones show.",
+    "wiki": "Haast's eagle"
+  },
+  {
+    "slug": "javan-tiger",
+    "category": "creatures",
+    "title": "The Javan Tiger",
+    "region": "Meru Betiri National Park, East Java, Indonesia",
+    "lat": -8.45,
+    "lon": 113.75,
+    "dateLabel": "Declared extinct in 2008",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Villagers, park rangers and researchers",
+    "hook": "Declared extinct, the Javan tiger keeps being reported in the forests of Java, and in 2024 a single hair raised hopes.",
+    "summary": [
+      "The Javan tiger once lived across Java, Indonesia's most populous island. As forests were cleared and tigers hunted, it dwindled; the last confirmed animals were in Meru Betiri, in the island's south-east, in the 1970s. It was listed as extinct in 2008.",
+      "Villagers and rangers have kept reporting tigers and tiger tracks. In 2024 scientists published a DNA study of a hair found on a fence in West Java after a sighting in 2019, which matched Javan tigers more closely than other tigers."
+    ],
+    "explanation": "Other scientists cautioned that a single hair isn't proof of a living population, and that contamination or older material can't be ruled out. Camera traps haven't caught one. Until a tiger is photographed or more evidence is found, it remains officially extinct.",
+    "wiki": "Javan tiger"
+  },
+  {
+    "slug": "baiji",
+    "category": "creatures",
+    "title": "The Baiji, the Yangtze's Lost Dolphin",
+    "region": "Yangtze River, near Wuhan, Hubei, China",
+    "lat": 30.58,
+    "lon": 114.3,
+    "dateLabel": "Declared functionally extinct in 2006",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Fishermen and river surveys",
+    "hook": "A pale, nearly blind dolphin lived in the Yangtze for millions of years. A survey in 2006 couldn't find a single one.",
+    "summary": [
+      "The baiji was a freshwater dolphin found only in China's Yangtze River, with a long narrow beak and tiny eyes, revered in local legend as the 'goddess of the Yangtze'. Fishing nets, boat traffic, pollution and dams cut its numbers sharply in the 20th century.",
+      "In 2006 an international expedition surveyed about 3,400 km of the river with boats and underwater microphones and found none. It was declared 'functionally extinct', the first dolphin species thought to have been wiped out by human activity."
+    ],
+    "explanation": "There have been occasional reported sightings since, including a video in 2007 that some believe shows a baiji, but none has been confirmed. Most scientists think any survivors would be too few to recover. Its decline is used as a warning for other river dolphins.",
+    "wiki": "Baiji"
+  },
+  {
+    "slug": "south-china-tiger-photos",
+    "category": "creatures",
+    "title": "The South China Tiger Photographs",
+    "region": "Zhenping County, Shaanxi, China",
+    "lat": 31.89,
+    "lon": 109.52,
+    "dateLabel": "October 2007",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Zhou Zhenglong, a farmer, and internet sleuths",
+    "hook": "A farmer's photos of a tiger thought extinct in the wild were celebrated by officials, until people online found the tiger on a calendar.",
+    "summary": [
+      "The South China tiger hasn't been confirmed in the wild for decades. In October 2007, officials in Shaanxi province announced that a local farmer, Zhou Zhenglong, had photographed one in the hills of Zhenping County, and he was given a reward.",
+      "Internet users quickly questioned the photos. In November, a man noticed that the tiger looked identical to one on a New Year poster printed years earlier."
+    ],
+    "explanation": "In 2008 the provincial authorities confirmed the photos had been faked using a paper tiger cut from the poster. Zhou was convicted of fraud, and several officials were disciplined. The South China tiger is now thought to survive only in zoos.",
+    "wiki": "South China tiger"
+  },
+  {
+    "slug": "dingonek",
+    "category": "creatures",
+    "title": "The Dingonek",
+    "region": "Migori River, Kenya",
+    "lat": -1.06,
+    "lon": 34.47,
+    "dateLabel": "1907",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "The hunter John Alfred Jordan",
+    "hook": "An Edwardian hunter in East Africa described a river beast with tusks, a leopard's head and scaly skin.",
+    "summary": [
+      "In 1907 the hunter John Alfred Jordan reported seeing a strange animal in the Maggori (Migori) River in western Kenya. He described it as several metres long, with a head like a leopard's, long tusks, scaly skin and a broad tail.",
+      "Similar stories of a river creature, called the dingonek, were collected from local people by other travellers in the region."
+    ],
+    "explanation": "No specimen has ever been found. Suggestions include a misidentified hippo, crocodile or large monitor lizard, or a story improved in the telling. Some cryptozoologists have proposed a surviving prehistoric reptile, which has no support among zoologists.",
+    "wiki": "Dingonek"
+  },
+  {
+    "slug": "sea-monk",
+    "category": "creatures",
+    "title": "The Sea Monk",
+    "region": "Øresund, between Denmark and Sweden",
+    "lat": 55.9,
+    "lon": 12.7,
+    "dateLabel": "Caught around 1546",
+    "status": "explained",
+    "statusLabel": "Probably explained",
+    "witnesses": "Fishermen, as reported by naturalists",
+    "hook": "A creature caught off Denmark had a head like a tonsured monk and scales like a habit, and appeared in books across Europe.",
+    "summary": [
+      "Around 1546, fishermen in the Øresund, the strait between Denmark and Sweden, were said to have caught a sea creature with a human-like face, a round, shaven-looking head like a monk's tonsure, and a scaly body that resembled a monk's robe.",
+      "Pictures of the 'sea monk' appeared in the great natural histories of the 16th century, including those of Conrad Gessner and Guillaume Rondelet."
+    ],
+    "explanation": "In the 1850s the Danish zoologist Japetus Steenstrup suggested it was a giant squid. Others have proposed an angel shark, a seal or a walrus, distorted by retelling and by the drawings of the time. Without remains, it can't be identified for certain.",
+    "wiki": "Sea monk"
+  },
+  {
+    "slug": "wolf-of-gubbio",
+    "category": "creatures",
+    "title": "The Wolf of Gubbio",
+    "region": "Gubbio, Umbria, Italy",
+    "lat": 43.35,
+    "lon": 12.58,
+    "dateLabel": "Told of the 1220s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Told in the Little Flowers of St Francis",
+    "hook": "A medieval story says St Francis tamed a wolf that terrified an Italian town, and the townspeople fed it until it died of old age.",
+    "summary": [
+      "The Little Flowers of St Francis, a collection of stories written down in the 14th century, tells of a huge wolf that terrified the town of Gubbio, in Umbria. Francis of Assisi went out to meet it, made the sign of the cross and spoke to it.",
+      "In the story, the wolf laid its paw in his hand and agreed to leave the town in peace, in return for being fed. It lived among the people for two years, going from door to door, and was mourned when it died."
+    ],
+    "explanation": "Most historians see it as a parable, though wolves were a real danger in medieval Italy. In 1872, during work on a small church in Gubbio, the skeleton of a large wolf was reportedly found buried beneath a slab, which some link to the story.",
+    "wiki": "Wolf of Gubbio"
+  },
+  {
+    "slug": "banshee",
+    "category": "voices",
+    "title": "The Banshee",
+    "region": "Ireland",
+    "lat": 53.4,
+    "lon": -8,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Generations of Irish families",
+    "hook": "In Irish tradition, a woman's keening cry in the night warns of a death in one of the old families.",
+    "summary": [
+      "The bean sí, or banshee, 'woman of the fairy mound', is a female spirit of Irish folklore. She is heard more than seen: a wailing, keening cry at night, said to warn that a member of one of the old Irish families is about to die.",
+      "When she is seen, she's described as a young woman or an old one, often combing long hair, and in some areas washing clothes in a stream."
+    ],
+    "explanation": "Folklorists link the banshee to keening, the lament sung by women at Irish wakes, and to the old belief in spirits of the fairy mounds. The cries people report may sometimes be foxes, owls or other animals at night. She remains one of the best-known figures in Irish folklore.",
+    "wiki": "Banshee"
+  },
+  {
+    "slug": "epidaurus-acoustics",
+    "category": "voices",
+    "title": "The Acoustics of Epidaurus",
+    "region": "Epidaurus, Argolis, Greece",
+    "lat": 37.596,
+    "lon": 23.079,
+    "dateLabel": "Built in the 4th century BC",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Audiences for more than 2,000 years",
+    "hook": "Drop a coin on the stage of this ancient Greek theatre, and people in the top row can hear it.",
+    "summary": [
+      "The theatre at Epidaurus, built in the 4th century BC, seats around 14,000 people in a great semicircle of stone rows set into a hillside. It's famous for its acoustics: guides like to show that a coin dropped or a match struck on the stage can be heard in the highest seats.",
+      "It's still used for performances of ancient drama every summer."
+    ],
+    "explanation": "A 2007 study by researchers at Georgia Tech found that the rows of limestone seats act as an acoustic filter, damping low-pitched background noise such as the murmur of the crowd while letting the higher frequencies of actors' voices through; listeners' brains fill in the missing low tones. Later studies suggest the effect is a little less magical than the guides' demonstrations.",
+    "wiki": "Ancient Theatre of Epidaurus"
+  },
+  {
+    "slug": "melody-roads",
+    "category": "voices",
+    "title": "The Singing Roads of Japan",
+    "region": "Shibetsu, Hokkaido, Japan",
+    "lat": 43.66,
+    "lon": 145.13,
+    "dateLabel": "From 2007",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Drivers",
+    "hook": "Drive along certain Japanese roads at the right speed and the tarmac plays you a tune.",
+    "summary": [
+      "In 2007 Shizuo Shinoda, an engineer in Hokkaido, accidentally scraped some marks into a road with a bulldozer, then drove over them and noticed they made musical tones. With a research institute, he developed 'melody roads': stretches of road with grooves cut at precise spacings, so that tyres play a tune as cars pass at the right speed.",
+      "Dozens have since been built around Japan, playing folk songs and pop tunes, and similar roads exist in South Korea, the US, Hungary and elsewhere."
+    ],
+    "explanation": "The pitch depends on how far apart the grooves are and how fast the car is going: closer grooves make a higher note. Drive at the intended speed and you hear the melody; go faster or slower and it goes off key. They're also used to encourage drivers to keep to the limit.",
+    "wiki": "Musical road"
+  },
+  {
+    "slug": "musical-stones-of-skiddaw",
+    "category": "voices",
+    "title": "The Musical Stones of Skiddaw",
+    "region": "Keswick, Cumbria, England",
+    "lat": 54.6,
+    "lon": -3.13,
+    "dateLabel": "Played from the 1840s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Victorian audiences, including Queen Victoria",
+    "hook": "Rocks from a Lake District mountain ring like bells, and a family of stonemasons built them into an instrument played for the Queen.",
+    "summary": [
+      "The rock of Skiddaw, a mountain in the Lake District, includes a kind of hornfels that rings when struck. In the 19th century, local craftsmen collected and shaped pieces of it into lithophones: instruments like a giant xylophone, made of stone.",
+      "The best known was built by the stonemason Joseph Richardson and his sons over many years, and played in concerts around Britain in the 1840s, including for Queen Victoria. One set of the Musical Stones of Skiddaw can still be played at the Keswick Museum."
+    ],
+    "explanation": "The rock was baked by heat from molten granite deep underground millions of years ago, which made it dense and fine-grained, so it rings clearly when struck. Shaping each stone to a precise length and thickness tunes its note.",
+    "wiki": "Musical Stones of Skiddaw"
+  },
+  {
+    "slug": "zadar-sea-organ",
+    "category": "voices",
+    "title": "The Sea Organ of Zadar",
+    "region": "Zadar, Croatia",
+    "lat": 44.116,
+    "lon": 15.22,
+    "dateLabel": "Opened in 2005",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "People on the waterfront",
+    "hook": "Stone steps on a Croatian waterfront play music day and night, with the waves as the musician.",
+    "summary": [
+      "Along the seafront promenade in Zadar, on Croatia's Adriatic coast, wide marble steps lead down into the sea. Beneath them are 35 pipes of different lengths. As waves push air through the pipes, the steps sound soft, random chords that rise and fall with the sea.",
+      "It was designed by the architect Nikola Bašić and opened in 2005. It never plays the same music twice."
+    ],
+    "explanation": "It's a designed instrument, not a natural mystery: the pipes are tuned to chords and the sea supplies the breath. Its strange, never-ending sound is often compared to whale song, or to a giant breathing.",
+    "wiki": "Sea organ"
+  },
+  {
+    "slug": "first-whale-songs",
+    "category": "voices",
+    "title": "The First Whale Songs",
+    "region": "Off Bermuda, North Atlantic",
+    "lat": 32.2,
+    "lon": -64.9,
+    "dateLabel": "Recorded in the 1950s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Frank Watlington, Roger Payne and Scott McVay",
+    "hook": "A navy engineer listening for submarines off Bermuda recorded humpback whales singing, and changed how the world saw whales.",
+    "summary": [
+      "In the 1950s, Frank Watlington, an engineer at a US Navy listening station on Bermuda, recorded strange, haunting sounds with underwater microphones meant to detect submarines. He realised they came from humpback whales.",
+      "In 1967 he shared his recordings with the biologists Roger Payne and Scott McVay, who found the sounds formed long, repeating patterns: true songs. The 1970 album Songs of the Humpback Whale became a bestseller and helped launch the 'Save the Whales' movement."
+    ],
+    "explanation": "Only male humpbacks sing, and all the males in a population sing the same song, which slowly changes over time. Why they sing isn't fully understood, though it's linked to breeding. Humpback song was included on the Voyager Golden Record, sent into space in 1977.",
+    "wiki": "Songs of the Humpback Whale (album)"
+  },
+  {
+    "slug": "oldest-recorded-voice",
+    "category": "voices",
+    "title": "The Oldest Recorded Voice",
+    "region": "Paris, France",
+    "lat": 48.85,
+    "lon": 2.34,
+    "dateLabel": "9 April 1860",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Édouard-Léon Scott de Martinville",
+    "hook": "A Frenchman recorded a voice singing 'Au clair de la lune' in 1860, and no one heard it until 2008.",
+    "summary": [
+      "In the 1850s the Parisian inventor Édouard-Léon Scott de Martinville built the phonautograph, a device that traced sound waves as wavy lines on paper blackened with soot. He meant it for studying sound by sight, and never intended the tracings to be played back.",
+      "On 9 April 1860 he recorded someone singing a few lines of the French folk song 'Au clair de la lune'. The paper sat in archives for nearly 150 years."
+    ],
+    "explanation": "In 2008 researchers from the First Sounds project scanned the tracings and turned them into sound, producing the oldest known recording of a human voice. At first they played it too fast and thought it was a young woman; at the right speed it seems to be a man, probably Scott himself, singing slowly.",
+    "wiki": "Phonautograph"
+  },
+  {
+    "slug": "great-stalacpipe-organ",
+    "category": "voices",
+    "title": "The Great Stalacpipe Organ",
+    "region": "Luray Caverns, Virginia, USA",
+    "lat": 38.664,
+    "lon": -78.484,
+    "dateLabel": "Completed in 1956",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Cave visitors",
+    "hook": "In a Virginia cave, rubber mallets tap stalactites to play music, on what's often called the largest instrument in the world.",
+    "summary": [
+      "In 1954 Leland Sprinkle, a mathematician and engineer, visited Luray Caverns and noticed that stalactites gave off musical tones when tapped. He spent three years searching the cave for formations with the right pitches, shaving some to tune them.",
+      "The finished Great Stalacpipe Organ uses rubber-tipped mallets, wired to a keyboard, to strike stalactites spread across about 1.4 hectares of the cave."
+    ],
+    "explanation": "Each stalactite is a column of hard calcite that rings at a particular pitch, like a tuning fork, depending on its size and shape. The organ plays automatically for visitors on cave tours.",
+    "wiki": "Great Stalacpipe Organ"
+  },
+  {
+    "slug": "nordlinger-ries",
+    "category": "places",
+    "title": "The Town in a Crater",
+    "region": "Nördlingen, Bavaria, Germany",
+    "lat": 48.85,
+    "lon": 10.49,
+    "dateLabel": "Proven in 1960",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The geologists Eugene Shoemaker and Edward Chao",
+    "hook": "A medieval German town sits inside a giant crater, and its church is built of stone studded with tiny diamonds.",
+    "summary": [
+      "Nördlingen, a walled medieval town in Bavaria, lies in the middle of the Ries, a round, flat basin about 25 km across. For centuries it was thought to be the remains of a volcano.",
+      "In 1960 the American geologists Eugene Shoemaker and Edward Chao found coesite, a form of quartz made only under enormous pressure, in the local rock, proving the basin was an impact crater. The town's St. George's Church is built from suevite, a rock formed in the impact, which holds countless microscopic diamonds."
+    ],
+    "explanation": "An asteroid roughly a kilometre across struck about 15 million years ago, and the crater slowly filled and wore down into today's basin. NASA trained Apollo astronauts there in 1970 to recognise impact rocks. The diamonds are far too small to be worth anything.",
+    "wiki": "Nördlinger Ries"
+  },
+  {
+    "slug": "vredefort-dome",
+    "category": "places",
+    "title": "The Vredefort Dome",
+    "region": "Vredefort, Free State, South Africa",
+    "lat": -27,
+    "lon": 27.5,
+    "dateLabel": "Impact about 2 billion years ago",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Geologists",
+    "hook": "The largest impact structure on Earth is so old and worn down that it shows only as a ring of hills.",
+    "summary": [
+      "South-west of Johannesburg, around the towns of Vredefort and Parys, a curved ring of hills marks the remains of the largest confirmed impact structure on Earth. When it formed, the crater may have been around 250 to 300 km across.",
+      "For a long time geologists argued over whether the dome was volcanic or caused by an impact. Shocked quartz and shatter cones, rock features formed only by sudden, extreme pressure, settled it."
+    ],
+    "explanation": "An asteroid perhaps 10 to 15 km across struck around 2 billion years ago. Erosion has since removed the original crater, leaving its uplifted centre, the dome. It became a UNESCO World Heritage Site in 2005.",
+    "wiki": "Vredefort impact structure"
+  },
+  {
+    "slug": "acambaro-figures",
+    "category": "places",
+    "title": "The Acámbaro Figures",
+    "region": "Acámbaro, Guanajuato, Mexico",
+    "lat": 20.03,
+    "lon": -100.72,
+    "dateLabel": "Found from 1944",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Waldemar Julsrud, a German merchant",
+    "hook": "Thousands of clay figurines dug up in Mexico included dinosaurs, which some said proved people lived alongside them.",
+    "summary": [
+      "In 1944 Waldemar Julsrud, a German merchant living in Acámbaro, said he had found clay figurines near the foot of El Toro hill. He paid local farmers to bring him more, and eventually collected over 30,000 figures of people, animals and creatures that looked like dinosaurs.",
+      "Creationists and believers in lost civilisations have pointed to them as evidence that humans saw living dinosaurs."
+    ],
+    "explanation": "Archaeologists who studied them found none of the wear or soil deposits expected on ancient objects, and some of the dinosaurs resemble illustrations from books of the time. A local family was reported to have made figurines to sell. Most scholars consider them a 20th-century hoax.",
+    "wiki": "Acámbaro figures"
+  },
+  {
+    "slug": "uffington-white-horse",
+    "category": "places",
+    "title": "The Uffington White Horse",
+    "region": "Uffington, Oxfordshire, England",
+    "lat": 51.578,
+    "lon": -1.567,
+    "dateLabel": "Made around 1000 BC",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Generations of local people, who kept it clean",
+    "hook": "A sleek white horse 110 metres long has galloped across an English hillside for 3,000 years, kept alive by people scouring it.",
+    "summary": [
+      "Cut into the chalk of White Horse Hill, in Oxfordshire, is a strikingly modern-looking figure of a horse, about 110 metres long, made of trenches filled with crushed chalk. It's best seen from the air or from across the valley.",
+      "For centuries people assumed it was Anglo-Saxon. Local people held regular 'scourings', with fairs and festivities, to clean the chalk; without them it would have grown over and vanished."
+    ],
+    "explanation": "In the 1990s, luminescence dating of the soil showed it was first made in the late Bronze Age, around 1000 BC, making it Britain's oldest known chalk figure. Why it was made, and whether it's even a horse rather than another animal, is still discussed.",
+    "wiki": "Uffington White Horse"
+  },
+  {
+    "slug": "cerne-abbas-giant",
+    "category": "places",
+    "title": "The Cerne Abbas Giant",
+    "region": "Cerne Abbas, Dorset, England",
+    "lat": 50.81,
+    "lon": -2.475,
+    "dateLabel": "Made around 700–1100 AD",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists and the National Trust",
+    "hook": "A 55-metre chalk giant with a club on a Dorset hill was thought to be prehistoric, until soil tests in 2021 gave a surprise.",
+    "summary": [
+      "On a hillside above the village of Cerne Abbas, in Dorset, is a huge figure of a naked man holding a club, about 55 metres tall, outlined in chalk. It isn't mentioned in any record before the late 1600s.",
+      "Theories placed it in prehistory, in Roman times as a figure of Hercules, or in the 1600s as a joke at Oliver Cromwell's expense."
+    ],
+    "explanation": "In 2021 the National Trust announced results from dating soil samples, which suggested it was first made in the late Saxon period, between about 700 and 1100 AD. Why it was made then, and why it went unrecorded for centuries, is still unknown.",
+    "wiki": "Cerne Abbas Giant"
+  },
+  {
+    "slug": "labyrinth-of-knossos",
+    "category": "places",
+    "title": "The Labyrinth of Knossos",
+    "region": "Knossos, Crete, Greece",
+    "lat": 35.298,
+    "lon": 25.163,
+    "dateLabel": "Excavated from 1900",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "The archaeologist Arthur Evans",
+    "hook": "Greek myth told of a labyrinth on Crete that held the Minotaur. Then archaeologists uncovered a palace so complex it felt like one.",
+    "summary": [
+      "Greek myth tells how King Minos of Crete had the craftsman Daedalus build a labyrinth to hold the Minotaur, half man and half bull, until the hero Theseus found his way in and out with the help of Ariadne's thread.",
+      "From 1900 the British archaeologist Arthur Evans excavated the Bronze Age palace at Knossos: a maze of more than a thousand rooms, corridors and stairways, decorated with images of bulls and double-headed axes, called labrys."
+    ],
+    "explanation": "Many think the myth grew from memories of this huge, confusing palace and its bull rituals, and some link the word 'labyrinth' to labrys, the double axe found throughout the site. Others argue the labyrinth was a dancing floor or a purely imagined place. Evans's heavy reconstructions in concrete have also been criticised.",
+    "wiki": "Knossos"
+  },
+  {
+    "slug": "troy",
+    "featured": true,
+    "category": "places",
+    "title": "The Search for Troy",
+    "region": "Hisarlik, Çanakkale, Türkiye",
+    "lat": 39.957,
+    "lon": 26.239,
+    "dateLabel": "Excavated from 1870",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Frank Calvert, Heinrich Schliemann and later archaeologists",
+    "hook": "For centuries the Trojan War was thought to be only a story. Then a businessman dug into a hill in Türkiye and found a city.",
+    "summary": [
+      "Homer's Iliad tells of the siege of Troy by the Greeks. By the 1800s many scholars thought Troy was a myth. Frank Calvert, a British consul who owned part of the hill of Hisarlik, believed it was the site, and in 1870 the German businessman Heinrich Schliemann began digging there.",
+      "Schliemann found the remains of a series of cities built on top of one another, and a hoard of gold he called 'Priam's Treasure'. His methods were crude, and he destroyed much of the layer now thought to match Homer's Troy."
+    ],
+    "explanation": "Archaeologists have since identified at least nine cities at the site. The layers from the late Bronze Age, around 1300 to 1180 BC, show signs of destruction, and Hittite records mention a city called Wilusa that may be Troy. Whether a war like Homer's happened is still debated. Schliemann's gold turned out to be about a thousand years older than Homer's Troy.",
+    "wiki": "Troy"
+  },
+  {
+    "slug": "durupinar-site",
+    "category": "places",
+    "title": "The 'Ark' Near Mount Ararat",
+    "region": "Near Doğubayazıt, Ağrı, Türkiye",
+    "lat": 39.44,
+    "lon": 44.23,
+    "dateLabel": "Spotted in 1959",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "A Turkish army captain studying aerial photographs",
+    "hook": "A boat-shaped formation not far from Mount Ararat was hailed as Noah's Ark. Geologists say it's natural.",
+    "summary": [
+      "In 1959 a Turkish army captain, İlhan Durupınar, noticed a boat-shaped formation about 150 metres long in aerial photographs of a hillside near Doğubayazıt, about 30 km south of Mount Ararat. Its shape and position led some to claim it was the remains of Noah's Ark.",
+      "The American adventurer Ron Wyatt promoted the site from the 1970s, and a visitor centre was later built there."
+    ],
+    "explanation": "Geologists who studied it concluded it's a natural formation: a mudflow that moved around a rock outcrop, leaving a boat-like shape. No wood or man-made structure has been found. Claims of finding the Ark on Mount Ararat itself have also never been confirmed.",
+    "wiki": "Durupınar site"
+  },
+  {
+    "slug": "tomb-of-alexander",
+    "featured": true,
+    "category": "places",
+    "title": "The Lost Tomb of Alexander the Great",
+    "region": "Alexandria, Egypt",
+    "lat": 31.2,
+    "lon": 29.92,
+    "dateLabel": "Lost after the 4th century AD",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Ancient writers, and Roman emperors who visited",
+    "hook": "Alexander the Great lay in a famous tomb in Alexandria for centuries. Then it disappeared, and no one knows where.",
+    "summary": [
+      "Alexander the Great died in Babylon in 323 BC. His general Ptolemy took his body as it was being carried to Macedonia and brought it to Egypt, where it was eventually placed in a magnificent tomb in the centre of Alexandria.",
+      "Roman emperors including Julius Caesar, Augustus and Caracalla visited it. After the late 4th century AD, it disappears from the records."
+    ],
+    "explanation": "The tomb may have been destroyed in riots, earthquakes or the city's many rebuildings, or the body may have been moved. Archaeologists and enthusiasts have made many searches, and theories place it in Alexandria, at the Siwa Oasis or even in Venice. None has been confirmed.",
+    "wiki": "Tomb of Alexander the Great"
+  },
+  {
+    "slug": "library-of-ivan-the-terrible",
+    "category": "places",
+    "title": "The Lost Library of Ivan the Terrible",
+    "region": "The Kremlin, Moscow, Russia",
+    "lat": 55.752,
+    "lon": 37.617,
+    "dateLabel": "Lost after the 1500s",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Rumours and fragmentary records",
+    "hook": "A great library of ancient manuscripts is said to lie hidden somewhere beneath Moscow.",
+    "summary": [
+      "Legend says that Sophia Palaiologina, a Byzantine princess who married Ivan III of Moscow in 1472, brought a collection of priceless Greek, Latin and Hebrew manuscripts from Constantinople, and that it passed to her grandson, Ivan IV, 'the Terrible'.",
+      "The library is said to have been hidden in tunnels beneath the Kremlin. It hasn't been seen since the 16th century."
+    ],
+    "explanation": "There's little firm evidence that it existed in the form described, and some historians think it's a legend. Others think it may have burned in one of Moscow's great fires. Searches beneath the Kremlin, including by archaeologists in the 20th century, have found nothing.",
+    "wiki": "Lost Library of Ivan the Terrible"
+  },
+  {
+    "slug": "metro-2",
+    "category": "places",
+    "title": "Metro-2",
+    "region": "Moscow, Russia",
+    "lat": 55.72,
+    "lon": 37.58,
+    "dateLabel": "Rumoured since the Soviet era",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Former officials, researchers and urban explorers",
+    "hook": "A secret second metro is said to run deep beneath Moscow, linking the Kremlin to bunkers and an airport.",
+    "summary": [
+      "Rumours have long described a secret underground railway beneath Moscow, built in the Soviet era and nicknamed Metro-2, linking the Kremlin with government bunkers, military sites and an airport.",
+      "A 1991 US Department of Defense report described underground facilities in the Moscow area, and some former Soviet officials have spoken of the system. Urban explorers have claimed to find entrances."
+    ],
+    "explanation": "The Russian government has never confirmed or denied that it exists. Many researchers think some secret tunnel system does exist, as in other capitals, but its size and routes are unknown, and many details in circulation are speculation.",
+    "wiki": "Metro-2"
+  },
+  {
+    "slug": "ciudad-perdida",
+    "category": "places",
+    "title": "Ciudad Perdida, the Lost City",
+    "region": "Sierra Nevada de Santa Marta, Magdalena, Colombia",
+    "lat": 11.04,
+    "lon": -73.93,
+    "dateLabel": "Found in 1972",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Treasure hunters, then archaeologists",
+    "hook": "Treasure hunters following a trail of stone steps found a lost city in the Colombian jungle, centuries older than Machu Picchu.",
+    "summary": [
+      "In 1972 treasure hunters in the Sierra Nevada de Santa Marta, in northern Colombia, followed a long flight of stone steps up through the forest and found a city of terraces, plazas and paths on a mountain ridge. Gold and pottery from it soon appeared on the black market.",
+      "Archaeologists reached it in 1976. The city, called Teyuna by the region's Indigenous peoples, was built by the Tairona around 800 AD, some 650 years before Machu Picchu."
+    ],
+    "explanation": "The Kogi, Arhuaco and Wiwa peoples, descendants of the Tairona, say they knew of the city all along and still visit it as a sacred place. Today it's reached by a trek of several days through the jungle, managed together with local communities.",
+    "wiki": "Ciudad Perdida"
+  },
+  {
+    "slug": "shicheng",
+    "category": "places",
+    "title": "The Lion City Under the Lake",
+    "region": "Qiandao Lake, Zhejiang, China",
+    "lat": 29.6,
+    "lon": 118.8,
+    "dateLabel": "Flooded in 1959",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Divers who returned to it in 2001",
+    "hook": "Under a Chinese reservoir lies a whole ancient city, its carved gates and walls still standing in the dark water.",
+    "summary": [
+      "Shicheng, 'Lion City', was founded more than 1,300 years ago near the foot of Five Lion Mountain in Zhejiang province. In 1959 the Xin'an River was dammed for a hydroelectric power station, its people were moved, and the city was flooded to create Qiandao Lake.",
+      "It was largely forgotten until 2001, when divers were sent down to look. They found the city 26 to 40 metres below the surface, remarkably well preserved, with stone gates, carved lions and dragons, and wooden beams."
+    ],
+    "explanation": "Cold, still, dark water slowed decay and protected the carvings. Diving visits have occasionally been allowed, and there have been plans to study and protect the city further.",
+    "wiki": "Shicheng"
+  },
+  {
+    "slug": "skara-brae",
+    "category": "places",
+    "title": "Skara Brae",
+    "region": "Bay of Skaill, Orkney, Scotland",
+    "lat": 59.049,
+    "lon": -3.341,
+    "dateLabel": "Uncovered in 1850",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The laird of Skaill, after a great storm",
+    "hook": "A great storm stripped the sand from an Orkney dune and revealed a Stone Age village, its stone beds and dressers still in place.",
+    "summary": [
+      "In the winter of 1850, a severe storm tore the grass and sand from a large dune at the Bay of Skaill, on Orkney's west coast, revealing the outlines of stone buildings. The local laird, William Watt, began to dig.",
+      "Beneath the sand was a village of about eight houses linked by covered passages, with stone furniture still inside: beds, dresser-like shelves, hearths and storage boxes. It was lived in from about 3100 to 2500 BC, before Stonehenge's great circle and the Great Pyramid."
+    ],
+    "explanation": "The village survived because it was buried in sand. It's one of the best-preserved Stone Age settlements in Europe, part of the Heart of Neolithic Orkney World Heritage Site. Why it was abandoned isn't known.",
+    "wiki": "Skara Brae"
+  },
+  {
+    "slug": "meteor-crater",
+    "category": "places",
+    "title": "Meteor Crater",
+    "region": "Near Winslow, Arizona, USA",
+    "lat": 35.027,
+    "lon": -111.022,
+    "dateLabel": "Formed about 50,000 years ago",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Daniel Barringer, a mining engineer",
+    "hook": "A businessman spent 27 years drilling for a giant iron meteorite in an Arizona crater, and was right about everything except the meteorite.",
+    "summary": [
+      "Meteor Crater, in the Arizona desert, is about 1.2 km across and 170 metres deep, with a raised rim. In the 1890s the leading geologist G. K. Gilbert concluded it had been made by a volcanic steam explosion.",
+      "From 1903 the mining engineer Daniel Barringer argued it was made by a meteorite, and he spent 27 years and much of his fortune drilling for the huge mass of iron he believed lay buried beneath it, hoping to mine it."
+    ],
+    "explanation": "Barringer was right that it was an impact, the first crater on Earth proven to be one, and it helped scientists understand craters on the Moon. But the meteorite, about 50 metres across, mostly vaporised or shattered when it struck around 50,000 years ago, so there was no great mass to find. The crater is still owned by his family's company.",
+    "wiki": "Meteor Crater"
   }
 ];
