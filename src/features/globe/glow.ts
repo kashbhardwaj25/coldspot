@@ -47,3 +47,16 @@ export function updateCharge(
     levels.set(tunedKey, level + (1 - level) * (1 - Math.exp(-dt / CHARGE_TIME)));
   }
 }
+
+/** Smallest change in charge worth a redraw; below this the difference can't be seen. */
+const STEP = 0.002;
+
+/**
+ * Whether the glow differs visibly from what was last drawn (`a`), including markers that lit up or went out.
+ * Comparing with the last drawing, not the last frame, means a slow fade still redraws as it adds up.
+ */
+export function glowDiffers(a: Map<string, number>, b: Map<string, number>) {
+  if (a.size !== b.size) return true;
+  for (const [key, level] of b) if (Math.abs(level - (a.get(key) ?? 0)) > STEP) return true;
+  return false;
+}

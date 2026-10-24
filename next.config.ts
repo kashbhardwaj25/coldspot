@@ -11,6 +11,21 @@ const nextConfig: NextConfig = {
   // The react-hooks lint rules keep the code compatible with it.
   reactCompiler: true,
 
+  // The coastlines never change (a new version gets a new file name), so browsers and Cloudflare can keep them.
+  // The town list is regenerated now and then, so it's kept for a day and refreshed in the background.
+  async headers() {
+    return [
+      {
+        source: "/land-:detail.json",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        source: "/towns.json",
+        headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }],
+      },
+    ];
+  },
+
   // Serve the site at one address only. Once SITE_URL is the real domain, the host's own address
   // (*.up.railway.app) and www. redirect there permanently, so search engines see a single site.
   async redirects() {

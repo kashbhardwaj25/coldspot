@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { preload } from "react-dom";
 import { JsonLd } from "@/components/JsonLd";
 import { getCaseSummaries } from "@/features/cases/queries";
 import { siteJsonLd } from "@/features/cases/jsonld";
 import UncannyMapApp from "@/features/map/UncannyMapApp";
 import { getMapPlaces } from "@/features/regions/queries";
 import { getApprovedStories } from "@/features/stories/queries";
+import { LAND_FILES } from "@/features/globe/land";
 import { env } from "@/lib/server/env";
 
 // Rebuilt at most every 5 minutes, and immediately when you approve a story.
@@ -16,6 +18,8 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  // Start fetching the light coastlines with the HTML, instead of after the scripts have loaded and run.
+  preload(LAND_FILES.low, { as: "fetch", crossOrigin: "anonymous" });
   // Only what the globe and list need; each case file's full text is fetched when it's opened.
   const cases = getCaseSummaries();
   const stories = getApprovedStories();

@@ -135,7 +135,7 @@ Dockerfile railway.json         production image, deployed by Railway from main 
 .github/workflows/ci.yml         npm run check + build on every pull request and push to main
 deploy/                          the self-hosted alternative: Docker Compose with Caddy and Litestream
 drizzle/                         SQL migrations (generated, committed)
-public/land-50m.json             coastlines only
+public/land-110m.json land-50m.json   coastlines only: light (drawn first and while moving), detailed (at rest)
 public/towns.json                towns for the share form's search (generated; don't edit by hand)
 ```
 

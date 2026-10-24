@@ -26,7 +26,7 @@ export function usePinPicker({ initial, landmarks, target }: Args) {
 
   useEffect(() => {
     let cancelled = false;
-    loadLand()
+    loadLand("low")
       .then((land) => {
         if (cancelled || !baseRef.current || !dotsRef.current) return;
         const engine: GlobeEngine = new GlobeEngine({
@@ -50,6 +50,7 @@ export function usePinPicker({ initial, landmarks, target }: Args) {
         });
         engine.setItems(landmarksRef.current, true);
         engineRef.current = engine;
+        return loadLand("high").then((detail) => engine.setDetail(detail));
       })
       .catch((err: unknown) => console.error("Could not load the map", err));
     return () => {

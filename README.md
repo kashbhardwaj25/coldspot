@@ -60,7 +60,8 @@ src/
   styles/                 CSS by area
   data/                   Seed data: 19 famous cases, 30 sample stories
 drizzle/                  SQL migrations
-public/land-50m.json      Coastlines (Natural Earth via world-atlas; no country borders)
+public/land-110m.json     Light coastlines, drawn first and while the globe moves (Natural Earth via world-atlas)
+public/land-50m.json      Detailed coastlines, drawn when the globe is at rest (no country borders in either)
 ```
 
 ### Submissions and moderation

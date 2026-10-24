@@ -14,6 +14,7 @@ export type { EngineItem } from "./tuning";
 type Options = {
   base: HTMLCanvasElement;
   dots: HTMLCanvasElement;
+  /** Light coastlines, drawn while the globe moves. Detailed ones arrive later through `setDetail`. */
   land: GeoPermissibleObjects;
   view: View;
   radio: Radio;
@@ -34,9 +35,13 @@ function context(canvas: HTMLCanvasElement) {
   return ctx;
 }
 
+/** Milliseconds the view has to stay still before the detailed coastlines are drawn. */
+const SETTLE = 120;
+
 /**
  * Framework-free orthographic globe on two canvases: the base (sphere and land) redraws only when the view
- * changes, the dots layer every frame. React talks to it only through the public methods and callbacks.
+ * changes, the dots layer only while something on it moves or glows. React talks to it only through the public
+ * methods and callbacks.
  */
 export class GlobeEngine implements InputTarget {
   private cam: Camera;
@@ -47,6 +52,9 @@ export class GlobeEngine implements InputTarget {
   private motion = new Motion(SNAP);
   private raf = 0;
   private unbind: () => void;
+  private detail: GeoPermissibleObjects | null = null;
+  private sharp = false;
+  private stillSince = 0;
 
   constructor(private o: Options) {
     this.cam = new Camera(o.view);
@@ -73,6 +81,12 @@ export class GlobeEngine implements InputTarget {
     this.cam.dirty = true;
   }
 
+  /** Detailed coastlines, drawn whenever the view is at rest. */
+  setDetail(land: GeoPermissibleObjects) {
+    this.detail = land;
+    this.sharp = false;
+  }
+
   /** Always show this item, even where markers are thinned out. Use before flying to it. */
   pin(key: string | null) {
     this.scene.pin(key);
@@ -81,6 +95,7 @@ export class GlobeEngine implements InputTarget {
 
   clearTune() {
     this.scene.tuner.clear();
+    this.scene.invalidate();
   }
 
   center() {
@@ -147,15 +162,24 @@ export class GlobeEngine implements InputTarget {
   private loop = (now: number) => {
     this.motion.step(now, this.cam, this.o.snap === false ? undefined : this.scene.visible[0]);
     const { cam } = this;
-    if (cam.dirty) {
+    const moved = cam.dirty;
+    if (moved) {
       cam.dirty = false;
       cam.update();
-      drawGlobe(this.bctx, this.path, this.o.land, cam.frame, cam.radius);
+      this.drawBase(false);
+      this.stillSince = now;
       const c = cam.center();
       this.o.onCoords(formatCoords(c.lat, c.lon));
       this.scene.layout(cam);
-    }
-    this.scene.draw(cam, now);
+    } else if (!this.sharp && this.detail && now - this.stillSince > SETTLE) this.drawBase(true);
+    this.scene.draw(cam, now, moved);
     this.raf = requestAnimationFrame(this.loop);
   };
+
+  /** Light coastlines while moving keep dragging smooth; the detailed ones once the view rests. */
+  private drawBase(sharp: boolean) {
+    const land = sharp && this.detail ? this.detail : this.o.land;
+    this.sharp = land === this.detail;
+    drawGlobe(this.bctx, this.path, land, this.cam.frame, this.cam.radius);
+  }
 }

@@ -1,7 +1,7 @@
 import { geoGraticule10, type GeoPath, type GeoPermissibleObjects } from "d3-geo";
 import { GLOBE } from "@/lib/tokens";
 import { CATEGORIES } from "@/lib/categories";
-import { drawLabels } from "./labels";
+import { drawLabels, type Label } from "./labels";
 import type { Visible } from "./tuning";
 
 /** Canvas size and ring position, in CSS pixels. */
@@ -67,13 +67,11 @@ export function drawGlobe(
   c.stroke();
 }
 
-/** Height of a label's box for collision checks, in CSS pixels. */
-const LABEL_HEIGHT = 14;
-
 type MarkerOptions = {
   tunedKey: string | null;
   famous: boolean;
-  labels: boolean;
+  /** Case labels, already placed (see labels.ts). Empty when they're hidden. */
+  labels: Label[];
   font: string;
   /** Phosphor charge per marker key (see glow.ts). Missing means unlit. */
   charge: Map<string, number>;
@@ -85,7 +83,7 @@ type MarkerOptions = {
  */
 export function drawMarkers(c: CanvasRenderingContext2D, visible: Visible[], f: Frame, o: MarkerOptions) {
   begin(c, f);
-  if (o.labels) {
+  if (o.labels.length) {
     c.font = o.font;
     c.textBaseline = "middle";
   }
@@ -111,7 +109,7 @@ export function drawMarkers(c: CanvasRenderingContext2D, visible: Visible[], f: 
     else drawDot(c, v, color, on);
     c.globalAlpha = 1;
   }
-  if (o.labels && o.famous) drawLabels(c, visible, o.tunedKey, LABEL_HEIGHT);
+  if (o.labels.length) drawLabels(c, o.labels);
 }
 function drawDiamond(c: CanvasRenderingContext2D, v: Visible, color: string, on: boolean) {
   const r = on ? 5.4 : 4.2;

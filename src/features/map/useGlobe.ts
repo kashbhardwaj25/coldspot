@@ -55,7 +55,8 @@ function openingTarget(cases: CaseSummary[], stories: StoryItem[]): MapItem | un
 }
 
 /**
- * Creates the globe once the coastline data has loaded and places the ring, hint and zoom buttons.
+ * Creates the globe once the light coastlines have loaded (the detailed ones follow), and places the ring, hint
+ * and zoom buttons.
  * Returns the engine and the refs to attach to the canvases and overlays.
  * Callbacks are read through a ref, so they can change between renders without recreating the globe.
  */
@@ -77,7 +78,7 @@ export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: St
     let engine: GlobeEngine | null = null;
     let tuned: string | null = null;
 
-    loadLand()
+    loadLand("low")
       .then((land) => {
         if (cancelled || !baseRef.current || !dotsRef.current) return;
         const target = openingTarget(data.cases, data.stories);
@@ -111,6 +112,7 @@ export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: St
         if (target) engine.pin(itemKey(target));
         engineRef.current = engine;
         cb.current.onReady(engine, mode);
+        return loadLand("high").then((detail) => engine?.setDetail(detail));
       })
       .catch((err: unknown) => console.error("Could not load the map", err));
 
