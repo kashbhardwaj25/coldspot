@@ -184,10 +184,11 @@ public/towns.json                towns for the share form's search (generated; d
 - Regions are looked up from coordinates (`regionFor`), never typed: countries follow Natural Earth's India edition, so Kashmir, Ladakh and Arunachal Pradesh are in India. The outlines in `src/data/regions.json` are for server-side lookups only; never draw them or send them to the browser.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.
 - Famous cases must present what was reported **and** the explanations offered, without taking a side. Don't write that a case is proven.
-- Famous cases include dark ones too: killings, deaths, disappearances, gruesome legends and urban legends. Don't leave a case out because it's grim; tell it without graphic detail. Say what happened plainly ("was killed", "was badly hurt", "died"), not how a body looked or how an injury was done.
-- Legal care for famous cases (not legal advice; ask when unsure):
+- Famous cases are about the uncanny: monsters, visitors, lights in the sky, strange sounds, eerie places, folklore and urban legends. Dark and gruesome legends are welcome (Sawney Bean, the Slender Man); tell them without graphic detail. Say what happened plainly ("was killed", "was badly hurt", "died"), not how a body looked or how an injury was done.
+- **No true crime.** No cases about real killings or other crimes against real people, and none centred on a real person's death, illness or mental-health crisis (the death of Elisa Lam, for example). Removed for this reason: Hinterkaifeck, Elizabeth Báthory, Fisher's Ghost, Elisa Lam.
+- Legal care for famous cases (not legal advice; ask when unsure). With no true crime the risk is low; these keep it that way:
   - Real people: name only historical figures, public figures, and people already named in public records or major reporting. State accusations as accusations, and don't present an unproven crime as fact. Never name minors, or private people involved in recent crimes.
-  - Living people and their families: stick to what's on the public record, and don't speculate about how someone died.
+  - Places and businesses: legends about a hotel, house or town are fine, but never imply that a real business or community did something wrong.
   - Suicide: mention it only where a place is known for it, never describe methods, and point to help.
   - Write everything in our own words; don't copy text from sources. Fictional characters (the Slender Man, for example) can be described, but not their artwork.
 - Urban legends aren't a category. They go in whichever of the five categories fits, with the status label "Urban legend".

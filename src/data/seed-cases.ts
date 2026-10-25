@@ -17668,25 +17668,6 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     "wiki": "Jiangshi"
   },
   {
-    "slug": "fishers-ghost",
-    "category": "visitors",
-    "title": "Fisher's Ghost",
-    "region": "Campbelltown, New South Wales, Australia",
-    "lat": -34.07,
-    "lon": 150.82,
-    "dateLabel": "1826",
-    "status": "explained",
-    "statusLabel": "Partly explained",
-    "witnesses": "A local farmer, John Farley, and the colonial court",
-    "hook": "In 1826 a man said he saw a missing farmer sitting on a fence, pointing at a creek. A search there found the farmer's body.",
-    "summary": [
-      "In June 1826, Frederick Fisher, a farmer at Campbelltown near Sydney, disappeared. His neighbour, George Worrall, said Fisher had gone back to England, and began selling his property.",
-      "Months later a local man, John Farley, said he had seen Fisher's ghost sitting on a fence rail by a creek, pointing to the paddock beyond. A search there found Fisher's body. Worrall was tried, convicted of murder and hanged in 1827."
-    ],
-    "explanation": "The trial is recorded, but the ghost isn't mentioned in the court records; the story first appeared in print years later. Historians think it may have been invented, or used to cover a tip-off from someone who knew more. Campbelltown celebrates it with the Festival of Fisher's Ghost every November.",
-    "wiki": "Fisher's Ghost"
-  },
-  {
     "slug": "highgate-vampire",
     "category": "visitors",
     "title": "The Highgate Vampire",
@@ -17742,25 +17723,6 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Researchers suggest sleep paralysis, which can bring a terrifying sense of a presence pressing on the chest, combined with rumour and social tension, often around elections. Further waves of reports came in 2000, 2001 and 2007.",
     "wiki": "Popobawa"
-  },
-  {
-    "slug": "elizabeth-bathory",
-    "category": "visitors",
-    "title": "Elizabeth Báthory, the 'Blood Countess'",
-    "region": "Čachtice Castle, Slovakia",
-    "lat": 48.72,
-    "lon": 17.78,
-    "dateLabel": "Arrested in December 1610",
-    "status": "disputed",
-    "statusLabel": null,
-    "witnesses": "Servants, villagers and court officials",
-    "hook": "A Hungarian countess was accused of killing many young women, and a later legend said she bathed in their blood to stay young.",
-    "summary": [
-      "Elizabeth Báthory was a Hungarian noblewoman whose estates included Čachtice Castle, in what is now Slovakia. In December 1610 she was arrested and accused of torturing and killing girls and young women who worked in her household. Witnesses gave numbers ranging from dozens to over 600.",
-      "She was never tried, but was confined in the castle until her death in 1614, while servants accused with her were executed."
-    ],
-    "explanation": "The story of bathing in blood first appeared more than a century later and isn't supported by the records of the case. Some historians argue that the accusations were exaggerated, or driven by political and financial interests, since powerful relatives stood to gain from her fall; others accept that serious crimes took place.",
-    "wiki": "Elizabeth Báthory"
   },
   {
     "slug": "gumiho",
@@ -18030,26 +17992,6 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     "wiki": "Rat king"
   },
   {
-    "slug": "hinterkaifeck",
-    "featured": true,
-    "category": "places",
-    "title": "Hinterkaifeck",
-    "region": "Near Waidhofen, Bavaria, Germany",
-    "lat": 48.6,
-    "lon": 11.38,
-    "dateLabel": "31 March 1922",
-    "status": "open",
-    "statusLabel": "Never solved",
-    "witnesses": "Neighbours, and the police",
-    "hook": "Before six people on a lonely Bavarian farm were killed in 1922, the farmer found footprints in the snow leading to the house, and none leading away.",
-    "summary": [
-      "In the days before 31 March 1922, Andreas Gruber, the farmer at the isolated farmstead of Hinterkaifeck, north of Munich, told neighbours about footprints in the snow coming from the forest to the farm but none going back, about a newspaper no one in the house had bought, and about footsteps in the attic. A set of keys had gone missing.",
-      "On 4 April, neighbours found that all six people living there had been killed: Gruber, his wife, their widowed daughter, her two children, and a maid who had arrived only days before. There were signs that someone had stayed on the farm for days afterwards, feeding the animals."
-    ],
-    "explanation": "Despite long investigations and the questioning of many suspects over the decades, the case was never solved, and the farm was demolished in 1923. In 2007 a group of police students re-examined the evidence and said they had identified a likely suspect, but wouldn't name him out of respect for living relatives.",
-    "wiki": "Hinterkaifeck murders"
-  },
-  {
     "slug": "ourang-medan",
     "category": "places",
     "title": "The Ourang Medan",
@@ -18124,25 +18066,6 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Historians say Venice's main plague islands were others, such as the Lazzaretto Vecchio, where mass graves have been excavated, though Poveglia did serve as a quarantine station. The story of the doctor has no record behind it and grew mostly through ghost-hunting shows in the 2000s. In 2014 the island was offered for lease, and a citizens' group campaigned to keep it public.",
     "wiki": "Poveglia"
-  },
-  {
-    "slug": "elisa-lam",
-    "category": "places",
-    "title": "The Cecil Hotel and Elisa Lam",
-    "region": "Cecil Hotel, Los Angeles, California, USA",
-    "lat": 34.044,
-    "lon": -118.25,
-    "dateLabel": "February 2013",
-    "status": "explained",
-    "statusLabel": "Explained",
-    "witnesses": "Hotel staff, guests and the police",
-    "hook": "A hotel lift video of a young woman behaving strangely went around the world in 2013, and turned a tragic death into an internet mystery.",
-    "summary": [
-      "In February 2013, Elisa Lam, a 21-year-old Canadian student travelling alone, went missing from the Cecil Hotel in downtown Los Angeles. Police released security footage of her in a lift, pressing buttons, stepping in and out and gesturing as if to someone out of view.",
-      "Weeks later, after guests complained about the water, she was found in a water tank on the hotel roof. The video was watched millions of times, and online theories ranged from ghosts to conspiracies, fed by the hotel's dark history."
-    ],
-    "explanation": "The coroner ruled her death an accidental drowning, with bipolar disorder a significant factor, and found no evidence of foul play. Many have since urged people to remember her as a young woman who needed help, not as a mystery. Her story was the subject of a 2021 documentary series.",
-    "wiki": "Death of Elisa Lam"
   },
   {
     "slug": "hellfire-club",

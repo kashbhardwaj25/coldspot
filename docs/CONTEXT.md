@@ -25,7 +25,7 @@ Each case file has a "People's stories near here" button that switches modes and
 
 **Famous cases rule:** present what witnesses reported **and** the explanations offered, without taking a side. Some cases are marked Explained (Magnetic Hill, for example). Being even-handed like this is what makes people trust the unexplained ones.
 
-**Dark cases are included.** Famous cases cover grim subjects too: deaths, killings, disappearances and gruesome legends. None is left out for being dark; each is told without graphic detail ("was killed", not how). Real people are named only when they're historical, public, or already named in the public record, accusations stay accusations, and minors and private people in recent crimes are never named. Urban legends from every country belong here too, labelled "Urban legend" in whichever category fits; they aren't a separate category.
+**Dark legends are included; true crime isn't.** Famous cases are about monsters, visitors, lights, sounds, eerie places, folklore and urban legends, including dark and gruesome legends, told without graphic detail ("was killed", not how). There's no true crime: no real killings or crimes against real people, and no cases centred on a real person's death or mental-health crisis. Real people are named only when they told their own story publicly, or are historical or public figures; accusations stay accusations, and minors and private people are never named. Urban legends from every country belong here, labelled "Urban legend" in whichever category fits; they aren't a separate category.
 
 ## Who it's for
 
@@ -127,7 +127,8 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 | 2026-10-18 | Every story is reviewed by hand. Automatic approval was considered and rejected                                                        |
 | 2026-10-18 | Sharing and echoing need Google sign-in; reading doesn't. Stories show a pen name or Anonymous                                         |
 | 2026-10-18 | Narration removed from the product for now; it may return later with a season pass                                                     |
-| 2026-10-25 | Famous cases include dark subjects and urban legends, told without graphic detail; urban legends are a label, not a sixth category     |
+| 2026-10-25 | Famous cases include dark legends and urban legends, told without graphic detail; urban legends are a label, not a sixth category      |
+| 2026-10-25 | No true crime: no real killings, and no cases centred on a real person's death or mental-health crisis                                 |
 
 ## Open questions
 
