@@ -25,6 +25,8 @@ Each case file has a "People's stories near here" button that switches modes and
 
 **Famous cases rule:** present what witnesses reported **and** the explanations offered, without taking a side. Some cases are marked Explained (Magnetic Hill, for example). Being even-handed like this is what makes people trust the unexplained ones.
 
+**Dark cases are included.** Famous cases cover grim subjects too: deaths, killings, disappearances and gruesome legends. None is left out for being dark; each is told without graphic detail ("was killed", not how). Real people are named only when they're historical, public, or already named in the public record, accusations stay accusations, and minors and private people in recent crimes are never named. Urban legends from every country belong here too, labelled "Urban legend" in whichever category fits; they aren't a separate category.
+
 ## Who it's for
 
 - People who love unexplained stories: readers of r/Paranormal and r/HighStrangeness, and listeners of story podcasts. Mostly 18–34.
@@ -50,7 +52,7 @@ Everything outside those moments uses plain English, so first-time users never h
 - **Name:** Uncanny Map. Wordmark in capitals: UNCANNY MAP. Domain: uncannymap.com.
 - **Tagline:** Something happened here.
 - **Logo:** an eyeball that turns to follow the pointer (it holds still with reduced motion).
-- **Tone:** campfire, not jump scare. It's eerie, calm and literate, with no gore and no red-and-black horror styling. That's what sets it apart from ghost-detector apps.
+- **Tone:** campfire, not jump scare. It's eerie, calm and literate, with no graphic detail and no red-and-black horror styling, even when the subject is dark. That's what sets it apart from ghost-detector apps.
 - **Look:** a glow-in-the-dark ceiling after lights-out. Surfaces are matte and unlit; the only light is phosphor. The story in the ring glows fully, and the ones you've passed keep a fading afterglow. Details in `DESIGN.md`.
 - **Palette:** night (#0D0B14), ink (#E8E5DC), phosphor (#CDF3D4) as the one emitted light. Category colours are sky #86BCE8, visitors #C5A2EE, creatures #92C99A, voices #E9B45E and places #E3836A.
 - **Type:** Newsreader for story text and titles, IBM Plex Mono for interface labels.
@@ -125,6 +127,7 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 | 2026-10-18 | Every story is reviewed by hand. Automatic approval was considered and rejected                                                        |
 | 2026-10-18 | Sharing and echoing need Google sign-in; reading doesn't. Stories show a pen name or Anonymous                                         |
 | 2026-10-18 | Narration removed from the product for now; it may return later with a season pass                                                     |
+| 2026-10-25 | Famous cases include dark subjects and urban legends, told without graphic detail; urban legends are a label, not a sixth category     |
 
 ## Open questions
 

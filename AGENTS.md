@@ -184,6 +184,13 @@ public/towns.json                towns for the share form's search (generated; d
 - Regions are looked up from coordinates (`regionFor`), never typed: countries follow Natural Earth's India edition, so Kashmir, Ladakh and Arunachal Pradesh are in India. The outlines in `src/data/regions.json` are for server-side lookups only; never draw them or send them to the browser.
 - The map shows **coastlines only, no country borders**. Borders in common world datasets are politically sensitive in India. Don't add a basemap with borders without an explicit decision.
 - Famous cases must present what was reported **and** the explanations offered, without taking a side. Don't write that a case is proven.
+- Famous cases include dark ones too: killings, deaths, disappearances, gruesome legends and urban legends. Don't leave a case out because it's grim; tell it without graphic detail. Say what happened plainly ("was killed", "was badly hurt", "died"), not how a body looked or how an injury was done.
+- Legal care for famous cases (not legal advice; ask when unsure):
+  - Real people: name only historical figures, public figures, and people already named in public records or major reporting. State accusations as accusations, and don't present an unproven crime as fact. Never name minors, or private people involved in recent crimes.
+  - Living people and their families: stick to what's on the public record, and don't speculate about how someone died.
+  - Suicide: mention it only where a place is known for it, never describe methods, and point to help.
+  - Write everything in our own words; don't copy text from sources. Fictional characters (the Slender Man, for example) can be described, but not their artwork.
+- Urban legends aren't a category. They go in whichever of the five categories fits, with the status label "Urban legend".
 - The privacy policy (`features/legal/PrivacyPolicy.tsx`) describes exactly what's collected. If you change what's stored, sent to a third party or kept in cookies, update it and its date in the same change.
 
 ### Globe engine
@@ -201,7 +208,7 @@ public/towns.json                towns for the share form's search (generated; d
 - Colours and fonts come from the CSS variables in `src/styles/tokens.css`. Categories and their colours come from `src/lib/categories.ts`; don't hard-code them elsewhere.
 - Fonts: Newsreader (serif, story text and titles) and IBM Plex Mono (UI labels).
 - Write in plain English. The radio metaphor appears only in moments: "Between stations", tuning in, **echoes**. Everything else uses plain words: stories, cases, categories (Sky, Visitors, Creatures, Voices & sounds, Places).
-- The tone is campfire, not jump scare: no gore, no horror clichés, no "ghost" or "haunted" branding.
+- The tone is campfire, not jump scare: no graphic detail, no horror clichés or styling, no "ghost" or "haunted" branding. Dark subjects are fine in famous cases; it's the telling that stays calm.
 - Every page must work at 400px wide with no horizontal scroll.
 - Sample stories must stay visibly labelled "Sample story" until they're replaced.
 
