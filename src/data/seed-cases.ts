@@ -18142,5 +18142,1015 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Folklorists see her as a bogeyman figure told to keep children close to home. Some link her to Agnes Scott, a 15th-century anchoress who lived in a cell nearby, or to older goddess figures, though neither link is certain. The cave and the hills have long since been built over.",
     "wiki": "Black Annis"
+  },
+  {
+    "slug": "tower-of-london-ghosts",
+    "featured": true,
+    "category": "places",
+    "title": "The Ghosts of the Tower of London",
+    "region": "Tower of London, London, England",
+    "lat": 51.508,
+    "lon": -0.076,
+    "dateLabel": "Reported for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Yeoman Warders, sentries and visitors",
+    "hook": "The Tower of London is said to be among England's most haunted places, with a queen in the chapel and a bear on the stairs.",
+    "summary": [
+      "The Tower of London, a royal fortress begun in the 1070s, has been a palace, a prison and a place of execution. Over the centuries guards and visitors have reported many ghosts: Anne Boleyn, executed there in 1536, said to walk near the Chapel of St Peter ad Vincula; two young princes said to have vanished there in 1483; and a White Lady.",
+      "One of the strangest stories dates from the early 1800s, when a sentry said a huge bear came at him on a staircase and his bayonet passed straight through it."
+    ],
+    "explanation": "For six centuries the Tower housed a royal menagerie, including bears, which may have fed the bear story. Most of the ghost tales were written down in the 19th and 20th centuries and are part of the Tower's tradition rather than evidence. The Yeoman Warders still tell them to visitors.",
+    "wiki": "Tower of London"
+  },
+  {
+    "slug": "mary-kings-close",
+    "category": "places",
+    "title": "Mary King's Close",
+    "region": "Royal Mile, Edinburgh, Scotland",
+    "lat": 55.9498,
+    "lon": -3.1902,
+    "dateLabel": "Built over from 1753",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Visitors and guides",
+    "hook": "Beneath Edinburgh's Royal Mile lie old streets that were built over in the 1700s, where a little girl's ghost is said to wait for toys.",
+    "summary": [
+      "Mary King's Close was a narrow, busy street running down from Edinburgh's Royal Mile. In 1753 the city began building the Royal Exchange, now the City Chambers, on top of it; the upper floors of the old houses were taken down and the lower parts became foundations, leaving a warren of underground streets and rooms.",
+      "Legend says the close was sealed during a plague with sick people inside. In 1992 a visiting psychic said she sensed a young girl, 'Annie', who had lost her doll, and since then visitors have left thousands of toys in her room."
+    ],
+    "explanation": "Historians say the close wasn't walled up with people inside, though plague did strike Edinburgh in 1645. The underground streets are real and well preserved, and since 2003 they've been open for guided tours. Annie's room, piled with gifts, is one of the most visited spots.",
+    "wiki": "Mary King's Close"
+  },
+  {
+    "slug": "monte-cristo-homestead",
+    "category": "places",
+    "title": "Monte Cristo Homestead",
+    "region": "Junee, New South Wales, Australia",
+    "lat": -34.86,
+    "lon": 147.58,
+    "dateLabel": "Built in 1885",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Owners, visitors and ghost-tour guests",
+    "hook": "A grand Victorian homestead in rural New South Wales calls itself Australia's most haunted house.",
+    "summary": [
+      "Monte Cristo is a Victorian mansion built in 1885 by the farmer Christopher Crawley on a hill above Junee, in New South Wales. It later fell into ruin, until new owners bought it in 1963 and began restoring it.",
+      "Stories tell of lights, voices, cold spots and figures, including the original lady of the house, said still to watch over it, and guests on ghost tours report feeling watched or uneasy in certain rooms."
+    ],
+    "explanation": "As with many old houses, the tales grew after it became an attraction offering ghost tours. There's no evidence beyond personal experiences, which can be shaped by expectation, darkness and the creaks and draughts of an old building.",
+    "wiki": "Monte Cristo Homestead"
+  },
+  {
+    "slug": "pluckley",
+    "category": "places",
+    "title": "Pluckley, England's Most Haunted Village",
+    "region": "Pluckley, Kent, England",
+    "lat": 51.17,
+    "lon": 0.75,
+    "dateLabel": "Named most haunted in 1989",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Villagers and ghost hunters",
+    "hook": "A small village in Kent was once named England's most haunted, with a dozen ghosts said to roam its lanes.",
+    "summary": [
+      "Pluckley, a village in the Kent countryside, was listed in the 1989 Guinness Book of Records as the most haunted village in England, with around a dozen ghosts. They include a highwayman at Fright Corner, a Red Lady searching the churchyard for her baby's grave, a phantom coach and horses, and a schoolmaster.",
+      "The village became a magnet for ghost hunters, especially at Halloween, which some residents found a nuisance."
+    ],
+    "explanation": "Most of the stories can't be traced to records, and many seem to have been collected or embellished in the 20th century. Pluckley is otherwise known as the setting of the TV series The Darling Buds of May. Its ghosts are part of its charm.",
+    "wiki": "Pluckley"
+  },
+  {
+    "slug": "waverly-hills-sanatorium",
+    "category": "places",
+    "title": "Waverly Hills Sanatorium",
+    "region": "Louisville, Kentucky, USA",
+    "lat": 38.13,
+    "lon": -85.84,
+    "dateLabel": "Opened in 1910",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Visitors and ghost-tour guests",
+    "hook": "A huge former tuberculosis hospital in Kentucky is said to be one of America's most haunted buildings.",
+    "summary": [
+      "Waverly Hills Sanatorium opened in 1910 and was rebuilt as a large five-storey hospital in 1926 to treat tuberculosis, then widespread in the area. Many patients died there before antibiotics made the disease curable. The hospital closed in 1961, and later became a care home until 1980.",
+      "The empty building gained a reputation for ghosts: a boy said to play with a ball, a woman in white and shadows in the long corridors. A long tunnel down the hill, used to move supplies, became known as the 'body chute'."
+    ],
+    "explanation": "There's no evidence for the ghosts beyond reports, many from paid tours and TV shows, which help fund the building's upkeep. Its real history is a reminder of how deadly tuberculosis once was; the death toll is often exaggerated in the legends.",
+    "wiki": "Waverly Hills Sanatorium"
+  },
+  {
+    "slug": "rms-queen-mary",
+    "category": "places",
+    "title": "The Ghosts of the Queen Mary",
+    "region": "Long Beach, California, USA",
+    "lat": 33.75,
+    "lon": -118.19,
+    "dateLabel": "Moored in Long Beach since 1967",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Staff, hotel guests and tour visitors",
+    "hook": "The great liner Queen Mary, now a hotel in California, is said to carry ghosts from her decades at sea.",
+    "summary": [
+      "The RMS Queen Mary crossed the Atlantic from 1936, carried troops during the Second World War as the 'Grey Ghost', and has been moored at Long Beach, California, as a hotel and attraction since 1967.",
+      "Staff and guests have reported ghosts including a crewman in the engine room near watertight Door 13, children's laughter by the old first-class swimming pool, and a woman in white in the Queen's Salon. One cabin was closed to guests for years because of reports."
+    ],
+    "explanation": "Old ships are full of creaks, echoes and shifting temperatures, which can feed such impressions. The ghost tours are a major attraction. No haunting has been shown to be more than experience and storytelling.",
+    "wiki": "RMS Queen Mary"
+  },
+  {
+    "slug": "stanley-hotel",
+    "category": "places",
+    "title": "The Stanley Hotel",
+    "region": "Estes Park, Colorado, USA",
+    "lat": 40.383,
+    "lon": -105.519,
+    "dateLabel": "Opened in 1909",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Guests and staff",
+    "hook": "A night at a Colorado hotel inspired Stephen King's The Shining, and guests still report strange happenings there.",
+    "summary": [
+      "The Stanley Hotel opened in 1909 in Estes Park, Colorado, beneath the Rocky Mountains. In 1974 Stephen King and his wife stayed there as nearly the only guests just before it closed for the winter; King had a nightmare there and went on to write The Shining (1977), set in the fictional Overlook Hotel.",
+      "Guests and staff report piano music in the empty music room, footsteps and laughter in quiet corridors, and room 217, where King stayed, is especially requested."
+    ],
+    "explanation": "The hotel embraces its reputation with ghost tours. As with other 'haunted' hotels, the reports are personal experiences, often shaped by expectation and by the famous novel. King has said the grand, empty hotel simply fired his imagination.",
+    "wiki": "The Stanley Hotel"
+  },
+  {
+    "slug": "banff-springs-hotel",
+    "category": "places",
+    "title": "The Ghost Bride of Banff Springs",
+    "region": "Banff, Alberta, Canada",
+    "lat": 51.164,
+    "lon": -115.562,
+    "dateLabel": "Hotel opened in 1888",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Guests and staff",
+    "hook": "In a castle-like hotel in the Canadian Rockies, a bride is said to dance on the stairs where she once fell.",
+    "summary": [
+      "The Banff Springs Hotel, a grand stone building in the Canadian Rockies, opened in 1888. Its best-known legend is the Ghost Bride: a bride who, the story goes, was walking down a marble staircase when her dress caught fire from a candle, and she fell and died.",
+      "Guests and staff report seeing her dancing in the ballroom or on the stairs. Another tale tells of Sam, a bellman who loved the hotel so much that he still helps guests long after his death."
+    ],
+    "explanation": "There's no record of the bride's death, and the staircase was built later than some versions suggest. The stories are part of the hotel's lore, told to visitors and on tours.",
+    "wiki": "Banff Springs Hotel"
+  },
+  {
+    "slug": "chaonei-no-81",
+    "category": "places",
+    "title": "Chaonei No. 81",
+    "region": "Dongcheng, Beijing, China",
+    "lat": 39.92,
+    "lon": 116.42,
+    "dateLabel": "Built in the early 1900s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Beijing residents and urban explorers",
+    "hook": "A grand old house in central Beijing stood empty for decades, and became the city's most famous haunted house.",
+    "summary": [
+      "Chaonei No. 81 is a three-storey brick mansion in a Western style, built in the early 20th century on Chaoyangmen Inner Street in central Beijing. It was used by various organisations over the years, then left empty.",
+      "Stories say it's haunted by the wife of an official who left her behind when he fled in 1949, and tell of figures, voices and a bus that drove up to the house and vanished. The 2014 film The House That Never Dies drew on the legends."
+    ],
+    "explanation": "Records don't support the ghost stories, and researchers have found the house's actual history much less dramatic. The building is protected as a heritage site and has been restored, but it remains a source of fascination for Beijing's urban explorers.",
+    "wiki": "Chaonei No. 81"
+  },
+  {
+    "slug": "castle-of-good-hope",
+    "category": "places",
+    "title": "The Ghosts of the Castle of Good Hope",
+    "region": "Cape Town, Western Cape, South Africa",
+    "lat": -33.926,
+    "lon": 18.427,
+    "dateLabel": "Built 1666–1679",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Soldiers, guides and visitors",
+    "hook": "South Africa's oldest building, a star-shaped fort in Cape Town, is said to be haunted by a figure on the walls and a bell that rings itself.",
+    "summary": [
+      "The Castle of Good Hope, a five-pointed star fort built by the Dutch East India Company between 1666 and 1679, is the oldest surviving colonial building in South Africa. It has served as a fortress, a seat of government and a prison.",
+      "Ghost stories include a tall figure seen leaning over the walls between two bastions, a black dog that appears and vanishes, and a bell in the tower said to ring by itself."
+    ],
+    "explanation": "The legends are part of the castle's popular history, told on tours. Its real past includes the hard history of colonial rule, which visitors are also reminded of today. There's no evidence for the ghosts beyond stories.",
+    "wiki": "Castle of Good Hope"
+  },
+  {
+    "slug": "catacombs-of-paris",
+    "featured": true,
+    "category": "places",
+    "title": "The Catacombs of Paris",
+    "region": "Paris, France",
+    "lat": 48.834,
+    "lon": 2.332,
+    "dateLabel": "Bones moved there from 1786",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Visitors, workers and underground explorers",
+    "hook": "Beneath Paris, the bones of millions lie in old quarry tunnels, where one man got lost in 1793 and wasn't found for 11 years.",
+    "summary": [
+      "In the late 18th century, Paris's overflowing cemeteries were emptied and the bones of around six million people were moved into old limestone quarries beneath the city. Part of the network was arranged into ossuaries with walls of stacked bones and opened to visitors as the Catacombs.",
+      "Legend tells of Philibert Aspairt, a hospital doorkeeper said to have gone down in 1793 and lost his way; he was found in 1804, not far from an exit, and a tomb marks the spot. Another story tells of a video camera found in the tunnels, showing someone becoming lost in the dark."
+    ],
+    "explanation": "The ossuary open to the public is only a small part of hundreds of kilometres of tunnels, most of them closed and illegal to enter, though explorers called 'cataphiles' roam them. The 'lost camera' footage is widely thought to have been staged. Aspairt's story is marked by a real tombstone, though its details are uncertain.",
+    "wiki": "Catacombs of Paris"
+  },
+  {
+    "slug": "palais-garnier-phantom",
+    "featured": true,
+    "category": "places",
+    "title": "The Lake Beneath the Paris Opera",
+    "region": "Palais Garnier, Paris, France",
+    "lat": 48.872,
+    "lon": 2.332,
+    "dateLabel": "Opened in 1875",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Builders, audiences and the novelist Gaston Leroux",
+    "hook": "Beneath the Paris Opera lies a hidden lake, and a falling chandelier weight there helped inspire The Phantom of the Opera.",
+    "summary": [
+      "The Palais Garnier, the grand opera house of Paris, opened in 1875. During its construction, builders struck groundwater, and a huge water-filled tank was built beneath the stage to steady the foundations; it still holds water, and firefighters have trained in it.",
+      "In 1896 a counterweight of the great chandelier fell during a performance, and a member of the audience was killed. These stories, and rumours of a ghost in Box 5, inspired Gaston Leroux's novel The Phantom of the Opera (1910)."
+    ],
+    "explanation": "There's no phantom, but the underground 'lake' and the accident are real, and Leroux wove them into his novel, which became one of the most famous musicals of all time. Box 5 is now marked as the Phantom's box.",
+    "wiki": "Palais Garnier"
+  },
+  {
+    "slug": "sleepy-hollow",
+    "category": "places",
+    "title": "Sleepy Hollow and the Headless Horseman",
+    "region": "Sleepy Hollow, New York, USA",
+    "lat": 41.09,
+    "lon": -73.86,
+    "dateLabel": "Published in 1820",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Hudson Valley tradition, and Washington Irving",
+    "hook": "A village on the Hudson gave its name to the legend of the Headless Horseman, and celebrates him every October.",
+    "summary": [
+      "In 1820 Washington Irving published The Legend of Sleepy Hollow, set in a Dutch farming community near Tarrytown, New York. It tells of the schoolmaster Ichabod Crane, chased one night by a headless horseman, said to be the ghost of a Hessian soldier who rides out from the churchyard.",
+      "The village of North Tarrytown renamed itself Sleepy Hollow in 1996. The Old Dutch Church and its burying ground, where Irving himself is buried, draw thousands of visitors every Halloween."
+    ],
+    "explanation": "Irving drew on local folklore and on European tales of headless riders, such as the Irish dullahan. The legend is fiction, but it has become a living local tradition.",
+    "wiki": "Sleepy Hollow, New York"
+  },
+  {
+    "slug": "uluru-sorry-rocks",
+    "category": "places",
+    "title": "The Sorry Rocks of Uluru",
+    "region": "Uluru, Northern Territory, Australia",
+    "lat": -25.345,
+    "lon": 131.036,
+    "dateLabel": "Returned for decades",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Park staff, and visitors who sent rocks back",
+    "hook": "Every year, people post back rocks they took from Uluru, with letters blaming them for years of bad luck.",
+    "summary": [
+      "Uluru, the great sandstone monolith in Australia's Northern Territory, is sacred to its traditional owners, the Anangu, who ask visitors not to take anything from it. Climbing it was banned in 2019.",
+      "For decades, park staff have received parcels of rocks and sand taken by tourists, sent back with letters apologising and describing illnesses, accidents and misfortunes the senders blame on taking them. The returned stones are known as 'sorry rocks'."
+    ],
+    "explanation": "There's no evidence that taking rocks causes bad luck; the letters show how guilt and coincidence can feed a belief. The Anangu have said they don't curse anyone; they simply ask that the land be respected. Returned rocks often can't be put back where they came from.",
+    "wiki": "Uluru"
+  },
+  {
+    "slug": "glastonbury-tor",
+    "category": "places",
+    "title": "Glastonbury Tor",
+    "region": "Glastonbury, Somerset, England",
+    "lat": 51.144,
+    "lon": -2.699,
+    "dateLabel": "Legends from the Middle Ages",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Pilgrims, monks and visitors",
+    "hook": "A lone hill in Somerset is linked to King Arthur's Avalon and to a hidden entrance to the fairy world.",
+    "summary": [
+      "Glastonbury Tor is a steep, terraced hill rising from the Somerset Levels, crowned by the roofless tower of a medieval church of St Michael. In legend it's Avalon, where King Arthur was taken after his last battle, and in Welsh tradition the home of Gwyn ap Nudd, king of the fairies, with a secret way into the hill.",
+      "In 1191 monks at nearby Glastonbury Abbey announced they had found the grave of Arthur and Guinevere. The Tor also draws reports of strange lights and people interested in ley lines and earth energies."
+    ],
+    "explanation": "Historians consider the 'discovery' of Arthur's grave a likely publicity move by monks whose abbey had burned and needed funds. The terraces on the Tor may be medieval farming or an ancient maze; that's debated. It remains a place of pilgrimage and festivals.",
+    "wiki": "Glastonbury Tor"
+  },
+  {
+    "slug": "sedona-vortexes",
+    "category": "places",
+    "title": "The Vortexes of Sedona",
+    "region": "Sedona, Arizona, USA",
+    "lat": 34.87,
+    "lon": -111.76,
+    "dateLabel": "Popular since 1987",
+    "status": "explained",
+    "statusLabel": "No evidence",
+    "witnesses": "Visitors and spiritual seekers",
+    "hook": "The red rocks around Sedona, Arizona, are said to hold swirling 'vortexes' of energy that people travel from around the world to feel.",
+    "summary": [
+      "Sedona lies among striking red sandstone buttes and canyons in Arizona. From the 1980s, especially after a large New Age gathering there in 1987, it became known for 'vortexes': spots such as Bell Rock, Cathedral Rock and Airport Mesa where visitors say they feel energy, tingling or a deep calm.",
+      "Twisted juniper trees near these spots are often pointed to as evidence."
+    ],
+    "explanation": "Scientists have found no unusual magnetic or electrical activity at the vortex sites. Twisted junipers are common and linked to wind and growth. The feelings people describe may come from the dramatic landscape and from expectation. Vortex tourism is now a big part of Sedona's economy.",
+    "wiki": "Sedona, Arizona"
+  },
+  {
+    "slug": "hill-of-witches",
+    "category": "places",
+    "title": "The Hill of Witches",
+    "region": "Juodkrantė, Curonian Spit, Lithuania",
+    "lat": 55.55,
+    "lon": 21.12,
+    "dateLabel": "Carvings since 1979",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Folk artists and visitors",
+    "hook": "On a wooded dune on the Baltic coast, dozens of carved wooden witches, devils and spirits line the forest paths.",
+    "summary": [
+      "The Hill of Witches, Raganų kalnas, is a forested dune near the village of Juodkrantė on the Curonian Spit, on Lithuania's Baltic coast. Since 1979, folk artists have carved dozens of wooden sculptures there of characters from Lithuanian legends: witches, devils, spirits and heroes.",
+      "The hill has long been linked in local tradition with midsummer gatherings, when witches and spirits were believed to come out."
+    ],
+    "explanation": "It's a folk-art park rather than a mystery, celebrating a folklore in which witches and devils are often more mischievous than evil. It lies on the Curonian Spit, a UNESCO World Heritage Site of shifting dunes.",
+    "wiki": "Hill of Witches"
+  },
+  {
+    "slug": "memphre",
+    "category": "creatures",
+    "title": "Memphré of Lake Memphremagog",
+    "region": "Lake Memphremagog, Magog, Quebec, Canada",
+    "lat": 45.17,
+    "lon": -72.25,
+    "dateLabel": "Reported since the 1800s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Boaters and people on the shore",
+    "hook": "A long lake between Quebec and Vermont has its own serpent, with a society that has collected sightings since the 1980s.",
+    "summary": [
+      "Lake Memphremagog stretches about 50 km from Newport, Vermont, north into Quebec. Stories of a serpent-like creature in it go back to the 1800s.",
+      "The creature is called Memphré. In 1986 a local enthusiast founded a society to collect sightings, and it has logged well over 200 reports of a dark, humped animal."
+    ],
+    "explanation": "Suggested explanations include large fish such as lake sturgeon, otters, beavers, floating logs and boat wakes. No physical evidence has been found. Like Champ and Nessie, Memphré is a much-loved local mascot.",
+    "wiki": "Memphre"
+  },
+  {
+    "slug": "tahoe-tessie",
+    "category": "creatures",
+    "title": "Tahoe Tessie",
+    "region": "Lake Tahoe, California and Nevada, USA",
+    "lat": 39.09,
+    "lon": -120.03,
+    "dateLabel": "Reported for decades",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Boaters, divers and visitors",
+    "hook": "Lake Tahoe, one of the deepest lakes in North America, has its own monster, nicknamed Tessie.",
+    "summary": [
+      "Lake Tahoe, on the border of California and Nevada, is around 500 metres deep and famous for its clear blue water. Stories of a large creature living in its depths have circulated for decades, and it's nicknamed Tahoe Tessie.",
+      "Reports describe a dark, serpent-like animal or humps moving through the water, and tales say divers have seen huge shapes near the bottom."
+    ],
+    "explanation": "Suggestions include large lake trout, boat wakes and floating logs. The lake's cold water and great depth make legends easy to imagine. No evidence of an unknown animal has been found, and Tessie is a cheerful local mascot.",
+    "wiki": "Tahoe Tessie"
+  },
+  {
+    "slug": "chessie",
+    "category": "creatures",
+    "title": "Chessie of Chesapeake Bay",
+    "region": "Chesapeake Bay, Maryland, USA",
+    "lat": 38.5,
+    "lon": -76.4,
+    "dateLabel": "Filmed in 1982",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Boaters and people living on the bay",
+    "hook": "In 1982 someone filmed something long and dark swimming in Chesapeake Bay, and Chessie became a local star.",
+    "summary": [
+      "Chessie is said to be a serpent-like creature in Chesapeake Bay, on the US East Coast. Reports increased from the late 1970s, describing a dark, snake-like animal several metres long with humps.",
+      "In 1982 a resident of Kent Island filmed a long, dark shape in the water near his home; the film was studied by scientists at the Smithsonian, who couldn't identify it."
+    ],
+    "explanation": "In 1994 a real manatee that wandered unusually far north into the bay was nicknamed Chessie, and some think manatees, river otters swimming in a line or floating debris explain earlier sightings. No unknown animal has been confirmed.",
+    "wiki": "Chessie (sea monster)"
+  },
+  {
+    "slug": "cressie",
+    "category": "creatures",
+    "title": "Cressie of Crescent Lake",
+    "region": "Crescent Lake, Robert's Arm, Newfoundland, Canada",
+    "lat": 49.48,
+    "lon": -55.83,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Local people and divers",
+    "hook": "A small lake in Newfoundland is said to hold a giant eel-like creature, and divers once reported huge eels there.",
+    "summary": [
+      "Crescent Lake, near the town of Robert's Arm in Newfoundland, has a legend of a serpent-like creature called Cressie, said to be many metres long. Stories go back generations.",
+      "In the 1990s, divers said they saw eels of unusual size in the lake, which added to the legend."
+    ],
+    "explanation": "Most suspect large eels, which can grow long and live for decades in lakes. No specimen or clear photograph of a giant creature has been found.",
+    "wiki": "Cressie"
+  },
+  {
+    "slug": "ozark-howler",
+    "category": "creatures",
+    "title": "The Ozark Howler",
+    "region": "Ozark Mountains, Arkansas, USA",
+    "lat": 35.9,
+    "lon": -92.6,
+    "dateLabel": "Told since settler days",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Hunters and hill-country storytellers",
+    "hook": "In the Ozarks, people tell of a bear-sized black beast with horns and glowing eyes, whose howl chills the blood.",
+    "summary": [
+      "The Ozark Howler is said to roam the remote Ozark Mountains of Arkansas, Missouri and Oklahoma: a large, black, cat- or bear-like animal with shaggy fur, horns and glowing red eyes. It's known above all for its howl, described as a mix of a wolf's howl, an elk's bugle and a laugh.",
+      "Tales of a howling beast in the hills go back to settler days, though the name became widespread only in the late 20th century."
+    ],
+    "explanation": "Some researchers think the modern Ozark Howler was partly a hoax spread in the 1990s. The sounds may come from known animals such as foxes, owls or bobcats. No evidence of the creature exists.",
+    "wiki": "Ozark Howler"
+  },
+  {
+    "slug": "snallygaster",
+    "category": "creatures",
+    "title": "The Snallygaster",
+    "region": "Frederick County, Maryland, USA",
+    "lat": 39.43,
+    "lon": -77.42,
+    "dateLabel": "Newspaper scare in 1909",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Farmers and newspaper readers",
+    "hook": "German settlers in Maryland told of a winged, beaked creature that swooped on farms, and in 1909 the papers said it was back.",
+    "summary": [
+      "The Snallygaster is a creature of the folklore of central Maryland, brought by German settlers in the 1700s; its name may come from schneller Geist, 'quick spirit'. It's described as a dragon-like beast with wings and a metallic beak, sometimes with tentacles, that swooped down on farms.",
+      "In 1909 local newspapers ran a series of reports of a Snallygaster terrorising the area, and the story spread nationally. Seven-pointed stars painted on barns were said to keep it away."
+    ],
+    "explanation": "The 1909 reports are widely thought to have been invented by newspaper editors to sell papers. The painted stars are part of German-American folk art. The creature lives on in local festivals.",
+    "wiki": "Snallygaster"
+  },
+  {
+    "slug": "gwyllgi",
+    "category": "creatures",
+    "title": "The Gwyllgi, the Dog of Darkness",
+    "region": "Mid Wales",
+    "lat": 52.3,
+    "lon": -3.6,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Night travellers in Wales",
+    "hook": "On lonely Welsh roads at night, travellers feared the Gwyllgi, a huge black dog with burning eyes.",
+    "summary": [
+      "The Gwyllgi, 'dog of darkness', is a phantom black dog of Welsh folklore, said to appear on lonely roads and lanes at night. It's described as a huge mastiff with blazing red eyes, sometimes seen padding silently beside travellers.",
+      "Meeting it was often taken as an omen of death or misfortune."
+    ],
+    "explanation": "It belongs to the wider British tradition of phantom black dogs, like Black Shuck in East Anglia and the Barghest in Yorkshire. Folklorists see such dogs as guardians of thresholds and warnings about travelling alone at night; stray dogs, shadows and fear may lie behind sightings.",
+    "wiki": "Gwyllgi"
+  },
+  {
+    "slug": "cu-sith",
+    "category": "creatures",
+    "title": "The Cù-sìth, the Fairy Hound",
+    "region": "Lochaber, Scottish Highlands",
+    "lat": 57,
+    "lon": -5,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Highland tradition",
+    "hook": "In the Highlands, a huge dark-green fairy hound was said to bark three times before carrying someone off to the otherworld.",
+    "summary": [
+      "The cù-sìth, 'fairy dog', is a creature of Scottish Highland folklore: a hound as big as a calf, with shaggy dark-green fur, a long braided tail and enormous paws. It was said to roam the moors in silence, leaving huge footprints.",
+      "It barked three times. Anyone who heard it had until the third bark to reach safety, or be taken away to the fairy world."
+    ],
+    "explanation": "Like other phantom dogs, the cù-sìth warned of the dangers of the moors at night. Its green colour ties it to the fairies of Scottish tradition.",
+    "wiki": "Cù-sìth"
+  },
+  {
+    "slug": "cat-sith",
+    "category": "creatures",
+    "title": "The Cat-sìth",
+    "region": "Strathspey, Scottish Highlands",
+    "lat": 57.3,
+    "lon": -3.7,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Highland tradition",
+    "hook": "A large black fairy cat with a white spot on its chest was said to steal souls in the Highlands, unless people kept watch.",
+    "summary": [
+      "The cat-sìth is a fairy creature of Scottish and Irish folklore: a large black cat with a white spot on its chest. It was believed to steal the soul of a person who had just died, by passing over the body before burial.",
+      "So families kept a long wake, watching over the body day and night with games, riddles and music, and no fire, since cats are drawn to warmth. On Samhain, a saucer of milk left out was said to win the cat-sìth's blessing."
+    ],
+    "explanation": "Some suggest the legend was inspired by the Kellas cat, a large black hybrid of wildcat and domestic cat found in Scotland and recognised by scientists in the 1980s. The cat-sìth is one of the forerunners of the black cat of Halloween.",
+    "wiki": "Cat-sìth"
+  },
+  {
+    "slug": "barghest",
+    "category": "creatures",
+    "title": "The Barghest",
+    "region": "Trollers Gill, Wharfedale, Yorkshire, England",
+    "lat": 54.06,
+    "lon": -1.93,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Yorkshire tradition",
+    "hook": "In a Yorkshire limestone gorge, the Barghest, a monstrous black dog with eyes like saucers, was said to wait for travellers.",
+    "summary": [
+      "The Barghest is a phantom black dog of northern English folklore, especially in Yorkshire, often described as huge, with eyes as big as saucers, and sometimes able to take other shapes. It was linked to places such as Trollers Gill, a narrow limestone gorge in Wharfedale, and the lanes of York.",
+      "Seeing it was an omen of death, and in some tales it led a ghostly procession of dogs when an important person died."
+    ],
+    "explanation": "It belongs to the wider British tradition of black dogs. Some think tales like it helped inspire Arthur Conan Doyle's The Hound of the Baskervilles, along with Dartmoor's own black-dog legends.",
+    "wiki": "Barghest"
+  },
+  {
+    "slug": "tarasque",
+    "category": "creatures",
+    "title": "The Tarasque",
+    "region": "Tarascon, Bouches-du-Rhône, France",
+    "lat": 43.806,
+    "lon": 4.66,
+    "dateLabel": "Festival since 1474",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Provençal tradition",
+    "hook": "A dragon was said to terrorise the Rhône until a saint tamed it, and the town of Tarascon still parades its effigy.",
+    "summary": [
+      "In the legend of Tarascon, in Provence, the Tarasque was a dragon-like creature with a lion's head, six short legs, a spiked shell like a turtle's and a scaly tail. It lived in the Rhône and attacked people and boats.",
+      "According to the 13th-century Golden Legend, Saint Martha found it, tamed it with hymns and holy water and led it back to the town. Since 1474 Tarascon has celebrated the Tarasque with a festival and a giant effigy paraded through the streets."
+    ],
+    "explanation": "Folklorists see the Tarasque as one of many dragon legends about chaos tamed by faith, and perhaps about the dangers of the river. The festival is part of UNESCO's list of Processional Giants and Dragons in Belgium and France.",
+    "wiki": "Tarasque"
+  },
+  {
+    "slug": "wawel-dragon",
+    "category": "creatures",
+    "title": "The Wawel Dragon",
+    "region": "Wawel Hill, Kraków, Poland",
+    "lat": 50.054,
+    "lon": 19.935,
+    "dateLabel": "Written down around 1200",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Polish tradition",
+    "hook": "A dragon in a cave beneath Kraków's royal hill was undone by a clever trick: a sheep stuffed with sulphur.",
+    "summary": [
+      "In Polish legend, the Wawel Dragon lived in a cave beneath Wawel Hill in Kraków, devouring livestock and terrorising the people, until a shoemaker's apprentice named Skuba offered it a sheep stuffed with sulphur. The dragon swallowed it, grew so thirsty that it drank from the Vistula until it burst.",
+      "The cave, the Dragon's Den, can be visited, and outside it stands a metal dragon statue that breathes real fire every few minutes."
+    ],
+    "explanation": "The legend was first written down by the chronicler Wincenty Kadłubek around 1200. Some suggest it was inspired by finds of large fossil bones, and old bones hang at the entrance of Wawel Cathedral as 'dragon bones'. The dragon is a symbol of Kraków.",
+    "wiki": "Wawel Dragon"
+  },
+  {
+    "slug": "ningyo-mummy",
+    "category": "creatures",
+    "title": "The Mermaid Mummies of Japan",
+    "region": "Asakuchi, Okayama, Japan",
+    "lat": 34.53,
+    "lon": 133.58,
+    "dateLabel": "Studied in 2022–2023",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Temple keepers and scientists",
+    "hook": "Japanese temples keep small, shrivelled 'mermaid mummies', and in 2023 scientists scanned one to find out what it really was.",
+    "summary": [
+      "In Japanese folklore, the ningyo is a fish with a human or monkey-like face; eating its flesh was said to bring long life. Several temples and shrines keep small mummified 'mermaids', said to be centuries old, and some were believed to protect against disease.",
+      "In 2022 researchers began studying a mummy about 30 cm long kept at a temple in Asakuchi, Okayama, said to have been caught off Shikoku in the 1700s, using CT scans and DNA tests."
+    ],
+    "explanation": "In 2023 they reported that it was made mostly of cloth, paper and cotton, with fish skin and fish jaws, covered in a paste of sand and charcoal, and no monkey parts. It was probably made in the 19th century, as a religious object or to sell. Similar 'mermaids' were exported to the West, including the FeeJee Mermaid.",
+    "wiki": "Ningyo"
+  },
+  {
+    "slug": "jenny-haniver",
+    "category": "creatures",
+    "title": "Jenny Haniver",
+    "region": "Antwerp, Belgium",
+    "lat": 51.22,
+    "lon": 4.4,
+    "dateLabel": "Sold from the 1500s",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Sailors, collectors and naturalists",
+    "hook": "Sailors once sold dried 'dragons' and 'devils' to curious buyers in European ports. They were made from rays and skates.",
+    "summary": [
+      "A Jenny Haniver is the dried body of a ray or skate, cut, shaped and varnished to look like a demon, dragon or sea monster, often with a human-looking face formed by the nostrils and mouth on its underside. Sailors made and sold them in European ports from the 16th century.",
+      "The name may come from 'jeune d'Anvers', 'young one of Antwerp', where many were sold. The naturalist Conrad Gessner warned in 1558 that such creatures were fakes."
+    ],
+    "explanation": "They were sold as curiosities, basilisks or sea monsters and displayed in cabinets of curiosity. Some are still made as souvenirs. They're a reminder of how easily people could be fooled before natural history was well understood.",
+    "wiki": "Jenny Haniver"
+  },
+  {
+    "slug": "mermaid-of-zennor",
+    "category": "creatures",
+    "title": "The Mermaid of Zennor",
+    "region": "Zennor, Cornwall, England",
+    "lat": 50.19,
+    "lon": -5.57,
+    "dateLabel": "Bench carved around 1500",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Cornish tradition",
+    "hook": "A carved mermaid on an old church bench in Cornwall recalls a sea-woman who lured a singer into the waves.",
+    "summary": [
+      "In the village of Zennor, on Cornwall's north coast, the church of St Senara has a medieval wooden bench end carved with a mermaid holding a mirror and comb. Local legend says a beautiful stranger came to the church for years, drawn by the singing of a young chorister, Mathey Trewella.",
+      "One day he followed her down to the sea, and neither was seen again. Fishermen later said they heard his voice singing from beneath the waves at Pendour Cove."
+    ],
+    "explanation": "The legend was written down in the 19th century, perhaps to explain the carving, which may stand for vanity or carry a religious meaning in medieval symbolism. It's a much-loved Cornish tale, and the 'Mermaid Chair' can still be seen in the church.",
+    "wiki": "Mermaid of Zennor"
+  },
+  {
+    "slug": "mermaid-of-warsaw",
+    "category": "creatures",
+    "title": "The Mermaid of Warsaw",
+    "region": "Old Town, Warsaw, Poland",
+    "lat": 52.2497,
+    "lon": 21.0122,
+    "dateLabel": "City symbol since the 1300s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Warsaw tradition",
+    "hook": "Warsaw's coat of arms shows a mermaid with a sword and shield, who legend says chose to protect the city.",
+    "summary": [
+      "The Syrenka, the Mermaid of Warsaw, appears on the city's coat of arms: a woman with a fish's tail holding a sword and shield. In the best-known legend, she swam up the Vistula from the Baltic and stopped to rest near what's now the Old Town.",
+      "Fishermen were angry when she tangled their nets, but when they heard her sing, they fell for her. When a merchant captured her, they set her free, and in thanks she promised to defend the city."
+    ],
+    "explanation": "A mermaid-like figure has been Warsaw's symbol since at least the 14th century, though early seals show a creature closer to a dragon with a human upper body. Statues of her stand in the Old Town Market Square and by the river, and she's often called the sister of Copenhagen's Little Mermaid.",
+    "wiki": "Mermaid of Warsaw"
+  },
+  {
+    "slug": "vodyanoy",
+    "category": "creatures",
+    "title": "The Vodyanoy",
+    "region": "Rivers and millponds of central Russia",
+    "lat": 56,
+    "lon": 40,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Slavic tradition",
+    "hook": "In Slavic folklore, an old man with a green beard lives at the bottom of millponds and pulls careless swimmers down.",
+    "summary": [
+      "The vodyanoy is a water spirit of Slavic folklore: an old man with a frog-like face, a long greenish beard and a body covered in scales and slime, living in rivers, lakes and especially millponds. He rides along the water on a floating log and can be heard splashing at night.",
+      "He was said to drown careless swimmers to serve him under the water, and millers left him offerings to keep him content."
+    ],
+    "explanation": "Like the kelpie and Näcken, the vodyanoy explained drownings and warned against swimming alone or at night. The millers' offerings reflect the very real dangers of millponds and dams. He appears in Russian fairy tales and in Dvořák's opera Rusalka.",
+    "wiki": "Vodyanoy"
+  },
+  {
+    "slug": "nian",
+    "category": "creatures",
+    "title": "The Nian and the New Year",
+    "region": "Across China",
+    "lat": 34.3,
+    "lon": 108.9,
+    "dateLabel": "Every Lunar New Year",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Chinese tradition",
+    "hook": "Chinese folklore says the New Year's red decorations and firecrackers began as a way to scare off a monster called Nian.",
+    "summary": [
+      "In a popular Chinese legend, the Nian was a beast that came out of the sea or the mountains every New Year's Eve to eat crops, livestock and even villagers. One year an old man stayed behind, decorated the doors in red, lit fires and set off crackling bamboo, and the beast fled.",
+      "Since then, families have hung red decorations, set off firecrackers and stayed up late to welcome the new year. The phrase guo nian, 'passing the year', is still used for celebrating the festival."
+    ],
+    "explanation": "Historians think the legend was told to explain customs that are much older, linked to driving away bad luck and welcoming the new season. Nian also means 'year', which is part of the story's charm. It's told to children across the Chinese-speaking world.",
+    "wiki": "Nian"
+  },
+  {
+    "slug": "okiku-himeji",
+    "category": "visitors",
+    "title": "Okiku and the Well of Himeji Castle",
+    "region": "Himeji Castle, Hyōgo, Japan",
+    "lat": 34.839,
+    "lon": 134.694,
+    "dateLabel": "Told since the 1700s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Japanese stage tradition, and castle visitors",
+    "hook": "At Himeji Castle, a well is said to echo with a woman's voice counting plates, one to nine, then a sob for the tenth.",
+    "summary": [
+      "Banchō Sarayashiki, 'the dish mansion', is one of Japan's most famous ghost stories, told in kabuki and puppet plays since the 18th century. In the best-known version, a servant named Okiku is blamed for losing one of ten precious plates and is killed and thrown into a well. Ever after, her ghost is heard at night counting the plates, one to nine, then crying for the missing tenth.",
+      "Himeji Castle has a well called Okiku's Well that's linked to the story, and visitors still peer into it."
+    ],
+    "explanation": "The tale exists in many versions set in different places, including Edo (Tokyo), so no single real event lies behind it. It's a story of injustice and grief. An outbreak of insects in the region in 1795 was even blamed on her, and the insects became known as okiku-mushi.",
+    "wiki": "Banchō Sarayashiki"
+  },
+  {
+    "slug": "namahage",
+    "category": "visitors",
+    "title": "The Namahage of Oga",
+    "region": "Oga Peninsula, Akita, Japan",
+    "lat": 39.88,
+    "lon": 139.85,
+    "dateLabel": "Every New Year's Eve",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Families on the Oga Peninsula",
+    "hook": "On New Year's Eve in northern Japan, men dressed as demons burst into homes to scare children into being good.",
+    "summary": [
+      "On the Oga Peninsula in Akita, on New Year's Eve, young men put on huge red and blue demon masks and straw capes to become namahage. They go from house to house, stamping and shouting, 'Are there any crybabies? Any lazy children here?', while children cling to their parents.",
+      "The family welcomes them with food and sake, and the head of the household promises the children have been good. The namahage leave, wishing the house good fortune for the year."
+    ],
+    "explanation": "The namahage are seen as visiting gods who drive away bad luck and idleness. The custom is part of a group of masked ritual visits recognised by UNESCO as intangible heritage in 2018, and the peninsula has a museum dedicated to them.",
+    "wiki": "Namahage"
+  },
+  {
+    "slug": "kikimora",
+    "category": "visitors",
+    "title": "The Kikimora",
+    "region": "Villages of northern Russia",
+    "lat": 61,
+    "lon": 40,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Slavic tradition",
+    "hook": "In Slavic homes, a small female spirit was said to spin at night, and to torment households that didn't keep order.",
+    "summary": [
+      "The kikimora is a female house spirit of Slavic folklore, especially in Russia. She's described as small and thin, sometimes with a bird-like face, living behind the stove or in the cellar. At night she could be heard spinning, and she might help a tidy household with its chores.",
+      "In a messy or quarrelsome home, though, she'd tangle the thread, break dishes, tickle children awake and sit on sleepers' chests, bringing nightmares."
+    ],
+    "explanation": "The feeling of something pressing on a sleeper's chest closely matches sleep paralysis, and 'kikimora' was also used as a word for nightmares. She belongs to a family of house spirits alongside the domovoy. The composer Anatoly Lyadov wrote an orchestral piece about her.",
+    "wiki": "Kikimora"
+  },
+  {
+    "slug": "strigoi",
+    "category": "visitors",
+    "title": "The Strigoi",
+    "region": "Transylvania, Romania",
+    "lat": 46.5,
+    "lon": 24,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Romanian village tradition",
+    "hook": "In Romanian folklore, the restless dead rise from their graves at night, and villagers had rituals to keep them there.",
+    "summary": [
+      "The strigoi are troubled spirits of Romanian folklore: the dead risen from their graves at night, or living people whose souls wander out while they sleep. They were blamed for draining the life from their families and livestock.",
+      "Customs to stop a strigoi included burying the dead with garlic or placing a sickle across the body. Some rural communities kept such customs into modern times."
+    ],
+    "explanation": "Beliefs in strigoi helped shape the Western idea of the vampire, alongside tales from Serbia. Folklorists see them as a way of explaining disease and death that spread through a family, at a time when infection wasn't understood.",
+    "wiki": "Strigoi"
+  },
+  {
+    "slug": "manananggal",
+    "category": "visitors",
+    "title": "The Manananggal",
+    "region": "Iloilo, Panay, Philippines",
+    "lat": 10.72,
+    "lon": 122.56,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Philippine tradition",
+    "hook": "In Philippine folklore, a woman's upper body leaves her legs behind at night and flies off on bat-like wings.",
+    "summary": [
+      "The manananggal is a creature of Philippine folklore, related to the aswang. By day she's a beautiful woman; at night she separates her upper body from her legs, grows huge bat-like wings and flies off in search of prey, especially pregnant women.",
+      "The way to defeat her is to find the half she leaves behind and sprinkle it with salt, crushed garlic or ash, so she can't rejoin it before sunrise."
+    ],
+    "explanation": "Like the aswang and the Thai krasue, the manananggal may express old fears around pregnancy and childbirth. Garlic, salt and vinegar are common protections in Philippine folk belief, and she's a familiar figure in Filipino films and comics.",
+    "wiki": "Manananggal"
+  },
+  {
+    "slug": "toyol",
+    "category": "visitors",
+    "title": "The Toyol",
+    "region": "Kelantan, Malaysia",
+    "lat": 6,
+    "lon": 102.2,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Malay tradition",
+    "hook": "In Malay folklore, a small child-spirit called a toyol is kept to steal money for its master.",
+    "summary": [
+      "The toyol is a spirit of Malay folklore, said to be raised by a sorcerer and kept in a jar. It's described as a small greenish child with red eyes, sent out at night to steal money and small valuables from the neighbours.",
+      "Families protected their savings with tricks to distract it, such as scattering beans, marbles or toys near the money, since the toyol was said to be playful and easily distracted."
+    ],
+    "explanation": "The belief was often used to explain missing money, and could stir up suspicion between neighbours. Folklorists see the toyol as a tale about greed and envy. It's a familiar figure in Malaysian films and stories.",
+    "wiki": "Toyol"
+  },
+  {
+    "slug": "cailleach",
+    "category": "visitors",
+    "title": "The Cailleach and the Hag of Beara",
+    "region": "Kilcatherine, Beara Peninsula, County Cork, Ireland",
+    "lat": 51.7,
+    "lon": -9.96,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Irish and Scottish tradition",
+    "hook": "In Irish and Scottish legend, an old woman shaped the mountains and rules the winter, and she's said to stand turned to stone on the Beara Peninsula.",
+    "summary": [
+      "The Cailleach, 'the old woman' or 'the veiled one', is a divine hag of Irish and Scottish folklore, linked to winter, storms and the shaping of the land; she's said to have dropped rocks from her apron to form mountains. She rules from Samhain until spring returns.",
+      "On the Beara Peninsula in County Cork, a rock overlooking the sea at Kilcatherine is said to be the Hag of Beara, turned to stone while waiting for her husband, the sea god Manannán, to return. Visitors leave coins and small offerings on it."
+    ],
+    "explanation": "Scholars see the Cailleach as an ancient goddess of the land and the seasons, surviving in folklore, place names and sayings. In Scotland, if the weather on 1 February is fine, it's said she's gathering firewood for a long winter.",
+    "wiki": "Cailleach"
+  },
+  {
+    "slug": "yule-lads",
+    "category": "visitors",
+    "title": "The Yule Lads",
+    "region": "Iceland",
+    "lat": 64.14,
+    "lon": -21.94,
+    "dateLabel": "The 13 nights before Christmas",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Icelandic tradition",
+    "hook": "In Iceland, thirteen mischievous troll brothers come down from the mountains in the nights before Christmas, and their mother eats naughty children.",
+    "summary": [
+      "Icelandic Christmas folklore tells of the Yule Lads, thirteen troll brothers who come down from the mountains one by one in the 13 nights before Christmas, each with his own mischief: Spoon-Licker, Door-Slammer, Sausage-Swiper, Window-Peeper and Candle-Beggar among them. Children leave a shoe on the windowsill and find a small gift, or a potato if they've been bad.",
+      "Their mother is the ogress Grýla, said to eat naughty children, and their pet is the Yule Cat, which eats anyone who hasn't received new clothes for Christmas."
+    ],
+    "explanation": "The Yule Lads were once truly frightening figures; in 1746 a public decree is said to have told parents to stop scaring children with them. Over time they became friendlier, influenced by Santa Claus. The Yule Cat encouraged people to finish their wool work before Christmas.",
+    "wiki": "Icelandic Christmas folklore"
+  },
+  {
+    "slug": "alderney-ufo-2007",
+    "category": "sky",
+    "title": "The Alderney Sighting",
+    "region": "Over Alderney, Channel Islands",
+    "lat": 49.71,
+    "lon": -2.2,
+    "dateLabel": "23 April 2007",
+    "status": "open",
+    "statusLabel": "Unidentified",
+    "witnesses": "An airline captain, passengers and another pilot",
+    "hook": "An airline pilot over the Channel Islands reported two huge, bright yellow objects, also seen by another pilot.",
+    "summary": [
+      "On 23 April 2007, the captain of a small passenger plane flying from Southampton to Alderney reported two brilliant yellow, cigar-shaped objects with dark bands, apparently hovering in the sky west of the island. He judged them to be very large and watched them for several minutes.",
+      "Some passengers also saw them, and the pilot of another aircraft reported a similar object from a different position. Radar returns in the area were later studied."
+    ],
+    "explanation": "A study by independent researchers in 2008 found no firm explanation. Others have suggested light reflecting off haze or a rare atmospheric effect, or ships' lights, but none fits everything reported. It remains one of the better-documented recent sightings by an airline pilot.",
+    "wiki": "2007 Alderney UFO sighting"
+  },
+  {
+    "slug": "exercise-mainbrace",
+    "category": "sky",
+    "title": "The Lights over Exercise Mainbrace",
+    "region": "North Sea",
+    "lat": 56,
+    "lon": 3,
+    "dateLabel": "September 1952",
+    "status": "open",
+    "statusLabel": "Unidentified",
+    "witnesses": "Naval crews and airmen during a NATO exercise",
+    "hook": "During NATO's largest naval exercise of 1952, crews reported silver discs and glowing objects shadowing the fleet.",
+    "summary": [
+      "In September 1952 NATO held Exercise Mainbrace, a huge naval exercise in the North Sea and the waters around Denmark and Norway, involving more than 200 ships. During it, several sightings were reported, including a silver, spherical object photographed from an American aircraft carrier.",
+      "Airmen at an RAF base in Yorkshire also reported a silvery disc that seemed to follow one of their jets before moving away at high speed."
+    ],
+    "explanation": "Some sightings may have been weather balloons or aircraft; sceptics suggested the photographed sphere was a balloon released from a nearby ship. Others were never explained. The incidents helped persuade the British government to take UFO reports more seriously, and its files have since been released.",
+    "wiki": "Exercise Mainbrace"
+  },
+  {
+    "slug": "val-johnson-incident",
+    "category": "sky",
+    "title": "The Val Johnson Incident",
+    "region": "Near Stephen, Marshall County, Minnesota, USA",
+    "lat": 48.45,
+    "lon": -96.87,
+    "dateLabel": "27 August 1979",
+    "status": "open",
+    "statusLabel": "Unexplained",
+    "witnesses": "A sheriff's deputy",
+    "hook": "A sheriff's deputy in Minnesota said a bright light rushed at his patrol car, which ended up with a cracked windscreen and its clock running slow.",
+    "summary": [
+      "In the early hours of 27 August 1979, Marshall County sheriff's deputy Val Johnson was driving a rural road near Stephen, Minnesota, when he saw a bright light among the trees. He drove towards it, and, he said, it suddenly rushed at his car. He blacked out and woke about 40 minutes later, his car skidded across the road.",
+      "The windscreen was cracked, a headlight broken and a roof antenna bent, and both the car's clock and his wristwatch were 14 minutes slow. His eyes were irritated, as if mildly burned."
+    ],
+    "explanation": "Investigators couldn't agree on a cause. Suggestions include ball lightning, a collision with a deer or other object, or a hoax, though colleagues described him as reliable. The damaged patrol car is displayed at a museum in Warren, Minnesota.",
+    "wiki": "Val Johnson incident"
+  },
+  {
+    "slug": "light-of-saratoga",
+    "category": "sky",
+    "title": "The Light of Bragg Road",
+    "region": "Bragg Road, near Saratoga, Texas, USA",
+    "lat": 30.32,
+    "lon": -94.53,
+    "dateLabel": "Reported since the early 1900s",
+    "status": "open",
+    "statusLabel": "Unexplained",
+    "witnesses": "Local people and visitors",
+    "hook": "On a straight dirt road through the Big Thicket of Texas, a light is said to bob along at night like a lantern.",
+    "summary": [
+      "Bragg Road is a straight dirt road of about 13 km near Saratoga, in the Big Thicket of south-east Texas, following the line of an old railway. For about a century people have reported a light that appears at night above the road, changing colour and brightness, and vanishing when approached.",
+      "Legends say it's the lantern of a railway worker killed in an accident, still searching the line, or of a Spanish conquistador guarding treasure."
+    ],
+    "explanation": "Suggested explanations include headlights from a highway in line with the road, marsh gas from the surrounding swamp, and reflections. Some say the light was reported before cars were common, which keeps the debate going.",
+    "wiki": "Light of Saratoga"
+  },
+  {
+    "slug": "maco-light",
+    "category": "sky",
+    "title": "The Maco Light",
+    "region": "Maco, near Wilmington, North Carolina, USA",
+    "lat": 34.27,
+    "lon": -78.13,
+    "dateLabel": "Reported until 1977",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Railway workers and crowds of watchers",
+    "hook": "Along a railway line in North Carolina, a swinging light was said to be a conductor's lantern, still waving down trains.",
+    "summary": [
+      "The Maco light was reported for more than a century along the railway near Maco Station, west of Wilmington, North Carolina. Watchers saw a light swinging above the tracks at night, like a lantern, moving towards them and then vanishing.",
+      "Legend says it was the lantern of Joe Baldwin, a conductor killed in a train collision in the 1860s, who had swung his lantern to warn an oncoming train."
+    ],
+    "explanation": "The light was investigated many times without a clear answer; suggestions include headlights from a nearby road and marsh gas. The tracks were removed in 1977, and the light hasn't been reported since.",
+    "wiki": "Maco light"
+  },
+  {
+    "slug": "hitodama",
+    "category": "sky",
+    "title": "Hitodama, the Soul Fires",
+    "region": "Nagano, Japan",
+    "lat": 36.2,
+    "lon": 138,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Japanese tradition",
+    "hook": "In Japanese folklore, balls of bluish fire floating at night are the souls of the newly dead.",
+    "summary": [
+      "Hitodama, 'human souls', are glowing balls of fire in Japanese folklore, usually pale blue or white with a short tail, seen floating gently through the air at night, especially near graveyards and around the summer festival of Obon.",
+      "They were said to be souls leaving the body just before or after death. Similar lights, called kitsunebi or fox fires, were blamed on foxes."
+    ],
+    "explanation": "Suggested explanations include burning gases from decay, ball lightning and glowing insects. Japanese researchers have produced similar flames in experiments with gas. Hitodama are a standard part of the imagery of Japanese ghost stories.",
+    "wiki": "Hitodama"
+  },
+  {
+    "slug": "stingy-jack",
+    "category": "sky",
+    "title": "Stingy Jack and the Jack-o'-Lantern",
+    "region": "Rural Ireland",
+    "lat": 53,
+    "lon": -7.5,
+    "dateLabel": "Told since at least the 1800s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Irish tradition",
+    "hook": "Irish folklore tells of Stingy Jack, who tricked the Devil and was left to wander with a coal in a hollow turnip: the first jack-o'-lantern.",
+    "summary": [
+      "In Irish folklore, Stingy Jack was a drunkard and trickster who fooled the Devil more than once, making him promise never to claim his soul. When Jack died, heaven wouldn't take him, and the Devil, keeping his word, wouldn't let him into hell, but tossed him a burning coal to light his way.",
+      "Jack put the coal in a hollowed-out turnip and has wandered the earth ever since. People carved faces into turnips at Halloween to scare off wandering spirits, and the lights seen over marshes became known as jack-o'-lanterns."
+    ],
+    "explanation": "Carving turnips and other vegetables was a custom in Ireland and Scotland by the 19th century. Irish emigrants in America found pumpkins easier to carve, creating the modern Halloween pumpkin. The name was also given to will-o'-the-wisp lights.",
+    "wiki": "Jack-o'-lantern"
+  },
+  {
+    "slug": "edinburgh-castle-drummer",
+    "category": "voices",
+    "title": "The Phantom Drummer of Edinburgh Castle",
+    "region": "Edinburgh Castle, Edinburgh, Scotland",
+    "lat": 55.9486,
+    "lon": -3.1999,
+    "dateLabel": "Said to be heard since 1650",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Soldiers, guides and visitors",
+    "hook": "At Edinburgh Castle, a phantom drummer is said to beat his drum on the ramparts before the castle comes under attack.",
+    "summary": [
+      "Edinburgh Castle, on its volcanic rock above the city, has many ghost stories. The best known is of a phantom drummer, sometimes said to be headless, whose drumbeat is heard on the ramparts as a warning that the castle will be attacked. He's said to have been heard in 1650, before Oliver Cromwell's army besieged it.",
+      "Another tale tells of a piper sent to explore a tunnel beneath the Royal Mile, whose piping was followed from above until it suddenly stopped; he was never found."
+    ],
+    "explanation": "The stories are part of the castle's long history and folklore, and are told on the city's many ghost tours. There's no evidence for them beyond tradition. The vaults and passages beneath the Old Town are real, which helps keep the piper's story alive.",
+    "wiki": "Edinburgh Castle"
+  },
+  {
+    "slug": "duntrune-piper",
+    "category": "voices",
+    "title": "The Piper of Duntrune",
+    "region": "Duntrune Castle, Loch Crinan, Argyll, Scotland",
+    "lat": 56.08,
+    "lon": -5.53,
+    "dateLabel": "Legend from the 1600s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Highland tradition",
+    "hook": "At a castle on a Scottish sea loch, a captured piper warned his clan with his pipes, and his music is said to be heard there still.",
+    "summary": [
+      "Duntrune Castle, on the shore of Loch Crinan in Argyll, is said to be one of the oldest continuously inhabited castles in Scotland. Legend says that in the 17th century, during a clan feud, a piper was captured there while scouting ahead of an attack.",
+      "Seeing his clansmen's boats approach, he played a warning tune from a turret, and they turned back. He was punished for it, and his ghostly piping is said to be heard in the castle to this day."
+    ],
+    "explanation": "The story is told in several versions, and a tune called 'The Piper's Warning to His Master' is linked to it. It's a classic Scottish legend of loyalty and warning, with no evidence for the music beyond tradition.",
+    "wiki": "Duntrune Castle"
+  },
+  {
+    "slug": "edison-talking-doll",
+    "category": "voices",
+    "title": "Edison's Talking Doll",
+    "region": "West Orange, New Jersey, USA",
+    "lat": 40.78,
+    "lon": -74.24,
+    "dateLabel": "Sold in 1890",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Customers in 1890, and listeners in 2015",
+    "hook": "In 1890 Thomas Edison sold talking dolls with tiny phonographs inside. Their voices, recovered in 2015, sound hauntingly eerie.",
+    "summary": [
+      "In 1890 Thomas Edison's company sold a doll with a miniature phonograph in its chest, which recited nursery rhymes like 'Twinkle, Twinkle, Little Star', recorded by young women at his laboratory in West Orange, New Jersey. They were expensive and fragile, and the product was withdrawn within weeks.",
+      "For more than a century the tiny wax cylinders couldn't be played safely. In 2015 researchers used optical scanning to recover the recordings, and the scratchy, high-pitched voices were widely described as creepy."
+    ],
+    "explanation": "They're among the earliest recordings made for entertainment, and among the first recordings of women's voices. Their eeriness comes from the age and wear of the cylinders and the uncanny idea of a talking doll. They're kept at the Thomas Edison National Historical Park.",
+    "wiki": "Edison's Phonograph Doll"
   }
 ];
