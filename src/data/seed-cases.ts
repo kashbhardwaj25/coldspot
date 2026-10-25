@@ -17246,5 +17246,978 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "In 2011 researchers using sonar reported finding parts of the terraces under the lake. Others have argued, using an 1859 survey, that they lie buried on land nearby. Where they are, and how much survives, is still debated.",
     "wiki": "Pink and White Terraces"
+  },
+  {
+    "slug": "resurrection-mary",
+    "category": "visitors",
+    "title": "Resurrection Mary",
+    "region": "Archer Avenue, Justice, Illinois, USA",
+    "lat": 41.75,
+    "lon": -87.83,
+    "dateLabel": "Reported since the 1930s",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Drivers on Archer Avenue",
+    "hook": "Drivers near Chicago tell of a young woman in a white dress who asks for a lift, then vanishes beside a cemetery gate.",
+    "summary": [
+      "Resurrection Mary is Chicago's best-known vanishing hitchhiker. Since the 1930s, drivers on Archer Avenue, in suburban Justice, have told of picking up a young blonde woman in a white party dress, sometimes after meeting her at a dance hall. As they pass Resurrection Cemetery, she asks to be let out, or simply vanishes from the car.",
+      "In a well-known report from 1976, a passing driver said he saw a girl locked inside the cemetery gates, and two bars were later found bent, with what looked like scorched handprints."
+    ],
+    "explanation": "Folklorists recognise the vanishing hitchhiker as one of the world's most widespread urban legends, told on roads from South Africa to Japan. Stories link Mary to several young women who died in the area in the 1920s and 30s, but none has been confirmed. The cemetery said the bars had been damaged by a truck and heated during repairs.",
+    "wiki": "Resurrection Mary"
+  },
+  {
+    "slug": "kuchisake-onna",
+    "category": "visitors",
+    "title": "Kuchisake-onna, the Slit-Mouthed Woman",
+    "region": "Gifu, Japan",
+    "lat": 35.42,
+    "lon": 136.76,
+    "dateLabel": "Panic in 1979",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Schoolchildren across Japan",
+    "hook": "In 1979 Japanese children spread word of a masked woman who asks, 'Am I pretty?', and some schools sent pupils home in groups.",
+    "summary": [
+      "Kuchisake-onna, 'the slit-mouthed woman', is said to approach people, especially children, wearing a surgical mask and to ask, 'Am I pretty?' If they say yes, she lowers the mask to show a scarred mouth stretching from ear to ear and asks again. Tricks for escaping her, such as calling her 'average' or offering sweets, spread along with the story.",
+      "The legend has roots in older ghost stories, but in 1979 it swept Japan, starting in Gifu Prefecture. Some schools reportedly sent children home in groups, and police patrols were stepped up in places."
+    ],
+    "explanation": "Folklorists see the 1979 panic as a classic case of a rumour spreading among children through schools and the media; no one matching the story was ever found. The surgical mask, then worn mostly by people with colds, helped make the figure memorable. A similar scare spread in South Korea in 2004.",
+    "wiki": "Kuchisake-onna"
+  },
+  {
+    "slug": "teke-teke",
+    "category": "visitors",
+    "title": "Teke Teke",
+    "region": "Muroran, Hokkaido, Japan",
+    "lat": 42.32,
+    "lon": 140.97,
+    "dateLabel": "Told in schools since the 1970s",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Japanese schoolchildren",
+    "hook": "A Japanese school legend tells of a figure that drags itself along by its elbows at night, making a teke-teke sound.",
+    "summary": [
+      "Teke Teke is a Japanese urban legend about the spirit of a young woman who died after falling onto a railway line, often said to have been in Muroran, Hokkaido. She is said to roam at night with only the upper half of her body, pulling herself along by her elbows with a scraping 'teke-teke' sound, and to chase anyone she meets.",
+      "Like many school legends, it comes with rules: some versions say she asks a question, and that you can escape by answering correctly."
+    ],
+    "explanation": "There's no record of the event the story describes, and versions disagree about where it happened. Folklorists see it as a warning about railway lines, spread and embroidered by children, and it has inspired films and manga.",
+    "wiki": "Teke Teke"
+  },
+  {
+    "slug": "hanako-san",
+    "category": "visitors",
+    "title": "Hanako of the Toilet",
+    "region": "Schools across Japan",
+    "lat": 35.69,
+    "lon": 139.7,
+    "dateLabel": "Told since the 1950s",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Generations of Japanese schoolchildren",
+    "hook": "In Japanese schools, children knock three times on the third toilet stall and call for Hanako, a girl who isn't there.",
+    "summary": [
+      "Toire no Hanako-san, 'Hanako of the toilet', is one of the best-known Japanese school legends. Children say that if you go to the third stall of a girls' toilet, knock three times and ask, 'Are you there, Hanako-san?', a faint voice answers, 'Yes, I'm here', and sometimes a girl in a red skirt appears.",
+      "The story has been told since at least the 1950s, and she has become the subject of films, anime and manga."
+    ],
+    "explanation": "Folklorists treat Hanako-san as a modern tale shaped by children, one of many 'toilet ghost' stories in Japanese schools, where daring each other in the most ordinary place is part of the fun. Some versions give her a sad backstory, but none is based on a recorded event.",
+    "wiki": "Hanako-san"
+  },
+  {
+    "slug": "kunekune",
+    "category": "visitors",
+    "title": "Kunekune",
+    "region": "Rice fields of rural Japan",
+    "lat": 39.7,
+    "lon": 140.1,
+    "dateLabel": "Spread online from about 2003",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Online storytellers",
+    "hook": "A Japanese internet legend tells of a white figure writhing in the distance across a rice field, and of what happens if you look too closely.",
+    "summary": [
+      "Kunekune, roughly 'wriggling', is a Japanese internet legend that spread on forums from about 2003. It describes a thin white figure seen far away across a rice field on a hot summer day, twisting and writhing as if in a strange dance.",
+      "The stories say it's harmless to see it from afar, but anyone who looks at it closely, through binoculars for example, and understands what it is, loses their mind."
+    ],
+    "explanation": "It's a creepypasta, a story created and shared online, though it borrows from older rural folklore. Readers have suggested heat haze, scarecrows or white cloth flapping in the wind as the 'real' kunekune.",
+    "wiki": "Kunekune"
+  },
+  {
+    "slug": "slender-man",
+    "featured": true,
+    "category": "visitors",
+    "title": "The Slender Man",
+    "region": "Waukesha, Wisconsin, USA",
+    "lat": 43.01,
+    "lon": -88.23,
+    "dateLabel": "Created online in June 2009",
+    "status": "explained",
+    "statusLabel": "Fiction",
+    "witnesses": "Internet readers, and the people of Waukesha",
+    "hook": "A tall, faceless man in a suit was invented for an online contest in 2009, and grew into a legend some children believed was real.",
+    "summary": [
+      "In June 2009, Eric Knudsen, posting as 'Victor Surge' on the Something Awful forums, added a tall, thin, faceless figure in a black suit to two photographs of children for a contest to create paranormal images. He called it the Slender Man.",
+      "The character spread across the internet in stories, games and videos, gaining a backstory as people added to it. In 2014, in Waukesha, Wisconsin, two 12-year-old girls attacked a classmate, saying they wanted to please the Slender Man; she was badly hurt but survived."
+    ],
+    "explanation": "The Slender Man is fiction, created and grown online, and shows how a modern legend can form in plain view. The Waukesha case led to wide discussion of children, the internet and mental health; both girls were later placed in psychiatric care.",
+    "wiki": "Slender Man"
+  },
+  {
+    "slug": "momo-challenge",
+    "category": "visitors",
+    "title": "The Momo Hoax",
+    "region": "Tokyo, Japan",
+    "lat": 35.67,
+    "lon": 139.77,
+    "dateLabel": "Spread in 2018–2019",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Parents, schools and the press around the world",
+    "hook": "A sculpture of a bird-woman with bulging eyes became the face of a supposed online 'challenge' that turned out not to exist.",
+    "summary": [
+      "In 2016, a sculpture of a woman with long black hair, bulging eyes and a bird's legs, made by the Japanese special-effects company Link Factory, was shown at a gallery in Tokyo. In 2018 its photo began circulating online as 'Momo', said to contact children through messaging apps and set them harmful dares.",
+      "In early 2019, warnings spread across Europe and the Americas, shared by parents, schools and some police forces."
+    ],
+    "explanation": "Charities and police found no evidence that the 'challenge' had harmed anyone; the panic itself spread the image to children far more than Momo did. The sculptor, Keisuke Aiso, said he had thrown the sculpture away. It's now a textbook example of a viral hoax.",
+    "wiki": "Momo Challenge hoax"
+  },
+  {
+    "slug": "la-llorona",
+    "featured": true,
+    "category": "visitors",
+    "title": "La Llorona, the Weeping Woman",
+    "region": "Xochimilco, Mexico City, Mexico",
+    "lat": 19.26,
+    "lon": -99.1,
+    "dateLabel": "Told since colonial times",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Generations across Latin America",
+    "hook": "Across Latin America, a woman in white is heard weeping by rivers at night, crying for the children she lost.",
+    "summary": [
+      "La Llorona, 'the weeping woman', is one of the most widespread legends in Latin America and the American Southwest. In the most common version, a woman drowned her children in a river in a moment of despair, then, overcome with grief, died herself, and now wanders beside water at night crying, 'Ay, mis hijos!', 'Oh, my children!'.",
+      "Some versions link her to La Malinche, Hernán Cortés's interpreter, or to an omen recorded before the Spanish conquest, when a woman was heard weeping in the night over Tenochtitlan."
+    ],
+    "explanation": "Folklorists see the legend as a blend of Indigenous and Spanish traditions, and a cautionary tale told to keep children away from rivers at night. It's still told everywhere, and each year a performance of the legend is staged on the canals of Xochimilco.",
+    "wiki": "La Llorona"
+  },
+  {
+    "slug": "el-silbon",
+    "category": "voices",
+    "title": "El Silbón, the Whistler",
+    "region": "Los Llanos, Apure, Venezuela",
+    "lat": 7.9,
+    "lon": -67.5,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "People of the Venezuelan and Colombian plains",
+    "hook": "On the plains of Venezuela and Colombia, a tall figure whistles in the night, and his whistle is quietest when he's closest.",
+    "summary": [
+      "El Silbón, 'the whistler', is a legend of the Llanos, the great plains of Venezuela and Colombia. He's described as a very tall, thin man carrying a sack, condemned to wander for killing his own father. He's known by his whistle, a rising run of notes.",
+      "The rule everyone learns is that when the whistle sounds close, he's far away, and when it sounds far away, he's near."
+    ],
+    "explanation": "Folklorists see El Silbón as a warning against drunkenness, violence and betraying one's family. The unsettling idea of a sound that grows fainter as it approaches may draw on how sound carries across the open plains at night. He's a familiar figure in Venezuelan song and storytelling.",
+    "wiki": "El Silbón"
+  },
+  {
+    "slug": "siguanaba",
+    "category": "visitors",
+    "title": "La Siguanaba",
+    "region": "San Salvador, El Salvador",
+    "lat": 13.7,
+    "lon": -89.2,
+    "dateLabel": "Told since colonial times",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Night travellers in Central America",
+    "hook": "In Central America, men walking home at night see a beautiful woman by the river, who turns to show the face of a horse.",
+    "summary": [
+      "La Siguanaba, or Sihuanaba, is a legend of El Salvador, Guatemala and nearby countries. She appears at night by rivers and washing places as a beautiful woman with long hair, seen from behind, who lures men, especially unfaithful ones, to follow her.",
+      "When they come close, she turns to show a horse's skull or a hideous face, and the men run off or lose their way. Some versions say she was once a woman cursed for her own misdeeds."
+    ],
+    "explanation": "The legend blends Indigenous and Spanish elements and serves as a warning to men about wandering at night and about infidelity. She's often paired with her son, the Cipitío, a mischievous boy spirit, and folklorists have collected many local versions.",
+    "wiki": "Sihuanaba"
+  },
+  {
+    "slug": "kuntilanak",
+    "category": "visitors",
+    "title": "The Kuntilanak",
+    "region": "Pontianak, West Kalimantan, Indonesia",
+    "lat": -0.03,
+    "lon": 109.33,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Malay and Indonesian tradition",
+    "hook": "In Indonesia and Malaysia, the scent of frangipani at night was said to announce a long-haired spirit in white.",
+    "summary": [
+      "The kuntilanak, called the pontianak in Malaysia, is a female spirit of Malay and Indonesian folklore, said to be a woman who died in childbirth. She's described with long black hair and a white dress, and her arrival is announced by a baby's cry or the sweet smell of frangipani.",
+      "One story says the city of Pontianak, in West Kalimantan, takes its name from its founder, Sultan Syarif Abdurrahman, driving off kuntilanak while clearing the land in 1771."
+    ],
+    "explanation": "The figure appears in countless Indonesian and Malaysian films. Folklorists link her to fears around childbirth, once among the greatest dangers in a woman's life, and to the protective customs that grew up around it.",
+    "wiki": "Kuntilanak"
+  },
+  {
+    "slug": "aswang",
+    "category": "visitors",
+    "title": "The Aswang",
+    "region": "Capiz, Panay, Philippines",
+    "lat": 11.55,
+    "lon": 122.74,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Philippine tradition",
+    "hook": "In the Philippines, a shape-shifter of the night is said to be ordinary by day, and one province has long tried to shake off its link to the legend.",
+    "summary": [
+      "The aswang is a shape-shifting creature of Philippine folklore, said to look like an ordinary person by day and to take animal form by night, such as a dog, pig or large bird. It's said to prey on the sick and on pregnant women, and stories describe a 'tik-tik' sound that grows quieter as it comes closer.",
+      "Aswang stories are told throughout the Philippines, but the province of Capiz, on Panay, became so associated with them that local officials and residents have long worked to counter the label."
+    ],
+    "explanation": "Some historians think Spanish missionaries encouraged aswang stories to discredit traditional healers. The legend also offered explanations for illness and death, especially of mothers and babies. In the 1950s, US and Philippine military officers reportedly used aswang beliefs in psychological warfare against rebels.",
+    "wiki": "Aswang"
+  },
+  {
+    "slug": "krasue",
+    "category": "visitors",
+    "title": "The Krasue",
+    "region": "Isan, north-eastern Thailand",
+    "lat": 15.2,
+    "lon": 104.8,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Thai, Cambodian and Lao tradition",
+    "hook": "Thai folklore tells of a woman whose head leaves her body at night and floats, glowing, over the fields.",
+    "summary": [
+      "The krasue is a spirit of Thai, Cambodian and Lao folklore: a woman who, at night, leaves her body behind and floats about as a glowing head, with her insides trailing below. By day she seems an ordinary person.",
+      "She's said to hunt for blood and raw meat, and villagers protected their animals and expectant mothers with thorny branches, which her trailing body could catch on."
+    ],
+    "explanation": "The legend is shared across mainland Southeast Asia, with relatives such as the Malay penanggalan. Some suggest the glowing head grew from sightings of will-o'-the-wisp lights over fields and marshes. The krasue is a staple of Thai cinema.",
+    "wiki": "Krasue"
+  },
+  {
+    "slug": "pishtaco",
+    "category": "visitors",
+    "title": "The Pishtaco",
+    "region": "Ayacucho, Peru",
+    "lat": -13.16,
+    "lon": -74.22,
+    "dateLabel": "Told since colonial times; police claim in 2009",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Andean tradition, and the Peruvian police",
+    "hook": "In the Andes, a pale stranger was said to waylay travellers to take their fat, and in 2009 police briefly claimed the legend had come true.",
+    "summary": [
+      "The pishtaco is a figure of Andean folklore, usually described as a tall, light-skinned outsider who attacks Indigenous travellers on lonely roads to steal their body fat, which he sells for church bells, machines or medicine. The legend goes back to the colonial era.",
+      "In November 2009, Peruvian police announced that they had broken up a gang that killed people to sell their fat abroad, and the story went around the world."
+    ],
+    "explanation": "The claim soon fell apart: experts said there was no market for human fat, and senior officers involved were removed from their posts while it was investigated. Anthropologists see the pishtaco as an expression of fear of exploitation by outsiders, from colonial rule to modern development.",
+    "wiki": "Pishtaco"
+  },
+  {
+    "slug": "clown-sightings-2016",
+    "category": "visitors",
+    "title": "The Clown Sightings of 2016",
+    "region": "Greenville, South Carolina, USA",
+    "lat": 34.85,
+    "lon": -82.39,
+    "dateLabel": "August 2016",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Residents, schools and police in many countries",
+    "hook": "In 2016, reports of sinister clowns lurking in woods spread from South Carolina across the world.",
+    "summary": [
+      "In August 2016, residents of an apartment complex near Greenville, South Carolina, reported clowns trying to lure children into the woods. Within weeks, reports of menacing clowns spread across the United States, and then to Canada, Britain, Australia and elsewhere.",
+      "Some schools were locked down after threats on social media, and a number of people were arrested for false reports or for frightening others while dressed as clowns."
+    ],
+    "explanation": "Police found no evidence for most of the early sightings. Researchers describe it as a social panic spread by social media, copycat pranksters and news coverage, drawing on a widespread fear of clowns.",
+    "wiki": "2016 clown sightings"
+  },
+  {
+    "slug": "black-eyed-children",
+    "category": "visitors",
+    "title": "The Black-Eyed Children",
+    "region": "Abilene, Texas, USA",
+    "lat": 32.45,
+    "lon": -99.73,
+    "dateLabel": "Account posted in 1998",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "The journalist Brian Bethel, then many others",
+    "hook": "A journalist said two boys knocked on his car window at night asking for a lift. When he looked closely, their eyes were completely black.",
+    "summary": [
+      "In 1998 the Texas reporter Brian Bethel posted an online account of an encounter in Abilene in 1996: two boys came up to his car at night and asked for a ride home, in voices that were polite but insistent. He felt a growing dread, then saw that their eyes were entirely black, with no whites, and drove away.",
+      "Similar stories followed from across the United States and Britain, usually of children knocking on doors or car windows and asking to be let in."
+    ],
+    "explanation": "There's no evidence beyond the stories, and they spread and changed online in the way of a creepypasta. Folklorists compare them to older legends of beings who can't come in unless invited. Bethel has said he still can't explain what he felt that night.",
+    "wiki": "Black-eyed children"
+  },
+  {
+    "slug": "bunny-man",
+    "category": "visitors",
+    "title": "The Bunny Man",
+    "region": "Clifton, Fairfax County, Virginia, USA",
+    "lat": 38.78,
+    "lon": -77.39,
+    "dateLabel": "October 1970",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Two couples, and Fairfax County police",
+    "hook": "A Virginia railway underpass is tied to a man in a rabbit costume who threatened people with an axe in 1970.",
+    "summary": [
+      "In October 1970, two separate reports in Fairfax County, Virginia, described a man in a white rabbit suit. In one, he shouted at a couple in a parked car and threw a hatchet through the window; days later, he was seen hacking at a porch post with an axe. Police investigated but never found him.",
+      "Over the years the story grew into the legend of the Bunny Man Bridge, a railway underpass near Clifton, where he's said to appear on Halloween, and crowds now gather there every October."
+    ],
+    "explanation": "The 1970 reports were real, according to research by the Fairfax County librarian Brian Conley, but no one was hurt and the man was never identified. Later additions, such as escaped asylum patients, have no basis in the records.",
+    "wiki": "Bunny Man"
+  },
+  {
+    "slug": "black-volga",
+    "category": "visitors",
+    "title": "The Black Volga",
+    "region": "Warsaw, Poland",
+    "lat": 52.23,
+    "lon": 21.01,
+    "dateLabel": "1960s–1970s",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Children and parents across Eastern Europe",
+    "hook": "In Poland and the Soviet Union, children were warned of a black car that drove the streets stealing children.",
+    "summary": [
+      "The Black Volga was an urban legend of the 1960s and 70s in Poland, the Soviet Union and other countries of the Eastern Bloc. A black GAZ-21 Volga, the car of officials and the secret police, was said to cruise the streets abducting children, its driver variously described as a priest, a nun, a vampire or the Devil.",
+      "Parents and teachers passed on the warning, and some people claimed to have seen the car."
+    ],
+    "explanation": "No such case was ever confirmed. Folklorists see the legend as a mix of fear of the unaccountable power of officials, who really did drive black Volgas, and older tales of child-stealers. Versions with other cars appeared in other countries.",
+    "wiki": "Black Volga"
+  },
+  {
+    "slug": "santa-compana",
+    "category": "visitors",
+    "title": "The Santa Compaña",
+    "region": "Galicia, Spain",
+    "lat": 42.8,
+    "lon": -8,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Galician country people",
+    "hook": "In Galicia, a silent procession of souls with candles walks the lanes at midnight, led by a living person who can't stop.",
+    "summary": [
+      "The Santa Compaña, 'holy company', is a legend of Galicia and nearby parts of north-west Spain and Portugal. It's a procession of the souls of the dead, robed and carrying candles, that walks the lanes and woods at midnight, sometimes felt only as a cold wind and a smell of wax.",
+      "It's led by a living person carrying a cross and a pot of holy water, who can't stop walking until they hand the burden to someone else."
+    ],
+    "explanation": "Folklorists see it as part of Galicia's rich tradition of beliefs about death, mixing old local and Christian ideas. Protections include drawing a circle on the ground or lying face down until it passes. It's still a familiar story in rural Galicia.",
+    "wiki": "Santa Compaña"
+  },
+  {
+    "slug": "patasola",
+    "category": "visitors",
+    "title": "La Patasola",
+    "region": "Antioquia, Colombia",
+    "lat": 6.5,
+    "lon": -75.5,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Hunters, loggers and miners in Colombia",
+    "hook": "In Colombian forests, a one-legged woman is said to lure lonely men deep into the trees, then show her true face.",
+    "summary": [
+      "La Patasola, 'one foot', is a legend of the forests and mountains of Colombia. She appears to hunters, loggers and miners working far from home as a beautiful woman, sometimes in the likeness of someone they love.",
+      "Once she has led them deep into the forest, she shows her true form: a creature with one leg, great fangs and wild hair, who attacks them. Stories say she can be kept away with prayers, or by the smell of tobacco."
+    ],
+    "explanation": "Folklorists see her as a warning against straying far from home, and as a guardian of the forest who punishes those who harm it. Some versions give her a tragic human past. She's one of several forest spirits in Colombian tradition.",
+    "wiki": "Patasola"
+  },
+  {
+    "slug": "white-lady-balete-drive",
+    "category": "visitors",
+    "title": "The White Lady of Balete Drive",
+    "region": "Balete Drive, Quezon City, Philippines",
+    "lat": 14.62,
+    "lon": 121.03,
+    "dateLabel": "Told since at least the 1950s",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Taxi drivers and night-time motorists",
+    "hook": "On a tree-lined road in Manila, taxi drivers tell of a woman in white who appears in the back seat, or in the road ahead.",
+    "summary": [
+      "Balete Drive, in Quezon City, Metro Manila, is named after the balete trees, a kind of fig, that once lined it; in Philippine folklore, balete trees are homes of spirits. For decades it's been known for its White Lady: a woman with long hair in a white dress, seen standing by the road or suddenly appearing in a car's back seat or mirror.",
+      "Taxi drivers are said to avoid the road at night, and different stories offer different accounts of who she was."
+    ],
+    "explanation": "There's no record of any event the stories describe. Folklorists see it as one of many white lady legends around the world, given extra power by old beliefs about balete trees.",
+    "wiki": "Balete Drive"
+  },
+  {
+    "slug": "jiangshi",
+    "category": "visitors",
+    "title": "The Jiangshi, the Hopping Dead",
+    "region": "Xiangxi, Hunan, China",
+    "lat": 28.3,
+    "lon": 109.7,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Chinese tradition",
+    "hook": "In Chinese folklore, the stiff dead hop with outstretched arms, and priests once led them home across the mountains by night.",
+    "summary": [
+      "The jiangshi, or 'hopping vampire', is a reanimated corpse of Chinese folklore that moves by hopping with its arms held straight out, its body stiff. It's said to feed on the life force, or qi, of the living, and can be stopped by a yellow paper charm stuck to its forehead.",
+      "The legend is tied to Xiangxi, in western Hunan, and a tradition of 'corpse herding', in which Taoist priests led the bodies of people who had died far from home back to their villages for burial, travelling only at night."
+    ],
+    "explanation": "Some think corpse herders tied bodies upright to bamboo poles carried between two people, making them seem to hop in the dark, or that the practice was a cover for smuggling. Hong Kong films of the 1980s, such as Mr. Vampire, made the jiangshi famous worldwide.",
+    "wiki": "Jiangshi"
+  },
+  {
+    "slug": "fishers-ghost",
+    "category": "visitors",
+    "title": "Fisher's Ghost",
+    "region": "Campbelltown, New South Wales, Australia",
+    "lat": -34.07,
+    "lon": 150.82,
+    "dateLabel": "1826",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "A local farmer, John Farley, and the colonial court",
+    "hook": "In 1826 a man said he saw a missing farmer sitting on a fence, pointing at a creek. A search there found the farmer's body.",
+    "summary": [
+      "In June 1826, Frederick Fisher, a farmer at Campbelltown near Sydney, disappeared. His neighbour, George Worrall, said Fisher had gone back to England, and began selling his property.",
+      "Months later a local man, John Farley, said he had seen Fisher's ghost sitting on a fence rail by a creek, pointing to the paddock beyond. A search there found Fisher's body. Worrall was tried, convicted of murder and hanged in 1827."
+    ],
+    "explanation": "The trial is recorded, but the ghost isn't mentioned in the court records; the story first appeared in print years later. Historians think it may have been invented, or used to cover a tip-off from someone who knew more. Campbelltown celebrates it with the Festival of Fisher's Ghost every November.",
+    "wiki": "Fisher's Ghost"
+  },
+  {
+    "slug": "highgate-vampire",
+    "category": "visitors",
+    "title": "The Highgate Vampire",
+    "region": "Highgate Cemetery, London, England",
+    "lat": 51.567,
+    "lon": -0.147,
+    "dateLabel": "1970",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Local people, two rival occultists, and crowds",
+    "hook": "In 1970, rumours of a vampire in a London cemetery brought crowds of would-be hunters over the walls at night.",
+    "summary": [
+      "Highgate Cemetery, in north London, is a Victorian burial ground of overgrown paths, catacombs and tombs. In 1970 local people reported a tall, dark figure among the graves, and letters in the local newspaper discussed a possible vampire.",
+      "Two rival occult enthusiasts, David Farrant and Seán Manchester, each claimed to be hunting it. After a television report in March 1970, crowds climbed into the cemetery at night, and tombs were damaged."
+    ],
+    "explanation": "Most see the affair as a mix of rumour, media excitement and a long-running rivalry between the two men, which lasted for decades. No vampire was found. The cemetery is now carefully managed and open for guided tours.",
+    "wiki": "Highgate Vampire"
+  },
+  {
+    "slug": "sava-savanovic",
+    "category": "visitors",
+    "title": "Sava Savanović, the Vampire of the Mill",
+    "region": "Zarožje, near Bajina Bašta, Serbia",
+    "lat": 43.95,
+    "lon": 19.5,
+    "dateLabel": "Written down in 1880; mill collapsed 2012",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Serbian tradition, and the village of Zarožje",
+    "hook": "Serbia's most famous vampire was said to live in an old watermill, and when it collapsed in 2012 the village warned people to protect themselves.",
+    "summary": [
+      "In Serbian folklore, Sava Savanović was a vampire who lived in an old watermill on the Rogačica river at Zarožje, in western Serbia, and preyed on the millers who came to grind grain there. The story was made famous by Milovan Glišić's tale After Ninety Years (1880).",
+      "In 2012 the crumbling mill partly collapsed. The local council warned residents, half in jest, to put garlic in their windows and keep crosses close, and the story went around the world."
+    ],
+    "explanation": "Serbia has a long tradition of vampire beliefs; the word 'vampire' entered Western European languages partly through 18th-century reports from Serbia. The 2012 warning was as much about tourism as fear, and the mill remains a local attraction.",
+    "wiki": "Sava Savanović"
+  },
+  {
+    "slug": "popobawa",
+    "category": "visitors",
+    "title": "The Popobawa",
+    "region": "Pemba, Zanzibar, Tanzania",
+    "lat": -5.2,
+    "lon": 39.75,
+    "dateLabel": "Waves of reports from 1995",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Villagers across Zanzibar",
+    "hook": "On Zanzibar, people said a bat-winged spirit attacked men in their sleep, and whole villages slept outdoors in fear.",
+    "summary": [
+      "The popobawa, a Swahili name meaning 'bat wing', is said to be a shadowy spirit that comes at night, sometimes as a one-eyed figure with bat-like wings, and attacks people, mostly men, in their sleep. Reports go back to Pemba island in the 1970s.",
+      "In 1995 a wave of reports swept Zanzibar and parts of mainland Tanzania. Many families slept outdoors in groups, believing it struck those who slept alone indoors."
+    ],
+    "explanation": "Researchers suggest sleep paralysis, which can bring a terrifying sense of a presence pressing on the chest, combined with rumour and social tension, often around elections. Further waves of reports came in 2000, 2001 and 2007.",
+    "wiki": "Popobawa"
+  },
+  {
+    "slug": "elizabeth-bathory",
+    "category": "visitors",
+    "title": "Elizabeth Báthory, the 'Blood Countess'",
+    "region": "Čachtice Castle, Slovakia",
+    "lat": 48.72,
+    "lon": 17.78,
+    "dateLabel": "Arrested in December 1610",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Servants, villagers and court officials",
+    "hook": "A Hungarian countess was accused of killing many young women, and a later legend said she bathed in their blood to stay young.",
+    "summary": [
+      "Elizabeth Báthory was a Hungarian noblewoman whose estates included Čachtice Castle, in what is now Slovakia. In December 1610 she was arrested and accused of torturing and killing girls and young women who worked in her household. Witnesses gave numbers ranging from dozens to over 600.",
+      "She was never tried, but was confined in the castle until her death in 1614, while servants accused with her were executed."
+    ],
+    "explanation": "The story of bathing in blood first appeared more than a century later and isn't supported by the records of the case. Some historians argue that the accusations were exaggerated, or driven by political and financial interests, since powerful relatives stood to gain from her fall; others accept that serious crimes took place.",
+    "wiki": "Elizabeth Báthory"
+  },
+  {
+    "slug": "gumiho",
+    "category": "visitors",
+    "title": "The Gumiho, the Nine-Tailed Fox",
+    "region": "Korean folklore, told across the peninsula",
+    "lat": 36,
+    "lon": 127.8,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Korean tradition",
+    "hook": "In Korean folklore, a fox that has lived a thousand years can become a beautiful woman, but must feed on people to stay human.",
+    "summary": [
+      "The gumiho, 'nine-tailed fox', is a creature of Korean folklore: a fox that has lived a thousand years and can take the form of a beautiful woman. Unlike similar fox spirits in China and Japan, which can be good or wicked, the Korean gumiho is usually dangerous, and in many tales she eats a man's liver or heart to keep her human form.",
+      "Some stories say that if she can go a thousand days without killing, or keep her secret from her husband, she'll become fully human."
+    ],
+    "explanation": "The gumiho belongs to a shared East Asian tradition of fox spirits. In recent decades, Korean dramas have often reimagined her as a sympathetic figure longing to be human, and she remains a symbol of desire and danger in Korean storytelling.",
+    "wiki": "Gumiho"
+  },
+  {
+    "slug": "dullahan",
+    "category": "visitors",
+    "title": "The Dullahan",
+    "region": "Rural Ireland",
+    "lat": 52.7,
+    "lon": -8.6,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Irish tradition",
+    "hook": "In Irish folklore, a headless rider gallops through the night, and where he stops, someone will die.",
+    "summary": [
+      "The dullahan is a figure of Irish folklore: a headless horseman, or sometimes horsewoman, on a black horse, carrying his own head under his arm, its eyes darting and its grin stretching across the face. Where he stops and calls out a name, that person dies.",
+      "Locked gates are said to fly open before him, and those who watch him too closely are punished. The only protection is gold, which he fears."
+    ],
+    "explanation": "Folklorists see the dullahan as an omen of death, like the banshee, perhaps linked to older Celtic beliefs about the head as the seat of the soul. Washington Irving's Headless Horseman in The Legend of Sleepy Hollow (1820) may owe something to him.",
+    "wiki": "Dullahan"
+  },
+  {
+    "slug": "mercy-brown",
+    "category": "visitors",
+    "title": "The New England Vampire Panic",
+    "region": "Exeter, Rhode Island, USA",
+    "lat": 41.57,
+    "lon": -71.53,
+    "dateLabel": "17 March 1892",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The Brown family, neighbours and the local doctor",
+    "hook": "In 1892, a Rhode Island family struck by tuberculosis opened their relatives' graves to find the one 'feeding' on the living.",
+    "summary": [
+      "In the late 1800s, tuberculosis was killing members of the Brown family of Exeter, Rhode Island. After the mother and a daughter died, the son, Edwin, fell ill, and the youngest daughter, Mercy, died in January 1892.",
+      "Following an old New England belief, neighbours persuaded the father that one of the dead was draining the living. On 17 March 1892 the bodies were exhumed. Mercy's, kept through the winter in a cold vault, seemed little decayed, which was taken as proof. Her heart was burned, and the ashes were given to Edwin as a cure, but he died soon after."
+    ],
+    "explanation": "Her body was well preserved because she had died in winter and been kept in a cold vault. Historians have found dozens of similar 'vampire' exhumations in New England, all driven by fear of tuberculosis, then little understood. Mercy Brown's is the last well-documented case.",
+    "wiki": "Mercy Brown vampire incident"
+  },
+  {
+    "slug": "robert-the-doll",
+    "category": "visitors",
+    "title": "Robert the Doll",
+    "region": "Fort East Martello Museum, Key West, Florida, USA",
+    "lat": 24.55,
+    "lon": -81.75,
+    "dateLabel": "Given to its owner around 1904",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Its owners, and museum visitors",
+    "hook": "A doll in a Key West museum is said to move, change expression and bring bad luck to anyone who photographs it without asking.",
+    "summary": [
+      "Robert is a straw-stuffed doll in a sailor suit that belonged to the Key West artist Robert Eugene Otto, given to him as a child around 1904. Stories say the doll moved around the house, giggled and was blamed for mischief, and that it frightened later owners.",
+      "It's now shown at the Fort East Martello Museum, where visitors are told to ask its permission before taking a photo. The walls nearby are covered in letters apologising for rudeness and asking it to lift their bad luck."
+    ],
+    "explanation": "There's no evidence the doll does anything, and many of the stories date from after Otto's death in 1974. Robert is a much-loved local legend and tourist attraction, and is often said to have helped inspire the Chucky films.",
+    "wiki": "Robert (doll)"
+  },
+  {
+    "slug": "el-naddaha",
+    "category": "voices",
+    "title": "El Naddaha, the Caller",
+    "region": "Villages along the Nile, Egypt",
+    "lat": 27.2,
+    "lon": 31.2,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Egyptian village tradition",
+    "hook": "In rural Egypt, a woman's voice calls men by name from the Nile at night, and those who follow are never seen again.",
+    "summary": [
+      "El Naddaha, 'the caller', is a figure of Egyptian folklore, especially in villages along the Nile and its canals. She's described as a beautiful woman who calls men by name in the night. Those who follow her voice to the water, the stories say, are never seen again, or come back mute or out of their minds.",
+      "The legend has been told for generations and appears in Egyptian films and stories."
+    ],
+    "explanation": "Folklorists see El Naddaha as a warning about the Nile and its canals at night, especially for young men, much like the kelpie or the Lorelei. Night sounds over water, and the real risk of drowning, give the story its force.",
+    "wiki": "El Naddaha"
+  },
+  {
+    "slug": "nain-rouge",
+    "category": "visitors",
+    "title": "The Nain Rouge of Detroit",
+    "region": "Detroit, Michigan, USA",
+    "lat": 42.33,
+    "lon": -83.05,
+    "dateLabel": "Legend from the 1700s; parade since 2010",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Detroit tradition",
+    "hook": "Detroit's founder is said to have been cursed by a small red creature, and the city now chases it out every spring with a parade.",
+    "summary": [
+      "The Nain Rouge, 'red dwarf', is a legend of Detroit: a small red creature with glowing eyes, said to appear before disasters. The story says that Antoine de la Mothe Cadillac, who founded Detroit in 1701, struck at the creature with his cane, and his fortunes collapsed soon after.",
+      "Sightings were later said to have come before disasters in the city's history, including the great fire of 1805."
+    ],
+    "explanation": "The legend draws on folklore brought by early French settlers and was written up in the 19th century, especially in Marie Hamlin's Legends of Le Détroit (1884). Since 2010, Detroiters have held the Marche du Nain Rouge each spring, a costumed parade to banish him for another year.",
+    "wiki": "Nain Rouge"
+  },
+  {
+    "slug": "croglin-grange",
+    "category": "visitors",
+    "title": "The Vampire of Croglin Grange",
+    "region": "Croglin, Cumbria, England",
+    "lat": 54.82,
+    "lon": -2.67,
+    "dateLabel": "Published in 1896",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "As told to the writer Augustus Hare",
+    "hook": "A Victorian writer told of a creature with glowing eyes that scratched at a window in Cumbria, then attacked a woman in her bed.",
+    "summary": [
+      "In his memoir Story of My Life (1896), Augustus Hare retold a tale he said he'd heard from a Captain Fisherson: tenants of Croglin Grange, a house in Cumbria, saw a hideous figure with glowing eyes cross the lawn one summer night, scratch at a window and get in, attacking a young woman in her bed. She survived.",
+      "A year later, the story goes, the creature returned, was wounded and fled to a nearby churchyard vault, where it was found among broken coffins and destroyed."
+    ],
+    "explanation": "Researchers have found no house matching the description, no local record and no trace of the Fisherson family, though a nearby farmhouse, Croglin Low Hall, has been suggested. The tale may have been based on an older story, or simply invented. It remains one of the best-known English vampire tales.",
+    "wiki": "Croglin Grange"
+  },
+  {
+    "slug": "adze",
+    "category": "visitors",
+    "title": "The Adze",
+    "region": "Volta Region, Ghana",
+    "lat": 6.6,
+    "lon": 0.47,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Ewe tradition in Ghana and Togo",
+    "hook": "In Ewe folklore, a firefly in the night may be a spirit that drains the strength of the young and healthy.",
+    "summary": [
+      "The adze is a creature of the folklore of the Ewe people of Ghana and Togo. It's said to travel as a firefly, slipping into homes at night to drain the blood of sleepers, especially children, and to take human form when caught.",
+      "Sudden illness and misfortune, especially among children, were sometimes blamed on it, and families took care to protect their homes at night."
+    ],
+    "explanation": "Folklorists see the adze as one way communities explained sudden illness and death, especially of children, at a time when diseases like malaria were poorly understood. Malaria, carried by tiny insects that bite at night, fits the legend strikingly well.",
+    "wiki": "Adze (folklore)"
+  },
+  {
+    "slug": "baba-yaga",
+    "category": "visitors",
+    "title": "Baba Yaga",
+    "region": "Forests of northern Russia",
+    "lat": 60,
+    "lon": 38,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Slavic tradition",
+    "hook": "In Slavic tales, a wild old woman lives in a forest hut that stands on chicken legs and turns to face its visitors.",
+    "summary": [
+      "Baba Yaga is the best-known figure of Slavic folklore: an old woman with iron teeth who lives deep in the forest in a hut that stands on chicken legs and turns around at a command. She flies in a mortar, steering with a pestle and sweeping away her tracks with a broom.",
+      "In some tales she's a terrifying threat who eats those who stray into her hut; in others she tests heroes and helps those who are brave, polite and clever, like Vasilisa the Beautiful."
+    ],
+    "explanation": "Scholars see Baba Yaga as a complex figure who may preserve older beliefs about a forest guardian standing between the living and the dead. Some link the hut on legs to storehouses raised on tree stumps by forest peoples of northern Russia and Siberia. She appears in art and music, including Mussorgsky's Pictures at an Exhibition.",
+    "wiki": "Baba Yaga"
+  },
+  {
+    "slug": "krampus",
+    "category": "visitors",
+    "title": "Krampus",
+    "region": "Salzburg, Austria",
+    "lat": 47.8,
+    "lon": 13.04,
+    "dateLabel": "Every 5 December",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Alpine tradition",
+    "hook": "Every December in the Alps, St Nicholas is followed by a horned, shaggy beast who punishes naughty children.",
+    "summary": [
+      "Krampus is a figure of Alpine folklore in Austria, Bavaria and nearby regions: a horned, hairy creature with a long tongue, rattling chains and a bundle of birch twigs, who accompanies St Nicholas on the night of 5 December. While St Nicholas rewards good children, Krampus frightens or punishes bad ones, and in some tales carries them off in a sack.",
+      "In towns across the Alps, young men in hand-carved wooden masks and fur costumes run through the streets in the Krampuslauf, the 'Krampus run'."
+    ],
+    "explanation": "Krampus probably has roots in pre-Christian Alpine winter customs that were absorbed into the Christian St Nicholas tradition. Authorities in Austria discouraged the custom in the 1930s, but it returned and has spread around the world. He's a reminder that many winter traditions have a dark side.",
+    "wiki": "Krampus"
+  },
+  {
+    "slug": "sawney-bean",
+    "category": "visitors",
+    "title": "Sawney Bean",
+    "region": "Bennane Head, near Ballantrae, Ayrshire, Scotland",
+    "lat": 55.12,
+    "lon": -5,
+    "dateLabel": "Said to be the 1500s; printed in the 1700s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "English chapbooks of the 1700s",
+    "hook": "A Scottish legend tells of a cave-dwelling clan that robbed and killed travellers for 25 years, until the king led a hunt for them.",
+    "summary": [
+      "Sawney Bean, the story goes, lived in the 16th century in a sea cave at Bennane Head, near Ballantrae in Ayrshire, with his wife and a family that grew to dozens of children and grandchildren. For 25 years they ambushed travellers on the coast road, killing them and, the legend says, eating them.",
+      "In the tale, King James VI led 400 men with bloodhounds to the cave, captured the clan and had them executed in Edinburgh."
+    ],
+    "explanation": "Historians have found no record of the Bean family, the disappearances or the executions in the detailed records of the time. The story first appeared in English chapbooks in the 18th century, and some think it was anti-Scottish propaganda. It's now seen as a legend, and it inspired films such as The Hills Have Eyes.",
+    "wiki": "Sawney Bean"
+  },
+  {
+    "slug": "beast-of-gevaudan",
+    "featured": true,
+    "category": "creatures",
+    "title": "The Beast of Gévaudan",
+    "region": "Gévaudan, Lozère, France",
+    "lat": 44.75,
+    "lon": 3.5,
+    "dateLabel": "1764–1767",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Villagers, soldiers and royal hunters",
+    "hook": "For three years a beast in the mountains of southern France killed around a hundred people, and the king sent his best hunters to stop it.",
+    "summary": [
+      "From June 1764, a large animal attacked people in the old province of Gévaudan, now the Lozère, in southern France. Over three years it is thought to have killed around a hundred people, mostly women and children watching livestock, and injured many more. Witnesses described a wolf-like creature with a large head, reddish fur and a long tail.",
+      "King Louis XV sent soldiers and then his own gun-bearer, François Antoine, who killed a large wolf in 1765. The attacks resumed, until a local hunter, Jean Chastel, killed another animal in June 1767, after which they stopped."
+    ],
+    "explanation": "Most historians think the attacks were the work of one or more large wolves, perhaps unusually bold ones, with the story magnified by the newspapers of the time. Other ideas include an escaped exotic animal or a wolf–dog hybrid, and some have suggested a human was involved. The truth may never be known.",
+    "wiki": "Beast of Gévaudan"
+  },
+  {
+    "slug": "pope-lick-monster",
+    "category": "creatures",
+    "title": "The Pope Lick Monster",
+    "region": "Pope Lick Creek, Louisville, Kentucky, USA",
+    "lat": 38.22,
+    "lon": -85.52,
+    "dateLabel": "Told since the mid-1900s",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Local storytellers",
+    "hook": "Under a railway trestle near Louisville, a goat-man is said to lure people onto the tracks, and the legend has led to real deaths.",
+    "summary": [
+      "The Pope Lick Monster is said to be a creature, half man and half goat or sheep, living beneath a high railway trestle over Pope Lick Creek, in eastern Louisville. Stories say it lures people onto the trestle with hypnotic voices, or leaps down onto cars passing beneath.",
+      "Drawn by the legend, people have climbed onto the trestle, and several have died there, struck by trains or falling, which led to fences and warning signs."
+    ],
+    "explanation": "There's no evidence for the creature; the danger is the trestle itself, which is still used by trains and leaves nowhere to escape one. Going onto it is illegal. The legend is a sad example of a story with real consequences.",
+    "wiki": "Pope Lick Monster"
+  },
+  {
+    "slug": "rat-king",
+    "category": "creatures",
+    "title": "The Rat King of Altenburg",
+    "region": "Mauritianum Museum, Altenburg, Thuringia, Germany",
+    "lat": 50.99,
+    "lon": 12.43,
+    "dateLabel": "Found in 1828",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "A miller, then museum curators",
+    "hook": "A knot of 32 rats with their tails tangled together is kept in a German museum, and no one is sure how it formed.",
+    "summary": [
+      "A rat king is a group of rats whose tails have become knotted together so that they can't separate. Reports come mainly from Germany and northern Europe from the 16th century onwards, and they were seen as a bad omen, even linked to plague.",
+      "The largest known, found in 1828 in a miller's fireplace at Buchheim, in Thuringia, is made up of 32 rats and is preserved in alcohol at the Mauritianum museum in Altenburg."
+    ],
+    "explanation": "How they form is debated. Some think rats huddled in cold, crowded nests can become entangled when their tails get sticky with dirt or sap, and can't pull free; others suspect some specimens were faked. A 'squirrel king', with tails stuck together by tree sap, has been documented, which supports a natural explanation.",
+    "wiki": "Rat king"
+  },
+  {
+    "slug": "hinterkaifeck",
+    "featured": true,
+    "category": "places",
+    "title": "Hinterkaifeck",
+    "region": "Near Waidhofen, Bavaria, Germany",
+    "lat": 48.6,
+    "lon": 11.38,
+    "dateLabel": "31 March 1922",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Neighbours, and the police",
+    "hook": "Before six people on a lonely Bavarian farm were killed in 1922, the farmer found footprints in the snow leading to the house, and none leading away.",
+    "summary": [
+      "In the days before 31 March 1922, Andreas Gruber, the farmer at the isolated farmstead of Hinterkaifeck, north of Munich, told neighbours about footprints in the snow coming from the forest to the farm but none going back, about a newspaper no one in the house had bought, and about footsteps in the attic. A set of keys had gone missing.",
+      "On 4 April, neighbours found that all six people living there had been killed: Gruber, his wife, their widowed daughter, her two children, and a maid who had arrived only days before. There were signs that someone had stayed on the farm for days afterwards, feeding the animals."
+    ],
+    "explanation": "Despite long investigations and the questioning of many suspects over the decades, the case was never solved, and the farm was demolished in 1923. In 2007 a group of police students re-examined the evidence and said they had identified a likely suspect, but wouldn't name him out of respect for living relatives.",
+    "wiki": "Hinterkaifeck murders"
+  },
+  {
+    "slug": "ourang-medan",
+    "category": "places",
+    "title": "The Ourang Medan",
+    "region": "Strait of Malacca",
+    "lat": 2.5,
+    "lon": 101,
+    "dateLabel": "Said to be 1947 or 1948",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Radio operators, according to later accounts",
+    "hook": "A ship's distress call said that all its officers were dead, then simply 'I die'. Rescuers are said to have found no one alive.",
+    "summary": [
+      "According to stories that appeared from 1952, ships in the Strait of Malacca in 1947 or 1948 picked up a Morse distress call from a Dutch freighter, the Ourang Medan, saying that the captain and officers were dead and that perhaps the whole crew was too, followed by garbled code and the words 'I die'.",
+      "A boarding party from an American ship, the Silver Star, is said to have found everyone on board dead, with no visible injuries. Before the ship could be towed, smoke rose from the hold, and it exploded and sank."
+    ],
+    "explanation": "No record of a ship called Ourang Medan has been found in shipping registers, and the early accounts contradict each other on dates and places. Some think the story was invented or garbled; others suggest a smuggled cargo of dangerous chemicals or a gas leak. Nothing has been confirmed.",
+    "wiki": "Ourang Medan"
+  },
+  {
+    "slug": "aokigahara",
+    "category": "places",
+    "title": "Aokigahara, the Sea of Trees",
+    "region": "Aokigahara, Yamanashi, Japan",
+    "lat": 35.47,
+    "lon": 138.62,
+    "dateLabel": "Forest grown since 864 AD",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Hikers, rangers and local people",
+    "hook": "A dense forest on the slopes of Mount Fuji, grown over old lava, is wrapped in folklore of spirits and of compasses that won't work.",
+    "summary": [
+      "Aokigahara is a dense forest on the north-west flank of Mount Fuji, growing on lava from an eruption in 864 AD. The ground is uneven, full of caves and tangled roots, and so quiet that visitors often remark on the silence. It's sometimes called Jukai, the Sea of Trees.",
+      "Folklore links it to yūrei, spirits of the dead, and a popular myth says the lava makes compasses useless. Sadly, it's also known as a place where people have gone to end their lives, and signs at the trailheads urge visitors to think of their families and to seek help."
+    ],
+    "explanation": "Tests have shown that compasses work normally in most of the forest, with only small deviations near some rocks. The quiet comes from the thick moss and porous lava, which absorb sound. Local authorities patrol the forest and work to prevent suicides. If you're struggling, please reach out to someone you trust or a local crisis line.",
+    "wiki": "Aokigahara"
+  },
+  {
+    "slug": "island-of-the-dolls",
+    "category": "places",
+    "title": "The Island of the Dolls",
+    "region": "Xochimilco, Mexico City, Mexico",
+    "lat": 19.29,
+    "lon": -99.07,
+    "dateLabel": "Dolls hung from the 1950s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Its caretaker, and visitors by boat",
+    "hook": "On a tiny island in Mexico City's canals, thousands of weathered dolls hang from the trees.",
+    "summary": [
+      "La Isla de las Muñecas is a small island in the canals of Xochimilco, in southern Mexico City. For decades its caretaker, Don Julián Santana Barrera, hung dolls from its trees, fences and huts, many of them faded and broken by sun and rain.",
+      "He said he began after finding a girl who had drowned in the canal nearby, and then a doll floating in the water, which he hung up to honour her spirit. He kept collecting dolls for around 50 years."
+    ],
+    "explanation": "Whether the drowned girl existed has never been confirmed, and the story may have grown in the telling. Don Julián died in 2001. The island is now a tourist attraction, reached by the colourful canal boats called trajineras.",
+    "wiki": "Island of the Dolls"
+  },
+  {
+    "slug": "poveglia",
+    "category": "places",
+    "title": "Poveglia, the Forbidden Island",
+    "region": "Poveglia, Venetian Lagoon, Italy",
+    "lat": 45.38,
+    "lon": 12.33,
+    "dateLabel": "Empty since 1968",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Venetians, and television ghost hunters",
+    "hook": "A small island in the Venetian lagoon, once a quarantine station, is said to be soaked in the dead of the plague.",
+    "summary": [
+      "Poveglia is a small island between Venice and the Lido. From the late 18th century it was used as a quarantine station for ships, and later as a hospital and care home, which closed in 1968. It has stood empty since.",
+      "Legend says thousands of plague victims were buried or burned there, and that a doctor at the hospital did cruel things to patients before falling from the bell tower. Visiting is forbidden."
+    ],
+    "explanation": "Historians say Venice's main plague islands were others, such as the Lazzaretto Vecchio, where mass graves have been excavated, though Poveglia did serve as a quarantine station. The story of the doctor has no record behind it and grew mostly through ghost-hunting shows in the 2000s. In 2014 the island was offered for lease, and a citizens' group campaigned to keep it public.",
+    "wiki": "Poveglia"
+  },
+  {
+    "slug": "elisa-lam",
+    "category": "places",
+    "title": "The Cecil Hotel and Elisa Lam",
+    "region": "Cecil Hotel, Los Angeles, California, USA",
+    "lat": 34.044,
+    "lon": -118.25,
+    "dateLabel": "February 2013",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Hotel staff, guests and the police",
+    "hook": "A hotel lift video of a young woman behaving strangely went around the world in 2013, and turned a tragic death into an internet mystery.",
+    "summary": [
+      "In February 2013, Elisa Lam, a 21-year-old Canadian student travelling alone, went missing from the Cecil Hotel in downtown Los Angeles. Police released security footage of her in a lift, pressing buttons, stepping in and out and gesturing as if to someone out of view.",
+      "Weeks later, after guests complained about the water, she was found in a water tank on the hotel roof. The video was watched millions of times, and online theories ranged from ghosts to conspiracies, fed by the hotel's dark history."
+    ],
+    "explanation": "The coroner ruled her death an accidental drowning, with bipolar disorder a significant factor, and found no evidence of foul play. Many have since urged people to remember her as a young woman who needed help, not as a mystery. Her story was the subject of a 2021 documentary series.",
+    "wiki": "Death of Elisa Lam"
+  },
+  {
+    "slug": "hellfire-club",
+    "category": "places",
+    "title": "The Hellfire Club",
+    "region": "Montpelier Hill, County Dublin, Ireland",
+    "lat": 53.25,
+    "lon": -6.33,
+    "dateLabel": "Lodge built around 1725",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Dublin tradition",
+    "hook": "A ruined lodge on a hill above Dublin is linked to a club of wealthy rakes, and to a stranger at the card table with a cloven hoof.",
+    "summary": [
+      "On top of Montpelier Hill, in the Dublin Mountains, stands the stone shell of a hunting lodge built around 1725 by William Conolly, Speaker of the Irish House of Commons, partly from the stones of a prehistoric cairn. Legend links it to the Hellfire Club, a group of wealthy young men in 1730s Dublin known for drinking and mocking religion.",
+      "One famous tale says a stranger joined their card game, and when a player dropped a card and bent to pick it up, he saw the stranger had a cloven hoof. The visitor vanished in a burst of flame."
+    ],
+    "explanation": "Historians doubt the club ever met at the lodge, and the tales grew later. Taking stones from the ancient cairn was said to bring bad luck, and the roof blew off in a storm soon after the lodge was built. Today it's a popular walk with views over Dublin.",
+    "wiki": "Montpelier Hill"
+  },
+  {
+    "slug": "polybius",
+    "category": "places",
+    "title": "Polybius, the Arcade Game That Never Was",
+    "region": "Portland, Oregon, USA",
+    "lat": 45.52,
+    "lon": -122.68,
+    "dateLabel": "Said to be 1981",
+    "status": "open",
+    "statusLabel": "Urban legend",
+    "witnesses": "Online storytellers",
+    "hook": "Legend says a mysterious arcade game appeared in Portland in 1981, made players ill, and was visited at night by men in black.",
+    "summary": [
+      "The story, which surfaced online around 2000, says that in 1981 a strange arcade game called Polybius appeared in a few arcades in suburban Portland, Oregon. Players became hooked and suffered nightmares, headaches and memory loss, and men in black suits were said to visit the machines to collect data.",
+      "Then, the story goes, the machines vanished without trace."
+    ],
+    "explanation": "No machine, code or record from the time has ever been found. Researchers think the legend may draw on real news from 1981: two players fell ill at Portland arcades, and FBI agents investigated gambling on arcade machines in the area. It has since inspired real games named Polybius.",
+    "wiki": "Polybius (urban legend)"
+  },
+  {
+    "slug": "fan-death",
+    "category": "places",
+    "title": "Fan Death",
+    "region": "Seoul, South Korea",
+    "lat": 37.57,
+    "lon": 126.98,
+    "dateLabel": "Widespread from the 1970s",
+    "status": "explained",
+    "statusLabel": "Urban legend",
+    "witnesses": "Generations of South Koreans",
+    "hook": "Many South Koreans were long taught that sleeping in a closed room with an electric fan running could kill you.",
+    "summary": [
+      "Fan death is a belief, widespread in South Korea for decades, that leaving an electric fan on overnight in a closed room can kill the sleeper, by chilling the body, using up the oxygen or creating a vacuum. News reports blamed deaths on fans, and many fans sold in Korea came with timers that switch them off.",
+      "Government agencies once included warnings about it in summer safety advice."
+    ],
+    "explanation": "There's no scientific evidence that fans cause death; deaths blamed on them are explained by heat, alcohol, heart conditions and other causes. Some suggest the belief spread in the 1970s, perhaps encouraged to save electricity. It has faded among younger people, but still crops up.",
+    "wiki": "Fan death"
+  },
+  {
+    "slug": "black-annis",
+    "category": "visitors",
+    "title": "Black Annis of the Dane Hills",
+    "region": "Dane Hills, Leicester, England",
+    "lat": 52.63,
+    "lon": -1.17,
+    "dateLabel": "Told since at least the 1700s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Leicester tradition",
+    "hook": "Leicester children were warned of a blue-faced hag with iron claws who lived in a cave in the Dane Hills and came out at dusk.",
+    "summary": [
+      "Black Annis is a figure of English folklore from Leicester: a hag with a blue face and long iron claws, said to live in a cave, Black Annis' Bower, that she scratched out of the rock in the Dane Hills, on the city's western edge. At dusk she was said to prowl the countryside for lambs and children who strayed too far from home.",
+      "An oak tree once stood by the cave, and some tellings say she hid in its branches to pounce. A 'Black Annis' hare hunt was held each Easter Monday in the area until the 18th century."
+    ],
+    "explanation": "Folklorists see her as a bogeyman figure told to keep children close to home. Some link her to Agnes Scott, a 15th-century anchoress who lived in a cell nearby, or to older goddess figures, though neither link is certain. The cave and the hills have long since been built over.",
+    "wiki": "Black Annis"
   }
 ];
