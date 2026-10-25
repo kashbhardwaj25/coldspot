@@ -15339,5 +15339,1912 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "Historians think most of the gold was spent on the war, taken abroad or seized, and no hidden hoard has been found. The legend is kept alive by occasional finds of old coins in the region and by the vast, rugged landscape.",
     "wiki": "Kruger Millions"
+  },
+  {
+    "slug": "nebra-sky-disc",
+    "featured": true,
+    "category": "sky",
+    "title": "The Nebra Sky Disc",
+    "region": "Mittelberg, near Nebra, Saxony-Anhalt, Germany",
+    "lat": 51.28,
+    "lon": 11.52,
+    "dateLabel": "Found in 1999",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Looters, police and archaeologists",
+    "hook": "Looters with a metal detector dug up a bronze disc showing the Sun, Moon and stars, perhaps the oldest picture of the sky ever found.",
+    "summary": [
+      "In 1999 two treasure hunters with a metal detector illegally dug up a bronze disc about 30 cm across on the Mittelberg hill near Nebra, in eastern Germany. It's inlaid in gold with a crescent, a full circle, a cluster of seven dots that seems to be the Pleiades, and other stars.",
+      "They sold it on the black market. In 2002 Swiss police recovered it in a sting operation in Basel, and the looters later led archaeologists to the spot where they'd found it."
+    ],
+    "explanation": "It's usually dated to around 1600 BC, which would make it the oldest known concrete picture of the cosmos. Gold arcs added along its edges match the angle between sunrise at midsummer and midwinter at that latitude, suggesting it was used to follow the year. A 2020 study argued it may be centuries younger, though most researchers still favour the Bronze Age date.",
+    "wiki": "Nebra sky disc"
+  },
+  {
+    "slug": "mystery-airships-1896",
+    "category": "sky",
+    "title": "The Mystery Airships of 1896",
+    "region": "Sacramento, California, USA",
+    "lat": 38.58,
+    "lon": -121.49,
+    "dateLabel": "17 November 1896",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Crowds across California, then the Midwest",
+    "hook": "Years before the Wright brothers flew, Americans reported cigar-shaped airships with searchlights crossing the night sky.",
+    "summary": [
+      "On the evening of 17 November 1896, crowds in Sacramento reported a bright light moving slowly over the city, and some said they heard voices or saw a cigar-shaped craft. Over the following weeks sightings spread across California, and in 1897 waves of reports swept the Midwest and Texas.",
+      "Newspapers printed claims from people who said they'd met the inventors, and stories of crashed airships, including the one at Aurora, Texas. No working airship of that kind existed at the time."
+    ],
+    "explanation": "Historians think the wave was fed by excitement about the coming age of flight, by bright planets such as Venus, by balloons and kites carrying lanterns, and by deliberate newspaper hoaxes. No airship or inventor was ever confirmed.",
+    "wiki": "Mystery airship"
+  },
+  {
+    "slug": "neuschwanstein-meteorite",
+    "category": "sky",
+    "title": "The Meteorite by the Fairy-Tale Castle",
+    "region": "Near Neuschwanstein Castle, Bavaria, Germany",
+    "lat": 47.56,
+    "lon": 10.75,
+    "dateLabel": "6 April 2002",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "A network of sky cameras, then searchers",
+    "hook": "Sky cameras tracked a fireball so precisely that searchers found the meteorite near a fairy-tale castle.",
+    "summary": [
+      "On the night of 6 April 2002, a bright fireball crossed southern Germany. Cameras of the European Fireball Network photographed it from several stations, letting scientists calculate where any pieces should have landed.",
+      "Searchers found a 1.75 kg fragment that July near Neuschwanstein Castle, and more pieces turned up later, one just over the border in Austria."
+    ],
+    "explanation": "Its orbit turned out to be almost identical to that of the Příbram meteorite, which fell in 1959 and was the first ever tracked by cameras, suggesting both came from the same stream of space debris. It's a rare kind of stony meteorite called an enstatite chondrite.",
+    "wiki": "Neuschwanstein (meteorite)"
+  },
+  {
+    "slug": "night-the-stars-fell",
+    "category": "sky",
+    "title": "The Night the Stars Fell",
+    "region": "Eastern United States",
+    "lat": 38,
+    "lon": -79,
+    "dateLabel": "13 November 1833",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Huge numbers of people across North America",
+    "hook": "On a November night in 1833, tens of thousands of meteors an hour poured from the sky, and many thought the world was ending.",
+    "summary": [
+      "In the early hours of 13 November 1833, people across North America woke to a sky full of shooting stars, by some estimates tens of thousands an hour, all seeming to stream from one point in the constellation Leo. Many thought it was the end of the world, and some went out to pray.",
+      "The night entered folk memory; in some communities, events were dated from 'the night the stars fell'."
+    ],
+    "explanation": "It was the Leonid meteor shower, which happens every November as Earth passes through debris shed by Comet Tempel–Tuttle. Every 33 years or so, Earth meets a dense stream and a 'storm' results. The 1833 storm helped astronomers such as Denison Olmsted realise that meteors come from space, not from the atmosphere.",
+    "wiki": "Leonids"
+  },
+  {
+    "slug": "quebec-blackout-1989",
+    "category": "sky",
+    "title": "The Night the Sun Switched Off Quebec",
+    "region": "Montreal, Quebec, Canada",
+    "lat": 45.5,
+    "lon": -73.57,
+    "dateLabel": "13 March 1989",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Millions of people in Quebec",
+    "hook": "A storm on the Sun knocked out power across Quebec in 90 seconds, and auroras lit skies as far south as Texas.",
+    "summary": [
+      "On 13 March 1989, a huge burst of charged particles from the Sun struck Earth's magnetic field. At 2:44 in the morning, electric currents induced in the ground tripped protective equipment on Hydro-Québec's power grid, and within about 90 seconds the whole system collapsed.",
+      "Six million people lost power for around nine hours in the cold. Auroras were seen as far south as Texas and Florida."
+    ],
+    "explanation": "It was a severe geomagnetic storm caused by a coronal mass ejection from the Sun. The blackout led power companies around the world to strengthen their grids against space weather, and it remains a key example of why solar storms are watched closely.",
+    "wiki": "March 1989 geomagnetic storm"
+  },
+  {
+    "slug": "blue-sun-1950",
+    "category": "sky",
+    "title": "The Blue Sun of 1950",
+    "region": "Edinburgh, Scotland",
+    "lat": 55.95,
+    "lon": -3.19,
+    "dateLabel": "26 September 1950",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "People across Scotland and northern England",
+    "hook": "One September day in 1950, the Sun over Scotland turned blue, and that night the Moon did too.",
+    "summary": [
+      "On 26 September 1950, people in Scotland and northern England saw the Sun shine a strange blue or lavender through a high haze, and that night the Moon looked blue as well. It made newspaper headlines.",
+      "A few days earlier, people in Canada and the north-eastern United States had lived through a 'yellow day', when smoke darkened the sky so much that streetlights came on at midday."
+    ],
+    "explanation": "The cause was the Chinchaga fire, one of the largest wildfires ever recorded in North America, burning in British Columbia and Alberta. Its smoke drifted across the Atlantic, and particles of just the right size scattered red light more than blue, giving the Sun and Moon a blue tint.",
+    "wiki": "Chinchaga fire"
+  },
+  {
+    "slug": "will-o-the-wisp",
+    "category": "sky",
+    "title": "The Will-o'-the-Wisp",
+    "region": "The Fens, Cambridgeshire, England",
+    "lat": 52.45,
+    "lon": 0.1,
+    "dateLabel": "Reported for centuries",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Travellers crossing marshes and bogs",
+    "hook": "Over marshes across Europe, people saw a flickering light that drifted ahead and led travellers astray.",
+    "summary": [
+      "Across Europe, and especially in the marshes and fens of England, people told of a pale flame that floated over boggy ground at night and retreated when followed, luring travellers into the mire. It had many names: will-o'-the-wisp, jack-o'-lantern, ignis fatuus, 'foolish fire'.",
+      "Folklore explained it as spirits, fairies or lost souls, and it appears in literature from Milton to Tolkien. Reports grew rare as the marshes were drained."
+    ],
+    "explanation": "The usual explanation is gas from rotting plants, such as methane and phosphine, igniting and glowing briefly over the marsh. No one has convincingly recreated the lights in a laboratory, though, and some sightings may have been glowing fungi, insects or distant lamps, so the cause isn't fully settled.",
+    "wiki": "Will-o'-the-wisp"
+  },
+  {
+    "slug": "black-knight-satellite",
+    "category": "sky",
+    "title": "The Black Knight Satellite",
+    "region": "Kennedy Space Center, Florida, USA",
+    "lat": 28.57,
+    "lon": -80.65,
+    "dateLabel": "Photographed in December 1998",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Astronauts on the Space Shuttle Endeavour",
+    "hook": "A dark, ragged object photographed in orbit became, online, a 13,000-year-old alien satellite.",
+    "summary": [
+      "In December 1998, astronauts on the Space Shuttle Endeavour, launched from Kennedy Space Center to begin building the International Space Station, photographed a dark, irregular object tumbling in orbit. NASA described it as debris.",
+      "Online, the photos were joined to older stories: Nikola Tesla's report of strange radio signals in 1899, 1950s newspaper reports of mysterious satellites, and claims of an alien probe that had circled Earth for thousands of years, nicknamed the Black Knight."
+    ],
+    "explanation": "NASA says the object was a thermal blanket that astronauts lost during a spacewalk on that mission. The other stories aren't connected to it or to each other. The Black Knight is a modern myth stitched together from unrelated events.",
+    "wiki": "Black Knight satellite conspiracy theory"
+  },
+  {
+    "slug": "ijen-blue-fire",
+    "category": "sky",
+    "title": "The Blue Fire of Ijen",
+    "region": "Ijen crater, East Java, Indonesia",
+    "lat": -8.06,
+    "lon": 114.24,
+    "dateLabel": "Seen every night",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Sulphur miners and visitors",
+    "hook": "Inside an Indonesian volcano, rivers of electric-blue flame run down the rocks at night.",
+    "summary": [
+      "At the Ijen volcano in East Java, visitors who hike up before dawn can see vivid blue flames flickering across the crater floor, sometimes seeming to flow down the slopes like liquid. The crater also holds the world's largest acidic lake, a bright turquoise.",
+      "Miners have long climbed into the crater to carry out heavy baskets of yellow sulphur by hand, working in the fumes."
+    ],
+    "explanation": "The blue light comes from sulphurous gases escaping through cracks at high temperature and burning as they meet the air; some sulphur condenses and burns as it flows, which looks like blue lava. The colour shows only at night. The gases are dangerous, and visitors wear masks.",
+    "wiki": "Ijen"
+  },
+  {
+    "slug": "oannes",
+    "category": "visitors",
+    "title": "Oannes, the Fish-Man of Babylon",
+    "region": "Babylon, Iraq",
+    "lat": 32.54,
+    "lon": 44.42,
+    "dateLabel": "Written down around 290 BC",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "The Babylonian priest Berossus",
+    "hook": "A Babylonian priest wrote that a fish-man rose from the sea to teach humans writing, farming and law.",
+    "summary": [
+      "Around 290 BC, the Babylonian priest Berossus wrote a history of his people in Greek. In it he described Oannes, a being with a fish's body and a man's head and feet, who came out of the sea each day to teach the first people writing, mathematics, building, farming and law, and returned to the water at night.",
+      "In the 20th century, ancient-astronaut writers suggested Oannes was a memory of visitors in diving suits or spacecraft."
+    ],
+    "explanation": "Historians link Oannes to the apkallu, wise sages of Mesopotamian myth often carved wearing fish cloaks, who were believed to have brought civilisation from Enki, god of the waters. They belong to Mesopotamian religion; there's no evidence for an extraterrestrial reading.",
+    "wiki": "Oannes"
+  },
+  {
+    "slug": "abydos-helicopter",
+    "category": "visitors",
+    "title": "The Helicopter of Abydos",
+    "region": "Temple of Seti I, Abydos, Egypt",
+    "lat": 26.185,
+    "lon": 31.95,
+    "dateLabel": "Carved around 1290 BC",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors to the temple",
+    "hook": "A carving in an Egyptian temple seems to show a helicopter and a jet, 3,000 years early.",
+    "summary": [
+      "On a beam in the Temple of Seti I at Abydos, a panel of hieroglyphs looks, at a glance, like a helicopter, a submarine and a jet aircraft. Photographs of it spread widely in the 1990s as proof of ancient advanced technology.",
+      "The temple was built by Seti I and finished by his son Ramesses II, around 1290 to 1270 BC."
+    ],
+    "explanation": "Egyptologists explain it as a recarving: Seti I's titles were filled in with plaster and carved over with Ramesses II's. As the plaster fell away, the two sets of signs overlapped, making shapes that resemble machines. Some popular photos were also retouched to strengthen the effect.",
+    "wiki": "Temple of Seti I"
+  },
+  {
+    "slug": "kyshtym-dwarf",
+    "category": "visitors",
+    "title": "The Kyshtym Dwarf",
+    "region": "Kalinovo, near Kyshtym, Chelyabinsk Oblast, Russia",
+    "lat": 55.7,
+    "lon": 60.55,
+    "dateLabel": "August 1996",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "An elderly villager, her neighbours, and investigators",
+    "hook": "An elderly woman in the Urals said she found a tiny creature in the woods and cared for it. Its remains became 'the alien of Kyshtym'.",
+    "summary": [
+      "In August 1996, according to her neighbours, Tamara Prosvirina, an elderly woman in the village of Kalinovo near Kyshtym, brought home a tiny, strange creature she said she'd found in the forest, named it Alyoshenka and cared for it. After she was taken into hospital it died, and its small mummified body was found.",
+      "Its large head and unusual features led to claims that it was an alien, fuelled by the region's history of secret nuclear sites. The body later disappeared."
+    ],
+    "explanation": "Experts who examined the body and photographs, including forensic doctors, concluded it was most likely a premature human infant with severe deformities. Reported DNA tests found human material, though they were never formally published.",
+    "wiki": "Alyoshenka"
+  },
+  {
+    "slug": "mae-nak",
+    "category": "visitors",
+    "title": "Mae Nak of Phra Khanong",
+    "region": "Wat Mahabut, Phra Khanong, Bangkok, Thailand",
+    "lat": 13.71,
+    "lon": 100.6,
+    "dateLabel": "Told since the 1800s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Thai tradition, and visitors to her shrine",
+    "hook": "Thailand's best-loved ghost story is of a wife who waited for her husband to come home, long after she had died.",
+    "summary": [
+      "The legend of Mae Nak Phra Khanong tells of a young woman in what is now a district of Bangkok, in the 19th century, whose husband went away to war. She died in childbirth while he was gone, but when he came home she was waiting with their baby, and he lived with her, not knowing she was a spirit.",
+      "When he learned the truth, she wouldn't let him go, until a monk finally laid her to rest. A shrine to Mae Nak at Wat Mahabut is visited every day by people asking for luck, love and protection."
+    ],
+    "explanation": "The story has been told in countless films, plays and TV series, and some think it grew from a real woman of the area. It's a folk tale of love and loss rather than a claim anyone sets out to prove, and the shrine is a living part of Bangkok's religious life.",
+    "wiki": "Mae Nak Phra Khanong"
+  },
+  {
+    "slug": "legend-of-the-white-snake",
+    "category": "visitors",
+    "title": "The Legend of the White Snake",
+    "region": "Leifeng Pagoda, West Lake, Hangzhou, China",
+    "lat": 30.23,
+    "lon": 120.15,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Chinese tradition",
+    "hook": "A snake spirit took human form, fell in love with a man by West Lake, and was imprisoned beneath a pagoda for it.",
+    "summary": [
+      "One of China's four great folk tales tells of Bai Suzhen, a white snake spirit who, after centuries of practice, took the form of a beautiful woman. She met a young man, Xu Xian, on a bridge over West Lake in Hangzhou, sharing an umbrella in the rain, and they married.",
+      "A monk, Fahai, convinced their love was wrong, revealed her true form and finally imprisoned her beneath the Leifeng Pagoda. The old pagoda collapsed in 1924, and a new one was built on the site in 2002."
+    ],
+    "explanation": "The tale has many versions and has been told in opera, film and television for centuries, its heroine growing more sympathetic over time. When the old pagoda fell, some saw it as the white snake's release. The pagoda and the Broken Bridge are among Hangzhou's most visited sights.",
+    "wiki": "Legend of the White Snake"
+  },
+  {
+    "slug": "mami-wata",
+    "category": "visitors",
+    "title": "Mami Wata",
+    "region": "Coast of Togo, West Africa",
+    "lat": 6.2,
+    "lon": 1.3,
+    "dateLabel": "Honoured for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Followers across West and Central Africa and beyond",
+    "hook": "Across West Africa, a water spirit with long hair and a snake around her shoulders brings wealth, and danger, to those she favours.",
+    "summary": [
+      "Mami Wata, 'Mother Water', is a water spirit honoured across West and Central Africa and among the African diaspora in the Americas. She's often shown as a beautiful woman with long hair, sometimes with a fish's tail, and a large snake wrapped around her.",
+      "She's said to bring wealth, beauty and healing to her followers, but can be jealous and demanding. Shrines and festivals honour her in countries including Togo, Benin, Ghana and Nigeria."
+    ],
+    "explanation": "Scholars note that her familiar image was shaped by a 19th-century European poster of a snake charmer that circulated widely in West Africa, blended with much older beliefs in water spirits. She remains part of religious life for many people today, and a popular subject in art.",
+    "wiki": "Mami Wata"
+  },
+  {
+    "slug": "pombero",
+    "category": "visitors",
+    "title": "The Pombero",
+    "region": "Cordillera, Paraguay",
+    "lat": -25.3,
+    "lon": -57.1,
+    "dateLabel": "Told in Guaraní folklore",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Rural families in Paraguay and north-eastern Argentina",
+    "hook": "In Paraguayan folklore, a small hairy man of the night mimics bird calls, and can be kept friendly with gifts of tobacco and honey.",
+    "summary": [
+      "The Pombero is a figure of Guaraní folklore in Paraguay and north-eastern Argentina: a short, stocky, hairy man who roams at night and during the quiet hours of the siesta. He's said to imitate birds, and to be heard far more often than seen.",
+      "He can be mischievous or helpful. Families traditionally leave him tobacco, honey or a drink to keep him friendly, and children are told not to wander off at siesta time."
+    ],
+    "explanation": "Folklorists see the Pombero as a guardian of the countryside and its birds, and a cautionary figure that kept children close to home. Strange noises and missing things on farms were often blamed on him. He remains a familiar part of rural culture.",
+    "wiki": "Pombero"
+  },
+  {
+    "slug": "ekeko",
+    "category": "visitors",
+    "title": "Ekeko and the Fair of Little Things",
+    "region": "La Paz, Bolivia",
+    "lat": -16.5,
+    "lon": -68.15,
+    "dateLabel": "Every year from 24 January",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Crowds at the Alasitas fair",
+    "hook": "Every January, people in La Paz buy tiny houses, cars and banknotes for a little god of plenty, hoping the real things will follow.",
+    "summary": [
+      "Ekeko is the Andean god of abundance and good luck, shown as a small, smiling man with a moustache, hung with miniature goods: bags of food, tools, money and household things. He has roots in the beliefs of the Aymara people.",
+      "From 24 January each year, La Paz holds the Alasitas fair, where people buy miniatures of what they hope to have in the coming year, such as houses, cars, diplomas or passports, and have them blessed at noon. UNESCO recognised the fair as cultural heritage in 2017."
+    ],
+    "explanation": "It's a living tradition rather than a mystery. In 2014 an ancient stone figure linked to Ekeko, taken from Tiwanaku to Switzerland in the 1850s, was returned to Bolivia after a long campaign.",
+    "wiki": "Ekeko"
+  },
+  {
+    "slug": "melusine",
+    "category": "visitors",
+    "title": "Melusine",
+    "region": "Lusignan, Vienne, France",
+    "lat": 46.43,
+    "lon": 0.12,
+    "dateLabel": "Written down in 1393",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Medieval romances, and the families who claimed her",
+    "hook": "A noble family claimed descent from a woman who became a serpent from the waist down every Saturday.",
+    "summary": [
+      "In French legend, Melusine was a fairy who married Raymondin, a nobleman of Poitou, on condition that he never see her on a Saturday. She brought him great wealth and built the castle of Lusignan. When he broke his promise and spied on her bathing, he saw that she was a serpent from the waist down.",
+      "Discovered, she flew from the castle as a winged serpent, and was said to return with a cry whenever a lord of Lusignan was about to die. Jean d'Arras wrote down the romance in 1393."
+    ],
+    "explanation": "Several noble houses, including the Lusignans, who became kings of Cyprus and Jerusalem, and later the House of Luxembourg, claimed Melusine as an ancestor, giving their line a magical origin. She belongs to a wide European family of water-fairy legends.",
+    "wiki": "Melusine"
+  },
+  {
+    "slug": "hulder",
+    "category": "visitors",
+    "title": "The Hulder",
+    "region": "Mountain pastures of Norway",
+    "lat": 61,
+    "lon": 9.5,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Norwegian and Swedish country people",
+    "hook": "In Scandinavian forests, a beautiful woman might appear to lonely herders, until she turned and you saw her cow's tail.",
+    "summary": [
+      "The hulder, or huldra, is a forest spirit of Norwegian and Swedish folklore: a beautiful woman with long hair, often met near summer pastures in the mountains, who lures young men with her singing. Her secret is a cow's tail, or a back hollow like a rotten tree, which she tries to hide.",
+      "In some tales a man who married a hulder in church would see her tail fall away and she would become human; in others, those she led off were never quite the same."
+    ],
+    "explanation": "Folklorists see the hulder as one of the 'hidden people' of Scandinavian belief, whose stories warned about the forest and about strangers. She's still a familiar figure: dancers dressed as a hulder appear at the Kjosfossen waterfall for passengers on the Flåm Railway.",
+    "wiki": "Hulder"
+  },
+  {
+    "slug": "bran-castle",
+    "category": "visitors",
+    "title": "Bran Castle, 'Dracula's Castle'",
+    "region": "Bran, Brașov, Romania",
+    "lat": 45.515,
+    "lon": 25.367,
+    "dateLabel": "Linked to Dracula in the 20th century",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Millions of visitors",
+    "hook": "A Transylvanian castle on a rocky crag is sold as Dracula's home, though its links to him are mostly imagination.",
+    "summary": [
+      "Bran Castle stands on a rock above a mountain pass between Transylvania and Wallachia, first built in the 1370s. It's promoted as 'Dracula's Castle', and visitors come from all over the world.",
+      "Bram Stoker's novel Dracula (1897) placed the count's castle in the Carpathians, and the character took his name from Vlad III, a 15th-century prince of Wallachia."
+    ],
+    "explanation": "There's no evidence that Stoker knew of Bran, which doesn't match the novel's description well, and Vlad III's link to the castle is slight. Its fame comes from tourism and its dramatic setting. In the 20th century it was a home of Queen Marie of Romania.",
+    "wiki": "Bran Castle"
+  },
+  {
+    "slug": "itako-mount-osore",
+    "category": "visitors",
+    "title": "The Mediums of Mount Osore",
+    "region": "Mount Osore, Mutsu, Aomori, Japan",
+    "lat": 41.33,
+    "lon": 141.09,
+    "dateLabel": "Festivals every July and October",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Pilgrims, and the itako mediums",
+    "hook": "On a volcanic mountain in Japan said to be a gateway to the afterlife, blind mediums speak in the voices of the dead.",
+    "summary": [
+      "Mount Osore, 'Fear Mountain', in the far north of Honshu, is a barren volcanic landscape of grey rock, sulphurous vents and a still crater lake, which Japanese Buddhist tradition sees as a gateway to the afterlife. A temple has stood there for over a thousand years.",
+      "During festivals each July and October, itako, traditionally blind women trained as mediums, offer to call up the spirits of the dead and speak with their voices to grieving families."
+    ],
+    "explanation": "The itako tradition is very old and has dwindled to only a few practitioners. Anthropologists see it as a way for families to grieve and find comfort, whatever one believes about the spirits. The landscape's strangeness comes from volcanic activity, which makes the lake acidic and the ground hot.",
+    "wiki": "Mount Osore"
+  },
+  {
+    "slug": "umibozu",
+    "category": "creatures",
+    "title": "The Umibōzu",
+    "region": "Sea of Japan",
+    "lat": 38.5,
+    "lon": 137.5,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Japanese sailors and fishermen",
+    "hook": "Japanese sailors told of a huge, dark, bald head that rose from calm seas at night and could sink a ship.",
+    "summary": [
+      "The umibōzu, 'sea monk', is a yōkai of Japanese folklore: an enormous, smooth black figure with a round head like a shaven monk's, which rises from the sea on calm nights. It was said to ask passing ships for a barrel and fill it with water to sink them, so wise sailors handed over a barrel with no bottom.",
+      "Accounts appear in Edo-period collections of strange tales, and in some places it was blamed for sudden storms."
+    ],
+    "explanation": "Some suggest the legend grew from glimpses of large sea animals, such as whales, turtles or giant squid, or from sudden swells and squalls. It's a folk explanation of the sea's dangers rather than an observed creature.",
+    "wiki": "Umibōzu"
+  },
+  {
+    "slug": "qilin-giraffe",
+    "category": "creatures",
+    "title": "The Qilin from Africa",
+    "region": "Nanjing, Jiangsu, China",
+    "lat": 32.06,
+    "lon": 118.79,
+    "dateLabel": "1414",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The Ming imperial court",
+    "hook": "In 1414 a giraffe arrived at the Chinese imperial court, and was greeted as a qilin, a sacred creature of good omen.",
+    "summary": [
+      "In 1414, in the time of Admiral Zheng He's great voyages, a giraffe was brought to China as a gift from the ruler of Bengal, who had received it from Malindi on the East African coast. It was presented to the Yongle Emperor.",
+      "Officials hailed it as a qilin, a gentle creature of Chinese myth whose appearance signalled a wise and virtuous ruler. A court painting and a poem recorded the event, and another giraffe later came from Malindi itself."
+    ],
+    "explanation": "The giraffe's mild nature and skin-covered horns fitted descriptions of the qilin, and a Somali word for giraffe may have sounded similar. The emperor publicly played down the omen, but the giraffe became a celebrated symbol of his reign.",
+    "wiki": "Qilin"
+  },
+  {
+    "slug": "vegetable-lamb-of-tartary",
+    "category": "creatures",
+    "title": "The Vegetable Lamb of Tartary",
+    "region": "The steppes of Central Asia",
+    "lat": 47,
+    "lon": 60,
+    "dateLabel": "Described from the 1300s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Medieval travel writers",
+    "hook": "Medieval Europeans believed a plant in Central Asia grew lambs as its fruit, which grazed around its stem.",
+    "summary": [
+      "From the 14th century, European travel writers, including the author of the fanciful Travels of Sir John Mandeville, described a plant in Tartary, in Central Asia, that bore lambs: small woolly animals joined to the plant by a stalk, which grazed the grass around them until it ran out and both died.",
+      "Scholars debated it for centuries, and supposed specimens were shown in collections."
+    ],
+    "explanation": "The legend probably grew from tales of cotton, a plant that produces wool-like fibre, which many Europeans had never seen growing. The 'specimens' were carved from the woolly root of a tree fern, Cibotium barometz, to look like a lamb. Naturalists had debunked it by the 18th century.",
+    "wiki": "Vegetable Lamb of Tartary"
+  },
+  {
+    "slug": "narwhal-unicorn-throne",
+    "category": "creatures",
+    "title": "The Unicorn Throne of Denmark",
+    "region": "Rosenborg Castle, Copenhagen, Denmark",
+    "lat": 55.686,
+    "lon": 12.577,
+    "dateLabel": "Throne made in the 1660s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "European royalty and collectors",
+    "hook": "Danish kings were crowned on a throne of unicorn horn, worth more than gold. It came from a whale.",
+    "summary": [
+      "For centuries Europeans prized 'unicorn horns': long, spiralled white tusks believed to detect poison and cure disease, worth many times their weight in gold. Royal collections displayed them, and drinking cups were made from them.",
+      "The coronation throne of the Danish kings, made in the 1660s and kept at Rosenborg Castle in Copenhagen, is built largely from these horns, guarded by three life-size silver lions."
+    ],
+    "explanation": "The horns were the tusks of narwhals, Arctic whales whose males grow a single long tooth through the upper lip. Traders brought them from Greenland and kept their origin quiet. In 1638 the Danish scholar Ole Worm showed they came from narwhals, and the trade in 'unicorn' horn faded.",
+    "wiki": "Narwhal"
+  },
+  {
+    "slug": "dodo",
+    "featured": true,
+    "category": "creatures",
+    "title": "The Dodo",
+    "region": "Mauritius",
+    "lat": -20.3,
+    "lon": 57.55,
+    "dateLabel": "Extinct by the 1680s",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Dutch sailors, and later scientists",
+    "hook": "The dodo vanished so fast that by the 1800s some naturalists doubted it had ever existed.",
+    "summary": [
+      "The dodo was a large, flightless bird, about a metre tall, that lived only on the island of Mauritius in the Indian Ocean. Dutch sailors began visiting in 1598, and in less than a century the bird was gone, wiped out by hunting and by the rats, pigs and other animals people brought.",
+      "Only a few drawings and scraps of specimens survived, and by the early 1800s some naturalists suspected it was a myth."
+    ],
+    "explanation": "In 1865 a schoolteacher, George Clark, found a large collection of dodo bones in the Mare aux Songes marsh, proving it was real. DNA studies show it was a giant relative of pigeons. It became the best-known symbol of extinction caused by people.",
+    "wiki": "Dodo"
+  },
+  {
+    "slug": "altamaha-ha",
+    "category": "creatures",
+    "title": "Altie, the Altamaha-ha",
+    "region": "Altamaha River, near Darien, Georgia, USA",
+    "lat": 31.36,
+    "lon": -81.42,
+    "dateLabel": "Reported for decades",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Fishermen and boaters",
+    "hook": "In the tidal creeks of coastal Georgia, people describe a long grey river creature with a snout and flippers.",
+    "summary": [
+      "The Altamaha River flows into the Atlantic on the Georgia coast, through marshes and tidal creeks near the small town of Darien. Local people have long reported a large creature in its waters, said to be several metres long and grey, with a long snout, front flippers and a horizontal tail.",
+      "It's nicknamed 'Altie' and has become a local mascot."
+    ],
+    "explanation": "Suggestions include Atlantic sturgeon, which live in the river, grow large and leap from the water, as well as alligators, manatees and dolphins seen briefly. No specimen has been found.",
+    "wiki": "Altamaha-ha"
+  },
+  {
+    "slug": "luison",
+    "category": "creatures",
+    "title": "The Luisón and the President's Godchildren",
+    "region": "Corrientes, Argentina",
+    "lat": -27.47,
+    "lon": -58.83,
+    "dateLabel": "Custom since 1907",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Guaraní folklore, and the Argentine presidency",
+    "hook": "Folklore said a seventh son in a row would become a creature of the night, so Argentina's president became his godparent.",
+    "summary": [
+      "In Guaraní folklore from Paraguay and north-eastern Argentina, the luisón is a creature of the night, and the seventh son born in a row to a family was said to be doomed to become one. Such boys were sometimes feared or even abandoned.",
+      "To protect them, a custom grew up in Argentina from 1907 by which the President becomes godparent to a seventh consecutive son; it was made official in 1973. Families still apply, and the child receives a gold medal and help with schooling."
+    ],
+    "explanation": "The legend is folklore, and the presidential custom shows how a belief can shape real policy. It may also draw on an older European tradition about seventh sons. In 2009 the custom was extended to seventh daughters.",
+    "wiki": "Luison"
+  },
+  {
+    "slug": "titicaca-water-frog",
+    "category": "creatures",
+    "title": "The Giant Frogs of Lake Titicaca",
+    "region": "Lake Titicaca, Puno, Peru",
+    "lat": -15.8,
+    "lon": -69.6,
+    "dateLabel": "Filmed in 1973",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Jacques Cousteau's expedition",
+    "hook": "Jacques Cousteau's divers found Lake Titicaca's floor crawling with large frogs wrapped in baggy folds of skin.",
+    "summary": [
+      "In 1973 an expedition led by Jacques Cousteau explored Lake Titicaca, high in the Andes on the border of Peru and Bolivia, partly in search of legendary lost Inca treasure. They found no gold, but reported great numbers of strange frogs on the lake bed, much larger than most frogs.",
+      "The Titicaca water frog spends its whole life underwater, its skin hanging in loose, baggy folds."
+    ],
+    "explanation": "The folds give it a huge surface for absorbing oxygen through its skin from the cold, thin water, so it rarely needs to surface. Once abundant, it's now critically endangered by pollution and over-collection, and conservation programmes are breeding it in captivity.",
+    "wiki": "Telmatobius culeus"
+  },
+  {
+    "slug": "greenland-shark",
+    "featured": true,
+    "category": "creatures",
+    "title": "The 400-Year-Old Shark",
+    "region": "Off east Greenland, North Atlantic",
+    "lat": 64,
+    "lon": -37,
+    "dateLabel": "Age revealed in 2016",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Scientists and Arctic fishermen",
+    "hook": "A slow, half-blind shark of the Arctic may live for 400 years, longer than any other animal with a backbone.",
+    "summary": [
+      "The Greenland shark lives in the cold, dark waters of the North Atlantic and Arctic, growing to around 6 metres or more. It swims extremely slowly, many have parasites clinging to their eyes, and its flesh is poisonous unless fermented, as in the Icelandic dish hákarl.",
+      "In 2016 scientists radiocarbon-dated the lenses of the eyes of 28 sharks, tissue that forms before birth and never changes. The largest was estimated at around 392 years old, give or take 120 years."
+    ],
+    "explanation": "Its cold home and slow metabolism seem to explain its long life; females are thought not to mature until they're about 150. It's the longest-lived vertebrate known, so a shark swimming today could have been born before the 1700s.",
+    "wiki": "Greenland shark"
+  },
+  {
+    "slug": "yeti-crab",
+    "category": "creatures",
+    "title": "The Yeti Crab",
+    "region": "South Pacific, south of Easter Island",
+    "lat": -38,
+    "lon": -112,
+    "dateLabel": "Discovered in 2005",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Deep-sea scientists in the submersible Alvin",
+    "hook": "Deep-sea explorers found a white crab covered in silky blond hair, living beside volcanic vents.",
+    "summary": [
+      "In March 2005, scientists diving in the submersible Alvin near hydrothermal vents on the Pacific–Antarctic Ridge, about 1,500 km south of Easter Island, found a pale crab about 15 cm long with arms covered in long, silky, blond bristles. It was so unlike other crabs that it was placed in a new family.",
+      "It was named Kiwa hirsuta, after a Polynesian goddess of shellfish, and quickly nicknamed the yeti crab."
+    ],
+    "explanation": "It lives more than 2,000 metres down. The bristles are thought to farm bacteria, which feed on chemicals from the vents and which the crab may eat. Related yeti crabs have since been found at other vents, some waving their claws as if tending their bacteria.",
+    "wiki": "Kiwa hirsuta"
+  },
+  {
+    "slug": "mountain-gorilla",
+    "category": "creatures",
+    "title": "The Gorillas in the Mist",
+    "region": "Virunga Mountains, Rwanda",
+    "lat": -1.47,
+    "lon": 29.5,
+    "dateLabel": "Described in 1902",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Local people, a German officer, and later Dian Fossey",
+    "hook": "Stories of great apes in Africa's volcanic mountains were confirmed in 1902, and the mountain gorilla became the world's most famous ape.",
+    "summary": [
+      "People living around the Virunga Mountains, on the borders of Rwanda, Uganda and the Democratic Republic of the Congo, knew of great apes high in the misty forests. In 1902 a German officer, Robert von Beringe, collected two on Mount Sabyinyo, and one was described in Berlin as a new kind of gorilla.",
+      "From 1967 the American researcher Dian Fossey studied them in Rwanda, and her book Gorillas in the Mist (1983) made them famous."
+    ],
+    "explanation": "The mountain gorilla is larger and shaggier than lowland gorillas, suited to cold, high forests. Once thought doomed, its numbers have risen to over 1,000 thanks to protection and carefully managed tourism. It's an example of an animal known locally long before science 'discovered' it.",
+    "wiki": "Mountain gorilla"
+  },
+  {
+    "slug": "olinguito",
+    "category": "creatures",
+    "title": "The Olinguito",
+    "region": "Andean cloud forest, Pichincha, Ecuador",
+    "lat": 0.05,
+    "lon": -78.75,
+    "dateLabel": "Announced in 2013",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The zoologist Kristofer Helgen and his team",
+    "hook": "A new mammal was discovered in 2013, first in museum drawers, then in the cloud forests of the Andes.",
+    "summary": [
+      "In 2013, researchers led by the Smithsonian announced the olinguito, the first new species of carnivore found in the Americas in 35 years. It's a small, fluffy, orange-brown relative of raccoons that lives in the trees of the Andean cloud forests of Colombia and Ecuador.",
+      "The zoologist Kristofer Helgen first noticed it while examining specimens in a museum in Chicago, where its skins had been mislabelled for decades. One had even been kept in zoos in the 1960s and 70s, mistaken for a relative, the olingo."
+    ],
+    "explanation": "His team confirmed it with DNA and then found living olinguitos in Ecuador's cloud forests. It shows that even a fair-sized mammal can be overlooked, and that museum collections still hold undiscovered species.",
+    "wiki": "Olinguito"
+  },
+  {
+    "slug": "zanzibar-leopard",
+    "category": "creatures",
+    "title": "The Zanzibar Leopard",
+    "region": "Unguja, Zanzibar, Tanzania",
+    "lat": -6.16,
+    "lon": 39.3,
+    "dateLabel": "Filmed in 2018",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Villagers, and a wildlife film crew",
+    "hook": "Zanzibar's own leopard was hunted to the edge of extinction and thought lost, then caught on camera in 2018.",
+    "summary": [
+      "The Zanzibar leopard, a population found only on Unguja, the main island of Zanzibar, was long persecuted, partly because of local beliefs linking some leopards to sorcery. By the 1990s it was widely thought to be extinct, with no confirmed photographs.",
+      "In 2018 a camera trap set by a team making a wildlife documentary recorded a leopard in the island's forests."
+    ],
+    "explanation": "Some scientists question whether the animals photographed belong to a distinct island population, and whether enough survive to breed. Its status remains uncertain, and conservationists are working to protect the remaining forest.",
+    "wiki": "Zanzibar leopard"
+  },
+  {
+    "slug": "giant-panda",
+    "category": "creatures",
+    "title": "The Black-and-White Bear",
+    "region": "Baoxing, Sichuan, China",
+    "lat": 30.37,
+    "lon": 102.82,
+    "dateLabel": "Described in 1869",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Local hunters, and the missionary Armand David",
+    "hook": "When a French missionary sent a black-and-white bear's skin to Paris in 1869, few in the West could picture such an animal.",
+    "summary": [
+      "In 1869 the French missionary and naturalist Armand David, working at Baoxing (then called Moupin) in western Sichuan, was shown the skin of a black-and-white bear by local hunters. He sent specimens to the natural history museum in Paris, where it was described for science.",
+      "For decades few Westerners saw one alive. The first live panda to leave China was taken to the United States in 1936 by Ruth Harkness."
+    ],
+    "explanation": "The giant panda is a true bear, adapted to a diet almost entirely of bamboo. It became a symbol of conservation, chosen as the WWF's logo in 1961. In 2016 it was moved from 'endangered' to 'vulnerable' as numbers in the wild recovered.",
+    "wiki": "Giant panda"
+  },
+  {
+    "slug": "beast-of-busco",
+    "category": "creatures",
+    "title": "The Beast of Busco",
+    "region": "Churubusco, Indiana, USA",
+    "lat": 41.23,
+    "lon": -85.32,
+    "dateLabel": "1948–1949",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "A farmer, then crowds of thousands",
+    "hook": "A farmer said a turtle as big as a dining table lived in his pond, and the hunt for it drew thousands of people.",
+    "summary": [
+      "In 1948 Gale Harris, a farmer near Churubusco, Indiana, and others said they'd seen a giant turtle, as big as a dining table, in Fulk Lake, a pond on his land. Newspapers picked up the story, and in 1949 Harris tried to catch it, even draining much of the pond, while thousands of people came to watch.",
+      "The turtle was glimpsed but never caught. Churubusco, 'Turtle Town USA', still holds an annual Turtle Days festival."
+    ],
+    "explanation": "Common snapping turtles in Indiana can grow large, though nowhere near the size described. Most think the reports were of a big snapping turtle, grown in the telling by excitement and the press.",
+    "wiki": "Beast of Busco"
+  },
+  {
+    "slug": "nacken",
+    "category": "voices",
+    "title": "Näcken, the Fiddler in the Waterfall",
+    "region": "Rivers and lakes of Sweden",
+    "lat": 60,
+    "lon": 15,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Scandinavian country people",
+    "hook": "In Scandinavian lore, a water spirit played the fiddle so beautifully by waterfalls that listeners danced themselves into the river.",
+    "summary": [
+      "Näcken in Sweden, or Nøkken in Norway, is a water spirit of Scandinavian folklore, often pictured as a young man sitting in a stream or beneath a waterfall, playing an enchanting tune on the violin. Those who heard it couldn't stop dancing, and might be drawn into the water.",
+      "He could also teach the fiddle to anyone who brought him an offering. Fiddlers of unusual skill were said to have learned from him."
+    ],
+    "explanation": "Like the kelpie, Näcken warned of the dangers of lakes, rivers and waterfalls, especially for children. The rush of falling water can sound like music, and the figure inspired painters such as Ernst Josephson and many folk songs.",
+    "wiki": "Nixie (folklore)"
+  },
+  {
+    "slug": "kuskoy-whistled-language",
+    "category": "voices",
+    "title": "The Village That Talks in Whistles",
+    "region": "Kuşköy, Çanakçı, Giresun, Türkiye",
+    "lat": 40.92,
+    "lon": 39.05,
+    "dateLabel": "Used for centuries",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Villagers in the Black Sea mountains",
+    "hook": "In a Turkish mountain village, people talk across valleys in 'bird language': whole conversations whistled.",
+    "summary": [
+      "In Kuşköy, 'bird village', in the mountains above Türkiye's Black Sea coast, people have long talked across steep valleys in kuş dili, 'bird language': a whistled form of Turkish that can carry a kilometre or more.",
+      "As mobile phones spread, it began to fade, and in 2017 UNESCO listed it as heritage in urgent need of safeguarding. The village holds an annual festival and teaches it in school."
+    ],
+    "explanation": "A 2015 study found that whistled Turkish is processed more evenly by both halves of the brain than spoken Turkish, which relies mostly on the left. Like the whistled language of La Gomera, it maps the sounds of speech onto changes in pitch.",
+    "wiki": "Kuşköy"
+  },
+  {
+    "slug": "quietest-room",
+    "category": "voices",
+    "title": "The Quietest Room on Earth",
+    "region": "Orfield Laboratories, Minneapolis, Minnesota, USA",
+    "lat": 44.95,
+    "lon": -93.24,
+    "dateLabel": "A record from the 2000s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors who try to sit in the dark",
+    "hook": "In a room so quiet it swallows almost all sound, visitors hear their own heartbeat, and stories say few can bear it in the dark.",
+    "summary": [
+      "The anechoic chamber at Orfield Laboratories in Minneapolis was certified by Guinness World Records as the quietest place on Earth, at below zero decibels. Its walls, floor and ceiling are lined with deep wedges of fibreglass that absorb almost every sound.",
+      "Visitors report hearing their own heartbeat, breathing, joints creaking and a ringing in their ears. A story spread that no one could stay inside in the dark for more than 45 minutes."
+    ],
+    "explanation": "Without echoes or background noise, the brain turns up its sensitivity and notices internal sounds it normally filters out, and with no sound to orient by, some people feel unsteady. Plenty of people have stayed far longer than 45 minutes; the legend grew in the retelling. Microsoft later built an even quieter room.",
+    "wiki": "Orfield Laboratories"
+  },
+  {
+    "slug": "kulning",
+    "category": "voices",
+    "title": "Kulning, the Herding Call",
+    "region": "Dalarna, Sweden",
+    "lat": 60.9,
+    "lon": 14.5,
+    "dateLabel": "Sung for centuries",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Herders in the Scandinavian summer pastures",
+    "hook": "Scandinavian herders called their cattle home with eerie, high songs that echo for kilometres across the hills.",
+    "summary": [
+      "Kulning is an old Scandinavian herding call, sung mainly by the women and girls who took cattle, sheep and goats up to the summer pastures in the hills of Sweden and Norway. The calls are very high, piercing and mostly wordless, and carry across valleys and forests.",
+      "The animals know the call and come to it. Kulning was also believed to keep wolves and bears away."
+    ],
+    "explanation": "The high pitch and the bright, forward way it's sung help the sound carry far without straining the voice. The tradition faded as summer farming declined, but folk singers keep it alive, and recordings often sound otherworldly to people hearing it for the first time.",
+    "wiki": "Kulning"
+  },
+  {
+    "slug": "sputnik-beep",
+    "category": "voices",
+    "title": "The Beep Heard Around the World",
+    "region": "Baikonur Cosmodrome, Kazakhstan",
+    "lat": 45.92,
+    "lon": 63.34,
+    "dateLabel": "4 October 1957",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Radio listeners around the world",
+    "hook": "On 4 October 1957 a new sound came from the sky: a steady beep from the first artificial satellite.",
+    "summary": [
+      "On 4 October 1957, the Soviet Union launched Sputnik 1 from what is now the Baikonur Cosmodrome in Kazakhstan. A polished metal sphere 58 cm across with four long antennas, it circled Earth every 96 minutes, sending out a simple beep on two radio frequencies.",
+      "Anyone with a shortwave radio could tune in, and the sound was broadcast around the world. For many people it was a shock: the space age had begun."
+    ],
+    "explanation": "Sputnik's batteries ran out after three weeks, and it burned up in the atmosphere in January 1958. Tracking its signal taught scientists about the upper atmosphere, and its launch set off the space race.",
+    "wiki": "Sputnik 1"
+  },
+  {
+    "slug": "voyager-golden-record",
+    "category": "voices",
+    "title": "The Golden Record",
+    "region": "Cape Canaveral, Florida, USA",
+    "lat": 28.39,
+    "lon": -80.6,
+    "dateLabel": "Launched in 1977",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "NASA, and a team led by Carl Sagan",
+    "hook": "Two spacecraft leaving the solar system carry a golden record of Earth's sounds, music and greetings, for whoever finds it.",
+    "summary": [
+      "In August and September 1977, NASA launched Voyager 1 and 2 from Cape Canaveral. Each carries a gold-plated copper record, with a stylus and picture instructions for playing it, put together by a committee led by Carl Sagan.",
+      "It holds greetings in 55 languages, sounds of Earth such as rain, birds, whales and a heartbeat, music from Bach to Chuck Berry and from many cultures, and pictures encoded as sound."
+    ],
+    "explanation": "The chance of anyone ever finding it is tiny; it's as much a message to ourselves as to anyone else. Voyager 1 entered interstellar space in 2012 and is now the most distant human-made object. In about 40,000 years it will drift past another star.",
+    "wiki": "Voyager Golden Record"
+  },
+  {
+    "slug": "lyrebird-mimicry",
+    "category": "voices",
+    "title": "The Bird That Sounds Like a Chainsaw",
+    "region": "Dandenong Ranges, Victoria, Australia",
+    "lat": -37.85,
+    "lon": 145.35,
+    "dateLabel": "Recorded since the 1930s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Bushwalkers and naturalists",
+    "hook": "In Australian forests, a bird imitates other birds, camera shutters and even chainsaws so well that listeners are fooled.",
+    "summary": [
+      "The superb lyrebird of south-eastern Australia is one of the world's greatest mimics. In winter, males display their spectacular lyre-shaped tails and sing long medleys copying dozens of other birds, and sometimes sounds they've picked up from people.",
+      "Recordings and footage, famously in David Attenborough's programmes, show lyrebirds imitating camera shutters, car alarms and chainsaws. Some say flute tunes taught to a pet lyrebird in the 1930s were passed down through wild birds."
+    ],
+    "explanation": "Mimicry is part of courtship: females favour males with rich, accurate repertoires. Birds near people pick up man-made sounds more often than those in deep forest. The 'flute song' story is still debated.",
+    "wiki": "Superb lyrebird"
+  },
+  {
+    "slug": "humming-fish-sausalito",
+    "category": "voices",
+    "title": "The Hum of the Houseboats",
+    "region": "Sausalito, California, USA",
+    "lat": 37.86,
+    "lon": -122.49,
+    "dateLabel": "Mid-1980s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Houseboat residents",
+    "hook": "People on houseboats in California were kept awake by a deep humming from the water, and suspected a secret military project.",
+    "summary": [
+      "In the mid-1980s, people living on houseboats in Richardson Bay, Sausalito, began hearing a loud, low hum at night in summer, strong enough to make their hulls vibrate. Theories ranged from sewage pumps to secret military tests to visitors from space.",
+      "Scientists traced it to a fish: the plainfin midshipman, which comes into shallow water to breed in summer."
+    ],
+    "explanation": "Males hum to attract females by vibrating muscles against their swim bladders, and a chorus of them can drone loudly all night. Sausalito celebrated the discovery with a humming fish festival.",
+    "wiki": "Porichthys notatus"
+  },
+  {
+    "slug": "kakapo-booming",
+    "category": "voices",
+    "title": "The Booming Parrot",
+    "region": "Whenua Hou (Codfish Island), New Zealand",
+    "lat": -46.77,
+    "lon": 167.64,
+    "dateLabel": "In breeding years",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Conservation rangers",
+    "hook": "A flightless, nocturnal parrot booms like a distant drum through the night to find a mate.",
+    "summary": [
+      "The kākāpō is a large, flightless, nocturnal parrot found only in New Zealand, and one of the rarest birds in the world. In breeding years, males gather on ridges, dig shallow bowls in the ground and, puffing up air sacs in their chests, make a deep booming sound that can carry several kilometres, for hours every night over months.",
+      "Between booms they make a high, metallic 'ching' that may help females find them."
+    ],
+    "explanation": "The bowls seem to work as amplifiers. The kākāpō nearly vanished: by 1995 only about 50 were known. Intensive conservation on predator-free islands such as Whenua Hou has brought the population back to around 250.",
+    "wiki": "Kākāpō"
+  },
+  {
+    "slug": "tyneham",
+    "category": "places",
+    "title": "Tyneham, the Village Frozen in 1943",
+    "region": "Tyneham, Dorset, England",
+    "lat": 50.62,
+    "lon": -2.17,
+    "dateLabel": "Emptied in December 1943",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Villagers, and visitors on open days",
+    "hook": "A whole English village was emptied for the war in 1943, its people told they could return. They never did.",
+    "summary": [
+      "In December 1943, the people of Tyneham, in Dorset, were told to leave their homes so the army could use the valley to train troops for D-Day. On the church door, villagers pinned a note asking the soldiers to treat the church and houses with care, saying they would return one day.",
+      "After the war the army kept the land, and the village was never given back. It stands empty within a firing range, its cottages roofless, its school and church preserved."
+    ],
+    "explanation": "There's no mystery to Tyneham, but its silence makes visitors call it eerie. It's open to the public on most weekends and holidays when the range isn't in use, and has become a symbol of what wartime asked of ordinary people.",
+    "wiki": "Tyneham"
+  },
+  {
+    "slug": "craco",
+    "category": "places",
+    "title": "Craco, the Town That Slid Away",
+    "region": "Craco, Basilicata, Italy",
+    "lat": 40.38,
+    "lon": 16.44,
+    "dateLabel": "Abandoned from 1963",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Former residents and film crews",
+    "hook": "A medieval hilltop town in southern Italy was abandoned as the ground began to slide away beneath it.",
+    "summary": [
+      "Craco, perched on a steep hill in Basilicata, dates back about a thousand years, with a Norman tower rising above its stone houses. In 1963 a landslide, probably made worse by building and drainage work, forced most people to leave; a flood in 1972 and an earthquake in 1980 finished the job.",
+      "The empty town has since become a film location, used in The Passion of the Christ and Quantum of Solace."
+    ],
+    "explanation": "The hill is made of clay and sand that shift when wet, a common problem in the region. Craco can now be visited on guided tours, with helmets.",
+    "wiki": "Craco"
+  },
+  {
+    "slug": "kayakoy",
+    "category": "places",
+    "title": "Kayaköy, the Empty Hillside Town",
+    "region": "Kayaköy, Fethiye, Muğla, Türkiye",
+    "lat": 36.58,
+    "lon": 29.09,
+    "dateLabel": "Emptied in 1923",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Former residents and visitors",
+    "hook": "On a hillside in south-west Türkiye stand hundreds of roofless stone houses, empty for a century.",
+    "summary": [
+      "Kayaköy, once called Levissi, was a town of Greek Orthodox Christians near Fethiye. After the Greco-Turkish war, the population exchange agreed between Greece and Turkey in 1923 sent its people to Greece, while Muslims from Greece were moved to Turkey, but few settled in Kayaköy.",
+      "Its houses and churches were left to crumble, and an earthquake in 1957 damaged them further. Today hundreds of ruined houses climb the hill."
+    ],
+    "explanation": "It's preserved as a museum village and inspired the town in Louis de Bernières' novel Birds Without Wings. Its emptiness reflects one of the 20th century's great population exchanges, not a mystery.",
+    "wiki": "Kayaköy"
+  },
+  {
+    "slug": "hashima-island",
+    "category": "places",
+    "title": "Hashima, the Battleship Island",
+    "region": "Hashima, Nagasaki, Japan",
+    "lat": 32.63,
+    "lon": 129.74,
+    "dateLabel": "Abandoned in 1974",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Former miners and visitors",
+    "hook": "Off Nagasaki, a tiny island crowded with concrete apartment blocks has stood empty since its coal mine closed in 1974.",
+    "summary": [
+      "Hashima, nicknamed Gunkanjima or 'Battleship Island' for its shape, was a coal-mining island only about 480 metres long. At its peak in 1959, more than 5,000 people lived there in concrete apartment blocks, one of the highest population densities ever recorded.",
+      "When the mine closed in 1974, everyone left within months. Its decaying buildings appeared in the James Bond film Skyfall."
+    ],
+    "explanation": "Hashima became part of a UNESCO World Heritage listing in 2015. Its history is contested: Korean and Chinese labourers were forced to work in the mine during the Second World War, and South Korea has pressed for this to be properly acknowledged. Parts of the island can be visited by boat.",
+    "wiki": "Hashima Island"
+  },
+  {
+    "slug": "kolmanskop",
+    "category": "places",
+    "title": "Kolmanskop, the Town Filled with Sand",
+    "region": "Kolmanskop, near Lüderitz, Namibia",
+    "lat": -26.7,
+    "lon": 15.23,
+    "dateLabel": "Abandoned by 1956",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors and photographers",
+    "hook": "In the Namib Desert, sand has poured into the grand houses of an abandoned diamond town, filling rooms to the windowsills.",
+    "summary": [
+      "In 1908 a railway worker near Lüderitz, in what was then German South West Africa, found a diamond in the sand. A diamond rush followed, and Kolmanskop grew into a wealthy town with grand houses, a hospital with an early X-ray machine, a ballroom and an ice factory.",
+      "When richer diamond fields were found further south, people moved away, and by 1956 the town was empty."
+    ],
+    "explanation": "Desert winds have since blown sand into the buildings, so photographers find rooms half-filled with dunes. It's a striking picture of how quickly the desert takes back a town. Visitors need a permit.",
+    "wiki": "Kolmanskop"
+  },
+  {
+    "slug": "fordlandia",
+    "category": "places",
+    "title": "Fordlândia, Henry Ford's Jungle Town",
+    "region": "Fordlândia, Pará, Brazil",
+    "lat": -3.83,
+    "lon": -55.5,
+    "dateLabel": "Founded in 1928",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Workers and managers",
+    "hook": "Henry Ford built an American town in the Amazon to grow rubber. The rubber failed, and the forest crept back.",
+    "summary": [
+      "In 1928 Henry Ford acquired a huge area of rainforest on the Tapajós River in Brazil to grow rubber for car tyres, and built Fordlândia: a Midwestern-style town with a hospital, golf course, cinema and rows of wooden houses.",
+      "It struggled from the start. The rubber trees, planted close together, were devastated by blight and pests, and workers resented strict rules imposed from far away in Michigan."
+    ],
+    "explanation": "Ford gave up in 1945 at a large loss, never having visited. Today some people live among the old buildings. It's a famous example of an outsider ignoring local conditions and knowledge.",
+    "wiki": "Fordlândia"
+  },
+  {
+    "slug": "centralia",
+    "category": "places",
+    "title": "Centralia, the Town Above a Fire",
+    "region": "Centralia, Pennsylvania, USA",
+    "lat": 40.8,
+    "lon": -76.34,
+    "dateLabel": "Burning since 1962",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Former residents",
+    "hook": "A coal fire has burned beneath a Pennsylvania town since 1962, and the town is now almost gone.",
+    "summary": [
+      "In May 1962 a fire, probably started when rubbish was burned in an old strip mine, spread into the coal seams beneath Centralia, Pennsylvania. Attempts to put it out failed, and it spread through the abandoned mine tunnels.",
+      "Smoke and gas began to vent through cracks, and in 1981 a boy fell into a sinkhole that suddenly opened in a backyard; he survived. Most residents accepted buyouts in the 1980s, and the state later claimed the buildings."
+    ],
+    "explanation": "There's enough coal for the fire to burn for well over a century more. Only a handful of people still live there. The town is often said to have helped inspire the setting of Silent Hill.",
+    "wiki": "Centralia, Pennsylvania"
+  },
+  {
+    "slug": "burning-mountain",
+    "category": "places",
+    "title": "Burning Mountain",
+    "region": "Mount Wingen, New South Wales, Australia",
+    "lat": -31.88,
+    "lon": 150.9,
+    "dateLabel": "Burning for about 6,000 years",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The Wonnarua people, then settlers",
+    "hook": "In New South Wales, a coal seam has been burning underground for about 6,000 years, the oldest known coal fire on Earth.",
+    "summary": [
+      "Burning Mountain, at Mount Wingen in the Upper Hunter region, is a coal-seam fire about 30 metres underground. Smoke and heat rise through cracks, and the rocks around them are baked and discoloured.",
+      "Settlers in the 1820s at first thought it was a volcano. The Wonnarua people tell a story of a woman whose tears of grief turned to fire."
+    ],
+    "explanation": "The fire was probably started by lightning or a bushfire igniting coal at the surface. It creeps about a metre a year. It's thought to be the oldest continuously burning coal fire known.",
+    "wiki": "Burning Mountain"
+  },
+  {
+    "slug": "yanar-dagh",
+    "category": "places",
+    "title": "Yanar Dagh, the Burning Hillside",
+    "region": "Absheron Peninsula, near Baku, Azerbaijan",
+    "lat": 40.5,
+    "lon": 49.89,
+    "dateLabel": "Burning since at least the 1950s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Travellers to the 'Land of Fire'",
+    "hook": "On a hillside near Baku, flames dance across the ground without stopping, even in rain and snow.",
+    "summary": [
+      "Yanar Dagh, 'burning mountain', is a hillside near Baku where natural gas seeps through porous sandstone and burns in a wall of flame several metres long. It's said to have been lit by accident by a shepherd in the 1950s.",
+      "Azerbaijan is called the 'Land of Fire', and travellers since ancient times, including Marco Polo, described the burning ground of the Absheron Peninsula. Nearby, the Ateshgah temple was used by fire worshippers."
+    ],
+    "explanation": "The fire is fed by natural gas from the region's rich oil and gas deposits. Most of the peninsula's natural fires went out as extraction lowered gas pressure, but Yanar Dagh still burns and is protected as a reserve.",
+    "wiki": "Yanar Dagh"
+  },
+  {
+    "slug": "externsteine",
+    "category": "places",
+    "title": "The Externsteine",
+    "region": "Externsteine, near Horn-Bad Meinberg, Germany",
+    "lat": 51.87,
+    "lon": 8.92,
+    "dateLabel": "Carvings from about 1120",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Pilgrims, scholars and visitors",
+    "hook": "A cluster of tall sandstone pillars in a German forest holds carved chambers and a window aligned with the midsummer sunrise.",
+    "summary": [
+      "The Externsteine are five sandstone pillars, up to about 40 metres tall, rising from the Teutoburg Forest. They were carved with chambers and stairs, and with a large relief of Christ being taken down from the cross, made around 1120.",
+      "A small chamber high on one pillar has a round window that lines up with sunrise at the summer solstice, which led to theories that it was a pre-Christian sanctuary."
+    ],
+    "explanation": "Archaeologists have found little evidence of pre-Christian use, and the carvings are medieval Christian work. In the 1930s the Nazis promoted it as an ancient Germanic shrine, a claim research doesn't support. Whether the window's alignment was intended is debated.",
+    "wiki": "Externsteine"
+  },
+  {
+    "slug": "maeshowe",
+    "category": "places",
+    "title": "Maeshowe",
+    "region": "Stenness, Orkney, Scotland",
+    "lat": 58.997,
+    "lon": -3.188,
+    "dateLabel": "Built around 2800 BC",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Archaeologists, and Vikings who left graffiti",
+    "hook": "Inside a 5,000-year-old Orkney tomb, the midwinter sunset shines down the passage, and Vikings carved runes on the walls.",
+    "summary": [
+      "Maeshowe is a Stone Age chambered tomb on Orkney's Mainland: a grassy mound over a long stone passage and a central chamber of finely fitted slabs, built around 2800 BC.",
+      "For a few weeks around the winter solstice, the setting sun shines straight down the passage and lights the back wall. In the 12th century, Norse visitors broke in and carved more than 30 runic inscriptions, some boasting of treasure, some jokes, and a carving of a dragon."
+    ],
+    "explanation": "The solstice alignment is widely accepted as deliberate, linking the tomb to the turning of the year. The Viking graffiti is one of the largest collections of runic inscriptions anywhere. It's part of the Heart of Neolithic Orkney World Heritage Site.",
+    "wiki": "Maeshowe"
+  },
+  {
+    "slug": "ggantija",
+    "category": "places",
+    "title": "Ġgantija, the Work of Giants",
+    "region": "Xagħra, Gozo, Malta",
+    "lat": 36.047,
+    "lon": 14.269,
+    "dateLabel": "Built around 3600 BC",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Islanders, then archaeologists",
+    "hook": "On the island of Gozo stand temples older than Stonehenge, built of stones so big that legend said only giants could move them.",
+    "summary": [
+      "The Ġgantija temples on Gozo, in Malta, were built from about 3600 BC, making them among the oldest free-standing buildings in the world. Their outer walls include stones weighing several tonnes, some over 5 metres long.",
+      "Local folklore says they were built by a giantess who carried the stones on her head. The name comes from the Maltese word for giant."
+    ],
+    "explanation": "Archaeologists think the stones were moved by people using stone balls as rollers, some of which have been found nearby. The temples are part of a UNESCO World Heritage Site with Malta's other megalithic temples. Why their builders' culture faded around 2500 BC is still studied.",
+    "wiki": "Ġgantija"
+  },
+  {
+    "slug": "helike",
+    "category": "places",
+    "title": "Helike, the City Lost in a Night",
+    "region": "Near Aigio, Achaea, Greece",
+    "lat": 38.22,
+    "lon": 22.13,
+    "dateLabel": "373 BC",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Ancient writers",
+    "hook": "An ancient Greek city vanished in a single night, struck by an earthquake and a wave, and was lost for more than 2,000 years.",
+    "summary": [
+      "Helike was a prosperous city on the Gulf of Corinth, with a famous temple of Poseidon. One winter night in 373 BC, a powerful earthquake struck and a great wave swept over the city, destroying it, according to ancient writers.",
+      "Visitors in Roman times said its ruins could be seen underwater. Over the centuries the site was lost, and it's sometimes suggested as an inspiration for Plato's Atlantis."
+    ],
+    "explanation": "From 2001 the archaeologists Dora Katsonopoulou and Steven Soter found remains of Helike on land, buried under sediment from a lagoon that formed after the disaster, along with an older Bronze Age town. The earthquake seems to have made the ground sink and turn to mud.",
+    "wiki": "Helike"
+  },
+  {
+    "slug": "tollund-man",
+    "category": "places",
+    "title": "Tollund Man",
+    "region": "Bjældskovdal bog, near Silkeborg, Denmark",
+    "lat": 56.16,
+    "lon": 9.5,
+    "dateLabel": "Found 6 May 1950",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Peat cutters",
+    "hook": "Peat cutters in Denmark found a man in the bog so well preserved they thought he'd died recently. He was 2,400 years old.",
+    "summary": [
+      "On 6 May 1950, two brothers cutting peat near Silkeborg, in Denmark, found a man lying curled as if asleep, wearing a pointed skin cap and a belt. His face was so lifelike that they called the police, thinking he had died recently.",
+      "Radiocarbon dating showed he lived around 400 BC, in the Iron Age."
+    ],
+    "explanation": "The acidic, oxygen-poor water of the bog preserved his skin and features. Archaeologists think he was probably a ritual offering, like other 'bog bodies' found across northern Europe. His face can be seen at the Silkeborg Museum, and even his last meal, a porridge of grains and seeds, has been studied.",
+    "wiki": "Tollund Man"
+  },
+  {
+    "slug": "rakotzbrucke",
+    "category": "places",
+    "title": "The Devil's Bridge of Kromlau",
+    "region": "Kromlau, Saxony, Germany",
+    "lat": 51.53,
+    "lon": 14.63,
+    "dateLabel": "Built 1863–1882",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors",
+    "hook": "A stone bridge in a German park makes a perfect circle with its reflection, and legend says only the Devil could have built it.",
+    "summary": [
+      "The Rakotzbrücke, in a park at Kromlau in Saxony, is a slender stone arch built between 1863 and 1882 over a small lake. When the water is still, the arch and its reflection form a perfect circle. Basalt columns at its ends look like natural rock.",
+      "Like many dramatic bridges in Europe, it's known as a 'Devil's Bridge': legend says such bridges were too daring for human hands, so the Devil built them in return for the soul of the first to cross."
+    ],
+    "explanation": "It was built for a local landowner, Friedrich Hermann Rötschke, as a decorative folly. Walking on it is no longer allowed, to protect it. Devil's bridge legends appear across Europe, a way of explaining remarkable stonework.",
+    "wiki": "Kromlau Azalea and Rhododendron Park"
+  },
+  {
+    "slug": "codex-gigas",
+    "featured": true,
+    "category": "places",
+    "title": "The Devil's Bible",
+    "region": "National Library of Sweden, Stockholm, Sweden",
+    "lat": 59.34,
+    "lon": 18.07,
+    "dateLabel": "Made in the early 1200s",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Scholars, and the soldiers who took it",
+    "hook": "The largest medieval manuscript in the world holds a full-page portrait of the Devil, and a legend that a monk wrote it in one night.",
+    "summary": [
+      "The Codex Gigas, 'giant book', was made in a Benedictine monastery at Podlažice in Bohemia in the early 13th century. It's nearly a metre tall and weighs about 75 kg, and contains the Bible and other texts. One page carries a striking full-page picture of the Devil.",
+      "Legend says a monk facing a terrible punishment promised to write the book in a single night, and finished it with the Devil's help. Swedish troops took it from Prague in 1648, at the end of the Thirty Years' War."
+    ],
+    "explanation": "Analysis of the handwriting suggests it's the work of one scribe, which would have taken perhaps 20 to 30 years, not one night. It's kept at the National Library of Sweden in Stockholm.",
+    "wiki": "Codex Gigas"
+  },
+  {
+    "slug": "rohonc-codex",
+    "category": "places",
+    "title": "The Rohonc Codex",
+    "region": "Hungarian Academy of Sciences, Budapest, Hungary",
+    "lat": 47.5,
+    "lon": 19.05,
+    "dateLabel": "Given to the Academy in 1838",
+    "status": "open",
+    "statusLabel": "Unread",
+    "witnesses": "Scholars",
+    "hook": "A Hungarian manuscript of 448 pages, in an unknown script with nearly 800 different signs, has never been read.",
+    "summary": [
+      "The Rohonc Codex is named after the town of Rohonc, now Rechnitz in Austria, where it was kept in the library of Prince Gusztáv Batthyány until he gave it to the Hungarian Academy of Sciences in 1838. It has 448 pages in an unknown script with about 800 different signs, and 87 pictures of religious and other scenes.",
+      "Scholars have suggested it's written in Hungarian, Romanian, Old Church Slavonic or an invented language, and several have claimed to decipher it."
+    ],
+    "explanation": "No decipherment has been widely accepted. The paper was made in Venice in the 16th century, though the text could be later. Some think it's a hoax, perhaps by the 19th-century antiques dealer Sámuel Literáti Nemes, known for forgeries; others think it's a genuine, if unusual, religious text.",
+    "wiki": "Rohonc Codex"
+  },
+  {
+    "slug": "dorabella-cipher",
+    "category": "places",
+    "title": "Elgar's Dorabella Cipher",
+    "region": "Wolverhampton, England",
+    "lat": 52.59,
+    "lon": -2.13,
+    "dateLabel": "14 July 1897",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Dora Penny, the woman it was sent to",
+    "hook": "The composer Edward Elgar sent a young friend a note of curly symbols. No one has ever read it, including her.",
+    "summary": [
+      "On 14 July 1897, the composer Edward Elgar sent a short note written in 87 small, curly symbols to Dora Penny, a young friend from Wolverhampton. He later portrayed her in the 'Dorabella' movement of his Enigma Variations.",
+      "Dora never managed to decode it, and published it in her memoirs in 1937."
+    ],
+    "explanation": "Elgar loved puzzles and ciphers, and many have tried to solve the Dorabella cipher without a convincing result. It may be a simple substitution cipher, a private joke, or something only Dora would have understood. The Elgar Society has even run competitions to crack it.",
+    "wiki": "Dorabella Cipher"
+  },
+  {
+    "slug": "ss-baychimo",
+    "category": "places",
+    "title": "The Baychimo, the Ghost Ship of the Arctic",
+    "region": "Beaufort Sea, off Alaska",
+    "lat": 71.6,
+    "lon": -156,
+    "dateLabel": "Abandoned in 1931",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Inuit hunters, traders and sailors",
+    "hook": "A cargo ship abandoned in the Arctic ice in 1931 kept being sighted, drifting with no crew, for nearly 40 years.",
+    "summary": [
+      "The SS Baychimo, a cargo steamer of the Hudson's Bay Company, was trapped in pack ice off the north coast of Alaska in October 1931. The crew camped ashore to wait, but after a blizzard the ship had vanished, and the company assumed she'd sunk.",
+      "She hadn't. The Baychimo was seen drifting along the Alaskan coast many times in the decades that followed, sometimes boarded by hunters and travellers, but never salvaged. The last reported sighting was in 1969, frozen in the ice."
+    ],
+    "explanation": "Ice and currents in the Beaufort Sea could have carried her for years before she finally sank or was crushed. In 2006 the Alaskan government began a search, but the wreck has never been found.",
+    "wiki": "SS Baychimo"
+  },
+  {
+    "slug": "ryou-un-maru",
+    "category": "places",
+    "title": "The Tsunami Ghost Ship",
+    "region": "Gulf of Alaska",
+    "lat": 55,
+    "lon": -140,
+    "dateLabel": "Sunk 5 April 2012",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The Canadian and US coast guards",
+    "hook": "A year after Japan's 2011 tsunami, a fishing boat it swept away appeared off Canada with no one aboard.",
+    "summary": [
+      "The Ryou-Un Maru was a Japanese fishing boat moored at Hachinohe when the tsunami of 11 March 2011 tore it loose and carried it out to sea. More than a year later, in March 2012, an aircraft spotted it drifting off Haida Gwaii, in Canada, rusted and empty.",
+      "As it drifted towards Alaska, the US Coast Guard judged it a hazard to shipping, and on 5 April 2012 sank it with cannon fire."
+    ],
+    "explanation": "It had crossed the Pacific on currents and winds, part of the vast debris from the tsunami; docks, boats and smaller items washed up in North America for years afterwards. There's no mystery left, but it was a haunting reminder of the disaster.",
+    "wiki": "Ryou-Un Maru"
+  },
+  {
+    "slug": "goodwin-sands",
+    "category": "places",
+    "title": "The Goodwin Sands, the Ship Swallower",
+    "region": "Goodwin Sands, off Deal, Kent, England",
+    "lat": 51.25,
+    "lon": 1.57,
+    "dateLabel": "Wrecks over centuries",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Sailors, lifeboat crews and storytellers",
+    "hook": "A sandbank off Kent has claimed more than 2,000 ships, and a ghost ship is said to return every 50 years.",
+    "summary": [
+      "The Goodwin Sands are a sandbank about 16 km long off the coast of Kent, in the busy Strait of Dover. At low tide parts of it lie dry and firm enough for people to have played cricket on it; at high tide it's hidden, and its shifting sands have wrecked more than 2,000 ships.",
+      "Legend says the Lady Lovibond, wrecked there on 13 February 1748, reappears as a ghost ship every 50 years. Another tale says the sands were once an island, swallowed by the sea."
+    ],
+    "explanation": "The danger is real: the sands move constantly with tides and storms, so charts soon go out of date, and lightships and buoys have marked them for centuries. There's no record of the Lady Lovibond in shipping registers, and the ghost ship is seen as a legend.",
+    "wiki": "Goodwin Sands"
+  },
+  {
+    "slug": "franklin-expedition",
+    "featured": true,
+    "category": "places",
+    "title": "The Lost Franklin Expedition",
+    "region": "King William Island, Nunavut, Canada",
+    "lat": 68.9,
+    "lon": -98,
+    "dateLabel": "Lost from 1845",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Inuit witnesses, and generations of searchers",
+    "hook": "Two British ships seeking the Northwest Passage vanished in 1845. Inuit accounts helped searchers find them nearly 170 years later.",
+    "summary": [
+      "In 1845 Sir John Franklin sailed from England with 129 men on HMS Erebus and HMS Terror to find the Northwest Passage through the Arctic. The ships became trapped in ice near King William Island, and none of the men came home. Dozens of search expeditions followed.",
+      "Notes, graves and belongings were found over the years, and Inuit oral histories described the ships and what became of the men. Guided partly by those accounts, Parks Canada found Erebus in 2014 and Terror in 2016, both remarkably well preserved."
+    ],
+    "explanation": "The men seem to have died from cold, hunger and disease, perhaps worsened by lead poisoning, though that idea is debated. Divers are still recovering objects from the wrecks, which may hold more records. It's one of the great stories of polar exploration.",
+    "wiki": "Franklin's lost expedition"
+  },
+  {
+    "slug": "andree-balloon",
+    "category": "places",
+    "title": "Andrée's Balloon",
+    "region": "Kvitøya, Svalbard, Norway",
+    "lat": 80.15,
+    "lon": 32.6,
+    "dateLabel": "Launched 11 July 1897",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "The finders in 1930, and the explorers' own diaries",
+    "hook": "Three Swedes set off for the North Pole by balloon in 1897 and vanished. Thirty-three years later their camp, and their film, were found.",
+    "summary": [
+      "On 11 July 1897, the Swedish engineer S. A. Andrée and two companions lifted off from Svalbard in a hydrogen balloon, the Örnen, hoping to drift over the North Pole. Apart from a message carried by a pigeon, they were never heard from again.",
+      "In August 1930, a Norwegian expedition found their last camp on Kvitøya, a remote Arctic island. Their diaries told how the balloon came down on the ice after three days and they walked for nearly three months. Undeveloped film from their camera was developed, revealing photographs of the journey."
+    ],
+    "explanation": "Exactly how the three men died is still debated, with theories including cold, illness from eating undercooked polar bear meat, and exhaustion. The photographs, developed 33 years after they were taken, are among the most haunting images of polar exploration.",
+    "wiki": "Andrée's Arctic balloon expedition"
+  },
+  {
+    "slug": "mallory-and-irvine",
+    "featured": true,
+    "category": "places",
+    "title": "Mallory and Irvine on Everest",
+    "region": "North face of Mount Everest",
+    "lat": 28,
+    "lon": 86.93,
+    "dateLabel": "8 June 1924",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Noel Odell, the last to see them",
+    "hook": "Two climbers were last seen heading for Everest's summit in 1924. Whether they reached it, 29 years before Hillary and Tenzing, is still unknown.",
+    "summary": [
+      "On 8 June 1924, George Mallory and Andrew 'Sandy' Irvine set out from their high camp on the north side of Everest to try for the summit. Their teammate Noel Odell glimpsed them through a gap in the clouds, climbing a step on the ridge, before they disappeared from view. They never returned.",
+      "In 1999 a search expedition found Mallory high on the north face. The photograph of his wife that he'd planned to leave on the summit wasn't with him, and his snow goggles were in his pocket, hinting they may have been coming down late in the day."
+    ],
+    "explanation": "Without the camera they carried, which has never been found, no one can say whether they reached the top. Most experts think the climb, especially the difficult 'Second Step', was beyond them. In 2024 a film team found a boot believed to be Irvine's on a glacier below the face.",
+    "wiki": "George Mallory"
+  },
+  {
+    "slug": "lady-be-good",
+    "category": "places",
+    "title": "The Lady Be Good",
+    "region": "Libyan Desert, Libya",
+    "lat": 26.98,
+    "lon": 24.13,
+    "dateLabel": "Lost 4 April 1943",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Oil explorers who found the wreck",
+    "hook": "A wartime bomber vanished on its way home in 1943. Oil explorers found it 15 years later, deep in the Libyan desert.",
+    "summary": [
+      "On the night of 4 April 1943, the B-24 bomber Lady Be Good, returning from a raid on Naples, flew past its base on the Libyan coast in the dark and carried on far out over the desert until its fuel ran out. Its crew bailed out.",
+      "In 1958 a British oil exploration team spotted the wreck in the Calanscio Sand Sea, about 700 km inland, remarkably intact, with water still in a flask. Searches later found the crew's diaries, which showed they had walked north for days."
+    ],
+    "explanation": "The crew seem to have misread their position and believed they hadn't yet reached the coast. The dry desert preserved the plane, which made the story famous; parts of it are now in a museum. It's a story of a navigation error, not a mystery.",
+    "wiki": "Lady Be Good (aircraft)"
+  },
+  {
+    "slug": "star-dust-stendec",
+    "category": "places",
+    "title": "STENDEC",
+    "region": "Mount Tupungato, Andes, Argentina",
+    "lat": -33.36,
+    "lon": -69.77,
+    "dateLabel": "2 August 1947",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Radio operators in Santiago",
+    "hook": "An airliner crossing the Andes sent a strange last message, 'STENDEC', and vanished. It was found inside a glacier 50 years later.",
+    "summary": [
+      "On 2 August 1947, the British airliner Star Dust was flying from Buenos Aires to Santiago over the Andes. Shortly before it was due to land, its radio operator sent a Morse message ending with the word 'STENDEC', repeated. The operator in Santiago didn't understand it, and the plane was never heard from again.",
+      "In 1998 climbers found wreckage on the Tupungato glacier, and an Argentine army expedition in 2000 recovered more, carried down by the slowly moving ice."
+    ],
+    "explanation": "Investigators concluded the crew, flying into a strong high-altitude wind they didn't know about, thought they'd crossed the mountains and began descending too early. The wreck was buried in snow and carried along inside the glacier. What STENDEC meant has never been settled.",
+    "wiki": "1947 BSAA Avro Lancastrian Star Dust accident"
+  },
+  {
+    "slug": "georgia-guidestones",
+    "category": "places",
+    "title": "The Georgia Guidestones",
+    "region": "Elbert County, Georgia, USA",
+    "lat": 34.23,
+    "lon": -82.89,
+    "dateLabel": "1980–2022",
+    "status": "open",
+    "statusLabel": "Never solved",
+    "witnesses": "Local people and visitors",
+    "hook": "A granite monument with ten rules for humanity in eight languages was put up by an unknown sponsor in 1980.",
+    "summary": [
+      "In 1979 a man using the name R. C. Christian ordered a monument from a granite company in Elberton, Georgia. Unveiled in 1980, it had four slabs nearly 6 metres tall, carved with ten 'guides' for a future humanity in eight modern languages, including keeping the world's population under 500 million.",
+      "The slabs were aligned with the Sun's movements, and a slot showed the North Star. Who paid for it was kept secret, and it drew conspiracy theories for decades."
+    ],
+    "explanation": "In July 2022 it was badly damaged by an explosion, and the rest was taken down for safety. The identity of 'R. C. Christian' has never been confirmed. Its message reflected Cold War fears about nuclear war and overpopulation.",
+    "wiki": "Georgia Guidestones"
+  },
+  {
+    "slug": "tomb-of-christ-shingo",
+    "category": "places",
+    "title": "The 'Tomb of Christ' in Japan",
+    "region": "Shingō, Aomori, Japan",
+    "lat": 40.45,
+    "lon": 141.17,
+    "dateLabel": "Claimed since 1935",
+    "status": "explained",
+    "statusLabel": "Legend",
+    "witnesses": "Villagers and visitors",
+    "hook": "A village in northern Japan claims that Jesus lived out his life there as a farmer and died aged 106.",
+    "summary": [
+      "In 1935 the writer Takeuchi Kiyomaro claimed to have found ancient documents showing that Jesus had studied in Japan as a young man, escaped execution when his brother took his place, and returned to Japan to settle in the village of Herai, now Shingō, where he married and lived to 106.",
+      "Two grave mounds marked with wooden crosses are said to be his and his brother's, and the village holds an annual festival there."
+    ],
+    "explanation": "The documents were said to have been destroyed in the Second World War, and historians regard the story as a modern invention; Takeuchi promoted several similar claims. The village isn't Christian, and the site is mainly a curiosity for visitors, with a small museum.",
+    "wiki": "Shingō, Aomori"
+  },
+  {
+    "slug": "xiaozhai-tiankeng",
+    "category": "places",
+    "title": "The Heavenly Pit",
+    "region": "Fengjie, Chongqing, China",
+    "lat": 30.98,
+    "lon": 109.55,
+    "dateLabel": "Surveyed in 1994",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Cavers and villagers",
+    "hook": "In the mountains of China lies the world's deepest sinkhole, over 600 metres deep, with its own forest at the bottom.",
+    "summary": [
+      "The Xiaozhai Tiankeng, 'little village heavenly pit', in Fengjie County, Chongqing, is the deepest known sinkhole in the world, about 660 metres deep and more than 500 metres across, with sheer limestone walls. At the bottom is a forest, and an underground river runs through caves below it.",
+      "It was surveyed by a British and Chinese caving expedition in 1994. A long stairway takes visitors part of the way down."
+    ],
+    "explanation": "It formed as the underground river dissolved the limestone, carving a huge cave whose roof eventually collapsed. Rare plants and animals live in the sheltered conditions at the bottom. Many other giant sinkholes have since been found in southern China.",
+    "wiki": "Xiaozhai Tiankeng"
+  },
+  {
+    "slug": "fengdu-ghost-city",
+    "category": "places",
+    "title": "Fengdu, the City of the Afterlife",
+    "region": "Fengdu, Chongqing, China",
+    "lat": 29.87,
+    "lon": 107.73,
+    "dateLabel": "Temples built over centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Pilgrims and visitors",
+    "hook": "On a hill above the Yangtze stands a complex of temples devoted to the judges and trials of the afterlife.",
+    "summary": [
+      "Fengdu, on the Yangtze River in Chongqing, is known in Chinese tradition as a gateway to the underworld. On Mingshan hill, temples, shrines and bridges depict the judges and trials of the afterlife, along with gods who protect the living.",
+      "Visitors cross the Bridge of Helplessness and try tests such as balancing on one foot on a stone, said to show whether a soul is good."
+    ],
+    "explanation": "The legend may come from the names of two officials of the Han dynasty, Yin and Wang, said to have lived there; together the names sound like 'king of the underworld'. The town was partly moved when the Three Gorges Dam raised the river, but the temples on the hill remain.",
+    "wiki": "Fengdu Ghost City"
+  },
+  {
+    "slug": "lake-kaindy",
+    "category": "places",
+    "title": "Lake Kaindy, the Sunken Forest",
+    "region": "Lake Kaindy, Almaty Region, Kazakhstan",
+    "lat": 42.98,
+    "lon": 78.47,
+    "dateLabel": "Formed in 1911",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors and divers",
+    "hook": "In the mountains of Kazakhstan, the bare trunks of a drowned spruce forest still stand upright in a turquoise lake.",
+    "summary": [
+      "Lake Kaindy, high in the Tian Shan mountains, formed after an earthquake in 1911 set off a landslide that dammed a gorge. Water filled the valley, drowning a forest of tall spruce trees.",
+      "Their bare trunks still rise straight out of the clear turquoise water, while their branches are preserved below the surface, where divers can see them."
+    ],
+    "explanation": "The water stays close to freezing all year, which has slowed decay for more than a century. The lake is a popular stop in the Kolsai Lakes National Park.",
+    "wiki": "Lake Kaindy"
+  },
+  {
+    "slug": "moynaq",
+    "category": "places",
+    "title": "The Ship Graveyard of Moynaq",
+    "region": "Moynaq, Karakalpakstan, Uzbekistan",
+    "lat": 43.77,
+    "lon": 59.02,
+    "dateLabel": "The sea retreated from the 1960s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Former fishermen and residents",
+    "hook": "Rusting fishing boats sit on sand far from any water, in a town that was once a port on one of the world's largest lakes.",
+    "summary": [
+      "Moynaq was a busy fishing port on the Aral Sea, once the fourth-largest lake in the world. From the 1960s, the Soviet Union diverted the rivers that fed it to irrigate cotton, and the sea began to shrink.",
+      "Today the shore lies far from the town, and old fishing boats sit stranded in the desert where the water used to be."
+    ],
+    "explanation": "The shrinking of the Aral Sea is one of the 20th century's worst environmental disasters, leaving salty, dusty land and health problems behind. A dam built in 2005 has helped the northern part, in Kazakhstan, recover, but the southern part near Moynaq remains largely dry.",
+    "wiki": "Moynaq"
+  },
+  {
+    "slug": "burnt-city",
+    "category": "places",
+    "title": "The Burnt City and the Golden Eye",
+    "region": "Shahr-e Sukhteh, Sistan and Baluchestan, Iran",
+    "lat": 30.59,
+    "lon": 61.33,
+    "dateLabel": "Lived in from about 3200 BC",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists",
+    "hook": "In a Bronze Age city in Iran, archaeologists found a woman with an artificial eye made 5,000 years ago.",
+    "summary": [
+      "Shahr-e Sukhteh, 'the Burnt City', is a large Bronze Age settlement in south-eastern Iran, lived in from about 3200 to 2350 BC and burned several times. It was a centre of trade and craft.",
+      "In 2006 archaeologists found the skeleton of a woman with an artificial eyeball, apparently made of a light paste, coated in gold and engraved with lines like an iris. Other finds include an early board game and a pottery cup that seems to show a goat leaping in stages, like an animation."
+    ],
+    "explanation": "The artificial eye is thought to be the oldest known. Why the city was finally abandoned is debated; changes in rivers and climate are likely factors. It's a UNESCO World Heritage Site.",
+    "wiki": "Shahr-e Sukhteh"
+  },
+  {
+    "slug": "katskhi-pillar",
+    "category": "places",
+    "title": "The Monk on the Pillar",
+    "region": "Katskhi, Imereti, Georgia",
+    "lat": 42.29,
+    "lon": 43.22,
+    "dateLabel": "Lived in from 1993",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors, and the monk who lived there",
+    "hook": "On top of a 40-metre rock pillar in Georgia stands a tiny church, home for decades to a monk.",
+    "summary": [
+      "The Katskhi pillar is a natural limestone column about 40 metres high in western Georgia. Local people revered it for centuries, but no one climbed it until 1944, when mountaineers found the ruins of a small medieval church and a hermit's cell on top.",
+      "From 1993 a monk, Maxime Qavtaradze, lived on the pillar, climbing down a long ladder only now and then, following the tradition of the stylites, early Christian hermits who lived on pillars."
+    ],
+    "explanation": "Archaeologists dated the ruins to around the 9th or 10th century. The church was restored in 2009, and the pillar is still used for prayer, though visitors can't climb it.",
+    "wiki": "Katskhi Pillar"
+  },
+  {
+    "slug": "carahunge",
+    "category": "places",
+    "title": "Carahunge, the Stones with Holes",
+    "region": "Zorats Karer, Syunik, Armenia",
+    "lat": 39.55,
+    "lon": 46.03,
+    "dateLabel": "Thousands of years old",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Archaeologists and astronomers",
+    "hook": "Hundreds of standing stones on an Armenian hillside have holes bored through them, and some say they were aimed at the stars.",
+    "summary": [
+      "Zorats Karer, also called Carahunge, is a prehistoric site in southern Armenia with more than 200 standing basalt stones, some up to 3 metres tall. Dozens have a smooth hole a few centimetres across bored near the top.",
+      "From the 1990s some researchers proposed it was an ancient observatory, with the holes aimed at the Sun, Moon and stars, and claimed it was far older than Stonehenge."
+    ],
+    "explanation": "Archaeologists have found Bronze Age burials at the site, and many consider the observatory theory speculative: the stones may have been moved, and the holes could have had other uses. The site's age and purpose are still argued over.",
+    "wiki": "Carahunge"
+  },
+  {
+    "slug": "chini-lake",
+    "category": "places",
+    "title": "The Dragon of Lake Chini",
+    "region": "Chini Lake, Pahang, Malaysia",
+    "lat": 3.43,
+    "lon": 102.92,
+    "dateLabel": "Legend",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "The Orang Asli Jakun people",
+    "hook": "A Malaysian lake is said to hide a sunken ancient city, guarded by a dragon called Seri Gumum.",
+    "summary": [
+      "Chini Lake, in Pahang, is a chain of twelve connected lakes surrounded by forest and home to the Orang Asli Jakun people. Local legend says a naga, or dragon, called Seri Gumum lives in its depths.",
+      "Another story tells of an ancient walled city beneath the water, sometimes linked to the Khmer empire. Divers and researchers have looked into the claims."
+    ],
+    "explanation": "No sunken city has been confirmed; some surveys reported possible stone structures, while others found only natural features. The lake has suffered from nearby logging and mining, and its famous lotus blooms have declined, prompting conservation efforts.",
+    "wiki": "Chini Lake"
+  },
+  {
+    "slug": "lake-toba",
+    "category": "places",
+    "title": "The Supervolcano of Lake Toba",
+    "region": "Lake Toba, North Sumatra, Indonesia",
+    "lat": 2.62,
+    "lon": 98.83,
+    "dateLabel": "Erupted about 74,000 years ago",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Geologists",
+    "hook": "Lake Toba fills the crater of the largest eruption of the last two million years, which may have nearly wiped out humanity.",
+    "summary": [
+      "Lake Toba in Sumatra, about 100 km long, fills the crater left by a colossal eruption around 74,000 years ago, thousands of times larger than the 1980 eruption of Mount St Helens. Its ash fell as far away as India.",
+      "In the 1990s scientists proposed the Toba catastrophe theory: that the eruption caused a volcanic winter that shrank the human population to a few thousand people, a bottleneck some saw in our DNA."
+    ],
+    "explanation": "Later studies have challenged this. Stone tools in India appear both below and above the Toba ash, suggesting people survived there, and evidence from Africa suggests life went on. Many researchers now think the effects, though severe, weren't catastrophic for humans. The debate continues.",
+    "wiki": "Youngest Toba eruption"
+  },
+  {
+    "slug": "lake-nyos",
+    "category": "places",
+    "title": "The Night Lake Nyos Breathed Out",
+    "region": "Lake Nyos, Northwest Region, Cameroon",
+    "lat": 6.44,
+    "lon": 10.3,
+    "dateLabel": "21 August 1986",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Survivors, and the scientists who investigated",
+    "hook": "One night in 1986, a lake in Cameroon released a silent cloud of gas that flowed into the valleys below.",
+    "summary": [
+      "On the evening of 21 August 1986, Lake Nyos, a crater lake in north-western Cameroon, suddenly released a huge cloud of carbon dioxide. Heavier than air, it flowed down into the surrounding valleys, and about 1,700 people and thousands of animals died, many in their sleep.",
+      "Survivors reported a rumbling and a strange smell, and the lake's water turned red."
+    ],
+    "explanation": "Scientists found that carbon dioxide seeping up from magma had built up, dissolved in the lake's deep water, until something, perhaps a landslide, disturbed it and the gas burst out, an event called a limnic eruption. Since 2001, pipes have been releasing the gas safely, and nearby Lake Monoun is treated the same way.",
+    "wiki": "Lake Nyos disaster"
+  },
+  {
+    "slug": "lake-retba",
+    "category": "places",
+    "title": "Lake Retba, the Pink Lake",
+    "region": "Lake Retba, near Dakar, Senegal",
+    "lat": 14.84,
+    "lon": -17.23,
+    "dateLabel": "Pink in the dry season",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Salt collectors and visitors",
+    "hook": "Near Dakar, a lake turns pink in the dry season, and salt collectors wade into it coated in shea butter.",
+    "summary": [
+      "Lake Retba, or Lac Rose, lies just north-east of Dakar, separated from the Atlantic by a strip of dunes. In the dry season, from about November to June, its water turns a striking pink.",
+      "The lake is extremely salty, and hundreds of workers collect salt from its bed by hand, protecting their skin with shea butter."
+    ],
+    "explanation": "The colour comes from the alga Dunaliella salina, which makes a red pigment in very salty water, as at Lake Hillier in Australia. For many years the lake was the finish line of the Paris–Dakar Rally.",
+    "wiki": "Lake Retba"
+  },
+  {
+    "slug": "blombos-cave",
+    "category": "places",
+    "title": "The Oldest Drawing",
+    "region": "Blombos Cave, Western Cape, South Africa",
+    "lat": -34.41,
+    "lon": 21.22,
+    "dateLabel": "About 73,000 years old",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The archaeologist Christopher Henshilwood's team",
+    "hook": "In a cave on the South African coast, archaeologists found a stone with a crosshatch drawn in ochre 73,000 years ago.",
+    "summary": [
+      "Blombos Cave, in a cliff on South Africa's southern coast, has been excavated since 1991 by the archaeologist Christopher Henshilwood and colleagues. It has yielded engraved pieces of ochre, shell beads and tools from roughly 100,000 to 70,000 years ago.",
+      "In 2018 the team announced a small flake of stone with a crosshatched pattern drawn in red ochre, about 73,000 years old, the oldest known drawing made by humans."
+    ],
+    "explanation": "The finds show that early modern humans in Africa were using symbols long before the famous cave art of Europe. What the patterns meant is unknown. The cave also held a kit for making ochre paint, about 100,000 years old.",
+    "wiki": "Blombos Cave"
+  },
+  {
+    "slug": "tsodilo-hills",
+    "category": "places",
+    "title": "The Python Rock of Tsodilo",
+    "region": "Tsodilo Hills, Botswana",
+    "lat": -18.75,
+    "lon": 21.73,
+    "dateLabel": "Claim announced in 2006",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "The San people, and archaeologists",
+    "hook": "In the Kalahari, a rock shaped like a python was claimed to be the site of the world's oldest ritual.",
+    "summary": [
+      "The Tsodilo Hills rise from the Kalahari in north-western Botswana, sacred to the San and Hambukushu peoples. They hold more than 4,500 rock paintings and are a UNESCO World Heritage Site.",
+      "In 2006 the archaeologist Sheila Coulson announced that a rock in a cave there, resembling a python's head, had been worked to enhance the shape and was the focus of rituals around 70,000 years ago, based on finely made spearheads found burned or broken nearby."
+    ],
+    "explanation": "Other archaeologists disputed the claim, arguing that the marks on the rock could be natural and that the dating and meaning of the finds were uncertain. The rock art and traditions of Tsodilo remain important whatever the outcome.",
+    "wiki": "Tsodilo"
+  },
+  {
+    "slug": "nahanni-valley",
+    "category": "places",
+    "title": "The Valley of Lost Prospectors",
+    "region": "Nahanni National Park Reserve, Northwest Territories, Canada",
+    "lat": 61.5,
+    "lon": -125.5,
+    "dateLabel": "Legends from the early 1900s",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Prospectors, trappers and Dene people",
+    "hook": "A remote Canadian valley gained names like Deadmen Valley from the stories of prospectors who never came back.",
+    "summary": [
+      "The South Nahanni River in the Northwest Territories cuts through deep canyons and past Virginia Falls, about twice the height of Niagara. In the early 20th century, stories of lost gold and prospectors who disappeared gave places there names like Deadmen Valley and the Headless Range.",
+      "Rumours added a hidden tropical valley warmed by hot springs. Dene stories speak of the Naha, a people said to have lived in the mountains."
+    ],
+    "explanation": "The valley's remoteness, harsh winters and dangerous rivers explain the disappearances, and its hot springs are real but don't make a tropical valley. Nahanni became one of the first UNESCO World Heritage Sites in 1978.",
+    "wiki": "Nahanni National Park Reserve"
+  },
+  {
+    "slug": "naica-crystals",
+    "featured": true,
+    "category": "places",
+    "title": "The Cave of Giant Crystals",
+    "region": "Naica mine, Chihuahua, Mexico",
+    "lat": 27.85,
+    "lon": -105.5,
+    "dateLabel": "Found in 2000",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Miners, then scientists",
+    "hook": "Miners in Mexico broke into a cave of crystals up to 12 metres long, so hot that people could stay inside only minutes.",
+    "summary": [
+      "In 2000, two brothers drilling in the Naica silver and lead mine broke into a cavern about 300 metres underground filled with enormous translucent crystals of selenite, a form of gypsum. The largest are around 12 metres long and weigh many tonnes.",
+      "Temperatures inside reach about 58 °C with near-total humidity, so scientists could enter only for short spells in cooling suits."
+    ],
+    "explanation": "The crystals grew over hundreds of thousands of years in mineral-rich water kept at a steady temperature by magma below. The mine's pumps kept the cave drained; when pumping stopped in 2015, it flooded again, and the crystals may resume growing. In 2017 scientists reported reviving microbes from fluid trapped inside them.",
+    "wiki": "Cave of the Crystals"
+  },
+  {
+    "slug": "samabaj",
+    "category": "places",
+    "title": "The Sunken Town of Lake Atitlán",
+    "region": "Lake Atitlán, Sololá, Guatemala",
+    "lat": 14.69,
+    "lon": -91.2,
+    "dateLabel": "Found in 1996",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "A diver, then archaeologists",
+    "hook": "A Maya island town lies under Lake Atitlán, drowned when the water rose about 2,000 years ago.",
+    "summary": [
+      "In 1996 the diver Roberto Samayoa noticed unusual stone structures in Lake Atitlán, in the Guatemalan highlands. Archaeologists investigated and found Samabaj, a Maya settlement about 2,000 years old, now some 15 to 20 metres under the water.",
+      "It had stone buildings, altars and carved monuments on what was then an island."
+    ],
+    "explanation": "The lake has no outlet to the sea, and its level rose quickly, drowning the island. Samabaj has been called a Maya Atlantis, but it's a well-documented archaeological site.",
+    "wiki": "Lake Atitlán"
+  },
+  {
+    "slug": "san-agustin",
+    "category": "places",
+    "title": "The Stone Guardians of San Agustín",
+    "region": "San Agustín, Huila, Colombia",
+    "lat": 1.88,
+    "lon": -76.29,
+    "dateLabel": "Carved roughly 1st–8th centuries AD",
+    "status": "open",
+    "statusLabel": "Origins debated",
+    "witnesses": "Archaeologists",
+    "hook": "In the Colombian Andes, hundreds of stone statues with fangs and staring eyes guard the tombs of a forgotten people.",
+    "summary": [
+      "Around San Agustín, in southern Colombia, hundreds of stone statues stand in the hills and forests near the source of the Magdalena River. Many are guardian figures with fierce faces, fangs and animal features, placed beside burial mounds.",
+      "They were carved by a culture that flourished from roughly the 1st to the 8th century AD and had faded long before the Spanish arrived, leaving no written records."
+    ],
+    "explanation": "Archaeologists study the culture through its tombs and settlements, but its name and beliefs are unknown. The area is Latin America's largest group of religious monuments and megalithic sculpture, and a UNESCO World Heritage Site.",
+    "wiki": "San Agustín Archaeological Park"
+  },
+  {
+    "slug": "sarisarinama",
+    "category": "places",
+    "title": "The Sinkholes on the Table Mountain",
+    "region": "Cerro Sarisariñama, Bolívar, Venezuela",
+    "lat": 4.5,
+    "lon": -64.23,
+    "dateLabel": "Seen from the air in 1961",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "A pilot, then scientists",
+    "hook": "On top of a remote Venezuelan table mountain, a pilot spotted giant holes leading down to hidden forests.",
+    "summary": [
+      "Sarisariñama is a tepui, a flat-topped mountain rising from the jungle of southern Venezuela. In 1961 a pilot, Harry Gibson, saw enormous round sinkholes on its summit. The largest is about 350 metres wide and as deep, with sheer walls.",
+      "An expedition in 1974 climbed down into them and found forests at the bottom with species found nowhere else, cut off for thousands of years."
+    ],
+    "explanation": "The sinkholes formed in quartzite, a rock that dissolves only extremely slowly, over millions of years, which makes them unusual. The mountain is protected, with access mostly limited to scientists.",
+    "wiki": "Cerro Sarisariñama"
+  },
+  {
+    "slug": "paracas-candelabra",
+    "category": "places",
+    "title": "The Paracas Candelabra",
+    "region": "Paracas Peninsula, Ica, Peru",
+    "lat": -13.79,
+    "lon": -76.31,
+    "dateLabel": "Possibly around 200 BC",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Sailors who used it as a landmark",
+    "hook": "A huge three-branched figure cut into a hillside facing the sea in Peru can be seen from far out on the water.",
+    "summary": [
+      "On the northern side of the Paracas Peninsula, a giant figure shaped like a candelabra or trident, about 180 metres tall, is cut into the sandy hillside facing the Pacific. It can be seen from many kilometres out at sea.",
+      "Theories range from a landmark for sailors, to a symbol of the ancient Paracas culture, to a much later creation by pirates or Freemasons; some claim it points towards the Nazca Lines."
+    ],
+    "explanation": "Pottery found nearby has been dated to around 200 BC, linked to the Paracas culture, though the figure's own age isn't certain. The dry, sheltered spot preserves it. Its purpose remains unknown.",
+    "wiki": "Paracas Candelabra"
+  },
+  {
+    "slug": "cal-orcko",
+    "category": "places",
+    "title": "The Dinosaur Wall of Cal Orck'o",
+    "region": "Sucre, Chuquisaca, Bolivia",
+    "lat": -19,
+    "lon": -65.24,
+    "dateLabel": "Uncovered in 1994",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Cement quarry workers",
+    "hook": "A cement quarry in Bolivia uncovered a near-vertical wall covered with thousands of dinosaur footprints.",
+    "summary": [
+      "In 1994, workers at a cement quarry near Sucre exposed a huge limestone wall, about 1.5 km long and up to 100 metres high, covered with more than 5,000 dinosaur footprints. Tracks of hundreds of animals cross it, some seeming to walk straight up the wall.",
+      "It's one of the largest collections of dinosaur footprints in the world."
+    ],
+    "explanation": "Around 68 million years ago the surface was the muddy shore of a lake, where dinosaurs walked. Later, movements of the Earth's crust tilted the layer almost upright. A park has been built beside it, though the exposed wall is slowly eroding.",
+    "wiki": "Cal Orck'o"
+  },
+  {
+    "slug": "cueva-de-las-manos",
+    "category": "places",
+    "title": "The Cave of the Hands",
+    "region": "Río Pinturas, Santa Cruz, Argentina",
+    "lat": -47.15,
+    "lon": -70.67,
+    "dateLabel": "Painted from about 9,000 years ago",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists",
+    "hook": "In a Patagonian canyon, hundreds of hands, most of them left hands, were stencilled on a cave wall thousands of years ago.",
+    "summary": [
+      "Cueva de las Manos, 'Cave of the Hands', in the canyon of the Río Pinturas in southern Argentina, is famous for hundreds of stencilled hands in red, white, black and yellow, made by blowing paint through a tube around hands pressed to the rock.",
+      "Most are left hands, suggesting the painters held the blowpipe in their right. The cave also shows hunting scenes of guanacos, painted by hunter-gatherers between about 9,000 and 1,000 years ago."
+    ],
+    "explanation": "The meaning of the hands is unknown; ideas include rites of passage or marks of a group's presence. The cave is a UNESCO World Heritage Site.",
+    "wiki": "Cueva de las Manos"
+  },
+  {
+    "slug": "pedra-da-gavea",
+    "category": "places",
+    "title": "The Face of Pedra da Gávea",
+    "region": "Rio de Janeiro, Brazil",
+    "lat": -22.997,
+    "lon": -43.284,
+    "dateLabel": "Claims from the 1800s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Climbers and visitors",
+    "hook": "A granite mountain in Rio looks like a giant face, and marks on its side were once read as an ancient Phoenician inscription.",
+    "summary": [
+      "Pedra da Gávea is an 844-metre granite dome rising from the coast of Rio de Janeiro, one of the largest coastal monoliths in the world. One side looks like a weathered human face.",
+      "In the 19th century, marks on the rock were claimed to be a Phoenician inscription naming a king of Tyre, and some later writers said the mountain hid a tomb, proof that ancient Mediterranean sailors had reached Brazil."
+    ],
+    "explanation": "Geologists say both the 'face' and the 'inscription' are natural weathering of the granite, and there's no evidence of Phoenicians in Brazil. Pedra da Gávea is now a popular climb and a launch point for hang-gliders.",
+    "wiki": "Pedra da Gávea"
+  },
+  {
+    "slug": "serra-da-capivara",
+    "category": "places",
+    "title": "The First Americans of Serra da Capivara",
+    "region": "Serra da Capivara, Piauí, Brazil",
+    "lat": -8.83,
+    "lon": -42.55,
+    "dateLabel": "Excavated from the 1970s",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "The archaeologist Niède Guidon and her team",
+    "hook": "In north-eastern Brazil, an archaeologist claimed people lived 50,000 years ago, far earlier than most think humans reached the Americas.",
+    "summary": [
+      "Serra da Capivara National Park, in Piauí, holds thousands of rock paintings of people, animals and hunts, one of the largest groups in the Americas. From the 1970s the archaeologist Niède Guidon excavated a rock shelter there called Pedra Furada.",
+      "She reported hearths and stone tools 50,000 years old or more, which would mean people reached South America tens of thousands of years earlier than the commonly accepted date of around 15,000 to 20,000 years ago."
+    ],
+    "explanation": "Many archaeologists argue that the 'tools' and 'hearths' could have been made by natural rockfalls and fires. The debate continues, and other sites in the Americas have since pushed dates earlier, if not that early. The park is a UNESCO World Heritage Site.",
+    "wiki": "Serra da Capivara National Park"
+  },
+  {
+    "slug": "devils-marbles",
+    "category": "places",
+    "title": "Karlu Karlu, the Devils Marbles",
+    "region": "Karlu Karlu, Northern Territory, Australia",
+    "lat": -20.56,
+    "lon": 134.26,
+    "dateLabel": "Shaped over millions of years",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Aboriginal traditional owners, and travellers",
+    "hook": "Huge round granite boulders balance on one another in the outback, a sacred place full of Dreaming stories.",
+    "summary": [
+      "Karlu Karlu, also called the Devils Marbles, is a field of giant granite boulders beside the Stuart Highway in the Northern Territory. Many are rounded and balanced on each other, glowing red at sunrise and sunset.",
+      "It's a sacred site for the Warumungu, Kaytetye, Alyawarre and Warlpiri peoples, with Dreaming stories tied to the rocks."
+    ],
+    "explanation": "Geologists explain the boulders as granite that cracked into blocks underground, then weathered at the edges into rounded shapes as the surrounding rock wore away. Some have split clean in half from heating and cooling. The reserve is managed jointly with its traditional owners.",
+    "wiki": "Karlu Karlu / Devils Marbles Conservation Reserve"
+  },
+  {
+    "slug": "gosford-glyphs",
+    "category": "places",
+    "title": "The Gosford Glyphs",
+    "region": "Kariong, Central Coast, New South Wales, Australia",
+    "lat": -33.44,
+    "lon": 151.3,
+    "dateLabel": "Reported in the 1970s",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Bushwalkers and researchers",
+    "hook": "In the bush north of Sydney are carved 'Egyptian hieroglyphs' said to tell of ancient sailors shipwrecked in Australia.",
+    "summary": [
+      "In a sandstone gully at Kariong, near Gosford, about 300 carved symbols resembling Egyptian hieroglyphs were reported in the 1970s. Some enthusiasts claim they tell of Egyptian explorers shipwrecked in Australia thousands of years ago.",
+      "The site draws visitors and has featured in books and documentaries about lost history."
+    ],
+    "explanation": "Egyptologists say the carvings mix signs from different periods, contain mistakes and don't form a coherent text; they're thought to have been carved in the 20th century. There are genuine Aboriginal rock engravings in the area, and local Aboriginal people have asked visitors to respect it.",
+    "wiki": "Gosford Glyphs"
+  },
+  {
+    "slug": "lasseters-reef",
+    "category": "places",
+    "title": "Lasseter's Reef",
+    "region": "Petermann Ranges, Northern Territory, Australia",
+    "lat": -25,
+    "lon": 129.5,
+    "dateLabel": "Expedition in 1930",
+    "status": "open",
+    "statusLabel": "Never found",
+    "witnesses": "Harold Lasseter, by his own account",
+    "hook": "A prospector claimed he'd once seen a reef of gold in the Australian desert. He died looking for it, and no one has found it since.",
+    "summary": [
+      "In 1930 Harold Bell Lasseter claimed that decades earlier, lost in the desert of central Australia, he had stumbled on a reef of gold stretching for kilometres. At the height of the Great Depression, he persuaded investors to fund an expedition to find it again.",
+      "The expedition broke down, and Lasseter went on alone with camels into the Petermann Ranges. He died there in 1931, leaving a diary of his ordeal."
+    ],
+    "explanation": "Many doubt the reef ever existed, or think Lasseter misremembered or exaggerated. Searches have continued for decades without success, and the story became one of Australia's best-known legends of lost treasure.",
+    "wiki": "Lasseter's Reef"
+  },
+  {
+    "slug": "pink-and-white-terraces",
+    "category": "places",
+    "title": "The Lost Pink and White Terraces",
+    "region": "Lake Rotomahana, Bay of Plenty, New Zealand",
+    "lat": -38.26,
+    "lon": 176.43,
+    "dateLabel": "Buried 10 June 1886",
+    "status": "disputed",
+    "statusLabel": null,
+    "witnesses": "Visitors of the 1800s, and researchers today",
+    "hook": "New Zealand's 'eighth wonder of the world', cascading pink and white terraces, vanished in a volcanic eruption in 1886.",
+    "summary": [
+      "The Pink and White Terraces beside Lake Rotomahana were vast staircases of silica built up by hot springs, one tinted pink and one gleaming white, with warm pools to bathe in. In the 19th century they were New Zealand's most famous sight.",
+      "On 10 June 1886, Mount Tarawera erupted, burying them and destroying nearby villages. For more than a century they were thought lost for ever."
+    ],
+    "explanation": "In 2011 researchers using sonar reported finding parts of the terraces under the lake. Others have argued, using an 1859 survey, that they lie buried on land nearby. Where they are, and how much survives, is still debated.",
+    "wiki": "Pink and White Terraces"
   }
 ];
