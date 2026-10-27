@@ -1,4 +1,5 @@
 import { haversineKm } from "@/lib/geo";
+import type { EngineItem } from "@/features/globe/engine";
 import type { CaseItem, CaseSummary } from "@/lib/types";
 
 /**
@@ -21,3 +22,21 @@ export function relatedCases<T extends CaseSummary>(all: T[], c: CaseSummary, co
 
 /** Sort key for titles, ignoring a leading "The". */
 export const titleKey = (c: CaseItem) => c.title.replace(/^The /, "").toLowerCase();
+
+/** Markers for the small globe on a case page: the case itself first, then the `count` cases nearest to it. */
+export function caseMarkers(all: CaseSummary[], c: CaseSummary, count = 40): EngineItem[] {
+  const near = all
+    .filter((o) => o.slug !== c.slug)
+    .map((o) => ({ o, km: haversineKm(c.lat, c.lon, o.lat, o.lon) }))
+    .sort((a, b) => a.km - b.km)
+    .slice(0, count)
+    .map((x) => x.o);
+  return [c, ...near].map((o) => ({
+    key: `case:${o.slug}`,
+    category: o.category,
+    lat: o.lat,
+    lon: o.lon,
+    label: o.title,
+    priority: o.slug === c.slug ? 2 : Number(o.featured),
+  }));
+}

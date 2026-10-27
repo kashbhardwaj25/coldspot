@@ -10,10 +10,12 @@ type Props = {
   variant: ArticleVariant;
   /** Extra buttons shown before the Wikipedia and YouTube links. */
   actions?: ReactNode;
+  /** Shown between the title and the opening line (the small globe on the case page). */
+  lead?: ReactNode;
 };
 
 /** A famous case: what was reported and the explanations offered, without taking a side. */
-export function CaseArticle({ c, variant, actions }: Props) {
+export function CaseArticle({ c, variant, actions, lead }: Props) {
   const status = caseStatusLabel(c);
   return (
     <>
@@ -30,6 +32,7 @@ export function CaseArticle({ c, variant, actions }: Props) {
           <span className={`pill ${c.status}`}>{status}</span>
         </div>
       </div>
+      {lead}
       <p className="quote">{c.hook}</p>
       <section>
         <SectionHeading variant={variant}>What was reported</SectionHeading>

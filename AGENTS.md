@@ -66,6 +66,7 @@ src/features/
     useCaseFile.ts search.ts     load a case file on open (prefetched on tune-in); list search
     logbook.ts useLogbook.ts     cases and stories opened in this browser (localStorage); the tuner card marks them read
     MarkRead.tsx                 marks a case or story read when its own page is opened
+    CaseGlobe.tsx useCaseGlobe.ts   the small globe at the top of a case page: glides to the case, links to the map
     towns.ts                     town search for the share form: loads public/towns.json on first use, ranks matches
     useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
     state.ts                     SheetState, EchoState
@@ -102,6 +103,7 @@ src/features/
     PrivacyPolicy.tsx TermsOfUse.tsx Legal.tsx   the two policies, written to match what the code does
   cases/
     queries.ts CaseArticle.tsx   famous cases; case file shared by the page and the sheet
+    MapInvite.tsx                the invitation to the map after a case on its own page
     onThisDay.ts                 exact dates read from dateLabel; with no deep link, the map opens on a case from this day
   moderation/
     actions.ts                   "use server": approve (with edits), reject, unpublish, restore, remove, requeue
