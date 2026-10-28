@@ -22,6 +22,7 @@ function toCaseSummary(r: Omit<CaseRow, "id" | "summary" | "explanation" | "wiki
     witnesses: r.witnesses,
     hook: r.hook,
     featured: r.featured,
+    body: r.body,
     countryKey: r.countryKey,
     stateKey: r.stateKey,
   };
@@ -55,6 +56,7 @@ export function getCaseSummaries(): CaseSummary[] {
       witnesses: cases.witnesses,
       hook: cases.hook,
       featured: cases.featured,
+      body: cases.body,
       countryKey: cases.countryKey,
       stateKey: cases.stateKey,
     })

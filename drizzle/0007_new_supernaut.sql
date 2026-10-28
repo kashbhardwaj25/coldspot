@@ -1,0 +1,1 @@
+ALTER TABLE `cases` ADD `body` text DEFAULT 'earth' NOT NULL;

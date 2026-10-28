@@ -32,6 +32,14 @@ describe("findVisible", () => {
   it("drops items right on the edge, where they'd be squashed flat", () => {
     expect(findVisible([item("edge", 0, 89.5)], projection, [0, 0], ring)).toEqual([]);
   });
+
+  it("raises orbit items away from the centre, remembering the ground below them", () => {
+    const [v] = findVisible([{ ...item("orbit", 0, 30), alt: 0.5 }], projection, [0, 0], ring);
+    // The ground point is 100 px right of the centre (200 · sin 30°); half a radius up puts the item at 150.
+    expect(v?.ground?.x).toBeCloseTo(300);
+    expect(v?.x).toBeCloseTo(350);
+    expect(v?.d).toBeCloseTo(150);
+  });
 });
 
 describe("Tuner", () => {

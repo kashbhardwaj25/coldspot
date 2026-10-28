@@ -1,5 +1,7 @@
 import { haversineKm } from "@/lib/geo";
 import type { EngineItem } from "@/features/globe/engine";
+import { ORBIT_ALT } from "@/features/globe/space";
+import { worldOf } from "@/lib/bodies";
 import type { CaseItem, CaseSummary } from "@/lib/types";
 
 /**
@@ -7,8 +9,7 @@ import type { CaseItem, CaseSummary } from "@/lib/types";
  * Used under case pages and at the end of a case file on the map.
  */
 export function relatedCases<T extends CaseSummary>(all: T[], c: CaseSummary, count = 4) {
-  const others = all
-    .filter((o) => o.slug !== c.slug)
+  const others = sameWorld(all, c)
     .map((o) => ({ o, km: haversineKm(c.lat, c.lon, o.lat, o.lon) }))
     .sort((a, b) => a.km - b.km);
   const nearby = others.slice(0, count).map((x) => x.o);
@@ -20,13 +21,16 @@ export function relatedCases<T extends CaseSummary>(all: T[], c: CaseSummary, co
   return { nearby, sameCategory };
 }
 
+/** The other cases on the same globe as `c`: distances to the Moon from Earth mean nothing. */
+const sameWorld = <T extends CaseSummary>(all: T[], c: CaseSummary) =>
+  all.filter((o) => o.slug !== c.slug && worldOf(o.body) === worldOf(c.body));
+
 /** Sort key for titles, ignoring a leading "The". */
 export const titleKey = (c: CaseItem) => c.title.replace(/^The /, "").toLowerCase();
 
 /** Markers for the small globe on a case page: the case itself first, then the `count` cases nearest to it. */
 export function caseMarkers(all: CaseSummary[], c: CaseSummary, count = 40): EngineItem[] {
-  const near = all
-    .filter((o) => o.slug !== c.slug)
+  const near = sameWorld(all, c)
     .map((o) => ({ o, km: haversineKm(c.lat, c.lon, o.lat, o.lon) }))
     .sort((a, b) => a.km - b.km)
     .slice(0, count)
@@ -38,5 +42,6 @@ export function caseMarkers(all: CaseSummary[], c: CaseSummary, count = 40): Eng
     lon: o.lon,
     label: o.title,
     priority: o.slug === c.slug ? 2 : Number(o.featured),
+    ...(o.body === "orbit" && { alt: ORBIT_ALT }),
   }));
 }

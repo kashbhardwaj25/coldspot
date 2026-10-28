@@ -27,4 +27,11 @@ export const GLOBE = {
   rim: "rgba(205, 243, 212, 0.14)",
   diamondEdge: "rgba(205, 243, 212, 0.5)",
   label: "rgba(205, 243, 212, 0.7)",
+  // The Moon: unlit grey stone with darker seas, a little lighter than Earth's night side so it reads as another body.
+  moonLight: "#3b3842",
+  moonDark: "#15131a",
+  maria: "rgba(10, 9, 14, 0.55)",
+  mariaEdge: "rgba(232, 229, 220, 0.08)",
+  orbit: "rgba(205, 243, 212, 0.16)",
+  tether: "rgba(205, 243, 212, 0.28)",
 } as const;

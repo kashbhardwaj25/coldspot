@@ -19,6 +19,14 @@ function begin(c: CanvasRenderingContext2D, f: Frame) {
   c.clearRect(0, 0, f.W, f.H);
 }
 
+/** Earth, or the Moon: grey stone, with its dark seas drawn where Earth has land. */
+export type Skin = "earth" | "moon";
+
+const SKINS = {
+  earth: { light: GLOBE.oceanLight, dark: GLOBE.oceanDark, fill: GLOBE.land, edge: GLOBE.coast },
+  moon: { light: GLOBE.moonLight, dark: GLOBE.moonDark, fill: GLOBE.maria, edge: GLOBE.mariaEdge },
+};
+
 /** Sphere, graticule and coastlines: a matte object in a dark room. `r` is the globe radius in pixels. */
 export function drawGlobe(
   c: CanvasRenderingContext2D,
@@ -26,7 +34,9 @@ export function drawGlobe(
   land: GeoPermissibleObjects,
   f: Frame,
   r: number,
+  skin: Skin = "earth",
 ) {
+  const s = SKINS[skin];
   const { CX, CY } = f;
   begin(c, f);
 
@@ -40,8 +50,8 @@ export function drawGlobe(
   c.fill();
 
   const g = c.createRadialGradient(CX - r * 0.3, CY - r * 0.35, r * 0.1, CX, CY, r);
-  g.addColorStop(0, GLOBE.oceanLight);
-  g.addColorStop(1, GLOBE.oceanDark);
+  g.addColorStop(0, s.light);
+  g.addColorStop(1, s.dark);
   c.fillStyle = g;
   c.beginPath();
   path({ type: "Sphere" });
@@ -55,9 +65,9 @@ export function drawGlobe(
 
   c.beginPath();
   path(land);
-  c.fillStyle = GLOBE.land;
+  c.fillStyle = s.fill;
   c.fill();
-  c.strokeStyle = GLOBE.coast;
+  c.strokeStyle = s.edge;
   c.lineWidth = 0.8;
   c.stroke();
 
@@ -93,6 +103,14 @@ export function drawMarkers(c: CanvasRenderingContext2D, visible: Visible[], f: 
     const color = CATEGORIES[v.item.category].color;
     const on = v.item.key === o.tunedKey;
     const k = o.charge.get(v.item.key) ?? 0;
+    if (v.ground) {
+      c.beginPath();
+      c.moveTo(v.ground.x, v.ground.y);
+      c.lineTo(v.x, v.y);
+      c.strokeStyle = GLOBE.tether;
+      c.lineWidth = 1;
+      c.stroke();
+    }
     if (k > 0.02) {
       const gr = 6 + 26 * k;
       const grad = c.createRadialGradient(v.x, v.y, 0, v.x, v.y, gr);

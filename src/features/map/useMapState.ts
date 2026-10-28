@@ -9,6 +9,7 @@ import { allCategories, toMarkers, useGlobe } from "./useGlobe";
 import { useLogbook } from "./useLogbook";
 import { useMapActions } from "./useMapActions";
 import { useSound } from "./useSound";
+import { useWorld } from "./useWorld";
 
 /**
  * Everything the map screen knows and can do: the mode, filters, what's tuned in, the open sheet, the globe and
@@ -30,7 +31,8 @@ export function useMapState(data: MapData) {
   const logbook = useLogbook();
 
   const byKey = new Map<string, MapItem>([...cases, ...stories].map((i) => [itemKey(i), i]));
-  const itemsFor = (m: Mode): MapItem[] => (m === "famous" ? cases : stories);
+  // Read through a function: `world` is set up below, once the globe exists.
+  const itemsFor = (m: Mode): MapItem[] => (m === "famous" ? world.cases : stories);
   const lookup = (key: string | null) => (key ? (byKey.get(key) ?? null) : null);
   /** Opening a case file or story marks it read, so the card can say so next time it tunes in. */
   const openItem = (item: MapItem) => {
@@ -42,12 +44,15 @@ export function useMapState(data: MapData) {
     sound.radio,
     { cases, stories },
     {
-      onReady: (e, m) => {
+      onReady: (e, m, target) => {
         e.setItems(toMarkers(itemsFor(m), allCategories()), m === "famous");
+        // A deep link to a case on the Moon (or today's case being one) goes there.
+        if (target?.kind === "case" && target.body === "moon") world.show(target);
         setMode(m);
         actions.resumeShare();
         actions.openPlaceFromUrl();
       },
+      onMoon: () => world.toggle(),
       onTune: setTunedKey,
       onNearest: setNearestKey,
       onCoords: coords.set,
@@ -59,6 +64,7 @@ export function useMapState(data: MapData) {
     },
   );
   const { engine } = globe;
+  const world = useWorld(engine, cases);
 
   // Keep the globe's dots in sync with mode and filters. `modeItems` is a prop array, so it only changes with the mode.
   const modeItems = itemsFor(mode);
@@ -83,11 +89,14 @@ export function useMapState(data: MapData) {
     setSheet,
     places: data.places,
     setPlaceFilter,
+    show: world.show,
+    flyOnEarth: (v) => void world.go("earth", v),
   });
 
   const tuned = lookup(tunedKey);
   return {
     mode,
+    world: world.world,
     active,
     items: modeItems,
     read: logbook.read,
@@ -109,8 +118,11 @@ export function useMapState(data: MapData) {
       changeMode: (m: Mode) => {
         if (m === mode) return;
         setPlaceFilter(null);
-        actions.switchMode(m);
+        // People's stories are all on Earth.
+        if (world.world === "moon") void world.go("earth").then(() => actions.switchMode(m));
+        else actions.switchMode(m);
       },
+      toggleWorld: world.toggle,
       toggleCategory: (c: Category) =>
         setActive((prev) => {
           const next = new Set(prev);
@@ -121,8 +133,7 @@ export function useMapState(data: MapData) {
       openItem,
       /** From the end of a case file: open the next one in the sheet, and fly the globe there behind it. */
       openNext: (item: MapItem) => {
-        engine.current?.pin(itemKey(item));
-        engine.current?.flyTo(item.lon, item.lat);
+        world.show(item);
         openItem(item);
       },
       openList: () => setSheet({ type: "list" }),

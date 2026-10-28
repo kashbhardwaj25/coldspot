@@ -5,6 +5,7 @@ import { ToggleGroup } from "@base-ui/react/toggle-group";
 import Link from "next/link";
 import type { CSSProperties, Ref } from "react";
 import { CATEGORIES, CATEGORY_KEYS, type Category } from "@/lib/categories";
+import type { World } from "@/lib/bodies";
 import type { MapItem, Mode } from "@/lib/types";
 import { Icon } from "@/components/brand";
 import { STORIES_ENABLED } from "@/lib/features";
@@ -20,6 +21,7 @@ const NOTES: Record<Mode, string> = {
 type Props = {
   ref: Ref<HTMLElement>;
   mode: Mode;
+  world: World;
   /** Items in the current mode, counted per category. Categories with none are hidden. */
   items: MapItem[];
   active: Set<Category>;
@@ -30,6 +32,7 @@ type Props = {
   onSound: () => void;
   onRandom: () => void;
   onList: () => void;
+  onWorld: () => void;
 };
 
 /** Brand, actions, the mode switch and category chips. */

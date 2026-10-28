@@ -1,5 +1,6 @@
 import type { Icon } from "@/components/brand";
 import { STORIES_ENABLED } from "@/lib/features";
+import type { World } from "@/lib/bodies";
 import type { Mode } from "@/lib/types";
 
 /** A header button: an icon with a label that hides at phone width, or the account button (its own component). */
@@ -19,11 +20,13 @@ export type HeaderAction =
 
 type Input = {
   mode: Mode;
+  world: World;
   soundOn: boolean;
   onShare: () => void;
   onSound: () => void;
   onRandom: () => void;
   onList: () => void;
+  onWorld: () => void;
 };
 
 /** The header's buttons, in order, for the current mode. MapHeader only renders this list. */
@@ -46,6 +49,14 @@ export function headerActions(p: Input): HeaderAction[] {
       title: "Static and ambient sound",
       pressed: p.soundOn,
       onClick: p.onSound,
+    },
+    p.mode === "famous" && {
+      id: "world",
+      icon: p.world === "earth" ? "moon" : "earth",
+      label: p.world === "earth" ? "Visit the Moon" : "Back to Earth",
+      text: p.world === "earth" ? "Moon" : "Earth",
+      title: p.world === "earth" ? "Cases on the Moon" : "Back to Earth",
+      onClick: p.onWorld,
     },
     {
       id: "random",

@@ -18,7 +18,10 @@ console.log("✓ Database schema is up to date");
 // cases removed from the file are removed from the database (nothing else references them).
 const removed = db.transaction((tx) => {
   for (const seed of seedCases) {
-    const c = { featured: false, ...seed, ...regionFor(seed.lat, seed.lon) };
+    // Cases in orbit or on the Moon belong to no country.
+    const region =
+      (seed.body ?? "earth") === "earth" ? regionFor(seed.lat, seed.lon) : { countryKey: null, stateKey: null };
+    const c = { featured: false, body: "earth" as const, ...seed, ...region };
     tx.insert(schema.cases).values(c).onConflictDoUpdate({ target: schema.cases.slug, set: c }).run();
   }
   const slugs = seedCases.map((c) => c.slug);

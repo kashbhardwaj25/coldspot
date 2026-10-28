@@ -62,6 +62,7 @@ src/
 drizzle/                  SQL migrations
 public/land-110m.json     Light coastlines, drawn first and while the globe moves (Natural Earth via world-atlas)
 public/land-50m.json      Detailed coastlines, drawn when the globe is at rest (no country borders in either)
+public/moon.json          The Moon's seas for the Moon globe (NASA LROC mare map; rebuild with scripts/build-moon.ts)
 ```
 
 ### Submissions and moderation

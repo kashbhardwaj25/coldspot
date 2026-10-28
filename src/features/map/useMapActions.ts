@@ -17,6 +17,10 @@ type Args = {
   setSheet: (s: SheetState | null) => void;
   places: Record<Mode, Place[]>;
   setPlaceFilter: (key: string | null) => void;
+  /** Fly to an item, crossing to the Moon or back first if it's on the other globe (see useWorld). */
+  show: (item: MapItem, zoom?: number) => void;
+  /** Fly to a place on Earth, coming back from the Moon first if needed. */
+  flyOnEarth: (view: View) => void;
 };
 
 /** A place by key among countries and their states. */
@@ -25,6 +29,7 @@ const findPlace = (places: Place[], key: string) => places.flatMap((p) => [p, ..
 /** What the header, list and share flow do to the globe: switch modes, fly somewhere, open the share form. */
 export function useMapActions(args: Args) {
   const { engine, mode, active, tunedKey, itemsFor, setMode, setActive, setSheet, places, setPlaceFilter } = args;
+  const { show, flyOnEarth } = args;
   const switchMode = (m: Mode, target?: View) => {
     setMode(m);
     setActive(allCategories());
@@ -47,8 +52,7 @@ export function useMapActions(args: Args) {
   const pickFromList = (item: MapItem) => {
     setSheet(null);
     setActive((prev) => new Set(prev).add(item.category));
-    engine.current?.pin(itemKey(item));
-    engine.current?.flyTo(item.lon, item.lat, item.kind === "case" ? 2.4 : 4);
+    show(item, item.kind === "case" ? 2.4 : 4);
   };
 
   const openShare = () => {
@@ -70,7 +74,7 @@ export function useMapActions(args: Args) {
   const goToPlace = (place: Place) => {
     setSheet(null);
     setPlaceFilter(place.key);
-    engine.current?.flyTo(place.lon, place.lat, place.zoom, 1300);
+    flyOnEarth({ lon: place.lon, lat: place.lat, zoom: place.zoom });
   };
 
   /** Deep link from a place page: /?place=india or /?place=india/kerala. */

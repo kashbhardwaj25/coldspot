@@ -1,5 +1,6 @@
 import { sql } from "drizzle-orm";
 import { index, integer, primaryKey, real, sqliteTable, text } from "drizzle-orm/sqlite-core";
+import { BODY_KEYS } from "../lib/bodies";
 import { CASE_STATUS_KEYS, CATEGORY_KEYS, REPORT_REASON_KEYS, STORY_STATUS_KEYS } from "../lib/categories";
 
 const createdAt = () =>
@@ -26,6 +27,8 @@ export const cases = sqliteTable("cases", {
   wiki: text("wiki"),
   /** Shown first where markers crowd at low zoom. */
   featured: integer("featured", { mode: "boolean" }).notNull().default(false),
+  /** Earth, in orbit around it, or the Moon (see lib/bodies.ts). Only Earth cases get a region. */
+  body: text("body", { enum: BODY_KEYS }).notNull().default("earth"),
   // Looked up from lat/lon by features/regions (India's view of disputed areas). `at-sea` for cases at sea.
   countryKey: text("country_key"),
   stateKey: text("state_key"),

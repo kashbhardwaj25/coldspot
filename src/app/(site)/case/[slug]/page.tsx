@@ -15,6 +15,7 @@ import { MapInvite } from "@/features/cases/MapInvite";
 import { caseMarkers, relatedCases } from "@/features/cases/related";
 import { CaseGlobe } from "@/features/map/CaseGlobe";
 import { placeLinkFor } from "@/features/regions/queries";
+import { worldOf } from "@/lib/bodies";
 import { CATEGORIES } from "@/lib/categories";
 import { env } from "@/lib/server/env";
 
@@ -59,6 +60,7 @@ export default async function CasePage({ params }: Params) {
               title={c.title}
               lat={c.lat}
               lon={c.lon}
+              world={worldOf(c.body)}
               markers={caseMarkers(all, c)}
               total={all.length}
             />

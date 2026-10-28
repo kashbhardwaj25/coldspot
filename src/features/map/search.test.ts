@@ -4,6 +4,7 @@ import { searchItems } from "./search";
 
 const c = (slug: string, title: string, region: string, category: CaseItem["category"] = "sky"): CaseItem => ({
   kind: "case",
+  body: "earth",
   slug,
   category,
   title,

@@ -4,6 +4,7 @@ import { relatedCases, titleKey } from "./related";
 
 const c = (slug: string, lat: number, lon: number, category: CaseItem["category"] = "sky"): CaseItem => ({
   kind: "case",
+  body: "earth",
   slug,
   category,
   title: `The ${slug}`,
@@ -33,6 +34,15 @@ describe("relatedCases", () => {
 
   it("adds same-category cases not already listed as nearby", () => {
     expect(relatedCases(all, here).sameCategory.map((x) => x.slug)).toEqual(["e", "far-sky"]);
+  });
+
+  it("keeps Moon cases and Earth cases apart, but treats orbit cases as Earth's", () => {
+    const moon = { ...c("moon", 0, 0.5), body: "moon" as const };
+    const orbit = { ...c("orbit", 0, 0.5), body: "orbit" as const };
+    const crater = { ...c("crater", 10, 10), body: "moon" as const };
+    const mixed = [...all, moon, orbit, crater];
+    expect(relatedCases(mixed, here).nearby.map((x) => x.slug)).toEqual(["orbit", "a", "b", "c"]);
+    expect(relatedCases(mixed, moon).nearby.map((x) => x.slug)).toEqual(["crater"]);
   });
 });
 

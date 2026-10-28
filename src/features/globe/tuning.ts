@@ -10,10 +10,15 @@ export type EngineItem = {
   label: string;
   /** Higher shows first where markers crowd (see declutter.ts). */
   priority: number;
+  /** Height above the surface as a share of the globe's radius: set for cases in orbit. */
+  alt?: number;
 };
 
-/** An item on the visible side of the globe, in screen pixels, `d` from the ring. */
-export type Visible = { item: EngineItem; x: number; y: number; d: number };
+/**
+ * An item on the visible side of the globe, in screen pixels, `d` from the ring. An item in orbit also has the
+ * point on the ground below it, for the faint line that ties it to where it was seen.
+ */
+export type Visible = { item: EngineItem; x: number; y: number; d: number; ground?: { x: number; y: number } };
 
 /** Tune in inside this many pixels of the ring; drop out beyond TUNE_OUT, so the edge doesn't flicker. */
 const TUNE_IN = 22;
@@ -33,7 +38,15 @@ export function findVisible(
     if (geoDistance([item.lon, item.lat], center) > Math.PI / 2 - 0.03) continue;
     const p = projection([item.lon, item.lat]);
     if (!p) continue;
-    out.push({ item, x: p[0], y: p[1], d: Math.hypot(p[0] - ring.x, p[1] - ring.y) });
+    if (!item.alt) {
+      out.push({ item, x: p[0], y: p[1], d: Math.hypot(p[0] - ring.x, p[1] - ring.y) });
+      continue;
+    }
+    // Raised straight out from the globe's centre, which is where the ring sits.
+    const [cx, cy] = projection.translate();
+    const x = cx + (p[0] - cx) * (1 + item.alt);
+    const y = cy + (p[1] - cy) * (1 + item.alt);
+    out.push({ item, x, y, d: Math.hypot(x - ring.x, y - ring.y), ground: { x: p[0], y: p[1] } });
   }
   return out.sort((a, b) => a.d - b.d);
 }

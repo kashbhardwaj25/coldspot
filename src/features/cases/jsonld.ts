@@ -18,10 +18,11 @@ export function caseJsonLd(c: CaseItem, base: string) {
       mainEntityOfPage: url,
       inLanguage: "en",
       articleSection: CATEGORIES[c.category].label,
+      // Coordinates on the Moon, or under an orbit, would read as a place on Earth, so only Earth cases get them.
       about: {
         "@type": "Place",
         name: c.region,
-        geo: { "@type": "GeoCoordinates", latitude: c.lat, longitude: c.lon },
+        ...(c.body === "earth" && { geo: { "@type": "GeoCoordinates", latitude: c.lat, longitude: c.lon } }),
       },
       publisher: { "@type": "Organization", name: "Uncanny Map", url: base },
     },

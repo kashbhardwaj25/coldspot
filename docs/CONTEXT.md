@@ -21,6 +21,8 @@ The name says what it is: a map of the uncanny, the strange and unexplained thin
 | Detail        | Case file: what was reported, explanations offered, fields, link to Wikipedia | Story, fields, echo button                                 |
 | Accent colour | Phosphor (#CDF3D4), shared by both modes; the modes differ by marker shape    | Phosphor (#CDF3D4)                                         |
 
+**Space and the Moon.** A few famous cases happened off the Earth: in orbit (astronauts' sightings, sounds heard aboard spacecraft) or on the Moon (glows seen by astronomers, hoaxes, things spacecraft photographed). Orbit cases float just above the globe; zoom out and the Moon circles the Earth, and tapping it (or the Moon button) flies you there, where the Moon's own cases sit on its surface.
+
 Each case file has a "People's stories near here" button that switches modes and flies to that spot. That's how the two halves send people to each other.
 
 **Famous cases rule:** present what witnesses reported **and** the explanations offered, without taking a side. Some cases are marked Explained (Magnetic Hill, for example). Being even-handed like this is what makes people trust the unexplained ones.
@@ -129,6 +131,7 @@ Honest expectation for year one: most likely ₹0–2,000 a month; a good outcom
 | 2026-10-18 | Narration removed from the product for now; it may return later with a season pass                                                     |
 | 2026-10-25 | Famous cases include dark legends and urban legends, told without graphic detail; urban legends are a label, not a sixth category      |
 | 2026-10-25 | No true crime: no real killings, and no cases centred on a real person's death or mental-health crisis                                 |
+| 2026-10-28 | Space cases: orbit cases above the globe, and the Moon as a second globe you reach by tapping it as it circles the Earth               |
 
 ## Open questions
 

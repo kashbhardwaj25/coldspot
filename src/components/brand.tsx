@@ -1,7 +1,19 @@
 import type { ReactNode } from "react";
 
 export const Icon: Record<
-  "plus" | "minus" | "close" | "share" | "sound" | "shuffle" | "list" | "user" | "arrow" | "external" | "check",
+  | "plus"
+  | "minus"
+  | "close"
+  | "share"
+  | "sound"
+  | "shuffle"
+  | "list"
+  | "user"
+  | "arrow"
+  | "external"
+  | "check"
+  | "moon"
+  | "earth",
   ReactNode
 > = {
   arrow: (
@@ -56,6 +68,17 @@ export const Icon: Record<
       <circle cx="2.2" cy="4" r=".6" fill="currentColor" />
       <circle cx="2.2" cy="8" r=".6" fill="currentColor" />
       <circle cx="2.2" cy="12" r=".6" fill="currentColor" />
+    </svg>
+  ),
+  moon: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <path d="M13 10.2A5.6 5.6 0 0 1 5.8 3a5.6 5.6 0 1 0 7.2 7.2Z" />
+    </svg>
+  ),
+  earth: (
+    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <circle cx="8" cy="8" r="5.6" />
+      <path d="M2.4 8h11.2M8 2.4c1.6 1.6 2.3 3.5 2.3 5.6S9.6 12 8 13.6C6.4 12 5.7 10.1 5.7 8S6.4 4 8 2.4Z" />
     </svg>
   ),
   user: (

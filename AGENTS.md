@@ -69,15 +69,17 @@ src/features/
     CaseGlobe.tsx useCaseGlobe.ts   the small globe at the top of a case page: glides to the case, links to the map
     towns.ts                     town search for the share form: loads public/towns.json on first use, ranks matches
     useMapActions.ts             switch modes, fly to items, open the share form (and reopen it after sign-in)
+    useWorld.ts                  Earth or the Moon: which globe shows, its cases, crossing over to show a case
     state.ts                     SheetState, EchoState
     sheets/                      Sheet (Base UI Drawer: focus trap, Esc, swipe) + CaseSheet (ends with RelatedCases, which open in place), StorySheet, ListSheet, ShareSheet (+ useShareForm), ShareFields (renders SHARE_FORM from shareForm.ts; StoryPrompt above the story box), TownField (Base UI Autocomplete), PinPicker (+ usePinPicker: a second GlobeEngine, famous cases as landmarks, no snapping); registry.tsx maps each sheet type to its header and body
   globe/                         framework-free canvas globe (no React, no Next)
-    engine.ts                    GlobeEngine: public API, frame loop, input handling
+    engine.ts options.ts         GlobeEngine: public API, frame loop, input handling; what it's created with
     scene.ts                     the markers: items, declutter, visibility, tuning, drawing them each frame
     camera.ts input.ts motion.ts view and projection; pointer/keyboard; animations, momentum, snap
     draw.ts tuning.ts radio.ts   drawing; visibility, tune-in and hit testing; Web Audio
     declutter.ts labels.ts       hide crowded low-priority markers by zoom; non-overlapping labels
-    land.ts                      loads the coastlines once for every globe on the page
+    land.ts                      loads the coastlines (and the Moon's seas) once for every globe on the page
+    space.ts                     the Moon circling Earth when zoomed out (tap it to go there), the orbit shell
   stories/
     submit.ts                    "use server": submitStory
     echoes.ts                    "use server": toggleEcho, myEchoes
@@ -122,6 +124,7 @@ src/db/
   client.ts                      SQLite connection (WAL, busy_timeout, foreign keys), dev-safe singleton
 src/lib/                         shared, framework-free helpers
   categories.ts types.ts         category keys, labels, colours, status enums; CaseItem, StoryItem, MapItem
+  bodies.ts                      where a famous case is: earth, orbit or moon; which globe shows it
   tokens.ts nav.ts               the palette for canvas and preview images; the site's links as config
   features.ts                    STORIES_ENABLED: people's stories are off for the first release
   format.ts geo.ts signal.ts     labels; formatCoords, haversineKm; observable for per-frame values
@@ -132,12 +135,14 @@ src/styles/                      tokens, base, map, tuner, sheets, reading, form
 src/data/                        seed-cases.ts (real), seed-stories.ts (samples, is_sample = true), towns-extra.ts (hand-added towns)
 scripts/setup.ts                 migrate and seed
 scripts/build-towns.ts           rebuilds public/towns.json from Natural Earth (public domain) plus towns-extra.ts
+scripts/build-moon.ts            rebuilds public/moon.json, the Moon's seas, from NASA's LROC mare map
 scripts/build-regions.ts         rebuilds src/data/regions.json (country and state outlines, India's view) from Natural Earth
 Dockerfile railway.json         production image, deployed by Railway from main after CI passes (docs/DEPLOY.md)
 .github/workflows/ci.yml         npm run check + build on every pull request and push to main
 deploy/                          the self-hosted alternative: Docker Compose with Caddy and Litestream
 drizzle/                         SQL migrations (generated, committed)
 public/land-110m.json land-50m.json   coastlines only: light (drawn first and while moving), detailed (at rest)
+public/moon.json                 the Moon's seas (maria), drawn like coastlines on the Moon globe (generated)
 public/towns.json                towns for the share form's search (generated; don't edit by hand)
 ```
 
@@ -202,6 +207,7 @@ public/towns.json                towns for the share form's search (generated; d
 - Coordinates in the tuner card go through a `Signal` and the `Freq` component, which writes to the DOM directly, so React doesn't re-render every frame.
 - Where markers crowd, lower-priority ones are hidden until you zoom in (`declutter.ts`). Featured cases (`featured` in `seed-cases.ts`) show first. Call `pin(key)` before `flyTo` when jumping to a specific item, so it's never hidden.
 - Respect `prefers-reduced-motion` for any new animation.
+- Famous cases have a `body`: `earth`, `orbit` (drawn above the place they were seen over, `ORBIT_ALT`) or `moon` (at their place on the Moon, on a second globe the engine switches to with `setWorld`). Only Earth cases get a region, a place page or coordinates in structured data, and related cases stay on the same globe. The Moon circling Earth redraws at most 20 times a second and only when zoomed out; keep the idle cost of the map low.
 - Test dragging on a phone-width viewport (400px). The interaction has to feel instant on mid-range Android.
 
 ### UI and copy

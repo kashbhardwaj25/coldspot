@@ -19,15 +19,20 @@ export default function UncannyMapApp({ data }: Props) {
   const map = useMapState(data);
   const { actions, tuned } = map;
   // Refs stay standalone variables, as the React Compiler rules require.
-  const { baseRef, dotsRef, ringRef, hintRef, zoomRef, topRef } = map.globe;
+  const { baseRef, dotsRef, spaceRef, ringRef, hintRef, zoomRef, topRef } = map.globe;
 
   return (
-    <div className="um-map" data-mode={map.mode}>
-      <MapStage {...{ baseRef, dotsRef, ringRef, hintRef }} hintHidden={map.hintHidden} tuned={tuned !== null} />
+    <div className="um-map" data-mode={map.mode} data-world={map.world}>
+      <MapStage
+        {...{ baseRef, dotsRef, spaceRef, ringRef, hintRef }}
+        hintHidden={map.hintHidden}
+        tuned={tuned !== null}
+      />
 
       <MapHeader
         ref={topRef}
         mode={map.mode}
+        world={map.world}
         items={map.items}
         active={map.active}
         soundOn={map.sound.on}
@@ -37,6 +42,7 @@ export default function UncannyMapApp({ data }: Props) {
         onSound={map.sound.toggle}
         onRandom={actions.random}
         onList={actions.openList}
+        onWorld={actions.toggleWorld}
       />
 
       <ZoomControls ref={zoomRef} onZoom={actions.zoom} />

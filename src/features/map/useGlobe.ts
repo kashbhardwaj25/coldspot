@@ -5,6 +5,7 @@ import { GlobeEngine, type EngineItem, type View } from "@/features/globe/engine
 import { loadLand } from "@/features/globe/land";
 import { casesOnThisDay } from "@/features/cases/onThisDay";
 import type { Radio } from "@/features/globe/radio";
+import { ORBIT_ALT } from "@/features/globe/space";
 
 export const VIEWS: Record<Mode, View> = {
   famous: { lon: 69.85, lat: 23.72, zoom: 1.15 },
@@ -25,6 +26,7 @@ export function toMarkers(items: MapItem[], active: Set<Category>): EngineItem[]
       label: itemName(i),
       // Where markers crowd, featured cases and the most-echoed stories stay visible.
       priority: i.kind === "case" ? Number(i.featured) : i.echoes,
+      ...(i.kind === "case" && i.body === "orbit" && { alt: ORBIT_ALT }),
     }));
 }
 
@@ -32,8 +34,9 @@ export function toMarkers(items: MapItem[], active: Set<Category>): EngineItem[]
 const cardReserve = (w: number) => (w < 760 ? 250 : 230);
 
 type Callbacks = {
-  /** The globe is ready, opening in `mode` (a deep link to a story opens people's stories). */
-  onReady: (engine: GlobeEngine, mode: Mode) => void;
+  /** The globe is ready, opening in `mode` (a deep link to a story opens people's stories) at `target`, if any. */
+  onReady: (engine: GlobeEngine, mode: Mode, target: MapItem | undefined) => void;
+  onMoon: () => void;
   onTune: (key: string | null) => void;
   onNearest: (key: string | null) => void;
   onCoords: (text: string) => void;
@@ -64,6 +67,7 @@ export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: St
   const engineRef = useRef<GlobeEngine | null>(null);
   const baseRef = useRef<HTMLCanvasElement>(null);
   const dotsRef = useRef<HTMLCanvasElement>(null);
+  const spaceRef = useRef<HTMLCanvasElement>(null);
   const ringRef = useRef<HTMLDivElement>(null);
   const hintRef = useRef<HTMLDivElement>(null);
   const zoomRef = useRef<HTMLDivElement>(null);
@@ -83,11 +87,15 @@ export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: St
         if (cancelled || !baseRef.current || !dotsRef.current) return;
         const target = openingTarget(data.cases, data.stories);
         const mode: Mode = target?.kind === "story" ? "people" : "famous";
-        const view = target ? { lon: target.lon, lat: target.lat, zoom: mode === "famous" ? 2.4 : 3.6 } : VIEWS[mode];
+        // A linked case opens close up; today's case opens further out, with the Moon in view.
+        const linked = /[?&](case|story)=/.test(window.location.search);
+        const zoom = mode === "people" ? 3.6 : linked ? 2.4 : 1.5;
+        const view = target ? { lon: target.lon, lat: target.lat, zoom } : VIEWS[mode];
 
         engine = new GlobeEngine({
           base: baseRef.current,
           dots: dotsRef.current,
+          space: spaceRef.current ?? undefined,
           land,
           view,
           radio,
@@ -108,11 +116,16 @@ export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: St
           onCoords: (text) => cb.current.onCoords(text),
           onInteract: () => cb.current.onInteract(),
           onOpenTuned: () => tuned && cb.current.onOpenTuned(tuned),
+          onMoon: () => cb.current.onMoon(),
         });
         if (target) engine.pin(itemKey(target));
         engineRef.current = engine;
-        cb.current.onReady(engine, mode);
-        return loadLand("high").then((detail) => engine?.setDetail(detail));
+        cb.current.onReady(engine, mode, target);
+        // The little Moon's seas come last: it's a plain grey ball until they arrive.
+        return loadLand("high")
+          .then((detail) => engine?.setDetail(detail))
+          .then(() => loadLand("moon"))
+          .then((moon) => engine?.space?.setMoonLand(moon));
       })
       .catch((err: unknown) => console.error("Could not load the map", err));
 
@@ -125,5 +138,5 @@ export function useGlobe(radio: Radio, data: { cases: CaseSummary[]; stories: St
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return { engine: engineRef, baseRef, dotsRef, ringRef, hintRef, zoomRef, topRef };
+  return { engine: engineRef, baseRef, dotsRef, spaceRef, ringRef, hintRef, zoomRef, topRef };
 }

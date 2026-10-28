@@ -1,3 +1,4 @@
+import type { Body } from "./bodies";
 import type { CaseStatus, Category } from "./categories";
 
 /** A famous case as the map needs it: enough for the globe, the list, search and the tuner card. */
@@ -16,6 +17,7 @@ export type CaseSummary = {
   hook: string;
   /** Shown first where markers crowd at low zoom. */
   featured: boolean;
+  body: Body;
   /** Region keys from features/regions, e.g. `india` and `india/kerala`. */
   countryKey: string | null;
   stateKey: string | null;

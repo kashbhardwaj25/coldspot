@@ -1,39 +1,16 @@
 import { geoPath, type GeoPermissibleObjects } from "d3-geo";
 import { Camera, clampZoom, type View } from "./camera";
-import { drawGlobe } from "./draw";
+import { drawGlobe, type Skin } from "./draw";
 import { bindInput, type InputTarget } from "./input";
 import { flight, Motion, zoomTo } from "./motion";
-import type { Radio } from "./radio";
 import { formatCoords } from "@/lib/geo";
+import { context, type EngineOptions } from "./options";
 import { Scene } from "./scene";
+import { SpaceLayer } from "./space";
 import { hitTest, SNAP, type EngineItem } from "./tuning";
 
 export type { View } from "./camera";
 export type { EngineItem } from "./tuning";
-
-type Options = {
-  base: HTMLCanvasElement;
-  dots: HTMLCanvasElement;
-  /** Light coastlines, drawn while the globe moves. Detailed ones arrive later through `setDetail`. */
-  land: GeoPermissibleObjects;
-  view: View;
-  radio: Radio;
-  /** Where the ring sits: centre x, centre y in CSS pixels. */
-  layout: (w: number, h: number) => { cx: number; cy: number };
-  onTune: (key: string | null) => void;
-  onNearest: (key: string | null) => void;
-  onCoords: (text: string) => void;
-  onInteract: () => void;
-  onOpenTuned: () => void;
-  /** Glide to a nearby marker when the view comes to rest (the main map). Off for the pin picker. */
-  snap?: boolean;
-};
-
-function context(canvas: HTMLCanvasElement) {
-  const ctx = canvas.getContext("2d");
-  if (!ctx) throw new Error("Canvas 2D is not available");
-  return ctx;
-}
 
 /** Milliseconds the view has to stay still before the detailed coastlines are drawn. */
 const SETTLE = 120;
@@ -55,13 +32,18 @@ export class GlobeEngine implements InputTarget {
   private detail: GeoPermissibleObjects | null = null;
   private sharp = false;
   private stillSince = 0;
+  private skin: Skin = "earth";
+  /** The Moon circling Earth and the orbit shell, when the engine was given a canvas for them. */
+  readonly space: SpaceLayer | null = null;
+  private orbit = false;
 
-  constructor(private o: Options) {
+  constructor(private o: EngineOptions) {
     this.cam = new Camera(o.view);
     this.bctx = context(o.base);
     this.path = geoPath(this.cam.projection, this.bctx);
     const font = `400 10.5px ${getComputedStyle(o.dots).getPropertyValue("--mono").trim() || "monospace"}`;
     this.scene = new Scene(o, context(o.dots), font, this.reduce);
+    if (o.space) this.space = new SpaceLayer(o.space, this.reduce);
     this.unbind = bindInput(o.dots, this);
     window.addEventListener("resize", this.resize);
     this.resize();
@@ -78,11 +60,27 @@ export class GlobeEngine implements InputTarget {
 
   setItems(items: EngineItem[], famous: boolean) {
     this.scene.setItems(items, famous);
+    this.orbit = items.some((i) => i.alt);
     this.cam.dirty = true;
   }
 
-  /** Detailed coastlines, drawn whenever the view is at rest. */
-  setDetail(land: GeoPermissibleObjects) {
+  /**
+   * Show another globe: Earth, or the Moon with its seas in place of land. Starts at `view`; set the items for it
+   * with `setItems`. Earth's light coastlines go in `land` and the detailed ones in `detail`.
+   */
+  setWorld(skin: Skin, land: GeoPermissibleObjects, detail: GeoPermissibleObjects | null, view: View) {
+    this.motion.stop();
+    this.skin = skin;
+    this.o.land = land;
+    this.setDetail(detail, skin);
+    this.clearTune();
+    this.cam.look(view.lon, view.lat);
+    this.cam.setZoom(view.zoom);
+  }
+
+  /** Detailed outlines for the `skin` globe, drawn whenever the view is at rest. Late ones for another globe are dropped. */
+  setDetail(land: GeoPermissibleObjects | null, skin: Skin = "earth") {
+    if (skin !== this.skin) return;
     this.detail = land;
     this.sharp = false;
   }
@@ -118,7 +116,7 @@ export class GlobeEngine implements InputTarget {
     this.motion.play(zoomTo(this.cam.zoom, clampZoom(this.cam.zoom * factor), (z) => this.cam.setZoom(z)));
   }
 
-  resize = () => this.cam.resize([this.o.dots, this.o.base], this.o.layout);
+  resize = () => this.cam.resize([this.o.dots, this.o.base, ...(this.o.space ? [this.o.space] : [])], this.o.layout);
 
   /* ---------- input (see input.ts) ---------- */
 
@@ -148,6 +146,7 @@ export class GlobeEngine implements InputTarget {
     this.motion.settle(false, 250);
   }
   tap(x: number, y: number) {
+    if (this.skin === "earth" && this.space?.hitMoon(x, y, this.cam)) return this.o.onMoon?.();
     const hit = hitTest(this.scene.visible, x, y);
     const { CX, CY } = this.cam.frame;
     if (hit && hit.item.key !== this.scene.tuner.key) this.flyTo(hit.item.lon, hit.item.lat, this.cam.zoom, 650);
@@ -173,6 +172,7 @@ export class GlobeEngine implements InputTarget {
       this.scene.layout(cam);
     } else if (!this.sharp && this.detail && now - this.stillSince > SETTLE) this.drawBase(true);
     this.scene.draw(cam, now, moved);
+    this.space?.draw(cam, now, moved, this.orbit, this.skin === "earth");
     this.raf = requestAnimationFrame(this.loop);
   };
 
@@ -180,6 +180,6 @@ export class GlobeEngine implements InputTarget {
   private drawBase(sharp: boolean) {
     const land = sharp && this.detail ? this.detail : this.o.land;
     this.sharp = land === this.detail;
-    drawGlobe(this.bctx, this.path, land, this.cam.frame, this.cam.radius);
+    drawGlobe(this.bctx, this.path, land, this.cam.frame, this.cam.radius, this.skin);
   }
 }

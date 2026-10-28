@@ -35,7 +35,7 @@ export function CaseSheet({ c, cases, stories, onNearby, onPick }: Props) {
         variant="sheet"
         actions={
           <>
-            {STORIES_ENABLED && (
+            {STORIES_ENABLED && c.body === "earth" && (
               <button type="button" className="btn" onClick={() => onNearby(c)}>
                 {nearby ? `People's stories near here · ${nearby}` : "Look for people's stories near here"}
               </button>

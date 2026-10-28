@@ -6892,11 +6892,12 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "apollo-10-music",
+    "body": "moon",
     "category": "voices",
     "title": "The Music on the Far Side of the Moon",
-    "region": "Mission Control, Houston, Texas, USA",
-    "lat": 29.56,
-    "lon": -95.09,
+    "region": "In orbit over the far side of the Moon, aboard Apollo 10",
+    "lat": -2.0,
+    "lon": 170.0,
     "dateLabel": "May 1969; transcripts released in 2008",
     "status": "explained",
     "statusLabel": null,
@@ -15476,9 +15477,10 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
   },
   {
     "slug": "black-knight-satellite",
+    "body": "orbit",
     "category": "sky",
     "title": "The Black Knight Satellite",
-    "region": "Kennedy Space Center, Florida, USA",
+    "region": "In orbit, photographed from Space Shuttle Endeavour",
     "lat": 28.57,
     "lon": -80.65,
     "dateLabel": "Photographed in December 1998",
@@ -19152,5 +19154,325 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
     ],
     "explanation": "They're among the earliest recordings made for entertainment, and among the first recordings of women's voices. Their eeriness comes from the age and wear of the cylinders and the uncanny idea of a talking doll. They're kept at the Thomas Edison National Historical Park.",
     "wiki": "Edison's Phonograph Doll"
-  }
+  },
+    {
+      "slug": "glenn-fireflies",
+      "body": "orbit",
+      "category": "sky",
+      "title": "John Glenn's Fireflies",
+      "region": "In orbit over the Pacific, aboard Friendship 7",
+      "lat": -3.0,
+      "lon": -172.0,
+      "dateLabel": "20 February 1962",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Astronaut John Glenn",
+      "hook": "On America's first orbital flight, John Glenn watched a swarm of glowing specks drift around his capsule at sunrise, like fireflies.",
+      "summary": [
+        "On 20 February 1962, John Glenn became the first American to orbit the Earth, in the capsule Friendship 7. As the Sun rose over the Pacific on his first orbit, he saw thousands of tiny luminous particles drifting around the capsule, greenish-yellow and glowing, moving slowly past the window.",
+        "'They look like little stars,' he told the ground, and later compared them to fireflies. He saw them again at each sunrise, and nobody on the ground could tell him what they were."
+      ],
+      "explanation": "Three months later, on Aurora 7, Scott Carpenter saw the same 'fireflies' and found he could release clouds of them by tapping the inside of the capsule wall. They were flakes of frost from the spacecraft's outside, lit up by the rising Sun.",
+      "wiki": "Mercury-Atlas 6"
+    },
+    {
+      "slug": "gemini-4-object",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Object Seen from Gemini 4",
+      "region": "In orbit over the Pacific, near Hawaii",
+      "lat": 20.0,
+      "lon": -158.0,
+      "dateLabel": "4 June 1965",
+      "status": "open",
+      "statusLabel": "Unidentified",
+      "witnesses": "Astronaut James McDivitt",
+      "hook": "During America's first spacewalk mission, an astronaut saw a white, cylindrical object with an arm sticking out, and tried to photograph it.",
+      "summary": [
+        "On 4 June 1965, during the Gemini 4 mission, commander James McDivitt saw an object outside the spacecraft as it passed over the Pacific near Hawaii: white and cylindrical, with what looked like an arm sticking out of it. His crewmate Ed White was asleep. McDivitt took photographs and some film before it was lost in the glare of the Sun.",
+        "The frames NASA released later showed a bright streak, which McDivitt said was a reflection on the window rather than what he had seen."
+      ],
+      "explanation": "NORAD checked which known objects were nearby; suggestions include the upper stage of their own Titan rocket, or an American satellite, though neither fits perfectly. McDivitt always said it was unidentified only in the sense that he didn't know what it was, and that he didn't think it was a spacecraft from somewhere else.",
+      "wiki": "Gemini 4"
+    },
+    {
+      "slug": "gemini-7-bogey",
+      "body": "orbit",
+      "category": "sky",
+      "title": "Gemini 7's 'Bogey'",
+      "region": "In orbit, aboard Gemini 7",
+      "lat": -25.0,
+      "lon": 25.0,
+      "dateLabel": "December 1965",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Astronauts Frank Borman and Jim Lovell",
+      "hook": "Two weeks into the longest spaceflight yet, an astronaut radioed, 'We have a bogey at 10 o'clock high.'",
+      "summary": [
+        "In December 1965 Frank Borman and Jim Lovell spent two weeks in orbit on Gemini 7, testing whether people could survive a long journey in space. Early in the flight Borman radioed Mission Control: 'Bogey at 10 o'clock high', pilot's slang for an unidentified object.",
+        "He went on to describe hundreds of small particles flying alongside them, and the transcript became a favourite in lists of astronaut UFO sightings."
+      ],
+      "explanation": "Borman himself said in the same conversation that they also had their booster rocket in sight, and the 'bogey' is generally taken to be the spent upper stage of their Titan rocket, tumbling nearby, with the particles as debris and ice. Borman later said he'd seen nothing he couldn't explain.",
+      "wiki": "Gemini 7"
+    },
+    {
+      "slug": "skylab-3-red-object",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Red Light Beside Skylab",
+      "region": "In orbit, aboard the Skylab space station",
+      "lat": 10.0,
+      "lon": 105.0,
+      "dateLabel": "20 September 1973",
+      "status": "disputed",
+      "statusLabel": "Probably explained",
+      "witnesses": "The crew of Skylab 3",
+      "hook": "Aboard America's first space station, three astronauts watched a bright red object for several minutes and photographed it.",
+      "summary": [
+        "On 20 September 1973, the crew of Skylab 3, Alan Bean, Owen Garriott and Jack Lousma, reported a bright reddish object outside the station. They watched it for around ten minutes as it seemed to keep pace with them, and took photographs before it faded from view.",
+        "The pictures showed a reddish point of light, and the sighting was later listed among the best-known reports by astronauts."
+      ],
+      "explanation": "The most common explanation is that they saw a piece of a spent rocket, possibly a Soviet satellite's rocket body, lit red by sunlight passing through the edge of the atmosphere. No exact match has been confirmed, so it remains listed as probably, rather than certainly, explained.",
+      "wiki": "Skylab 3"
+    },
+    {
+      "slug": "salyut-7-angels",
+      "body": "orbit",
+      "category": "visitors",
+      "title": "The 'Angels' of Salyut 7",
+      "region": "In orbit, aboard the Salyut 7 space station",
+      "lat": 48.0,
+      "lon": 65.0,
+      "dateLabel": "Said to be July 1984",
+      "status": "disputed",
+      "statusLabel": "Unverified",
+      "witnesses": "Cosmonauts, according to later newspaper stories",
+      "hook": "Western tabloids reported that Soviet cosmonauts had seen seven giant winged figures glowing outside their space station.",
+      "summary": [
+        "In the mid-1980s, newspapers in the West began telling a remarkable story from the Soviet space station Salyut 7. During a long mission in 1984, the cosmonauts were said to have seen a brilliant orange glow outside, and within it seven huge figures with wings and faces, flying alongside the station for several minutes.",
+        "Days later, the story went, a second group of cosmonauts saw them too. The tale has been retold for decades as the 'space angels'."
+      ],
+      "explanation": "There is no record of it in Soviet or Russian accounts of the mission, and the cosmonauts named in some versions never confirmed it. The story seems to have started in tabloid newspapers and spread by being copied. Some suggest a hallucination during a long, tiring mission, but most researchers treat it as invented.",
+      "wiki": "Salyut 7"
+    },
+    {
+      "slug": "shenzhou-5-knocking",
+      "body": "orbit",
+      "category": "voices",
+      "title": "The Knocking Heard by China's First Astronaut",
+      "region": "In orbit over China, aboard Shenzhou 5",
+      "lat": 38.0,
+      "lon": 100.0,
+      "dateLabel": "15–16 October 2003",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Astronaut Yang Liwei, and crews of later missions",
+      "hook": "Alone in orbit, China's first astronaut heard a knocking on his spacecraft, like someone tapping on an iron bucket with a wooden hammer.",
+      "summary": [
+        "In October 2003, Yang Liwei became the first person China sent into space, orbiting alone in the Shenzhou 5 capsule for 21 hours. During the flight, he later said, he heard a sudden knocking sound, like someone tapping on the outside of the spacecraft with a wooden hammer.",
+        "He looked out of the window and saw nothing. The sound came and went, and astronauts on later Shenzhou missions said they had heard it too."
+      ],
+      "explanation": "The cause has never been identified. Engineers have suggested that the spacecraft's metal skin and fittings were expanding and contracting as it passed between sunlight and shadow, which can make a structure creak and knock. Yang Liwei himself said he never found out what it was.",
+      "wiki": "Shenzhou 5"
+    },
+    {
+      "slug": "sts-48-lights",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Lights Filmed by Discovery",
+      "region": "In orbit, filmed from Space Shuttle Discovery",
+      "lat": -18.0,
+      "lon": 75.0,
+      "dateLabel": "15 September 1991",
+      "status": "disputed",
+      "statusLabel": null,
+      "witnesses": "A camera on Space Shuttle Discovery (STS-48)",
+      "hook": "A shuttle camera filmed points of light drifting above Earth, then darting off in new directions after a flash.",
+      "summary": [
+        "On 15 September 1991, during the STS-48 mission, a camera on Space Shuttle Discovery was pointed at the Earth's horizon at night. It recorded several glowing points moving slowly across the view. Then there was a flash, and some of the points suddenly changed direction and sped away, while a streak crossed the frame.",
+        "The footage was shown on television and is still among the most-watched UFO videos."
+      ],
+      "explanation": "NASA said the points were small ice particles and bits of debris near the shuttle, lit by the Sun, and the flash was one of the shuttle's thrusters firing, which pushed them away. Some researchers argued that the motion didn't look like particles being pushed, which keeps the video in dispute.",
+      "wiki": "STS-48"
+    },
+    {
+      "slug": "sts-75-tether",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Swarm Around the Broken Tether",
+      "region": "In orbit, filmed from Space Shuttle Columbia",
+      "lat": -35.0,
+      "lon": -40.0,
+      "dateLabel": "February–March 1996",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Cameras on Space Shuttle Columbia (STS-75)",
+      "hook": "After a 20-kilometre cable snapped away from a space shuttle, video of it showed dozens of notched discs drifting around it.",
+      "summary": [
+        "In February 1996, Space Shuttle Columbia unreeled a satellite on a tether nearly 20 km long, to test generating electricity in orbit. The tether snapped and drifted away. Days later, a shuttle camera filmed the distant tether, and the footage showed dozens of glowing, disc-shaped objects drifting across the frame, some with a notch cut out of them.",
+        "The video was widely shared as a swarm of craft gathering around the tether."
+      ],
+      "explanation": "Camera experts explain that the 'discs' are tiny particles of ice and debris close to the camera, far out of focus, so each became a blurred disc of light. The notch is the shape of the camera's iris, which appears in out-of-focus points of light, a common effect in photography.",
+      "wiki": "STS-75"
+    },
+    {
+      "slug": "aristarchus-glow",
+      "body": "moon",
+      "category": "sky",
+      "title": "The Glow of Aristarchus",
+      "region": "Aristarchus crater, the Moon",
+      "lat": 23.7,
+      "lon": -47.4,
+      "dateLabel": "Reported since the 1700s",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Astronomers, and the crew of Apollo 11",
+      "hook": "For centuries, astronomers have reported glows, flashes and hazes on the Moon, most often at one bright crater.",
+      "summary": [
+        "Transient lunar phenomena are short-lived lights, colours and hazes that observers have reported on the Moon's surface. In 1787 the astronomer William Herschel described glowing spots he took for volcanoes. A NASA catalogue from 1968 listed hundreds of such reports, and about a third of them came from the bright young crater Aristarchus.",
+        "In July 1969, Mission Control asked the Apollo 11 astronauts, orbiting the Moon, to look at Aristarchus. They reported that an area near it seemed to be lit up more than the rest."
+      ],
+      "explanation": "Suggested causes include gas escaping from beneath the surface, small meteorite impacts, and dust lifted by static electricity. Sceptics point to tricks of Earth's atmosphere and of eyesight, and to Aristarchus simply being the brightest spot on the Moon. Telescopes now watch for flashes, and impact flashes have been confirmed, but the glows remain unexplained.",
+      "wiki": "Transient lunar phenomenon"
+    },
+    {
+      "slug": "canterbury-monks-1178",
+      "body": "moon",
+      "category": "sky",
+      "title": "The Night the Moon Split",
+      "region": "Giordano Bruno crater, far side of the Moon (seen from Canterbury, England)",
+      "lat": 36.0,
+      "lon": 102.9,
+      "dateLabel": "18 June 1178",
+      "status": "disputed",
+      "statusLabel": null,
+      "witnesses": "Five monks of Canterbury, recorded by the chronicler Gervase",
+      "hook": "Medieval monks watched the horn of the new Moon split in two, and fire, sparks and burning coals pour out.",
+      "summary": [
+        "The chronicler Gervase of Canterbury wrote that on an evening in June 1178, five men watching the thin new Moon saw its upper horn suddenly split in two. From the middle of the split, a flaming torch sprang up, spewing fire, hot coals and sparks, and the Moon seemed to writhe 'like a wounded snake'. It happened a dozen times or more.",
+        "In 1976 a geologist suggested the monks had seen a huge impact creating Giordano Bruno, a young crater just over the Moon's edge as seen from Earth."
+      ],
+      "explanation": "Others argue that an impact big enough to form the crater would have thrown up so much debris that Earth would have seen a week-long meteor storm, which no one recorded, and studies suggest the crater is millions of years old. A meteor exploding in the sky, lined up with the Moon from where the monks stood, could explain what they saw.",
+      "wiki": "Giordano Bruno (crater)"
+    },
+    {
+      "slug": "great-moon-hoax",
+      "body": "moon",
+      "category": "visitors",
+      "title": "The Great Moon Hoax",
+      "region": "The near side of the Moon (published in New York)",
+      "lat": 0.0,
+      "lon": 0.0,
+      "dateLabel": "August 1835",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "Readers of the New York Sun",
+      "hook": "A New York newspaper announced that a great telescope had revealed bison, unicorns and winged people living on the Moon.",
+      "summary": [
+        "In August 1835, the New York Sun published a series of articles claiming that the famous astronomer John Herschel, at the Cape of Good Hope, had built a telescope powerful enough to see life on the Moon. The articles described forests, seas, herds of bison, blue unicorns, beavers walking on two legs, and finally winged human-like creatures the reporter called 'man-bats', living in temples.",
+        "The series was a sensation, sold huge numbers of papers and was reprinted around the world."
+      ],
+      "explanation": "It was a hoax, generally credited to the reporter Richard Adams Locke, probably meant partly as satire of the wild speculation about life on other worlds at the time. Herschel was real but had nothing to do with it, and is said to have been amused at first and later annoyed by questions about it.",
+      "wiki": "Great Moon Hoax"
+    },
+    {
+      "slug": "apollo-12-moon-bell",
+      "body": "moon",
+      "category": "voices",
+      "title": "The Moon That Rang Like a Bell",
+      "region": "Ocean of Storms, the Moon (Apollo 12 landing site)",
+      "lat": -3.01,
+      "lon": -23.42,
+      "dateLabel": "20 November 1969",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Scientists reading Apollo 12's seismometer",
+      "hook": "When a spent spacecraft was crashed into the Moon, its surface kept trembling for almost an hour.",
+      "summary": [
+        "Apollo 12 left a seismometer on the Moon's Ocean of Storms in November 1969. After the astronauts returned to their command module, the empty upper stage of their lunar module was deliberately crashed into the surface about 75 km away, to make a moonquake that scientists could measure.",
+        "On Earth, a crash like that would set the ground shaking for a minute or so. On the Moon, the vibrations built up slowly and went on for nearly an hour. Scientists said the Moon had 'rung like a bell', and the phrase was soon taken as a sign that the Moon was hollow."
+      ],
+      "explanation": "Seismologists explain that the Moon's crust is extremely dry and shattered by billions of years of impacts. Without water to absorb them, seismic waves bounce and scatter through the broken rock for a long time, rather than dying away. Later impacts and moonquakes behaved the same way. The Moon isn't hollow; its mass and seismic data show a dense core.",
+      "wiki": "Apollo 12"
+    },
+    {
+      "slug": "blair-cuspids",
+      "body": "moon",
+      "category": "places",
+      "title": "The Blair Cuspids",
+      "region": "Sea of Tranquillity, the Moon",
+      "lat": 4.7,
+      "lon": 16.0,
+      "dateLabel": "Photographed in November 1966",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "The Lunar Orbiter 2 spacecraft",
+      "hook": "A spacecraft photo of the Moon showed a group of spires casting long, sharp shadows, arranged, some said, like a pattern.",
+      "summary": [
+        "In November 1966, NASA's Lunar Orbiter 2 photographed an area of the Sea of Tranquillity from orbit. With the Sun low in the sky, a group of objects cast long, pointed shadows across the ground, like spires.",
+        "A researcher, William Blair, suggested the spires were arranged in a geometric pattern, and newspapers asked whether they could be artificial. They became known as the Blair Cuspids."
+      ],
+      "explanation": "Planetary scientists explained that the 'spires' are ordinary boulders, a few metres tall, whose shadows were stretched enormously by the very low Sun. Later, sharper photos of the area show natural rocks and no pattern. It's a classic example of how shadows can mislead on the Moon.",
+      "wiki": "Blair Cuspids"
+    },
+    {
+      "slug": "oneills-bridge",
+      "body": "moon",
+      "category": "places",
+      "title": "O'Neill's Bridge",
+      "region": "Edge of the Sea of Crises, the Moon",
+      "lat": 15.2,
+      "lon": 49.1,
+      "dateLabel": "29 July 1953",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Science writer John J. O'Neill, and astronomer Hugh Percy Wilkins",
+      "hook": "An amateur astronomer said he'd seen a giant natural bridge on the Moon, and a famous lunar mapper said he could see it too.",
+      "summary": [
+        "In July 1953 John J. O'Neill, science editor of the New York Herald Tribune and a keen amateur astronomer, reported seeing a huge arch, about 20 km long, spanning a gap at the edge of the Moon's Sea of Crises. Sunlight seemed to pass beneath it.",
+        "The British astronomer Hugh Percy Wilkins, then one of the leading mappers of the Moon, said he had seen it as well, and described it on the radio as looking 'almost artificial'. The story spread widely."
+      ],
+      "explanation": "Other astronomers couldn't find it, and it was explained as a trick of light: sunlight catching two ridges near the headlands Promontorium Lavinium and Olivium can make a gap look bridged. Later telescope and spacecraft images show no bridge there.",
+      "wiki": "Mare Crisium"
+    },
+    {
+      "slug": "linne-crater",
+      "body": "moon",
+      "category": "places",
+      "title": "The Vanishing Crater of Linné",
+      "region": "Linné crater, Sea of Serenity, the Moon",
+      "lat": 27.7,
+      "lon": 11.8,
+      "dateLabel": "October 1866",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Astronomer Julius Schmidt, and many who checked after him",
+      "hook": "A respected astronomer announced that a crater on the Moon had disappeared, which would mean the Moon was still changing.",
+      "summary": [
+        "In October 1866, the German astronomer Julius Schmidt, who had spent years mapping the Moon, announced that the crater Linné, drawn on earlier maps as deep and about 10 km wide, had vanished. In its place he saw only a small whitish patch.",
+        "The claim caused a sensation. If true, it meant the Moon wasn't a dead world, and astronomers across Europe turned their telescopes to the spot."
+      ],
+      "explanation": "Linné is a small, fresh crater about 2.4 km across, surrounded by bright material. Its appearance changes a great deal with the angle of sunlight, and the older maps had exaggerated its size. Most astronomers now think nothing changed, though the episode helped shape a century of debate about whether the Moon is still active.",
+      "wiki": "Linné (crater)"
+    },
+    {
+      "slug": "yutu-2-mystery-hut",
+      "body": "moon",
+      "category": "places",
+      "title": "The 'Mystery Hut' on the Far Side",
+      "region": "Von Kármán crater, far side of the Moon",
+      "lat": -45.4,
+      "lon": 177.6,
+      "dateLabel": "December 2021",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "China's Yutu-2 rover",
+      "hook": "A rover on the Moon's far side spotted a cube-shaped object on the horizon, and drove for weeks to find out what it was.",
+      "summary": [
+        "In December 2021, China's Yutu-2 rover, exploring Von Kármán crater on the far side of the Moon, photographed a strange object on the horizon about 80 metres away: a small, square shape that looked like a hut or a box sitting on the ground.",
+        "The rover team called it a 'mystery hut' in a post that went around the world, and Yutu-2 spent several weeks making its slow way over to look."
+      ],
+      "explanation": "Close-up photos taken in January 2022 showed it was an ordinary rock, its shape exaggerated by distance and low resolution. The team said that, seen up close, it looked rather like a rabbit, and nicknamed it the 'jade rabbit', the name of the rover itself.",
+      "wiki": "Yutu-2"
+    }
 ];

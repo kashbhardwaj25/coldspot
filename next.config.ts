@@ -12,17 +12,16 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
 
   // The coastlines never change (a new version gets a new file name), so browsers and Cloudflare can keep them.
-  // The town list is regenerated now and then, so it's kept for a day and refreshed in the background.
+  // The town list and the Moon's seas may be regenerated, so they're kept for a day and refreshed in the background.
   async headers() {
+    const daily = [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }];
     return [
       {
         source: "/land-:detail.json",
         headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
       },
-      {
-        source: "/towns.json",
-        headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }],
-      },
+      { source: "/towns.json", headers: daily },
+      { source: "/moon.json", headers: daily },
     ];
   },
 
