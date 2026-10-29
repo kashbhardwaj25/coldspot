@@ -19474,5 +19474,1932 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
       ],
       "explanation": "Close-up photos taken in January 2022 showed it was an ordinary rock, its shape exaggerated by distance and low resolution. The team said that, seen up close, it looked rather like a rabbit, and nicknamed it the 'jade rabbit', the name of the rover itself.",
       "wiki": "Yutu-2"
+    },
+    {
+      "slug": "faith-7-cooper-story",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Green Light That Followed Faith 7",
+      "region": "In orbit over Western Australia, aboard Faith 7",
+      "lat": -31.9,
+      "lon": 115.9,
+      "dateLabel": "Said to be 15 May 1963",
+      "status": "explained",
+      "statusLabel": "Myth",
+      "witnesses": "None on record; the astronaut Gordon Cooper denied it",
+      "hook": "A popular story says the last Mercury astronaut reported a glowing green object approaching his capsule over Australia. He said it never happened.",
+      "summary": [
+        "Gordon Cooper flew the last Mercury mission, Faith 7, in May 1963, orbiting the Earth 22 times. A story that spread through UFO books in the following decades said that over Perth, on his final orbit, he radioed that a glowing green object was approaching his capsule, and that a tracking station in Australia picked it up on radar.",
+        "Cooper was a real believer in UFOs: he said he had seen strange objects as a fighter pilot in the 1950s, and later spoke about them at the United Nations. That made the Faith 7 story easy to believe."
+      ],
+      "explanation": "The mission's transcripts contain no such report, and Cooper himself said repeatedly that nothing of the kind happened on Faith 7. The tale seems to have grown from his genuine interest in UFOs and was retold until it became 'fact'.",
+      "wiki": "Mercury-Atlas 9"
+    },
+    {
+      "slug": "sts-115-floating-objects",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Objects Beside Atlantis",
+      "region": "In orbit, aboard Space Shuttle Atlantis",
+      "lat": -20.0,
+      "lon": -120.0,
+      "dateLabel": "September 2006",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "The crew of Space Shuttle Atlantis (STS-115)",
+      "hook": "Just before coming home, a shuttle crew spotted mysterious objects floating beside them, and NASA delayed the landing to find out what they were.",
+      "summary": [
+        "In September 2006, after helping build the International Space Station, Space Shuttle Atlantis undocked and prepared to return to Earth. Then the crew noticed small objects drifting near the shuttle, one of them flashing in the sunlight.",
+        "Because a piece of debris had doomed Space Shuttle Columbia three years earlier, NASA took no chances: the landing was put off by a day while the crew used cameras and the robot arm to inspect the shuttle's heat shield."
+      ],
+      "explanation": "The inspection found no damage. NASA concluded the objects were most likely bits of the shuttle itself shaken loose, such as a thin spacer from between the heat-shield tiles and a plastic bag. Atlantis landed safely a day late.",
+      "wiki": "STS-115"
+    },
+    {
+      "slug": "echo-1-satellite",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The New Star of 1960",
+      "region": "In orbit: Echo 1, seen from all over the world",
+      "lat": 32.0,
+      "lon": -40.0,
+      "dateLabel": "From August 1960",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Millions of people around the world",
+      "hook": "In 1960 a bright new 'star' began gliding across the night sky every evening, and people everywhere wondered what it was.",
+      "summary": [
+        "In August 1960 the United States launched Echo 1, a balloon of shiny plastic film 30 metres across, which inflated in orbit to bounce radio signals between continents. Sunlight on its silvery skin made it one of the brightest objects in the night sky.",
+        "For years people around the world watched it drift steadily across the stars in a few minutes, and many who didn't know about it reported it as a UFO."
+      ],
+      "explanation": "It was the satellite. Newspapers printed times when Echo would pass over, and it became one of the most-watched objects in history. Satellites are still among the most common causes of UFO reports, from Echo to today's trains of small communications satellites.",
+      "wiki": "Echo satellite"
+    },
+    {
+      "slug": "iridium-flares",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Flashing Stars",
+      "region": "In orbit: the Iridium satellites, seen from everywhere",
+      "lat": 55.0,
+      "lon": 10.0,
+      "dateLabel": "1997–2019",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Stargazers around the world",
+      "hook": "For twenty years, a point in the night sky would suddenly blaze brighter than any star for a few seconds, then fade away.",
+      "summary": [
+        "From the late 1990s, people across the world reported seeing a light flare up in the night sky, growing in seconds to outshine everything except the Moon, then fading as quickly as it came. Some took them for exploding stars or UFOs.",
+        "The flares appeared at predictable times, and soon astronomers were publishing lists of when and where to look."
+      ],
+      "explanation": "They were 'Iridium flares': the first Iridium communications satellites had flat, polished antennas the size of a door, which acted as mirrors and flashed sunlight down to a small patch of ground. As the old satellites were replaced by a new design between 2017 and 2019, the flares disappeared.",
+      "wiki": "Satellite flare"
+    },
+    {
+      "slug": "object-2014-28e",
+      "body": "orbit",
+      "category": "sky",
+      "title": "Object 2014-28E",
+      "region": "In orbit, tracked from the ground",
+      "lat": 60.0,
+      "lon": 90.0,
+      "dateLabel": "From May 2014",
+      "status": "disputed",
+      "statusLabel": "Purpose unknown",
+      "witnesses": "Amateur satellite trackers and military space surveillance",
+      "hook": "A small, unannounced object launched with three Russian satellites began changing its orbit and drawing close to other objects in space.",
+      "summary": [
+        "In May 2014 Russia launched three communications satellites. Trackers soon noticed a fourth object, catalogued as 2014-28E, which had been listed as debris. Over the following months it fired its engines and changed its orbit several times, and passed close to the spent rocket stage that had launched it.",
+        "Without any official word about what it was for, newspapers called it a possible 'satellite killer', and amateurs and militaries kept watching it."
+      ],
+      "explanation": "Russia later registered it as Kosmos 2499 and said it was an experimental satellite. Most analysts think it was testing how one spacecraft can approach and inspect another, a technology that can be used for repairs or for military purposes. Its exact mission has never been made public.",
+      "wiki": "Kosmos 2499"
+    },
+    {
+      "slug": "apollo-11-aldrin-light",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Light Beside Apollo 11",
+      "region": "Between the Earth and the Moon, aboard Apollo 11",
+      "lat": 0.0,
+      "lon": -30.0,
+      "dateLabel": "July 1969",
+      "status": "explained",
+      "statusLabel": "Probably explained",
+      "witnesses": "Buzz Aldrin, Neil Armstrong and Michael Collins",
+      "hook": "On the way to the first Moon landing, the crew of Apollo 11 watched a light keeping pace with them and wondered what it could be.",
+      "summary": [
+        "On their way to the Moon in July 1969, Buzz Aldrin noticed a light out of the window that seemed to be travelling alongside the spacecraft. Through a small telescope it looked like an L or a cylinder, depending on how it was turning.",
+        "The crew asked Mission Control where the spent third stage of their rocket was, and were told it was thousands of kilometres away. They decided not to say more over the radio, worried it might be misunderstood, and reported it after they were home."
+      ],
+      "explanation": "Aldrin has said that the most likely explanation is one of the four panels that had covered the lunar module during launch, which separated from the rocket and drifted along the same path. He has also said he regrets that his words were later used to suggest the crew saw an alien craft.",
+      "wiki": "Apollo 11"
+    },
+    {
+      "slug": "astronaut-light-flashes",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Flashes Astronauts See with Their Eyes Closed",
+      "region": "In orbit and on the way to the Moon",
+      "lat": 10.0,
+      "lon": 150.0,
+      "dateLabel": "Reported since 1969",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Apollo astronauts, and crews of space stations since",
+      "hook": "Trying to sleep in space, astronauts began to see flashes, streaks and stars of light, even with their eyes shut.",
+      "summary": [
+        "On Apollo 11, Buzz Aldrin mentioned seeing tiny flashes of light inside the dark cabin. Later Apollo crews tested it on purpose, wearing blindfolds, and counted flashes every few minutes: single points, streaks, and starbursts, seen whether their eyes were open or closed.",
+        "Crews of space stations have reported the same thing ever since, especially when passing over the South Atlantic."
+      ],
+      "explanation": "They're caused by cosmic rays: fast particles from space that pass through the spacecraft and the astronaut's head and set off the light-sensing cells of the eye or the nerves behind it. The flashes are more frequent where the Earth's magnetic field lets more particles through, over the South Atlantic.",
+      "wiki": "Cosmic ray visual phenomena"
+    },
+    {
+      "slug": "smell-of-space",
+      "body": "orbit",
+      "category": "places",
+      "title": "The Smell of Space",
+      "region": "Aboard the International Space Station",
+      "lat": -10.0,
+      "lon": 30.0,
+      "dateLabel": "Reported since the 1960s",
+      "status": "disputed",
+      "statusLabel": "Partly explained",
+      "witnesses": "Astronauts returning from spacewalks",
+      "hook": "Astronauts coming in from spacewalks say space has a smell, like seared steak, hot metal or welding fumes.",
+      "summary": [
+        "Space is a vacuum, so there's nothing to smell out there. But astronauts who have just come back inside after a spacewalk often notice a distinctive odour clinging to their suits, helmets and tools as the airlock fills with air again.",
+        "They describe it as like seared steak, hot metal, burnt almond biscuits or the fumes from welding, and many remember it long after they come home."
+      ],
+      "explanation": "Suggested explanations include atomic oxygen, which is common in low orbit, clinging to suits and reacting with the air in the airlock, and compounds called polycyclic aromatic hydrocarbons, which form in dying stars and are also found in burnt food. The exact cause hasn't been settled.",
+      "wiki": null
+    },
+    {
+      "slug": "ukert-shard",
+      "body": "moon",
+      "category": "places",
+      "title": "The Shard and the Tower",
+      "region": "Near Ukert crater, the Moon",
+      "lat": 7.8,
+      "lon": 1.4,
+      "dateLabel": "Photographed in February 1967",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "The Lunar Orbiter 3 spacecraft",
+      "hook": "On an old NASA photo of the Moon, writers spotted a towering spike and a tall structure, and asked whether they'd been built.",
+      "summary": [
+        "In February 1967, NASA's Lunar Orbiter 3 photographed the Moon to help choose Apollo landing sites. Decades later, writers studying one of its frames, near the crater Ukert in the centre of the near side, pointed out what looked like a gleaming, kilometres-high spike, which they named the Shard, and a tall glassy structure called the Tower.",
+        "The images were shared widely in books and online as evidence of ruins on the Moon."
+      ],
+      "explanation": "The Lunar Orbiter photos were developed on board, scanned in strips and sent to Earth by radio, and the copies are full of blemishes, streaks and specks. The 'structures' appear in one frame only and match these flaws. Modern high-resolution images of the area show only ordinary lunar ground.",
+      "wiki": "Ukert (crater)"
+    },
+    {
+      "slug": "plato-crater-lights",
+      "body": "moon",
+      "category": "sky",
+      "title": "The Lights in Plato",
+      "region": "Plato crater, the Moon",
+      "lat": 51.6,
+      "lon": -9.4,
+      "dateLabel": "Reported in the 1800s and since",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Astronomers in Britain and elsewhere",
+      "hook": "Watchers of the Moon reported points of light flickering on and off on the dark floor of one crater.",
+      "summary": [
+        "Plato is a large, flat-floored crater near the Moon's northern edge, its floor filled with dark lava. In the late 1860s and early 1870s, observers in Britain coordinated by the Royal Astronomical Society kept watch on it and logged scores of tiny bright spots on the floor that seemed to come and go, change in brightness, and appear in different places from night to night.",
+        "Later observers occasionally reported glows, streaks of light and hazes in Plato too, making it one of the best-known sites for lunar mysteries."
+      ],
+      "explanation": "Most of the spots match small craterlets on the floor that catch the light at some sun angles and not others, along with the shimmer of Earth's atmosphere. Some reports of glows and hazes have no clear explanation, and Plato is still listed among the places where transient lunar phenomena are reported.",
+      "wiki": "Plato (crater)"
+    },
+    {
+      "slug": "gruithuisen-lunar-city",
+      "body": "moon",
+      "category": "visitors",
+      "title": "Gruithuisen's City on the Moon",
+      "region": "North of Schröter crater, the Moon",
+      "lat": 5.0,
+      "lon": -7.0,
+      "dateLabel": "1824",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Astronomer Franz von Gruithuisen",
+      "hook": "In 1824 a respected German astronomer announced he had found a city on the Moon.",
+      "summary": [
+        "Franz von Gruithuisen, a Munich doctor and astronomer, spent years studying the Moon through his telescope and was convinced it was inhabited. In 1824 he described a pattern of straight ridges north of the crater Schröter, arranged, he said, like the walls and streets of a city, which he called the Wallwerk.",
+        "He also believed he could see roads, forests and signs of the Moon's inhabitants, whom he called Selenites, and wrote about them in papers that made him famous."
+      ],
+      "explanation": "Better telescopes showed the 'city' to be a natural arrangement of low ridges, which looked regular only through his small instrument. Gruithuisen was a serious observer in other ways: he was among the first to suggest that the Moon's craters were made by impacts, an idea later shown to be right.",
+      "wiki": "Franz von Gruithuisen"
+    },
+    {
+      "slug": "ina-moon-feature",
+      "body": "moon",
+      "category": "places",
+      "title": "Ina, the Young Scar",
+      "region": "Ina, Lacus Felicitatis, the Moon",
+      "lat": 18.65,
+      "lon": 5.3,
+      "dateLabel": "Photographed by Apollo 15 in 1971",
+      "status": "disputed",
+      "statusLabel": null,
+      "witnesses": "Apollo 15 and later lunar orbiters",
+      "hook": "A small, strangely fresh-looking feature on the Moon seems to be far younger than anything around it, if it is young at all.",
+      "summary": [
+        "Ina is a small D-shaped depression about 3 km across, first noticed on photographs taken from Apollo 15 in 1971. Its floor is covered in smooth, rounded mounds surrounded by rough, bright ground, unlike almost anywhere else on the Moon.",
+        "In 2014 a study counting tiny craters on its surface suggested Ina formed less than 100 million years ago, making it evidence of volcanic activity long after the Moon was thought to have gone quiet."
+      ],
+      "explanation": "Other scientists argue that Ina is billions of years old, and that its unusual surface fools crater counts, perhaps because it's made of porous volcanic foam that absorbs small impacts. Both sides agree it's one of the strangest features on the Moon; a sample from it would settle the question.",
+      "wiki": "Ina (crater)"
+    },
+    {
+      "slug": "reiner-gamma",
+      "body": "moon",
+      "category": "places",
+      "title": "The Swirl of Reiner Gamma",
+      "region": "Reiner Gamma, Ocean of Storms, the Moon",
+      "lat": 7.5,
+      "lon": -59.0,
+      "dateLabel": "Charted since the 1600s",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Astronomers and lunar spacecraft",
+      "hook": "A bright, tadpole-shaped swirl lies painted on the dark plain of the Moon, with no hill, crater or cliff to explain it.",
+      "summary": [
+        "Reiner Gamma is a bright marking about 70 km long on the Moon's Ocean of Storms, curling like a tadpole or a swirl of milk in coffee. It was drawn on maps of the Moon from the 17th century, but no telescope or spacecraft has found anything that rises above the ground there: it's a pattern on a flat surface.",
+        "Spacecraft found that it sits exactly where there's a strong local magnetic field, something the Moon mostly lacks."
+      ],
+      "explanation": "The leading idea is that the magnetic field deflects the solar wind, which elsewhere slowly darkens the Moon's surface, leaving this patch bright. But what makes the magnetism is still debated: buried magnetised rock, the remains of a comet impact, or something else. NASA has planned a small lander to study it.",
+      "wiki": "Reiner Gamma"
+    },
+    {
+      "slug": "lunar-mascons",
+      "body": "moon",
+      "category": "places",
+      "title": "The Hidden Weights That Pull Down Spacecraft",
+      "region": "Beneath the Sea of Serenity, the Moon",
+      "lat": 28.0,
+      "lon": 17.5,
+      "dateLabel": "Discovered in 1968",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Scientists tracking NASA's Lunar Orbiters",
+      "hook": "Spacecraft circling the Moon sped up and dipped over certain places, as if something heavy lay hidden underground.",
+      "summary": [
+        "In 1968, scientists tracking NASA's Lunar Orbiter spacecraft noticed that their orbits wobbled: over the Moon's great dark 'seas' they were pulled slightly down and forward, as though the ground beneath was heavier than it should be. They called these places mascons, for mass concentrations.",
+        "The effect was strong enough to matter. In 1972 a small satellite released by Apollo 16 into a low orbit was dragged down and crashed into the Moon about a month later."
+      ],
+      "explanation": "Mascons are now explained as dense rock, lava that filled great impact basins and the heavy mantle that rose beneath them, packed under the maria. Because they make most low orbits unstable, only a few 'frozen orbits' around the Moon are safe for long.",
+      "wiki": "Mass concentration (astronomy)"
+    },
+    {
+      "slug": "apollo-17-orange-soil",
+      "body": "moon",
+      "category": "places",
+      "title": "The Orange Soil of Shorty Crater",
+      "region": "Shorty crater, Taurus-Littrow valley, the Moon",
+      "lat": 20.19,
+      "lon": 30.6,
+      "dateLabel": "12 December 1972",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Astronauts Harrison Schmitt and Gene Cernan",
+      "hook": "On the last Moon landing, a geologist scuffed the grey dust and found bright orange soil underneath.",
+      "summary": [
+        "On Apollo 17, the last crewed mission to the Moon, geologist Harrison Schmitt was working at the rim of a small crater called Shorty when he kicked up the soil and shouted: 'There is orange soil!' His commander, Gene Cernan, came over and confirmed it.",
+        "On a world of greys, the bright colour was a shock, and Schmitt wondered if they'd found a volcanic vent where gas had escaped recently."
+      ],
+      "explanation": "Back on Earth, the soil turned out to be made of tiny beads of orange and black volcanic glass, sprayed out by lava fountains about 3.6 billion years ago and buried until a meteorite dug them up. Decades later, scientists found traces of water inside the beads, a clue to how the Moon formed.",
+      "wiki": "Shorty (crater)"
+    },
+    {
+      "slug": "moon-dust-smell",
+      "body": "moon",
+      "category": "places",
+      "title": "The Moon Smells of Gunpowder",
+      "region": "Descartes Highlands, the Moon (Apollo 16 landing site)",
+      "lat": -8.97,
+      "lon": 15.5,
+      "dateLabel": "1969–1972",
+      "status": "disputed",
+      "statusLabel": "Partly explained",
+      "witnesses": "Apollo astronauts",
+      "hook": "Climbing back into their lander covered in dust, Apollo astronauts all noticed the same thing: the Moon smells like spent gunpowder.",
+      "summary": [
+        "After walking on the Moon, Apollo astronauts carried fine grey dust back into the lunar module on their suits. Once the cabin filled with air and they took off their helmets, several of them noticed a sharp smell that reminded them of spent gunpowder or firecrackers, or of the air after a gun is fired.",
+        "The dust also clung to everything, scratched visors and made some of them sneeze."
+      ],
+      "explanation": "Moon dust brought back to Earth has no such smell, so the odour seems to come from fresh dust meeting oxygen and moisture for the first time. Its jagged grains, never worn smooth by wind or water, may react with the air much as burnt powder does. The exact chemistry is still being studied, partly because the dust could be a health risk for future crews.",
+      "wiki": "Lunar soil"
+    },
+    {
+      "slug": "yutu-2-moon-gel",
+      "body": "moon",
+      "category": "places",
+      "title": "The 'Gel' in the Crater",
+      "region": "Von Kármán crater, far side of the Moon",
+      "lat": -45.6,
+      "lon": 177.2,
+      "dateLabel": "July 2019",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "China's Yutu-2 rover",
+      "hook": "A rover on the far side of the Moon found something in a crater that its team described as gel-like and unusually coloured.",
+      "summary": [
+        "In July 2019, the team driving China's Yutu-2 rover across the floor of Von Kármán crater spotted something unusual in a small, fresh crater: a dark, glossy patch that looked different in colour and texture from the dust around it. A Chinese report described it as 'gel-like', and the phrase went around the world.",
+        "The rover's schedule was changed so it could go back and study it with its instruments."
+      ],
+      "explanation": "Analysis showed it was impact melt breccia: rock and dust fused into dark glass by the heat of a meteorite strike, which can look shiny and smooth. It's common on the Moon, though rarely seen this close up.",
+      "wiki": "Yutu-2"
+    },
+    {
+      "slug": "kozyrev-alphonsus",
+      "body": "moon",
+      "category": "sky",
+      "title": "The Eruption in Alphonsus",
+      "region": "Alphonsus crater, the Moon",
+      "lat": -13.4,
+      "lon": -2.8,
+      "dateLabel": "3 November 1958",
+      "status": "disputed",
+      "statusLabel": null,
+      "witnesses": "Astronomer Nikolai Kozyrev, at the Crimean Astrophysical Observatory",
+      "hook": "A Soviet astronomer said his instrument had caught gas erupting from the central peak of a crater on the Moon.",
+      "summary": [
+        "On the night of 3 November 1958, the Soviet astronomer Nikolai Kozyrev was studying the crater Alphonsus with a telescope fitted to split light into its colours. He saw the central peak turn hazy and reddish, and his recording showed a pattern he took as the signature of hot gas being released from the Moon.",
+        "At a time when most astronomers thought the Moon geologically dead, his claim of a volcanic outburst caused a stir."
+      ],
+      "explanation": "Some astronomers accepted it as the first evidence of gas escaping from the Moon; others thought his recording could be explained by the instrument or by sunlight. It has never been repeated or confirmed. Later missions did find that small amounts of gas, such as radon, seep out of the Moon in places.",
+      "wiki": "Alphonsus (crater)"
+    },
+    {
+      "slug": "surveyor-3-bacteria",
+      "body": "moon",
+      "category": "creatures",
+      "title": "The Bacteria That Came Back from the Moon",
+      "region": "Surveyor 3 landing site, Ocean of Storms, the Moon",
+      "lat": -3.2,
+      "lon": -23.2,
+      "dateLabel": "1967–1969",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "NASA scientists who examined the camera",
+      "hook": "Astronauts brought home a camera that had sat on the Moon for two and a half years, and scientists grew living bacteria from inside it.",
+      "summary": [
+        "The robot lander Surveyor 3 touched down on the Moon in April 1967. In November 1969 the Apollo 12 astronauts landed nearby on purpose, walked over to it, and cut off parts including its television camera to bring home and study.",
+        "In the lab, scientists cultured a common bacterium, Streptococcus mitis, from foam inside the camera. It was announced that germs had apparently survived two and a half years in the cold vacuum of the Moon."
+      ],
+      "explanation": "Later reviews of the records and film of the work showed that the camera had been handled in ways that could easily have contaminated it after it came back, and many scientists now think the bacteria came from Earth after the return. Whether any microbe could survive that long on the Moon is still studied.",
+      "wiki": "Surveyor 3"
+    },
+    {
+      "slug": "change-and-the-jade-rabbit",
+      "featured": true,
+      "body": "moon",
+      "category": "visitors",
+      "title": "Chang'e and the Jade Rabbit",
+      "region": "The Moon, as told in China",
+      "lat": 0.0,
+      "lon": 30.0,
+      "dateLabel": "Told for more than two thousand years",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Chinese tradition",
+      "hook": "In Chinese legend, a woman who drank the elixir of immortality floated up to the Moon, where she lives still with a rabbit pounding medicine.",
+      "summary": [
+        "The best-known version tells of Chang'e, wife of the archer Hou Yi, who shot down nine of the ten suns that were scorching the Earth. He was given an elixir of immortality, and Chang'e drank it, to keep it from a thief, in some tellings, or out of curiosity in others. She became so light that she floated up to the Moon, where she lives in a cold palace.",
+        "Her companion is the Jade Rabbit, who pounds the elixir with a pestle; many people in East Asia see the rabbit in the Moon's dark patches. Families still look up at her during the Mid-Autumn Festival."
+      ],
+      "explanation": "It's a myth, with many versions, recorded in Chinese texts from the 2nd century BC or earlier. The rabbit is a way of seeing shapes in the dark lava plains of the Moon. China named its lunar programme Chang'e and its rovers Yutu, 'jade rabbit', after the legend.",
+      "wiki": "Chang'e"
+    },
+    {
+      "slug": "man-in-the-moon",
+      "body": "moon",
+      "category": "visitors",
+      "title": "The Man in the Moon",
+      "region": "The Moon, as told in Europe",
+      "lat": 15.0,
+      "lon": -15.0,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "European tradition",
+      "hook": "European legend says a man was banished to the Moon, and you can still see him there with his bundle of sticks, his lantern and his dog.",
+      "summary": [
+        "In medieval Europe, many people saw a figure in the Moon's markings: a man carrying a bundle of thorns or sticks on his back. One story said he had been caught gathering firewood on the Sabbath and was sent to the Moon as punishment, to stand there forever as a warning.",
+        "By Shakespeare's time he had picked up a lantern and a dog, and in A Midsummer Night's Dream a character plays 'Moonshine' with just those props."
+      ],
+      "explanation": "It's pareidolia, the tendency to see faces and figures in random patterns, applied to the Moon's dark seas. Different cultures see different things in the same patches: a face, a rabbit, a toad, a woman weaving or a girl carrying water.",
+      "wiki": "Man in the Moon"
+    },
+    {
+      "slug": "hina-in-the-moon",
+      "body": "moon",
+      "category": "visitors",
+      "title": "Hina, Who Went to the Moon",
+      "region": "The Moon, as told in Hawaii and Polynesia",
+      "lat": -10.0,
+      "lon": -20.0,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Polynesian tradition",
+      "hook": "Polynesian stories say Hina grew tired of endless work and climbed to the Moon, where she still beats bark cloth.",
+      "summary": [
+        "Across Polynesia, from Hawaii to Aotearoa New Zealand, stories are told of Hina, a woman or goddess linked with the Moon. In one Hawaiian telling she grew weary of the endless work of making kapa, bark cloth, and of her ungrateful family, and climbed a rainbow, or went up on the mist, to live on the Moon.",
+        "There she still works in peace, and people point to the Moon's dark patches as Hina and her calabashes, or the kapa she has spread out to dry."
+      ],
+      "explanation": "Hina is one of the most widespread figures in Polynesian tradition, with many different stories in different islands. Like the Man in the Moon or the Jade Rabbit, her image in the Moon comes from seeing shapes in its dark seas.",
+      "wiki": "Hina (goddess)"
+    },
+    {
+      "slug": "aztec-moon-rabbit",
+      "body": "moon",
+      "category": "visitors",
+      "title": "The Rabbit Thrown at the Moon",
+      "region": "The Moon, as told in ancient Mexico",
+      "lat": -5.0,
+      "lon": 45.0,
+      "dateLabel": "Recorded in the 1500s from older tradition",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Aztec tradition",
+      "hook": "An Aztec story says the Moon once shone as brightly as the Sun, until the gods threw a rabbit in its face.",
+      "summary": [
+        "In the Aztec story of the creation of the present world, recorded by Spanish friars in the 16th century, the gods gathered at Teotihuacan in the darkness and asked who would leap into a great fire to become the Sun. Humble Nanahuatzin jumped first and became the Sun; proud Tecciztecatl hesitated, then followed, and rose as a second Sun just as bright.",
+        "To dim him, one of the gods threw a rabbit into his face. He became the Moon, and the rabbit's shape is still printed on it."
+      ],
+      "explanation": "It's a creation myth, told in several versions. The rabbit in the Moon appears in traditions from Mexico to China, Japan and India, a striking case of different peoples seeing the same shape in the Moon's dark patches.",
+      "wiki": "Tecciztecatl"
+    },
+    {
+      "slug": "marathon-phantom-battle",
+      "category": "voices",
+      "title": "The Phantom Battle of Marathon",
+      "region": "Plain of Marathon, Attica, Greece",
+      "lat": 38.12,
+      "lon": 23.98,
+      "dateLabel": "Reported in the 2nd century AD",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Travellers and local people, recorded by Pausanias",
+      "hook": "Six centuries after the famous battle, people said that every night on the plain of Marathon you could hear horses neighing and men fighting.",
+      "summary": [
+        "In 490 BC the Athenians defeated a Persian army on the coastal plain of Marathon, a victory remembered ever since. Around 650 years later, the Greek travel writer Pausanias visited the battlefield and recorded what the locals told him: that every night on the plain you could hear the neighing of horses and the clash of men in battle.",
+        "He added that those who went there on purpose to hear it came to no good, but anyone who happened to hear it by chance was not harmed."
+      ],
+      "explanation": "It's an early example of a 'replay' legend, in which the sounds of a great event are said to repeat at the place where it happened. Pausanias recorded it as a local belief. Wind across the marshy plain and the power of a famous place on the imagination are the usual explanations.",
+      "wiki": "Battle of Marathon"
+    },
+    {
+      "slug": "athenodorus-chained-ghost",
+      "category": "visitors",
+      "title": "The Chained Ghost of Athens",
+      "region": "Athens, Greece",
+      "lat": 37.975,
+      "lon": 23.72,
+      "dateLabel": "Told around AD 100",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Recorded by Pliny the Younger",
+      "hook": "Nearly two thousand years ago, a Roman writer told of a house in Athens where an old man in chains appeared at night, until a philosopher followed him.",
+      "summary": [
+        "In a letter written around AD 100, the Roman author Pliny the Younger told a story he believed: a large house in Athens had a terrible reputation. At night came the clank of chains, and then a ghost appeared, a thin old man with a long beard and chains on his hands and feet. No one would live there, and it was let cheaply.",
+        "The philosopher Athenodorus rented it anyway, and when the ghost beckoned, he followed it into the courtyard, where it vanished. He had the spot dug up, and a skeleton in chains was found. Once it was properly buried, the house was quiet."
+      ],
+      "explanation": "It's one of the oldest written ghost stories, and its shape, a restless spirit at peace once its remains are found and buried, appears in ghost stories ever since. Pliny was reporting a tale told to him; there's no other record of the house.",
+      "wiki": "Athenodoros Cananites"
+    },
+    {
+      "slug": "tyre-flying-shields",
+      "category": "sky",
+      "title": "The Flying Shields at Tyre",
+      "region": "Tyre, Lebanon",
+      "lat": 33.27,
+      "lon": 35.2,
+      "dateLabel": "Said to be 332 BC",
+      "status": "explained",
+      "statusLabel": "Modern invention",
+      "witnesses": "None in ancient sources",
+      "hook": "A popular story says that during Alexander the Great's siege of Tyre, five flying shields appeared and blasted the city walls with beams of light.",
+      "summary": [
+        "Books about ancient UFOs often tell how, while Alexander the Great was besieging the island city of Tyre in 332 BC, five shining shields flew in formation over his camp, and one of them fired a beam of light that broke down the city's walls, letting his army in.",
+        "The siege itself is real and well recorded: Alexander built a causeway out to the island and took the city after seven months."
+      ],
+      "explanation": "No ancient account of the siege mentions flying shields. The story first appears in UFO books of the 20th century, apparently made up or badly garbled, and was then repeated so often that it began to be quoted as history. It's a good example of how a modern tale gets an ancient pedigree.",
+      "wiki": "Siege of Tyre (332 BC)"
+    },
+    {
+      "slug": "roman-rain-of-blood",
+      "category": "sky",
+      "title": "The Rains of Blood",
+      "region": "Rome, Italy",
+      "lat": 41.89,
+      "lon": 12.49,
+      "dateLabel": "Recorded by Roman historians",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Romans, recorded by Livy and others",
+      "hook": "Roman historians recorded rains of blood among the warnings from the gods, alongside talking cattle and statues that sweated.",
+      "summary": [
+        "The Roman historian Livy, writing at the time of Augustus, listed the prodigies, or omens, reported each year: lightning striking temples, animals speaking, statues weeping, and more than once, that it had rained blood. Such signs were taken seriously, and priests performed ceremonies to calm the gods.",
+        "Red rain has been reported many times since, in Europe, India and elsewhere."
+      ],
+      "explanation": "Modern red rains have been traced to dust from deserts, such as the Sahara, carried high into the air and washed down by rain, and in some cases to tiny red algae. Ancient reports were probably often the same thing, though some prodigies were rumours that grew in the retelling.",
+      "wiki": "Blood rain"
+    },
+    {
+      "slug": "cave-of-trophonius",
+      "category": "places",
+      "title": "The Cave of Trophonius",
+      "region": "Livadeia, Boeotia, Greece",
+      "lat": 38.43,
+      "lon": 22.87,
+      "dateLabel": "Visited from about 500 BC to AD 300",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Visitors, including the writer Pausanias",
+      "hook": "Ancient Greeks who wanted answers lowered themselves into a narrow hole in the ground, and came back, it was said, unable to laugh.",
+      "summary": [
+        "At Lebadea, today's Livadeia, there was an oracle unlike any other. After days of purification, the visitor drank from two springs, the waters of Forgetfulness and of Memory, and then, at night, went down a ladder into a narrow pit and pushed their feet into a small opening. They were pulled in, it was said, as if by a fast river.",
+        "What happened inside was told differently by different visitors: visions, voices, a terror they couldn't describe. Many came out dazed, and it was said that they never laughed again. Pausanias, who went himself, said he had recovered his ability to laugh."
+      ],
+      "explanation": "Historians think the experience was carefully staged: fasting, darkness, ritual and fear could produce vivid hallucinations. The exact site of the cave hasn't been identified for certain, though several caves near the springs of Livadeia have been suggested.",
+      "wiki": "Trophonius"
+    },
+    {
+      "slug": "romulus-vanishing",
+      "category": "visitors",
+      "title": "The Vanishing of Romulus",
+      "region": "Campus Martius, Rome, Italy",
+      "lat": 41.9,
+      "lon": 12.475,
+      "dateLabel": "Said to be 716 BC",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Roman tradition, recorded by Livy and Plutarch",
+      "hook": "Rome's legendary founder was reviewing his army when a sudden storm wrapped him in a cloud, and he was never seen again.",
+      "summary": [
+        "Roman tradition said that Romulus, the city's founder and first king, was holding a review of his army on the Campus Martius when a violent storm broke, with thunder and darkness. A dense cloud covered him, and when it lifted, his seat was empty.",
+        "A senator later swore that Romulus had appeared to him, taller and more splendid than in life, and announced that he had become a god. Romulus was worshipped afterwards as Quirinus."
+      ],
+      "explanation": "Romulus is a legendary figure, and even the Roman historians who told the story reported a darker version, in which senators had done away with him in the confusion of the storm. Whether there was a real king behind the legend is unknown.",
+      "wiki": "Romulus"
+    },
+    {
+      "slug": "oracle-of-siwa",
+      "category": "places",
+      "title": "The Oracle in the Desert",
+      "region": "Siwa Oasis, Egypt",
+      "lat": 29.2,
+      "lon": 25.52,
+      "dateLabel": "Visited by Alexander the Great in 331 BC",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Alexander the Great and his companions, as told by ancient historians",
+      "hook": "Alexander the Great crossed hundreds of kilometres of desert to consult an oracle, guided, it was said, by crows and talking snakes.",
+      "summary": [
+        "Deep in Egypt's Western Desert lies the oasis of Siwa, where the temple of the god Amun gave oracles famous across the Greek world. In 331 BC Alexander the Great made the dangerous journey there. Ancient writers said that when his party lost the way and ran out of water, rain fell, and crows, or in one version two snakes that spoke, guided them on.",
+        "Alexander went into the temple alone and never revealed what he was told, but afterwards he was greeted as the son of Amun."
+      ],
+      "explanation": "The journey is historical; the miraculous guides are the kind of story that grew up around Alexander. Siwa itself has a long history of mysteries: the 'lost army' of Cambyses, a Persian force said to have vanished in a sandstorm on its way to the oracle, has been searched for many times without success.",
+      "wiki": "Siwa Oasis"
+    },
+    {
+      "slug": "philinnion",
+      "category": "visitors",
+      "title": "The Girl Who Came Back: Philinnion",
+      "region": "Amphipolis, Macedonia, Greece",
+      "lat": 40.82,
+      "lon": 23.85,
+      "dateLabel": "Recorded in the 2nd century AD",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Recorded by Phlegon of Tralles",
+      "hook": "Months after a young woman was buried, her family's guest was being visited at night by a girl who wore her jewellery.",
+      "summary": [
+        "Phlegon of Tralles, a Greek writer of the 2nd century, collected marvels, and one of them is among the oldest ghost stories to survive. A young woman named Philinnion had died. Six months later, a young guest staying in her family's house began to receive night-time visits from a girl, and left her ring and other gifts with him.",
+        "A servant recognised the girl as Philinnion. When her parents burst in, she reproached them for interfering and fell dead. Her tomb was opened and found empty except for the young man's gifts."
+      ],
+      "explanation": "The story comes down to us incomplete, with its opening pages missing, and is told as a letter reporting a true event. It's a literary marvel tale, and it later inspired Goethe's poem The Bride of Corinth. Nothing else is known of the events.",
+      "wiki": "Phlegon of Tralles"
+    },
+    {
+      "slug": "plutonium-of-hierapolis",
+      "featured": true,
+      "category": "places",
+      "title": "The Gate to Hell at Hierapolis",
+      "region": "Hierapolis, near Pamukkale, Türkiye",
+      "lat": 37.925,
+      "lon": 29.126,
+      "dateLabel": "In use from about 200 BC; rediscovered in 2013",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Ancient visitors, including the geographer Strabo",
+      "hook": "Birds that flew too close dropped dead, and animals led inside collapsed, while the priests walked out unharmed.",
+      "summary": [
+        "At the Roman city of Hierapolis, a small cave beneath a temple was believed to be an entrance to the underworld, the Plutonium. The geographer Strabo wrote that he threw sparrows into it and they died at once, and that bulls led inside collapsed. Only the eunuch priests of the goddess Cybele could enter and return alive.",
+        "The site was lost for centuries until Italian archaeologists rediscovered it in 2013, and birds were still found dead at its mouth."
+      ],
+      "explanation": "The cave sits over a crack in the earth that releases carbon dioxide from deep underground. The heavy gas pools near the ground, especially at night and in the early morning, so small animals and kneeling bulls suffocate while tall people may keep their heads above it. The priests may have known to hold their breath or stand tall.",
+      "wiki": "Ploutonion at Hierapolis"
+    },
+    {
+      "slug": "lake-avernus",
+      "category": "places",
+      "title": "Lake Avernus, the Way to the Underworld",
+      "region": "Lake Avernus, near Pozzuoli, Campania, Italy",
+      "lat": 40.84,
+      "lon": 14.08,
+      "dateLabel": "Feared since antiquity",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Ancient writers, including Virgil and Lucretius",
+      "hook": "The ancients believed no bird could fly over this lake and live, and that its shore led down to the land of the dead.",
+      "summary": [
+        "Lake Avernus fills an old volcanic crater in the Phlegraean Fields west of Naples. In ancient times it was surrounded by dark forest, and the Romans believed it was an entrance to the underworld; in Virgil's Aeneid, the hero goes down to the dead from its shores. Its name was explained as Greek for 'without birds', because birds that flew over it were said to fall dead.",
+        "Strange smells, steaming ground and the brooding crater gave the area a reputation it has never quite lost."
+      ],
+      "explanation": "The whole region is volcanically active, and gases such as carbon dioxide and sulphur compounds may once have seeped from the lake and its shores, which could account for dead birds and the smell. Today the lake is calm, surrounded by vineyards and visited by plenty of birds.",
+      "wiki": "Lake Avernus"
+    },
+    {
+      "slug": "cumaean-sibyl",
+      "category": "voices",
+      "title": "The Voice in the Sibyl's Cave",
+      "region": "Cumae, near Naples, Italy",
+      "lat": 40.848,
+      "lon": 14.054,
+      "dateLabel": "Legend from about 600 BC",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Roman tradition",
+      "hook": "In a long stone passage on the coast near Naples, a prophetess was said to sing the future from the dark, through a hundred openings.",
+      "summary": [
+        "Cumae was the oldest Greek colony in Italy, and its Sibyl was the most famous prophetess of the Roman world. In Virgil's telling, her cave had a hundred mouths, and her answers came rushing out of all of them at once. Legend said she had been granted as many years as grains of sand she could hold, but forgot to ask for youth, and shrank until only her voice remained.",
+        "Another story says she sold the Roman king Tarquin the Sibylline Books of prophecy, which the Romans consulted in times of crisis for centuries."
+      ],
+      "explanation": "In 1932 archaeologists uncovered a long, trapezoid-shaped passage cut into the rock at Cumae, with side openings to the sea, and named it the Sibyl's Cave. Many now think it was built for defence or other purposes, but its echoing gallery fits Virgil's description strikingly well.",
+      "wiki": "Cumaean Sibyl"
+    },
+    {
+      "slug": "penglai-mirage",
+      "category": "sky",
+      "title": "The Floating City of Penglai",
+      "region": "Penglai, Shandong, China",
+      "lat": 37.82,
+      "lon": 120.75,
+      "dateLabel": "Recorded for over 2,000 years",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Generations of people on the Shandong coast",
+      "hook": "Off China's coast, people have watched towers, mountains and whole cities appear above the sea and then dissolve.",
+      "summary": [
+        "Chinese legend placed the island of Penglai, home of the immortals, somewhere in the eastern sea. Emperors, including the first emperor of China, sent expeditions to find it. On the coast at Penglai in Shandong, people have long reported seeing islands, palaces, pagodas and city streets floating above the water, clear for a while, then fading away.",
+        "Sightings are still reported, and in 2005 a long 'city' appeared over the sea for hours and was filmed by crowds of tourists."
+      ],
+      "explanation": "They're mirages, of the kind called Fata Morgana. When warm air lies over colder sea water, light from distant islands, ships or buildings bends as it passes through, so the real objects appear stretched upwards into towers and floating walls. In Chinese, a mirage is still called a 'sea market'.",
+      "wiki": "Fata Morgana (mirage)"
+    },
+    {
+      "slug": "great-pan-is-dead",
+      "category": "voices",
+      "title": "'Great Pan Is Dead'",
+      "region": "Off the island of Paxos, Greece",
+      "lat": 39.2,
+      "lon": 20.18,
+      "dateLabel": "Said to be the reign of Tiberius (AD 14–37)",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "A ship's crew, as told by Plutarch",
+      "hook": "Sailing past a Greek island, a ship's pilot heard a voice from the shore call his name and tell him to announce that Great Pan was dead.",
+      "summary": [
+        "The Greek writer Plutarch tells of a ship sailing to Italy that drifted near the islands of Paxi. A voice called from the shore to the Egyptian pilot, Thamus, by name, three times, and told him that when he reached the next landmark he should announce that 'Great Pan is dead'.",
+        "When they came to the place, Thamus shouted the message towards the land, and a great sound of lamentation rose up, of many voices, as if in grief. The story reached Rome, and the emperor Tiberius is said to have had it investigated."
+      ],
+      "explanation": "Plutarch tells it as a story he heard second-hand. Some scholars think it began with a misunderstanding of a ritual lament for a god, or of the pilot's name. Later Christian writers took it as a sign that the old gods had died with the coming of Christ.",
+      "wiki": "Pan (god)"
+    },
+    {
+      "slug": "head-of-orpheus",
+      "category": "voices",
+      "title": "The Singing Head of Orpheus",
+      "region": "Antissa, Lesbos, Greece",
+      "lat": 39.25,
+      "lon": 26.0,
+      "dateLabel": "Greek myth",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Greek tradition",
+      "hook": "Greek myth says the head of the singer Orpheus floated across the sea still singing, and gave prophecies from a cave on Lesbos.",
+      "summary": [
+        "Orpheus was the greatest musician of Greek myth, whose songs could charm animals and trees. After his death, the stories say, his head and his lyre were thrown into the river Hebrus, and floated out to sea, still singing, until they washed up on the island of Lesbos.",
+        "There the head was placed in a cave, where it went on singing and gave oracles, so popular that people stopped visiting Apollo's oracles, until Apollo himself told it to be silent."
+      ],
+      "explanation": "It's a myth, told by ancient writers in several versions. Lesbos was famous for its poets and musicians, including Sappho, and the legend was a way of explaining why the island was the home of song.",
+      "wiki": "Orpheus"
+    },
+    {
+      "slug": "silbury-hill",
+      "category": "places",
+      "title": "The Mystery of Silbury Hill",
+      "region": "Silbury Hill, near Avebury, Wiltshire, England",
+      "lat": 51.415,
+      "lon": -1.857,
+      "dateLabel": "Built around 2400 BC",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Archaeologists and centuries of visitors",
+      "hook": "The largest prehistoric mound in Europe took millions of hours of work to build, and no one knows why it was made.",
+      "summary": [
+        "Silbury Hill rises 30 metres above the Wiltshire fields near the stone circles of Avebury: a huge, flat-topped cone of chalk and earth built about 4,400 years ago. Local legend said it held the grave of King Sil, buried on horseback in golden armour, or a treasure hidden by the Devil.",
+        "Diggers have tunnelled into it several times since the 1700s, looking for the burial. They found layers of turf, gravel and chalk, plants and flying ants from the summer it was begun, but no grave and no treasure."
+      ],
+      "explanation": "Archaeologists now think it was built in stages over generations, perhaps as a place for gatherings or ceremonies, or as an act of building that mattered more than the result. Its purpose is still unknown. The old tunnels made it unstable, and they were filled in in 2008.",
+      "wiki": "Silbury Hill"
+    },
+    {
+      "slug": "byland-abbey-ghosts",
+      "category": "visitors",
+      "title": "The Ghost Stories of Byland Abbey",
+      "region": "Byland Abbey, North Yorkshire, England",
+      "lat": 54.203,
+      "lon": -1.159,
+      "dateLabel": "Written down around 1400",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Local people, recorded by a monk of the abbey",
+      "hook": "A medieval monk filled the blank pages of a book with a dozen local ghost stories: spirits that turned into crows, horses and haystacks.",
+      "summary": [
+        "Around 1400, a monk at Byland Abbey in Yorkshire wrote a dozen ghost stories into the spare pages of a manuscript. They were told by local people, and they're nothing like later, misty ghosts: these dead were solid and troublesome. One ghost followed a tailor home in the shape of a crow, a dog and then a horse, and had to be asked, properly, what it wanted.",
+        "Most of the ghosts were souls who couldn't rest because of some wrong left unrighted, and once a priest helped them, they were seen no more."
+      ],
+      "explanation": "The stories were meant as moral lessons, urging prayers for the dead and confession. Historians value them as rare glimpses of what ordinary people in medieval England believed about ghosts. The manuscript is in the British Library.",
+      "wiki": "Byland Abbey"
+    },
+    {
+      "slug": "magonia-cloud-ships",
+      "category": "sky",
+      "title": "The Cloud Ships of Magonia",
+      "region": "Lyon, France",
+      "lat": 45.76,
+      "lon": 4.84,
+      "dateLabel": "Around AD 815",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Townspeople, recorded by Archbishop Agobard of Lyon",
+      "hook": "In the 9th century, people near Lyon believed ships sailed through the clouds from a land called Magonia, to carry away crops knocked down by storms.",
+      "summary": [
+        "Agobard, Archbishop of Lyon, wrote a short book around 815 attacking the superstitions of his flock. Many people, he said, believed in a land called Magonia, from which ships came sailing in the clouds. Weather-makers on the ground summoned storms, and the sailors loaded the fallen grain and fruit and took it back to Magonia, paying the weather-makers in return.",
+        "Agobard told of a crowd that had dragged three men and a woman before him, saying they had fallen from the cloud ships. He set them free."
+      ],
+      "explanation": "Agobard wrote to show such beliefs were nonsense, and his account is the only source. Twentieth-century writers on UFOs seized on it as an early abduction story, and Magonia gave its name to a well-known magazine about strange phenomena.",
+      "wiki": "Magonia (mythology)"
+    },
+    {
+      "slug": "kyffhauser-sleeping-emperor",
+      "category": "places",
+      "title": "The Emperor Asleep in the Mountain",
+      "region": "Kyffhäuser hills, Thuringia, Germany",
+      "lat": 51.38,
+      "lon": 11.0,
+      "dateLabel": "Legend since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "German tradition",
+      "hook": "Deep inside a German mountain, an emperor sits asleep at a stone table, his beard growing through it, waiting for the day he's needed.",
+      "summary": [
+        "The emperor Frederick Barbarossa drowned while on crusade in 1190, but legend said he never really died. He sleeps in a cave beneath the Kyffhäuser hills, sitting at a stone table, and his red beard has grown so long it has wound around the table, or grown right through it.",
+        "Every hundred years, the story goes, he wakes and asks whether the ravens are still circling the mountain. If they are, he sleeps another hundred years. When they're gone, he'll come out to restore the empire's glory."
+      ],
+      "explanation": "Sleeping-hero legends are told across Europe, of King Arthur in Britain, Holger the Dane in Denmark and others. The Kyffhäuser story became a German national symbol in the 19th century, and a giant monument of Barbarossa waking was built on the hill. Beneath it is the Barbarossa Cave, a real cave visitors can enter.",
+      "wiki": "Kyffhäuser"
+    },
+    {
+      "slug": "brazen-head",
+      "category": "voices",
+      "title": "The Talking Brass Head",
+      "region": "Reims, France",
+      "lat": 49.255,
+      "lon": 4.03,
+      "dateLabel": "Legends from the 12th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Medieval chroniclers",
+      "hook": "Medieval legend said a brilliant scholar who became Pope had built a bronze head that answered questions with 'yes' or 'no'.",
+      "summary": [
+        "Gerbert of Aurillac was the most learned man of his age, a teacher at Reims who studied mathematics and astronomy and became Pope Sylvester II in the year 999. After his death, chroniclers told that he had made a head of bronze that could answer any question with yes or no, and that he had learned his skills from demons.",
+        "Similar legends grew up around other scholars, such as Roger Bacon and Albertus Magnus, whose talking heads were said to have spoken, cracked, or been smashed to pieces."
+      ],
+      "explanation": "The stories show how medieval people viewed great learning: as close to magic. Gerbert really did bring knowledge of Arabic numerals and the abacus to Europe, and built instruments for astronomy. The brazen head is often called an ancestor of the robots and computers of later stories.",
+      "wiki": "Brazen head"
+    },
+    {
+      "slug": "mermaid-of-edam",
+      "category": "creatures",
+      "title": "The Mermaid of Edam",
+      "region": "Edam, North Holland, Netherlands",
+      "lat": 52.513,
+      "lon": 5.048,
+      "dateLabel": "Said to be 1403",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Dutch chronicles",
+      "hook": "Dutch chronicles say that after a great storm, a mermaid was found stranded in a lake near Edam, and lived among the townspeople for years.",
+      "summary": [
+        "Old Dutch chronicles tell that after a storm in 1403 broke the dykes, women from Edam found a 'wild woman' of the sea caught in the mud of the Purmer lake. They cleaned her, dressed her and took her to Haarlem, where she learned to spin and to bow before the cross, but never to speak.",
+        "She lived there for about fifteen years, the story says, and was buried in a churchyard when she died."
+      ],
+      "explanation": "The tale was repeated by many later writers as a true account, and some historians think it may have grown from a real event, such as a seal or a stranded person with a disability being treated as a wonder. There's no surviving evidence from 1403 itself.",
+      "wiki": "Mermaid"
+    },
+    {
+      "slug": "heike-crabs",
+      "category": "creatures",
+      "title": "The Crabs with Samurai Faces",
+      "region": "Dan-no-ura, Shimonoseki, Japan",
+      "lat": 33.96,
+      "lon": 130.95,
+      "dateLabel": "Legend since the 1185 battle",
+      "status": "explained",
+      "statusLabel": null,
+      "witnesses": "Fishermen of the Inland Sea",
+      "hook": "In the strait where a samurai clan was defeated, fishermen catch crabs whose shells look like angry human faces.",
+      "summary": [
+        "In 1185, at the sea battle of Dan-no-ura, the Heike clan was destroyed by its rivals, the Genji. Many Heike warriors drowned, along with the young emperor. Ever since, local legend has said the drowned samurai live on as crabs on the seabed.",
+        "The crabs, Heikegani, have ridges on their backs that look remarkably like a frowning warrior's face, and fishermen say they throw them back into the sea out of respect."
+      ],
+      "explanation": "The ridges are where the crab's muscles attach to its shell, and other crabs have similar patterns. The astronomer Carl Sagan suggested that fishermen throwing back the most face-like crabs might have made the faces more common over time, but biologists point out that the crabs are rarely eaten anyway, so the faces are probably just chance.",
+      "wiki": "Heikegani"
+    },
+    {
+      "slug": "wild-man-of-orford",
+      "category": "creatures",
+      "title": "The Wild Man of Orford",
+      "region": "Orford, Suffolk, England",
+      "lat": 52.094,
+      "lon": 1.531,
+      "dateLabel": "Around 1167",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Recorded by the chronicler Ralph of Coggeshall",
+      "hook": "Medieval fishermen caught a naked, hairy man in their nets. He was held in a new castle, ate raw fish, and one day swam away.",
+      "summary": [
+        "The monk Ralph of Coggeshall recorded that in the reign of Henry II, fishermen off Orford in Suffolk caught a man in their nets. He was naked and hairy, with a long shaggy beard, and wouldn't or couldn't speak. He was kept at the newly built Orford Castle, where he ate raw fish and meat, and was taken to church but showed no understanding of it.",
+        "Once he was allowed to swim in the harbour inside a line of nets, but dived under them and escaped. He came back of his own accord for a while, then disappeared into the sea for good."
+      ],
+      "explanation": "Suggestions include a seal, a shipwrecked foreign sailor, or a person with a disability, or simply a wonder tale. Ralph also wrote down the story of the Green Children of Woolpit, a few miles away. Orford Castle still stands, and the wild man appears on local carvings.",
+      "wiki": "Orford Castle"
+    },
+    {
+      "slug": "mouse-tower-bingen",
+      "category": "places",
+      "title": "The Mouse Tower on the Rhine",
+      "region": "Mäuseturm, Bingen am Rhein, Germany",
+      "lat": 49.971,
+      "lon": 7.894,
+      "dateLabel": "Legend from the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Rhineland tradition",
+      "hook": "On a rock in the Rhine stands a tower where, legend says, a cruel archbishop fled from an army of mice, and found they could swim.",
+      "summary": [
+        "The legend tells of Hatto, Archbishop of Mainz, who in a time of famine hoarded grain while his people starved. When the poor begged for food, he locked them in a barn and set it on fire, mocking their cries as the squeaking of mice.",
+        "Then the mice came: thousands of them, pouring out of the fields after him. Hatto fled to his tower on an island in the Rhine, but the mice swam across, climbed the walls, and he was never seen alive again."
+      ],
+      "explanation": "The real archbishops named Hatto weren't known for any such crime, and the story is told of other cruel lords elsewhere in Europe. The tower's name probably comes from an old word for a toll house, Maut, as it was used to collect tolls from river traffic. Rebuilt in the 1850s, it's a famous Rhine landmark.",
+      "wiki": "Mouse Tower"
+    },
+    {
+      "slug": "arthurs-grave-glastonbury",
+      "category": "places",
+      "title": "King Arthur's Grave at Glastonbury",
+      "region": "Glastonbury Abbey, Somerset, England",
+      "lat": 51.146,
+      "lon": -2.715,
+      "dateLabel": "Found in 1191",
+      "status": "disputed",
+      "statusLabel": null,
+      "witnesses": "The monks of Glastonbury Abbey",
+      "hook": "Medieval monks dug in their graveyard and announced they had found the bones of King Arthur and Queen Guinevere, with a lead cross naming him.",
+      "summary": [
+        "In 1191, monks at Glastonbury Abbey dug between two old stone pillars in their cemetery. Deep down, they said, they found a hollowed oak coffin holding the bones of a very tall man, and a woman's bones with a lock of golden hair, which crumbled when touched. A lead cross was inscribed in Latin: 'Here lies buried the famous King Arthur in the Isle of Avalon'.",
+        "The bones were reburied in a black marble tomb before the high altar, visited by kings, until the abbey was destroyed in 1539."
+      ],
+      "explanation": "Most historians think it was a carefully staged discovery: the abbey had burned down in 1184 and needed money and pilgrims to rebuild, and the find also suited a king keen to show that Arthur was dead and wouldn't return to lead the Welsh. The cross was last recorded in the 1700s. Whether Arthur existed at all is still debated.",
+      "wiki": "Glastonbury Abbey"
+    },
+    {
+      "slug": "glamr-the-draugr",
+      "category": "visitors",
+      "title": "Glámr, the Restless Dead",
+      "region": "Forsæludalur, northern Iceland",
+      "lat": 65.38,
+      "lon": -20.0,
+      "dateLabel": "Grettis saga, written around 1400",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Icelandic saga tradition",
+      "hook": "In an Icelandic saga, a dead shepherd walks again at night, riding the roofs of a farm until a famous outlaw wrestles him in the moonlight.",
+      "summary": [
+        "Grettis saga tells of Glámr, a huge, surly shepherd hired by a farmer in a remote valley where the sheep were troubled by something. On Christmas Eve he went out into a storm and didn't come back; he was found dead, and the body couldn't be carried to church. Soon he was seen walking again: a draugr, one of the restless dead, riding on the roof at night and terrifying the farm.",
+        "The strong outlaw Grettir stayed at the farm to face him, and they wrestled through the house until Glámr fell in the moonlight. Before Grettir finished him, Glámr laid a curse on him: that he would always be afraid of the dark."
+      ],
+      "explanation": "The sagas mix history and legend, and the draugr, a heavy, physical walking corpse, was a common figure in Norse belief. The scene with the moonlit face of the dead is one of the most famous in Icelandic literature.",
+      "wiki": "Grettis saga"
+    },
+    {
+      "slug": "lindisfarne-dragons",
+      "category": "sky",
+      "title": "The Fiery Dragons over Northumbria",
+      "region": "Lindisfarne, Northumberland, England",
+      "lat": 55.669,
+      "lon": -1.8,
+      "dateLabel": "AD 793",
+      "status": "open",
+      "statusLabel": "Unidentified",
+      "witnesses": "The people of Northumbria, recorded in the Anglo-Saxon Chronicle",
+      "hook": "Months before the Vikings' first great raid on England, the Anglo-Saxon Chronicle recorded fiery dragons flying through the air.",
+      "summary": [
+        "The Anglo-Saxon Chronicle's entry for 793 says that terrible portents appeared over Northumbria and frightened the people: great flashes of lightning, and fiery dragons seen flying in the sky. A great famine followed.",
+        "In June of that year, heathen raiders from the sea attacked the monastery on the holy island of Lindisfarne, the event often taken as the start of the Viking Age in Britain."
+      ],
+      "explanation": "The 'dragons' may have been an aurora, a display of meteors or bright fireballs, or lightning in storms. Medieval chroniclers often recorded strange signs before disasters, and some were added or sharpened looking back. What people saw in the sky that year is unknown.",
+      "wiki": "Lindisfarne"
+    },
+    {
+      "slug": "werewolves-of-ossory",
+      "category": "creatures",
+      "title": "The Werewolves of Ossory",
+      "region": "Ossory, County Kilkenny, Ireland",
+      "lat": 52.65,
+      "lon": -7.25,
+      "dateLabel": "Recorded around 1185",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Recorded by Gerald of Wales",
+      "hook": "A medieval writer told of a priest who met a talking wolf in an Irish forest, who asked him to give the last rites to his dying wife.",
+      "summary": [
+        "Gerald of Wales, who travelled in Ireland in the 1180s, recorded a tale he was told. A priest travelling through a wood in Ossory was approached at night by a wolf, which spoke to him like a man. It explained that because of a curse on their people, a man and a woman of Ossory had to live as wolves for seven years at a time.",
+        "The wolf led him to his dying mate and asked him to give her the last rites. When the priest hesitated, the wolf peeled back the she-wolf's skin, revealing an old woman inside."
+      ],
+      "explanation": "Gerald wrote it down as a marvel and discussed what it meant for theology. It's one of the most sympathetic werewolf stories in medieval literature, and fits a wider Irish tradition of people of Ossory turning into wolves. Ireland's last wolves were killed in the 18th century.",
+      "wiki": "Werewolves of Ossory"
+    },
+    {
+      "slug": "vineta",
+      "category": "places",
+      "title": "Vineta, the Drowned City of the Baltic",
+      "region": "Off the island of Usedom, Germany",
+      "lat": 54.06,
+      "lon": 14.05,
+      "dateLabel": "Legend since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Baltic coast tradition",
+      "hook": "On calm days, fishermen say, you can hear the bells of a rich city that sank beneath the Baltic Sea for its pride.",
+      "summary": [
+        "Medieval chroniclers described a great trading city on the southern Baltic, one of the largest in Europe, called Jumne or Vineta. Legend says its people grew so rich and proud that they used bread to plug holes and made their children's toys of silver, until a storm swallowed the city in one night.",
+        "Fishermen say that on calm days you can see its towers under the water and hear its church bells ringing, and that once every hundred years it rises for an hour."
+      ],
+      "explanation": "There probably was a real trading town behind the legend; many historians link it to Wolin in Poland, where a large Viking-age port has been excavated. Others have looked for it off Usedom, where the sea has eaten into the coast. Drowned-city legends are told along many coasts, from Ys in Brittany to Dunwich in England.",
+      "wiki": "Vineta"
+    },
+    {
+      "slug": "venusberg-horselberg",
+      "category": "places",
+      "title": "Venus's Mountain: the Hörselberg",
+      "region": "Hörselberg, near Eisenach, Thuringia, Germany",
+      "lat": 50.97,
+      "lon": 10.42,
+      "dateLabel": "Legend from the 1400s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "German tradition",
+      "hook": "German legend says a knight found his way into a mountain where the goddess Venus kept court, and couldn't find his way out.",
+      "summary": [
+        "In German legend, the knight and singer Tannhäuser discovered the Venusberg, a hidden realm inside a mountain where the goddess Venus held a court of pleasure. He stayed there for a year, then, repenting, went to Rome to beg the Pope's forgiveness.",
+        "The Pope told him he could no more be forgiven than his staff could blossom. Tannhäuser returned to the mountain in despair, and three days later the staff burst into flower. In Thuringia, the Hörselberg was said to be the place, and strange sounds from its cave were the howling of lost souls."
+      ],
+      "explanation": "Tannhäuser was a real 13th-century poet, but the legend attached to him came later. The story inspired Wagner's opera Tannhäuser. The Hörselberg has a real cave, the Venus cave, and the wind blowing through its openings may have given rise to the tales of voices.",
+      "wiki": "Tannhäuser"
+    },
+    {
+      "slug": "kaguya-hime",
+      "category": "visitors",
+      "title": "The Princess from the Moon",
+      "region": "Mount Fuji, Japan",
+      "lat": 35.36,
+      "lon": 138.73,
+      "dateLabel": "Written down in the 10th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese tradition",
+      "hook": "Japan's oldest surviving story tells of a girl found glowing inside a bamboo stalk, who was really a princess from the Moon.",
+      "summary": [
+        "The Tale of the Bamboo Cutter, written in Japan over a thousand years ago, begins with an old bamboo cutter who finds a tiny, glowing girl inside a stalk of bamboo. She grows into a woman of extraordinary beauty, Kaguya-hime, courted by princes and by the emperor himself, but she turns them all away.",
+        "At last she reveals that she comes from the Moon, and on the night of the full Moon, beings in shining robes descend from the sky to take her home. She leaves the emperor an elixir of life, which he orders burnt on the highest mountain, near heaven. That, says the tale, is why smoke rises from Mount Fuji."
+      ],
+      "explanation": "It's a work of fiction and the oldest surviving Japanese prose narrative. Modern readers have noticed how much it resembles a story of visitors from another world. Japan's lunar orbiter of 2007 was named Kaguya after her.",
+      "wiki": "The Tale of the Bamboo Cutter"
+    },
+    {
+      "slug": "lost-fleet-of-mali",
+      "featured": true,
+      "category": "places",
+      "title": "The Fleet That Sailed West from Mali",
+      "region": "The Atlantic, off the coast of West Africa",
+      "lat": 14.5,
+      "lon": -19.5,
+      "dateLabel": "Early 1300s",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Mansa Musa, as recorded by the scholar al-Umari",
+      "hook": "A king of Mali sent hundreds of ships west across the Atlantic to find its far side, then sailed after them himself. None came back.",
+      "summary": [
+        "When Mansa Musa, the immensely rich ruler of the Mali Empire, passed through Cairo on pilgrimage in 1324, he told an official how he came to the throne. The king before him, he said, wanted to know whether the ocean had another side, and sent out hundreds of ships with gold, water and food. Only one returned, its captain saying the others had sailed into a great current in the open sea and vanished.",
+        "The king then prepared a far bigger fleet, put Musa in charge of the kingdom, and sailed west himself. He was never seen again."
+      ],
+      "explanation": "The account was written down by the Arab scholar al-Umari and is the only source. Some have argued that the fleet reached the Americas, but there's no archaeological evidence of it; others suggest the ships were lost in the Atlantic's currents. The voyage remains one of history's great open questions.",
+      "wiki": "Abu Bakr II"
+    },
+    {
+      "slug": "mordiford-dragon",
+      "category": "creatures",
+      "title": "The Dragon of Mordiford",
+      "region": "Mordiford, Herefordshire, England",
+      "lat": 52.033,
+      "lon": -2.623,
+      "dateLabel": "Legend from the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Herefordshire tradition",
+      "hook": "A village girl found a tiny green dragon in the woods and raised it on milk, until it grew too big and too hungry to hide.",
+      "summary": [
+        "Herefordshire legend tells that a little girl from Mordiford found a small green creature in the woods and took it home as a pet, feeding it milk. It grew, and grew hungry for more: first chickens, then sheep and cattle, and finally the villagers themselves. It took a path through the woods still known as Serpent Lane.",
+        "In most versions, a condemned criminal won his pardon by hiding in a cider barrel by the river and killing the dragon as it came to drink, though he died in its fiery last breath."
+      ],
+      "explanation": "It's a local legend. A large painting of a green dragon on the end wall of Mordiford's church, recorded in the 1600s, kept the story alive until it was painted over around 1811. The dragon may first have been the heraldic arms of a local family.",
+      "wiki": "Mordiford"
+    },
+    {
+      "slug": "nue-of-kyoto",
+      "category": "creatures",
+      "title": "The Nue on the Palace Roof",
+      "region": "Imperial Palace, Kyoto, Japan",
+      "lat": 35.025,
+      "lon": 135.762,
+      "dateLabel": "Said to be 1153",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The court, as told in the Tale of the Heike",
+      "hook": "Night after night, a black cloud settled on the emperor's palace with an eerie cry, and he fell ill. A famous archer was called to shoot into the dark.",
+      "summary": [
+        "The Tale of the Heike tells that the emperor of Japan fell ill, and every night at the hour of the ox a black cloud came over the palace, with a strange, mournful cry. The warrior Minamoto no Yorimasa was summoned, and when the cloud came he shot an arrow into it.",
+        "Something fell to the ground: a creature with the head of a monkey, the body of a tanuki, the legs of a tiger and a snake for a tail, a nue. The emperor recovered, and the creature's body was sent floating down the river."
+      ],
+      "explanation": "It's a war-tale legend, and the strange cry was probably that of a bird, the White's thrush, whose eerie whistling at night was also called nue. Yorimasa was a real warrior and poet. Kyoto has a shrine connected with the story.",
+      "wiki": "Nue"
+    },
+    {
+      "slug": "sessho-seki-killing-stone",
+      "featured": true,
+      "category": "places",
+      "title": "The Killing Stone",
+      "region": "Nasu, Tochigi, Japan",
+      "lat": 37.0,
+      "lon": 139.95,
+      "dateLabel": "Legend from the 12th century; the stone split in 2022",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese tradition, and visitors in 2022",
+      "hook": "A nine-tailed fox spirit was said to be trapped in a volcanic boulder that killed anyone who touched it. In 2022, the stone split in two.",
+      "summary": [
+        "Japanese legend tells of Tamamo-no-Mae, the most beautiful woman at the emperor's court, who was really a nine-tailed fox spirit draining his life. Unmasked, she fled to the plain of Nasu, where she was killed by warriors, and her spirit turned into a boulder that killed anyone who came near: the Sessho-seki, or Killing Stone.",
+        "The boulder sits on a volcanic hillside at Nasu, roped off with a sacred rope. In March 2022, visitors found it had cracked clean in two, and photos of the 'released' fox spirit's stone went around the world."
+      ],
+      "explanation": "The ground around the stone gives off volcanic gases such as hydrogen sulphide, which can kill birds, insects and small animals, which explains its reputation. Experts said the crack had probably been widening for years as water froze and thawed in it. A priest later held a ceremony at the site.",
+      "wiki": "Sesshō-seki"
+    },
+    {
+      "slug": "edgehill-phantom-battle",
+      "category": "voices",
+      "title": "The Phantom Battle of Edgehill",
+      "region": "Edgehill, near Kineton, Warwickshire, England",
+      "lat": 52.13,
+      "lon": -1.48,
+      "dateLabel": "Christmas 1642",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Shepherds and villagers, and officers sent by King Charles I",
+      "hook": "Two months after the first battle of the English Civil War, shepherds saw and heard it being fought again in the sky.",
+      "summary": [
+        "The Battle of Edgehill, fought on 23 October 1642, was the first major battle of the English Civil War, and hundreds died. Around Christmas, a pamphlet reported that shepherds and travellers near the field had seen phantom armies fighting in the air, with drums, cannon fire and the cries of the wounded, for hours, on several nights.",
+        "King Charles I sent officers to look into it. The pamphlet said they saw the ghostly battle themselves and recognised some of the soldiers who had fallen."
+      ],
+      "explanation": "The account comes from a pamphlet published in January 1643, at a time when pamphlets were used for propaganda by both sides. Suggestions include storms, a shared state of grief and fear after the battle, or simple invention. The legend lives on locally, with reports of phantom sounds around the anniversary.",
+      "wiki": "Battle of Edgehill"
+    },
+    {
+      "slug": "epworth-old-jeffrey",
+      "category": "voices",
+      "title": "Old Jeffrey of Epworth Rectory",
+      "region": "Epworth, Lincolnshire, England",
+      "lat": 53.525,
+      "lon": -0.823,
+      "dateLabel": "December 1716 – January 1717",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "The family of the rector, Samuel Wesley",
+      "hook": "For two months, the family of the founder of Methodism lived with knocks, groans and footsteps they nicknamed Old Jeffrey.",
+      "summary": [
+        "In December 1716, the rectory at Epworth, home of the clergyman Samuel Wesley and his large family, began to fill with noises: knocking on walls and doors, groans, the sound of footsteps on the stairs and of coins being poured out, and a noise like a bottle being smashed, though nothing was broken.",
+        "The family kept careful letters and notes. The children nicknamed the presence 'Old Jeffrey'. It seemed to answer knocks, and was said to object loudly to prayers for King George. By the end of January it had faded away."
+      ],
+      "explanation": "Suggested explanations range from a prank by servants or neighbours, or one of the children, to rats and the old house settling. None has been proven. Samuel's son John Wesley, who went on to found Methodism, collected the family's accounts and published them, and the case is one of the best-documented of its era.",
+      "wiki": "Old Rectory, Epworth"
+    },
+    {
+      "slug": "cock-lane-ghost",
+      "category": "voices",
+      "title": "The Cock Lane Ghost",
+      "region": "Cock Lane, Smithfield, London, England",
+      "lat": 51.5175,
+      "lon": -0.1035,
+      "dateLabel": "1762",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "Crowds of Londoners, including the writer Samuel Johnson",
+      "hook": "In 1762, all of London queued in a narrow lane to hear a ghost answer questions with knocks and scratches.",
+      "summary": [
+        "In early 1762, word spread that a house in Cock Lane, near St Paul's Cathedral, was haunted by a spirit that communicated by knocking and scratching: one knock for yes, two for no. The noises centred on a young girl's bed, and the spirit, nicknamed 'Scratching Fanny', was said to be that of a woman who had once lodged there.",
+        "Crowds blocked the street, aristocrats came to sit in, and a committee including the writer Samuel Johnson investigated."
+      ],
+      "explanation": "The committee found that the noises happened only when the girl could make them, and she was caught with a small board hidden in her clothes. The haunting had been staged as part of a grudge against a former lodger. The adults behind it were convicted of conspiracy, and the case became a byword for public gullibility.",
+      "wiki": "Cock Lane ghost"
+    },
+    {
+      "slug": "egede-sea-serpent",
+      "category": "creatures",
+      "title": "The Sea Serpent off Greenland",
+      "region": "Off Nuuk, Greenland",
+      "lat": 64.1,
+      "lon": -52.0,
+      "dateLabel": "6 July 1734",
+      "status": "disputed",
+      "statusLabel": null,
+      "witnesses": "The missionary Hans Egede and the ship's crew",
+      "hook": "A missionary sailing to Greenland saw a monstrous creature rise from the sea, taller than the ship's mast, and drew what he saw.",
+      "summary": [
+        "In 1734, the Norwegian missionary Hans Egede was sailing off the coast of Greenland when, he wrote, a 'most terrible creature' rose from the sea. Its head reached as high as the masthead, it had a long, pointed snout, broad flippers, and a body covered with scales, and it blew water like a whale. As it sank back, it raised a tail longer than the ship.",
+        "His account and drawing were published and became one of the classic sea serpent reports."
+      ],
+      "explanation": "Modern suggestions include a giant squid, whose long arms or body seen at the surface could look serpentine, a whale, or a male whale showing itself during mating. The drawing doesn't clearly match any known animal, which has kept the case debated.",
+      "wiki": "Hans Egede"
+    },
+    {
+      "slug": "monster-of-ravenna",
+      "category": "creatures",
+      "title": "The Monster of Ravenna",
+      "region": "Ravenna, Emilia-Romagna, Italy",
+      "lat": 44.418,
+      "lon": 12.2,
+      "dateLabel": "1512",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Reports spread across Europe in pamphlets",
+      "hook": "In 1512, news spread across Europe of a monster born in Ravenna, with wings, a horn and a single clawed foot, taken as a warning of war.",
+      "summary": [
+        "In 1512, Italy was torn by war. Reports spread of a monstrous birth in Ravenna: a creature with a horn on its head, wings instead of arms, an eye on its knee and a single bird-like foot. Within weeks, woodcuts of it were printed across Europe, each more fantastic than the last.",
+        "Writers read every feature as a message from God about the sins of Italy. Weeks later, in April, the bloody Battle of Ravenna was fought outside the city."
+      ],
+      "explanation": "Historians think the reports began with a real child born with serious physical differences, which was then exaggerated and turned into an omen as the story spread through prints and pamphlets. It shows how early printing could turn a local event into a European sensation.",
+      "wiki": "Monster of Ravenna"
+    },
+    {
+      "slug": "black-dog-of-newgate",
+      "category": "creatures",
+      "title": "The Black Dog of Newgate",
+      "region": "Site of Newgate Prison, City of London, England",
+      "lat": 51.5155,
+      "lon": -0.1015,
+      "dateLabel": "Legend from the 1500s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "London tradition and pamphlets",
+      "hook": "London legend tells of a black dog that haunted the old Newgate Prison, seen on the walls before executions.",
+      "summary": [
+        "Newgate was London's most notorious prison for 700 years. A story printed in a 1596 pamphlet told that during a famine in the 1200s, starving prisoners turned on a newly arrived scholar accused of witchcraft. Soon after, a great black dog began to stalk the prison at night, and the guilty men, terrified, broke out and fled, but the dog followed them wherever they went.",
+        "For centuries afterwards, a dark shape on the wall or a black dog in the passages was said to appear before an execution."
+      ],
+      "explanation": "Black dog legends are told all over Britain, from Black Shuck in East Anglia to the Moddey Dhoo on the Isle of Man. The Newgate story was spread by a pamphlet written partly as entertainment. The prison was demolished in 1904, and the Old Bailey stands on its site.",
+      "wiki": "Black dog (folklore)"
+    },
+    {
+      "slug": "city-of-the-caesars",
+      "category": "places",
+      "title": "The City of the Caesars",
+      "region": "Patagonian Andes, Chile and Argentina",
+      "lat": -45.5,
+      "lon": -71.8,
+      "dateLabel": "Searched for from the 1500s to the 1700s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Explorers and missionaries",
+      "hook": "For two centuries, explorers searched Patagonia for a hidden city of gold, where people never died, that could never be seen until you were inside it.",
+      "summary": [
+        "In the 1500s, stories reached the Spanish of a rich city somewhere in the far south of the continent, between the mountains and the lakes of Patagonia. It was said to have streets paved with silver and gold, and was later said to be inhabited by survivors of shipwrecks, whose descendants lived forever there.",
+        "Expedition after expedition went looking for it, from Chile and from Argentina, well into the 1700s. Some said the city was enchanted and couldn't be seen until you were inside it, and that fog hid it from searchers."
+      ],
+      "explanation": "The legend may have started with a 1520s expedition led by Francisco César into the interior, and with memories of the Inca empire's wealth, mixed with tales of shipwrecked Spaniards. No city was ever found. The searches did help map the region.",
+      "wiki": "City of the Caesars"
+    },
+    {
+      "slug": "corpse-candles-wales",
+      "category": "sky",
+      "title": "The Corpse Candles of Wales",
+      "region": "Carmarthenshire, Wales",
+      "lat": 51.95,
+      "lon": -4.3,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Welsh tradition",
+      "hook": "In Welsh tradition, a small light floating along the road at night is a canwyll corff, a corpse candle, taking the path of a coming funeral.",
+      "summary": [
+        "In Wales, people told of the canwyll corff, the corpse candle: a small light, like a candle flame, seen at night drifting from a house towards the churchyard along the route a funeral would take. It was said to foretell a death in that house; a small pale light for a child, a larger one for an adult.",
+        "Writers in the 1600s and 1700s collected many accounts of people who saw them, some of whom said they'd been touched by one or had to step aside to let it pass."
+      ],
+      "explanation": "Lights like these are often explained as will-o'-the-wisp, glowing gases from marshy ground, or as lanterns seen at a distance. In a world where funerals followed fixed routes, a light on that road was easily read as a warning.",
+      "wiki": "Corpse road"
+    },
+    {
+      "slug": "lady-in-blue",
+      "category": "visitors",
+      "title": "The Lady in Blue",
+      "region": "Jumano lands, New Mexico and Texas, USA",
+      "lat": 34.4,
+      "lon": -106.0,
+      "dateLabel": "1620s",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Jumano people and Spanish friars",
+      "hook": "Spanish missionaries in New Mexico were told that a woman in blue had already visited and taught the people. A nun in Spain said she had been there without leaving her convent.",
+      "summary": [
+        "In 1629, Jumano people came to a Spanish mission in New Mexico asking to be baptised, saying a lady dressed in blue had come among them and told them to seek out the friars. She had appeared to them many times, they said, though no Spanish woman had travelled there.",
+        "In Spain, a young abbess, María de Jesús de Ágreda, said that she had been carried to the Americas in spirit, hundreds of times, while in deep prayer, to teach the people there. A friar who interviewed her said she described the land and its people in convincing detail."
+      ],
+      "explanation": "Sceptics suggest the friars, eager for a miracle, shaped what they were told, and that her descriptions could have come from what she had heard of the missions. Believers see it as a case of bilocation, being in two places at once. She later became a well-known writer, and the case has never been resolved.",
+      "wiki": "María de Ágreda"
+    },
+    {
+      "slug": "amboina-mermaid",
+      "category": "creatures",
+      "title": "The Mermaid of Amboina",
+      "region": "Ambon, Maluku Islands, Indonesia",
+      "lat": -3.7,
+      "lon": 128.17,
+      "dateLabel": "Around 1712",
+      "status": "open",
+      "statusLabel": "Unverified",
+      "witnesses": "Reported by the painter Samuel Fallours",
+      "hook": "An early 18th-century book of fish from the East Indies included a mermaid, said to have lived for four days in a tub of water.",
+      "summary": [
+        "Samuel Fallours worked as a soldier and painter for the Dutch East India Company on the island of Ambon. His colourful paintings of local fish, crabs and other creatures were published in Amsterdam in 1719 in a famous book on the marine life of the East Indies.",
+        "Among them was a mermaid, about 150 cm long, with a green tail and sea-green hair. A note said she had been caught near Ambon and kept alive in a vat of water for four days, making little noises like a mouse, and refused to eat."
+      ],
+      "explanation": "Many of the book's other fish are exaggerated but recognisable, and the mermaid has no known source. Scholars think Fallours was repeating a story he heard or adding a crowd-pleaser; the publisher said he couldn't vouch for it. The book was later admired as an early work of natural history and art.",
+      "wiki": null
+    },
+    {
+      "slug": "moddey-dhoo",
+      "category": "creatures",
+      "title": "The Moddey Dhoo of Peel Castle",
+      "region": "Peel Castle, Isle of Man",
+      "lat": 54.228,
+      "lon": -4.702,
+      "dateLabel": "Recorded in the 1600s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Soldiers of the castle garrison, in tradition",
+      "hook": "A great black dog was said to lie by the guardroom fire at Peel Castle each night. One soldier who mocked it went to face it alone.",
+      "summary": [
+        "Soldiers guarding Peel Castle on the Isle of Man said that a large, shaggy black spaniel, the Moddey Dhoo, came into the guardroom every night and lay by the fire until dawn. They were careful never to swear or misbehave in front of it, and never to go alone through the passage it used.",
+        "One night, a drunken soldier boasted that he'd find out what it was, and went down the passage alone carrying the keys. Terrible noises were heard. He came back speechless and pale, and died a few days later, never saying what he had seen. The passage was walled up."
+      ],
+      "explanation": "The story was recorded by the antiquary George Waldron in the 1720s as a tale told by the garrison. It's one of Britain's many black-dog legends. Sir Walter Scott used it in his novel Peveril of the Peak. The castle ruins are open to visitors.",
+      "wiki": "Moddey Dhoo"
+    },
+    {
+      "slug": "cardiff-giant",
+      "category": "creatures",
+      "title": "The Cardiff Giant",
+      "region": "Cardiff, New York, USA",
+      "lat": 42.966,
+      "lon": -76.17,
+      "dateLabel": "Dug up in October 1869",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "Thousands of paying visitors",
+      "hook": "Workers digging a well on a New York farm uncovered a three-metre stone man, and crowds paid to see the 'petrified giant'.",
+      "summary": [
+        "In October 1869, men hired to dig a well on a farm near Cardiff, New York, struck stone and uncovered an enormous human figure, more than three metres tall, lying as if asleep. Word spread that a petrified giant from Biblical times had been found.",
+        "Within days, thousands of people were paying to see it in a tent. Some experts called it an ancient statue, others a real fossil. A showman offered a fortune for it, and when he was refused, he had a copy made and exhibited that instead."
+      ],
+      "explanation": "It was a hoax: a cigar maker had the figure carved from a block of gypsum, stained to look old, and buried it a year earlier, partly to mock people who took the Bible's giants literally. He confessed in December 1869. The giant is now displayed at the Farmers' Museum in Cooperstown, New York.",
+      "wiki": "Cardiff Giant"
+    },
+    {
+      "slug": "le-roy-airship-calf",
+      "category": "sky",
+      "title": "The Airship That Stole a Calf",
+      "region": "Near Le Roy, Kansas, USA",
+      "lat": 38.08,
+      "lon": -95.63,
+      "dateLabel": "April 1897",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "A Kansas farmer and his neighbours, as reported in newspapers",
+      "hook": "During the great airship scare of 1897, a Kansas farmer swore that a cigar-shaped craft had lassoed one of his calves and carried it away.",
+      "summary": [
+        "In the spring of 1897, newspapers across the United States reported mysterious airships with bright lights crossing the night sky. One of the most famous accounts came from Kansas, where a respected farmer swore that an airship had hovered over his farm one night, with strange beings inside it.",
+        "A cable from the craft caught a young heifer by the neck and hauled it up into the air. The next day, a neighbour found the animal's remains in his field, with no tracks around them. Several local worthies signed a statement vouching for the farmer's honesty."
+      ],
+      "explanation": "Decades later it came out that the farmer had made the story up for a local liars' club, and his neighbours had joined in the joke. It's one of many tall tales printed during the 1897 airship wave, a time when newspapers competed to print the most exciting airship stories.",
+      "wiki": "Mystery airship"
+    },
+    {
+      "slug": "silent-city-of-alaska",
+      "category": "sky",
+      "title": "The Silent City of Alaska",
+      "region": "Muir Glacier, Glacier Bay, Alaska, USA",
+      "lat": 58.95,
+      "lon": -136.1,
+      "dateLabel": "Reported from the 1880s",
+      "status": "explained",
+      "statusLabel": "Mirage and hoax",
+      "witnesses": "Explorers, miners and tourists",
+      "hook": "Travellers in Alaska told of a great city appearing in the sky above a glacier every summer, with towers and spires, and a photographer said he had captured it.",
+      "summary": [
+        "In the 1880s, stories spread of a mirage seen above the Muir Glacier in Alaska around the summer solstice: a large city of buildings and spires floating in the sky. Some said it was a reflection of a real city far away, perhaps Bristol in England; others, that it was a lost city of the north.",
+        "A photographer named Willoughby claimed to have photographed it, and prints of his 'Silent City' were sold to tourists. Expeditions went to see it, and some claimed success."
+      ],
+      "explanation": "The photograph was soon shown to be a picture of Bristol, England, apparently passed off as a mirage. Real mirages of distant mountains and coasts, the Fata Morgana, do occur over cold Alaskan waters and may have given the legend a basis. The Silent City became a popular tourist tale.",
+      "wiki": "Fata Morgana (mirage)"
+    },
+    {
+      "slug": "colares-operation-saucer",
+      "category": "sky",
+      "title": "The Lights over Colares",
+      "region": "Colares, Pará, Brazil",
+      "lat": -0.937,
+      "lon": -48.284,
+      "dateLabel": "1977",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Islanders, and an investigation by the Brazilian Air Force",
+      "hook": "On a Brazilian island at the mouth of the Amazon, people were so frightened of lights in the sky that the Air Force sent a team to investigate.",
+      "summary": [
+        "In 1977, people on the island of Colares, in the state of Pará, began reporting bright lights in the night sky: beams that seemed to shine down on people and leave them weak, with burn-like marks. Many villagers stayed indoors at night or kept fires and fireworks burning to frighten the lights away.",
+        "The mayor asked for help, and the Brazilian Air Force sent a team, which spent months recording sightings, taking photographs and interviewing witnesses, in what was later called Operação Prato, 'Operation Saucer'."
+      ],
+      "explanation": "The Air Force files were released decades later and describe many lights without reaching a conclusion. Sceptics suggest a wave of fear in which ordinary lights, insects, illness and rumour fed one another. The episode remains one of South America's most famous UFO cases.",
+      "wiki": "Colares UFO flap"
+    },
+    {
+      "slug": "cerro-uritorco",
+      "category": "places",
+      "title": "Cerro Uritorco",
+      "region": "Capilla del Monte, Córdoba, Argentina",
+      "lat": -30.85,
+      "lon": -64.48,
+      "dateLabel": "Reported since the 1980s",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Residents, visitors and hikers",
+      "hook": "A mountain in central Argentina draws visitors from around the world, who come to watch for lights over its summit.",
+      "summary": [
+        "Cerro Uritorco is the highest peak of the Sierras Chicas in Córdoba, about 1,950 metres high. Since the 1980s, people in the town of Capilla del Monte at its foot have reported strange lights moving over the mountain at night, and a scorched mark on a nearby hillside in 1986 was said to be a landing site.",
+        "Stories also tell of a hidden city beneath the mountain and of a lost staff of power. The town has embraced the legends, with UFO-themed cafés and a festival."
+      ],
+      "explanation": "Most lights are explained as aircraft, satellites, stars and car headlights on mountain roads, and the 1986 mark is thought to have been a fire. The mountain's reputation has made it a centre of New Age tourism, bringing many hopeful watchers.",
+      "wiki": "Cerro Uritorco"
+    },
+    {
+      "slug": "soucouyant",
+      "category": "visitors",
+      "title": "The Soucouyant",
+      "region": "Trinidad, Trinidad and Tobago",
+      "lat": 10.65,
+      "lon": -61.45,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Caribbean tradition",
+      "hook": "In Caribbean folklore, a figure sheds her skin at night and flies over the rooftops as a ball of fire.",
+      "summary": [
+        "In the folklore of Trinidad, Dominica and other islands, the soucouyant is said to look like an ordinary old woman by day. At night she sheds her skin, hides it in a mortar, and flies through the sky as a ball of fire, entering houses through cracks and keyholes.",
+        "To catch her, people say, you scatter rice at the door, because she must stop to count every grain, or find her skin and rub salt into it so she can't put it back on."
+      ],
+      "explanation": "The soucouyant combines West African and European beliefs carried to the Caribbean. Folklorists note that such stories sometimes fell unfairly on real women who lived alone, which is why they're best kept as stories. She appears often in Caribbean literature and Carnival.",
+      "wiki": "Soucouyant"
+    },
+    {
+      "slug": "lagahoo",
+      "category": "creatures",
+      "title": "The Lagahoo",
+      "region": "Trinidad, Trinidad and Tobago",
+      "lat": 10.4,
+      "lon": -61.3,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Caribbean tradition",
+      "hook": "In Trinidad, people told of a shape-shifter who roamed at night dragging a heavy chain, sometimes carrying a coffin on his head.",
+      "summary": [
+        "The lagahoo, or loup-garou, is a shape-shifting figure of Trinidad and Tobago's folklore. By day he's an ordinary man; at night he becomes a wolf, a dog, a donkey or another animal, and roams the roads with the sound of a dragging chain.",
+        "In some tellings he carries a coffin on his head, and one glimpse of him can bring bad luck. People spoke of him to keep children home after dark."
+      ],
+      "explanation": "The name comes from the French loup-garou, werewolf, brought to the island by French settlers in the 18th century, and blended with African traditions. He's one of the classic figures of Trinidadian folklore, along with the soucouyant and the douen.",
+      "wiki": "Loup-garou"
+    },
+    {
+      "slug": "medveditskaya-ridge",
+      "category": "places",
+      "title": "The Medveditskaya Ridge",
+      "region": "Medveditskaya Ridge, Volgograd Oblast, Russia",
+      "lat": 50.62,
+      "lon": 44.3,
+      "dateLabel": "Reported since the 1980s",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Local people and expeditions of enthusiasts",
+      "hook": "On a ridge of hills in southern Russia, people tell of fireballs, lightning that strikes the same spots, and tunnels beneath the ground.",
+      "summary": [
+        "The Medveditskaya Ridge is a line of low hills by the Medveditsa River, north of Volgograd. Since the 1980s it has attracted Russian enthusiasts of the unexplained, who report balls of light, unusual lightning strikes on the hilltops, and patches of trees scorched or twisted into strange shapes.",
+        "Some expeditions said they had found underground tunnels, and the ridge became known as one of Russia's 'anomalous zones'."
+      ],
+      "explanation": "Geologists point out that the ridge stands above the surrounding plain and draws lightning, which can scorch and twist trees and may produce ball lightning. Claims of tunnels haven't been confirmed. The area's fame comes mostly from enthusiast expeditions and Russian media.",
+      "wiki": null
+    },
+    {
+      "slug": "impundulu",
+      "category": "creatures",
+      "title": "The Impundulu, the Lightning Bird",
+      "region": "KwaZulu-Natal and the Eastern Cape, South Africa",
+      "lat": -30.0,
+      "lon": 29.5,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Zulu, Xhosa and Mpondo tradition",
+      "hook": "In southern African tradition, a giant black-and-white bird summons thunder with its wings and strikes the ground as lightning.",
+      "summary": [
+        "Among the Zulu, Xhosa and Mpondo peoples, the impundulu is a bird the size of a person, its feathers black and white, which beats its wings to make thunder and dives from the clouds as lightning. Where lightning strikes, it's said to lay an egg in the ground.",
+        "Healers would dig at the spot to find the egg, said to bring luck, or burn it to prevent further strikes."
+      ],
+      "explanation": "The legend reflects the very high rate of lightning strikes in this part of South Africa, among the highest in the world. Scientists note that lightning strikes can fuse sand and soil into glassy tubes called fulgurites, which may be the 'eggs'.",
+      "wiki": "Impundulu"
+    },
+    {
+      "slug": "emela-ntouka",
+      "category": "creatures",
+      "title": "The Emela-ntouka",
+      "region": "Likouala swamps, Republic of the Congo",
+      "lat": 1.6,
+      "lon": 17.3,
+      "dateLabel": "Reported in the 20th century",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "People of the Likouala region, as told to explorers",
+      "hook": "In the swamps of the Congo, people describe a huge, rhinoceros-like animal with a single horn, called the 'killer of elephants'.",
+      "summary": [
+        "In the remote swamps of the Likouala region, people have told explorers about the emela-ntouka, whose name is said to mean 'killer of elephants'. It's described as the size of an elephant or bigger, with a heavy tail and a single long horn on its face, living in the water and feeding on plants.",
+        "Its story is closely related to that of the mokele-mbembe, said to live in the same swamps."
+      ],
+      "explanation": "No physical evidence has been found. Suggested explanations include a memory of rhinoceroses, which once lived more widely in the region, a large crocodile, or the merging of different animals in stories. Some cryptozoologists suggest a surviving horned dinosaur, which biologists reject.",
+      "wiki": null
+    },
+    {
+      "slug": "moehau-monster",
+      "category": "creatures",
+      "title": "The Moehau Monster",
+      "region": "Moehau Range, Coromandel Peninsula, New Zealand",
+      "lat": -36.53,
+      "lon": 175.43,
+      "dateLabel": "Reported since the 1880s",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "Bushmen, gold miners and hunters",
+      "hook": "In the bush-covered hills at the tip of New Zealand's Coromandel Peninsula, people have reported a tall, hairy creature walking on two legs.",
+      "summary": [
+        "Since the 19th century, gold miners, bushmen and hunters in the Moehau Range have told of a large, hairy, ape-like creature that walks upright, standing up to two metres tall. It's been blamed for strange footprints, and stories tell of it raiding camps.",
+        "It's sometimes linked with Māori traditions of wild, hairy people of the forest called maero or matau."
+      ],
+      "explanation": "New Zealand has no native land mammals apart from bats, which makes a large ape impossible to sustain there, and no evidence has been found. Sightings are usually put down to misidentified animals, such as wild pigs or goats, in poor light, and to the power of a good story told around the camp.",
+      "wiki": null
+    },
+    {
+      "slug": "pukwudgie",
+      "category": "creatures",
+      "title": "The Pukwudgies of Freetown",
+      "region": "Freetown-Fall River State Forest, Massachusetts, USA",
+      "lat": 41.77,
+      "lon": -71.03,
+      "dateLabel": "Told for generations; sightings since the 1980s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Wampanoag tradition and modern visitors",
+      "hook": "In Wampanoag tradition, small, grey, troublesome beings called pukwudgies play tricks on people in the forest, and some say they still do.",
+      "summary": [
+        "In the traditions of the Wampanoag and other peoples of New England, pukwudgies are small beings, knee-high, with grey skin, large ears and noses, who live in the woods. They were once friendly, but grew mischievous and dangerous after people turned against them, leading travellers astray and playing tricks.",
+        "In modern times, the Freetown-Fall River State Forest in southern Massachusetts has become known for reports of them, and of other strange happenings."
+      ],
+      "explanation": "Pukwudgies come from Indigenous traditions that deserve respect as stories, not as monster entertainment. The modern sightings are mostly part of the forest's reputation for the uncanny. No physical evidence has ever been reported.",
+      "wiki": "Pukwudgie"
+    },
+    {
+      "slug": "asanbosam",
+      "category": "creatures",
+      "title": "The Asanbosam",
+      "region": "Ashanti region, Ghana",
+      "lat": 6.7,
+      "lon": -1.62,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Akan tradition",
+      "hook": "In Akan folklore, a forest creature with iron teeth and hooks for feet hangs from the treetops, waiting for hunters to pass below.",
+      "summary": [
+        "The asanbosam, also called sasabonsam, is a creature of the forests of Ghana and its neighbours in Akan folklore. It's described as hairy, with iron teeth, long legs and hook-like feet, which it uses to hang from high branches.",
+        "Hunters were told to be careful in the deep forest, where the asanbosam might dangle down and snatch them up into the trees."
+      ],
+      "explanation": "It's a legendary creature, often compared to the vampires of European folklore, though it has its own character. Folklorists see it as a story about the real dangers of the deep forest. It appears in modern Ghanaian art and literature.",
+      "wiki": "Asanbosam"
+    },
+    {
+      "slug": "kishi-two-faced",
+      "category": "visitors",
+      "title": "The Kishi, Who Has Two Faces",
+      "region": "Angola",
+      "lat": -12.5,
+      "lon": 17.5,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Angolan tradition",
+      "hook": "Angolan legend tells of a charming stranger who has a second face hidden in the back of his head: the face of a hyena.",
+      "summary": [
+        "In stories told in Angola, the kishi appears as a handsome, charming man who comes into a village and wins people over. But he hides a secret under his long hair: a second face on the back of his head, the face of a hyena, with powerful jaws.",
+        "The tales warn of being taken in by a stranger whose charm hides something dangerous."
+      ],
+      "explanation": "It's a folklore figure, a moral tale about trust and appearances. Folklorists compare it to two-faced creatures in other traditions, such as the Japanese futakuchi-onna. There's no evidence it's ever been anything but a story.",
+      "wiki": null
+    },
+    {
+      "slug": "adaro-sea-spirits",
+      "category": "creatures",
+      "title": "The Adaro, Spirits of the Sea",
+      "region": "Makira (San Cristóbal), Solomon Islands",
+      "lat": -10.6,
+      "lon": 161.8,
+      "dateLabel": "Recorded in the 1800s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Solomon Islands tradition",
+      "hook": "In the Solomon Islands, sea spirits with fins and swordfish horns were said to travel along rainbows and shoot flying fish at people.",
+      "summary": [
+        "In the traditions of the Solomon Islands, recorded by missionaries in the 19th century, the adaro were spirits of the sea: part human, with fins behind their ears, a tail, and a sharp horn like a swordfish on their heads.",
+        "They were said to travel on rainbows and waterspouts, and to shoot flying fish at people, causing them to fall ill or faint. The most powerful of them was Ngorieru, who lived in a waterspout."
+      ],
+      "explanation": "They're spirits of local belief, recorded by the missionary Robert Codrington in his studies of Melanesian culture. They've been described in English as 'merman' figures, though in their own tradition they are quite different from European mermaids.",
+      "wiki": "Adaro"
+    },
+    {
+      "slug": "shahmaran",
+      "category": "creatures",
+      "title": "Şahmaran, Queen of the Snakes",
+      "region": "Tarsus, Mersin, Türkiye",
+      "lat": 36.92,
+      "lon": 34.89,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Anatolian and Middle Eastern tradition",
+      "hook": "Anatolian legend tells of a wise queen who is half woman, half snake, living in a hidden cave, betrayed by the man she trusted.",
+      "summary": [
+        "In stories told across Türkiye, Iran and the wider region, Şahmaran is the queen of the snakes, with the head and upper body of a woman and the body of a serpent. A young man who fell into her underground realm was taken in and taught her wisdom, and he promised never to reveal where she lived.",
+        "Later, the king of the land fell ill, and his vizier said only Şahmaran's flesh could cure him. The young man was forced to betray her. Before she died, she shared her knowledge with him."
+      ],
+      "explanation": "It's a folk legend with many versions. Tarsus has a bathhouse called the Şahmaran Hamamı connected with the story, and her image is a popular folk art motif in eastern Türkiye, painted on glass and copper as a symbol of wisdom and good fortune.",
+      "wiki": "Shahmaran"
+    },
+    {
+      "slug": "albasty",
+      "category": "visitors",
+      "title": "The Albasty",
+      "region": "Kazakhstan",
+      "lat": 43.3,
+      "lon": 77.0,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Turkic and Central Asian tradition",
+      "hook": "Across Central Asia, people tell of a figure with long hair and backwards feet who sits on the chests of sleepers at night.",
+      "summary": [
+        "Among Kazakh, Kyrgyz and other Turkic peoples, the albasty is a spirit in the form of a woman with long, tangled hair, sometimes with her feet turned backwards. She was said to visit at night and sit on people's chests, so they woke unable to move or breathe.",
+        "She was especially feared by new mothers, and families kept iron objects and other protective charms near them for protection."
+      ],
+      "explanation": "The pressing on the chest and inability to move closely match sleep paralysis, a common experience explained by the brain waking while the body is still in the paralysis of dreaming sleep. Similar figures appear worldwide, like the kikimora and the mara.",
+      "wiki": "Albasty"
+    },
+    {
+      "slug": "ghatotkacha-skeleton-hoax",
+      "category": "creatures",
+      "title": "The Giant Skeleton Photographs",
+      "region": "Northern India (as claimed)",
+      "lat": 28.4,
+      "lon": 77.6,
+      "dateLabel": "Circulated from 2004",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "Millions of people who shared the photos online",
+      "hook": "Photos went around the world of archaeologists uncovering a skeleton many metres long, said to be a giant from ancient legend.",
+      "summary": [
+        "From about 2004, photographs were shared widely by email and later on social media showing archaeologists crouching beside an enormous human skeleton half-buried in the ground. The captions said it had been found in northern India, and linked it to Ghatotkacha, a giant warrior of the Mahabharata, or to other giants of legend.",
+        "Some versions claimed that a famous geographic society had confirmed the discovery and that the authorities were covering it up."
+      ],
+      "explanation": "The images were altered photographs. One began as an entry in a 2002 online contest for creating archaeological fakes. The society named in the captions said it had never made any such discovery. Versions of the photo are still shared today, with new captions.",
+      "wiki": null
+    },
+    {
+      "slug": "jenny-greenteeth",
+      "category": "creatures",
+      "title": "Jenny Greenteeth",
+      "region": "Lancashire, England",
+      "lat": 53.75,
+      "lon": -2.7,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Northern English tradition",
+      "hook": "In northern England, children were told that a green-toothed river hag lurked under the weed-covered water of ponds, waiting to pull them in.",
+      "summary": [
+        "In Lancashire, Cheshire and neighbouring counties, generations of children were warned about Jenny Greenteeth, a hag with green skin, long hair and sharp green teeth who hid beneath the surface of ponds and rivers, especially where the water was covered with green duckweed.",
+        "If a child leaned too close to the water's edge, she would reach up and drag them under."
+      ],
+      "explanation": "Folklorists see her as a 'nursery bogey', a frightening figure invented to keep children away from dangerous water. Duckweed-covered ponds look like solid ground, so the warning had a real purpose. In some areas the duckweed itself was called Jenny Greenteeth.",
+      "wiki": "Jenny Greenteeth"
+    },
+    {
+      "slug": "bean-nighe",
+      "category": "visitors",
+      "title": "The Bean Nighe, the Washer at the Ford",
+      "region": "Scottish Highlands, Scotland",
+      "lat": 57.2,
+      "lon": -5.2,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Highland tradition",
+      "hook": "In the Scottish Highlands, a woman seen washing clothes in a lonely stream at night is washing the clothes of someone soon to die.",
+      "summary": [
+        "Highland folklore tells of the bean nighe, the washerwoman, seen at a ford or by a remote stream, washing the clothes of those about to die. She's usually small, dressed in green, and sometimes said to have webbed feet.",
+        "If you see her before she sees you, the story says, you can approach her quietly and ask her questions, and she must answer them truthfully, or even grant a wish."
+      ],
+      "explanation": "She belongs to the same family of omens as the Irish banshee and the Welsh corpse candles. Folklorists link such figures to a time when washing the clothes of the dead was part of preparing for a funeral.",
+      "wiki": "Bean nighe"
+    },
+    {
+      "slug": "pontianak",
+      "category": "visitors",
+      "title": "The Pontianak",
+      "region": "Pontianak, West Kalimantan, Indonesia",
+      "lat": -0.03,
+      "lon": 109.33,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Malay tradition",
+      "hook": "Malay folklore tells of a woman in white who announces herself with the scent of frangipani, and a city in Borneo is named after her.",
+      "summary": [
+        "In Malaysian and Indonesian folklore, the pontianak, or kuntilanak, is the spirit of a woman who died in childbirth. She appears at night as a beautiful woman in white with long black hair, and her arrival is signalled by the sweet smell of frangipani flowers, followed by a foul smell.",
+        "Some say that when her cry sounds close, she's far away, and when it sounds far away, she's near. A nail driven into the back of her neck is said to turn her back into a gentle woman."
+      ],
+      "explanation": "It's a folk belief with deep roots in the region. The Indonesian city of Pontianak takes its name from the legend: tradition says its founder, the sultan Syarif Abdurrahman, drove the spirits away with cannon fire when he founded the town in 1771. She is a staple of Malay horror films.",
+      "wiki": "Pontianak (folklore)"
+    },
+    {
+      "slug": "penanggalan",
+      "category": "visitors",
+      "title": "The Penanggalan",
+      "region": "Perak, Malaysia",
+      "lat": 4.6,
+      "lon": 101.1,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Malay tradition",
+      "hook": "In Malay folklore, a woman's head detaches at night and flies off through the dark, and she has to soak her body in vinegar to fit back into it.",
+      "summary": [
+        "The penanggalan is one of the strangest figures in Malay folklore: by day a woman, often a midwife, but at night her head detaches from her body and flies off in search of prey, trailing what lies beneath it. She has to keep a vat of vinegar at home to shrink herself so she can return to her body before dawn.",
+        "People planted thorny plants around their houses, so she would be caught as she flew past."
+      ],
+      "explanation": "It belongs to a family of flying-head beings across Southeast Asia, alongside the Thai krasue and the Philippine manananggal. Folklorists link these figures to fears around childbirth, a dangerous time for mothers and babies before modern medicine.",
+      "wiki": "Penanggalan"
+    },
+    {
+      "slug": "tiyanak",
+      "category": "creatures",
+      "title": "The Tiyanak",
+      "region": "Luzon, Philippines",
+      "lat": 15.3,
+      "lon": 120.9,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Philippine tradition",
+      "hook": "In Philippine folklore, a baby crying alone in the forest at night might not be a baby at all.",
+      "summary": [
+        "The tiyanak is a creature of Philippine folklore that takes the form of a crying baby, left in the forest or by a road at night. When a kind traveller picks it up, it turns into a monster and attacks, or leads them astray into the forest.",
+        "To protect themselves, travellers who got lost were told to turn their clothes inside out, which would make the tiyanak laugh and give itself away."
+      ],
+      "explanation": "It's a folklore creature, and versions of it appear in films and comics. Some scholars think its stories reflect older beliefs about babies who died before baptism, shaped by Spanish colonial-era teachings.",
+      "wiki": "Tiyanak"
+    },
+    {
+      "slug": "la-tunda",
+      "category": "visitors",
+      "title": "La Tunda",
+      "region": "Pacific coast of Colombia and Ecuador",
+      "lat": 2.0,
+      "lon": -78.3,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Afro-Colombian and Afro-Ecuadorian tradition",
+      "hook": "On the Pacific coast of Colombia, a shape-shifter in the mangroves takes the form of someone you love to lead you into the forest.",
+      "summary": [
+        "Among the Afro-descendant communities of the Pacific coast of Colombia and Ecuador, La Tunda is a figure who lives deep in the mangrove forests. She can take the shape of a loved one, a mother or a friend, to lure people, especially children, away into the swamp.",
+        "Those she captures fall into a daze, entundado, and are fed shrimp until they forget their families. To bring them back, the community goes into the forest with drums, prayers and the sound of their names."
+      ],
+      "explanation": "La Tunda is part of the rich oral culture of the region, and folklorists link her to warnings about the real dangers of the forest and rivers. Communities still tell her story, and she appears in music and theatre.",
+      "wiki": null
+    },
+    {
+      "slug": "mohan",
+      "category": "creatures",
+      "title": "The Mohán",
+      "region": "Magdalena River, Tolima, Colombia",
+      "lat": 4.2,
+      "lon": -74.8,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Colombian river tradition",
+      "hook": "On Colombia's great river, fishermen tell of a long-haired, bearded figure who lives in a cave under the water and plays tricks on those who fish.",
+      "summary": [
+        "Along the Magdalena River in Colombia, the Mohán is said to be a wild, hairy man with a long beard and glowing eyes who lives in an underwater cave or a hidden grotto by the river. He smokes tobacco, plays the guitar, and owns treasures of gold.",
+        "Fishermen leave him tobacco and salt to keep him happy, because he can tangle their nets, scare the fish away, overturn canoes or charm away young women who go down to the river."
+      ],
+      "explanation": "The Mohán is linked to Indigenous traditions of river spirits and shamans, transformed in colonial times. Folklorists see him as a personification of the river's power and danger. He's celebrated in the region's folklore festivals.",
+      "wiki": null
+    },
+    {
+      "slug": "perchta",
+      "category": "visitors",
+      "title": "Perchta of the Twelve Nights",
+      "region": "Salzburg, Austria",
+      "lat": 47.8,
+      "lon": 13.04,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Alpine tradition",
+      "hook": "In the Alps, a figure visited homes in the nights after Christmas, rewarding the hard-working and punishing those who'd been idle.",
+      "summary": [
+        "In Alpine folklore, Perchta, or Berchta, roams the countryside during the twelve nights between Christmas and Epiphany. She checks that the spinning has been finished and the house is tidy, leaving a silver coin for the diligent and threatening the lazy with dreadful punishments.",
+        "In parts of Austria and Bavaria, people still hold Perchtenläufe: parades of masked figures, some beautiful and some hideous, with bells and horns, to drive away the spirits of winter."
+      ],
+      "explanation": "Perchta is probably descended from an older goddess or spirit of midwinter. The parades are a living custom, popular with visitors. She's related to other Christmas-season figures who reward and punish, such as Krampus and the Yule Lads.",
+      "wiki": "Perchta"
+    },
+    {
+      "slug": "la-befana",
+      "category": "visitors",
+      "title": "La Befana",
+      "region": "Urbania, Marche, Italy",
+      "lat": 43.67,
+      "lon": 12.52,
+      "dateLabel": "Every 5–6 January",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Italian tradition",
+      "hook": "On the night before Epiphany, an old woman on a broomstick flies over Italy, leaving sweets for good children and coal for naughty ones.",
+      "summary": [
+        "In Italian tradition, La Befana is an old woman who flies through the sky on her broomstick on the night of 5 January, coming down chimneys to fill children's stockings with sweets, or with lumps of coal if they've been bad. She also sweeps the floor before she leaves.",
+        "One legend says the Three Wise Men stopped at her house on their way to Bethlehem and invited her to come. She was too busy, changed her mind too late, and has been searching for the child ever since."
+      ],
+      "explanation": "La Befana probably has roots in older midwinter customs. Her name comes from Epifania, Epiphany. The town of Urbania in the Marche claims to be her home and holds a large festival every January.",
+      "wiki": "Befana"
+    },
+    {
+      "slug": "mari-lwyd",
+      "category": "visitors",
+      "title": "The Mari Lwyd",
+      "region": "Glamorgan, Wales",
+      "lat": 51.6,
+      "lon": -3.4,
+      "dateLabel": "Every midwinter",
+      "status": "open",
+      "statusLabel": "Folk custom",
+      "witnesses": "Welsh communities",
+      "hook": "In Welsh villages at midwinter, a horse's skull on a pole, draped in a white sheet, knocks at the door and challenges you to a battle of rhymes.",
+      "summary": [
+        "The Mari Lwyd, 'Grey Mare', is a Welsh custom of the midwinter season. A horse's skull, decorated with ribbons and with glass eyes, is mounted on a pole and carried by someone hidden under a white sheet. Its jaw snaps open and shut.",
+        "The Mari and her party go from house to house, and at each door they sing verses challenging the people inside to a contest of improvised rhymes, called pwnco. If the householders run out of replies, the Mari is let in for food and drink."
+      ],
+      "explanation": "It's a living folk tradition, probably centuries old, though its origins are unclear. It almost died out in the 20th century but has been revived in many towns in south Wales. Its eerie look makes it one of Britain's most uncanny customs.",
+      "wiki": "Mari Lwyd"
+    },
+    {
+      "slug": "rokurokubi",
+      "category": "visitors",
+      "title": "The Rokurokubi",
+      "region": "Japan",
+      "lat": 34.98,
+      "lon": 136.5,
+      "dateLabel": "Told since the Edo period",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese tradition",
+      "hook": "In Japanese folklore, a woman who seems ordinary by day has a neck that stretches across the room at night while she sleeps.",
+      "summary": [
+        "Rokurokubi are yokai, supernatural beings of Japanese folklore, that look like ordinary people by day. At night, while they sleep, their necks stretch to great lengths, and their heads wander around the house, sometimes licking the oil from the lamps.",
+        "Many are said not to know they are rokurokubi at all, and stories tell of travellers waking at an inn to see a head drifting across the ceiling."
+      ],
+      "explanation": "They're creatures of folklore, popular in Edo-period stories and woodblock prints. A related type, the nukekubi, has a head that detaches completely. Lafcadio Hearn's collection Kwaidan brought them to Western readers.",
+      "wiki": "Rokurokubi"
+    },
+    {
+      "slug": "vetala-of-ujjain",
+      "category": "visitors",
+      "title": "King Vikram and the Vetala",
+      "region": "Ujjain, Madhya Pradesh, India",
+      "lat": 23.18,
+      "lon": 75.78,
+      "dateLabel": "Told for over a thousand years",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Indian storytelling tradition",
+      "hook": "Indian tales tell of a king who tried to carry a spirit from a tree in a cremation ground, and had to listen to its riddles every step of the way.",
+      "summary": [
+        "In the Vetala Panchavimshati, the Twenty-five Tales of the Vetala, the legendary King Vikramaditya of Ujjain promises a sorcerer to bring him a body hanging from a tree in a cremation ground. The body is possessed by a vetala, a spirit, and as the king carries it, the vetala tells him a story ending with a riddle.",
+        "If the king knows the answer and keeps silent, his head will burst; if he speaks, the vetala flies back to its tree. Again and again he answers, and has to start over, until at last a riddle leaves him silent."
+      ],
+      "explanation": "It's a classic collection of frame stories, written down in Sanskrit around the 11th century and told across South Asia ever since. Its puzzles about justice and duty are still loved, and it has been adapted many times, including the popular TV series Vikram aur Betaal.",
+      "wiki": "Baital Pachisi"
+    },
+    {
+      "slug": "beaulieu-abbey-monks",
+      "category": "voices",
+      "title": "The Chanting Monks of Beaulieu",
+      "region": "Beaulieu Abbey, Hampshire, England",
+      "lat": 50.82,
+      "lon": -1.45,
+      "dateLabel": "Reported in the 20th century",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Residents and visitors to the abbey",
+      "hook": "At the ruins of a medieval abbey, people say they've heard monks chanting where no monks have lived for nearly five hundred years.",
+      "summary": [
+        "Beaulieu Abbey in the New Forest was founded by Cistercian monks in 1204 and closed by Henry VIII in 1538. Parts of it survive among later buildings on the Beaulieu estate.",
+        "Residents and visitors have reported hearing the sound of chanting and plainsong at times when no service was taking place, smelling incense, and seeing figures in brown robes in the grounds."
+      ],
+      "explanation": "Suggestions include sounds carried from the nearby church or estate, wind in the ruins, and the power of suggestion in a famous old place. The reports are part of the estate's ghost tours today.",
+      "wiki": "Beaulieu Abbey"
+    },
+    {
+      "slug": "lake-fundudzi",
+      "category": "places",
+      "title": "Lake Fundudzi, the Sacred Lake",
+      "region": "Soutpansberg mountains, Limpopo, South Africa",
+      "lat": -22.85,
+      "lon": 30.31,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Venda tradition",
+      "hook": "A lake in the mountains of northern South Africa is guarded by a python god, and its water is said never to mix with any other.",
+      "summary": [
+        "Lake Fundudzi, in the Soutpansberg mountains, is one of the very few natural lakes in South Africa, formed when a landslide blocked a river valley. It's sacred to the Venda people, who believe it's guarded by a white python, the god of fertility, and by the spirits of their ancestors.",
+        "Stories say the water in its basin won't mix with other water, and that visitors must greet the lake properly, bending down and looking at it from between their legs. Access is controlled by the local guardians."
+      ],
+      "explanation": "The lake is a real natural feature and a protected sacred site. Its beliefs are part of a living religious tradition, which visitors are asked to respect. Geologists explain the lake as a natural landslide dam, which also explains why it has no visible outflow on the surface.",
+      "wiki": "Lake Fundudzi"
     }
 ];
