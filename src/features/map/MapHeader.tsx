@@ -3,6 +3,7 @@
 import { Toggle } from "@base-ui/react/toggle";
 import { ToggleGroup } from "@base-ui/react/toggle-group";
 import Link from "next/link";
+import { HEAVY_PAGE } from "@/lib/nav";
 import type { CSSProperties, Ref } from "react";
 import { CATEGORIES, CATEGORY_KEYS, type Category } from "@/lib/categories";
 import type { World } from "@/lib/bodies";
@@ -83,7 +84,7 @@ export function MapHeader({ ref, items, ...p }: Props) {
         )}
         <p>{NOTES[p.mode]}</p>
         {p.mode === "famous" ? (
-          <Link className="all-cases" href="/cases">
+          <Link className="all-cases" href="/cases" prefetch={HEAVY_PAGE}>
             Browse all famous cases {Icon.arrow}
           </Link>
         ) : (

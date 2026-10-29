@@ -9,6 +9,7 @@ type Args = { lat: number; lon: number; markers: EngineItem[]; world: World };
 /** How close the preview ends up (the whole Moon shows, so it reads as the Moon), and where it starts gliding in from. */
 const ZOOM = { earth: 3.4, moon: 1.25 };
 const START = { dLat: -14, dLon: 38, zoom: 1.6 };
+const GLIDE_MS = 2400;
 
 const noop = () => {};
 
@@ -26,6 +27,8 @@ export function useCaseGlobe({ lat, lon, markers, world }: Args) {
   useEffect(() => {
     let engine: GlobeEngine | null = null;
     let cancelled = false;
+    let detailTimer: ReturnType<typeof setTimeout> | undefined;
+    const fail = (err: unknown) => console.error("Could not load the globe", err);
     const start = { lat: lat + START.dLat, lon: lon + START.dLon, zoom: START.zoom };
     loadLand(world === "moon" ? "moon" : "low")
       .then((land) => {
@@ -47,13 +50,21 @@ export function useCaseGlobe({ lat, lon, markers, world }: Args) {
         if (world === "moon") engine.setWorld("moon", land, null, start);
         engine.setItems(markersRef.current, true);
         engine.pin(markersRef.current[0]?.key ?? null);
-        engine.flyTo(lon, lat, ZOOM[world], 2400);
-        // The Moon has one set of outlines; Earth's detailed coastlines follow.
-        return world === "earth" ? loadLand("high").then((detail) => engine?.setDetail(detail)) : undefined;
+        engine.flyTo(lon, lat, ZOOM[world], GLIDE_MS);
+        // The Moon has one set of outlines. Earth's detailed coastlines (170 KB) wait until the glide has ended, so
+        // they don't compete with the rest of the page while it loads, on slow connections especially.
+        if (world === "earth") {
+          detailTimer = setTimeout(() => {
+            loadLand("high")
+              .then((detail) => engine?.setDetail(detail))
+              .catch(fail);
+          }, GLIDE_MS);
+        }
       })
-      .catch((err: unknown) => console.error("Could not load the globe", err));
+      .catch(fail);
     return () => {
       cancelled = true;
+      clearTimeout(detailTimer);
       engine?.destroy();
     };
   }, [lat, lon, world]);

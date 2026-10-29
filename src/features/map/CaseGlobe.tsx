@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { HEAVY_PAGE } from "@/lib/nav";
 import type { EngineItem } from "@/features/globe/engine";
 import type { World } from "@/lib/bodies";
 import { formatCoords } from "@/lib/geo";
@@ -28,7 +29,12 @@ export function CaseGlobe({ slug, title, lat, lon, world, markers, total }: Prop
   // Refs stay standalone variables, as the React Compiler rules require.
   const { baseRef, dotsRef } = globe;
   return (
-    <Link className="case-globe" href={`/?case=${slug}`} aria-label={`Tune in to ${title} on the map`}>
+    <Link
+      className="case-globe"
+      href={`/?case=${slug}`}
+      prefetch={HEAVY_PAGE}
+      aria-label={`Tune in to ${title} on the map`}
+    >
       <div className="case-globe-view">
         <canvas ref={baseRef} aria-hidden="true" />
         <canvas ref={dotsRef} aria-hidden="true" />

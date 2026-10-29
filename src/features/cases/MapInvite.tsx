@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HEAVY_PAGE } from "@/lib/nav";
 
 type Props = { slug: string; title: string; total: number };
 
@@ -15,10 +16,10 @@ export function MapInvite({ slug, title, total }: Props) {
         something keeps happening, from every corner of the world.
       </p>
       <div className="links">
-        <Link className="btn primary" href={`/?case=${slug}`}>
+        <Link className="btn primary" href={`/?case=${slug}`} prefetch={HEAVY_PAGE}>
           Explore the map from here
         </Link>
-        <Link className="btn" href="/cases">
+        <Link className="btn" href="/cases" prefetch={HEAVY_PAGE}>
           Browse all cases
         </Link>
       </div>

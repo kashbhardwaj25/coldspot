@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HEAVY_PAGE } from "@/lib/nav";
 import { ArticleTitle } from "@/components/article";
 import type { Place } from "@/lib/types";
 import { MIN_PER_PLACE, placePath } from "./places";
@@ -27,7 +28,10 @@ export function PlacesIndex({ places }: { places: Place[] }) {
         <div className="prose">
           <p>
             And encounters in {rest} more {rest === 1 ? "country" : "countries"}, listed with{" "}
-            <Link href="/cases">all famous cases</Link>.
+            <Link href="/cases" prefetch={HEAVY_PAGE}>
+              all famous cases
+            </Link>
+            .
           </p>
         </div>
       )}
