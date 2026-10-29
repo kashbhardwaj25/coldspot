@@ -21401,5 +21401,1919 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
       ],
       "explanation": "The lake is a real natural feature and a protected sacred site. Its beliefs are part of a living religious tradition, which visitors are asked to respect. Geologists explain the lake as a natural landslide dam, which also explains why it has no visible outflow on the surface.",
       "wiki": "Lake Fundudzi"
+    },
+    {
+      "slug": "holes-in-the-moon",
+      "featured": true,
+      "body": "moon",
+      "category": "places",
+      "title": "The Holes in the Moon",
+      "region": "Mare Tranquillitatis, the Moon",
+      "lat": 8.34,
+      "lon": 33.22,
+      "dateLabel": "Found in 2009",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Japan's Kaguya orbiter and NASA's Lunar Reconnaissance Orbiter",
+      "hook": "Spacecraft orbiting the Moon have photographed deep round holes in its plains, and at least one leads into a cave.",
+      "summary": [
+        "In 2009, pictures from Japan's Kaguya orbiter showed a dark, round hole in the Marius Hills, a pit with sheer walls dropping into blackness. NASA's Lunar Reconnaissance Orbiter has since found more than 200 such pits, including one about 100 metres wide in the Sea of Tranquillity, not far from where Apollo 11 landed.",
+        "From above, sunlight on some pit floors seemed to reach under an overhanging edge, which raised a question people had asked for decades: are there caves inside the Moon?"
+      ],
+      "explanation": "The pits are thought to be skylights, places where the roof of an old lava tube has fallen in. In 2024, scientists re-examining radar data from the orbiter reported that the Tranquillitatis pit opens into a passage running at least tens of metres underground. Caves like this could one day shelter astronauts from radiation and temperature swings.",
+      "wiki": "Lunar lava tube"
+    },
+    {
+      "slug": "lunar-horizon-glow",
+      "body": "moon",
+      "category": "sky",
+      "title": "The Glow on the Moon's Horizon",
+      "region": "Near Tycho crater, the Moon",
+      "lat": -40.98,
+      "lon": -11.51,
+      "dateLabel": "1967–1972",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "The Surveyor landers' cameras, and the crew of Apollo 17",
+      "hook": "The Moon has almost no air, so its sunsets should be instant and sharp. Cameras on the surface caught a glow along the horizon anyway.",
+      "summary": [
+        "After the Sun set at their landing sites in 1967 and 1968, the cameras on NASA's Surveyor 5, 6 and 7 landers photographed a faint band of light along the western horizon. On Earth that would just be twilight, but the Moon has no real atmosphere to scatter the light.",
+        "In 1972, Eugene Cernan of Apollo 17 sketched what he saw from orbit just before lunar sunrise: streamers and bands of light rising above the horizon, like the rays of a sunrise on Earth seen through haze."
+      ],
+      "explanation": "The leading idea is that sunlight was scattered by fine dust lifted off the surface, perhaps by electric charges where daylight meets shadow. NASA's LADEE orbiter went looking for that dust in 2013 and 2014 and found far less than expected, so what lit the horizon is still debated.",
+      "wiki": "Lunar horizon glow"
+    },
+    {
+      "slug": "apollo-20-hoax",
+      "body": "moon",
+      "category": "visitors",
+      "title": "Apollo 20 and the Ship on the Far Side",
+      "region": "Near Izsak crater, far side of the Moon",
+      "lat": -23.3,
+      "lon": 117.1,
+      "dateLabel": "Videos posted in 2007",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "An anonymous YouTube account claiming to be a former astronaut",
+      "hook": "Videos said a secret Apollo mission found an enormous ancient spaceship on the far side of the Moon, with a sleeping alien woman inside.",
+      "summary": [
+        "In 2007, a YouTube account began posting grainy films said to come from Apollo 20, a secret joint American and Soviet mission flown in 1976. They showed a long, cigar-shaped object lying in a crater near Izsak on the far side, and the interior of a craft with a humanoid figure the poster called 'Mona Lisa'.",
+        "A man claiming to be one of the astronauts gave interviews, and the story spread across UFO forums and television for years."
+      ],
+      "explanation": "Apollo 20 was planned but cancelled in 1970, and the program ended with Apollo 17 in 1972. The 'ship' appears in real Apollo 15 photographs of the area as an ordinary ridge, and the person behind the videos later admitted they were a hoax made with models.",
+      "wiki": "Izsak (crater)"
+    },
+    {
+      "slug": "beresheet-tardigrades",
+      "body": "moon",
+      "category": "creatures",
+      "title": "The Tardigrades That Crashed on the Moon",
+      "region": "Mare Serenitatis, the Moon",
+      "lat": 32.6,
+      "lon": 19.3,
+      "dateLabel": "11 April 2019",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "The Beresheet mission team",
+      "hook": "When a small Israeli lander crashed on the Moon, it was carrying thousands of dried-out tardigrades, animals famous for surviving almost anything.",
+      "summary": [
+        "Beresheet, built by the Israeli non-profit SpaceIL, was the first privately funded attempt to land on the Moon. On 11 April 2019 an engine problem during its descent sent it into the Sea of Serenity, and it broke apart on impact.",
+        "On board was a small archive of human knowledge, and, sealed into it, dehydrated tardigrades: tiny 'water bears' that can survive freezing, boiling, radiation and the vacuum of space by drying out and shutting down. News that there might be animals on the Moon went around the world."
+      ],
+      "explanation": "Even if any survived the crash, tardigrades can't wake up, feed or breed without liquid water, so they couldn't live on the Moon. In 2021 researchers fired tardigrades from a gun to test the impact; they survived up to about 900 metres a second, and the team thought Beresheet's crash was probably too violent for them.",
+      "wiki": "Beresheet"
+    },
+    {
+      "slug": "lunokhod-1-found",
+      "body": "moon",
+      "category": "places",
+      "title": "The Lost Moon Rover",
+      "region": "Mare Imbrium, the Moon",
+      "lat": 38.32,
+      "lon": -35.0,
+      "dateLabel": "Lost in 1971, found in 2010",
+      "status": "explained",
+      "statusLabel": "Found",
+      "witnesses": "Soviet controllers, and astronomers in the United States",
+      "hook": "The first rover to drive on another world fell silent in 1971, and for almost forty years no one knew exactly where it was parked.",
+      "summary": [
+        "Lunokhod 1 was a Soviet rover, driven by remote control from Earth, that landed in the Sea of Rains in November 1970. Over ten months it travelled about 10 kilometres, sending back thousands of pictures, until contact was lost in September 1971.",
+        "It carried a mirror for bouncing lasers back to Earth, but nobody could find it again. For decades its location was known only roughly, and its reflector stayed quiet."
+      ],
+      "explanation": "In 2010, pictures from NASA's Lunar Reconnaissance Orbiter showed the rover and its tracks. A team in New Mexico then aimed a laser at that spot and got a reflection back, much stronger than expected, so the old rover is useful again for measuring the distance to the Moon.",
+      "wiki": "Lunokhod 1"
+    },
+    {
+      "slug": "les-1-zombie-satellite",
+      "body": "orbit",
+      "category": "voices",
+      "title": "The Satellite That Spoke After 45 Years",
+      "region": "In orbit, heard from Cornwall, England",
+      "lat": 50.26,
+      "lon": -5.05,
+      "dateLabel": "Silent from 1967, heard in 2013",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "An amateur radio operator in Cornwall, and others who listened for it afterwards",
+      "hook": "A forgotten military satellite went silent in 1967. In 2013, a radio amateur in England heard it transmitting again.",
+      "summary": [
+        "LES-1, the US Air Force's Lincoln Experimental Satellite 1, was launched in 1965 to test radio communications, but a wiring problem left it stuck in the wrong orbit. It was abandoned in 1967 and nobody listened for it again.",
+        "In 2013 an amateur radio operator in Cornwall picked up a signal on its old frequency, warbling every few seconds. He tracked it, and the signal matched the lost satellite."
+      ],
+      "explanation": "Its batteries had probably failed in a way that connected the solar panels straight to the transmitter, so it switches on whenever sunlight falls on it. It tumbles end over end every few seconds, which makes its tone rise and fall. Radio amateurs call satellites like this 'zombies'.",
+      "wiki": "LES-1"
+    },
+    {
+      "slug": "j002e3",
+      "body": "orbit",
+      "category": "sky",
+      "title": "J002E3, the New Moon That Was Apollo",
+      "region": "In orbit, found from Arizona, USA",
+      "lat": 31.95,
+      "lon": -110.22,
+      "dateLabel": "September 2002",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "An amateur astronomer, then observatories worldwide",
+      "hook": "In 2002, an amateur astronomer found a new object circling the Earth. It turned out to be part of a rocket that had left for the Moon in 1969.",
+      "summary": [
+        "On 3 September 2002, an amateur astronomer in Arizona spotted a moving point of light that wasn't in any catalogue. Its path showed it was in a loose orbit around the Earth, and it hadn't been there a year before. It was given the name J002E3.",
+        "For a while, astronomers wondered if they had found a small asteroid captured by Earth's gravity, a new temporary moon."
+      ],
+      "explanation": "Its light had the colours of the titanium white paint used on Saturn V rockets, and its orbit traced back to 1971. Scientists concluded it was almost certainly the third stage of the rocket that sent Apollo 12 to the Moon in 1969, which had been circling the Sun ever since. It came back to Earth's neighbourhood for about a year, then left again in 2003.",
+      "wiki": "J002E3"
+    },
+    {
+      "slug": "wt1190f",
+      "body": "orbit",
+      "category": "sky",
+      "title": "WT1190F, the Object That Came Home",
+      "region": "Fell into the sea off southern Sri Lanka",
+      "lat": 5.6,
+      "lon": 81.4,
+      "dateLabel": "13 November 2015",
+      "status": "open",
+      "statusLabel": "Never identified",
+      "witnesses": "Astronomers, and observers on an aircraft over the Indian Ocean",
+      "hook": "Astronomers predicted almost to the minute when a small mystery object would fall from orbit. They never found out what it was.",
+      "summary": [
+        "WT1190F was a small object, perhaps one or two metres across, that had been looping around the Earth in a long orbit reaching past the Moon. In October 2015 astronomers worked out that it would come down on 13 November, about 100 kilometres off the southern tip of Sri Lanka.",
+        "A team of scientists flew out on a chartered jet to watch. At the predicted time, it lit up as a bright fireball and broke apart high above the ocean."
+      ],
+      "explanation": "It was too light for its size to be a rock, so it was almost certainly something hollow and made by people, such as a rocket stage or a panel from a mission to the Moon. Which mission it came from was never settled.",
+      "wiki": "WT1190F"
+    },
+    {
+      "slug": "kosmos-482",
+      "body": "orbit",
+      "category": "sky",
+      "title": "Kosmos 482, the Venus Probe That Never Left",
+      "region": "In orbit; fell into the Indian Ocean west of Jakarta",
+      "lat": -6.0,
+      "lon": 102.0,
+      "dateLabel": "Launched 1972, fell 10 May 2025",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Satellite trackers around the world",
+      "hook": "A Soviet spacecraft built to land on Venus got stuck circling the Earth in 1972. For 53 years, nobody knew where it would finally come down.",
+      "summary": [
+        "In March 1972, the Soviet Union launched two probes to Venus. One, Venera 8, reached the planet and landed. The other's rocket failed to fire properly, leaving it stranded in orbit around the Earth. The Soviets gave it a vague name, Kosmos 482, and said little about it.",
+        "Its lander was built to survive the crushing heat and pressure of Venus, so it was expected to come through re-entry largely in one piece. For decades, amateur trackers followed it as its orbit slowly sank, and in 2025 the world watched to see where half a tonne of Soviet hardware would fall."
+      ],
+      "explanation": "It came down on 10 May 2025, most likely in the Indian Ocean west of Jakarta, and no debris was found. Parts of the rocket that launched it had fallen back much earlier, in 1972, landing in New Zealand.",
+      "wiki": "Kosmos 482"
+    },
+    {
+      "slug": "earths-second-moons",
+      "body": "orbit",
+      "category": "sky",
+      "title": "Earth's Little Second Moons",
+      "region": "In orbit, spotted from Sutherland, South Africa",
+      "lat": -32.38,
+      "lon": 20.81,
+      "dateLabel": "2006, 2020 and 2024",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Sky surveys in the United States and South Africa",
+      "hook": "Every so often, the Earth catches a tiny asteroid and keeps it for a while as a second moon.",
+      "summary": [
+        "In 2006, the Catalina Sky Survey in Arizona found a few-metre-wide asteroid, 2006 RH120, circling the Earth. It stayed for about a year before drifting off. Another, 2020 CD3, was found in 2020.",
+        "In August 2024, a telescope at Sutherland in South Africa picked up 2024 PT5, a rock about ten metres across that was briefly caught by Earth's gravity that autumn. Newspapers around the world reported that the Earth had a second moon."
+      ],
+      "explanation": "These are small near-Earth asteroids moving at almost the same speed as the Earth around the Sun, so Earth's gravity can pull them into a loose, temporary orbit for weeks or months. Astronomers think there is usually at least one around, too small and faint to be seen.",
+      "wiki": "Temporary satellite"
+    },
+    {
+      "slug": "carreta-nagua",
+      "category": "voices",
+      "title": "La Carreta Nagua, the Cart in the Night",
+      "region": "León, Nicaragua",
+      "lat": 12.43,
+      "lon": -86.88,
+      "dateLabel": "Told since colonial times",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Nicaraguan folklore",
+      "hook": "Late at night in old Nicaraguan towns, people say you can hear an ox cart creaking down the street with no one in sight.",
+      "summary": [
+        "In Nicaraguan folklore, the Carreta Nagua is a phantom cart that rolls through towns such as León, Masaya and Granada after midnight. People describe hearing it before they see it: the creak of wooden wheels, the clatter on cobbles and the rattle of chains.",
+        "Those who look out say it's pulled by thin oxen and driven by Death in a hooded cloak, and the story goes that it stops near a house where someone will soon die. Many people say they've heard it pass; few say they looked."
+      ],
+      "explanation": "Folklorists link the legend to the Spanish conquest, when carts carried goods, and sometimes captives, through the region. Ordinary sounds on quiet streets at night, and the warning not to stay out late, have kept it alive.",
+      "wiki": null
+    },
+    {
+      "slug": "la-tulevieja",
+      "category": "visitors",
+      "title": "La Tulevieja",
+      "region": "Los Santos, Panama",
+      "lat": 7.77,
+      "lon": -80.28,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Panamanian and Costa Rican folklore",
+      "hook": "By rivers in Panama, people say a woman with a face full of holes and feet like a bird's searches the water for the child she lost.",
+      "summary": [
+        "The Tulevieja is one of the best-known figures in Panamanian folklore. In most versions she was a young woman who lost her baby in a river and was cursed for it, turned into a creature with a pitted face, long hair, wings and clawed feet.",
+        "She is said to wander the riverbanks at night crying for the child, and in some tellings to try to take babies left alone. Parents used the story to keep children away from rivers after dark."
+      ],
+      "explanation": "She belongs to a family of weeping-woman legends across Latin America, alongside La Llorona. Folklorists see her as a warning tale, about the dangers of rivers and about mothers' duties, rather than a report of something seen.",
+      "wiki": "Tulevieja"
+    },
+    {
+      "slug": "saut-deau",
+      "category": "visitors",
+      "title": "The Vision at Saut-d'Eau",
+      "region": "Saut-d'Eau, Centre, Haiti",
+      "lat": 18.82,
+      "lon": -72.2,
+      "dateLabel": "Mid-1800s, and every July",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Villagers, and pilgrims ever since",
+      "hook": "In the 1800s, people said the Virgin Mary appeared in a palm tree beside a waterfall in central Haiti. Thousands still come every July to bathe there.",
+      "summary": [
+        "The story told at Saut-d'Eau is that in the mid-1800s a figure of the Virgin Mary appeared in the leaves of a palm tree near the falls. In one version, a priest had the tree cut down to stop the crowds, and the vision appeared again in the waterfall's spray.",
+        "Each July, thousands of pilgrims travel to the falls. Catholics honour Our Lady of Mount Carmel; followers of Vodou honour Erzulie, the spirit of love, and Damballa, the serpent spirit; many people honour both. They bathe in the cascades to be cleansed and to ask for luck."
+      ],
+      "explanation": "The vision is a matter of faith, not something that can be checked. What is real is one of the largest pilgrimages in the Caribbean, part of a living religious tradition that visitors are asked to respect.",
+      "wiki": "Saut-d'Eau"
+    },
+    {
+      "slug": "ciguapa",
+      "category": "creatures",
+      "title": "The Ciguapa",
+      "region": "Cordillera Central, Dominican Republic",
+      "lat": 19.05,
+      "lon": -70.85,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Dominican folklore",
+      "hook": "In the Dominican mountains, people say a wild woman with long hair lives in the forest, and her feet point backwards so no one can follow her.",
+      "summary": [
+        "The Ciguapa is a creature of Dominican folklore: a small woman with dark or bluish skin, hair long enough to cover her body, and feet turned backwards. Her tracks seem to lead away from where she really went, so hunters who follow them end up lost.",
+        "She is said to come out on moonlit nights, to make no sound except a soft whimper, and to enchant men who see her. In some stories she is shy and harmless; in others, nobody who follows her comes back."
+      ],
+      "explanation": "Backward-footed forest spirits appear in folklore across Latin America, including the Curupira of Brazil. Writers have linked the Ciguapa to memories of the Taíno, the island's first people, and she has become a symbol of Dominican identity in modern fiction.",
+      "wiki": "Ciguapa"
+    },
+    {
+      "slug": "chase-vault",
+      "category": "places",
+      "title": "The Moving Coffins of the Chase Vault",
+      "region": "Christ Church, Barbados",
+      "lat": 13.07,
+      "lon": -59.53,
+      "dateLabel": "1812–1820",
+      "status": "open",
+      "statusLabel": "Never solved",
+      "witnesses": "Mourners, and the island's governor",
+      "hook": "Each time a family vault in Barbados was opened, the heavy lead coffins inside were said to have been thrown about, though the door had been sealed.",
+      "summary": [
+        "The Chase Vault is a tomb cut into the rock of the churchyard of Christ Church Parish Church, near Oistins. According to accounts written down later, every time it was opened between 1812 and 1820, the lead-lined coffins inside had moved: shifted, tipped over or standing on end, though the entrance had been sealed with a heavy stone slab.",
+        "In 1819 the governor, Lord Combermere, is said to have had the floor sprinkled with sand and the door sealed with his own mark. When it was opened the next year, the seals were unbroken, there were no footprints, and the coffins had moved again. The family then had them taken out and buried elsewhere, and the vault has stood empty since."
+      ],
+      "explanation": "Suggestions include flooding that floated the coffins, earth tremors, and people getting in some other way. Some historians doubt it happened as told: the first detailed accounts were published years later, and no record written at the time has been found.",
+      "wiki": "Chase Vault"
+    },
+    {
+      "slug": "la-diablesse",
+      "category": "visitors",
+      "title": "La Diablesse",
+      "region": "Martinique, Caribbean",
+      "lat": 14.64,
+      "lon": -61.02,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Folklore of Martinique, Dominica, Trinidad and Grenada",
+      "hook": "On lonely Caribbean roads at night, a beautiful woman in a long dress walks ahead of you. Under the dress, one of her feet is a cow's hoof.",
+      "summary": [
+        "La Diablesse, 'the she-devil', is told about on many islands of the eastern Caribbean. She appears at dusk or at night as an elegant woman in a long, old-fashioned dress and a wide hat that hides her face, walking along country roads.",
+        "Men who follow her are led deeper and deeper into the forest, until she vanishes and they find themselves lost, or at the edge of a ravine. The sign that gives her away is the long skirt, which hides one human foot and one cow's hoof."
+      ],
+      "explanation": "She is a folk figure brought together from French and West African traditions, and like many such tales she warns against walking alone at night and following strangers. Her story is still told at Carnival and in Caribbean literature.",
+      "wiki": "La Diablesse"
+    },
+    {
+      "slug": "el-tio-of-potosi",
+      "category": "visitors",
+      "title": "El Tío, Lord of the Mines",
+      "region": "Cerro Rico, Potosí, Bolivia",
+      "lat": -19.62,
+      "lon": -65.75,
+      "dateLabel": "Since colonial times, and today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Miners of Cerro Rico",
+      "hook": "Deep inside the silver mountain of Potosí, miners leave coca leaves, cigarettes and drink for a horned figure they call the Uncle.",
+      "summary": [
+        "Cerro Rico, the 'rich mountain' above Potosí, has been mined for silver since the 1540s. In its tunnels, miners keep clay figures of El Tío, the Uncle, a horned lord of the underworld who owns everything under the ground.",
+        "Before work, and especially on Fridays, miners sit with him, putting coca leaves and cigarettes in his mouth and pouring alcohol for him. They believe he decides who finds ore and who has an accident, and that he must be kept content. Above ground, the same miners go to church."
+      ],
+      "explanation": "El Tío grew from Andean beliefs about the spirits of mountains and the underground, mixed with the Christian devil brought by the Spanish. Anthropologists see him as a way of coping with very dangerous work, in mines where many people have died since colonial times. It is a living tradition, shown to visitors with respect.",
+      "wiki": "El Tío"
+    },
+    {
+      "slug": "maria-lionza",
+      "category": "visitors",
+      "title": "María Lionza of Sorte Mountain",
+      "region": "Sorte mountain, Yaracuy, Venezuela",
+      "lat": 10.3,
+      "lon": -68.8,
+      "dateLabel": "Told for centuries, and today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Followers of her religion in Venezuela",
+      "hook": "On a forested mountain in Venezuela, thousands of people come each year to honour a goddess of nature who rides a tapir.",
+      "summary": [
+        "María Lionza is the central figure of a Venezuelan religion that combines Indigenous, African and Catholic beliefs. In the best-known legend she was an Indigenous princess with green eyes who was taken into a lake by a giant anaconda, and became the spirit of the water and the mountains.",
+        "Her sanctuary is Sorte mountain in Yaracuy, where pilgrims gather at rivers and shrines, especially in October. A large statue of her riding a tapir, by the sculptor Alejandro Colina, stands on a highway in Caracas."
+      ],
+      "explanation": "The legend can't be checked, and isn't meant to be: it's the story of a living faith followed by many Venezuelans. Historians trace the figure back to Indigenous beliefs about a water spirit, reshaped over the centuries.",
+      "wiki": "María Lionza"
+    },
+    {
+      "slug": "pincoya",
+      "category": "creatures",
+      "title": "The Pincoya of Chiloé",
+      "region": "Chiloé Island, Los Lagos, Chile",
+      "lat": -42.48,
+      "lon": -73.76,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Fishing communities of Chiloé",
+      "hook": "On the beaches of Chiloé, fishermen say a sea spirit dances at dawn. If she faces the sea, the catch will be good.",
+      "summary": [
+        "In the folklore of the Chilean island of Chiloé, the Pincoya is a beautiful young woman with long golden hair who rises from the sea. She dances on the shore, and the direction she faces tells the fishermen what's coming: towards the sea means the water will be full of fish and shellfish; towards the land means hard times.",
+        "She is said to rescue drowning sailors and carry them to the Caleuche, the island's ghost ship. People say she leaves places where fish are taken greedily."
+      ],
+      "explanation": "The Pincoya belongs to Chilote mythology, which mixes Indigenous Huilliche beliefs with Spanish ones. Her story carries a practical message about not overfishing, in islands that have always lived from the sea.",
+      "wiki": "Pincoya"
+    },
+    {
+      "slug": "xtabay",
+      "category": "visitors",
+      "title": "The Xtabay",
+      "region": "Valladolid, Yucatán, Mexico",
+      "lat": 20.69,
+      "lon": -88.2,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Maya folklore of the Yucatán",
+      "hook": "In the Yucatán, people say a woman combs her long hair under the ceiba trees at night, waiting for men to come closer.",
+      "summary": [
+        "The Xtabay is a figure of Yucatec Maya folklore. In the best-known version, there were two women in a village: Xkeban, kind to everyone but looked down on, and Utz-Colel, admired but cold. When Xkeban died, her grave smelled of flowers and the sweet xtabentún flower grew on it; when Utz-Colel died, her grave smelled foul.",
+        "Utz-Colel, jealous, came back as the Xtabay, a beautiful woman who waits under ceiba trees combing her hair with a cactus spine. She lures men who are out late into the forest, and they aren't seen again."
+      ],
+      "explanation": "The story mixes Maya beliefs about the sacred ceiba tree with moral lessons from colonial times. Like La Diablesse in the Caribbean, she is a warning to men walking home late, and the tale is still told across the peninsula.",
+      "wiki": "Xtabay"
+    },
+    {
+      "slug": "boto-encantado",
+      "category": "creatures",
+      "title": "The Dolphin Who Comes to Dances",
+      "region": "Santarém, Pará, Brazil",
+      "lat": -2.44,
+      "lon": -54.71,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "River communities of the Amazon",
+      "hook": "Along the Amazon, people say pink river dolphins take human form on festival nights, arriving as handsome strangers in white hats.",
+      "summary": [
+        "The boto, the Amazon's pink river dolphin, is at the heart of one of the region's best-known legends. On nights of festivals, people say a boto can come ashore as a tall, handsome man dressed all in white, wearing a hat he never takes off, because it hides the breathing hole on top of his head.",
+        "He dances well, charms the young women, and leaves before dawn, slipping back into the river. Children with no known father were sometimes said to be 'children of the boto'."
+      ],
+      "explanation": "The legend belongs to a wider Amazonian belief in the encantados, creatures from an enchanted world under the river. One result has been good for the dolphins: many river people believed harming a boto brought bad luck, which protected them for generations.",
+      "wiki": "Boto"
+    },
+    {
+      "slug": "chullachaqui",
+      "category": "creatures",
+      "title": "The Chullachaqui",
+      "region": "Near Iquitos, Loreto, Peru",
+      "lat": -3.75,
+      "lon": -73.25,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Folklore of the Peruvian Amazon",
+      "hook": "In the Peruvian rainforest, a friend who calls you deeper into the trees might not be your friend. Look at his feet.",
+      "summary": [
+        "The Chullachaqui is a forest spirit of the Peruvian Amazon. He is said to take the shape of someone you know, a friend, a relative, a lover, and appear on a forest path to lead you away from it, until you are hopelessly lost.",
+        "He gives himself away by his feet: one is a normal human foot, and the other is a hoof, a paw or a shrunken, twisted foot, which he tries to hide. People say you should never follow anyone deep into the forest without checking."
+      ],
+      "explanation": "He is also seen as a guardian of the forest, who punishes people who take too much from it. The legend carries a sensible warning in a place where it's easy to get lost, and it's still widely told around Iquitos.",
+      "wiki": "Chullachaki"
+    },
+    {
+      "slug": "footprints-of-acahualinca",
+      "category": "places",
+      "title": "The Footprints of Acahualinca",
+      "region": "Managua, Nicaragua",
+      "lat": 12.16,
+      "lon": -86.3,
+      "dateLabel": "About 2,100 years old; found in 1874",
+      "status": "open",
+      "statusLabel": "Purpose debated",
+      "witnesses": "Archaeologists",
+      "hook": "Two thousand years ago, a small group of people walked across fresh volcanic mud near Lake Managua. Their footprints are still there.",
+      "summary": [
+        "In a quarry in Managua, workers in 1874 uncovered footprints pressed into layers of volcanic ash and mud: a trail left by about fifteen people, adults and children, walking side by side, along with the tracks of animals. They are now protected under a roof in a small museum.",
+        "The prints all head in the same direction, towards the lake, and the walkers don't seem to have been running."
+      ],
+      "explanation": "For a long time people assumed they were fleeing an eruption, but the steady, even steps suggest an ordinary walk, perhaps to the lake for water, soon after an ash fall had settled. The ash was then buried by later eruptions, preserving the trail. Why they were walking there remains a guess.",
+      "wiki": "Ancient footprints of Acahualinca"
+    },
+    {
+      "slug": "qivittoq",
+      "category": "visitors",
+      "title": "The Qivittoq of the Mountains",
+      "region": "Nuuk Fjord, Greenland",
+      "lat": 64.45,
+      "lon": -50.6,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Greenlandic Inuit tradition",
+      "hook": "In Greenland, a person who left their community to live alone in the mountains was said to change, gaining strange powers and becoming something to fear.",
+      "summary": [
+        "In Greenlandic tradition, a qivittoq is someone who turned their back on other people, often after shame or grief, and walked off alone into the mountains or towards the ice. Living apart from everyone, they were believed to become wild and powerful: able to run faster than any dog, to fly, to understand animals.",
+        "People in settlements described glimpsing qivittut at the edge of the hills, and travellers feared meeting one. Stories of them are still told, and many Greenlanders say they know someone who has seen one."
+      ],
+      "explanation": "The belief may have grown from real people who chose to live alone in a hard land, and from the fear of what isolation does. It's a living part of Greenlandic culture, and the subject of a famous Danish film of 1956.",
+      "wiki": null
+    },
+    {
+      "slug": "rock-of-cashel",
+      "category": "places",
+      "title": "The Rock the Devil Spat Out",
+      "region": "Cashel, Tipperary, Ireland",
+      "lat": 52.52,
+      "lon": -7.89,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Irish folklore",
+      "hook": "Irish legend says the great rock at Cashel was a mouthful the Devil bit out of a mountain thirty kilometres away and spat out in fright.",
+      "summary": [
+        "The Rock of Cashel is a limestone hill on the plain of Tipperary, crowned by a medieval cathedral, a round tower and a chapel. It was the seat of the kings of Munster, and Saint Patrick is said to have come here in the 5th century.",
+        "Legend says the Devil, flying over Tipperary, bit a chunk out of a mountain to the north, leaving the gap still called the Devil's Bit. Seeing Saint Patrick building a church below, he dropped it in fright, and it landed at Cashel."
+      ],
+      "explanation": "Geologists see the Rock as an outcrop of hard limestone left standing as softer rock around it wore away, and the 'bite' as an ordinary gap in the ridge. It's a good example of a legend made to explain the shape of the land.",
+      "wiki": "Rock of Cashel"
+    },
+    {
+      "slug": "osun-osogbo-grove",
+      "category": "places",
+      "title": "The Sacred Grove of Osun",
+      "region": "Osogbo, Osun, Nigeria",
+      "lat": 7.76,
+      "lon": 4.55,
+      "dateLabel": "Sacred for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Yoruba worshippers, and visitors to the festival every August",
+      "hook": "On the edge of a Nigerian city, a dense forest along a river belongs to a goddess, and its paths are lined with strange, towering sculptures.",
+      "summary": [
+        "The Osun-Osogbo Sacred Grove is one of the last stretches of old high forest in southern Nigeria, along the Osun River. It's the home of Osun, the Yoruba goddess of fresh water, fertility and healing. Tradition says she met the founders of Osogbo here and promised to protect the town if they kept the grove.",
+        "From the 1950s, the Austrian-born artist Susanne Wenger, who became a Yoruba priestess, worked with local artists to rebuild its shrines, filling the forest with huge sculptures of gods and spirits. Every August, crowds follow a procession to the river for the Osun-Osogbo festival."
+      ],
+      "explanation": "The goddess and her promise belong to a living faith. The grove itself is a UNESCO World Heritage Site, protected both as a sacred place and as rare forest, and visitors are asked to respect its shrines.",
+      "wiki": "Osun-Osogbo"
+    },
+    {
+      "slug": "ikogosi-warm-springs",
+      "category": "places",
+      "title": "The Warm and Cold Springs of Ikogosi",
+      "region": "Ikogosi, Ekiti, Nigeria",
+      "lat": 7.58,
+      "lon": 4.98,
+      "dateLabel": "Known for generations",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Villagers and visitors",
+      "hook": "In a Nigerian valley, a warm spring and a cold spring run side by side and meet, and for a while each keeps its own temperature.",
+      "summary": [
+        "At Ikogosi, in the hills of Ekiti State, two springs rise close together: one warm, steaming at its source, and one cool. They flow into the same stream, and visitors put a hand in each side to feel the difference where they meet.",
+        "Local tradition explains them as two wives of a hunter, or a mother and her children, turned into springs: one with a hot temper, the other calm. The warm water is also said to heal."
+      ],
+      "explanation": "Geologists think the warm water rises from deep underground along a crack in the rock, heated by the Earth, while the cool spring comes from shallow ground water. Water at different temperatures takes time to mix, which is why the two stay apart for a short distance.",
+      "wiki": "Ikogosi Warm Springs"
+    },
+    {
+      "slug": "zuma-rock",
+      "category": "places",
+      "title": "Zuma Rock, the Face on the Mountain",
+      "region": "Madalla, Niger, Nigeria",
+      "lat": 9.14,
+      "lon": 7.2,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Gbagyi tradition, and travellers on the Abuja road",
+      "hook": "A huge dome of rock beside the road to Abuja has a face on it, and people say it has watched over the land for centuries.",
+      "summary": [
+        "Zuma Rock is a bare granite dome rising about 300 metres above the plain near Abuja, Nigeria's capital. Streaks on one side make what many people see as a human face, and it's printed on the country's 100-naira note.",
+        "The Gbagyi people, who used the rock as a refuge during wars, say spirits live on it. Stories tell of a fire seen on the rock at night before disasters, and of strange cries heard from it."
+      ],
+      "explanation": "The 'face' is a pattern of erosion and dark streaks left by water running down the granite, and the rock is a monolith left standing as softer rock around it wore away. The spirits and the warnings belong to local tradition.",
+      "wiki": "Zuma Rock"
+    },
+    {
+      "slug": "lake-bosumtwi",
+      "category": "places",
+      "title": "Lake Bosumtwi, Where Souls Say Goodbye",
+      "region": "Ashanti, Ghana",
+      "lat": 6.51,
+      "lon": -1.41,
+      "dateLabel": "Sacred for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Ashanti tradition",
+      "hook": "In Ghana, a round lake in a ring of hills is where the Ashanti say the souls of the dead come to bid farewell to their god.",
+      "summary": [
+        "Lake Bosumtwi is an almost perfectly round lake about 8 kilometres across, sitting in a bowl of forested hills south-east of Kumasi. To the Ashanti it's sacred: the souls of the dead are said to come here to say goodbye to the god Twi.",
+        "Traditional rules still shape life around it. For generations, fishermen didn't use boats, which were thought to offend the lake's god, but floated out lying on wooden planks called padua."
+      ],
+      "explanation": "The lake sits in a crater made by a meteorite impact about a million years ago, one of the youngest large impact craters on Earth. The water has no river leading out of it. Its beliefs are part of a living tradition that visitors are asked to respect.",
+      "wiki": "Lake Bosumtwi"
+    },
+    {
+      "slug": "erta-ale",
+      "category": "places",
+      "title": "Erta Ale, the Smoking Mountain",
+      "region": "Afar, Ethiopia",
+      "lat": 13.6,
+      "lon": 40.67,
+      "dateLabel": "Known for centuries; studied since the 1960s",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Afar herders, scientists and travellers",
+      "hook": "In one of the hottest places on Earth, a volcano has held a lake of molten lava in its crater for decades. The Afar call it the smoking mountain.",
+      "summary": [
+        "Erta Ale is a volcano in the Danakil Depression of north-eastern Ethiopia, one of the lowest and hottest places on land. Its name in the Afar language means 'smoking mountain', and local people have long given it a wide berth; some call its crater the gateway to hell.",
+        "For most of the time since at least the 1960s it has held a lake of molten rock, one of only a handful in the world, that bubbles, splits and glows red at night."
+      ],
+      "explanation": "The Danakil sits where three of the Earth's plates are pulling apart, and magma rises close to the surface there. Erta Ale's lava lake stays liquid because fresh magma keeps circulating up from below. Since 2017 its activity has changed, with the lake draining and refilling.",
+      "wiki": "Erta Ale"
+    },
+    {
+      "slug": "harar-hyenas",
+      "featured": true,
+      "category": "creatures",
+      "title": "The Hyenas of Harar",
+      "region": "Harar, Ethiopia",
+      "lat": 9.31,
+      "lon": 42.13,
+      "dateLabel": "For generations, and every night today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The people of Harar and visitors",
+      "hook": "Every night outside the walls of an old Ethiopian city, wild hyenas come out of the dark to be fed by hand.",
+      "summary": [
+        "Harar, a walled city in eastern Ethiopia, has lived alongside spotted hyenas for centuries. At night they slip into the streets through holes in the wall made for them, and outside the gates men known as hyena men call them by name and feed them scraps.",
+        "Local tradition says the hyenas protect the city by eating evil spirits. Once a year, on the festival of Ashura, people offer them porridge, and how much they eat is read as a sign of what the year will bring."
+      ],
+      "explanation": "The nightly feeding probably began as a practical way to keep the hyenas away from livestock and people, and it's now a famous sight for visitors. The hyenas help by clearing the city's rubbish. The porridge custom is a living tradition.",
+      "wiki": "Harar"
+    },
+    {
+      "slug": "ol-doinyo-lengai",
+      "category": "places",
+      "title": "The Mountain of God and Its Black Lava",
+      "region": "Ngorongoro, Arusha, Tanzania",
+      "lat": -2.76,
+      "lon": 35.91,
+      "dateLabel": "Sacred for centuries; studied since the 1960s",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Maasai tradition, and volcanologists",
+      "hook": "The Maasai call it the Mountain of God. It's the only volcano on Earth that erupts black lava, which turns white within days.",
+      "summary": [
+        "Ol Doinyo Lengai rises above Lake Natron in northern Tanzania. Its name means 'Mountain of God' in Maa, and the Maasai believe their god Engai lives there; people come to pray at its foot for rain and children.",
+        "It's strange in a scientific way too. Its lava is black or brown, flows almost as runny as water, and is much cooler than other lavas, glowing only faintly at night. Within a day or two of cooling, it turns white, so the summit looks snow-covered."
+      ],
+      "explanation": "The lava is natrocarbonatite, rich in sodium and potassium carbonates rather than the silica found in other lavas. No other active volcano is known to erupt it. When it meets moisture in the air, it reacts and turns white.",
+      "wiki": "Ol Doinyo Lengai"
+    },
+    {
+      "slug": "aisha-qandicha",
+      "category": "visitors",
+      "title": "Aisha Qandicha",
+      "region": "Near Meknes, Fès-Meknès, Morocco",
+      "lat": 33.83,
+      "lon": -5.43,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Moroccan folklore",
+      "hook": "Moroccans say a beautiful woman waits by rivers and wells at night. If a man notices her feet, he sees a goat's hooves.",
+      "summary": [
+        "Aisha Qandicha is the most famous jinniya, or female jinn, in Moroccan folklore. She appears as a beautiful woman near water, rivers, springs and wells, and calls men by name. Those who follow her are said to be bewitched; her hooves, a camel's or a goat's, give her away.",
+        "Some stories say she was once a real woman, a noble from Andalusia who fought the Portuguese invaders on the coast in the 1500s. She is linked with the shrine of Sidi Ali near Meknes, where she is still honoured with music and offerings."
+      ],
+      "explanation": "She is a figure of popular belief, shaped by older pre-Islamic water spirits. Anthropologists have studied how the Hamadsha brotherhood treats people believed to be troubled by her, through music and trance. The stories can't be checked; the tradition is real.",
+      "wiki": "Aisha Qandicha"
+    },
+    {
+      "slug": "zangbeto",
+      "category": "visitors",
+      "title": "The Zangbeto, Guardians of the Night",
+      "region": "Porto-Novo, Ouémé, Benin",
+      "lat": 6.5,
+      "lon": 2.62,
+      "dateLabel": "For centuries, and today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Ogu and Yoruba communities of Benin and Togo",
+      "hook": "In southern Benin, tall spinning figures of raffia patrol the streets at night. People say there's no one inside them.",
+      "summary": [
+        "Zangbeto are the night watchmen of Ogu tradition in Benin and Togo: tall, cone-shaped figures covered in layers of brightly dyed raffia. Their name means 'people of the night'. They patrol villages after dark, and people say they catch thieves and witches and keep order.",
+        "At festivals they spin and whirl across the ground. Followers say no human is inside: the Zangbeto are spirits from the dead, and when a costume is lifted to show the crowd, it's said to be empty."
+      ],
+      "explanation": "The Zangbeto are run by a secret society, whose members guard what happens inside the costumes. Anthropologists see them as an old form of community policing tied to a living Vodun tradition. Visitors are asked to respect that their secrets stay secret.",
+      "wiki": "Zangbeto"
+    },
+    {
+      "slug": "skeleton-coast",
+      "category": "places",
+      "title": "The Skeleton Coast",
+      "region": "Skeleton Coast, Kunene, Namibia",
+      "lat": -19.9,
+      "lon": 13.3,
+      "dateLabel": "Named in the 20th century",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Sailors, castaways and travellers",
+      "hook": "Along the desert coast of Namibia, the wrecks of ships lie half-buried in the sand, far from the sea, in thick fog.",
+      "summary": [
+        "Namibia's northern coast is where the Namib Desert meets the Atlantic. The Portuguese called it the Gates of Hell, and the San people's name for it is said to mean 'the land God made in anger'. It's known today as the Skeleton Coast.",
+        "More than a thousand ships are thought to have been wrecked along it. Their rusting hulls lie on the beach and in the dunes, some hundreds of metres inland, and sailors who got ashore faced a waterless desert. The bones of whales and seals once littered the sand too."
+      ],
+      "explanation": "A cold ocean current, the Benguela, runs up the coast and creates thick fogs and strong surf that drove ships aground. The wrecks seem to move inland because the desert keeps building the shore out into the sea. The name came from the whale bones and the wrecks.",
+      "wiki": "Skeleton Coast"
+    },
+    {
+      "slug": "gule-wamkulu",
+      "category": "visitors",
+      "title": "Gule Wamkulu, the Great Dance",
+      "region": "Dedza, Central Region, Malawi",
+      "lat": -14.37,
+      "lon": 34.33,
+      "dateLabel": "For centuries, and today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Chewa communities of Malawi, Zambia and Mozambique",
+      "hook": "At Chewa funerals and festivals, masked dancers appear from the bush. They're not people in costumes, tradition says, but spirits of the dead.",
+      "summary": [
+        "Gule Wamkulu, 'the great dance', is performed by the Nyau, a secret society of Chewa men in Malawi, Zambia and Mozambique. Dancers wear masks of wood and straw representing ancestors, animals and spirits, some of them huge frames that several men carry together.",
+        "They appear at funerals, at the end of the harvest and at initiations of young people. While dancing, they're treated as the spirits themselves, coming back from the world of the dead to visit the living."
+      ],
+      "explanation": "The society's members keep its secrets, and outsiders aren't meant to know who dances. Gule Wamkulu is on UNESCO's list of Intangible Cultural Heritage, as one of the oldest living traditions in southern Africa.",
+      "wiki": "Gulewamkulu"
+    },
+    {
+      "slug": "lake-kivu",
+      "category": "places",
+      "title": "The Lake That Could Explode",
+      "region": "Rubavu, Western Province, Rwanda",
+      "lat": -1.7,
+      "lon": 29.26,
+      "dateLabel": "Discovered in the 20th century",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Scientists, and people living around the lake",
+      "hook": "Beneath the calm water of Lake Kivu lie billions of cubic metres of dissolved gas. Scientists watch it closely.",
+      "summary": [
+        "Lake Kivu lies between Rwanda and the Democratic Republic of the Congo, and around two million people live along its shores. Its deep water holds huge amounts of dissolved carbon dioxide and methane, rising from volcanic rock below and made by bacteria in the depths.",
+        "Local people have long talked of places on the lake where animals and people collapsed, and of water that seemed to boil. In 1986, at Lake Nyos in Cameroon, a smaller lake of the same kind suddenly released its gas and killed about 1,700 people nearby."
+      ],
+      "explanation": "Kivu's layers keep the gas trapped for now, but scientists worry an earthquake or volcanic eruption could set off a release. Since 2015, a power plant on the Rwandan side has been extracting methane from the deep water to make electricity, which also slowly lowers the risk.",
+      "wiki": "Lake Kivu"
+    },
+    {
+      "slug": "chinhoyi-caves",
+      "category": "places",
+      "title": "The Sleeping Pool of Chinhoyi",
+      "region": "Chinhoyi, Mashonaland West, Zimbabwe",
+      "lat": -17.36,
+      "lon": 30.12,
+      "dateLabel": "Told for generations",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Local people and visitors",
+      "hook": "In Zimbabwe, a cave holds a pool of impossibly blue water. People say that if you throw a stone at it from the rim, you can't hit the water.",
+      "summary": [
+        "The Chinhoyi Caves are a system of limestone caverns in northern Zimbabwe. At their heart is the Sleeping Pool, a deep, clear pool of cobalt-blue water at the bottom of a collapsed cave, open to the sky. Its Shona name is often translated as 'Pool of the Fallen'.",
+        "A local saying claims that a stone thrown from the top will never reach the water, and the pool was long thought bottomless. Its blue never changes, and divers have found passages running off into the dark."
+      ],
+      "explanation": "The stone story comes from an illusion: the clear water and steep walls make it very hard to judge the distance, so the water looks closer than it is. Divers have found it to be more than 80 metres deep. The colour comes from the clarity of the water and the light falling into it.",
+      "wiki": "Chinhoyi Caves"
+    },
+    {
+      "slug": "ark-of-the-covenant-axum",
+      "category": "places",
+      "title": "The Ark of the Covenant at Axum",
+      "region": "Axum, Tigray, Ethiopia",
+      "lat": 14.13,
+      "lon": 38.72,
+      "dateLabel": "Claimed for centuries",
+      "status": "open",
+      "statusLabel": "Never shown",
+      "witnesses": "A single guardian monk",
+      "hook": "Ethiopia's church says the Ark of the Covenant is kept in a chapel in Axum. Only one monk is allowed to see it.",
+      "summary": [
+        "In the Bible, the Ark of the Covenant is the chest that held the tablets of the Ten Commandments, kept in the Temple in Jerusalem until it vanished from history. The Ethiopian Orthodox Church holds that it is in Axum, in a chapel beside the Church of Our Lady Mary of Zion.",
+        "The story, told in the medieval book Kebra Nagast, is that Menelik, son of King Solomon and the Queen of Sheba, brought it from Jerusalem. One monk is appointed to guard it for life; he never leaves the chapel grounds, and no one else may see it."
+      ],
+      "explanation": "Because no outsider has been allowed to see it, the claim can't be tested, and most historians are doubtful. Every Ethiopian Orthodox church keeps a tabot, a consecrated copy of the tablets, which shows how central the belief is to Ethiopian faith.",
+      "wiki": "Church of Our Lady Mary of Zion"
+    },
+    {
+      "slug": "dhegdheer",
+      "category": "visitors",
+      "title": "Dhegdheer, the Woman with the Long Ear",
+      "region": "As told across Somalia",
+      "lat": 5.0,
+      "lon": 46.2,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Somali folklore",
+      "hook": "Somali children grow up hearing about a woman with one enormous ear, so sharp she could hear travellers coming from miles away.",
+      "summary": [
+        "Dhegdheer, 'long ear', is the most famous monster of Somali folklore. She was a woman who lived alone in a valley and preyed on travellers, and one of her ears was so long and sensitive that she could hear anyone who came near, however quietly.",
+        "In the best-known version, her daughter, horrified by what her mother did, escaped with the help of a traveller. Dhegdheer chased them across the land until she fell, and some say the valley where she lived became a lake."
+      ],
+      "explanation": "She is a folk tale told to warn children, and it has been retold in Somali books, songs and radio plays. Some tellers say the story recalls a cruel ruler of long ago, but there's nothing to check it against.",
+      "wiki": null
+    },
+    {
+      "slug": "sezibwa-falls",
+      "category": "places",
+      "title": "Sezibwa Falls, the Twins Born as Rivers",
+      "region": "Mukono, Central Region, Uganda",
+      "lat": 0.36,
+      "lon": 32.83,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Buganda tradition",
+      "hook": "In Uganda, people say a woman gave birth to twins who weren't babies but streams of water, and they became a sacred waterfall.",
+      "summary": [
+        "Sezibwa Falls is a small waterfall east of Kampala, on land sacred to the Baganda. The legend is that long ago a woman gave birth to twins, Sezibwa and Bwanda, who were born not as children but as two streams of water, which flowed away and became the river and its falls.",
+        "People still come to the falls to pray, to ask for children, for luck and for good harvests, leaving coffee beans and other offerings. Kings of Buganda have visited it to pay their respects."
+      ],
+      "explanation": "The legend is part of Baganda religion and is still respected. The falls themselves are an ordinary rocky cascade on the Sezibwa River.",
+      "wiki": "Sezibwa River"
+    },
+    {
+      "slug": "thaba-bosiu",
+      "category": "places",
+      "title": "Thaba Bosiu, the Mountain That Grows at Night",
+      "region": "Thaba Bosiu, Maseru, Lesotho",
+      "lat": -29.36,
+      "lon": 27.68,
+      "dateLabel": "Since the 1820s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Basotho tradition",
+      "hook": "Lesotho's founding king held a flat-topped mountain that no army could take. The Basotho say it grows at night.",
+      "summary": [
+        "Thaba Bosiu, 'the mountain at night', is a sandstone plateau near Maseru. In 1824, King Moshoeshoe I made it his stronghold, and over the next decades it held out against attacks by neighbouring peoples, the Boers and the British. It was never taken by force.",
+        "Basotho tradition says that at night the mountain grows, rising so high that any enemy climbing it in the dark can never reach the top. Moshoeshoe is buried on its summit."
+      ],
+      "explanation": "The plateau's sheer cliffs could only be climbed by a few narrow passes, which a small force could hold, and the top had springs and grazing to withstand a siege. The legend of the growing mountain may come from its name, given because Moshoeshoe's people first arrived there at night.",
+      "wiki": "Thaba Bosiu"
+    },
+    {
+      "slug": "coco-de-mer",
+      "category": "places",
+      "title": "The Coconut from Under the Sea",
+      "region": "Vallée de Mai, Praslin, Seychelles",
+      "lat": -4.33,
+      "lon": 55.74,
+      "dateLabel": "Found at sea for centuries; the trees found in 1768",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Sailors, kings and collectors",
+      "hook": "For centuries, huge double nuts washed up on the shores of the Indian Ocean, and nobody had ever seen the tree they grew on. Sailors decided it grew under the sea.",
+      "summary": [
+        "Giant nuts, the biggest seeds in the world, shaped like a pair of hips, were found floating in the Indian Ocean or washed up on beaches in the Maldives and India. Since no one had seen them growing, people believed they came from trees at the bottom of the sea, guarded by monsters.",
+        "They were thought to cure poisons and worth a fortune: the Holy Roman Emperor Rudolf II offered a huge sum for one. In 1768, French explorers found the trees growing in the Seychelles, in a valley on Praslin island."
+      ],
+      "explanation": "The coco de mer palm grows wild only on Praslin and Curieuse in the Seychelles. Its nuts sink when ripe, and only float once they've rotted inside, which is why the ones found at sea were always empty. Its forest, the Vallée de Mai, is now protected.",
+      "wiki": "Lodoicea"
+    },
+    {
+      "slug": "lots-wife-mount-sodom",
+      "category": "places",
+      "title": "Lot's Wife on Mount Sodom",
+      "region": "Mount Sodom, Southern District, Israel",
+      "lat": 31.05,
+      "lon": 35.36,
+      "dateLabel": "Told since ancient times",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Travellers and pilgrims",
+      "hook": "Beside the Dead Sea stands a mountain made of salt, and a pillar on it that's been called Lot's wife for centuries.",
+      "summary": [
+        "In the Book of Genesis, God destroyed the cities of Sodom and Gomorrah with fire, and Lot's family fled. His wife looked back, against the angels' warning, and was turned into a pillar of salt.",
+        "Mount Sodom, by the south-western shore of the Dead Sea, is a ridge made almost entirely of rock salt. Among its eroded columns is one that looks like a standing woman in a cloak, known as Lot's Wife, and travellers have pointed out such pillars here since ancient times."
+      ],
+      "explanation": "The mountain is a block of salt pushed up from deep underground, and rain carves it into pillars and caves that shift and collapse over time. Where the cities of the story stood, if they existed, is still debated.",
+      "wiki": "Mount Sodom"
+    },
+    {
+      "slug": "hanging-gardens-of-babylon",
+      "category": "places",
+      "title": "The Lost Hanging Gardens of Babylon",
+      "region": "Babylon, Babil, Iraq",
+      "lat": 32.54,
+      "lon": 44.42,
+      "dateLabel": "Said to be about 600 BCE",
+      "status": "open",
+      "statusLabel": "Never found",
+      "witnesses": "Greek and Roman writers",
+      "hook": "One of the Seven Wonders of the Ancient World may never have existed, at least not in Babylon.",
+      "summary": [
+        "Greek and Roman writers described terraced gardens of trees and flowers rising like a green mountain in Babylon, watered by machines lifting water from the Euphrates. They said King Nebuchadnezzar II built them for his queen, who missed the hills of her homeland.",
+        "Archaeologists have dug in Babylon for more than a century and have found walls, gates and palaces, but no sign of the gardens. Babylonian records from Nebuchadnezzar's own time, which describe his buildings in detail, don't mention them."
+      ],
+      "explanation": "Some historians think the gardens were a legend. Others think they existed but have left no trace. The Assyriologist Stephanie Dalley argued that they were in Nineveh, the Assyrian capital, built by King Sennacherib, where carvings show gardens watered by an aqueduct and screw pumps.",
+      "wiki": "Hanging Gardens of Babylon"
+    },
+    {
+      "slug": "takht-e-soleyman",
+      "category": "places",
+      "title": "The Throne and the Prison of Solomon",
+      "region": "Takab, West Azerbaijan, Iran",
+      "lat": 36.6,
+      "lon": 47.24,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Pilgrims and travellers",
+      "hook": "In the mountains of Iran, a sacred fire temple surrounds a lake said to have no bottom. Nearby is a hollow hill where King Solomon is said to have imprisoned monsters.",
+      "summary": [
+        "Takht-e Soleyman, the 'Throne of Solomon', is a ruined complex on a plateau in north-western Iran. It was one of the great fire temples of the Sasanian kings, who were crowned there, and it's built around a lake fed by a spring from deep underground, which people believed had no bottom.",
+        "A few kilometres away is Zendan-e Soleyman, 'Solomon's Prison', a cone-shaped hill with a deep pit in its top. Legend says King Solomon imprisoned monsters and demons in it, and the names come from that story."
+      ],
+      "explanation": "Both were formed by mineral-rich hot springs. The water built up layers of rock as it flowed, creating the hollow cone of 'Solomon's Prison' and the walls of the lake, which is very deep but not bottomless. The site is protected by UNESCO.",
+      "wiki": "Takht-e Soleyman"
+    },
+    {
+      "slug": "bahla-jinn",
+      "category": "visitors",
+      "title": "Bahla, the Town of the Jinn",
+      "region": "Bahla, Ad Dakhiliyah, Oman",
+      "lat": 22.96,
+      "lon": 57.3,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Omani folklore",
+      "hook": "Across Oman, people say an old oasis town is the home of jinn and sorcerers, and that its walls were built by spirits in a single night.",
+      "summary": [
+        "Bahla is an oasis town in Oman's interior, famous for its great mud-brick fort and its pottery. Across Oman it's also famous for jinn: people tell of fires seen in the palm groves at night, of strange sounds, and of sorcerers who could send spirits against their enemies.",
+        "One story says the town's 12-kilometre wall was built overnight by jinn. Some Omanis say they'd rather not stay in Bahla after dark."
+      ],
+      "explanation": "Jinn are part of Islamic belief and Arabian folklore, and towns with long histories collect such stories. Historians say the walls were built over a long period, like the fort, which is now a UNESCO World Heritage Site.",
+      "wiki": "Bahla"
+    },
+    {
+      "slug": "jazirat-al-hamra",
+      "category": "places",
+      "title": "Jazirat Al Hamra, the Empty Pearl Town",
+      "region": "Ras Al Khaimah, United Arab Emirates",
+      "lat": 25.71,
+      "lon": 55.8,
+      "dateLabel": "Left in the late 1960s",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Residents of Ras Al Khaimah and visitors",
+      "hook": "A pearl-diving town in the Emirates was abandoned almost overnight more than fifty years ago. People say the jinn stayed.",
+      "summary": [
+        "Jazirat Al Hamra was a fishing and pearling town on the coast of Ras Al Khaimah. In the late 1960s, its families left, and the coral-stone houses, mosque and fort were left standing empty by the sea.",
+        "It's said to be the most haunted place in the Emirates. People tell of jinn living in the empty houses, of voices, and of shapes moving between the walls. Visitors at night say they've heard footsteps."
+      ],
+      "explanation": "The town emptied for ordinary reasons: the pearl trade collapsed after cultured pearls arrived, oil brought new jobs, and families moved to new houses offered elsewhere, partly after a dispute between local leaders. The old town is being restored as a heritage site.",
+      "wiki": null
+    },
+    {
+      "slug": "petra-treasury",
+      "category": "places",
+      "title": "The Pharaoh's Treasure at Petra",
+      "region": "Petra, Ma'an, Jordan",
+      "lat": 30.32,
+      "lon": 35.45,
+      "dateLabel": "Believed for centuries",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Bedouin of the area",
+      "hook": "Petra's most famous building is called the Treasury because Bedouin believed a pharaoh hid his gold in the stone urn at its top. They shot at it for years.",
+      "summary": [
+        "Al-Khazneh is the great facade carved into a rose-coloured cliff at the end of the narrow gorge leading into Petra. It was carved about 2,000 years ago by the Nabataeans, whose kingdom grew rich from the incense trade.",
+        "Local Bedouin believed a pharaoh, or bandits, had hidden treasure in the urn carved high on its front, and its name means 'the treasury'. The urn is still pitted with bullet marks from people who tried to shoot it open."
+      ],
+      "explanation": "The urn is solid rock. Archaeologists think the building was a royal tomb, possibly of the Nabataean king Aretas IV, and excavations below it have found burial chambers, though no treasure.",
+      "wiki": "Al-Khazneh"
+    },
+    {
+      "slug": "rannamaari",
+      "category": "creatures",
+      "title": "Rannamaari, the Demon from the Sea",
+      "region": "Malé, Maldives",
+      "lat": 4.175,
+      "lon": 73.51,
+      "dateLabel": "Told of the 1100s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Maldivian tradition",
+      "hook": "Maldivian legend says a demon rose from the sea each month, lit up like a ship covered in lamps, until a traveller stayed up all night reading to it.",
+      "summary": [
+        "In the best-known story of the Maldives, a sea demon called Rannamaari rose from the ocean once a month, appearing as a glowing ship covered in lights. To appease it, the people of Malé left a young girl in a temple on the shore each time, and she was found dead in the morning.",
+        "A traveller, Abu al-Barakat, took the place of one girl and spent the night reciting the Quran. The demon came, listened and fled back into the sea, and never returned. The king is said to have become a Muslim as a result, in 1153."
+      ],
+      "explanation": "The legend explains how the Maldives converted to Islam, a real event of the 12th century. Historians debate who the traveller was. The glowing lights at sea may recall bioluminescence, which can make Maldivian waves shine at night.",
+      "wiki": "Rannamaari"
+    },
+    {
+      "slug": "tamerlanes-tomb",
+      "featured": true,
+      "category": "places",
+      "title": "The Curse of Tamerlane's Tomb",
+      "region": "Gur-e-Amir, Samarkand, Uzbekistan",
+      "lat": 39.65,
+      "lon": 66.97,
+      "dateLabel": "June 1941",
+      "status": "explained",
+      "statusLabel": "Coincidence",
+      "witnesses": "The Soviet expedition that opened the tomb",
+      "hook": "Soviet scientists opened the tomb of the conqueror Tamerlane in June 1941. Two days later, Germany invaded the Soviet Union.",
+      "summary": [
+        "Timur, known in the West as Tamerlane, built an empire across Central Asia in the 14th century and was buried in the Gur-e-Amir, a domed tomb in Samarkand. In June 1941 a Soviet team led by the anthropologist Mikhail Gerasimov opened his grave to study his remains.",
+        "Local elders are said to have warned them of an inscription: whoever disturbed the tomb would unleash an invader more terrible than Timur. The tomb was opened on 19–20 June. On 22 June, Germany invaded the Soviet Union. Timur was reburied with Islamic rites in late 1942, shortly before the Soviet victory at Stalingrad."
+      ],
+      "explanation": "The German invasion had been planned for months and had nothing to do with Samarkand. Historians doubt the curse inscription existed in the form usually quoted; the story of the warning was told mainly afterwards. The coincidence is still striking.",
+      "wiki": "Gur-e-Amir"
+    },
+    {
+      "slug": "iskanderkul",
+      "category": "places",
+      "title": "Iskanderkul, Alexander's Lake",
+      "region": "Fann Mountains, Sughd, Tajikistan",
+      "lat": 39.08,
+      "lon": 68.37,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Local tradition",
+      "hook": "In the mountains of Tajikistan, people say that on moonlit nights, the ghost of Alexander the Great's horse comes up out of a turquoise lake.",
+      "summary": [
+        "Iskanderkul is a mountain lake in Tajikistan's Fann Mountains, named after Alexander the Great, known in the region as Iskander, who marched through Central Asia in 329 BCE.",
+        "One legend says that Alexander's beloved horse, Bucephalus, drowned here, and on nights of the full moon a white horse rises from the water to graze on the shore. Another says the lake formed when Alexander flooded a village that resisted him by turning a river."
+      ],
+      "explanation": "The lake was formed by a landslide that dammed the valley. Bucephalus actually died in India in 326 BCE, after a battle on the Hydaspes river, and there's no evidence Alexander came to this valley. The story shows how far his legend spread.",
+      "wiki": "Iskanderkul"
+    },
+    {
+      "slug": "lake-saiful-muluk",
+      "category": "visitors",
+      "title": "The Fairy of Lake Saiful Muluk",
+      "region": "Kaghan Valley, Khyber Pakhtunkhwa, Pakistan",
+      "lat": 34.88,
+      "lon": 73.69,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Folklore of the Kaghan Valley",
+      "hook": "High in Pakistan's mountains, people say fairies come down to a lake on full-moon nights, and a prince once waited there for the fairy princess he loved.",
+      "summary": [
+        "Lake Saiful Muluk lies at more than 3,200 metres in the Kaghan Valley, ringed by snowy peaks. Its name comes from a legend made famous by the 19th-century Punjabi poet Mian Muhammad Bakhsh.",
+        "Prince Saiful Muluk of Egypt dreamed of Badri-ul-Jamala, a princess of the fairies, and searched the world for her. He found her at this lake, where she came to bathe on moonlit nights, and they escaped together from the giant who held her captive. Local people say fairies still come to the lake when the moon is full."
+      ],
+      "explanation": "The tale is a romance in the tradition of Persian fairy stories, told in poetry. The lake is a glacial lake held in by an old moraine. It's one of Pakistan's best-known beauty spots, and the legend is told to every visitor.",
+      "wiki": "Lake Saiful Muluk"
+    },
+    {
+      "slug": "bonbibi",
+      "category": "visitors",
+      "title": "Bonbibi, Lady of the Forest",
+      "region": "Sundarbans, Khulna, Bangladesh",
+      "lat": 22.2,
+      "lon": 89.4,
+      "dateLabel": "Told for centuries, and today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Honey collectors, woodcutters and fishermen of the Sundarbans",
+      "hook": "In the mangrove forests where tigers hunt, people say a forest goddess protects anyone who enters with a pure heart, Hindu or Muslim.",
+      "summary": [
+        "The Sundarbans, the world's largest mangrove forest, spreads across the delta of Bangladesh and India and is home to Bengal tigers. Honey collectors, woodcutters and fishermen who go into it pray first to Bonbibi, 'the lady of the forest'.",
+        "In her legend, the forest belonged to Dakshin Rai, a demon king who took the form of a tiger and demanded human offerings. Bonbibi defeated him and divided the forest: the deep jungle for him, the edges for people, and those who call on her are protected. Her shrines are shared by Hindus and Muslims."
+      ],
+      "explanation": "Bonbibi's story reflects the real dangers of the forest, where tigers still attack people every year, and the need to take only what you need from it. The shared worship is one of the region's most remarkable living traditions.",
+      "wiki": "Bonbibi"
+    },
+    {
+      "slug": "socotra",
+      "category": "places",
+      "title": "Socotra and the Dragon's Blood Trees",
+      "region": "Socotra, Yemen",
+      "lat": 12.5,
+      "lon": 53.85,
+      "dateLabel": "Known since ancient times",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Ancient traders, travellers and botanists",
+      "hook": "On an island off Arabia grow trees shaped like upturned umbrellas that bleed red sap. Ancient people said it was the blood of a dragon.",
+      "summary": [
+        "Socotra lies in the Arabian Sea between Yemen and Somalia, cut off from the mainland for millions of years. About a third of its plants grow nowhere else on Earth, so its landscapes look like another planet.",
+        "Its most famous tree, the dragon's blood tree, has a thick crown spreading like an umbrella and oozes a deep red resin. Ancient writers said it came from a battle between a dragon and an elephant, and the resin was traded as a medicine, a dye and a varnish."
+      ],
+      "explanation": "The island's isolation and harsh, dry climate led its plants to evolve along their own lines; the umbrella shape helps the trees catch moisture from mist and shade their roots. The red resin is still harvested. Socotra is a UNESCO World Heritage Site.",
+      "wiki": "Socotra"
+    },
+    {
+      "slug": "membartsho",
+      "category": "places",
+      "title": "The Burning Lake of Bhutan",
+      "region": "Tang Valley, Bumthang, Bhutan",
+      "lat": 27.58,
+      "lon": 90.79,
+      "dateLabel": "Said to be 1475",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Bhutanese Buddhist tradition",
+      "hook": "In Bhutan, a saint is said to have dived into a river pool holding a burning lamp, and come back up with treasure, the lamp still alight.",
+      "summary": [
+        "Membartsho, 'the burning lake', is a deep pool in a gorge of the Tang River in central Bhutan. It's one of the country's most sacred sites, hung with prayer flags.",
+        "The story is that in 1475 Pema Lingpa, a famous discoverer of hidden Buddhist teachings, was challenged by the local ruler to prove himself. He jumped into the pool holding a lit butter lamp, stayed under a long time, and came up with a chest of sacred texts and a statue, the lamp still burning in his hand."
+      ],
+      "explanation": "The story is a matter of faith. Pema Lingpa is a real historical figure, honoured in Bhutan as a great saint, and the treasures he is said to have found are part of its Buddhist tradition. Pilgrims leave butter lamps at the pool.",
+      "wiki": "Membartsho"
+    },
+    {
+      "slug": "adams-peak",
+      "category": "places",
+      "title": "The Footprint on Adam's Peak",
+      "region": "Adam's Peak, Sabaragamuwa, Sri Lanka",
+      "lat": 6.81,
+      "lon": 80.5,
+      "dateLabel": "A pilgrimage for more than a thousand years",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Pilgrims of four religions",
+      "hook": "On the summit of a Sri Lankan mountain is a footprint in the rock. Buddhists, Hindus, Muslims and Christians each say whose it is.",
+      "summary": [
+        "Adam's Peak, or Sri Pada, is a steep cone-shaped mountain in central Sri Lanka. At the top, under a shrine, is a hollow in the rock shaped like a giant footprint, about 1.8 metres long.",
+        "Buddhists say it's the footprint of the Buddha, Hindus say Shiva, and Muslims and many Christians say Adam, who stood here on first coming to Earth after leaving paradise; some Christians say Saint Thomas. Pilgrims climb through the night to see sunrise from the top, when the mountain casts a perfect triangle of shadow over the land."
+      ],
+      "explanation": "The footprint is a matter of faith for each religion. The shadow is a known effect: any tall peak casts a shadow that looks triangular at sunrise, because of perspective. The peak is a rare place shared peacefully by many faiths.",
+      "wiki": "Adam's Peak"
+    },
+    {
+      "slug": "band-e-amir",
+      "category": "places",
+      "title": "The Lakes of Band-e Amir",
+      "region": "Band-e Amir, Bamyan, Afghanistan",
+      "lat": 34.84,
+      "lon": 67.23,
+      "dateLabel": "Told for centuries",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Pilgrims, travellers and geologists",
+      "hook": "In the bare mountains of Afghanistan, six lakes of deep blue water are held back by walls that look built. Legend says Ali made them with his sword.",
+      "summary": [
+        "Band-e Amir is a chain of six lakes high in the Hindu Kush, west of Bamyan. Their water is an intense blue, and each is held in by a natural wall of white rock, so they look like a series of dams, set down in a dry, treeless landscape.",
+        "The name means 'dam of the commander', for Ali, the cousin and son-in-law of the Prophet Muhammad. A legend says he built the dams, in one version with a blow of his sword, to free the people from a cruel king who controlled the water."
+      ],
+      "explanation": "The walls are travertine, a rock made when water rich in dissolved minerals loses carbon dioxide and leaves calcium carbonate behind. Over thousands of years it built up into dams. Band-e Amir became Afghanistan's first national park in 2009.",
+      "wiki": "Band-e Amir National Park"
+    },
+    {
+      "slug": "houska-castle",
+      "featured": true,
+      "category": "places",
+      "title": "Houska Castle, Built Over a Hole",
+      "region": "Houska, Central Bohemia, Czech Republic",
+      "lat": 50.49,
+      "lon": 14.62,
+      "dateLabel": "Built in the 1200s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Local legend, and visitors",
+      "hook": "A Czech castle seems to have been built to keep something in, not out. Legend says its chapel sits on top of a pit leading to hell.",
+      "summary": [
+        "Houska Castle stands on a rock in the forests north of Prague, built in the late 13th century. It's an odd castle: it has no well, no kitchen in its original plan, and was on no important road, and some of its defences seem to face inward.",
+        "Legend explains why. A crack in the rock below was said to be a gateway to hell, from which half-animal creatures climbed. A prisoner lowered into it on a rope is said to have been pulled out screaming, his hair turned white. The castle's chapel was built on top to seal the hole."
+      ],
+      "explanation": "Historians say Houska was more likely an administrative centre for royal lands than a fortress, which would explain its plan. The prisoner story is a legend with no record behind it. Houska is now open to visitors and plays up its reputation.",
+      "wiki": "Houska Castle"
+    },
+    {
+      "slug": "hill-of-crosses",
+      "category": "places",
+      "title": "The Hill of Crosses",
+      "region": "Near Šiauliai, Lithuania",
+      "lat": 56.02,
+      "lon": 23.42,
+      "dateLabel": "Since the 19th century",
+      "status": "open",
+      "statusLabel": "Origin unknown",
+      "witnesses": "Pilgrims and visitors",
+      "hook": "On a small hill in Lithuania stand more than 100,000 crosses. The Soviet government bulldozed it three times. Each time, the crosses came back overnight.",
+      "summary": [
+        "Near the city of Šiauliai, a low mound is covered in crosses: huge wooden ones, small ones, crucifixes and rosaries, hung so thickly they rattle in the wind. Nobody knows exactly when people began putting them there; one story says it began after the uprisings of 1831 and 1863, by families who couldn't find the bodies of their dead.",
+        "Under Soviet rule the hill became a quiet protest. Authorities bulldozed it in 1961, 1973 and 1975, and each time people crept back at night to plant new crosses. Pope John Paul II visited in 1993."
+      ],
+      "explanation": "Some legends say a vision of the Virgin Mary told a man to put a cross there; others say the hill was an ancient pagan site. Whatever its beginning, it has become a national symbol of faith and resistance, and visitors still add crosses today.",
+      "wiki": "Hill of Crosses"
+    },
+    {
+      "slug": "black-lady-of-nesvizh",
+      "category": "visitors",
+      "title": "The Black Lady of Nesvizh",
+      "region": "Nesvizh Castle, Minsk Region, Belarus",
+      "lat": 53.22,
+      "lon": 26.69,
+      "dateLabel": "Told since the 16th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Castle staff and visitors",
+      "hook": "In a Belarusian castle, people say a queen who died young still walks the corridors in black, and that her widowed king once tried to summon her back.",
+      "summary": [
+        "Barbara Radziwiłł was a noblewoman of the powerful Radziwiłł family who married Sigismund II Augustus, King of Poland and Grand Duke of Lithuania, against the wishes of his court. She was crowned queen in 1550 and died just months later, in 1551; rumours at court said she had been poisoned, which was never proved.",
+        "Legend says the grief-stricken king asked a sorcerer to call up her spirit, and that she has wandered ever since. She is said to appear at Nesvizh, her family's great castle, as a woman in black whose appearance warns of misfortune."
+      ],
+      "explanation": "Historians think Barbara probably died of an illness, possibly cancer. The story of the summoning is told in Polish legend, often with the magician Twardowski. Nesvizh Castle is a UNESCO World Heritage Site, and the Black Lady is part of its tours.",
+      "wiki": "Nesvizh Castle"
+    },
+    {
+      "slug": "mavka",
+      "category": "visitors",
+      "title": "The Mavka of the Forest",
+      "region": "Volyn, Ukraine",
+      "lat": 51.4,
+      "lon": 25.2,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Ukrainian folklore",
+      "hook": "In the forests of Ukraine, people say a beautiful girl in green laughs and sings among the trees. Seen from behind, she has no back.",
+      "summary": [
+        "A mavka is a forest spirit of Ukrainian folklore: a young woman with long, loose hair, crowned with flowers, who lives in the woods and fields. She sings, laughs and dances, and can lure young men into the forest, where they lose their way, or tickle them until they can't breathe.",
+        "From behind she gives herself away: she has no back, and you can see straight into her, hollow like an old tree. In some traditions mavkas are the spirits of girls who died before they could be married."
+      ],
+      "explanation": "Mavkas are related to the rusalky of wider Slavic folklore. The poet Lesya Ukrainka made one the heroine of her 1911 play The Forest Song, set in the forests of Volyn, and the mavka has since become a gentler symbol of Ukrainian nature and culture.",
+      "wiki": "Mavka"
+    },
+    {
+      "slug": "demanovska-dragon-bones",
+      "category": "creatures",
+      "title": "The Dragon Bones of Demänová",
+      "region": "Demänovská dolina, Žilina Region, Slovakia",
+      "lat": 49.02,
+      "lon": 19.58,
+      "dateLabel": "Known since the Middle Ages",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Visitors to the cave since the 1200s",
+      "hook": "For centuries, people in Slovakia believed a cave was the lair of dragons, because they found the bones there.",
+      "summary": [
+        "Demänovská Ice Cave, in the Low Tatras mountains, is one of the oldest-known caves in Slovakia, mentioned in writing in the 13th century. Its floors and walls are coated in ice all year round.",
+        "Inside, early visitors found big bones and skulls, with long teeth, that didn't belong to any animal they knew. They took them for the bones of dragons, and the cave was long known as the Dragon Cave."
+      ],
+      "explanation": "The bones belonged to cave bears, a large bear that lived in Europe during the Ice Age and died out around 24,000 years ago. Many caves across Europe were thought to be dragons' lairs for the same reason. The cave is now open to visitors.",
+      "wiki": "Demänovská Ice Cave"
+    },
+    {
+      "slug": "belogradchik-rocks",
+      "category": "places",
+      "title": "The Stone People of Belogradchik",
+      "region": "Belogradchik, Vidin, Bulgaria",
+      "lat": 43.62,
+      "lon": 22.68,
+      "dateLabel": "Told for generations",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Bulgarian folklore",
+      "hook": "In north-western Bulgaria, a crowd of red rock towers stands in the hills. Each has a name and a story: a horseman, a monk, a nun with her child.",
+      "summary": [
+        "The Belogradchik Rocks are sandstone and limestone pillars up to 200 metres high, rising from the foothills of the Balkan Mountains. A Roman and later Ottoman fortress was built among them, using the rocks as walls.",
+        "People have given the rocks names and stories: the Madonna, the Horseman, Adam and Eve, the Schoolgirl, the Monks. The best known is of a nun called Valentina who fell in love and had a child; she was cast out and, as a storm broke, she and the monks who judged her were turned to stone."
+      ],
+      "explanation": "The rocks were shaped over millions of years by wind, rain and temperature changes wearing away softer layers between harder ones, and their colour comes from iron oxide. The legends are folk stories attached to their human-like shapes.",
+      "wiki": "Belogradchik Rocks"
+    },
+    {
+      "slug": "devils-town-serbia",
+      "category": "places",
+      "title": "Đavolja Varoš, the Devil's Town",
+      "region": "Kuršumlija, Toplica, Serbia",
+      "lat": 43.0,
+      "lon": 21.4,
+      "dateLabel": "Told for generations",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Serbian folklore",
+      "hook": "On a Serbian hillside stand 200 earth towers, each topped with a stone like a hat. Below them, a spring runs red. Locals call it the Devil's Town.",
+      "summary": [
+        "Đavolja Varoš, in southern Serbia, is a group of about 200 earth pillars, up to 15 metres tall, each capped with a boulder. Beside them flow two springs of very acidic, mineral-rich water, called the Devil's Water and the Red Well.",
+        "The legend is that the devil, angered by a forbidden wedding between a brother and sister, turned the whole wedding party into stone, and the towers are the guests. Another story says the devil poisoned the water to make people forget a dark secret."
+      ],
+      "explanation": "The pillars are earth pyramids: rain washed away the soft volcanic soil around them, except where a hard stone on top sheltered the earth beneath. Without their caps, they slowly dissolve. The springs get their colour and acid from minerals in the old volcanic rock.",
+      "wiki": "Đavolja Varoš"
+    },
+    {
+      "slug": "kuklica-stone-dolls",
+      "category": "places",
+      "title": "The Stone Wedding of Kuklica",
+      "region": "Kuklica, near Kratovo, North Macedonia",
+      "lat": 42.08,
+      "lon": 22.18,
+      "dateLabel": "Told for generations",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Macedonian folklore",
+      "hook": "Near a village in North Macedonia, more than a hundred stone figures stand on a hillside. People say they were a wedding party, cursed by a bride left behind.",
+      "summary": [
+        "Kuklica, 'the little dolls', is a field of more than 120 stone pillars near Kratovo, many of them with rounded tops like heads, so they look like people standing in groups.",
+        "The legend tells of a young man who promised to marry two women and chose to wed one of them on the same day the other expected him. The jilted woman watched the wedding procession from a hill and cursed it, and the bride, the groom and all the guests were turned to stone."
+      ],
+      "explanation": "The pillars formed from volcanic tuff that was eroded by rain and wind over tens of thousands of years, with harder stones on top protecting the rock beneath. The site is a protected natural monument.",
+      "wiki": "Kuklica"
+    },
+    {
+      "slug": "blue-eye-albania",
+      "category": "places",
+      "title": "The Blue Eye, the Spring with No Bottom",
+      "region": "Near Muzinë, Vlorë, Albania",
+      "lat": 39.92,
+      "lon": 20.17,
+      "dateLabel": "Known for centuries",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Visitors and divers",
+      "hook": "In the hills of southern Albania, a pool of startling blue water looks like an eye. Divers have gone down more than 50 metres and still haven't found the bottom.",
+      "summary": [
+        "Syri i Kaltër, 'the Blue Eye', is a spring in southern Albania where water wells up from a deep hole in the rock. In the middle it's a dark, deep blue, ringed with paler turquoise, so from above it looks like an iris.",
+        "It was long said to be bottomless. Divers have gone down more than 50 metres into its shaft without reaching the end, and the water, always cold, never seems to stop."
+      ],
+      "explanation": "The Blue Eye is a karst spring: rain and snowmelt soak into the limestone mountains and travel through underground channels, pushing up here under pressure. Its full depth is still unknown because the narrow shaft and strong current make deeper dives very hard.",
+      "wiki": "Blue Eye, Albania"
+    },
+    {
+      "slug": "quinta-da-regaleira-well",
+      "category": "places",
+      "title": "The Initiation Well of Sintra",
+      "region": "Quinta da Regaleira, Sintra, Portugal",
+      "lat": 38.8,
+      "lon": -9.4,
+      "dateLabel": "Built 1904–1910",
+      "status": "open",
+      "statusLabel": "Purpose debated",
+      "witnesses": "Visitors",
+      "hook": "In a garden in Portugal, a well that never held water spirals nine levels down into the earth. Many believe it was built for secret rituals.",
+      "summary": [
+        "Quinta da Regaleira is a palace and garden in the hills of Sintra, built in the early 1900s for António Augusto Carvalho Monteiro, a wealthy collector with a passion for mysticism. Its gardens are full of grottoes, towers and tunnels.",
+        "Its most famous feature is the Initiation Well: a shaft 27 metres deep with a spiral staircase winding down past nine landings to a compass-star set into the floor at the bottom. Tunnels lead from the bottom out into the gardens."
+      ],
+      "explanation": "The well was never used for water. Many believe it was meant for initiation rites of the Freemasons or Knights Templar, and its nine levels are often linked to the nine circles of Dante's Inferno. No record says how, or whether, it was actually used.",
+      "wiki": "Quinta da Regaleira"
+    },
+    {
+      "slug": "el-coco",
+      "category": "visitors",
+      "title": "El Coco",
+      "region": "As told across Spain and Portugal",
+      "lat": 40.42,
+      "lon": -3.7,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Spanish and Portuguese folklore",
+      "hook": "For centuries, Spanish and Portuguese children have been sung to sleep with a warning: go to sleep, or the Coco will come.",
+      "summary": [
+        "El Coco, or Coca, is the bogeyman of Spain and Portugal. Nobody agrees on what he looks like: a shapeless shadow, a hairy creature, a ghost, a dragon. What matters is that he comes for children who misbehave or won't go to sleep, and hides on the roof or under the bed.",
+        "A lullaby known across the Spanish-speaking world goes: 'Sleep, child, sleep now, or the Coco will come and eat you.' The figure travelled with sailors and settlers to Latin America, where he is still known."
+      ],
+      "explanation": "The word coco once meant a skull or a head, and probably gave its name to the coconut: Portuguese sailors thought the nut, with its three dark spots, looked like a grinning face. The Coco is a warning tale, not a sighting.",
+      "wiki": "Coco (folklore)"
+    },
+    {
+      "slug": "witte-wieven",
+      "category": "visitors",
+      "title": "The Witte Wieven",
+      "region": "Drenthe, Netherlands",
+      "lat": 52.85,
+      "lon": 6.6,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Dutch folklore",
+      "hook": "On misty nights on the Dutch heaths, people said white women drifted over the ancient burial mounds.",
+      "summary": [
+        "Witte wieven, 'white women', are spirits of Dutch folklore, told about especially in Drenthe, Overijssel and Gelderland. They were said to live in the old burial mounds on the heath and appear in the mist at dusk, tall and pale in white robes.",
+        "In older stories they were wise women, healers and seers, who were honoured and could help people who treated them well. Later tales made them more frightening: they led travellers astray into the bogs or carried off children."
+      ],
+      "explanation": "The obvious explanation is the low mist that gathers over wet heathland in the evening, drifting in shapes over the mounds. The figures may also remember real wise women of the past. Some of the mounds are prehistoric graves.",
+      "wiki": "Witte Wieven"
+    },
+    {
+      "slug": "revontulet",
+      "category": "sky",
+      "title": "Revontulet, the Fox Fires",
+      "region": "Inari, Lapland, Finland",
+      "lat": 68.66,
+      "lon": 27.54,
+      "dateLabel": "Told for centuries",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Finnish and Sámi tradition, and anyone in the far north",
+      "hook": "In Finland, the northern lights are called fox fires: a fox running across the fells, its tail sweeping sparks of snow into the sky.",
+      "summary": [
+        "The Finnish word for the aurora borealis is revontulet, 'fox fires'. An old story says an arctic fox ran so fast across the snowy hills of Lapland that its tail brushed the snow and threw sparks up into the sky, lighting it in colours.",
+        "The Sámi people of the far north treated the lights with caution. Children were told not to whistle, sing or wave at them, or the lights might come down and carry them off, and people kept quiet when the sky was lit."
+      ],
+      "explanation": "The aurora happens when charged particles from the Sun are guided by Earth's magnetic field into the upper atmosphere near the poles, making gases glow green, red and violet. Northern Finland sees them on about half of all clear nights in winter.",
+      "wiki": "Revontulet"
+    },
+    {
+      "slug": "devils-trill-sonata",
+      "category": "voices",
+      "title": "The Devil's Trill",
+      "region": "Assisi, Umbria, Italy",
+      "lat": 43.07,
+      "lon": 12.62,
+      "dateLabel": "Said to be 1713",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The composer Giuseppe Tartini, in his own account",
+      "hook": "An Italian violinist dreamed he gave his soul to the Devil, who picked up his violin and played the most beautiful music he had ever heard.",
+      "summary": [
+        "Giuseppe Tartini was one of the great violinists of the 18th century. Late in life, he told the French astronomer Jérôme Lalande about a dream he'd had as a young man, in 1713: he made a pact with the Devil, and to test him, handed him his violin.",
+        "The Devil played a sonata so beautiful and so skilful that Tartini woke up gasping. He grabbed his violin and tried to play what he'd heard. The piece he wrote, the 'Devil's Trill' sonata, is still one of the hardest in the repertoire, but he said it was nothing next to what he heard in the dream."
+      ],
+      "explanation": "It's a story about a dream, told decades later, so there's nothing to check. Dreams that seem to bring creative ideas are well known. The sonata itself was probably written years after 1713, and the tale has helped make it famous.",
+      "wiki": "Devil's Trill Sonata"
+    },
+    {
+      "slug": "paganini-devils-violinist",
+      "category": "voices",
+      "title": "Paganini, the Devil's Violinist",
+      "region": "Genoa, Liguria, Italy",
+      "lat": 44.41,
+      "lon": 8.93,
+      "dateLabel": "1800s",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Audiences across Europe",
+      "hook": "Niccolò Paganini played the violin so impossibly well that audiences whispered he had sold his soul. Some said they saw the Devil guiding his bow.",
+      "summary": [
+        "Niccolò Paganini, born in Genoa in 1782, was the most famous violinist of his age. Tall and gaunt, dressed in black, he played with a speed and skill no one had heard before, sometimes on one string after he'd snapped the others.",
+        "Rumours spread that he'd made a pact with the Devil, and some in his audiences claimed to have seen a demonic figure beside him while he played. He did little to stop them, since they sold tickets. When he died in 1840, the Church refused him a Christian burial at first, and it was years before he was laid to rest in Parma."
+      ],
+      "explanation": "His skill came from relentless practice from childhood, and some doctors have suggested his unusually flexible fingers came from a condition such as Marfan or Ehlers–Danlos syndrome. The burial was delayed partly because he died without seeing a priest, which fed the rumours.",
+      "wiki": "Niccolò Paganini"
+    },
+    {
+      "slug": "snaefellsjokull",
+      "category": "places",
+      "title": "Snæfellsjökull, the Door to the Centre of the Earth",
+      "region": "Snæfellsnes, Western Region, Iceland",
+      "lat": 64.8,
+      "lon": -23.78,
+      "dateLabel": "Since 1864, and 5 November 1993",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Readers of Jules Verne, and a crowd waiting for visitors",
+      "hook": "Jules Verne sent his explorers into the Earth through an Icelandic volcano. In 1993, hundreds of people gathered there waiting for a spaceship.",
+      "summary": [
+        "Snæfellsjökull is a glacier-capped volcano at the tip of a peninsula in western Iceland, visible from Reykjavík on clear days. In Jules Verne's 1864 novel Journey to the Centre of the Earth, it's where the explorers climb down into the planet.",
+        "It has long been said to be one of the Earth's great energy centres. In 1993, word spread that aliens would land on the glacier on 5 November. Hundreds of people gathered, along with reporters from around the world. Nothing landed."
+      ],
+      "explanation": "Snæfellsjökull is a stratovolcano that last erupted about 1,800 years ago. Its 'energy' is a belief that can't be measured. Its glacier is shrinking quickly, and scientists expect it may vanish in the coming decades.",
+      "wiki": "Snæfellsjökull"
+    },
+    {
+      "slug": "basilisk-of-vienna",
+      "category": "creatures",
+      "title": "The Basilisk in the Well of Vienna",
+      "region": "Schönlaterngasse, Vienna, Austria",
+      "lat": 48.21,
+      "lon": 16.38,
+      "dateLabel": "Said to be 1212",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Viennese legend",
+      "hook": "On a narrow street in Vienna, a house still has a statue of the creature found in its well in 1212: a basilisk, whose look could kill.",
+      "summary": [
+        "Legend says that in 1212, a baker's apprentice went down the well behind his master's house in Vienna to find out why the water stank. At the bottom he saw a creature with a rooster's head and a toad's body, with a crown and a serpent's tail, and glowing eyes. He fainted and was pulled up.",
+        "A wise man said it was a basilisk, whose gaze kills. A brave young man went down with a mirror. The basilisk saw its own reflection and burst, and the well was filled in with stones."
+      ],
+      "explanation": "The foul smell and the 'creature' were probably gases from rotting matter at the bottom of the well, which could make a person faint, along with an oddly shaped stone or deposit. The 'Basilisk House' at Schönlaterngasse 7 still has a carving of it.",
+      "wiki": null
+    },
+    {
+      "slug": "mount-pilatus-dragons",
+      "category": "creatures",
+      "title": "The Dragons of Mount Pilatus",
+      "region": "Mount Pilatus, Lucerne, Switzerland",
+      "lat": 46.98,
+      "lon": 8.25,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Swiss legend, and a stone in a museum",
+      "hook": "The mountain above Lucerne was once so feared that climbing it was forbidden. Dragons lived there, people said, and one dropped a healing stone.",
+      "summary": [
+        "Mount Pilatus rises over Lake Lucerne. Medieval legend said that the body of Pontius Pilate had been thrown into a small lake near its summit, and that his restless spirit raised storms whenever anyone disturbed it. For centuries the city of Lucerne forbade people to climb it.",
+        "The mountain was also said to be home to dragons. In one story from 1420, a dragon flew over a farmer near the mountain and dropped a stone, which was found to cure illness. The 'dragon stone' is kept in Lucerne's natural history museum."
+      ],
+      "explanation": "The storms are the ordinary weather of a mountain that catches cloud. In 1585 a priest climbed up with townspeople and threw stones into the lake to prove nothing would happen. The dragon stone is thought to be a meteorite, or more likely an ordinary stone shaped by water.",
+      "wiki": "Pilatus (mountain)"
+    },
+    {
+      "slug": "sunken-bell-of-bled",
+      "category": "voices",
+      "title": "The Sunken Bell of Lake Bled",
+      "region": "Bled, Upper Carniola, Slovenia",
+      "lat": 46.36,
+      "lon": 14.09,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Slovenian folklore",
+      "hook": "On still nights at Lake Bled, people say you can hear a bell ringing from the bottom of the lake.",
+      "summary": [
+        "Lake Bled, in the Julian Alps, has a tiny island with a church on it. The legend says a young widow living in Bled Castle had a bell cast for the island chapel in memory of her husband. As it was being rowed across, a storm blew up, the boat overturned, and the bell sank to the bottom.",
+        "The widow gave all she had to the church and became a nun in Rome. After her death, the Pope sent a new bell to the island, and anyone who rings it three times is said to have a wish granted. The old bell, people say, can still be heard ringing from under the water."
+      ],
+      "explanation": "Sunken-bell legends are told about lakes and coasts across Europe. Sound carries far across still water, so the island bell, or a church bell from the shore, can seem to come from strange directions. The wishing bell is rung by visitors every day.",
+      "wiki": "Lake Bled"
+    },
+    {
+      "slug": "bomarzo-park-of-monsters",
+      "category": "places",
+      "title": "The Park of Monsters at Bomarzo",
+      "region": "Bomarzo, Lazio, Italy",
+      "lat": 42.49,
+      "lon": 12.25,
+      "dateLabel": "Made in the 1550s",
+      "status": "open",
+      "statusLabel": "Purpose debated",
+      "witnesses": "Visitors since the 1500s",
+      "hook": "In a wood in central Italy, a prince filled a garden with giant stone monsters, a tilted house and a gaping mouth you can walk into. No one is sure why.",
+      "summary": [
+        "The Sacro Bosco, 'sacred wood', near Bomarzo was made for Pier Francesco Orsini, a nobleman and soldier, in the 1550s and after. He had the boulders of the valley carved into huge sculptures: a giant tearing another apart, a dragon fighting lions, an elephant, a sea monster, and the Mouth of Hell, a vast screaming face with a room inside.",
+        "Nearby is a small house built on purpose at a tilt, so visitors lose their balance. Inscriptions around the park speak of wonder and grief. After Orsini, the wood was forgotten and overgrown for centuries, until it was rediscovered in the mid-20th century, when artists such as Salvador Dalí came to see it."
+      ],
+      "explanation": "Historians think Orsini made it partly in grief after his wife's death, and as an allegorical journey, perhaps based on poems of his time. The inscription on the Mouth of Hell reads 'every thought flies'. Exactly what he meant has never been settled.",
+      "wiki": "Gardens of Bomarzo"
+    },
+    {
+      "slug": "kratt",
+      "category": "creatures",
+      "title": "The Kratt, the Servant Made of Hay",
+      "region": "As told across Estonia",
+      "lat": 58.7,
+      "lon": 25.6,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Estonian folklore",
+      "hook": "Estonian farmers once told how to build a servant out of hay and old brooms, and bring it to life with three drops of blood given to the Devil.",
+      "summary": [
+        "The kratt is a creature of Estonian folklore made by its owner from whatever was at hand: a bundle of hay or sticks, an old broom, a rake, a butter churn. To bring it to life, the owner gave the Devil three drops of blood, and with them, his soul.",
+        "The kratt brought its master riches, flying through the sky like a fiery streak to steal grain, money and milk from the neighbours. But it had to be kept busy every moment. Left idle, it could turn on its master or set the farm on fire. Clever owners got rid of one by setting it an impossible task."
+      ],
+      "explanation": "The kratt is a folk tale about greed and its price. Stories of fiery shapes crossing the night sky may also have been inspired by meteors. Estonian writers have retold the kratt many times, including in the 2020 film Kratt.",
+      "wiki": "Kratt"
+    },
+    {
+      "slug": "lauma",
+      "category": "visitors",
+      "title": "The Laumės of the Rivers",
+      "region": "As told across Lithuania",
+      "lat": 55.3,
+      "lon": 23.9,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Lithuanian and Latvian folklore",
+      "hook": "In Lithuania, people said beautiful women lived by the rivers and in the woods, spinning and weaving at night, and the rainbow was their belt.",
+      "summary": [
+        "Laumės are fairy women of Lithuanian folklore, called laumas in Latvia. They lived near water, in forests and on hilltops, and were said to be very beautiful, with long hair, though in some tales their feet were a bird's or a goat's.",
+        "They spun, wove and washed linen at night, and could help hard-working women, finishing their spinning by morning. But they also played tricks, punished laziness, and were said to swap human babies for their own. The rainbow is still called the laumė's belt in Lithuanian."
+      ],
+      "explanation": "Laumės probably come from old Baltic beliefs about goddesses of fate and nature, older than Christianity in the region, which arrived late in Lithuania. They are folk figures, not sightings, and live on in place names and children's stories.",
+      "wiki": "Lauma"
+    },
+    {
+      "slug": "petra-tou-romiou",
+      "category": "places",
+      "title": "Aphrodite's Rock",
+      "region": "Petra tou Romiou, Paphos, Cyprus",
+      "lat": 34.66,
+      "lon": 32.63,
+      "dateLabel": "Told since ancient times",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Greek myth, and swimmers every summer",
+      "hook": "On the coast of Cyprus is the rock where the goddess Aphrodite is said to have risen from the sea. Swim around it, people say, and you'll stay young.",
+      "summary": [
+        "Petra tou Romiou is a sea stack on the south-west coast of Cyprus, where waves break into foam against the rocks. In Greek myth, the goddess of love, Aphrodite, was born from the foam of the sea and came ashore on Cyprus, and tradition places her birth here.",
+        "A modern belief says that anyone who swims around the rock three times, some say at night under a full moon, will be granted eternal youth, or find true love. The rock's name comes from another legend, of a Byzantine hero who threw boulders at pirates."
+      ],
+      "explanation": "The myths are ancient; the swimming custom is more recent and popular with visitors. Aphrodite's main sanctuary in ancient times stood at Palaipaphos, a few kilometres away, which is why the coast was linked with her.",
+      "wiki": "Petra tou Romiou"
+    },
+    {
+      "slug": "emille-bell",
+      "category": "voices",
+      "title": "The Emille Bell",
+      "region": "Gyeongju, North Gyeongsang, South Korea",
+      "lat": 35.83,
+      "lon": 129.23,
+      "dateLabel": "Cast in 771",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Korean legend, and listeners for 1,250 years",
+      "hook": "The great bronze bell of Silla is said to cry 'emille', 'mother', in its long fading hum. The legend behind the sound is one of Korea's darkest.",
+      "summary": [
+        "The Bell of King Seongdeok is a huge bronze temple bell, more than three metres high, finished in 771 in the Silla kingdom's capital, Gyeongju. When it's struck, it hums for more than a minute, rising and falling in waves.",
+        "Legend says the bell wouldn't ring properly until a child was offered into the molten bronze, as a monk had been told in a dream. After that, the bell's voice seemed to call 'emille, emille', an old word for 'mother', and the name stuck."
+      ],
+      "explanation": "Analysis of the bell's metal has found no trace of anything human in it, and historians see the legend as a story added later. Its long, pulsing sound comes from its shape and slight unevenness, which make two close tones beat against each other. It's kept in the Gyeongju National Museum.",
+      "wiki": "Bell of King Seongdeok"
+    },
+    {
+      "slug": "jangsan-tiger",
+      "category": "voices",
+      "title": "The Jangsan Tiger",
+      "region": "Mount Jangsan, Busan, South Korea",
+      "lat": 35.19,
+      "lon": 129.2,
+      "dateLabel": "Since 2013",
+      "status": "open",
+      "statusLabel": "Urban legend",
+      "witnesses": "Hikers and posters on Korean websites",
+      "hook": "A Korean internet legend says a white creature lives on a mountain in Busan and copies human voices, a woman crying, a friend calling, to lure people closer.",
+      "summary": [
+        "In 2013, stories spread on Korean websites about a creature on Mount Jangsan, a wooded mountain in Busan. People described a large white animal, something like a tiger, that hid in the trees and imitated human voices to draw people off the trails.",
+        "The story drew on older Korean folklore about tigers that mimic people, and soon the advice went around: if you hear someone calling your name from the forest, don't answer."
+      ],
+      "explanation": "There have been no wild tigers in South Korea for a century, and no photographs or remains have ever been found. Folklorists see it as a new urban legend built on old ones, and the sounds as birds, foxes or wind, if anything was heard at all.",
+      "wiki": null
+    },
+    {
+      "slug": "miracle-of-jindo",
+      "category": "places",
+      "title": "The Parting of the Sea at Jindo",
+      "region": "Jindo, South Jeolla, South Korea",
+      "lat": 34.43,
+      "lon": 126.35,
+      "dateLabel": "Several times a year",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Hundreds of thousands of visitors",
+      "hook": "A few times a year, the sea between two Korean islands draws back to open a road nearly three kilometres long, and crowds walk across.",
+      "summary": [
+        "Between Jindo and the small island of Modo, in south-western Korea, a strip of seabed about 40 metres wide rises out of the water for about an hour at the lowest tides of spring and early summer. People call it the Miracle of Jindo, and a festival brings huge crowds to walk across.",
+        "The legend is of Grandmother Ppong, left behind on Jindo when her village fled to Modo to escape tigers. She prayed to the Dragon King of the sea to see her family again, and the sea parted to let her cross."
+      ],
+      "explanation": "It's a natural tidal effect: the seabed between the islands is higher than the water around it, and at the year's lowest tides it's left dry. A French ambassador who saw it in 1975 compared it to Moses parting the Red Sea, which made it famous abroad.",
+      "wiki": "Miracle of Jindo"
+    },
+    {
+      "slug": "unicorn-lair-pyongyang",
+      "category": "creatures",
+      "title": "The Unicorn's Lair in Pyongyang",
+      "region": "Pyongyang, North Korea",
+      "lat": 39.03,
+      "lon": 125.75,
+      "dateLabel": "Announced in 2012",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "North Korean state media",
+      "hook": "In 2012, newspapers around the world reported that North Korea had announced the discovery of a unicorn's lair.",
+      "summary": [
+        "In November 2012, North Korea's state news agency announced that historians had 'reconfirmed' the lair of a unicorn ridden by King Dongmyeong, the legendary founder of the ancient kingdom of Goguryeo, behind a temple in Pyongyang. A rock in front of it was carved with the words 'Unicorn Lair'.",
+        "Newspapers abroad ran headlines saying North Korea claimed unicorns were real, and the story went around the world."
+      ],
+      "explanation": "The creature was a kirin, or qilin, a horse-like beast of East Asian myth, which was translated as 'unicorn'. The site, known as Kiringul, had been linked with the legend for centuries, and the carved rock is thought to date from the Middle Ages. The announcement was about history and national legend, not a living animal.",
+      "wiki": "Kiringul"
+    },
+    {
+      "slug": "lhamo-la-tso",
+      "category": "places",
+      "title": "Lhamo La-tso, the Lake of Visions",
+      "region": "Gyaca, Shannan, Tibet, China",
+      "lat": 29.08,
+      "lon": 92.38,
+      "dateLabel": "Visited for centuries; famously in 1935",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Tibetan lamas and pilgrims",
+      "hook": "In the mountains of Tibet, a small lake is said to show visions of the future. In 1935, a regent looked into it and saw where to find the next Dalai Lama.",
+      "summary": [
+        "Lhamo La-tso is a small oval lake high in the mountains south-east of Lhasa. It's sacred to Palden Lhamo, a protector goddess, and Tibetans believe that those who pray there can see visions in its water.",
+        "When the 13th Dalai Lama died in 1933, the regent, Reting Rinpoche, went to the lake. He reported seeing three Tibetan letters, Ah, Ka and Ma, a monastery with a roof of jade and gold, and a house with turquoise tiles. The search party later found a two-year-old boy in a house that matched, in the Amdo region. He became the 14th Dalai Lama."
+      ],
+      "explanation": "The visions are a matter of faith. The search also used other signs, such as the direction the 13th Dalai Lama's body turned after death, and tests of the child. The lake remains a place of pilgrimage.",
+      "wiki": "Lhamo La-tso"
+    },
+    {
+      "slug": "mount-kailash",
+      "category": "places",
+      "title": "Mount Kailash, the Mountain No One Climbs",
+      "region": "Ngari, Tibet, China",
+      "lat": 31.07,
+      "lon": 81.31,
+      "dateLabel": "Sacred for thousands of years",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Pilgrims of four religions",
+      "hook": "A strangely shaped peak in western Tibet is sacred to four religions. No one has ever stood on its summit.",
+      "summary": [
+        "Mount Kailash rises to about 6,600 metres in western Tibet, a dark pyramid with snow lines that look like steps. For Hindus it's the home of Shiva, for Buddhists the home of the deity Demchok, for Jains the place where the first of their great teachers found liberation, and for followers of Bön the centre of the world.",
+        "Pilgrims walk around its base, a circuit of about 52 kilometres, but climbing it is considered sacrilege. Stories say climbers who tried were turned back by storms, and some claim that time passes faster near it, making hair and nails grow quickly."
+      ],
+      "explanation": "Kailash has never been climbed because religious leaders asked that it not be, and China has not allowed it. Mountaineers say it would be possible; Reinhold Messner turned down permission out of respect. The claims about time have no scientific basis.",
+      "wiki": "Mount Kailash"
+    },
+    {
+      "slug": "little-girl-in-red",
+      "category": "visitors",
+      "title": "The Little Girl in Red",
+      "region": "Near Taichung, Taiwan",
+      "lat": 24.18,
+      "lon": 120.8,
+      "dateLabel": "1998",
+      "status": "open",
+      "statusLabel": "Urban legend",
+      "witnesses": "A family on a hike, and television viewers",
+      "hook": "A family filmed their hike in the hills of Taiwan. Watching it at home, they saw a little girl in red walking behind them whom no one remembered.",
+      "summary": [
+        "In 1998, a home video was sent to a Taiwanese television show about the supernatural. A family had filmed themselves on a mountain trail near Taichung. Watching it later, they noticed a small girl in a red jacket following close behind the group, her face strangely old. None of them remembered her being there.",
+        "The clip became one of the best-known pieces of Taiwanese folklore. Many people link it to the mo-sin-a, mountain spirits said to lead hikers astray, and it has inspired a series of horror films."
+      ],
+      "explanation": "Sceptics point out that the video is blurry and that a local child, or someone from another group, could easily have been on the trail unnoticed. Taiwanese folklorists see the story as a modern version of old beliefs about the mountains.",
+      "wiki": null
+    },
+    {
+      "slug": "nang-tani",
+      "category": "visitors",
+      "title": "Nang Tani, the Spirit of the Banana Tree",
+      "region": "As told across Thailand",
+      "lat": 14.35,
+      "lon": 100.57,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Thai folklore",
+      "hook": "In Thailand, people say a young woman in green lives in wild banana trees, and appears on full-moon nights, floating just above the ground.",
+      "summary": [
+        "Nang Tani is a female spirit of Thai folklore who lives in a kind of wild banana tree, the tani. On nights of the full moon she is said to come out as a beautiful young woman dressed in green, standing or drifting just above the ground beneath her tree.",
+        "She is mostly gentle and sometimes gives food to passing monks, but she can punish men who harm her tree or treat women badly. People tie colourful cloth around tani trees as offerings, and many avoid planting them near the house."
+      ],
+      "explanation": "She is one of many tree spirits in Thai belief, part of a world of phi, or spirits, that lives alongside Buddhism in Thailand. She is a folk figure, and appears often in Thai films and comics.",
+      "wiki": "Nang Tani"
+    },
+    {
+      "slug": "phi-ta-khon",
+      "category": "visitors",
+      "title": "Phi Ta Khon, the Festival of Ghosts",
+      "region": "Dan Sai, Loei, Thailand",
+      "lat": 17.28,
+      "lon": 101.15,
+      "dateLabel": "Every year, in June or July",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The people of Dan Sai",
+      "hook": "Once a year, a town in north-eastern Thailand fills with ghosts in huge painted masks with long noses, dancing in the streets.",
+      "summary": [
+        "Phi Ta Khon is a festival held in Dan Sai, in Loei province. Young people dress as spirits in patchwork costumes and tall masks made from sticky-rice baskets and coconut-palm stalks, painted in bright colours with long, curling noses. They dance through the streets ringing bells.",
+        "The story behind it comes from a Buddhist tale. When Prince Vessantara, one of the Buddha's earlier lives, came home after a long exile, the celebration was so joyful that the spirits of the forest came out to join it."
+      ],
+      "explanation": "The festival combines the Buddhist Bun Luang ceremony with older local beliefs about spirits and the coming of the rains. It's a living tradition, and the masks are made by hand each year.",
+      "wiki": "Phi Ta Khon"
+    },
+    {
+      "slug": "mount-popa-nats",
+      "category": "visitors",
+      "title": "The Spirits of Mount Popa",
+      "region": "Mount Popa, Mandalay Region, Myanmar",
+      "lat": 20.92,
+      "lon": 95.25,
+      "dateLabel": "For centuries, and today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Pilgrims and visitors",
+      "hook": "In central Myanmar, a monastery sits on top of a volcanic plug, home to the 37 great spirits. Visitors are warned not to wear red or black.",
+      "summary": [
+        "Mount Popa is an extinct volcano in central Myanmar. Beside it rises Taung Kalat, a steep pillar of rock with a monastery on its summit, reached by hundreds of steps. It's the most important home of the nats, the 37 great spirits honoured alongside Buddhism in Myanmar.",
+        "The nats were mostly people who died violent or tragic deaths, including a brother and sister, the Mahagiri nats, said to have been burned in a tree on the king's orders. Pilgrims bring them offerings, and visitors are told not to wear red, black or green, swear, or bring meat, so as not to offend them."
+      ],
+      "explanation": "Nat worship is older than Buddhism in Myanmar and has lived alongside it since an 11th-century king organised the spirits into an official group of 37. The rock is the old plug of a volcano. Hundreds of macaques now live on the steps.",
+      "wiki": "Mount Popa"
+    },
+    {
+      "slug": "ha-long-bay-dragons",
+      "category": "creatures",
+      "title": "The Descending Dragon of Ha Long Bay",
+      "region": "Ha Long Bay, Quảng Ninh, Vietnam",
+      "lat": 20.95,
+      "lon": 107.08,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Vietnamese legend, and sailors",
+      "hook": "Ha Long means 'where the dragon descends'. Legend says the bay's 2,000 islands were spat out by dragons to stop an invading fleet.",
+      "summary": [
+        "Ha Long Bay, in north-eastern Vietnam, is scattered with nearly 2,000 limestone islands and pillars rising sheer from green water. Vietnamese legend says that when invaders sailed against the land, the gods sent a mother dragon and her children. They spat out jewels and jade, which became the islands, forming a wall the enemy ships wrecked against.",
+        "The dragons liked the place so much they stayed. Sea monster stories were told here too: in the late 1890s and early 1900s, French naval officers reported long, serpent-like animals swimming in the bay."
+      ],
+      "explanation": "The islands are karst: limestone eroded over millions of years by rain and the sea, which later rose to flood the valleys between them. The sea serpent reports were never confirmed. The bay is a UNESCO World Heritage Site.",
+      "wiki": "Hạ Long Bay"
+    },
+    {
+      "slug": "john-frum",
+      "category": "visitors",
+      "title": "Waiting for John Frum",
+      "region": "Sulphur Bay, Tanna, Vanuatu",
+      "lat": -19.53,
+      "lon": 169.45,
+      "dateLabel": "Since the 1930s, and every 15 February",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Followers on Tanna",
+      "hook": "On an island in Vanuatu, people have waited since the 1930s for a mysterious visitor called John Frum to return, bringing wealth for everyone.",
+      "summary": [
+        "In the late 1930s, people on the island of Tanna began to speak of a man called John Frum, who appeared to some of them and told them to turn away from the missionaries and colonial rulers and return to their customs. He promised to come back with plenty of goods for all.",
+        "During the Second World War, American troops arrived in Vanuatu with huge amounts of supplies, which seemed to many to confirm the prophecy. Today the John Frum movement holds a celebration every 15 February at Sulphur Bay, with marching, flags and red crosses, and followers say he lives inside the nearby Yasur volcano."
+      ],
+      "explanation": "Nobody knows if John Frum was a real person. Anthropologists describe the movement as one of the Pacific 'cargo cults', but also as a way of keeping local identity alive under colonial rule. It's a living faith, with its own political party.",
+      "wiki": "John Frum"
+    },
+    {
+      "slug": "nightmarchers",
+      "category": "voices",
+      "title": "The Night Marchers",
+      "region": "Oʻahu, Hawaii, USA",
+      "lat": 21.45,
+      "lon": -157.85,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Hawaiian tradition",
+      "hook": "In Hawaii, people say that on certain nights you can hear drums, chanting and conch shells coming closer: a procession of ancient warriors.",
+      "summary": [
+        "The huakaʻi pō, or night marchers, are spirits of ancient Hawaiian warriors and chiefs who are said to walk at night along the old paths between sacred places and the sea. People describe hearing drums, chanting and the blowing of conch shells, seeing torches, and smelling something like burning.",
+        "Hawaiian tradition says that if they pass you, you must lie face down and not look at them. Some families say an ancestor among the marchers will recognise them and keep them safe."
+      ],
+      "explanation": "The night marchers are part of Native Hawaiian belief and are treated with respect. Sceptics suggest wind, distant sounds or the power of a well-known story at night.",
+      "wiki": "Nightmarchers"
+    },
+    {
+      "slug": "taotao-mona",
+      "category": "visitors",
+      "title": "The Taotao Mona of Guam",
+      "region": "Guam",
+      "lat": 13.45,
+      "lon": 144.78,
+      "dateLabel": "Told for centuries, and today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Chamorro tradition",
+      "hook": "In Guam's jungles, people still ask permission before they walk in, in case the spirits of the ancient people are there.",
+      "summary": [
+        "Taotao mona, 'people of before', are the spirits of the ancient Chamorro ancestors of Guam and the Mariana Islands. They are said to live in the jungle, especially in the banyan trees, called nunu, and around the old latte stone sites.",
+        "Many people on Guam ask the spirits' permission before entering the jungle, picking fruit or relieving themselves, and are careful not to cut a banyan tree. Those who don't, it's said, may be pinched, leave with unexplained bruises, or fall sick."
+      ],
+      "explanation": "The belief survived centuries of Spanish rule and Catholic missionaries, and remains part of Chamorro culture. It's a living tradition of respect for the land and the ancestors.",
+      "wiki": "Taotao Mona"
+    },
+    {
+      "slug": "hanging-coffins-sichuan",
+      "category": "places",
+      "title": "The Hanging Coffins of the Bo",
+      "region": "Gong County, Sichuan, China",
+      "lat": 28.3,
+      "lon": 104.8,
+      "dateLabel": "Placed up to about 400 years ago",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "Visitors and archaeologists",
+      "hook": "On sheer cliffs in southern China, wooden coffins rest on wooden stakes high above the ground. How they were put there is still debated.",
+      "summary": [
+        "In Gong County in Sichuan, wooden coffins sit on beams driven into the face of cliffs, or in caves and cracks, some of them a hundred metres or more above the valley. They were placed by the Bo people, who lived in the region until about 400 years ago and then disappeared from the records.",
+        "Similar hanging coffins are found elsewhere in southern China and in South-East Asia, some of them thousands of years old. Some say the dead were raised so they could be closer to heaven, or kept safe from animals and thieves."
+      ],
+      "explanation": "Archaeologists have suggested several ways they were placed: lowered on ropes from above, hauled up on scaffolding, or set from ramps built along the cliff and later removed. Which was used, and exactly why, isn't known for certain.",
+      "wiki": "Hanging coffins"
+    },
+    {
+      "slug": "dragon-bones-of-anyang",
+      "category": "creatures",
+      "title": "The Dragon Bones That Turned Out to Be Writing",
+      "region": "Anyang, Henan, China",
+      "lat": 36.12,
+      "lon": 114.31,
+      "dateLabel": "Recognised in 1899",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Chinese scholars and archaeologists",
+      "hook": "For centuries, Chinese pharmacies ground up 'dragon bones' as medicine. Then a scholar noticed writing on them, and they turned out to be China's oldest records.",
+      "summary": [
+        "In traditional Chinese medicine, 'dragon bones' were old bones dug from the ground, ground into powder and sold as a cure. Farmers near Anyang found them in their fields and sold them to pharmacies.",
+        "In 1899, a scholar named Wang Yirong is said to have spotted ancient characters carved on some pieces. They were oracle bones: ox shoulder blades and turtle shells used by the kings of the Shang dynasty more than 3,000 years ago to ask questions of their ancestors."
+      ],
+      "explanation": "The 'dragon bones' were divination records: heat was applied until the bone cracked, the cracks were read as answers, and the question and answer were carved on the bone. They are the oldest known Chinese writing, and led archaeologists to Yinxu, the last Shang capital, near Anyang.",
+      "wiki": "Oracle bone"
+    },
+    {
+      "slug": "mahsuri-curse",
+      "category": "places",
+      "title": "Mahsuri's Curse on Langkawi",
+      "region": "Langkawi, Kedah, Malaysia",
+      "lat": 6.37,
+      "lon": 99.79,
+      "dateLabel": "Told of the early 1800s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Malaysian legend",
+      "hook": "Langkawi's best-known legend says a woman accused of a crime she didn't commit cursed the island for seven generations.",
+      "summary": [
+        "Mahsuri was, the story says, a young woman of Langkawi in the early 1800s, married to a warrior who went away to fight. While he was gone, she was falsely accused of being unfaithful, and was put to death for it. White blood flowed from her wound, a sign of her innocence.",
+        "Before she died, she is said to have cursed Langkawi to have no prosperity for seven generations. Soon after, the island was invaded from Siam, and it stayed poor and quiet for well over a century."
+      ],
+      "explanation": "The legend is a story, though Mahsuri's tomb is a real place of pilgrimage. Langkawi's poverty had ordinary causes in war and isolation. When it was made a duty-free island in 1987 and boomed with tourism, many people said the seven generations had passed, and a descendant was celebrated.",
+      "wiki": "Mahsuri"
+    },
+    {
+      "slug": "golden-rock-kyaiktiyo",
+      "category": "places",
+      "title": "The Golden Rock, Held by a Hair",
+      "region": "Kyaiktiyo, Mon State, Myanmar",
+      "lat": 17.48,
+      "lon": 97.1,
+      "dateLabel": "A pilgrimage for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Pilgrims",
+      "hook": "On a mountain in Myanmar, a gilded boulder balances on the very edge of a cliff. Pilgrims say a single hair of the Buddha keeps it from falling.",
+      "summary": [
+        "The Kyaiktiyo Pagoda is a small stupa built on top of a huge granite boulder, covered in gold leaf by pilgrims, which sits tipped over the edge of a cliff in Mon State. It looks as if it should roll off at any moment.",
+        "Legend says a hermit was given a hair of the Buddha and wanted it kept in a rock shaped like his own head. A king with supernatural powers found the boulder at the bottom of the sea and brought it here. The hair, enshrined in the stupa, is said to keep it balanced."
+      ],
+      "explanation": "The boulder rests on a natural ledge, its weight balanced so that it's held in place by its own mass and friction. It has survived earthquakes. It's one of the most sacred Buddhist sites in Myanmar, and only men are allowed to touch the rock.",
+      "wiki": "Kyaiktiyo Pagoda"
+    },
+    {
+      "slug": "teine-sa",
+      "category": "visitors",
+      "title": "The Teine Sā of Samoa",
+      "region": "Upolu, Samoa",
+      "lat": -13.85,
+      "lon": -171.75,
+      "dateLabel": "Told for centuries, and today",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Samoan tradition",
+      "hook": "In Samoa, young women are told not to wear their hair loose at night, or a jealous spirit woman might take notice.",
+      "summary": [
+        "Teine sā, 'sacred girls', are female spirits of Samoan tradition. The best known is Saumaiafe, who is said to appear as a beautiful woman, sometimes in the forest, sometimes on the road at night. Each teine sā is linked with particular families and places.",
+        "They are said to punish disrespect: someone who is rude, who takes what isn't theirs, or who walks proudly with flowers or long loose hair at night may fall ill or be possessed. People speak of them carefully."
+      ],
+      "explanation": "Belief in teine sā has survived alongside Christianity in Samoa. Anthropologists have studied how families and churches respond when someone is believed to be troubled by one. They are part of a living tradition.",
+      "wiki": "Teine Sā"
     }
 ];
