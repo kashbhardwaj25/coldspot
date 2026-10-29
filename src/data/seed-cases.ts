@@ -23315,5 +23315,1914 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
       ],
       "explanation": "Belief in teine sā has survived alongside Christianity in Samoa. Anthropologists have studied how families and churches respond when someone is believed to be troubled by one. They are part of a living tradition.",
       "wiki": "Teine Sā"
+    },
+    {
+      "slug": "portage-county-chase",
+      "category": "sky",
+      "title": "The Portage County Chase",
+      "region": "Ravenna, Ohio, USA",
+      "lat": 41.16,
+      "lon": -81.24,
+      "dateLabel": "17 April 1966",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "Sheriff's deputies and police officers in two states",
+      "hook": "Before dawn, two Ohio deputies chased a glowing object for more than 80 miles, until they ran out of fuel in Pennsylvania.",
+      "summary": [
+        "Early on 17 April 1966, two sheriff's deputies in Portage County, Ohio, stopped to check an abandoned car. They said a bright object rose from the trees, lit them up, and hovered over the road with a humming sound. Ordered by radio to follow it, they gave chase at speeds of up to 100 miles an hour.",
+        "The pursuit crossed into Pennsylvania. Other officers along the way reported seeing the light too. Near Conway, low on fuel, the deputies stopped, and watched the object rise straight up and disappear."
+      ],
+      "explanation": "The Air Force's Project Blue Book concluded the officers had seen a satellite, Echo, and then the planet Venus. The deputies and other witnesses rejected that, and the case later inspired a scene in the film Close Encounters of the Third Kind.",
+      "wiki": null
+    },
+    {
+      "slug": "nash-fortenberry-sighting",
+      "category": "sky",
+      "title": "The Discs Below the Airliner",
+      "region": "Over Chesapeake Bay, near Newport News, Virginia, USA",
+      "lat": 37.08,
+      "lon": -76.48,
+      "dateLabel": "14 July 1952",
+      "status": "open",
+      "statusLabel": "Unidentified",
+      "witnesses": "Two Pan Am pilots",
+      "hook": "Flying over Virginia at night, two airline pilots saw six glowing red discs race beneath them in a line, then flip on edge and reverse direction.",
+      "summary": [
+        "On the evening of 14 July 1952, the pilots of a Pan American DC-4, William Nash and William Fortenberry, were flying towards Norfolk at 8,000 feet. They saw six bright red-orange discs, in a tight line, approaching far below them at enormous speed.",
+        "The discs slowed, flipped on their edges, reversed direction sharply and were joined by two more, before shooting off and blinking out. The pilots reported it as soon as they landed, and the Air Force interviewed them the next morning."
+      ],
+      "explanation": "Suggestions included searchlights, reflections and aircraft, but none fitted the speed and the sharp turns the pilots described. Project Blue Book left the case unexplained. It came days before the famous radar sightings over Washington, D.C.",
+      "wiki": null
+    },
+    {
+      "slug": "bonnybridge-sightings",
+      "category": "sky",
+      "title": "The Falkirk Triangle",
+      "region": "Bonnybridge, Falkirk, Scotland",
+      "lat": 55.99,
+      "lon": -3.89,
+      "dateLabel": "Since 1992",
+      "status": "disputed",
+      "statusLabel": "Partly explained",
+      "witnesses": "Hundreds of local people",
+      "hook": "A small Scottish town has reported so many strange lights in the sky since the 1990s that it's been called the UFO capital of the world.",
+      "summary": [
+        "From 1992, people around Bonnybridge, between Glasgow and Edinburgh, began reporting lights and shapes in the night sky: hovering lights, triangles, glowing balls. At the peak, claims ran to hundreds of sightings a year, and the area became known as the Falkirk Triangle.",
+        "Local politicians asked the government to investigate, and the town's sightings were covered around the world."
+      ],
+      "explanation": "Bonnybridge lies under busy flight paths into Glasgow and Edinburgh airports, and many reports match aircraft, satellites, bright planets and, later, sky lanterns. Once a place becomes known for sightings, more people look up and report what they see.",
+      "wiki": "Bonnybridge"
+    },
+    {
+      "slug": "warminster-thing",
+      "category": "sky",
+      "title": "The Warminster Thing",
+      "region": "Warminster, Wiltshire, England",
+      "lat": 51.2,
+      "lon": -2.18,
+      "dateLabel": "1964–1970s",
+      "status": "disputed",
+      "statusLabel": "Partly explained",
+      "witnesses": "Residents, and skywatchers who came from across Britain",
+      "hook": "In 1964, people in an English market town began hearing strange crackling sounds from the sky, and seeing lights over the hills. They called it the Thing.",
+      "summary": [
+        "It began on Christmas morning 1964, when people in Warminster reported a loud, rattling, crackling noise overhead, like something being dragged across the roof. Over the following months, residents described sounds that knocked birds out of the sky, and glowing lights moving over the downs.",
+        "A local journalist wrote books about it, and for years crowds gathered on Cradle Hill at night to watch for the Thing. Some said they saw lights land."
+      ],
+      "explanation": "Warminster is next to big army training areas on Salisbury Plain, and military exercises, flares and helicopters explain many reports. Some photographs were later shown to be faked. The sounds were never fully explained.",
+      "wiki": "Warminster"
+    },
+    {
+      "slug": "green-fireballs",
+      "category": "sky",
+      "title": "The Green Fireballs of New Mexico",
+      "region": "Los Alamos, New Mexico, USA",
+      "lat": 35.88,
+      "lon": -106.3,
+      "dateLabel": "1948–1951",
+      "status": "open",
+      "statusLabel": "Never settled",
+      "witnesses": "Scientists, security guards and pilots near secret weapons sites",
+      "hook": "In the late 1940s, bright green fireballs kept streaking silently over America's most secret nuclear laboratories.",
+      "summary": [
+        "From late 1948, people in New Mexico began reporting brilliant green fireballs crossing the night sky, often near Los Alamos and Sandia, where nuclear weapons were designed. Witnesses included security guards, pilots and scientists.",
+        "The meteorite expert Lincoln LaPaz, who saw one himself, said they didn't behave like meteors: they made no sound, travelled in flat paths and left no fragments. The Air Force set up Project Twinkle to photograph them, with little success."
+      ],
+      "explanation": "Most scientists then and since think they were bright meteors, which can glow green from burning metals, and that more were noticed because of the area's security watch. LaPaz never accepted that. The project closed in 1951 without an answer.",
+      "wiki": "Green fireballs"
+    },
+    {
+      "slug": "columbus-eclipse",
+      "category": "sky",
+      "title": "The Night Columbus Took Away the Moon",
+      "region": "St Ann's Bay, Jamaica",
+      "lat": 18.44,
+      "lon": -77.2,
+      "dateLabel": "29 February 1504",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Columbus's crew and the Taíno of Jamaica",
+      "hook": "Stranded in Jamaica, Christopher Columbus told the island's people that God would turn the Moon red if they didn't keep feeding his crew. That night, it did.",
+      "summary": [
+        "On his fourth voyage, Christopher Columbus's ships were wrecked on the north coast of Jamaica in 1503. The Taíno people there traded food with the stranded crew for months, but when the sailors began cheating and robbing them, they stopped.",
+        "Columbus carried an almanac that predicted a total eclipse of the Moon on 29 February 1504. He told the Taíno leaders that God was angry and would show it in the sky. As the Moon rose, it darkened and turned red. The Taíno brought food and begged him to restore it, and he timed his 'forgiveness' to the end of the eclipse."
+      ],
+      "explanation": "The eclipse was real and predictable: the almanac, by the German astronomer Regiomontanus, listed eclipses decades in advance. The story comes from Columbus's son Ferdinand, who was on the voyage. It's remembered today as an example of using knowledge to deceive.",
+      "wiki": "Fourth voyage of Columbus"
+    },
+    {
+      "slug": "eclipse-of-thales",
+      "category": "sky",
+      "title": "The Eclipse That Stopped a Battle",
+      "region": "Near the Kızılırmak river, central Türkiye",
+      "lat": 39.9,
+      "lon": 34.0,
+      "dateLabel": "28 May 585 BCE",
+      "status": "explained",
+      "statusLabel": "Partly confirmed",
+      "witnesses": "Two armies, as told by Herodotus",
+      "hook": "In the middle of a battle in ancient Anatolia, day suddenly turned to night. The armies took it as a sign, laid down their weapons and made peace.",
+      "summary": [
+        "The Greek historian Herodotus wrote that the Medes and the Lydians had been at war for five years. During a battle near the river Halys, the day was suddenly turned into night. Both sides were so alarmed that they stopped fighting and agreed a peace, sealed by a marriage between their royal families.",
+        "Herodotus added that the philosopher Thales of Miletus had predicted the year it would happen."
+      ],
+      "explanation": "Astronomers calculate that a total eclipse of the Sun crossed the region on 28 May 585 BCE, which makes it one of the earliest historical events that can be dated to the day. Whether Thales could really have predicted it is doubted; the methods of his time could at best give a rough warning.",
+      "wiki": "Eclipse of Thales"
+    },
+    {
+      "slug": "noctilucent-clouds",
+      "category": "sky",
+      "title": "The Clouds That Shine at Midnight",
+      "region": "Berlin, Germany",
+      "lat": 52.52,
+      "lon": 13.4,
+      "dateLabel": "First reported in 1885",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Astronomers in Germany and Britain, and skywatchers since",
+      "hook": "In 1885, people across northern Europe noticed silvery-blue clouds glowing in the sky long after sunset. Nobody had described them before.",
+      "summary": [
+        "In the summer of 1885, astronomers in Germany, Britain and Russia reported thin, rippled clouds that glowed electric blue and silver in the northern sky around midnight, when the sky should have been dark. The Berlin astronomer Otto Jesse photographed them and worked out that they were about 80 kilometres up, far above any ordinary cloud.",
+        "They appeared two years after the huge eruption of Krakatoa, and people wondered if the two were linked."
+      ],
+      "explanation": "Noctilucent, 'night-shining', clouds are made of ice crystals high in the mesosphere, lit by the Sun from below the horizon. Why nobody recorded them before 1885 is still discussed: Krakatoa may have seeded them, or more people may simply have been watching. They've become brighter and more common in recent decades.",
+      "wiki": "Noctilucent cloud"
+    },
+    {
+      "slug": "kosmos-954",
+      "category": "sky",
+      "title": "The Nuclear Satellite That Fell on Canada",
+      "region": "Near Great Slave Lake, Northwest Territories, Canada",
+      "lat": 62.45,
+      "lon": -114.37,
+      "dateLabel": "24 January 1978",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "People in the Northwest Territories, and a search team",
+      "hook": "Before dawn one winter's day in 1978, a Soviet satellite carrying a nuclear reactor broke up over northern Canada, scattering radioactive debris across the snow.",
+      "summary": [
+        "Kosmos 954 was a Soviet satellite that watched ships from orbit, powered by a small nuclear reactor. In late 1977 it began to fall out of control, and on 24 January 1978 it came down over the Northwest Territories, where people saw a bright light streak across the dark sky.",
+        "Canada and the United States launched Operation Morning Light to find the pieces. Over months, teams searched about 124,000 square kilometres, along a path from Great Slave Lake to Baker Lake, and recovered radioactive fragments from the ice and snow."
+      ],
+      "explanation": "The reactor was meant to be boosted to a higher orbit at the end of its life, but the system failed. Most of the debris was recovered, and no one is known to have been hurt. Canada billed the Soviet Union for the clean-up, and later settled for about half.",
+      "wiki": "Kosmos 954"
+    },
+    {
+      "slug": "sputnik-4-manitowoc",
+      "category": "sky",
+      "title": "The Piece of Sputnik in the Street",
+      "region": "Manitowoc, Wisconsin, USA",
+      "lat": 44.09,
+      "lon": -87.66,
+      "dateLabel": "5 September 1962",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Police officers in Manitowoc",
+      "hook": "One morning in 1962, police in a small Wisconsin town found a hot lump of metal buried in the street. It had come from a Soviet spacecraft.",
+      "summary": [
+        "Before dawn on 5 September 1962, people around Lake Michigan saw a fiery object streak overhead. A few hours later, two police officers in Manitowoc found a chunk of metal weighing about 9 kilograms embedded a few centimetres into the road surface of a downtown street.",
+        "Scientists confirmed it was part of Sputnik 4, a Soviet test spacecraft launched in 1960 that had been stuck in orbit after a failed attempt to bring it home."
+      ],
+      "explanation": "The craft had been circling for more than two years before its orbit decayed. The fragment was returned to the Soviet Union, and a brass ring marks the spot. The town now holds a 'Sputnikfest' every September.",
+      "wiki": "Sputnik 4"
+    },
+    {
+      "slug": "skylab-esperance",
+      "category": "sky",
+      "title": "The Space Station That Fell on Esperance",
+      "region": "Esperance, Western Australia",
+      "lat": -33.86,
+      "lon": 121.89,
+      "dateLabel": "11 July 1979",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "People across southern Western Australia",
+      "hook": "When America's first space station fell back to Earth, pieces landed around a small Australian town, which fined NASA for littering.",
+      "summary": [
+        "Skylab, the first American space station, had been empty since 1974, and its orbit was slowly sinking. Around the world, newspapers ran stories about where it might fall. On the night of 11 July 1979 it broke up over the Indian Ocean and Western Australia, and people saw it as a spectacular trail of fireballs with sonic booms.",
+        "Fragments landed around Esperance and Balladonia, including oxygen tanks and pieces of insulation. People collected them as souvenirs."
+      ],
+      "explanation": "NASA had tried to steer its fall into the ocean, but it came down further east than planned. No one was hurt. The Shire of Esperance issued NASA a $400 fine for littering, which went unpaid until a radio host raised the money in 2009.",
+      "wiki": "Skylab"
+    },
+    {
+      "slug": "santelmo",
+      "category": "sky",
+      "title": "The Santelmo",
+      "region": "As told across the Philippines",
+      "lat": 15.03,
+      "lon": 120.69,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Filipino folklore, and people in the countryside",
+      "hook": "In the Philippines, people say balls of fire float through fields and forests at night, and that they are lost souls.",
+      "summary": [
+        "Santelmo is the Filipino name for a fireball, usually yellow or orange, that appears at night in fields, forests and over water, drifting slowly or darting about. The name comes from Saint Elmo, after the glow sailors saw on their masts.",
+        "Many people believe the santelmo is a soul that can't rest, often of someone who drowned, or a spirit leading travellers astray. In some places people say that if you see one, you should stay still, or it will follow you home."
+      ],
+      "explanation": "Similar lights are told about worldwide, like the will-o'-the-wisp. Suggested causes include burning marsh gas, St Elmo's fire in stormy weather, and ball lightning. No one has captured a santelmo on film in a way that settles it.",
+      "wiki": null
+    },
+    {
+      "slug": "green-flash",
+      "category": "sky",
+      "title": "The Green Flash",
+      "region": "Oban, Argyll, Scotland",
+      "lat": 56.41,
+      "lon": -5.47,
+      "dateLabel": "Described in 1882, and seen at many sunsets",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Sailors and anyone watching a clear sea horizon",
+      "hook": "Sailors told of a green flash that sometimes appears just as the Sun sinks into the sea. A legend said whoever saw it could read hearts.",
+      "summary": [
+        "In Jules Verne's 1882 novel The Green Ray, a young woman refuses to marry until she has seen the rare green flash at sunset, said by a Scottish legend to let you see clearly into your own heart and others'. She hunts for it along the west coast of Scotland, near Oban and the islands.",
+        "The flash itself is real. On very clear evenings, just as the last edge of the Sun disappears below the horizon, it can turn bright green for a second or two."
+      ],
+      "explanation": "The Earth's atmosphere bends sunlight like a weak prism, separating colours slightly, so the green top edge of the Sun is the last to set. It needs a clear, distant horizon, such as the sea, and calm air. The legend appears to have been Verne's own invention.",
+      "wiki": "Green flash"
+    },
+    {
+      "slug": "st-louis-light",
+      "category": "sky",
+      "title": "The St Louis Light",
+      "region": "Near St. Louis, Saskatchewan, Canada",
+      "lat": 52.92,
+      "lon": -105.8,
+      "dateLabel": "Since the early 20th century",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Local people and visitors",
+      "hook": "On an old railway line in Saskatchewan, a light appears at night and moves towards you, then vanishes. Legend says it's a railwayman's lantern.",
+      "summary": [
+        "Along a gravel road that follows an old, removed railway line near the town of St. Louis, people say a light appears after dark: a white glow that grows brighter as it approaches, sometimes with a red light behind it, then disappears.",
+        "The best-known legend says it's the lantern of a railway worker who died on the line and still walks it. Another version calls it a ghost train."
+      ],
+      "explanation": "In 1990s school science projects, students tested the light and concluded it was most likely the headlights of cars on a highway in the distance, lined up along the old rail bed. Like many 'spook lights', not every sighting may fit that explanation.",
+      "wiki": "St. Louis Light"
+    },
+    {
+      "slug": "great-falls-ufo-film",
+      "category": "sky",
+      "title": "The Great Falls Film",
+      "region": "Great Falls, Montana, USA",
+      "lat": 47.5,
+      "lon": -111.3,
+      "dateLabel": "15 August 1950",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "The manager of a minor-league baseball team and his secretary",
+      "hook": "In 1950, a baseball manager filmed two bright spots crossing the sky over a Montana stadium. Experts argued about the film for decades.",
+      "summary": [
+        "On 15 August 1950, Nick Mariana, the manager of the Great Falls baseball team, was inspecting the empty ballpark when he saw two bright, spinning silver objects moving across the sky. He fetched his 16mm camera and filmed them for about 16 seconds.",
+        "He sent the film to the Air Force, which returned it with frames missing, he said, those showing the objects most clearly. It became one of the most studied UFO films of its time."
+      ],
+      "explanation": "The Air Force concluded they were probably two jet fighters, which were known to be landing nearby, catching the sunlight. Later analysts, including the Condon Committee, couldn't rule that out but found it hard to fit. The case is still debated.",
+      "wiki": "Mariana UFO incident"
+    },
+    {
+      "slug": "aztec-saucer-hoax",
+      "category": "visitors",
+      "title": "The Saucer That Crashed at Aztec",
+      "region": "Aztec, New Mexico, USA",
+      "lat": 36.82,
+      "lon": -107.99,
+      "dateLabel": "Claimed for 1948",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "None; two men who claimed to know",
+      "hook": "A best-selling book of 1950 said a flying saucer had crashed in New Mexico with small beings on board. It was a con.",
+      "summary": [
+        "In 1950, the journalist Frank Scully published Behind the Flying Saucers, which said that a saucer had come down near Aztec, New Mexico, in 1948. The US government had recovered it, the book said, along with the bodies of 16 small humanoid beings.",
+        "Scully's sources were two men who said they knew scientists working on the craft. The book was a sensation, and the story of a hidden crashed saucer became one of the foundations of modern UFO lore."
+      ],
+      "explanation": "In 1952 a reporter for True magazine showed that the sources were con men who had been selling a fake oil-detecting device said to use saucer technology. They were later charged with fraud over the device. Aztec now holds a UFO festival.",
+      "wiki": "Aztec crashed saucer hoax"
+    },
+    {
+      "slug": "tarawera-phantom-canoe",
+      "category": "visitors",
+      "title": "The Phantom Canoe of Lake Tarawera",
+      "region": "Lake Tarawera, Bay of Plenty, New Zealand",
+      "lat": -38.19,
+      "lon": 176.4,
+      "dateLabel": "31 May 1886",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Tourists and their Māori guides on the lake",
+      "hook": "Eleven days before a volcano erupted, a boat of tourists on a New Zealand lake saw a war canoe glide out of the mist, paddled by people in mourning.",
+      "summary": [
+        "On 31 May 1886, a boatload of tourists was crossing Lake Tarawera to see the famous Pink and White Terraces. Through the mist, several of them and their Māori guides saw a large waka, a war canoe, approaching, its paddlers wearing flax cloaks and feathers in their hair as if in mourning. It vanished before reaching them.",
+        "No such canoe was known on the lake. Local elders said it was a waka wairua, a spirit canoe, and a warning. On 10 June, Mount Tarawera erupted, destroying the terraces and burying the village of Te Wairoa and other settlements; about 120 people died."
+      ],
+      "explanation": "Sceptics suggest it was an ordinary canoe from another settlement, made strange by the mist, and that the story grew after the eruption. Others note the lake's water had been rising and falling oddly in the days before, a sign the volcano was waking.",
+      "wiki": "Mount Tarawera"
+    },
+    {
+      "slug": "walpurgis-night-brocken",
+      "category": "visitors",
+      "title": "Walpurgis Night on the Brocken",
+      "region": "The Brocken, Harz mountains, Germany",
+      "lat": 51.8,
+      "lon": 10.62,
+      "dateLabel": "Every 30 April",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "German folklore",
+      "hook": "German legend says that on the last night of April, witches fly to the top of the Brocken to dance with the Devil until dawn.",
+      "summary": [
+        "The Brocken is the highest peak in the Harz mountains of northern Germany, often wrapped in fog. Folklore says that on Walpurgis Night, the night before 1 May, witches ride on broomsticks and goats to its summit to meet the Devil, and dance among its rocks.",
+        "People once rang church bells and lit bonfires that night to keep the witches away. Goethe set a famous scene of his play Faust on the Brocken on Walpurgis Night, and its rocks still have names like the Witches' Altar and the Devil's Pulpit."
+      ],
+      "explanation": "The night may come from older spring festivals marking the start of summer. The Brocken's fogs, and the Brocken spectre, a giant shadow cast onto mist, helped give it its eerie reputation. Today the Harz towns celebrate it with costumed festivals.",
+      "wiki": "Walpurgis Night"
+    },
+    {
+      "slug": "tulpa-of-alexandra-david-neel",
+      "category": "visitors",
+      "title": "The Monk Made from Thought",
+      "region": "Tibet, China",
+      "lat": 29.65,
+      "lon": 91.12,
+      "dateLabel": "Described in 1929",
+      "status": "open",
+      "statusLabel": "Unverified",
+      "witnesses": "The explorer Alexandra David-Néel, in her own account",
+      "hook": "A famous explorer of Tibet wrote that she created a person out of pure concentration, a jolly little monk, who began to slip out of her control.",
+      "summary": [
+        "Alexandra David-Néel was a French explorer and writer who, in 1924, became one of the first European women to reach Lhasa. In her 1929 book Magic and Mystery in Tibet, she described tulpas, beings Tibetan masters were said to create through meditation.",
+        "She wrote that she tried it herself, imagining a short, cheerful monk. After months, he began to appear on his own, and others in her camp said they saw him. Over time he grew leaner and more sinister, and she said it took her six months of effort to dissolve him."
+      ],
+      "explanation": "Her story is the only source, and it can't be checked. Scholars say her idea of the tulpa mixes Tibetan Buddhist teachings about emanations with Western ideas of her time. The word has since taken on a life of its own online.",
+      "wiki": "Tulpa"
+    },
+    {
+      "slug": "shoemaker-on-the-moon",
+      "body": "moon",
+      "category": "places",
+      "title": "The Man Buried on the Moon",
+      "region": "Near the south pole, the Moon",
+      "lat": -87.7,
+      "lon": 42.1,
+      "dateLabel": "31 July 1999",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "NASA's Lunar Prospector team",
+      "hook": "One person is buried on the Moon: the geologist who taught the Apollo astronauts, and who had always dreamed of going there himself.",
+      "summary": [
+        "Eugene Shoemaker was a geologist who showed how craters are made by impacts, trained Apollo astronauts in geology and helped discover the comet that crashed into Jupiter in 1994. He hoped to be an astronaut, but a health problem ruled him out. He died in 1997.",
+        "A small capsule holding some of his ashes was carried aboard NASA's Lunar Prospector. When its mission ended on 31 July 1999, the spacecraft was deliberately crashed into a crater near the Moon's south pole, carrying him with it."
+      ],
+      "explanation": "The crash was also an experiment, to see whether it would throw up water ice; none was seen from Earth. The capsule was wrapped in a piece of brass inscribed with a quotation from Romeo and Juliet. The crater is now named after him.",
+      "wiki": "Eugene Merle Shoemaker"
+    },
+    {
+      "slug": "fallen-astronaut",
+      "featured": true,
+      "body": "moon",
+      "category": "places",
+      "title": "The Fallen Astronaut",
+      "region": "Hadley Rille, the Moon (Apollo 15 landing site)",
+      "lat": 26.13,
+      "lon": 3.63,
+      "dateLabel": "August 1971",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "The crew of Apollo 15",
+      "hook": "On the Moon lies a small aluminium figure and a plaque with fourteen names. The astronauts left them there in secret.",
+      "summary": [
+        "During Apollo 15's last moonwalk in August 1971, the commander, David Scott, placed a small aluminium figure, about 8.5 centimetres long, face down in the dust near their rover, beside a plaque. It listed the names of eight American astronauts and six Soviet cosmonauts who had died in the race to space.",
+        "The crew didn't mention it publicly until after they were home. It was made by the Belgian artist Paul Van Hoeydonck, and remains the only artwork placed on the Moon."
+      ],
+      "explanation": "The figure was deliberately simple, neither man nor woman, of no particular race. A disagreement later arose because copies were planned for sale, which the crew had not intended; NASA stopped it. A replica is in the Smithsonian.",
+      "wiki": "Fallen Astronaut"
+    },
+    {
+      "slug": "moon-museum",
+      "body": "moon",
+      "category": "places",
+      "title": "The Secret Museum on the Moon",
+      "region": "Ocean of Storms, the Moon (Apollo 12 landing site)",
+      "lat": -3.02,
+      "lon": -23.4,
+      "dateLabel": "November 1969",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "An engineer who said he did it, and a telegram",
+      "hook": "Drawings by six famous artists, Andy Warhol among them, may be on the Moon, stuck to the leg of a lander. NASA has never confirmed it.",
+      "summary": [
+        "The Moon Museum is a ceramic tile, about the size of a postage stamp, carrying tiny drawings by six artists, including Andy Warhol and Robert Rauschenberg. The sculptor Forrest Myers organised it in 1969, after failing to get NASA's permission to send it.",
+        "He says an engineer at the company building the lunar lander agreed to hide it on one of the landing legs of Apollo 12's lander. Two days before launch, Myers received a telegram: 'YOUR ON. A.O.K. ALL SYSTEMS GO.'"
+      ],
+      "explanation": "There's no official record, and no photograph shows the tile on the Moon. Several copies exist on Earth. If it's there, it's under the lower stage of the lander, which stayed behind on the Moon.",
+      "wiki": "Moon Museum"
+    },
+    {
+      "slug": "vanguard-1",
+      "body": "orbit",
+      "category": "sky",
+      "title": "The Oldest Thing in Orbit",
+      "region": "In orbit since 1958, launched from Cape Canaveral, Florida, USA",
+      "lat": 28.39,
+      "lon": -80.6,
+      "dateLabel": "Since 17 March 1958",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Tracking stations for more than 65 years",
+      "hook": "A little satellite the size of a grapefruit has been circling the Earth since 1958, silent for decades. It may stay up for another 200 years.",
+      "summary": [
+        "Vanguard 1 was the fourth satellite ever launched and the second American one, in March 1958. It weighed only 1.5 kilograms, and the Soviet leader Nikita Khrushchev mocked it as 'the grapefruit satellite'. It was one of the first to use solar cells.",
+        "Its radio fell silent in 1964, but it's still up there, higher than most satellites, the oldest human-made object in orbit. Its predecessors have long since burned up."
+      ],
+      "explanation": "Its high orbit means very little air drags on it, so it's expected to stay up for around two centuries. Scientists have used its long-tracked path to study the shape of the Earth and the upper atmosphere.",
+      "wiki": "Vanguard 1"
+    },
+    {
+      "slug": "kordylewski-clouds",
+      "body": "orbit",
+      "category": "sky",
+      "title": "Earth's Ghost Moons",
+      "region": "Between Earth and the Moon, first seen from Kraków, Poland",
+      "lat": 50.06,
+      "lon": 19.94,
+      "dateLabel": "Reported in 1961, again in 2018",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "Astronomers in Poland and Hungary",
+      "hook": "A Polish astronomer said he had seen two faint clouds of dust orbiting with the Earth and the Moon. For decades, no one could find them.",
+      "summary": [
+        "There are two points in the Moon's orbit, called L4 and L5, where the pull of Earth and Moon balances, so that dust or rocks could gather there. In 1961 the Polish astronomer Kazimierz Kordylewski reported seeing very faint glowing patches at those points, like ghostly moons.",
+        "Other astronomers looked and saw nothing, and the 'Kordylewski clouds' became a half-forgotten curiosity. In 2018, a Hungarian team using polarising filters reported that they had detected them, as vast thin clouds of dust."
+      ],
+      "explanation": "Clouds like these are possible, but they would be extremely faint, shifting with the pull of the Sun, and easy to confuse with other light in the sky. The 2018 results are taken seriously but haven't been confirmed independently.",
+      "wiki": "Kordylewski cloud"
+    },
+    {
+      "slug": "radio-whistlers",
+      "category": "voices",
+      "title": "The Whistlers in the Wires",
+      "region": "Dresden, Saxony, Germany",
+      "lat": 51.05,
+      "lon": 13.74,
+      "dateLabel": "Described in 1919",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Soldiers listening in on enemy phone lines, and radio listeners since",
+      "hook": "During the First World War, soldiers eavesdropping on enemy telephone lines heard eerie falling whistles, like shells flying overhead, coming from nowhere.",
+      "summary": [
+        "During the First World War, signals troops used sensitive amplifiers to listen in on the enemy's field telephones. Some of them heard strange whistling tones that slid down from high to low over a second or two, and soldiers joked that they could hear the grenades flying.",
+        "In 1919 the Dresden physicist Heinrich Barkhausen described the sounds, but couldn't explain them. Radio listeners have heard them ever since, on quiet nights, along with a rising 'dawn chorus' of chirps that sounds like birdsong."
+      ],
+      "explanation": "They are 'whistlers', radio waves made by lightning. Part of a lightning flash's energy travels out along the Earth's magnetic field lines, far into space and back down on the other side of the planet. On the way, the higher tones arrive first and the lower ones later, stretching the crackle of lightning into a falling whistle. Anyone with a simple receiver far from power lines can hear them.",
+      "wiki": "Whistler (radio)"
+    },
+    {
+      "slug": "treasurers-house-roman-soldiers",
+      "category": "visitors",
+      "title": "The Roman Soldiers in the Cellar",
+      "region": "Treasurer's House, York, England",
+      "lat": 53.96,
+      "lon": -1.08,
+      "dateLabel": "1953",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "A young plumber working in the cellar, and others since",
+      "hook": "Working in a cellar in York, a young plumber heard a horn and saw Roman soldiers march out of the wall. He could only see them from the knees up.",
+      "summary": [
+        "In 1953, an apprentice plumber named Harry Martindale was fitting pipes in the cellar of the Treasurer's House, beside York Minster. He said he heard a horn, and a horse came through the wall, followed by soldiers in Roman armour, tired and dishevelled, who walked across the cellar and disappeared into the opposite wall.",
+        "He could only see them from the knees up until they crossed a dug-out part of the floor, where he saw their feet in sandals. He later learned that a Roman road ran under the cellar, below the modern floor. He told the story for the rest of his life without changing it."
+      ],
+      "explanation": "Sceptics point out that York's Roman past is well known and that a frightened young man alone in a cellar might be primed to see things. Others note that details he gave, such as round shields and green tunics, were unusual for the popular image of Roman soldiers but fit late Roman auxiliaries.",
+      "wiki": "Treasurer's House, York"
+    },
+    {
+      "slug": "moberly-jourdain-versailles",
+      "featured": true,
+      "category": "visitors",
+      "title": "The Ghosts of the Petit Trianon",
+      "region": "Versailles, Île-de-France, France",
+      "lat": 48.82,
+      "lon": 2.11,
+      "dateLabel": "10 August 1901",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "Two English academics",
+      "hook": "Two English college principals got lost in the gardens of Versailles and met people in 18th-century dress. One of them, they came to believe, was Marie Antoinette.",
+      "summary": [
+        "On 10 August 1901, Charlotte Anne Moberly and Eleanor Jourdain, the principal and vice-principal of an Oxford women's college, were walking through the gardens of Versailles to find the Petit Trianon. They felt a sudden depression, and the landscape seemed flat and lifeless. They met men in long coats and tricorne hats, and passed a woman sketching on the lawn.",
+        "Back in England, they compared notes and decided they had stepped back in time to 1789, and that the woman was Marie Antoinette. In 1911 they published their account, An Adventure, under false names. It caused a sensation."
+      ],
+      "explanation": "Researchers have suggested they met people in costume, perhaps at gatherings held nearby by the poet Robert de Montesquiou, and that their memories grew in the retelling over the years. The Society for Psychical Research was not convinced. The two women never doubted it.",
+      "wiki": "Moberly–Jourdain incident"
+    },
+    {
+      "slug": "white-lady-of-kornik",
+      "category": "visitors",
+      "title": "The White Lady of Kórnik",
+      "region": "Kórnik Castle, Greater Poland, Poland",
+      "lat": 52.24,
+      "lon": 17.09,
+      "dateLabel": "Told since the 18th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Castle staff and visitors",
+      "hook": "In a Polish castle, a noblewoman in white is said to step out of her portrait at midnight and walk the halls.",
+      "summary": [
+        "Kórnik Castle, near Poznań, is a romantic, rebuilt castle surrounded by a moat and a famous arboretum. Its best-known resident is Teofila Działyńska, an 18th-century owner who rebuilt the castle and planted its gardens. Her portrait, showing her in a white dress, hangs inside.",
+        "People say she leaves the painting at midnight and wanders the castle and the park. Some say she's looking for a young woman to marry her descendants; others say she simply checks on her home."
+      ],
+      "explanation": "White ladies are told about in castles across Europe, often tied to a famous portrait. There are no recorded investigations. The castle is a museum and library and plays up its White Lady with an annual event.",
+      "wiki": "Kórnik Castle"
+    },
+    {
+      "slug": "loftus-hall",
+      "category": "visitors",
+      "title": "The Stranger at Loftus Hall",
+      "region": "Hook Peninsula, Wexford, Ireland",
+      "lat": 52.15,
+      "lon": -6.92,
+      "dateLabel": "Told of the 1760s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Irish legend",
+      "hook": "Irish legend says a dark stranger arrived at a remote house in a storm and played cards with the family. When a card fell, a young woman saw his cloven hoof.",
+      "summary": [
+        "Loftus Hall is a large, lonely mansion on the windswept Hook Peninsula. The story is set in the 1760s, when the Tottenham family lived there. On a stormy night, a ship landed a young stranger who was taken in as a guest, and Anne, the daughter of the house, became fond of him.",
+        "One night, as the family played cards, Anne dropped a card and bent to pick it up. Under the table, she saw that the stranger had a cloven hoof. When she screamed, he shot up through the ceiling in a ball of flame, leaving a hole that, it's said, could never be repaired. Anne is said to have never recovered from the shock."
+      ],
+      "explanation": "The devil-at-cards story is told about several houses, in Ireland and elsewhere, and Loftus Hall's version can't be traced to any record of the time. The house, rebuilt in the 1870s, now runs tours based on the legend.",
+      "wiki": "Loftus Hall"
+    },
+    {
+      "slug": "oiwa-yotsuya-kaidan",
+      "category": "visitors",
+      "title": "Oiwa, the Ghost of Yotsuya",
+      "region": "Yotsuya, Tokyo, Japan",
+      "lat": 35.69,
+      "lon": 139.72,
+      "dateLabel": "Play of 1825, legend older",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese theatre and legend",
+      "hook": "Japan's most famous ghost story is about a betrayed wife who returns for revenge. Actors who play her still visit her shrine, so the play won't be cursed.",
+      "summary": [
+        "Yotsuya Kaidan, 'the ghost story of Yotsuya', is a kabuki play written by Tsuruya Nanboku IV in 1825. It tells of Oiwa, whose husband Iemon wants to marry a richer woman. She is given a poison that ruins her face, and dies; her ghost returns to haunt Iemon until he's destroyed.",
+        "The story is so famous that it's said to carry a curse. Before staging the play or filming it, casts and crews traditionally visit the Oiwa Inari shrine in Yotsuya to pay respects, and people tell of accidents on productions that didn't."
+      ],
+      "explanation": "The play is fiction, built on older legends and perhaps on a real woman named Oiwa who lived in Yotsuya in the 1600s and was honoured at the shrine. The 'curse' stories grew around it, as they have around Macbeth in the West.",
+      "wiki": "Yotsuya Kaidan"
+    },
+    {
+      "slug": "arang-of-miryang",
+      "category": "visitors",
+      "title": "Arang of Miryang",
+      "region": "Miryang, South Gyeongsang, South Korea",
+      "lat": 35.49,
+      "lon": 128.75,
+      "dateLabel": "Told since the 16th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Korean legend",
+      "hook": "In a Korean town, each new magistrate who arrived was found dead of fright the next morning. Then one brave man stayed up to listen to the ghost.",
+      "summary": [
+        "The legend of Arang is set in Miryang, in the Joseon era. Arang was the daughter of the town's magistrate, and one night she vanished. Her father, heartbroken, left his post. After that, every new magistrate sent to Miryang died of fright on his first night.",
+        "At last one official stayed awake. A young woman's ghost appeared, and instead of fleeing, he asked her what she wanted. She told him she had been killed and her body hidden, and named who was to blame. He found her and saw justice done, and her ghost was at peace. A shrine to her stands below Yeongnamnu pavilion."
+      ],
+      "explanation": "The tale is a classic Korean ghost story about a wronged spirit who needs only to be heard. It's still told in Miryang, which holds an Arang festival, and has been retold in films and television dramas.",
+      "wiki": null
+    },
+    {
+      "slug": "gettysburg-phantoms",
+      "category": "visitors",
+      "title": "The Phantom Soldiers of Gettysburg",
+      "region": "Gettysburg, Pennsylvania, USA",
+      "lat": 39.81,
+      "lon": -77.23,
+      "dateLabel": "Reported since the 1860s",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Visitors, park staff and re-enactors",
+      "hook": "On the battlefield of Gettysburg, people say they've seen soldiers in old uniforms who vanish, and heard drums and gunfire where no one is firing.",
+      "summary": [
+        "In July 1863, the Battle of Gettysburg was fought over three days around a small Pennsylvania town, and more than 7,000 soldiers died. The fields, rocks and woods are now a national military park.",
+        "Visitors have long reported figures in Civil War uniforms who disappear, the sound of drums and musket fire, and a feeling of being watched, especially among the boulders of Devil's Den. Re-enactors tell of a soldier who offered them advice, then wasn't there."
+      ],
+      "explanation": "Sceptics point to re-enactors and costumed guides, the power of suggestion in a place where so many died, and sounds carried from the town. Ghost tours are now a large part of the town's visitor trade.",
+      "wiki": "Gettysburg Battlefield"
+    },
+    {
+      "slug": "great-amherst-mystery",
+      "category": "voices",
+      "title": "The Great Amherst Mystery",
+      "region": "Amherst, Nova Scotia, Canada",
+      "lat": 45.83,
+      "lon": -64.21,
+      "dateLabel": "1878–1879",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "The family, neighbours, and crowds who came to see",
+      "hook": "In a small house in Nova Scotia, loud raps, bangs and voices seemed to follow one young woman, while objects flew across the rooms.",
+      "summary": [
+        "In 1878, strange things began in a crowded cottage in Amherst, where 19-year-old Esther Cox lived with her sister's family. There were loud knocks and bangs in the walls, bedclothes pulled away, small fires that started by themselves, and objects that moved, all seeming to centre on Esther.",
+        "Crowds gathered outside, and a doctor who attended said he saw it for himself. A travelling actor, Walter Hubbell, stayed in the house and wrote a best-selling book about it, The Great Amherst Mystery."
+      ],
+      "explanation": "Sceptical investigators, then and later, thought much of it was done by Esther herself, perhaps under great distress, and that Hubbell, who toured with the story, exaggerated it. Believers count it among the classic poltergeist cases.",
+      "wiki": "Great Amherst Mystery"
+    },
+    {
+      "slug": "rosenheim-poltergeist",
+      "category": "visitors",
+      "title": "The Rosenheim Poltergeist",
+      "region": "Rosenheim, Bavaria, Germany",
+      "lat": 47.86,
+      "lon": 12.12,
+      "dateLabel": "1967–1968",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "Office staff, engineers, physicists and police",
+      "hook": "In a Bavarian law office, lights swung, bulbs exploded and the phones dialled the speaking clock by themselves, hundreds of times.",
+      "summary": [
+        "In late 1967, strange things began at a lawyer's office in Rosenheim. Ceiling lights swung, fuses blew, fluorescent tubes burst, drawers opened, and the telephone bill showed hundreds of calls to the speaking clock that nobody had made, sometimes several a minute.",
+        "Engineers from the electricity company and physicists from the Max Planck Institute tested the equipment and couldn't find a fault. The parapsychologist Hans Bender concluded the events centred on a young employee, and they seemed to follow her when she changed jobs, and stopped later."
+      ],
+      "explanation": "Bender saw it as a classic poltergeist case. Sceptics argue it could have been trickery, with the investigators not ruling out simple ways to cause the effects. No one has explained the phone calls to everyone's satisfaction.",
+      "wiki": "Rosenheim poltergeist claim"
+    },
+    {
+      "slug": "black-monk-of-pontefract",
+      "category": "voices",
+      "title": "The Black Monk of Pontefract",
+      "region": "Pontefract, West Yorkshire, England",
+      "lat": 53.69,
+      "lon": -1.31,
+      "dateLabel": "1966 and 1968–1969",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "A family, their relatives and neighbours",
+      "hook": "In an ordinary council house in Yorkshire, a family heard thumps and crashes for years, found pools of water on the floor, and saw a tall figure in a black habit.",
+      "summary": [
+        "The case began in 1966 in a house on a modern estate in Pontefract. The family reported puddles appearing on the kitchen floor, a white powder falling, and loud drumming sounds. It quietened, then returned more violently two years later: crockery smashed, furniture moved, and loud bangs and thuds went on at night.",
+        "Family members said they saw a hooded figure dressed like a monk. A story grew that the house stood near the site of a gallows where a monk was hanged in Tudor times."
+      ],
+      "explanation": "Investigators couldn't find a cause, and sceptics suggest pranks and imagination within a stressful household. There's no historical evidence for the hanged monk. The case is one of Britain's best-known poltergeist stories and became a film in 2012.",
+      "wiki": null
+    },
+    {
+      "slug": "azzurrina",
+      "category": "voices",
+      "title": "Azzurrina, the Girl in the Castle",
+      "region": "Montebello, Poggio Torriana, Emilia-Romagna, Italy",
+      "lat": 43.98,
+      "lon": 12.38,
+      "dateLabel": "Said to be 21 June 1375",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Italian legend, and visitors to the castle",
+      "hook": "A little girl with pale hair vanished in an Italian castle on midsummer's day in 1375. People say recordings made there every few years catch her voice.",
+      "summary": [
+        "The legend says Guendalina, daughter of the lord of Montebello castle near Rimini, was born an albino, which frightened people of the time, so her mother dyed her hair with plants, giving it a blue sheen: she became known as Azzurrina, 'little blue one'. On the summer solstice of 1375, playing with a ball during a storm, she went down to the castle's ice store, and was never seen again.",
+        "Every five years, on the solstice, people say her voice can be heard in the castle: a child's laughter, crying, the patter of footsteps. Recordings made in the 1990s and since are played to visitors."
+      ],
+      "explanation": "No records of the time mention her, and the story may have been built up much later. Sceptics say the recordings are wind, the storm, or noise in the equipment. The castle is open to visitors and tells her story on its tours.",
+      "wiki": null
+    },
+    {
+      "slug": "dieppe-raid-haunting",
+      "category": "voices",
+      "title": "The Battle Heard at Dieppe",
+      "region": "Puys, near Dieppe, Normandy, France",
+      "lat": 49.93,
+      "lon": 1.12,
+      "dateLabel": "4 August 1951",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "Two English women on holiday",
+      "hook": "Before dawn in a French seaside village, two holidaymakers woke to the sounds of a battle: guns, planes and shouting. The raid they heard had happened nine years before.",
+      "summary": [
+        "In August 1951, two English women staying at a guesthouse in Puys, near Dieppe, woke at around 4 a.m. to hear what sounded like gunfire, shells, dive-bombers and men shouting, coming from the beach. It went on, rising and falling, for nearly three hours.",
+        "They wrote notes as it happened. The Society for Psychical Research later compared them with the timeline of the Dieppe Raid of 19 August 1942, when thousands of Allied soldiers landed on these beaches, and found that the sounds matched its stages closely."
+      ],
+      "explanation": "Sceptics have suggested a dredger working in the harbour, the sea, or aircraft, and point out the women had read about the raid. Nobody else in the village reported hearing anything. It's one of the best-known cases of a phantom battle heard rather than seen.",
+      "wiki": null
+    },
+    {
+      "slug": "culloden-moor",
+      "category": "voices",
+      "title": "The Sound of Battle at Culloden",
+      "region": "Culloden Moor, Highland, Scotland",
+      "lat": 57.48,
+      "lon": -4.1,
+      "dateLabel": "Reported for generations, especially every 16 April",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Visitors and local people",
+      "hook": "On the moor where the last pitched battle on British soil was fought, people say the birds don't sing over the graves, and on its anniversary you can hear the fighting.",
+      "summary": [
+        "The Battle of Culloden, on 16 April 1746, ended the Jacobite rising in under an hour, and many Highland soldiers were killed. Stones on the moor mark the graves of the clans.",
+        "Visitors have long said the moor is strangely quiet, and that birds don't sing over the graves. On the anniversary, people report hearing the clash of swords and cries, and some say they've seen a tall, exhausted Highlander who says one word, 'defeated', before fading."
+      ],
+      "explanation": "Sceptics point to the moor's weather, its open wind-swept ground, and the strong feelings visitors bring to it. The battlefield is now cared for as a memorial, with a visitors' centre.",
+      "wiki": "Battle of Culloden"
+    },
+    {
+      "slug": "annabelle-doll",
+      "category": "visitors",
+      "title": "Annabelle, the Doll in the Case",
+      "region": "Monroe, Connecticut, USA",
+      "lat": 41.33,
+      "lon": -73.2,
+      "dateLabel": "Claimed from 1970",
+      "status": "open",
+      "statusLabel": "Unverified",
+      "witnesses": "The paranormal investigators Ed and Lorraine Warren",
+      "hook": "A rag doll in a glass case carries a warning: 'Positively do not open'. The couple who kept it said it was used by something evil.",
+      "summary": [
+        "Annabelle is a Raggedy Ann doll that, according to Ed and Lorraine Warren, was given to a nursing student in 1970. She and her roommate said it moved around their flat on its own and left notes, and a medium told them it was possessed by the spirit of a girl.",
+        "The Warrens said it was actually being used by a demon, and took it to their occult museum in Monroe, Connecticut, where it was kept in a locked glass case. It inspired the Conjuring and Annabelle horror films, in which it's a far creepier porcelain doll."
+      ],
+      "explanation": "The only accounts come through the Warrens, who told it in lectures and books, and there's no independent evidence. Sceptics see it as a good story that the films turned into a legend. The doll still tours occasionally.",
+      "wiki": "Annabelle (doll)"
+    },
+    {
+      "slug": "white-lady-of-rozmberk",
+      "category": "visitors",
+      "title": "The White Lady of the Rožmberks",
+      "region": "Český Krumlov, South Bohemia, Czech Republic",
+      "lat": 48.81,
+      "lon": 14.32,
+      "dateLabel": "Told since the 15th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Czech legend",
+      "hook": "In the castles of a great Bohemian family, a lady in white was said to appear: wearing white gloves for good news, black gloves before a death.",
+      "summary": [
+        "Perchta of Rožmberk was a 15th-century noblewoman from one of Bohemia's most powerful families. She was married to a man who treated her badly, and her letters to her family complaining of her unhappy marriage survive. After her death, legend made her the White Lady of the Rožmberk castles, Český Krumlov above all.",
+        "She was said to appear in a white dress, watching over the family. If she wore white gloves, good news was coming; if black, someone in the family would soon die. The legend spread, and she was said to appear in other noble houses, as far as Berlin."
+      ],
+      "explanation": "Perchta was real, and her letters are among the oldest surviving private letters in Czech. The ghost is legend. The White Lady became one of the best-known figures in Czech folklore and is part of the tours at Český Krumlov.",
+      "wiki": null
+    },
+    {
+      "slug": "fireship-of-baie-des-chaleurs",
+      "category": "sky",
+      "title": "The Burning Ship of Chaleur Bay",
+      "region": "Baie des Chaleurs, New Brunswick, Canada",
+      "lat": 47.85,
+      "lon": -65.3,
+      "dateLabel": "Reported since the 18th century",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Fishermen and people along the coast",
+      "hook": "For two hundred years, people on a Canadian bay have reported a ship on fire far out on the water, with figures running on its burning deck. It never sinks.",
+      "summary": [
+        "Along the shores of Chaleur Bay, between New Brunswick and Quebec's Gaspé Peninsula, people have long described seeing a glowing light on the water that looks like a three-masted sailing ship ablaze. Some say they can see sailors climbing the rigging as the flames rise, before it fades away.",
+        "It's said to appear most often before storms, in autumn and winter. Some people who rowed out to rescue the crew found nothing there."
+      ],
+      "explanation": "Legends link it to a ship lost in a storm or burned in battle long ago. Scientists have suggested natural lights such as burning gas from the seabed, St Elmo's fire before storms, or reflections in mist. No one has photographed it convincingly.",
+      "wiki": "Fireship of Baie des Chaleurs"
+    },
+    {
+      "slug": "mackenzie-poltergeist",
+      "category": "visitors",
+      "title": "The Mackenzie Poltergeist",
+      "region": "Greyfriars Kirkyard, Edinburgh, Scotland",
+      "lat": 55.95,
+      "lon": -3.19,
+      "dateLabel": "Reported since 1999",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Visitors on night tours",
+      "hook": "In an old Edinburgh churchyard, people on night tours say they've been pushed, scratched and left with bruises they can't explain.",
+      "summary": [
+        "Greyfriars Kirkyard holds the tomb of Sir George Mackenzie, a 17th-century lawyer known as 'Bluidy Mackenzie' for his harsh persecution of the Covenanters, Presbyterians who were imprisoned in an enclosure nearby.",
+        "In 1999, a man looking for shelter broke into the mausoleum and fell through its floor into a crypt. Afterwards, visitors began to report being attacked by something unseen near the tomb and the old prison: shoved, scratched or pinched, feeling cold, or fainting. It's now one of Edinburgh's most famous ghost tour stops."
+      ],
+      "explanation": "Sceptics point to night-time atmosphere, a well-known story told by guides, and the power of suggestion in a group. The council has kept the Covenanters' Prison locked except for tours.",
+      "wiki": "Greyfriars Kirkyard"
+    },
+    {
+      "slug": "hoichi-the-earless",
+      "category": "voices",
+      "title": "Hōichi the Earless",
+      "region": "Akama Shrine, Shimonoseki, Yamaguchi, Japan",
+      "lat": 33.96,
+      "lon": 130.96,
+      "dateLabel": "Told for centuries; written down in 1904",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese legend",
+      "hook": "A blind musician was summoned each night to play for a mysterious noble court. He didn't know his audience had died eight hundred years before.",
+      "summary": [
+        "In a temple at Shimonoseki lived Hōichi, a blind player of the biwa, a lute, famous for singing the Tale of the Heike, about the sea battle of Dan-no-ura in 1185, where the Taira clan was destroyed. One night a samurai led him to a great house to perform for his lords and ladies, who wept as he sang.",
+        "The priest of the temple realised he was playing in the graveyard, for the ghosts of the Taira. To hide him, he painted holy sutras all over Hōichi's body, but forgot his ears. When the samurai came and couldn't see him, he took the only part he could find: Hōichi's ears."
+      ],
+      "explanation": "The story is a legend, made famous in English by Lafcadio Hearn's 1904 book Kwaidan. A statue of Hōichi stands at the Akama Shrine, which honours the Taira dead, and the crabs of the strait are said to carry their faces.",
+      "wiki": "Hoichi the Earless"
+    },
+    {
+      "slug": "wind-phone",
+      "category": "voices",
+      "title": "The Telephone of the Wind",
+      "region": "Ōtsuchi, Iwate, Japan",
+      "lat": 39.38,
+      "lon": 141.92,
+      "dateLabel": "Since 2010",
+      "status": "explained",
+      "statusLabel": "A real place",
+      "witnesses": "Thousands of visitors",
+      "hook": "In a hillside garden in Japan stands a white phone box with an old phone that isn't connected to anything. People come from all over to call the dead.",
+      "summary": [
+        "In 2010, the garden designer Itaru Sasaki set up a white phone booth in his garden in Ōtsuchi, overlooking the Pacific, with a disconnected rotary phone inside. He had lost his cousin and wanted a place to talk to him.",
+        "The next year, the 2011 tsunami devastated Ōtsuchi, and many people in the town lost family. They began to come to the booth, and then people from all over Japan, to pick up the phone and speak to those they had lost. Tens of thousands have visited."
+      ],
+      "explanation": "Nobody claims the dead answer. The 'telephone of the wind' is a place to grieve, and it's become well known around the world. Others have built wind phones in other countries since.",
+      "wiki": "Wind phone"
+    },
+    {
+      "slug": "death-coach",
+      "category": "voices",
+      "title": "The Coach That Comes for the Dying",
+      "region": "As told across Ireland",
+      "lat": 53.0,
+      "lon": -8.0,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Irish folklore",
+      "hook": "In Irish folklore, the rumble of a black coach on a quiet road at night means someone is about to die. Its horses have no heads.",
+      "summary": [
+        "The cóiste bodhar, 'the silent coach' or 'the deaf coach', is a black carriage drawn by headless black horses. It's said to be heard rumbling along roads at night, and sometimes seen, its coachman often said to be the headless Dullahan.",
+        "It comes to collect the soul of someone who is about to die. Anyone who hears it is told not to look out; opening the door to it might mean it stops for you."
+      ],
+      "explanation": "Death coaches are told about in Ireland, Scotland, Wales and England, and they may grow from the black hearses of the 1700s and 1800s. Folklorists see them as part of a wider tradition of omens of death, along with the banshee.",
+      "wiki": "Death coach"
+    },
+    {
+      "slug": "jan-tregeagle",
+      "category": "voices",
+      "title": "The Howling of Jan Tregeagle",
+      "region": "Loe Bar, Cornwall, England",
+      "lat": 50.07,
+      "lon": -5.29,
+      "dateLabel": "Told since the 17th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Cornish folklore",
+      "hook": "On stormy nights in Cornwall, people say the howling in the wind is the spirit of a cruel magistrate, condemned to impossible tasks forever.",
+      "summary": [
+        "Jan Tregeagle was a real 17th-century steward and magistrate in Cornwall, remembered as a hard and dishonest man. Legend says that after his death he was called back from the grave to give evidence in a court case, and the churchmen then didn't know how to send him back.",
+        "They set him tasks with no end: emptying Dozmary Pool on Bodmin Moor with a limpet shell that had a hole in it, and weaving ropes out of sand. His howls of despair, people say, are what you hear on the moors and along the coast in a storm. In one story he dropped a sack of sand, which became Loe Bar."
+      ],
+      "explanation": "The legend probably grew from local memories of an unpopular man, mixed with older tales of restless spirits. Loe Bar is a natural shingle bank, built up by the sea.",
+      "wiki": "Jan Tregeagle"
+    },
+    {
+      "slug": "aztec-death-whistle",
+      "category": "voices",
+      "title": "The Aztec Death Whistle",
+      "region": "Tlatelolco, Mexico City, Mexico",
+      "lat": 19.45,
+      "lon": -99.14,
+      "dateLabel": "Made before the 1500s; found in 1999",
+      "status": "open",
+      "statusLabel": "Purpose debated",
+      "witnesses": "Archaeologists and listeners",
+      "hook": "Small clay whistles shaped like skulls were found in an Aztec temple. Blow into one, and it lets out a sound like a human scream.",
+      "summary": [
+        "In 1999, archaeologists excavating a temple of the wind god Ehecatl at Tlatelolco, in Mexico City, found a burial with small skull-shaped clay whistles. When played, they made a piercing, shrieking sound, like a scream carried on the wind.",
+        "Other examples have been found in museum collections. People called them 'death whistles', and stories spread that Aztec warriors blew them in their thousands to terrify enemies before battle."
+      ],
+      "explanation": "There's no evidence they were used in war. Archaeologists think they were probably used in rituals, perhaps sacrifices or funerals, and linked with the god of wind or the underworld. A 2024 study found the sound is processed by the brain much like a real scream, which may be why it unsettles people so much.",
+      "wiki": "Aztec death whistle"
+    },
+    {
+      "slug": "the-pip",
+      "category": "voices",
+      "title": "The Pip",
+      "region": "Broadcast from near Rostov-on-Don, Russia",
+      "lat": 47.23,
+      "lon": 39.72,
+      "dateLabel": "Since the 1980s",
+      "status": "open",
+      "statusLabel": "Purpose unknown",
+      "witnesses": "Shortwave radio listeners",
+      "hook": "Day and night, a Russian radio station sends short beeps, over and over. Every so often, a man's voice breaks in and reads out a string of words.",
+      "summary": [
+        "The Pip is a shortwave radio station, heard across Europe and beyond, that broadcasts a short, sharp beep about once a second, almost without stopping, on the same frequencies for decades.",
+        "Now and then the beeping stops, and a man reads a short message in Russian: a name or code word followed by numbers. Listeners log every message, and the station is a sister to the better-known UVB-76, 'the Buzzer'."
+      ],
+      "explanation": "It's widely believed to be a Russian military station, probably used to keep a channel open and send coded alerts. Radio direction-finding places it in southern Russia. Its exact purpose has never been officially stated.",
+      "wiki": "The Pip"
+    },
+    {
+      "slug": "deacon-of-myrka",
+      "category": "visitors",
+      "title": "The Deacon of Myrká",
+      "region": "Hörgárdalur, Northeastern Region, Iceland",
+      "lat": 65.66,
+      "lon": -18.42,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Icelandic folklore",
+      "hook": "In Iceland's most famous ghost story, a young woman's sweetheart comes on horseback to take her to a Christmas service. He had drowned days before.",
+      "summary": [
+        "The deacon of Myrká, in northern Iceland, was in love with a young woman named Guðrún, who lived across the river. Shortly before Christmas, he rode to invite her to the Christmas service, but drowned crossing the ice-filled river on his way home.",
+        "News hadn't reached her when he arrived on Christmas Eve to fetch her. As they rode, his hat slipped, and she saw the bare bone of his skull. He said, 'The moon glides, death rides.' At the churchyard he tried to pull her into an open grave, but she grabbed the bell rope and rang it until he let go. He haunted her until a sorcerer laid him to rest."
+      ],
+      "explanation": "The story is a folk tale, recorded in the great 19th-century collection of Icelandic legends by Jón Árnason. Its eerie line about the moon is known by almost every Icelander.",
+      "wiki": "Djákninn á Myrká"
+    },
+    {
+      "slug": "ankou",
+      "category": "visitors",
+      "title": "The Ankou of Brittany",
+      "region": "La Roche-Maurice, Brittany, France",
+      "lat": 48.47,
+      "lon": -4.2,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Breton folklore",
+      "hook": "In Brittany, death has a servant: a gaunt figure with a scythe and a creaking cart, gathering up the souls of the dead along the lanes at night.",
+      "summary": [
+        "The Ankou is a figure of Breton folklore, a tall, thin man, or a skeleton, in a wide hat and a long cloak, with a scythe. He drives a cart pulled by thin horses, and its creaking at night is said to warn that someone in the neighbourhood will die.",
+        "Each parish has its own Ankou: the last person to die in a year takes the role for the next. His figure is carved in old churches, such as at La Roche-Maurice, where he holds an arrow and the inscription says, 'I kill you all.'"
+      ],
+      "explanation": "The Ankou combines Christian images of death with older Celtic beliefs. He's a reminder of death in a region that had a rich tradition of death and mourning. Similar figures appear in Cornwall and Wales.",
+      "wiki": "Ankou"
+    },
+    {
+      "slug": "masakado-kubizuka",
+      "featured": true,
+      "category": "places",
+      "title": "The Head Mound in Tokyo's Financial District",
+      "region": "Ōtemachi, Tokyo, Japan",
+      "lat": 35.69,
+      "lon": 139.76,
+      "dateLabel": "Since the 10th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Tokyo office workers and visitors",
+      "hook": "Among the skyscrapers of central Tokyo is a small shrine to a rebel warrior's head. Every attempt to move it, people say, has brought disaster.",
+      "summary": [
+        "Taira no Masakado was a 10th-century warlord who rebelled against the imperial court and declared himself a new emperor in eastern Japan. He was killed in battle in 940, and his head was taken to Kyoto for display. Legend says it flew back east, landing in a village that is now part of Tokyo, where a mound was raised over it.",
+        "That mound, the Kubizuka, still stands in Ōtemachi, one of the city's financial districts, surrounded by office towers. When the Ministry of Finance built over it in the 1920s, a run of deaths and illnesses among officials was blamed on it. After the Second World War, an attempt to clear the site was abandoned after a vehicle overturned there."
+      ],
+      "explanation": "The 'curse' stories grew from coincidences remembered and retold. But they are taken seriously: the shrine has been kept through every redevelopment, offices nearby are said to avoid placing desks with their backs to it, and workers still leave offerings, especially frogs, a pun on 'return'.",
+      "wiki": "Taira no Masakado"
+    },
+    {
+      "slug": "hanging-rock",
+      "category": "places",
+      "title": "Hanging Rock and the Picnic That Never Happened",
+      "region": "Hanging Rock, Victoria, Australia",
+      "lat": -37.33,
+      "lon": 144.59,
+      "dateLabel": "Novel 1967, film 1975",
+      "status": "explained",
+      "statusLabel": "Fiction",
+      "witnesses": "Readers, film audiences and visitors",
+      "hook": "Many people believe that on Valentine's Day 1900, schoolgirls on a picnic vanished at Hanging Rock. It never happened, but the story won't let go.",
+      "summary": [
+        "Picnic at Hanging Rock, a 1967 novel by Joan Lindsay, tells of a group of schoolgirls and a teacher who climb Hanging Rock, a towering volcanic formation in Victoria, on Valentine's Day 1900. Some of them never come back, and no explanation is ever found. Peter Weir's 1975 film made it famous worldwide.",
+        "Lindsay hinted that it might be true, and the dreamlike film added to the impression. Many visitors still arrive believing it really happened, and some say watches stop on the rock."
+      ],
+      "explanation": "No girls disappeared: no records exist, and 14 February 1900 wasn't even a Saturday, as the book says. Lindsay never fully admitted it was invented. The rock itself is real, formed by a volcano about six million years ago, and sacred to the Aboriginal peoples of the area.",
+      "wiki": "Hanging Rock, Victoria"
+    },
+    {
+      "slug": "baron-empain-palace",
+      "category": "places",
+      "title": "The Baron's Palace in Cairo",
+      "region": "Heliopolis, Cairo, Egypt",
+      "lat": 30.09,
+      "lon": 31.33,
+      "dateLabel": "Built 1907–1911",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Residents of Heliopolis",
+      "hook": "A Belgian baron built a palace like a Hindu temple in the Egyptian desert. People said its tower turned with the Sun, and after it was abandoned, that strange things happened there at night.",
+      "summary": [
+        "Édouard Empain, a Belgian industrialist, founded the new suburb of Heliopolis outside Cairo in the early 1900s. His own home, the Baron Empain Palace, was built to look like a Hindu temple, inspired by Angkor Wat, with carved elephants and dancers.",
+        "Stories grew around it: that its tower slowly rotated so the Baron always had sunlight, that it had secret tunnels, and later, when it stood empty for decades, that lights, screams and gatherings were seen inside. In the late 1990s, rumours of 'devil worship' there led to arrests of young heavy-metal fans."
+      ],
+      "explanation": "The tower doesn't rotate; the palace was designed so that some room always got sun. It fell empty after the family left Egypt and was neglected for decades, which fed the stories. The Egyptian government restored it, and it opened as a museum in 2020.",
+      "wiki": "Baron Empain Palace"
+    },
+    {
+      "slug": "leap-castle",
+      "category": "places",
+      "title": "The Elemental of Leap Castle",
+      "region": "Leap Castle, Offaly, Ireland",
+      "lat": 53.03,
+      "lon": -7.8,
+      "dateLabel": "Reported since the 19th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Owners of the castle and their guests",
+      "hook": "An Irish castle with a dark history is said to be home to something its owners called the Elemental: a shape the size of a sheep, with a smell of decay.",
+      "summary": [
+        "Leap Castle is a tower house in County Offaly, built by the O'Carroll clan, whose feuds made it the scene of many grim stories. Its chapel, at the top of the tower, is known as the Bloody Chapel.",
+        "In the early 1900s, Mildred Darby, a writer who lived in the castle, described in a magazine article a creature she called the Elemental: a grey, shapeless thing about the size of a sheep, with a smell like a rotting corpse, that appeared in the house. Later owners and visitors have told of other presences and voices."
+      ],
+      "explanation": "Mildred Darby was a novelist with an interest in the occult, and her account may have been partly literary. The castle was burned in 1922 and restored by later owners, who welcomed visitors and the stories.",
+      "wiki": "Leap Castle"
+    },
+    {
+      "slug": "lawang-sewu",
+      "category": "places",
+      "title": "Lawang Sewu, the Thousand Doors",
+      "region": "Semarang, Central Java, Indonesia",
+      "lat": -6.98,
+      "lon": 110.41,
+      "dateLabel": "Built 1904–1919",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Visitors and staff",
+      "hook": "A colonial railway headquarters in Java with so many doors that it's called the Thousand Doors is said to be one of the most uncanny buildings in Indonesia.",
+      "summary": [
+        "Lawang Sewu was built in Semarang between 1904 and 1919 as the headquarters of the Dutch East Indies railway company. Its name means 'thousand doors' in Javanese, for its countless doors and tall windows.",
+        "During the Second World War, the occupying Japanese army used its basement as a prison. Since then it has gathered stories: a Dutch woman in white, figures in the corridors, and a basement that people say they feel watched in. It's often called Indonesia's most haunted building."
+      ],
+      "explanation": "The stories grew while the building stood neglected after independence, and from its wartime history. It was restored in 2011 and is now a museum of Indonesia's railways, with night tours.",
+      "wiki": "Lawang Sewu"
+    },
+    {
+      "slug": "hope-diamond",
+      "featured": true,
+      "category": "places",
+      "title": "The Curse of the Hope Diamond",
+      "region": "Smithsonian, Washington, D.C., USA",
+      "lat": 38.89,
+      "lon": -77.03,
+      "dateLabel": "Since 1668",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Its owners, and millions of museum visitors",
+      "hook": "A deep blue diamond is said to bring disaster to its owners. Under ultraviolet light, it glows red like a hot coal.",
+      "summary": [
+        "The Hope Diamond, a 45-carat blue diamond, came from India and was sold to Louis XIV of France in 1668. Stolen during the French Revolution, it reappeared in London, was cut down, and passed through the hands of bankers and heiresses, ending with the jeweller Harry Winston, who gave it to the Smithsonian in 1958, sending it by ordinary registered mail.",
+        "Its legend says it was stolen from the eye of a Hindu idol and brings ruin to whoever owns it: the French royal family lost their thrones, and later owners suffered a run of misfortune."
+      ],
+      "explanation": "Historians have found the curse was largely invented in the early 1900s, much of it spread by newspapers and by the jeweller Pierre Cartier, who used it to sell the stone. The red glow is real: traces of boron make it phosphoresce after ultraviolet light, which scientists have used to fingerprint it.",
+      "wiki": "Hope Diamond"
+    },
+    {
+      "slug": "ring-of-silvianus",
+      "category": "places",
+      "title": "The Cursed Ring of Silvianus",
+      "region": "The Vyne, Hampshire, England",
+      "lat": 51.3,
+      "lon": -1.09,
+      "dateLabel": "Roman Britain; found in 1785",
+      "status": "disputed",
+      "statusLabel": "Link debated",
+      "witnesses": "Archaeologists",
+      "hook": "A Roman curse tablet asks a god to punish the man who stole a ring. The ring itself turned up in a field. Some think it gave Tolkien an idea.",
+      "summary": [
+        "In 1785, a ploughman near the Roman town of Silchester found a heavy gold ring inscribed in Latin, 'Senicianus, live in God'. It ended up in the house of The Vyne nearby.",
+        "Decades later, at a Roman temple to the god Nodens at Lydney, more than 100 kilometres away, archaeologists found a lead curse tablet. On it, a man called Silvianus told the god he had lost a ring, and asked that the one who took it, Senicianus, should have no health until he returned it to the temple."
+      ],
+      "explanation": "The two finds are very likely linked by the unusual name. In 1929 the archaeologist Mortimer Wheeler asked J.R.R. Tolkien, then a young Oxford professor, about the name Nodens. Tolkien's ring stories came soon after; whether the ring inspired them is debated. The Vyne now displays it alongside a room about Tolkien.",
+      "wiki": "Ring of Silvianus"
+    },
+    {
+      "slug": "bath-curse-tablets",
+      "category": "places",
+      "title": "The Curses in the Sacred Spring",
+      "region": "Roman Baths, Bath, Somerset, England",
+      "lat": 51.38,
+      "lon": -2.36,
+      "dateLabel": "2nd to 4th centuries; found in 1979–1980",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Archaeologists",
+      "hook": "In the hot spring at Bath, Romans threw in small lead sheets asking a goddess to punish whoever had stolen their cloak, their gloves or their money.",
+      "summary": [
+        "The Roman Baths in Bath were built around a hot spring sacred to the goddess Sulis Minerva. During excavations of the spring in 1979 and 1980, archaeologists found about 130 small sheets of lead and pewter, rolled up and thrown into the water.",
+        "Most are curses written by ordinary people of Roman Britain asking the goddess to punish thieves. One asks that whoever stole a cloak should lose their mind and eyes; another lists suspects by name. Some are written backwards or in a scrambled code."
+      ],
+      "explanation": "Curse tablets were common across the Roman world. The Bath tablets are the largest group found in Britain and give a rare glimpse of what ordinary people worried about. They're on display in the Roman Baths museum, and UNESCO has listed them as an important world record.",
+      "wiki": "Bath curse tablets"
+    },
+    {
+      "slug": "shakespeares-curse",
+      "category": "places",
+      "title": "Shakespeare's Curse and the Missing Skull",
+      "region": "Holy Trinity Church, Stratford-upon-Avon, England",
+      "lat": 52.19,
+      "lon": -1.71,
+      "dateLabel": "1616, and a survey in 2016",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "Visitors and archaeologists",
+      "hook": "Shakespeare's grave carries a curse on anyone who moves his bones. In 2016, a radar scan suggested someone may have taken his skull.",
+      "summary": [
+        "William Shakespeare was buried in 1616 in the chancel of Holy Trinity Church in Stratford-upon-Avon. The stone over his grave carries a verse that warns: 'Blessed be the man that spares these stones, and cursed be he that moves my bones.' No one has ever opened it.",
+        "A story printed in 1879 claimed that a doctor had stolen the skull in 1794. In 2016, archaeologists were allowed to scan the grave with radar without disturbing it. They found signs of an old disturbance at the head end, which suggested the skull might be missing."
+      ],
+      "explanation": "The radar results were a hint, not proof, and the grave remains sealed. The curse may simply have been meant to stop the bones being moved to a charnel house, as often happened then.",
+      "wiki": "Church of the Holy Trinity, Stratford-upon-Avon"
+    },
+    {
+      "slug": "mohatta-palace",
+      "category": "places",
+      "title": "The Tunnels Beneath Mohatta Palace",
+      "region": "Clifton, Karachi, Sindh, Pakistan",
+      "lat": 24.81,
+      "lon": 67.03,
+      "dateLabel": "Built in 1927",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Karachi residents",
+      "hook": "Karachi's grandest old palace is said to hide a tunnel leading to the sea, and to have jinn living in its empty rooms.",
+      "summary": [
+        "Mohatta Palace was built in 1927 for the businessman Shivratan Mohatta, in pink stone, with domes and turrets in a Rajasthani style. After 1947 it was used by the government and later by Fatima Jinnah, the sister of Pakistan's founder.",
+        "For years it stood empty, and stories grew: that a secret tunnel ran from it to a Hindu temple near the shore, that jinn and ghosts lived in its rooms, and that people heard noises at night."
+      ],
+      "explanation": "There is a short tunnel under the palace, but it's thought to have been for ventilation or storage, not to lead to the sea. The jinn stories grew while the building was locked up. It reopened as a museum in 1999.",
+      "wiki": "Mohatta Palace"
+    },
+    {
+      "slug": "sanzhi-ufo-houses",
+      "category": "places",
+      "title": "The Pod Houses of Sanzhi",
+      "region": "Sanzhi, New Taipei, Taiwan",
+      "lat": 25.26,
+      "lon": 121.48,
+      "dateLabel": "Built 1978–1980, demolished 2008–2010",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Local people and visitors",
+      "hook": "On a beach in northern Taiwan stood a village of bright, saucer-shaped holiday homes that were never lived in. People said they were cursed.",
+      "summary": [
+        "In the late 1970s, a developer began building a resort of futuristic pod houses on the coast at Sanzhi, inspired by the Finnish Futuro homes. Painted bright colours and raised on legs, they looked like a village of flying saucers.",
+        "The project was abandoned before it opened, and the houses stood empty and crumbling for nearly thirty years. Stories said the builders had angered a spirit by moving a dragon statue at the entrance, and that people saw figures in the windows."
+      ],
+      "explanation": "The resort failed because of financial problems. Its eerie empty state attracted photographers and urban explorers, and the stories, until the houses were demolished between 2008 and 2010.",
+      "wiki": "Sanzhi UFO houses"
+    },
+    {
+      "slug": "hegra-madain-salih",
+      "category": "places",
+      "title": "Hegra, the Avoided City",
+      "region": "Hegra, AlUla, Saudi Arabia",
+      "lat": 26.79,
+      "lon": 37.95,
+      "dateLabel": "Carved 1st century BCE–1st century CE",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Travellers and local people",
+      "hook": "In the Arabian desert stand more than a hundred tombs carved into rock. For centuries, many people kept away, believing the place cursed.",
+      "summary": [
+        "Hegra, also called Mada'in Salih, is an ancient city in north-western Saudi Arabia. Its builders, the Nabataeans who also built Petra, carved more than a hundred monumental tombs into sandstone outcrops, with doorways and decorations.",
+        "The Quran tells of the Thamud, a people who rejected the prophet Salih and were destroyed. Many believed Hegra was their city, and travellers were told not to linger or drink its water."
+      ],
+      "explanation": "Archaeologists date the tombs to the Nabataeans, centuries after the Thamud of tradition. Hegra became Saudi Arabia's first UNESCO World Heritage Site in 2008 and opened to tourists in 2020.",
+      "wiki": "Hegra"
+    },
+    {
+      "slug": "cantuna",
+      "category": "places",
+      "title": "Cantuña and the Devil's Stone",
+      "region": "Church of San Francisco, Quito, Ecuador",
+      "lat": -0.22,
+      "lon": -78.52,
+      "dateLabel": "Told of the 1500s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Ecuadorian legend",
+      "hook": "In Quito, legend says a builder sold his soul to the Devil to finish a church in one night, then hid a single stone to cheat him.",
+      "summary": [
+        "The Church of San Francisco is one of the oldest in South America, begun in Quito in the 1530s. The legend is about Cantuña, an Indigenous builder who promised to finish the church's great atrium by a deadline and fell far behind.",
+        "In despair, he made a deal: the Devil's workers would finish it overnight, in exchange for his soul. They worked through the night, but Cantuña had hidden one stone. At dawn, with the atrium one stone short, the deal was broken and his soul was saved."
+      ],
+      "explanation": "Stories of buildings finished by the Devil and saved by a trick are told across Europe too. Cantuña's legend is part of Quito's identity, and visitors still look for the missing stone. A chapel in the church carries his name.",
+      "wiki": "Basilica and Convent of San Francisco, Quito"
+    },
+    {
+      "slug": "wistmans-wood",
+      "category": "places",
+      "title": "Wistman's Wood",
+      "region": "Dartmoor, Devon, England",
+      "lat": 50.58,
+      "lon": -3.96,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Dartmoor folklore, and walkers",
+      "hook": "On high Dartmoor is a wood of twisted dwarf oaks growing between mossy boulders. Legend says the hounds of the Wild Hunt are kennelled there.",
+      "summary": [
+        "Wistman's Wood is a small patch of ancient woodland on Dartmoor, its oaks bent and knotted, their branches dripping with moss and ferns, growing out of a field of granite boulders. It looks like something from a fairy tale.",
+        "People said druids worshipped there, that it was full of adders, and that the 'wisht hounds' of Dartmoor, black spectral dogs that hunt the moor at night with the Devil, lived among its rocks."
+      ],
+      "explanation": "The oaks are stunted by the wind and thin soil, and they survived because the boulders protected them from grazing and fire. It's a rare remnant of the moor's ancient forest, now a nature reserve.",
+      "wiki": "Wistman's Wood"
+    },
+    {
+      "slug": "inunaki-village",
+      "category": "places",
+      "title": "Inunaki, the Village Outside the Law",
+      "region": "Inunaki Pass, Fukuoka, Japan",
+      "lat": 33.72,
+      "lon": 130.53,
+      "dateLabel": "Told since the 1990s",
+      "status": "open",
+      "statusLabel": "Urban legend",
+      "witnesses": "Japanese internet folklore",
+      "hook": "A Japanese urban legend says that past an old blocked tunnel in Fukuoka there's a village where a sign warns: the Constitution of Japan does not apply here.",
+      "summary": [
+        "Inunaki Pass, in the hills of Fukuoka prefecture, has an old tunnel, now blocked with concrete, beside a newer road. A legend that spread in the 1990s says that beyond it lies Inunaki village, cut off from the world, with its own rules.",
+        "At the entrance, the story goes, a sign reads 'Japanese law does not apply beyond this point'. Phones lose signal, cars stall, and visitors who go in don't come out. The legend inspired the 2020 horror film Howling Village."
+      ],
+      "explanation": "There was a real village of Inunaki, but its people moved away when a dam was built, and its land was flooded. No such sign or hidden village exists. The blocked tunnel and the lonely pass give the legend its atmosphere.",
+      "wiki": "Inunaki Village"
+    },
+    {
+      "slug": "goreme-fairy-chimneys",
+      "category": "places",
+      "title": "The Fairy Chimneys of Cappadocia",
+      "region": "Göreme, Nevşehir, Türkiye",
+      "lat": 38.64,
+      "lon": 34.83,
+      "dateLabel": "Told for centuries",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Cappadocian villagers",
+      "hook": "In central Türkiye, thousands of tall rock cones rise from the valleys. Villagers said they were the chimneys of fairies living underground.",
+      "summary": [
+        "Cappadocia's valleys are crowded with tall pillars of soft volcanic rock, many topped with a darker stone cap, some hollowed out into homes and churches. In Turkish they're called peri bacaları, 'fairy chimneys'.",
+        "Local stories said fairies lived inside them and below them, and that smoke rising from the rocks came from their underground hearths. Early Christians carved monasteries and painted churches into them, and some are still used as houses and hotels."
+      ],
+      "explanation": "The cones are hoodoos: thick ash from ancient eruptions hardened into soft tuff, which rain and wind wore away, except where a harder rock on top sheltered the column beneath. The area is a UNESCO World Heritage Site.",
+      "wiki": "Göreme National Park"
+    },
+    {
+      "slug": "dancing-forest",
+      "category": "places",
+      "title": "The Dancing Forest",
+      "region": "Curonian Spit, Kaliningrad, Russia",
+      "lat": 55.18,
+      "lon": 20.86,
+      "dateLabel": "Planted in the 1960s",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "Visitors",
+      "hook": "On a strip of sand dunes in the Baltic, a stand of pine trees grows in loops, rings and spirals, as if they had been dancing.",
+      "summary": [
+        "The Dancing Forest is a patch of pines on the Curonian Spit, a long, narrow sand dune between a lagoon and the Baltic Sea, shared by Russia and Lithuania. Its trunks twist into curves, corkscrews and full loops, some of them close to the ground.",
+        "Local legends say it was a sacred place, or that it's a place of strange energy. A popular belief is that climbing through one of the loops adds a year to your life."
+      ],
+      "explanation": "The trees were planted in the 1960s to stop the dunes shifting. Scientists think young trees were damaged by caterpillars of the pine shoot moth, which ate their growing tips, so the trees grew sideways before turning upward. Wind and the shifting sand may have played a part.",
+      "wiki": "Dancing Forest"
+    },
+    {
+      "slug": "crying-stone-of-ilesi",
+      "category": "places",
+      "title": "The Crying Stone of Ilesi",
+      "region": "Ilesi, Kakamega, Kenya",
+      "lat": 0.23,
+      "lon": 34.73,
+      "dateLabel": "Told for generations",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "The Luhya people, and travellers on the Kisumu road",
+      "hook": "Beside a road in western Kenya, a great rock shaped like a head weeps water from its 'eyes', even in the dry season.",
+      "summary": [
+        "The Crying Stone of Ilesi is a tall column of rock with a large boulder balanced on top, like a head on a body, rising beside the Kakamega–Kisumu road. Water trickles down from the 'head' and stains the rock below, like tears.",
+        "Among the Luhya, it's linked with stories of a woman who wept for the children she lost, or with the spirits of the land; people say it cries harder in times of trouble, and once came to it to pray for rain."
+      ],
+      "explanation": "The 'tears' are water from a spring or a rain-fed pocket in the rocks seeping out at the join between the boulder and the column. The site is a protected landmark and a stop for travellers.",
+      "wiki": null
+    },
+    {
+      "slug": "tsukumogami",
+      "category": "visitors",
+      "title": "The Tsukumogami",
+      "region": "Kyoto, Japan",
+      "lat": 35.01,
+      "lon": 135.77,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese folklore",
+      "hook": "In Japanese folklore, an object that reaches its hundredth year can come alive: an umbrella hopping on one leg, a lantern with a long tongue, a sandal that runs away.",
+      "summary": [
+        "Tsukumogami are household things that have gained a spirit by lasting a hundred years: paper lanterns, umbrellas, sandals, tea kettles, musical instruments. Medieval scrolls from Kyoto show them parading through the streets at night.",
+        "In some stories, objects thrown away carelessly before their hundredth year turn into angry spirits and take revenge on the people who discarded them. Japanese temples still hold memorial services for old needles, dolls and other belongings before they are thrown away."
+      ],
+      "explanation": "The idea comes from Shinto and Buddhist beliefs that spirits can live in all things, and from a respect for objects that serve people well. Tsukumogami appear in Japanese art, games and films, from old scrolls to modern anime.",
+      "wiki": "Tsukumogami"
+    },
+    {
+      "slug": "hungry-ghost-festival",
+      "category": "visitors",
+      "title": "The Month the Gates Open",
+      "region": "Hong Kong, China",
+      "lat": 22.32,
+      "lon": 114.17,
+      "dateLabel": "Every seventh lunar month",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Families across China and South-East Asia",
+      "hook": "Once a year, Chinese tradition says the gates of the underworld open and the dead walk among the living. At outdoor shows, the front row is left empty for them.",
+      "summary": [
+        "In the seventh month of the Chinese lunar calendar, the gates of the underworld are said to open, and the spirits of the dead, especially those with no family to care for them, wander the world of the living. The fifteenth night is the Ghost Festival.",
+        "Families burn incense and paper offerings by the roadside and leave food out. In Hong Kong, Singapore and Malaysia, there are outdoor operas and concerts for the spirits, with the front row of seats left empty. Many people avoid swimming, moving house or going out late during the month."
+      ],
+      "explanation": "The festival mixes Buddhist and Taoist traditions about caring for the dead. It's a living religious practice, shared across China and its diaspora, and still widely observed.",
+      "wiki": "Ghost Festival"
+    },
+    {
+      "slug": "pocong",
+      "category": "visitors",
+      "title": "The Pocong",
+      "region": "As told across Indonesia",
+      "lat": -6.2,
+      "lon": 106.85,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Indonesian and Malaysian folklore",
+      "hook": "In Indonesia, people say that if a burial shroud isn't untied in time, the soul inside is trapped, and comes hopping along the road at night.",
+      "summary": [
+        "In Islamic burial in Indonesia and Malaysia, the body is wrapped in a white shroud tied at the head and feet. Folklore says the ties must be loosened before the grave is filled; if they aren't, the soul can't leave, and rises as a pocong, still wrapped in its shroud.",
+        "With its legs bound, the pocong can't walk. It hops, or is said to float, and appears at night by the roadside or in graveyards, wanting someone to untie it."
+      ],
+      "explanation": "The pocong is a folk belief, not part of religious teaching, and it's a favourite of Indonesian horror films and pranks; in some places people have been arrested for dressing as one to scare drivers. It reflects the importance placed on proper burial.",
+      "wiki": "Pocong"
+    },
+    {
+      "slug": "ghoul",
+      "category": "visitors",
+      "title": "The Ghoul of the Desert",
+      "region": "As told across Arabia",
+      "lat": 24.0,
+      "lon": 45.0,
+      "dateLabel": "Told since before Islam",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Arabian folklore",
+      "hook": "Travellers in the Arabian desert once feared the ghūl: a shape-shifter that could look like a friend, or a beautiful woman, and lead them away into the sands.",
+      "summary": [
+        "The ghūl is a creature of Arabian folklore from before Islam, a kind of jinn that lived in deserts and lonely places. It could change shape, appearing as a traveller, an animal or an alluring woman, and called out to people to lure them away from their caravans.",
+        "Its true form, the stories said, had the feet of a donkey. It was said to haunt graveyards too. The way to defeat one was to strike it only once; a second blow would bring it back to life."
+      ],
+      "explanation": "The ghūl appears in The Thousand and One Nights, and from there entered European languages as 'ghoul', a word that now means something quite different. It's a folk figure, born of the dangers of desert travel.",
+      "wiki": "Ghoul"
+    },
+    {
+      "slug": "vrykolakas",
+      "category": "visitors",
+      "title": "The Vrykolakas of Santorini",
+      "region": "Santorini, South Aegean, Greece",
+      "lat": 36.42,
+      "lon": 25.43,
+      "dateLabel": "Told for centuries",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Greek folklore, and travellers since the 1700s",
+      "hook": "In Greek folklore, the restless dead could rise and knock on doors at night. Santorini was said to have so many that people sent their dead there.",
+      "summary": [
+        "A vrykolakas is the Greek undead: someone who had died but didn't decay, and rose from the grave to wander at night, knocking on doors and calling out names. Those who answered, it was said, would soon die themselves.",
+        "Santorini was famous for them, and a Greek saying spoke of sending vampires to Santorini, as one might speak of taking coals to Newcastle. People believed the island's soil kept bodies from decaying. Travellers in the 1700s described ceremonies to lay one to rest on Mykonos."
+      ],
+      "explanation": "Santorini's volcanic soil does slow decay, which is probably why bodies found there seemed unchanged, and why the island became linked with the undead. Beliefs like this were common across south-eastern Europe before modern medicine explained decomposition.",
+      "wiki": "Vrykolakas"
+    },
+    {
+      "slug": "iele",
+      "category": "visitors",
+      "title": "The Iele, Dancers of the Night",
+      "region": "As told across Romania",
+      "lat": 45.5,
+      "lon": 24.8,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Romanian folklore",
+      "hook": "In Romanian folklore, beautiful women dance in circles in forest clearings at night. Anyone who watches them, or hears their song, is struck down.",
+      "summary": [
+        "The Iele are female spirits of Romanian folklore who live in the air, in forests and on hilltops. They appear on moonlit nights, half-dressed, with bells on their ankles, dancing in a ring.",
+        "Where they have danced, the grass is said to be scorched and won't grow again. A person who sees them, steps into their circle, or hears their singing can be struck with madness or paralysis. People avoided speaking their names, calling them only 'the beautiful ones' or 'the merciful'."
+      ],
+      "explanation": "The Iele are linked with the Rusalii, spirits honoured around Pentecost, and with the Călușari, ritual dancers who once performed to heal people 'taken' by them. Fairy rings in the grass may have helped inspire the scorched circles.",
+      "wiki": "Iele"
+    },
+    {
+      "slug": "lady-midday",
+      "category": "visitors",
+      "title": "Lady Midday",
+      "region": "As told across the Czech lands",
+      "lat": 49.8,
+      "lon": 15.5,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Czech, Polish and Slavic folklore",
+      "hook": "At harvest time in the Slavic countryside, people said a woman in white walks the fields at noon. If she stops you, you must answer her riddles.",
+      "summary": [
+        "Polednice, Lady Midday, is a spirit of the fields in Czech, Polish and other Slavic folklore. She appears in the heat of summer at noon, as a tall woman in white, sometimes carrying a scythe, to those still working in the fields.",
+        "She stops them with questions or makes them talk with her until the hour is over. Anyone who can't answer, or tries to leave, is struck with a pain in the head, a fever or worse. Parents warned children not to wander into the cornfields at midday."
+      ],
+      "explanation": "She looks very much like a personification of sunstroke and heat exhaustion during harvest, when people worked through the hottest part of the day. The Czech poet Karel Jaromír Erben wrote a ballad about her, set to music by Antonín Dvořák.",
+      "wiki": "Lady Midday"
+    },
+    {
+      "slug": "janara-of-benevento",
+      "category": "visitors",
+      "title": "The Witches of Benevento",
+      "region": "Benevento, Campania, Italy",
+      "lat": 41.13,
+      "lon": 14.78,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Southern Italian folklore",
+      "hook": "In southern Italy, people said witches gathered under a walnut tree by the river at Benevento, and crept into houses through the keyhole at night.",
+      "summary": [
+        "Benevento, in Campania, was famous across Italy as the city of witches. Legend said they met at night under a great walnut tree on the banks of the Sabato river, flying there from all over the country.",
+        "The local witch was called the janara. She slipped into houses through the keyhole, tangled the manes of horses into braids, and brought bad dreams. To keep her out, people put a broom or a pile of salt by the door, since she couldn't enter until she had counted every bristle or grain, and dawn would come first."
+      ],
+      "explanation": "The legend may go back to the Lombards who ruled Benevento in the 7th century and worshipped at a sacred tree, which the bishop had cut down. The witches became part of the city's identity, and a liqueur called Strega, 'witch', is still made there.",
+      "wiki": "Witches of Benevento"
+    },
+    {
+      "slug": "mari-of-anboto",
+      "category": "visitors",
+      "title": "Mari, the Lady of Anboto",
+      "region": "Mount Anboto, Biscay, Basque Country, Spain",
+      "lat": 43.11,
+      "lon": -2.59,
+      "dateLabel": "Told since ancient times",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Basque folklore",
+      "hook": "Basque shepherds said a goddess lived in a cave high on a limestone mountain, and crossed the sky between peaks as a ball of fire.",
+      "summary": [
+        "Mari is the most important figure of Basque mythology, a goddess of the earth and the weather who lives in caves on mountain peaks. Her best-known home is a cave on Mount Anboto, in Biscay; people said that when she was there, the weather would be wet, and when she was away, dry.",
+        "She was seen as a beautiful woman combing her hair at the cave mouth, or flying between mountains as a flaming ball or a sickle of fire. Those who visited her had to address her with respect, never turn their backs on her, and take nothing from her cave."
+      ],
+      "explanation": "Mari probably comes from a pre-Christian Basque religion of the earth and sky. The fireballs may recall lightning, ball lightning or meteors over the mountains. Her stories were collected by the Basque priest and anthropologist José Miguel de Barandiarán in the 20th century.",
+      "wiki": "Mari (goddess)"
+    },
+    {
+      "slug": "lange-wapper",
+      "category": "visitors",
+      "title": "Lange Wapper, the Giant of Antwerp",
+      "region": "Het Steen, Antwerp, Belgium",
+      "lat": 51.22,
+      "lon": 4.4,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Flemish folklore",
+      "hook": "Antwerp legend tells of a giant who could make himself tall enough to peer into upstairs windows, or small enough to slip into a child's lap.",
+      "summary": [
+        "Lange Wapper, 'long Wapper', is a figure of Flemish folklore from Antwerp. He could change his size at will, stretching up to look through windows at night, or shrinking to the size of a small boy. He played tricks on drunkards, frightened lovers and teased anyone out late.",
+        "Some stories made him kind to children; others had him take the form of a child so that a mother would pick him up, then grow until she let him go in terror. A statue of him stands outside Het Steen, Antwerp's old riverside castle."
+      ],
+      "explanation": "He's a trickster spirit, used to keep people home at night. Some think the stories grew from tall shadows cast by lamplight in old streets. He remains a popular figure in Antwerp.",
+      "wiki": "Lange Wapper"
+    },
+    {
+      "slug": "madremonte",
+      "category": "visitors",
+      "title": "La Madremonte",
+      "region": "Antioquia, Colombia",
+      "lat": 6.5,
+      "lon": -75.5,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Colombian folklore",
+      "hook": "In Colombia's mountains, people say a tall woman covered in moss and leaves guards the forest, and punishes those who steal land or cheat.",
+      "summary": [
+        "La Madremonte, 'mother of the mountain', is a forest spirit of Colombian folklore, especially in Antioquia and the coffee region. She appears as a large woman dressed in leaves and moss, wearing a green hat that hides her face.",
+        "She lives in the thick forest and by rivers, and punishes people who move boundary fences to take a neighbour's land, who are unfaithful, or who mistreat animals, sending floods, making them lose their way, or making their cattle sick. Her howls are heard in storms."
+      ],
+      "explanation": "She's one of many Latin American guardians of nature, like the Curupira, and her tales carried lessons about honesty and respect for the forest. She's still part of rural storytelling.",
+      "wiki": null
+    },
+    {
+      "slug": "mimi-spirits",
+      "category": "visitors",
+      "title": "The Mimi Spirits of Arnhem Land",
+      "region": "Western Arnhem Land, Northern Territory, Australia",
+      "lat": -12.4,
+      "lon": 133.0,
+      "dateLabel": "Told and painted for thousands of years",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Aboriginal peoples of Arnhem Land",
+      "hook": "In northern Australia, thin spirit people are said to live inside the rocks. They were the first to paint on them, and taught people to hunt.",
+      "summary": [
+        "Mimi are spirit beings in the traditions of Aboriginal peoples of western Arnhem Land. They are tall and so thin that a strong wind could snap them, so they live in cracks in the rock escarpments, coming out when the air is still.",
+        "In many stories, the Mimi taught the first people how to hunt, cook and paint, and some of the oldest rock paintings in the region, of slender, moving figures, are said to have been made by them. They can be mischievous, and people are careful not to anger them."
+      ],
+      "explanation": "The Mimi are part of living Aboriginal belief and art, still painted on bark and canvas today. The rock art attributed to them is thousands of years old. Their stories are cultural knowledge to be respected.",
+      "wiki": "Mimi (folklore)"
+    },
+    {
+      "slug": "kichkandi",
+      "category": "visitors",
+      "title": "The Kichkandi",
+      "region": "As told across Nepal",
+      "lat": 27.7,
+      "lon": 85.32,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Nepali folklore",
+      "hook": "In Nepal, people say a beautiful woman may appear to a man walking alone at night. Look at her feet: they point backwards.",
+      "summary": [
+        "The kichkandi is a female spirit of Nepali folklore. She appears as a beautiful young woman, often by the roadside or near water, to men travelling alone at night, and charms them into following her.",
+        "Her feet are turned backwards, and she is said to be the spirit of a woman who died unhappy, or unmarried. Men who fall under her spell are said to grow weak and ill."
+      ],
+      "explanation": "Backward-footed spirits are found across South Asia and beyond, and stories like this warn against travelling alone after dark. The kichkandi is a familiar figure in Nepali stories and films.",
+      "wiki": "Kichkandi"
+    },
+    {
+      "slug": "engkanto",
+      "category": "visitors",
+      "title": "The Engkanto",
+      "region": "Mount Banahaw, Calabarzon, Philippines",
+      "lat": 14.07,
+      "lon": 121.48,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Filipino folklore",
+      "hook": "In the Philippines, people say tall, fair spirits live in the forests and mountains, in hidden cities. Some people are taken to live among them.",
+      "summary": [
+        "Engkanto are spirits of Filipino folklore, often described as beautiful, tall and fair-skinned, living in trees such as the balete, in caves, and in invisible cities on mountains like Banahaw, a mountain sacred to many pilgrims.",
+        "They can be generous, but they don't like to be disturbed. People ask permission before passing their trees, and say a polite 'tabi tabi po', 'excuse me'. Those who offend them may fall ill; others are said to be 'enchanted', taken to their world, sometimes returning years later."
+      ],
+      "explanation": "The engkanto are part of Filipino folk belief, mixing Indigenous nature spirits with ideas from the Spanish period. The custom of asking permission is still widely practised.",
+      "wiki": "Engkanto"
+    },
+    {
+      "slug": "la-lechuza",
+      "category": "visitors",
+      "title": "La Lechuza",
+      "region": "Monterrey, Nuevo León, Mexico",
+      "lat": 25.67,
+      "lon": -100.31,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Folklore of northern Mexico and south Texas",
+      "hook": "In northern Mexico and Texas, people say a huge owl with a woman's face lands on roofs at night, and cries like a baby to lure people outside.",
+      "summary": [
+        "La Lechuza, 'the owl', is a figure told about across northern Mexico and south Texas. She is said to be a witch who takes the form of a giant owl, sometimes with a woman's face, and comes at night, perching on houses or trees.",
+        "Her cry can sound like a baby or a woman weeping, to draw people out. Hearing an owl at night was a bad omen. To keep her away, people say a prayer, tie seven knots in a rope, or call out an old phrase telling her to come back tomorrow for salt."
+      ],
+      "explanation": "Owls have been seen as messengers of death in Mexican tradition since Aztec times. Barn owls make eerie, screaming calls at night, and land on roofs, which keeps the story alive.",
+      "wiki": null
+    },
+    {
+      "slug": "nagual",
+      "category": "creatures",
+      "title": "The Nagual",
+      "region": "Oaxaca, Mexico",
+      "lat": 17.06,
+      "lon": -96.72,
+      "dateLabel": "Told since before the conquest",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Mesoamerican tradition",
+      "hook": "In Mexican tradition, some people can take the shape of an animal at night: a jaguar, a dog, a coyote. People say you'll know one by its eyes.",
+      "summary": [
+        "In beliefs that go back to the Aztec and Maya, a nagual is a person, often a sorcerer, who can turn into an animal. Stories tell of strange dogs, coyotes, owls or jaguars prowling villages at night, which are really people in disguise.",
+        "In some communities, the word also means a person's animal spirit, a companion born at the same moment as them, whose fate is tied to theirs. If the animal is hurt, the person is hurt too."
+      ],
+      "explanation": "The nagual belongs to living Indigenous traditions in Mexico and Central America, and has changed over centuries. The Spanish saw it as witchcraft; anthropologists see a rich idea of the links between people and animals.",
+      "wiki": "Nagual"
+    },
+    {
+      "slug": "wendigo",
+      "category": "creatures",
+      "title": "The Wendigo",
+      "region": "Northern Ontario, Canada",
+      "lat": 50.0,
+      "lon": -88.0,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Algonquian peoples, including the Anishinaabe and Cree",
+      "hook": "In the northern forests, the Anishinaabe and Cree speak of a spirit of winter and endless hunger, a being that can take hold of a person.",
+      "summary": [
+        "The wendigo appears in the traditions of Algonquian-speaking peoples of the northern forests of Canada and the United States. It's a being of the deep winter, gaunt and cold, whose hunger is never satisfied: the more it eats, the hungrier it grows.",
+        "In many tellings, a person could become a wendigo by giving in to greed, or, in the worst famines, by eating other people. Stories warned of its approach in winter storms, and of people who began to change."
+      ],
+      "explanation": "The wendigo is a sacred and serious figure in these traditions, a warning about greed and survival in a land of hard winters, not a monster for entertainment. Horror films and games have borrowed it widely, which many Indigenous people find disrespectful.",
+      "wiki": "Wendigo"
+    },
+    {
+      "slug": "mngwa",
+      "category": "creatures",
+      "title": "The Mngwa, the Strange One",
+      "region": "Lindi, Tanzania",
+      "lat": -10.0,
+      "lon": 39.7,
+      "dateLabel": "Reported in the early 20th century",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "Villagers and colonial officials on the coast of Tanzania",
+      "hook": "On the coast of Tanzania, people told of a huge grey cat, the size of a donkey, that came into villages at night. Its name means 'the strange one'.",
+      "summary": [
+        "The mngwa, or nunda, is a creature of Swahili lore on the coast of Tanzania. It's described as a grey, striped cat as big as a donkey, larger than a leopard, that hunts at night.",
+        "In the 1920s and 1930s, attacks around the town of Lindi were blamed on it, and a colonial police officer reported finding grey hairs at the scenes that didn't seem to match lions or leopards. The case was later written up in Britain and became a classic of cryptozoology."
+      ],
+      "explanation": "Most zoologists think the mngwa was an unusually coloured lion or leopard, or a story built on several animals. No body or photograph has ever been found. Folklore of the region also links it to spirits.",
+      "wiki": "Mngwa"
+    },
+    {
+      "slug": "mishipeshu",
+      "category": "creatures",
+      "title": "Mishipeshu, the Underwater Panther",
+      "region": "Agawa Rock, Lake Superior, Ontario, Canada",
+      "lat": 47.35,
+      "lon": -84.66,
+      "dateLabel": "Painted centuries ago",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Anishinaabe tradition",
+      "hook": "On a cliff above Lake Superior is a painting of a horned cat with a spiked back. The Anishinaabe say it lives in the lake and stirs up its storms.",
+      "summary": [
+        "Mishipeshu, the great lynx or underwater panther, is a powerful being in Anishinaabe tradition. It lives at the bottom of the Great Lakes and has the body of a big cat, horns, and scales or spikes along its back and tail. It rules the waters, and can raise storms, whirlpools and dangerous ice.",
+        "At Agawa Rock, on the shore of Lake Superior, red ochre paintings show it among canoes and other figures. People made offerings of tobacco before crossing the lake. It was also said to guard the copper of Lake Superior's shores."
+      ],
+      "explanation": "Mishipeshu is part of a living spiritual tradition. The lake's sudden, violent storms, which have sunk many ships, give its power a real-world meaning. Agawa Rock is a protected site in Lake Superior Provincial Park.",
+      "wiki": "Mishipeshu"
+    },
+    {
+      "slug": "ri-of-new-ireland",
+      "category": "creatures",
+      "title": "The Ri of New Ireland",
+      "region": "Namatanai, New Ireland, Papua New Guinea",
+      "lat": -3.66,
+      "lon": 152.44,
+      "dateLabel": "Investigated 1979–1985",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Islanders, an anthropologist and expedition teams",
+      "hook": "In Papua New Guinea, islanders spoke of merfolk with human heads and fish tails. Expeditions went looking for them, with cameras.",
+      "summary": [
+        "On the island of New Ireland, people told of the ri: sea creatures with a human head and upper body and a fish-like tail, sometimes caught in nets. In 1979 the American anthropologist Roy Wagner wrote about them and joined an effort to find them.",
+        "In 1983 and 1985, expeditions went out to film them. They saw animals surface in the lagoons, and photographed one."
+      ],
+      "explanation": "The animals they found were dugongs, large sea mammals related to manatees, which can look strangely human when they rise to breathe. Some of the team still argued that the local ri was different, but no evidence of anything else was found.",
+      "wiki": null
+    },
+    {
+      "slug": "yara-ma-yha-who",
+      "category": "creatures",
+      "title": "The Yara-ma-yha-who",
+      "region": "New South Wales, Australia",
+      "lat": -31.5,
+      "lon": 147.0,
+      "dateLabel": "Recorded in the early 1900s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Stories recorded from Aboriginal tellers",
+      "hook": "An Australian story warns of a small red creature that lives in fig trees and drops down onto travellers who rest in the shade.",
+      "summary": [
+        "The yara-ma-yha-who was described in collections of Aboriginal stories published in the early 20th century: a small, red, frog-like man with a huge head and no teeth, who lives in the branches of wild fig trees.",
+        "When a traveller rests beneath the tree, it drops down and holds on with suckers on its fingers and toes. In the story, the creature can carry people away, and those who are taken many times slowly become like it. Children were warned not to wander off alone."
+      ],
+      "explanation": "The story was published by a non-Indigenous collector, and its exact origins are uncertain. It's best seen as a warning tale for children. It became well known through books of world folklore.",
+      "wiki": "Yara-ma-yha-who"
+    },
+    {
+      "slug": "skvader",
+      "category": "creatures",
+      "title": "The Skvader",
+      "region": "Sundsvall, Västernorrland, Sweden",
+      "lat": 62.39,
+      "lon": 17.31,
+      "dateLabel": "Made in 1918",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "A hunter's tale, and museum visitors",
+      "hook": "In a Swedish museum stands a hare with the wings of a game bird. A hunter said he shot one in 1874.",
+      "summary": [
+        "The skvader began with a tall tale. In 1874, a hunter from near Sundsvall is said to have claimed he shot a strange animal: half hare, half wood grouse. Nobody believed him, and the story became a local joke.",
+        "In 1918 a taxidermist made one, joining the body of a hare to the wings and tail of a female capercaillie, and gave it to the hunter's family. It's still on display in a museum in Sundsvall."
+      ],
+      "explanation": "It's a deliberate joke, in the same spirit as the jackalope of the United States and the wolpertinger of Bavaria. The skvader has become a mascot of the town.",
+      "wiki": "Skvader"
+    },
+    {
+      "slug": "lake-tota-monster",
+      "category": "creatures",
+      "title": "The Monster of Lake Tota",
+      "region": "Lake Tota, Boyacá, Colombia",
+      "lat": 5.55,
+      "lon": -72.92,
+      "dateLabel": "Recorded in the 1600s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "A Spanish chronicler, and Muisca tradition",
+      "hook": "A Spanish chronicle of the 1600s described a black monster in Colombia's highest lake, with the head of an ox and a body bigger than a whale's.",
+      "summary": [
+        "Lake Tota is the largest lake in Colombia, lying high in the Andes at about 3,000 metres. In the 17th century, a Spanish chronicler wrote that a great monster lived in it: black, with a head like an ox's, and larger than a whale.",
+        "The lake was sacred to the Muisca people, and local stories spoke of a creature in its cold, deep water. Later reports have been few."
+      ],
+      "explanation": "No evidence of a large animal has ever been found, and the lake couldn't feed one. The story may combine Muisca beliefs about sacred lakes with the Spanish love of marvels, like other lake monsters around the world.",
+      "wiki": "Monster of Lake Tota"
+    },
+    {
+      "slug": "tasmanian-globster",
+      "category": "creatures",
+      "title": "The Tasmanian Globster",
+      "region": "Near the Interview River, Tasmania, Australia",
+      "lat": -41.6,
+      "lon": 144.9,
+      "dateLabel": "Found in 1960",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Ranchers, scientists and journalists",
+      "hook": "In 1960, a huge hairy mass with no eyes, no head and no bones washed up on a beach in Tasmania. The newspapers called it a globster.",
+      "summary": [
+        "In August 1960, cattlemen on a remote beach in north-western Tasmania found a huge lump of flesh, about 6 metres long, covered in what looked like fine hair, with no visible eyes or bones. Because the beach was so hard to reach, it wasn't examined by scientists until 1962.",
+        "The 'Tasmanian globster' became a worldwide story, and gave its name to every shapeless sea carcass since."
+      ],
+      "explanation": "Scientists who studied it concluded it was a large mass of decomposed whale blubber, whose fibres look like hair once the skin and other tissue have rotted away. Later DNA tests on other globsters have found the same.",
+      "wiki": "Globster"
+    },
+    {
+      "slug": "jba-fofi",
+      "category": "creatures",
+      "title": "J'ba Fofi, the Giant Spider",
+      "region": "Rainforests of the Democratic Republic of the Congo",
+      "lat": 2.0,
+      "lon": 23.0,
+      "dateLabel": "Reported in the 20th century",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "Forest peoples of the Congo Basin, and visitors",
+      "hook": "Stories from the Congo rainforest tell of a spider with a body the size of a dog, spinning webs between trees to catch animals.",
+      "summary": [
+        "J'ba fofi, 'giant spider', is the name given in the Congo Basin to a spider said to be huge, with legs spanning more than a metre, building webs between trees and over trails to catch birds and small animals. It's said to lay eggs the size of peanuts.",
+        "In one story told in the 1930s, a British couple driving through the Belgian Congo said they saw a spider with legs several feet long crossing the track in front of them."
+      ],
+      "explanation": "The largest known spiders, such as the Goliath birdeater of South America, have legs spanning about 30 centimetres, and a spider much bigger couldn't breathe properly. No specimen has ever been found. The story may grow from real large spiders and the fear they inspire.",
+      "wiki": null
+    },
+    {
+      "slug": "sirrush-ishtar-gate",
+      "category": "creatures",
+      "title": "The Dragon on the Ishtar Gate",
+      "region": "Babylon, Babil, Iraq",
+      "lat": 32.55,
+      "lon": 44.43,
+      "dateLabel": "Built about 575 BCE",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Archaeologists, and visitors to Babylon and Berlin",
+      "hook": "On the great blue gate of Babylon, a scaly beast with a serpent's head and an eagle's claws marches alongside bulls and lions. The man who dug it up wondered if it was real.",
+      "summary": [
+        "The Ishtar Gate was built by King Nebuchadnezzar II as the grand entrance to Babylon. Its glazed blue bricks show rows of animals in relief: lions, bulls, and a strange creature, the mušḫuššu, with a scaly body, a horned serpent's head, a lion's front legs and an eagle's back feet.",
+        "Robert Koldewey, the German archaeologist who excavated the gate in the early 1900s, noted that the creature was drawn with the same realism as the real animals beside it, and wondered whether the Babylonians had seen something like it."
+      ],
+      "explanation": "The mušḫuššu was the sacred beast of the god Marduk, a creature of myth like the griffin. Cryptozoologists later linked it to the Mokele-mbembe of Central Africa, but historians see it as a symbol. Much of the gate was reconstructed in a museum in Berlin.",
+      "wiki": "Mušḫuššu"
+    },
+    {
+      "slug": "nasnas",
+      "category": "creatures",
+      "title": "The Nasnas",
+      "region": "Hadhramaut, Yemen",
+      "lat": 16.0,
+      "lon": 48.5,
+      "dateLabel": "Described since medieval times",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Arab travellers and geographers",
+      "hook": "Medieval Arab writers described a creature in Yemen that was half a person: one arm, one leg and half a face, hopping through the trees.",
+      "summary": [
+        "The nasnas is a creature from Arabian folklore and the books of medieval geographers. It was said to be half a human being, split from head to foot, with one eye, one arm and one leg, and to move by hopping with great speed.",
+        "Writers placed it in Hadhramaut, in Yemen, and in other remote lands. Some said it was a separate race of beings, others the offspring of a jinn and a human."
+      ],
+      "explanation": "The nasnas belongs to a long tradition of 'wonders of the world' described by travellers in many cultures, along with one-footed people in Greek and Indian writings. It may have grown from tales of monkeys glimpsed in the trees. It also appears in the Thousand and One Nights.",
+      "wiki": "Nasnas"
+    },
+    {
+      "slug": "headless-mule",
+      "category": "creatures",
+      "title": "The Headless Mule",
+      "region": "Minas Gerais, Brazil",
+      "lat": -19.9,
+      "lon": -43.9,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Brazilian folklore",
+      "hook": "In Brazil's countryside, people say that on Thursday nights a mule with no head gallops through the fields, breathing fire from its neck.",
+      "summary": [
+        "The mula sem cabeça, the headless mule, is one of the best-known creatures of Brazilian folklore. It's said to be a woman cursed for loving a priest, who is turned into a mule every Thursday night, and gallops until dawn on Friday.",
+        "In place of its head, flames shoot from its neck, and its iron horseshoes strike sparks and clatter loudly. Anyone in its way is trampled. The curse is broken if someone pulls off its bridle."
+      ],
+      "explanation": "The legend came to Brazil from Portugal and Spain and reflects the Church's rules of the colonial era. The clatter of hooves at night and the sound of horses running loose may have kept it alive in rural areas.",
+      "wiki": "Headless Mule"
+    },
+    {
+      "slug": "iara",
+      "category": "creatures",
+      "title": "Iara, Lady of the Waters",
+      "region": "Manaus, Amazonas, Brazil",
+      "lat": -3.1,
+      "lon": -60.02,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Amazonian folklore",
+      "hook": "Along the rivers of the Amazon, people say a beautiful woman with long green hair sits on the rocks and sings, and men who follow her song go under the water.",
+      "summary": [
+        "Iara, or Uiara, is a water spirit of Brazilian folklore, a beautiful woman, sometimes with a fish's tail, who lives in the rivers and lakes of the Amazon. At sunset she's said to sit on rocks combing her long hair and singing.",
+        "Men who hear her song are drawn to the water and follow her down to her palace beneath the river. Those who come back are said to be changed, never quite free of her."
+      ],
+      "explanation": "Iara draws on Tupi beliefs about water spirits, mixed with European tales of mermaids and sirens brought by colonists. She warns of the real dangers of the rivers, and is one of Brazil's most famous legends.",
+      "wiki": "Iara (mythology)"
+    },
+    {
+      "slug": "lindworm-of-smaland",
+      "category": "creatures",
+      "title": "The Lindworms of Småland",
+      "region": "Värend, Småland, Sweden",
+      "lat": 56.88,
+      "lon": 14.81,
+      "dateLabel": "Reported into the 1800s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Swedish farmers, as collected in 1884",
+      "hook": "In the 19th century, a Swedish scholar collected sworn accounts from farmers who said they had seen giant serpents with heads like horses.",
+      "summary": [
+        "The lindworm is a dragon of Scandinavian and Germanic legend: a great serpent, sometimes with two front legs, sometimes none. In Sweden, stories of lindworms living in forests and marshes were told well into the 1800s.",
+        "In 1884, the scholar Gunnar Olof Hyltén-Cavallius published a study of lindworms in the region of Värend, in Småland, with accounts from dozens of people who said they had seen them: black serpents several metres long, with manes and large eyes, that hissed and reared up. He offered a reward for one, dead or alive."
+      ],
+      "explanation": "No lindworm was ever caught. The sightings may have been large grass snakes, or adders seen in fear and remembered bigger, shaped by old legends. The study is a rare record of how a monster belief lived on in the countryside.",
+      "wiki": "Lindworm"
+    },
+    {
+      "slug": "dahu",
+      "category": "creatures",
+      "title": "The Dahu",
+      "region": "Jura mountains, France",
+      "lat": 46.6,
+      "lon": 6.1,
+      "dateLabel": "Told for generations",
+      "status": "explained",
+      "statusLabel": "A joke",
+      "witnesses": "Generations of tricked newcomers",
+      "hook": "In the French and Swiss mountains, people tell newcomers about a goat-like animal whose legs are shorter on one side, so it can only walk around the mountain one way.",
+      "summary": [
+        "The dahu is a wild animal of the Alps and the Jura, rather like a chamois, with legs on one side shorter than on the other, so that it can stand upright on a steep slope. There are two kinds: those that walk clockwise around the mountain, and those that go anticlockwise.",
+        "The famous way to hunt it is at night: one person waits downhill with a sack, and the others whistle behind the dahu. It turns round to look, loses its balance because its short legs are now downhill, and rolls into the sack."
+      ],
+      "explanation": "It's a joke played on visitors and newcomers, who are sent out with a sack on a cold night while the locals go home. There are similar jokes in other countries, like the snipe hunt in the United States.",
+      "wiki": "Dahu"
+    },
+    {
+      "slug": "ahuizotl",
+      "category": "creatures",
+      "title": "The Ahuizotl",
+      "region": "Texcoco, State of Mexico, Mexico",
+      "lat": 19.51,
+      "lon": -98.88,
+      "dateLabel": "Recorded in the 1500s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Aztec belief, as recorded by Spanish friars",
+      "hook": "The Aztecs feared a small, dog-like creature that lived in the lakes, with a hand at the end of its tail to pull people under.",
+      "summary": [
+        "The ahuizotl is a creature of Aztec belief, described in the Florentine Codex, the great record of Aztec life compiled by the friar Bernardino de Sahagún in the 1500s. It was a little like a dog or an otter, slick and dark, with hands on its feet and another hand at the end of its tail.",
+        "It lived in the lakes of the Valley of Mexico, and was said to make a sound like a crying child to draw people to the water's edge, where it seized them with its tail and dragged them under. Those it drowned were believed to be taken by the rain gods."
+      ],
+      "explanation": "The creature may be based on a real animal, such as an otter, combined with the very real danger of drowning in the old lakes. An Aztec emperor, Ahuitzotl, took its name.",
+      "wiki": "Ahuizotl (mythology)"
     }
 ];
