@@ -27134,5 +27134,1914 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
       ],
       "explanation": "Records show the clock was built by Mikuláš of Kadaň with the astronomer Jan Šindel. A clockmaker called Hanuš did repair it around 1490, and the blinding story was attached to him later. The clock has been restored many times, most recently in 2018.",
       "wiki": "Prague astronomical clock"
+    },
+    {
+      "slug": "bowhead-whale-jazz",
+      "category": "voices",
+      "title": "The Whales That Sing Jazz",
+      "region": "Fram Strait, off Svalbard, Norway",
+      "lat": 78.92,
+      "lon": 11.93,
+      "dateLabel": "Recorded 2010–2014",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Underwater microphones in the Arctic",
+      "hook": "Under the Arctic ice, a small population of bowhead whales sings constantly through the dark winter, and almost never sings the same song twice.",
+      "summary": [
+        "Bowhead whales can live for more than 200 years, in the icy waters of the far north. In 2018, scientists published four years of recordings from hydrophones left in the sea off Svalbard, where a population once nearly wiped out by whaling is recovering.",
+        "They found the whales sang day and night through the winter, and that they had at least 184 distinct songs, with new ones each year and different songs within a season. Researchers compared it to jazz, against the more repetitive 'classical' songs of humpbacks."
+      ],
+      "explanation": "Only males are thought to sing, probably to attract mates, but why their songs change so much is a mystery. One idea is that with so few whales left, each one improvises to stand out.",
+      "wiki": "Bowhead whale"
+    },
+    {
+      "slug": "elephant-infrasound",
+      "category": "voices",
+      "title": "The Elephants' Secret Voices",
+      "region": "Amboseli, Kajiado, Kenya",
+      "lat": -2.65,
+      "lon": 37.26,
+      "dateLabel": "Discovered in 1984",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Researchers in zoos and in Kenya",
+      "hook": "Elephants often seem to know where faraway herds are, without making a sound. In 1984, a researcher felt a throbbing in the air and found out why.",
+      "summary": [
+        "Standing near the elephant enclosure of a zoo in Portland, Oregon, the biologist Katy Payne noticed a faint throbbing in the air, like the feeling of a pipe organ's lowest note, though she couldn't hear anything. She wondered if the elephants were calling.",
+        "Recordings showed they were: elephants make rumbles far below the range of human hearing, infrasound, that can travel for kilometres. Studies at Amboseli, in Kenya, showed herds use them to keep in touch, find mates and warn of danger."
+      ],
+      "explanation": "Low sounds travel further than high ones, especially at dawn and dusk when the air is still. Elephants may also pick up the vibrations through their feet. It explained how scattered herds seemed to act together.",
+      "wiki": "Elephant communication"
+    },
+    {
+      "slug": "brood-x-cicadas",
+      "category": "voices",
+      "title": "The Seventeen-Year Roar",
+      "region": "Maryland, USA",
+      "lat": 39.0,
+      "lon": -77.1,
+      "dateLabel": "Every 17 years, most recently 2021",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Millions of people in the eastern United States",
+      "hook": "Every seventeen years, billions of insects crawl out of the ground at once across the eastern United States, and fill the air with a deafening roar.",
+      "summary": [
+        "Periodical cicadas spend seventeen years underground as nymphs, feeding on tree roots. Then, in a single spring, they all emerge together: up to a million per acre. In 2021, Brood X came out across fifteen states, from Georgia to New York.",
+        "The males sing in chorus, making a whirring, pulsing roar that can reach the volume of a lawnmower and goes on for weeks. Early settlers mistook them for the plagues of locusts in the Bible, and some saw them as an omen."
+      ],
+      "explanation": "Emerging in such vast numbers means predators can't eat them all, and their prime-numbered cycles may help them avoid predators on shorter cycles. How they count the years is still not fully understood.",
+      "wiki": "Brood X"
+    },
+    {
+      "slug": "white-bellbird",
+      "category": "voices",
+      "title": "The Loudest Bird in the World",
+      "region": "Serra do Apiaú, Roraima, Brazil",
+      "lat": 2.6,
+      "lon": -61.2,
+      "dateLabel": "Measured in 2019",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Ornithologists in the Amazon",
+      "hook": "In the mountains of the northern Amazon, a small white bird calls straight into the face of the female it's courting, louder than a rock concert.",
+      "summary": [
+        "The white bellbird is a pigeon-sized bird of the forests of northern South America, with a long fleshy wattle hanging from its beak. In 2019, researchers recording in the hills of Roraima, Brazil, measured its call at about 125 decibels, the loudest bird call ever recorded.",
+        "Strangely, the males seem to save their loudest calls for when a female is right beside them, swinging round to blast it directly at her."
+      ],
+      "explanation": "Its call is so loud because of its unusually thick belly muscles and ribs. Why a male would shout at a female so close is unclear; perhaps the females are testing which males can call loudest, risking their hearing to choose.",
+      "wiki": "White bellbird"
+    },
+    {
+      "slug": "howler-monkeys",
+      "category": "voices",
+      "title": "The Roar in the Treetops",
+      "region": "Community Baboon Sanctuary, Belize",
+      "lat": 17.55,
+      "lon": -88.55,
+      "dateLabel": "Every dawn",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Anyone in the forests of Central and South America at dawn",
+      "hook": "At dawn in the forests of Central America, a deep, rolling roar echoes for miles. First-time visitors think it's a jaguar. It's a monkey.",
+      "summary": [
+        "Howler monkeys live high in the trees of Central and South American forests. Each morning and evening, groups roar together: a deep, booming, growling chorus that can be heard up to 5 kilometres away, among the loudest calls of any land animal.",
+        "The ancient Maya revered howler monkeys as the patrons of art and writing, and showed them as scribes and artists on their painted pots."
+      ],
+      "explanation": "Howlers have an enlarged, hollow bone in the throat that amplifies their calls. Groups roar to tell each other where they are and to defend their territory, which saves them from fighting.",
+      "wiki": "Howler monkey"
+    },
+    {
+      "slug": "azukiarai",
+      "category": "voices",
+      "title": "The Bean Washer by the River",
+      "region": "Niigata, Japan",
+      "lat": 37.9,
+      "lon": 139.0,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese folklore",
+      "hook": "Walking by a river at night in old Japan, you might hear the sound of beans being washed, swish, swish, and a voice singing: shall I wash beans, or shall I eat a person?",
+      "summary": [
+        "The azukiarai, 'bean washer', is a yōkai of Japanese folklore, told about in many parts of the country. It's heard rather than seen: by rivers and streams after dark, people hear a rhythmic swishing, like someone rinsing azuki beans in a basket.",
+        "Sometimes a voice sings along: 'Shall I wash my azuki beans, or shall I catch a person and eat them?' People who go to look find no one, and those who aren't careful slip into the water."
+      ],
+      "explanation": "The sound may come from water running over pebbles, or from insects or small animals by the stream. The azukiarai is a warning about rivers at night, and is often drawn as a small, smiling old man.",
+      "wiki": "Azukiarai"
+    },
+    {
+      "slug": "morin-khuur-legend",
+      "category": "voices",
+      "title": "The Fiddle Made from a Flying Horse",
+      "region": "Ulaanbaatar, Mongolia",
+      "lat": 47.92,
+      "lon": 106.92,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Mongolian legend",
+      "hook": "Mongolia's national instrument has a horse's head carved at the top. Legend says the first one was made from a winged horse, so its owner could hear it again.",
+      "summary": [
+        "The morin khuur, 'horse fiddle', is a two-stringed instrument played with a bow, its strings and bow traditionally made of horsehair. Its sound is said to imitate a horse: neighing, galloping, the wind across the steppe.",
+        "In the best-known legend, a herdsman called Namjil the Cuckoo was given a winged horse that carried him each night to visit his beloved. A jealous woman had its wings cut, and it died. In his grief, Namjil made a fiddle from its bones and hair, carving its head at the top, and played it to remember his horse."
+      ],
+      "explanation": "The legend is one of several told about the instrument's origin. The morin khuur is central to Mongolian music, and its playing is on UNESCO's list of Intangible Cultural Heritage.",
+      "wiki": "Morin khuur"
+    },
+    {
+      "slug": "tarantism",
+      "category": "voices",
+      "title": "The Dance of the Spider's Bite",
+      "region": "Galatina, Apulia, Italy",
+      "lat": 40.17,
+      "lon": 18.17,
+      "dateLabel": "From the Middle Ages to the 20th century",
+      "status": "explained",
+      "statusLabel": "Partly explained",
+      "witnesses": "Villagers, priests, doctors and anthropologists",
+      "hook": "In southern Italy, people bitten by a spider were said to be cured only by music: they danced, sometimes for days, until the poison left them.",
+      "summary": [
+        "From the Middle Ages, people in Apulia, mostly women, who said they'd been bitten by a tarantula fell into a state of lethargy and distress. The cure was music: musicians came to their homes and played fast, whirling tunes, and the 'tarantate' danced, sometimes for days, until they were well.",
+        "The dance became the tarantella. Every year on 29 June, the tarantate gathered at the chapel of St Paul in Galatina, the saint who protects against spiders, to dance and pray."
+      ],
+      "explanation": "The local spider's bite is rarely dangerous. In 1959, the anthropologist Ernesto de Martino studied tarantism and saw it as a ritual through which people, especially poor women, could express suffering and be cared for by their community. It faded in the 20th century, but its music lives on in festivals.",
+      "wiki": "Tarantism"
+    },
+    {
+      "slug": "edison-spirit-phone",
+      "category": "voices",
+      "title": "Edison's Telephone to the Dead",
+      "region": "West Orange, New Jersey, USA",
+      "lat": 40.78,
+      "lon": -74.24,
+      "dateLabel": "Announced in 1920",
+      "status": "open",
+      "statusLabel": "Never found",
+      "witnesses": "A magazine interviewer",
+      "hook": "In 1920, Thomas Edison told a magazine he was working on a machine sensitive enough to pick up messages from the dead.",
+      "summary": [
+        "In October 1920, Thomas Edison, inventor of the phonograph and the light bulb, gave an interview to The American Magazine. He said he had been thinking of building an apparatus so delicate that if personalities survived death, it could detect them.",
+        "The story went around the world. Edison said little more about it, and after his death in 1931, no such machine was found among his papers or inventions."
+      ],
+      "explanation": "Some think Edison was joking, or teasing a reporter; others think he was serious, as he did write about life after death. In 2015 a French edition of his diaries included a chapter on the idea. The 'spirit phone' became a legend among ghost hunters.",
+      "wiki": null
+    },
+    {
+      "slug": "bramidos-de-guanajuato",
+      "category": "voices",
+      "title": "The Thunder Under Guanajuato",
+      "region": "Guanajuato, Mexico",
+      "lat": 21.02,
+      "lon": -101.26,
+      "dateLabel": "January–February 1784",
+      "status": "open",
+      "statusLabel": "Never explained",
+      "witnesses": "The people of Guanajuato",
+      "hook": "In 1784, a mining city in Mexico was shaken by a month of thunder coming from underground, but the ground never shook.",
+      "summary": [
+        "On the night of 9 January 1784, the people of Guanajuato, then one of the richest silver-mining cities in the world, heard a deep rumbling like distant thunder, coming from beneath their feet. It continued, day and night, for weeks, sometimes with loud booms.",
+        "Yet no earthquake was felt. Many people fled the city, and officials had to order them back to keep the mines going. The explorer Alexander von Humboldt later described the 'bramidos', the roars, of Guanajuato."
+      ],
+      "explanation": "Geologists suggest they may have been many small, shallow earthquakes too weak to feel but loud enough to hear, or movements in the old mines. No cause has been confirmed.",
+      "wiki": null
+    },
+    {
+      "slug": "gleam-x-transient",
+      "category": "voices",
+      "title": "The Radio Pulse Every 18 Minutes",
+      "region": "Murchison Widefield Array, Western Australia",
+      "lat": -26.7,
+      "lon": 116.67,
+      "dateLabel": "Found in 2022",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Radio astronomers in Australia",
+      "hook": "Sorting through radio data, a student in Australia found something in our galaxy that flared brightly every 18 minutes. Nothing known fits.",
+      "summary": [
+        "In 2021, an honours student at Curtin University was searching through data from the Murchison Widefield Array, a radio telescope in the outback of Western Australia. He found an object that switched on for a minute, very brightly, every 18 minutes and 18 seconds, before disappearing.",
+        "Pulsars, the spinning dead stars that pulse in radio, flash many times a second. Nothing slow like this had been seen before. Since then, a handful of similar 'long-period transients' have been found."
+      ],
+      "explanation": "The leading ideas are a highly magnetic dead star, a magnetar, spinning very slowly, or a white dwarf star in a close pair. Some recent ones have been traced to white dwarfs, but not all. They're natural, but unexplained.",
+      "wiki": "GLEAM-X J162759.5−523504.3"
+    },
+    {
+      "slug": "starliner-sonar-pings",
+      "body": "orbit",
+      "category": "voices",
+      "title": "The Pings Heard on Starliner",
+      "region": "In orbit, docked to the International Space Station",
+      "lat": 29.56,
+      "lon": -95.09,
+      "dateLabel": "31 August 2024",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "An astronaut on the space station, and Mission Control in Houston",
+      "hook": "An astronaut aboard the space station radioed Mission Control about a strange sound coming from a spacecraft docked outside: a pulsing ping, like sonar.",
+      "summary": [
+        "In August 2024, Boeing's Starliner capsule was docked to the International Space Station after a troubled first crewed flight. Astronaut Butch Wilmore called Mission Control in Houston to report an odd noise coming from a speaker inside it: a rhythmic pulsing, like a submarine's sonar ping.",
+        "He held his microphone up to the speaker so Houston could hear. The recording spread online, and people asked whether something was knocking from outside."
+      ],
+      "explanation": "NASA found it was audio feedback, caused by the way the space station and Starliner's audio systems were connected. It was harmless. Starliner returned to Earth uncrewed a week later.",
+      "wiki": "Boeing Crew Flight Test"
+    },
+    {
+      "slug": "singing-ringing-tree",
+      "category": "voices",
+      "title": "The Tree That Sings in the Wind",
+      "region": "Crown Point, Burnley, Lancashire, England",
+      "lat": 53.76,
+      "lon": -2.23,
+      "dateLabel": "Since 2006",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Walkers on the moors",
+      "hook": "On a hill above an English town stands a tree made of steel pipes. When the wind blows, it sings an eerie, choral hum.",
+      "summary": [
+        "The Singing Ringing Tree is a sculpture on the moors above Burnley, made of stacked steel pipes in the shape of a tree bent by the wind. Some of the pipes have slots cut into them.",
+        "When the wind passes over them, the pipes hum and moan in different notes, together making a low, wavering chord that rises and falls with the wind, like distant voices. Walkers come up on windy days to hear it."
+      ],
+      "explanation": "The pipes work like giant organ pipes or bottles you blow across. It was designed by the architects Mike Tonkin and Anna Liu and won a national award for architecture in 2007.",
+      "wiki": "Singing Ringing Tree"
+    },
+    {
+      "slug": "golden-gate-hum",
+      "category": "voices",
+      "title": "The Day the Golden Gate Began to Sing",
+      "region": "Golden Gate Bridge, San Francisco, California, USA",
+      "lat": 37.82,
+      "lon": -122.48,
+      "dateLabel": "Since June 2020",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "People across San Francisco and Marin",
+      "hook": "In 2020, on windy days, San Franciscans began to hear a strange, eerie humming chord across the city. It was the Golden Gate Bridge, singing.",
+      "summary": [
+        "In June 2020, people across San Francisco and as far as Marin County began to hear a loud, haunting hum on windy days, like a choir holding a chord, or a giant harmonica. Recordings spread online, and people asked what it was.",
+        "It came from the Golden Gate Bridge itself."
+      ],
+      "explanation": "The bridge's sidewalk railings had just been replaced with thinner slats, to make the bridge more stable in high winds. When strong winds blow across them from certain directions, the slats vibrate and sing. Engineers had predicted it, though not how loud it would be.",
+      "wiki": "Golden Gate Bridge"
+    },
+    {
+      "slug": "kauai-oo-last-song",
+      "category": "voices",
+      "title": "The Last Song of the ʻŌʻō",
+      "region": "Alakaʻi Swamp, Kauaʻi, Hawaii, USA",
+      "lat": 22.1,
+      "lon": -159.58,
+      "dateLabel": "Last heard in 1987",
+      "status": "explained",
+      "statusLabel": "Extinct",
+      "witnesses": "Ornithologists in the Alakaʻi Swamp",
+      "hook": "In 1975, a scientist recorded the song of a Hawaiian bird, singing the male's part of a duet. No female answered. His kind was nearly gone.",
+      "summary": [
+        "The Kauaʻi ʻōʻō was a black honeyeater found only on the island of Kauaʻi, with a flute-like song. Its feathers were once used in Hawaiian royal cloaks. By the 1970s, it survived only in the misty Alakaʻi Swamp, high in the mountains.",
+        "A recording made there in 1975 captures a male singing the male's part of a duet, then pausing to leave room for a female to reply. No reply came. The last one was heard in 1987, and in 2023 the species was declared extinct."
+      ],
+      "explanation": "It was lost to habitat destruction, introduced predators, and mosquito-borne bird malaria. The recording has become a symbol of extinction around the world.",
+      "wiki": "Kauaʻi ʻōʻō"
+    },
+    {
+      "slug": "noc-the-beluga",
+      "category": "voices",
+      "title": "The Whale That Spoke Like a Person",
+      "region": "San Diego, California, USA",
+      "lat": 32.72,
+      "lon": -117.2,
+      "dateLabel": "1984",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "US Navy researchers and divers",
+      "hook": "A diver working in a navy pen surfaced and asked who had told him to get out. No one had. It was a white whale.",
+      "summary": [
+        "NOC was a beluga whale kept by the US Navy in San Diego for research. In 1984, staff began to hear what sounded like people talking in the distance, near the pens. One day a diver came up asking who had told him to 'get out'.",
+        "It was NOC, making sounds with the rhythm and pitch of human speech. Recordings show him mimicking people for several years before he stopped as he matured."
+      ],
+      "explanation": "Belugas are among the most vocal whales, and NOC seems to have learned to imitate the people around him, changing how he used his nasal passages to do it. A study of the recordings was published in 2012.",
+      "wiki": "NOC (whale)"
+    },
+    {
+      "slug": "kosik-the-elephant",
+      "category": "voices",
+      "title": "The Elephant Who Speaks Korean",
+      "region": "Everland, Yongin, South Korea",
+      "lat": 37.29,
+      "lon": 127.2,
+      "dateLabel": "Since the 2000s",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Zookeepers, visitors and scientists",
+      "hook": "In a Korean zoo, an elephant puts his trunk in his mouth and says words in Korean: hello, sit down, no, lie down, good.",
+      "summary": [
+        "Koshik is an Asian elephant at the Everland theme park near Seoul. His keepers noticed he seemed to be imitating their speech, and visitors could understand him.",
+        "In 2012, scientists confirmed that he says at least five Korean words, among them annyeong (hello), anja (sit down), aniya (no), nuo (lie down) and choah (good). He makes the sounds by putting the tip of his trunk in his mouth to change their shape."
+      ],
+      "explanation": "Koshik was the only elephant at the park for years during his youth, and scientists think he learned to imitate the voices of his keepers to bond with them. He doesn't seem to understand the words' meanings.",
+      "wiki": "Kosik (elephant)"
+    },
+    {
+      "slug": "humboldts-parrot",
+      "category": "voices",
+      "title": "The Parrot Who Spoke a Lost Language",
+      "region": "Atures rapids, Amazonas, Venezuela",
+      "lat": 5.6,
+      "lon": -67.6,
+      "dateLabel": "1800",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "The explorer Alexander von Humboldt",
+      "hook": "In 1800, an explorer on the Orinoco was told of a parrot that still spoke words of a people who had vanished. No one living could understand it.",
+      "summary": [
+        "Travelling up the Orinoco river in 1800, the naturalist Alexander von Humboldt heard a story at the Atures rapids. The Atures people, he was told, had died out after attacks by a neighbouring people, and the last of them had taken refuge among the rocks of the rapids.",
+        "Humboldt wrote that an old parrot in the village of Maypures still spoke words in the Atures language, and that no one could understand it. Some accounts say he wrote down some of its words."
+      ],
+      "explanation": "Parrots can live for decades and mimic speech, so the story is possible, but it rests on Humboldt's brief account, which has been retold and embroidered. In 1997, the artist Rachel Berwick taught two parrots a few reconstructed words for an installation remembering the story.",
+      "wiki": null
+    },
+    {
+      "slug": "hagia-sophia-acoustics",
+      "category": "voices",
+      "title": "The Voice of Hagia Sophia",
+      "region": "Hagia Sophia, Istanbul, Türkiye",
+      "lat": 41.008,
+      "lon": 28.98,
+      "dateLabel": "Built 532–537",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Worshippers for nearly 1,500 years, and modern acoustics researchers",
+      "hook": "Byzantine writers said that inside Hagia Sophia, chant seemed to come from heaven itself. Under its great dome, a single voice lingers for more than ten seconds.",
+      "summary": [
+        "Hagia Sophia was built in Constantinople in the 530s as the greatest church in the world, with a dome that seems to float on light. Byzantine writers described the chanting inside as overwhelming, as if sound came from all directions and from above.",
+        "Its marble surfaces and enormous dome make sounds echo and swirl for more than ten seconds. In the 2010s, researchers at Stanford University recorded the building's acoustics and used them to recreate Byzantine chant as it would have sounded there."
+      ],
+      "explanation": "The long reverberation blurs voices together so that a choir sounds like one vast, sustained sound, and the curved dome gathers it overhead. Builders and singers seem to have shaped their chant to suit the space.",
+      "wiki": "Hagia Sophia"
+    },
+    {
+      "slug": "blue-whale-pitch",
+      "category": "voices",
+      "title": "The Blue Whales' Falling Song",
+      "region": "Monterey Bay, California, USA",
+      "lat": 36.6,
+      "lon": -121.9,
+      "dateLabel": "Noticed since the 1960s",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "Ocean scientists worldwide",
+      "hook": "All over the world, blue whales have been singing lower and lower, decade after decade. Nobody is sure why.",
+      "summary": [
+        "Blue whales, the largest animals ever to live, make deep, slow calls that can travel hundreds of kilometres through the ocean. Each population has its own song.",
+        "In 2009, scientists comparing recordings found that every population of blue whales they studied, from California to the Indian Ocean and the Antarctic, had been singing at lower and lower pitch since the 1960s, by about a third in some cases."
+      ],
+      "explanation": "One idea is that, as whale numbers recover from whaling, they don't need to call as loudly to find each other, and lower, quieter calls are easier for them. Another is that changes in ocean noise or chemistry play a part. There's no settled answer.",
+      "wiki": "Blue whale"
+    },
+    {
+      "slug": "gulf-corvina-chorus",
+      "category": "voices",
+      "title": "The Loudest Fish Chorus on Earth",
+      "region": "Colorado River Delta, Mexico",
+      "lat": 31.8,
+      "lon": -114.8,
+      "dateLabel": "Every spring",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Fishermen and scientists",
+      "hook": "Each spring, more than a million fish gather in a Mexican river delta and sing together so loudly it sounds like a stadium full of people, or machine-gun fire.",
+      "summary": [
+        "The Gulf corvina is a fish found only in the northern Gulf of California. Every spring, around the new and full moons, nearly the entire population, more than a million fish, swims into the Colorado River Delta to spawn.",
+        "The males make rapid, rattling calls with muscles that drum on their swim bladders. Together, the chorus is so loud, scientists reported in 2019, that it could damage the hearing of dolphins and sea lions nearby. Fishermen find them easily by the sound."
+      ],
+      "explanation": "The noise helps the fish find each other to spawn. It also makes them easy to catch, which has made the species vulnerable to overfishing.",
+      "wiki": null
+    },
+    {
+      "slug": "the-thing-bug",
+      "featured": true,
+      "category": "voices",
+      "title": "The Bug in the Great Seal",
+      "region": "Spaso House, Moscow, Russia",
+      "lat": 55.75,
+      "lon": 37.59,
+      "dateLabel": "1945–1952",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "American diplomats and security officers",
+      "hook": "In 1945, Soviet schoolchildren gave the American ambassador a beautiful carved wooden seal. For seven years, it listened to everything said in his study.",
+      "summary": [
+        "In August 1945, a group of Soviet children presented the US ambassador in Moscow with a hand-carved replica of the Great Seal of the United States, as a gesture of friendship. It hung in his residence for years.",
+        "In 1952, a British radio operator happened to hear American voices from the embassy on an open frequency. A search found a tiny device hidden inside the seal: no battery, no wires. Nobody could understand how it worked."
+      ],
+      "explanation": "It was a passive listening device, designed by Léon Theremin, the inventor of the electronic instrument. It only came to life when the Soviets beamed radio waves at it from outside; sound in the room vibrated a thin membrane, which changed the reflected signal. Its design was a forerunner of modern RFID tags.",
+      "wiki": "The Thing (listening device)"
+    },
+    {
+      "slug": "hainan-gibbon",
+      "category": "voices",
+      "title": "The Rarest Song in the Forest",
+      "region": "Bawangling, Hainan, China",
+      "lat": 19.1,
+      "lon": 109.2,
+      "dateLabel": "Every dawn",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Rangers and researchers",
+      "hook": "In a single forest on a Chinese island, the world's rarest ape greets each dawn with a duet. Only a few dozen are left to sing it.",
+      "summary": [
+        "The Hainan gibbon lives only in the Bawangling forest on Hainan island, and with around forty left, it's the rarest ape in the world. In the early 2000s, only about a dozen were known.",
+        "Each morning, gibbon families sing: the male begins with whoops, and the female joins with a rising 'great call'. Rangers find and count them by listening for their songs, which carry far across the hills."
+      ],
+      "explanation": "Gibbons sing to defend their territories and strengthen pair bonds. Protection of the forest and planting of fruit trees have helped their numbers slowly grow, but they remain critically endangered.",
+      "wiki": "Hainan black crested gibbon"
+    },
+    {
+      "slug": "dolphin-signature-whistles",
+      "category": "voices",
+      "title": "The Dolphins Who Call Each Other by Name",
+      "region": "Sarasota Bay, Florida, USA",
+      "lat": 27.33,
+      "lon": -82.55,
+      "dateLabel": "Studied since 1970",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Marine biologists",
+      "hook": "Bottlenose dolphins each invent their own whistle, and use it as a name. When scientists play a dolphin's whistle back, it answers.",
+      "summary": [
+        "Scientists in Sarasota Bay, Florida, have studied the same community of wild bottlenose dolphins since 1970. They found that each dolphin develops a unique 'signature whistle' when young, and uses it for life.",
+        "Dolphins copy each other's signature whistles, especially when separated from a friend or mother, as if calling them by name. In a 2013 study, dolphins that heard a recording of their own whistle called back."
+      ],
+      "explanation": "Signature whistles help dolphins keep track of each other in murky water and in large groups. They're among the closest things to names known in any animal besides people.",
+      "wiki": "Signature whistle"
+    },
+    {
+      "slug": "tabbys-star",
+      "category": "sky",
+      "title": "The Star That Dims Mysteriously",
+      "region": "Yale University, New Haven, Connecticut, USA",
+      "lat": 41.31,
+      "lon": -72.92,
+      "dateLabel": "Announced in 2015",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Volunteer citizen scientists and astronomers",
+      "hook": "Volunteers looking at a space telescope's data found a star that sometimes dimmed by a fifth, at irregular times. Some astronomers wondered about alien megastructures.",
+      "summary": [
+        "Volunteers in the Planet Hunters project, searching data from NASA's Kepler telescope for planets passing in front of stars, flagged a star that behaved strangely: its light sometimes dropped by up to 22 percent, in irregular dips, far more than any planet could cause.",
+        "In 2015, the astronomer Tabetha Boyajian, then at Yale, published the findings. The star, KIC 8462852, became known as Tabby's Star. Another astronomer suggested that, among other ideas, it was worth checking whether something built by aliens was passing in front of it."
+      ],
+      "explanation": "Later observations found the dimming was stronger in blue light than in red, which fits dust, not a solid structure. The leading explanation is uneven clouds of dust around the star, though where the dust comes from is still debated.",
+      "wiki": "Tabby's Star"
+    },
+    {
+      "slug": "great-comet-1882",
+      "category": "sky",
+      "title": "The Comet Seen Beside the Sun",
+      "region": "Royal Observatory, Cape Town, South Africa",
+      "lat": -33.93,
+      "lon": 18.48,
+      "dateLabel": "September 1882",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "People around the world, and astronomers at the Cape",
+      "hook": "In September 1882, a comet so bright appeared that it could be seen in broad daylight, right beside the Sun.",
+      "summary": [
+        "The Great Comet of 1882 was first noticed by sailors and observers in the southern hemisphere in early September. On 17 September it swept around the Sun, so close it passed through its outer atmosphere, and was bright enough to be seen in daylight, a glowing point next to the Sun's disc.",
+        "Afterwards its tail stretched across the dawn sky. At the Royal Observatory at the Cape of Good Hope, the astronomer David Gill photographed it, one of the first good photographs of a comet."
+      ],
+      "explanation": "It was a 'sungrazer', a comet whose orbit takes it extremely close to the Sun, and it broke into several pieces as it passed. Gill's photographs showed so many stars in the background that they inspired the first great photographic map of the sky.",
+      "wiki": "Great Comet of 1882"
+    },
+    {
+      "slug": "great-comet-1861",
+      "category": "sky",
+      "title": "The Night the Earth Passed Through a Comet",
+      "region": "Windsor, New South Wales, Australia",
+      "lat": -33.61,
+      "lon": 150.82,
+      "dateLabel": "30 June 1861",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Astronomers and people across the northern hemisphere",
+      "hook": "In 1861, an amateur astronomer in Australia found a new comet. Weeks later, the Earth passed through its tail, and people noticed a strange glow in the sky.",
+      "summary": [
+        "In May 1861, John Tebbutt, a farmer and self-taught astronomer in Windsor, New South Wales, spotted a faint new comet. Over the following weeks it grew into one of the brightest of the century, with a tail stretching more than 90 degrees across the sky.",
+        "On 30 June, the Earth passed through its tail. Some observers in Europe described an odd yellowish, phosphorescent glow in the sky that evening, and the comet seemed to cast shadows at night."
+      ],
+      "explanation": "A comet's tail is extremely thin gas and dust, so passing through it did no harm, though people feared it would. Tebbutt became one of Australia's most famous astronomers, and appeared on the country's $100 note.",
+      "wiki": "C/1861 J1 (Tebbutt)"
+    },
+    {
+      "slug": "transit-of-venus-1769",
+      "category": "sky",
+      "title": "Captain Cook and the Transit of Venus",
+      "region": "Point Venus, Tahiti, French Polynesia",
+      "lat": -17.49,
+      "lon": -149.49,
+      "dateLabel": "3 June 1769",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "The crew of the Endeavour",
+      "hook": "James Cook sailed across the world to watch a small black dot cross the Sun from a Tahitian beach. He also carried secret orders.",
+      "summary": [
+        "A transit of Venus, when the planet passes across the face of the Sun, happens twice in about eight years and then not for more than a century. By timing it from places far apart, astronomers hoped to measure the distance from the Earth to the Sun.",
+        "The Royal Society sent James Cook in the Endeavour to Tahiti to observe the transit of 3 June 1769, from a spot still called Point Venus. The observers were frustrated by the 'black drop', which blurred the moment Venus touched the edge of the Sun. Cook then opened sealed orders telling him to search the South Pacific for a great unknown southern continent."
+      ],
+      "explanation": "The black drop effect comes from blurring by the telescope and the atmosphere, and it made the timings less precise than hoped. Still, the results gave a reasonable estimate of the Earth–Sun distance. Cook's onward voyage reached New Zealand and eastern Australia.",
+      "wiki": "1769 transit of Venus observed from Tahiti"
+    },
+    {
+      "slug": "planet-vulcan",
+      "category": "sky",
+      "title": "The Planet That Wasn't There",
+      "region": "Rawlins, Wyoming, USA",
+      "lat": 41.79,
+      "lon": -107.24,
+      "dateLabel": "29 July 1878",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Astronomers watching a total eclipse",
+      "hook": "For decades, astronomers hunted a hidden planet closer to the Sun than Mercury. During an eclipse in 1878, two of them said they'd seen it.",
+      "summary": [
+        "In 1859, the French mathematician Urbain Le Verrier, who had predicted the planet Neptune, argued that Mercury's orbit could be explained by an unseen planet even closer to the Sun. It was named Vulcan, and astronomers searched for it for years.",
+        "On 29 July 1878, a total eclipse crossed the American West. The astronomer James Craig Watson, watching from near Rawlins, Wyoming, and Lewis Swift in Colorado both reported seeing a star-like object near the Sun where Vulcan should be."
+      ],
+      "explanation": "What they saw were probably known stars, misidentified in the rush of a short eclipse. In 1915, Einstein's theory of general relativity explained Mercury's orbit without any extra planet, and Vulcan vanished from astronomy.",
+      "wiki": "Vulcan (hypothetical planet)"
+    },
+    {
+      "slug": "martian-canals",
+      "featured": true,
+      "category": "sky",
+      "title": "The Canals of Mars",
+      "region": "Lowell Observatory, Flagstaff, Arizona, USA",
+      "lat": 35.2,
+      "lon": -111.66,
+      "dateLabel": "1877–1965",
+      "status": "explained",
+      "statusLabel": "Never existed",
+      "witnesses": "Astronomers looking through telescopes",
+      "hook": "From an observatory in Arizona, an astronomer drew hundreds of straight lines across Mars, and believed they were canals built by a dying civilisation.",
+      "summary": [
+        "In 1877, the Italian astronomer Giovanni Schiaparelli drew a network of straight lines on Mars, which he called canali, 'channels'. In English, the word became 'canals', which implied someone had built them.",
+        "The American businessman and astronomer Percival Lowell built an observatory at Flagstaff, Arizona, in 1894 to study them. He mapped hundreds of canals, and wrote books arguing that Martians had built them to carry water from the polar caps across a drying planet."
+      ],
+      "explanation": "Other astronomers with large telescopes saw no canals. They were an optical illusion: the eye tends to join faint, scattered markings into lines. In 1965, NASA's Mariner 4 sent back the first close-up pictures of Mars, showing craters and no canals. Lowell Observatory later helped discover Pluto.",
+      "wiki": "Martian canals"
+    },
+    {
+      "slug": "tenskwatawa-eclipse",
+      "category": "sky",
+      "title": "The Prophet Who Darkened the Sun",
+      "region": "Greenville, Ohio, USA",
+      "lat": 40.1,
+      "lon": -84.63,
+      "dateLabel": "16 June 1806",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Shawnee and other Native peoples, and American officials",
+      "hook": "Challenged to prove his powers, a Shawnee prophet announced that he would make the Sun go dark. On the day he named, it did.",
+      "summary": [
+        "Tenskwatawa, known as the Shawnee Prophet, was the brother of the leader Tecumseh, and preached a revival of Native ways against American expansion. In 1806, William Henry Harrison, governor of Indiana Territory, challenged his followers to ask him to stop the Sun or make the dead rise, if he was a real prophet.",
+        "Tenskwatawa answered that on a certain day, he would make the Sun go dark. On 16 June 1806, at his town near Greenville, Ohio, a total eclipse of the Sun turned day into night, and his fame spread widely."
+      ],
+      "explanation": "The eclipse had been predicted by astronomers, and it's thought Tenskwatawa learned of it from visitors or almanacs. The moment strengthened the movement that he and Tecumseh led.",
+      "wiki": "Tenskwatawa"
+    },
+    {
+      "slug": "aurora-of-1938",
+      "category": "sky",
+      "title": "The Red Sky Over Europe in 1938",
+      "region": "Fátima, Santarém, Portugal",
+      "lat": 39.63,
+      "lon": -8.67,
+      "dateLabel": "25–26 January 1938",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Millions of people across Europe",
+      "hook": "On a January night in 1938, the sky over Europe turned blood-red, as far south as Portugal and Sicily. Firefighters were called out. Some saw it as a warning.",
+      "summary": [
+        "On the night of 25 January 1938, people across Europe, North Africa and North America saw the sky glow deep red and green, in places where the northern lights are almost never seen. In some towns, people thought there was a great fire on the horizon and fire brigades turned out.",
+        "In Portugal, Lúcia dos Santos, one of the children who reported the apparitions at Fátima in 1917, said this was the 'unknown light' the Virgin Mary had foretold, a sign that a worse war was coming."
+      ],
+      "explanation": "It was a great aurora caused by a powerful solar storm, which pushed the northern lights much further south than usual; red is the colour seen when an aurora is on the far horizon. War did break out in Europe the next year, which fixed the night in memory.",
+      "wiki": "January 1938 geomagnetic storm"
+    },
+    {
+      "slug": "weston-meteorite",
+      "category": "sky",
+      "title": "The Stones That Fell on Connecticut",
+      "region": "Weston, Connecticut, USA",
+      "lat": 41.2,
+      "lon": -73.38,
+      "dateLabel": "14 December 1807",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Farmers, and two professors from Yale",
+      "hook": "In 1807, a fireball burst over a Connecticut town and stones rained down. A story says the president said he'd sooner believe professors would lie.",
+      "summary": [
+        "Early on 14 December 1807, people in Connecticut saw a fireball about half the size of the full Moon cross the sky, followed by three loud explosions. Stones fell around the town of Weston, one of them smashing on a rock and another crashing through a farmyard.",
+        "Two Yale professors, Benjamin Silliman and James Kingsley, rode out to collect pieces and interview witnesses, and concluded the stones had come from the sky. It was the first meteorite fall in the Americas to be scientifically documented."
+      ],
+      "explanation": "A famous story says that President Thomas Jefferson remarked it was easier to believe two Yankee professors would lie than that stones fell from heaven. He probably never said it, but many educated people did doubt such reports at the time.",
+      "wiki": "Weston meteorite"
+    },
+    {
+      "slug": "gibeon-meteorite",
+      "category": "sky",
+      "title": "The Iron Rain of Gibeon",
+      "region": "Gibeon, Hardap, Namibia",
+      "lat": -25.12,
+      "lon": 17.73,
+      "dateLabel": "Fell in prehistoric times; known since the 1830s",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "The Nama people, and later scientists",
+      "hook": "In a stretch of Namibian desert, iron lies scattered across the ground as if it had rained down from the sky. It did.",
+      "summary": [
+        "Across an area of southern Namibia about 275 kilometres long, people have found hundreds of masses of almost pure iron, some weighing hundreds of kilograms. The Nama people of the region used the iron to make tools and weapons long before Europeans arrived.",
+        "In 1838, a British explorer sent samples to London, where they were found to be meteoritic iron. Many large pieces were later gathered up, and 33 of them are displayed on columns in the centre of Windhoek."
+      ],
+      "explanation": "The irons are fragments of one huge meteorite that broke up in the atmosphere in prehistoric times, scattering pieces over a wide area. When cut and etched, the metal shows beautiful crystal patterns, and it's used in jewellery.",
+      "wiki": "Gibeon (meteorite)"
+    },
+    {
+      "slug": "iron-man-statue",
+      "category": "sky",
+      "title": "The Buddha Carved from a Meteorite",
+      "region": "Stuttgart, Baden-Württemberg, Germany",
+      "lat": 48.78,
+      "lon": 9.18,
+      "dateLabel": "Studied in 2012",
+      "status": "disputed",
+      "statusLabel": "Origin debated",
+      "witnesses": "Scientists who studied it",
+      "hook": "A small Buddhist statue was said to have been brought back from Tibet in the 1930s. In 2012, scientists found it had been carved from a meteorite.",
+      "summary": [
+        "The 'Iron Man' is a statue about 24 centimetres tall of a seated figure, thought to be a Buddhist deity. It was said to have been brought to Germany from Tibet by an expedition in 1938–39, and kept in a private collection.",
+        "In 2012, a team led by the planetary scientist Elmar Buchner at the University of Stuttgart analysed it and announced it was carved from a rare iron meteorite, the Chinga meteorite, which fell near the Mongolia–Siberia border around 15,000 years ago."
+      ],
+      "explanation": "The meteorite origin is accepted, but other experts on Tibetan art argued that the style is wrong for an old Tibetan piece, and that it was probably carved in the 20th century, perhaps in Europe. Its story is still debated.",
+      "wiki": null
+    },
+    {
+      "slug": "moldavite",
+      "category": "sky",
+      "title": "The Green Glass from the Sky",
+      "region": "South Bohemia, Czech Republic",
+      "lat": 49.0,
+      "lon": 14.4,
+      "dateLabel": "Formed about 15 million years ago",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Collectors since the Stone Age",
+      "hook": "In the fields of southern Czechia, people find pieces of bottle-green glass, wrinkled and pitted. They were thrown there by a giant impact hundreds of kilometres away.",
+      "summary": [
+        "Moldavite is a natural green glass found mainly in South Bohemia, in the valley of the Vltava (Moldau in German), which gives it its name. The pieces are translucent, deep olive or bottle-green, with sculpted, rippled surfaces.",
+        "Stone Age people collected it, and pieces have been found in a 25,000-year-old site with the Venus of Willendorf. Today it's prized as a gemstone, and some believe it has special powers."
+      ],
+      "explanation": "About 15 million years ago, an asteroid struck what is now southern Germany, creating the Ries crater around Nördlingen. Molten rock was blasted into the air and fell as glass hundreds of kilometres to the east. It's a tektite, a natural impact glass.",
+      "wiki": "Moldavite"
+    },
+    {
+      "slug": "qixi-lovers",
+      "category": "sky",
+      "title": "The Lovers Across the Silver River",
+      "region": "Xi'an, Shaanxi, China",
+      "lat": 34.26,
+      "lon": 108.94,
+      "dateLabel": "Told for more than 2,000 years; every seventh day of the seventh month",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Chinese legend",
+      "hook": "Chinese legend says two stars are lovers separated by the Milky Way. Once a year, magpies form a bridge so they can meet, and rain that night is their tears.",
+      "summary": [
+        "In the Chinese legend of the Cowherd and the Weaver Girl, a heavenly weaver fell in love with a mortal cowherd and married him. When the gods found out, the Queen Mother of the West drew a line across the sky with her hairpin, creating the Silver River, the Milky Way, to keep them apart.",
+        "Once a year, on the seventh day of the seventh lunar month, all the magpies of the world fly up and form a bridge so the lovers can meet. They are the stars Vega and Altair, on either side of the Milky Way."
+      ],
+      "explanation": "The story has been told since at least the Han dynasty and gave rise to the Qixi Festival, now a kind of Chinese Valentine's Day. It spread to Japan as Tanabata and to Korea as Chilseok. Vega and Altair really do lie on either side of the Milky Way.",
+      "wiki": "Qixi Festival"
+    },
+    {
+      "slug": "algol-demon-star",
+      "category": "sky",
+      "title": "Algol, the Demon Star",
+      "region": "Cairo, Egypt",
+      "lat": 30.04,
+      "lon": 31.27,
+      "dateLabel": "Recorded since ancient Egypt",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Ancient Egyptian priests, and astronomers since",
+      "hook": "Arab astronomers called one star 'the demon's head'. Every few days it winks, dimming for hours before it brightens again.",
+      "summary": [
+        "Algol is a bright star in the constellation Perseus, in the head of the gorgon Medusa that Perseus holds. Its name comes from the Arabic ra's al-ghūl, 'the head of the demon'.",
+        "Every 2 days and 21 hours, it fades to a third of its brightness for a few hours, then returns. Astronomers in Europe noted its dimming in 1667. A study of an ancient Egyptian calendar of lucky and unlucky days, the Cairo Calendar, suggests that priests may have tracked its rhythm more than 3,000 years ago."
+      ],
+      "explanation": "Algol is an eclipsing binary: two stars orbiting each other, and when the fainter one passes in front of the brighter, the light dips. A young English astronomer, John Goodricke, suggested this in 1783. Its strange winking may be why it was linked with demons.",
+      "wiki": "Algol"
+    },
+    {
+      "slug": "dresden-codex-venus",
+      "category": "sky",
+      "title": "The Maya Book That Predicted Venus",
+      "region": "Chichén Itzá, Yucatán, Mexico",
+      "lat": 20.68,
+      "lon": -88.57,
+      "dateLabel": "Written in the 1100s or 1200s",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Maya astronomer-priests",
+      "hook": "One of only four Maya books to survive the Spanish conquest contains tables predicting the movements of Venus across centuries, with remarkable accuracy.",
+      "summary": [
+        "The Dresden Codex is a folding book of bark paper, painted by Maya scribes, probably in the Yucatán around Chichén Itzá. Spanish priests burned almost all Maya books; this one reached Europe and was bought for the royal library in Dresden in 1739.",
+        "Among its pages are tables tracking the appearances of Venus as morning and evening star over more than a century, and tables warning of eclipses. To the Maya, the first appearance of Venus at dawn was a dangerous moment, linked to war."
+      ],
+      "explanation": "The Venus table corrects itself to stay accurate to within about two hours over 481 years. The codex was damaged by water when Dresden was bombed in 1945, but it survives in the library there.",
+      "wiki": "Dresden Codex"
+    },
+    {
+      "slug": "fajada-sun-dagger",
+      "category": "sky",
+      "title": "The Sun Dagger of Chaco Canyon",
+      "region": "Fajada Butte, Chaco Canyon, New Mexico, USA",
+      "lat": 36.03,
+      "lon": -107.91,
+      "dateLabel": "Carved about 1,000 years ago; found in 1977",
+      "status": "explained",
+      "statusLabel": "Partly explained",
+      "witnesses": "An artist who climbed the butte",
+      "hook": "Near the top of a butte in New Mexico, a blade of sunlight slices through the centre of a carved spiral at midday on the summer solstice.",
+      "summary": [
+        "In 1977, the artist Anna Sofaer was recording rock art on Fajada Butte, in Chaco Canyon, the great centre of the Ancestral Puebloan world. Behind three tall stone slabs leaning against the cliff, she saw a spiral carved in the rock, and a dagger of sunlight passing across it.",
+        "Later study found that at the summer solstice, a single sliver of light cuts through the centre of the spiral; at the winter solstice, two daggers frame it exactly; at the equinoxes, a smaller dagger crosses it. The design may also track the Moon's long cycle."
+      ],
+      "explanation": "Whether the slabs were placed by people or fell naturally, and the carvings made to fit them, is debated, but the alignments are real. The slabs shifted in the 1980s, possibly because of erosion from visitors, and the site is now closed to protect it.",
+      "wiki": "Fajada Butte"
+    },
+    {
+      "slug": "chankillo",
+      "category": "sky",
+      "title": "The Thirteen Towers of Chankillo",
+      "region": "Casma, Áncash, Peru",
+      "lat": -9.56,
+      "lon": -78.23,
+      "dateLabel": "Built about 2,300 years ago",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Archaeologists",
+      "hook": "On a desert ridge in Peru stand thirteen small towers in a line. Watch from the right spot, and the Sun rises over a different tower each week of the year.",
+      "summary": [
+        "Chankillo, in the coastal desert of northern Peru, is a complex of ruins that includes a hilltop fort and a row of thirteen square towers spread along a low ridge, like the teeth of a saw. For a long time, nobody was sure what the towers were for.",
+        "In 2007, archaeologists showed that from two observation points, the towers span the full range of sunrise and sunset positions over the year. The Sun rises behind one end at the June solstice and the other at the December solstice, moving across the towers in between."
+      ],
+      "explanation": "It's the oldest known solar observatory in the Americas, probably used to keep a calendar for festivals and farming. It became a UNESCO World Heritage Site in 2021.",
+      "wiki": "Chanquillo"
+    },
+    {
+      "slug": "abu-simbel-sun",
+      "category": "sky",
+      "title": "The Morning the Sun Reaches the Gods",
+      "region": "Abu Simbel, Aswan, Egypt",
+      "lat": 22.34,
+      "lon": 31.63,
+      "dateLabel": "Every year around 22 February and 22 October",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Thousands of visitors at dawn",
+      "hook": "Twice a year at sunrise, the light reaches deep into a temple carved into a cliff in Egypt and lights up three of four statues. The fourth, a god of the underworld, stays in shadow.",
+      "summary": [
+        "The Great Temple at Abu Simbel was carved into a sandstone cliff by Pharaoh Ramesses II around 1260 BCE, with four colossal statues of him outside. Its corridor runs about 60 metres into the rock, to a sanctuary with four seated gods.",
+        "On two mornings a year, the rising Sun shines straight down the corridor and lights up the statues of Ra-Horakhty, Amun and Ramesses himself. Ptah, a god linked with the underworld, remains in darkness."
+      ],
+      "explanation": "The temple was aligned with the sunrise on purpose. In the 1960s, the whole temple was cut into blocks and moved up the hill to save it from the rising waters of Lake Nasser; the alignment was kept, but the dates moved by about a day.",
+      "wiki": "Abu Simbel"
+    },
+    {
+      "slug": "palatine-light",
+      "category": "sky",
+      "title": "The Palatine Light",
+      "region": "Block Island, Rhode Island, USA",
+      "lat": 41.17,
+      "lon": -71.58,
+      "dateLabel": "Reported since the 1700s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Islanders and sailors",
+      "hook": "Off a small island in New England, people say a ship in flames appears on the horizon on certain winter nights, then fades into the dark.",
+      "summary": [
+        "In 1738, a ship carrying German emigrants, often called the Palatine, was wrecked on Block Island after a terrible voyage. Legend grew that islanders had lured the ship onto the rocks, looted it and set it on fire.",
+        "Ever since, people have reported a burning ship seen offshore, especially around the anniversary in late December. The poet John Greenleaf Whittier made it famous in his poem The Palatine."
+      ],
+      "explanation": "Historians say the ship's real name was the Princess Augusta, and that the story of wreckers is a myth: islanders seem to have helped the survivors. The light may be reflections, distant ships or St Elmo's fire, and the legend is one of several phantom fire-ships told about on the Atlantic coast.",
+      "wiki": "Palatine Light"
+    },
+    {
+      "slug": "space-jellyfish",
+      "category": "sky",
+      "title": "The Jellyfish in the Twilight Sky",
+      "region": "Vandenberg, California, USA",
+      "lat": 34.73,
+      "lon": -120.57,
+      "dateLabel": "Many evenings since the 2010s",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "People across the American South-West",
+      "hook": "Just after sunset, a glowing, translucent shape like a giant jellyfish blooms across the sky over California. Calls flood in to police and TV stations.",
+      "summary": [
+        "On several evenings, people across California, Arizona and Nevada have seen a huge glowing cloud spread across the dusk sky: a bright point at its head, trailing luminous streamers, like a jellyfish or a comet. After one in December 2017, police and news stations were flooded with calls about UFOs.",
+        "The shapes appear at twilight and fade within minutes."
+      ],
+      "explanation": "They're rocket launches from Vandenberg Space Force Base. At twilight, the ground is dark but the rocket's exhaust high above is still lit by the Sun, and it spreads out in the thin upper air into glowing plumes. Photographers now gather to watch them.",
+      "wiki": null
+    },
+    {
+      "slug": "duke-family-photo",
+      "body": "moon",
+      "category": "places",
+      "title": "The Family Photo on the Moon",
+      "region": "Descartes Highlands, the Moon (Apollo 16 landing site)",
+      "lat": -8.97,
+      "lon": 15.5,
+      "dateLabel": "April 1972",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "The crew of Apollo 16",
+      "hook": "Lying in the grey dust of the Moon is a photograph of a family: a father, a mother and two small boys, sitting on a bench in their garden.",
+      "summary": [
+        "Before Apollo 16 launched in April 1972, the astronaut Charlie Duke promised his two young sons that they could go to the Moon with him. He had a family photograph taken and wrote on the back: 'This is the family of Astronaut Duke from Planet Earth. Landed on the Moon, April 1972.'",
+        "On his last moonwalk, he laid it face up on the surface, sealed in plastic, and photographed it there."
+      ],
+      "explanation": "It's almost certainly still there, though the unfiltered sunlight and extreme heat and cold on the Moon will have bleached it long since. Duke is one of the twelve people who have walked on the Moon.",
+      "wiki": "Charles Duke"
+    },
+    {
+      "slug": "golf-balls-on-the-moon",
+      "body": "moon",
+      "category": "places",
+      "title": "The Golf Balls on the Moon",
+      "region": "Fra Mauro, the Moon (Apollo 14 landing site)",
+      "lat": -3.65,
+      "lon": -17.47,
+      "dateLabel": "6 February 1971",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "The crew of Apollo 14, and television viewers",
+      "hook": "On live television from the Moon, America's first astronaut in space took out a golf club and hit two balls into the lunar dust.",
+      "summary": [
+        "At the end of Apollo 14's second moonwalk, Alan Shepard, the first American in space, revealed he had smuggled up the head of a six-iron and two golf balls. He fixed the club head to a tool handle and, hampered by his stiff spacesuit, swung one-handed.",
+        "His first shots went wide, but he connected with the second ball and joked that it went 'miles and miles and miles'."
+      ],
+      "explanation": "In 2021, an imaging specialist studied the mission photographs and worked out that the balls travelled about 22 and 37 metres. Both are still lying on the Moon, along with the javelin his crewmate Edgar Mitchell threw.",
+      "wiki": "Apollo 14"
+    },
+    {
+      "slug": "luna-2-pennants",
+      "body": "moon",
+      "category": "places",
+      "title": "The First Thing to Reach the Moon",
+      "region": "Palus Putredinis, the Moon",
+      "lat": 29.1,
+      "lon": 0.0,
+      "dateLabel": "14 September 1959",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Soviet controllers and astronomers in Britain",
+      "hook": "In 1959, a Soviet probe crashed into the Moon, scattering metal badges stamped with the emblem of the Soviet Union across its surface.",
+      "summary": [
+        "On 14 September 1959, the Soviet probe Luna 2 hit the Moon near the craters Archimedes and Autolycus, becoming the first human-made object to reach another world. The Jodrell Bank radio telescope in England tracked its signal until it stopped.",
+        "On board were two metal spheres made of pentagon-shaped pennants engraved with the Soviet coat of arms, designed to burst apart on impact and scatter across the surface."
+      ],
+      "explanation": "The pennants probably vaporised in the high-speed crash, though some may have survived. Days later, Soviet leader Nikita Khrushchev gave a replica to US President Eisenhower. Luna 2 also confirmed that the Moon has no strong magnetic field.",
+      "wiki": "Luna 2"
+    },
+    {
+      "slug": "twardowski-on-the-moon",
+      "body": "moon",
+      "category": "visitors",
+      "title": "The Sorcerer Who Lives on the Moon",
+      "region": "On the Moon, as told in Poland",
+      "lat": 10.0,
+      "lon": -15.0,
+      "dateLabel": "Told since the 1500s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Polish legend",
+      "hook": "Polish legend says a nobleman sold his soul to the Devil, but tricked him, and was dropped on the Moon, where he still lives, with only a spider for company.",
+      "summary": [
+        "Pan Twardowski was a nobleman of Kraków in Polish legend, who signed a pact with the Devil in exchange for knowledge and magical powers, on condition that the Devil could only take him in Rome, a city he never meant to visit.",
+        "The Devil tricked him by catching him at an inn named 'Rome'. As he was carried off into the sky, Twardowski sang a hymn to the Virgin Mary, and the Devil dropped him. He landed on the Moon, where he lives still, and sometimes lets his spider down on a thread to bring him news from Earth."
+      ],
+      "explanation": "Twardowski is a Polish Faust, perhaps inspired by a real 16th-century scholar of the occult. A magic mirror said to have been his is kept in a church in Węgrów, and Polish children still look for him on the Moon.",
+      "wiki": "Pan Twardowski"
+    },
+    {
+      "slug": "devils-tower-legend",
+      "category": "places",
+      "title": "The Rock Clawed by a Giant Bear",
+      "region": "Devils Tower, Wyoming, USA",
+      "lat": 44.59,
+      "lon": -104.72,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Lakota, Kiowa and other Plains peoples",
+      "hook": "On the plains of Wyoming, a vast tower of rock is scored with long grooves from top to bottom. Plains peoples say they're the claw marks of a giant bear.",
+      "summary": [
+        "Devils Tower rises about 265 metres above the Belle Fourche River, its sides made of huge columns of rock. Many Plains peoples hold it sacred, and call it by names like Bear Lodge.",
+        "A Kiowa story tells of seven girls chased by a giant bear. They climbed onto a low rock and prayed, and the rock rose up into the sky, carrying them out of reach. The bear clawed at its sides, leaving the grooves, and the girls became the stars of the Pleiades."
+      ],
+      "explanation": "Geologists think the tower is magma that cooled underground into columns and was later exposed by erosion. It became the first US national monument in 1906, and appeared in the film Close Encounters of the Third Kind. Climbers are asked not to climb it in June, out of respect for ceremonies held there.",
+      "wiki": "Devils Tower"
+    },
+    {
+      "slug": "wind-cave-emergence",
+      "category": "places",
+      "title": "The Cave That Breathes",
+      "region": "Wind Cave, South Dakota, USA",
+      "lat": 43.57,
+      "lon": -103.48,
+      "dateLabel": "Sacred for centuries; found by settlers in 1881",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The Lakota, and two brothers who lost a hat",
+      "hook": "Air rushes in and out of a small hole in the Black Hills, as if the earth were breathing. The Lakota say their people first came into this world through it.",
+      "summary": [
+        "Wind Cave lies under the Black Hills of South Dakota, one of the longest caves in the world. Its natural entrance is a small opening in the rock where air whistles out strongly on some days and is sucked back in on others.",
+        "In Lakota tradition, it's the place where the first people emerged from the world under the ground. Settlers learned of it in 1881, when, the story goes, two brothers heard a whistling and felt the wind blow off one of their hats."
+      ],
+      "explanation": "The cave 'breathes' because of changes in air pressure outside: when pressure drops, air flows out; when it rises, air flows in. Wind Cave became a US national park in 1903, and remains a sacred site for the Lakota.",
+      "wiki": "Wind Cave National Park"
+    },
+    {
+      "slug": "glaistig",
+      "category": "visitors",
+      "title": "The Glaistig",
+      "region": "Lochaber, Highland, Scotland",
+      "lat": 56.8,
+      "lon": -5.1,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Scottish Highland folklore",
+      "hook": "In the Highlands, people told of a woman in a long green dress who watched over the cattle at night. Her dress hid the legs of a goat.",
+      "summary": [
+        "The glaistig is a spirit of Scottish Highland folklore: a beautiful woman in a trailing green dress, often seen by rivers and near old houses, whose lower half is that of a goat. She was said to be bound to a place or a family.",
+        "In some stories she's kindly, herding the cattle, watching children and expecting a bowl of milk left out for her. In others she lures men to dance with her through the night, and they're found the next morning harmed, or not at all."
+      ],
+      "explanation": "The glaistig is a folk figure with many local versions, sometimes said to be a mortal woman who was given a fairy nature. Like the brownie, she carries the idea of a spirit who must be treated with respect.",
+      "wiki": "Glaistig"
+    },
+    {
+      "slug": "thanh-giong",
+      "category": "visitors",
+      "title": "Thánh Gióng, the Boy Who Became a Giant",
+      "region": "Sóc Sơn, Hanoi, Vietnam",
+      "lat": 21.25,
+      "lon": 105.85,
+      "dateLabel": "Told since ancient times",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Vietnamese legend",
+      "hook": "Vietnamese legend tells of a three-year-old boy who had never spoken. When invaders came, he stood up, grew into a giant, rode out on an iron horse, then flew into the sky.",
+      "summary": [
+        "In the village of Phù Đổng, a woman gave birth to a boy who, at three years old, still couldn't speak, sit or walk. When invaders attacked the kingdom, a royal messenger came looking for anyone who could save the country, and the boy spoke for the first time: he asked for an iron horse, iron armour and an iron staff.",
+        "He grew to a giant in moments, rode out and drove off the enemy, pulling up bamboo to fight when his staff broke. Then he rode to the top of Sóc Sơn mountain, left his armour, and flew up into the sky with his horse."
+      ],
+      "explanation": "Thánh Gióng, 'Saint Gióng', is one of Vietnam's four immortals, a symbol of the people's defence of their land. His festival at the Phù Đổng and Sóc temples is on UNESCO's list of Intangible Cultural Heritage.",
+      "wiki": "Thánh Gióng"
+    },
+    {
+      "slug": "ponaturi",
+      "category": "visitors",
+      "title": "The Ponaturi",
+      "region": "As told across New Zealand",
+      "lat": -38.66,
+      "lon": 178.0,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Māori tradition",
+      "hook": "Māori tradition tells of goblin-like beings who live under the sea by day and come ashore at night. The rising sun destroys them.",
+      "summary": [
+        "The ponaturi are beings of Māori tradition who live beneath the sea, in a land under the water, coming up onto the shore after dark to sleep in a great house. They're said to have red skin, long claws and fingers, and to glow faintly.",
+        "In the story of the hero Tāwhaki, the ponaturi had killed his father. Tāwhaki and his brother hid in their house, blocked up the windows so the ponaturi didn't know dawn had come, then threw open the door. The sunlight destroyed them."
+      ],
+      "explanation": "The ponaturi belong to Māori oral tradition, and their story is part of the cycle of Tāwhaki's adventures. Like other night beings in folklore, they show the danger of the dark and the safety of daylight.",
+      "wiki": "Ponaturi"
+    },
+    {
+      "slug": "quinkan",
+      "category": "visitors",
+      "title": "The Quinkan of Cape York",
+      "region": "Laura, Queensland, Australia",
+      "lat": -15.56,
+      "lon": 144.45,
+      "dateLabel": "Painted for thousands of years",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Aboriginal peoples of the Laura region",
+      "hook": "In the sandstone escarpments of northern Queensland, rock shelters are painted with tall, thin spirit figures. They're the Quinkans, who live in the cracks of the rocks.",
+      "summary": [
+        "The Quinkan country around the town of Laura, on Cape York Peninsula, has one of the world's great collections of rock art. Among its painted figures are the Quinkans, spirit beings of the local Aboriginal peoples.",
+        "There are two main kinds: the Timara, tall and thin, who live in cracks in the rocks and can be tricksters, and the Imjim, short and round, with a knobbed tail they use to bounce along, who are more dangerous. Stories of them carried rules for living."
+      ],
+      "explanation": "The Quinkans are part of living Aboriginal culture and law, and the rock art galleries, some thousands of years old, are cared for by their traditional owners. Visitors can see some sites with Aboriginal guides.",
+      "wiki": null
+    },
+    {
+      "slug": "zar-spirits",
+      "category": "visitors",
+      "title": "The Zār Spirits",
+      "region": "Gondar, Amhara, Ethiopia",
+      "lat": 12.6,
+      "lon": 37.47,
+      "dateLabel": "Practised for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Communities in Ethiopia, Sudan, Egypt and the Gulf",
+      "hook": "Across North-East Africa and the Middle East, people believe certain spirits can settle on a person. The cure isn't to drive them out, but to make peace with them through music.",
+      "summary": [
+        "Zār are spirits believed to possess people, most often women, in Ethiopia, Sudan, Egypt, Somalia, Iran and the Gulf. A person troubled by a zār may fall ill, feel unhappy or behave unlike themselves.",
+        "Rather than casting the spirit out, a zār ceremony brings the person together with others to drum, sing and dance, sometimes for days, so that the spirit can make its wishes known and be satisfied. The spirit and the person then live together in peace."
+      ],
+      "explanation": "The tradition probably began in Ethiopia and spread with trade and travel. Anthropologists have studied zār as a way for women to speak about hardship and gain support within their community. Its music is a recognised folk art in Egypt.",
+      "wiki": "Zār"
+    },
+    {
+      "slug": "ifrit",
+      "category": "visitors",
+      "title": "The Ifrit",
+      "region": "Cairo, Egypt",
+      "lat": 30.06,
+      "lon": 31.26,
+      "dateLabel": "Told since the Quran and before",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Islamic tradition and Arabic folklore",
+      "hook": "In Islamic lore, the most powerful of the jinn is the ifrit. One offered to carry the Queen of Sheba's throne to King Solomon before he could rise from his seat.",
+      "summary": [
+        "The word ifrit appears once in the Quran, in the story of King Solomon, where 'an ifrit of the jinn' offers to bring the Queen of Sheba's throne to him in an instant. In later Arabic folklore, ifrits became a class of mighty, often wicked jinn, made of smokeless fire.",
+        "They appear in the Thousand and One Nights as huge, terrifying beings trapped in bottles or rings. In Egyptian folklore, they were said to haunt places where something terrible had happened."
+      ],
+      "explanation": "Belief in jinn is part of Islamic teaching; ifrits are mostly a figure of storytelling and folklore. They've become familiar worldwide through translations of the Nights and modern games and films.",
+      "wiki": "Ifrit"
+    },
+    {
+      "slug": "pazuzu",
+      "category": "visitors",
+      "title": "Pazuzu, Demon of the Wind",
+      "region": "Nimrud, Nineveh, Iraq",
+      "lat": 36.1,
+      "lon": 43.33,
+      "dateLabel": "Worshipped in the 1st millennium BCE",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Assyrian and Babylonian amulets",
+      "hook": "Ancient Mesopotamians feared a demon with wings, claws and a snarling face who brought famine on the south-west wind. They also hung his image over the beds of pregnant women.",
+      "summary": [
+        "Pazuzu was a demon of Assyrian and Babylonian belief, king of the evil wind spirits. He's shown with a scowling, dog-like face, eagle's feet, four wings and a scorpion's tail, and he brought the hot south-west wind that carried storms, famine and locusts.",
+        "Yet people wore amulets of him for protection, especially women in childbirth. He was the one demon who could drive off Lamashtu, a female demon believed to harm mothers and babies."
+      ],
+      "explanation": "Using one dangerous force to fight another was common in Mesopotamian magic. Many small Pazuzu heads and amulets survive in museums. He became famous worldwide in 1973 as the demon in the film The Exorcist, which opens at an excavation in Iraq.",
+      "wiki": "Pazuzu"
+    },
+    {
+      "slug": "koschei-the-deathless",
+      "category": "visitors",
+      "title": "Koschei the Deathless",
+      "region": "As told across Russia",
+      "lat": 58.52,
+      "lon": 31.27,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Russian folk tales",
+      "hook": "Koschei can't be killed, because his death isn't in his body. It's hidden in a needle, in an egg, in a duck, in a hare, in an iron chest, buried under an oak on an island.",
+      "summary": [
+        "Koschei the Deathless is one of the great villains of Russian folk tales: a gaunt old sorcerer, sometimes a king, who kidnaps a hero's bride and carries her off to his kingdom.",
+        "He can't be harmed in battle, because he has hidden his death far away: at the point of a needle, inside an egg, inside a duck, inside a hare, locked in an iron chest buried under a great oak on the island of Buyan. The hero must find each one, and break the needle."
+      ],
+      "explanation": "Koschei is a folk figure, an example of the 'giant without a heart in his body' found in tales across Europe. He appears in Stravinsky's ballet The Firebird and in countless retellings.",
+      "wiki": "Koshchei"
+    },
+    {
+      "slug": "korrigans",
+      "category": "visitors",
+      "title": "The Korrigans of Brittany",
+      "region": "Huelgoat Forest, Finistère, France",
+      "lat": 48.36,
+      "lon": -3.75,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Breton folklore",
+      "hook": "In Brittany, people said small, wild beings danced around the standing stones at night. Join their dance, and you might never stop.",
+      "summary": [
+        "Korrigans are fairy beings of Breton folklore, sometimes tiny and ugly, sometimes beautiful, who live near springs, dolmens and menhirs. At night they dance in circles around the old stones, singing.",
+        "In a well-known tale, a hunchback passing their dance added a line to their endless song, 'Monday, Tuesday, Wednesday', and in thanks they took away his hump. When a greedy neighbour tried the same trick and spoiled the song, they gave him the hump as well."
+      ],
+      "explanation": "Korrigans are part of Brittany's rich Celtic folklore, linked to the region's thousands of prehistoric stones. Their tales are still told, and they appear in Breton festivals and souvenirs.",
+      "wiki": "Korrigan"
+    },
+    {
+      "slug": "frau-holle",
+      "category": "visitors",
+      "title": "Frau Holle, Who Makes It Snow",
+      "region": "Hoher Meißner, Hesse, Germany",
+      "lat": 51.21,
+      "lon": 9.86,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "German folklore",
+      "hook": "German children are told that when it snows, Frau Holle is shaking out her feather beds. Legend says she lives at the bottom of a pond on a mountain in Hesse.",
+      "summary": [
+        "Frau Holle, or Mother Holle, is a figure of German folklore made famous by the Brothers Grimm. In their tale, a girl falls down a well into another world and works for an old woman, shaking her feather quilts so hard that the feathers fly, and it snows on Earth. The hard-working girl is showered in gold; her lazy stepsister, in pitch.",
+        "Older beliefs made her a powerful being who rode with the Wild Hunt in winter and rewarded good spinners. A pond on the Hoher Meißner mountain, the Frau-Holle-Teich, is said to be the entrance to her world."
+      ],
+      "explanation": "Frau Holle may preserve an older goddess of winter and the household. She's still part of German culture, from the snow saying to the region around the Meißner, which calls itself 'Frau Holle Land'.",
+      "wiki": "Frau Holle"
+    },
+    {
+      "slug": "nuberu",
+      "category": "visitors",
+      "title": "The Nuberu, Lord of the Storm Clouds",
+      "region": "Asturias, Spain",
+      "lat": 43.36,
+      "lon": -5.85,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Asturian folklore",
+      "hook": "Farmers in northern Spain once blamed hailstorms on a dark man in a wide hat who rode the clouds. Oddly, they said he lived in Egypt.",
+      "summary": [
+        "The nuberu is a spirit of the weather in the folklore of Asturias and nearby regions: an ugly, bearded man dressed in animal skins and a broad hat, who rides on the clouds and sends storms, lightning and hail to ruin the crops.",
+        "Stories say he lived far away, in Egypt, and once fell from his cloud and was taken in by a kind farmer. Years later, the farmer travelled to Egypt, met the nuberu there, and was carried home on a cloud. After that, the nuberu always spared his fields."
+      ],
+      "explanation": "The nuberu is a folk explanation for the violent storms that sweep the Cantabrian mountains. Church bells were rung to drive him away, a practice also used in other parts of Europe against storms.",
+      "wiki": "Nuberu"
+    },
+    {
+      "slug": "chasse-galerie",
+      "featured": true,
+      "category": "visitors",
+      "title": "La Chasse-galerie, the Flying Canoe",
+      "region": "Lavaltrie, Quebec, Canada",
+      "lat": 45.88,
+      "lon": -73.28,
+      "dateLabel": "Told since the 1800s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Québécois folklore",
+      "hook": "Stuck in a winter lumber camp, homesick men made a deal with the Devil to fly home for New Year's Eve in a canoe. The rules were simple: don't swear, and don't touch a church steeple.",
+      "summary": [
+        "In the legend of the chasse-galerie, a group of lumberjacks working deep in the forest on New Year's Eve long to see their sweethearts, hundreds of kilometres away. One of them knows a way: they sell their souls to the Devil, who will fly their canoe through the night sky, so long as they don't say God's name or touch a church cross along the way.",
+        "They paddle through the air over the frozen rivers to the village of Lavaltrie, dance all night, and fly back before dawn, dodging steeples, while the steersman, who has been drinking, nearly ruins them all."
+      ],
+      "explanation": "The story mixes French legends of a cursed hunt in the sky with the life of Quebec's woodsmen. The writer Honoré Beaugrand published the best-known version in 1891, and a flying canoe is now a symbol of Québécois folklore.",
+      "wiki": "Chasse-galerie"
+    },
+    {
+      "slug": "la-mulata-de-cordoba",
+      "category": "visitors",
+      "title": "La Mulata de Córdoba",
+      "region": "Córdoba, Veracruz, Mexico",
+      "lat": 18.88,
+      "lon": -96.93,
+      "dateLabel": "Told of the 1600s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Mexican legend",
+      "hook": "Locked in a cell by the Inquisition, a woman accused of witchcraft drew a ship on the wall with a piece of charcoal. Then she stepped into it and sailed away.",
+      "summary": [
+        "The legend is set in colonial Córdoba, in Veracruz. A beautiful woman of mixed African and Spanish descent was famous as a healer, admired by many and envied by some. People whispered that she had powers, and she was accused of witchcraft and taken to the Inquisition's prison in Mexico City.",
+        "On the eve of her sentence, her jailer asked what was missing from her cell. She drew a ship on the wall in charcoal and asked him what it lacked. 'Only to sail,' he said. She stepped onto the ship, and it sailed out through the wall, and she was never seen again."
+      ],
+      "explanation": "The story can't be tied to a real case, though the Inquisition did try people for witchcraft in New Spain. It's a legend of escape from injustice, retold in Mexican books, songs and an opera.",
+      "wiki": null
+    },
+    {
+      "slug": "bachue",
+      "category": "visitors",
+      "title": "Bachué, Mother of the Muisca",
+      "region": "Lake Iguaque, Boyacá, Colombia",
+      "lat": 5.69,
+      "lon": -73.45,
+      "dateLabel": "Told before the Spanish conquest",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Muisca tradition",
+      "hook": "The Muisca of Colombia said the first woman rose from a mountain lake holding a child, filled the world with people, then returned to the water as a serpent.",
+      "summary": [
+        "In the tradition of the Muisca people of the Colombian highlands, a woman named Bachué rose from the waters of Lake Iguaque, high in the mountains, carrying a young boy. When he grew up, they married and had many children, who became the Muisca.",
+        "When they were old, Bachué and her husband went back to the lake, said farewell to their people, and turned into serpents, sinking into the water. The Muisca honoured the lake as sacred and made offerings there."
+      ],
+      "explanation": "Bachué is the mother goddess of Muisca belief, recorded by Spanish chroniclers. Lake Iguaque is now part of a protected sanctuary, and the Bachué story inspired a 20th-century Colombian art movement.",
+      "wiki": "Bachué"
+    },
+    {
+      "slug": "viracocha",
+      "category": "visitors",
+      "title": "Viracocha, Who Rose from Lake Titicaca",
+      "region": "Isla del Sol, Lake Titicaca, Bolivia",
+      "lat": -16.02,
+      "lon": -69.17,
+      "dateLabel": "Told before the Spanish conquest",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Andean tradition",
+      "hook": "Andean legend says the creator rose out of Lake Titicaca in the darkness, made the Sun, Moon and stars, then walked away across the sea.",
+      "summary": [
+        "In Inca and earlier Andean belief, Viracocha was the creator god. In the beginning, the world was dark. Viracocha emerged from Lake Titicaca and, on the Island of the Sun, called the Sun, the Moon and the stars into being.",
+        "He shaped people out of stone at Tiwanaku, nearby, and sent them out into the land. Then he travelled across the Andes teaching them, before walking out across the Pacific Ocean and disappearing over the waves."
+      ],
+      "explanation": "The legend was recorded by Spanish chroniclers after the conquest, and some details may have been shaped by them. The Island of the Sun has Inca ruins and is still visited by pilgrims and travellers.",
+      "wiki": "Viracocha"
+    },
+    {
+      "slug": "dali-goddess",
+      "category": "visitors",
+      "title": "Dali, Goddess of the Hunt",
+      "region": "Svaneti, Georgia",
+      "lat": 43.05,
+      "lon": 42.72,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Svan and Georgian folklore",
+      "hook": "In the high Caucasus, hunters said a radiant woman with golden hair owned the mountain goats. She could grant a hunter luck, or lead him to his fall.",
+      "summary": [
+        "Dali is a goddess of the mountain animals in the folklore of Svaneti and other parts of the Georgian Caucasus. She has long golden hair and shining skin, and lives among the cliffs and glaciers, sometimes appearing as a white ibex or deer.",
+        "Hunters had to respect her: take only what she allowed, and never boast or betray her. Some hunters became her lovers and were given great luck, but if one broke her rules, she would lead him onto a cliff he couldn't climb down from."
+      ],
+      "explanation": "Dali belongs to the pre-Christian beliefs of the Caucasus, which survived in remote mountain valleys. Her stories reflect the real dangers of hunting on the high cliffs, and a respect for wild animals.",
+      "wiki": "Dali (goddess)"
+    },
+    {
+      "slug": "mazzeri",
+      "category": "visitors",
+      "title": "The Mazzeri, Dream Hunters of Corsica",
+      "region": "Corsica, France",
+      "lat": 42.15,
+      "lon": 9.1,
+      "dateLabel": "Believed into the 20th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Corsican folklore",
+      "hook": "In Corsica, it was said some people went hunting in their sleep. If a dream hunter killed an animal with a neighbour's face, the neighbour would soon die.",
+      "summary": [
+        "In Corsican tradition, a mazzeru (plural mazzeri) was a person, man or woman, whose spirit left their body at night and went hunting in the countryside. In their dreams they stalked and killed wild animals, often a boar or a deer.",
+        "When the mazzeru turned the dead animal over, they saw the face of someone from their village, who would die within the year. The mazzeri didn't choose this; they were seen as messengers of fate, feared and pitied."
+      ],
+      "explanation": "The belief, studied by the anthropologist Dorothy Carrington, may preserve very old ideas about dreams, hunting and death. It survived in remote mountain villages into the 20th century.",
+      "wiki": null
+    },
+    {
+      "slug": "colapesce",
+      "category": "visitors",
+      "title": "Colapesce, Who Holds Up Sicily",
+      "region": "Messina, Sicily, Italy",
+      "lat": 38.19,
+      "lon": 15.55,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Sicilian legend",
+      "hook": "Sicilian legend says a boy who lived more in the sea than on land dived to the bottom and found the island resting on three columns, one of them cracked. He's still down there, holding it up.",
+      "summary": [
+        "Cola was a boy from Messina who loved the sea so much that he spent his days swimming and diving, until his mother, in despair, cursed him to become a fish. He became Colapesce, 'Cola fish', half human and half fish.",
+        "The king tested him by throwing treasures into the sea for him to find. On his last dive, Cola discovered that Sicily rests on three great columns, and that one was cracked and crumbling. He stayed below to hold it up, and when the island shakes, they say he's shifting the weight."
+      ],
+      "explanation": "The legend has been told since at least the 12th century, and explains the earthquakes and volcanoes of eastern Sicily. Messina was devastated by an earthquake in 1908.",
+      "wiki": "Colapesce"
+    },
+    {
+      "slug": "octavius-ghost-ship",
+      "category": "places",
+      "title": "The Octavius, the Ship Found Frozen",
+      "region": "Off western Greenland",
+      "lat": 65.0,
+      "lon": -55.0,
+      "dateLabel": "Said to be 1775",
+      "status": "explained",
+      "statusLabel": "Probably a legend",
+      "witnesses": "The crew of a whaling ship, according to the story",
+      "hook": "A whaling crew boarded a drifting ship off Greenland and found its crew frozen at their posts, the captain at his desk, pen in hand. The last log entry was thirteen years old.",
+      "summary": [
+        "The story goes that in 1775, the whaler Herald came upon a sailing ship drifting among the icebergs off Greenland. The boarding party found every member of the crew frozen, below decks and in their bunks, and the captain sitting at his desk in the cabin.",
+        "His logbook's last entry was dated 1762. The Octavius, it was said, had tried to sail home from Asia through the Northwest Passage, become trapped in the ice, and drifted for thirteen years. The frightened boarders took the log and left."
+      ],
+      "explanation": "No records of a ship called Octavius or of the Herald's find have been traced, and the story first appeared in print decades later. It's probably a sailors' tale, though similar to real cases of ships lost in the Arctic ice.",
+      "wiki": "Octavius (ship)"
+    },
+    {
+      "slug": "meteora",
+      "featured": true,
+      "category": "places",
+      "title": "Meteora, the Monasteries in the Air",
+      "region": "Meteora, Thessaly, Greece",
+      "lat": 39.72,
+      "lon": 21.63,
+      "dateLabel": "Monasteries since the 14th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Monks, pilgrims and travellers",
+      "hook": "On top of sheer rock towers in Greece sit monasteries that, until the 1920s, could only be reached in a net hauled up by rope. Legend says the founder was carried up by an eagle.",
+      "summary": [
+        "Meteora, 'suspended in the air', is a cluster of huge sandstone pillars rising from the plain of Thessaly. From the 14th century, monks built monasteries on their summits, hundreds of metres up, safe from raiders. At the peak there were more than twenty.",
+        "Until the 1920s, visitors and supplies were hauled up in nets or baskets on ropes, or climbed long swaying ladders. Legend says the first monk, Saint Athanasios, was carried to the top of the Great Meteoron by an eagle."
+      ],
+      "explanation": "The pillars were formed from sediments laid down millions of years ago and carved by water and earthquakes. The monks probably climbed using wooden pegs driven into cracks. Six monasteries are still active, and Meteora is a UNESCO World Heritage Site.",
+      "wiki": "Meteora"
+    },
+    {
+      "slug": "tigers-nest",
+      "category": "places",
+      "title": "The Tiger's Nest",
+      "region": "Paro Valley, Bhutan",
+      "lat": 27.49,
+      "lon": 89.36,
+      "dateLabel": "Sacred since the 8th century; temple built in 1692",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Bhutanese Buddhist tradition",
+      "hook": "A temple clings to a sheer cliff 900 metres above a Bhutanese valley. Legend says a great teacher flew there on the back of a tigress.",
+      "summary": [
+        "Paro Taktsang, the Tiger's Nest, is a Buddhist monastery perched on a cliff above the Paro valley, reached by a steep path through the forest. It's built around a cave where, in the 8th century, the teacher Guru Rinpoche is said to have meditated for three years, three months, three weeks and three days.",
+        "The legend says he flew there from Tibet on the back of a tigress, to subdue a demon that troubled the valley. The monastery was built around the cave in 1692."
+      ],
+      "explanation": "Guru Rinpoche, or Padmasambhava, is revered as the one who brought Buddhism to Bhutan and Tibet. The monastery was badly damaged by fire in 1998 and carefully rebuilt. It's the most famous sight in Bhutan.",
+      "wiki": "Paro Taktsang"
+    },
+    {
+      "slug": "tellem-cliffs",
+      "category": "places",
+      "title": "The Cliff Dwellers of Bandiagara",
+      "region": "Bandiagara Escarpment, Mopti, Mali",
+      "lat": 14.35,
+      "lon": -3.6,
+      "dateLabel": "About the 11th to 16th centuries",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "The Dogon, and archaeologists",
+      "hook": "High on a sheer cliff in Mali, small houses and granaries are tucked into caves that seem impossible to reach. The Dogon say the people who built them could fly.",
+      "summary": [
+        "The Bandiagara Escarpment is a sandstone cliff about 150 kilometres long in Mali, home to the Dogon people. In its face, often far above the ground, are clusters of small mud-brick buildings built into caves and crevices.",
+        "The Dogon say these belonged to the Tellem, a people who lived there before them. The Tellem, they say, were small and could fly, or used magic ropes, to reach their homes. The Dogon still use some of the caves for burials."
+      ],
+      "explanation": "Archaeologists have found that the Tellem lived there from about the 11th to the 16th century, and probably reached the caves with ropes and by climbing routes that have since eroded. They may have moved away or merged with the Dogon. The cliffs are a UNESCO World Heritage Site.",
+      "wiki": "Tellem"
+    },
+    {
+      "slug": "st-patricks-purgatory",
+      "category": "places",
+      "title": "St Patrick's Purgatory",
+      "region": "Station Island, Lough Derg, Donegal, Ireland",
+      "lat": 54.61,
+      "lon": -7.87,
+      "dateLabel": "A pilgrimage since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Medieval pilgrims, and pilgrims today",
+      "hook": "On a small island in an Irish lake, medieval pilgrims were locked in a cave for a night, and some said they saw the torments of Purgatory.",
+      "summary": [
+        "Legend says Christ showed Saint Patrick a pit on Station Island, in Lough Derg, that led to Purgatory, so that he could convince the Irish of the afterlife. From the 12th century, pilgrims from all over Europe came to enter the cave.",
+        "After days of fasting, they were shut in for a day and a night. A famous account told of a knight, Owein, who passed through visions of punishment and paradise inside. Others came out shaken, or claimed to have seen nothing."
+      ],
+      "explanation": "The cave was ordered closed in 1497 and later destroyed, but the pilgrimage continues: each summer, pilgrims spend three days on the island, barefoot and fasting, including a night without sleep. It's one of the oldest pilgrimages in Europe.",
+      "wiki": "St Patrick's Purgatory"
+    },
+    {
+      "slug": "clootie-well",
+      "category": "places",
+      "title": "The Clootie Well",
+      "region": "Munlochy, Black Isle, Highland, Scotland",
+      "lat": 57.55,
+      "lon": -4.27,
+      "dateLabel": "Practised for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Visitors who leave a rag",
+      "hook": "Beside a spring in the Scottish Highlands, the trees are hung with thousands of rags. People say that as your rag rots away, so does your illness.",
+      "summary": [
+        "Clootie wells are holy springs in Scotland, Ireland and Cornwall where people leave strips of cloth, 'cloots', tied to the branches of nearby trees. The custom is to dip a rag in the water, wash a sick part of the body, and tie the rag to a tree.",
+        "As the rag rots, the illness is said to fade away. At the clootie well at Munlochy, on the Black Isle, the trees beside the path are so thickly hung with cloths, socks and ribbons that the wood looks like something from a dream."
+      ],
+      "explanation": "The custom probably goes back to pre-Christian offerings to water spirits, later linked to saints. Visitors today are asked to tie natural fabrics that will rot, since synthetic rags never do.",
+      "wiki": "Clootie well"
+    },
+    {
+      "slug": "bardsey-island",
+      "category": "places",
+      "title": "Bardsey, the Island of 20,000 Saints",
+      "region": "Bardsey Island, Gwynedd, Wales",
+      "lat": 52.76,
+      "lon": -4.79,
+      "dateLabel": "A pilgrimage since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Medieval pilgrims and Welsh legend",
+      "hook": "Off the tip of a Welsh peninsula lies a small island where 20,000 saints are said to be buried. Legend also says Merlin sleeps there, in a house of glass.",
+      "summary": [
+        "Bardsey Island, Ynys Enlli in Welsh, lies across a dangerous strait off the Llŷn Peninsula. A monastery was founded there in the 6th century, and it became so holy that three pilgrimages to Bardsey were said to equal one to Rome.",
+        "Tradition says 20,000 saints are buried in its soil. Another legend says the wizard Merlin lies asleep on the island, in a glass house, with the treasures of Britain."
+      ],
+      "explanation": "The large numbers of medieval burials found on the island help explain the saints legend. Today it's a nature reserve with a handful of residents, a lighthouse and seabirds, and the pilgrimage path along the peninsula is walked again.",
+      "wiki": "Bardsey Island"
+    },
+    {
+      "slug": "ennedi-tiger",
+      "category": "creatures",
+      "title": "The Ennedi Tiger",
+      "region": "Ennedi Plateau, Chad",
+      "lat": 17.3,
+      "lon": 22.4,
+      "dateLabel": "Reported in the 20th century",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "Herders and hunters of north-eastern Chad",
+      "hook": "In the remote mountains of Chad, people have described a big cat, larger than a lion, with long teeth sticking out of its mouth. Some wondered if it was a surviving sabre-tooth.",
+      "summary": [
+        "The Ennedi Plateau is a wild sandstone massif in the Sahara in north-eastern Chad, with canyons, rock arches and permanent pools. Herders and hunters there have told of a large, fierce cat, called by names such as mourou ngou, bigger than a lion, reddish with pale stripes or none, with large protruding teeth.",
+        "It was said to live in the mountains and near water, and to be so strong it could carry off large prey. Cryptozoologists suggested it might be a surviving sabre-toothed cat."
+      ],
+      "explanation": "Sabre-toothed cats died out in Africa long ago, and no remains or photographs of such an animal have been found. The reports may describe lions, leopards or memories of animals that have since vanished from the region.",
+      "wiki": null
+    },
+    {
+      "slug": "kawekaweau-giant-gecko",
+      "category": "creatures",
+      "title": "The Giant Gecko in the Museum Basement",
+      "region": "Natural History Museum, Marseille, France",
+      "lat": 43.3,
+      "lon": 5.4,
+      "dateLabel": "Found in 1979",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "Museum staff and scientists",
+      "hook": "In 1979, a researcher in a French museum found a stuffed gecko 60 centimetres long, the biggest ever seen. No one knew where it came from. A Māori legend might know.",
+      "summary": [
+        "In the storerooms of the Natural History Museum in Marseille, a herpetologist found a stuffed lizard with no label: a gecko about 60 centimetres long, far larger than any known species. It was described as a new species in 1986.",
+        "Some scientists linked it to the kawekaweau, a large forest lizard described by Māori in New Zealand. In the 1870s, a Māori chief told a naturalist he had killed one in a forest in the North Island."
+      ],
+      "explanation": "It remains the only specimen. A recent study of its DNA found it was related to the geckos of New Caledonia and renamed it Gigarcanum delcourti, but its true homeland, and whether it is the kawekaweau, are still uncertain.",
+      "wiki": "Gigarcanum"
+    },
+    {
+      "slug": "moo-water-spirits",
+      "category": "creatures",
+      "title": "The Moʻo of Hawaiʻi's Waters",
+      "region": "Hilo, Hawaii, USA",
+      "lat": 19.72,
+      "lon": -155.1,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Native Hawaiian tradition",
+      "hook": "In Hawaiian tradition, giant shape-shifting lizards live in pools, rivers and fishponds. Some are guardians; some are dangerous.",
+      "summary": [
+        "Moʻo are lizard spirits of Hawaiian tradition, enormous, dark and glistening, who live in freshwater: pools, waterfalls and the old stone fishponds. Many can take the form of a beautiful woman.",
+        "Some moʻo were the guardians of a family or a pond, honoured with offerings, who kept the water and fish healthy. Others, like Kuna, who lived in the Wailuku River at Hilo, were feared; in legend, the demigod Māui killed Kuna to save his mother Hina, and his body became a long rock in the river."
+      ],
+      "explanation": "Hawaii has no large native lizards, so the moʻo may draw on Polynesian memories of crocodiles or monitor lizards from further west. They're part of living Hawaiian belief about water, which was precious and sacred.",
+      "wiki": "Moʻo"
+    },
+    {
+      "slug": "teggie-bala-lake",
+      "category": "creatures",
+      "title": "Teggie of Bala Lake",
+      "region": "Llyn Tegid, Gwynedd, Wales",
+      "lat": 52.88,
+      "lon": -3.62,
+      "dateLabel": "Reported since the 20th century",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "Local people, fishermen and visitors",
+      "hook": "Wales's largest natural lake is said to hold a monster called Teggie. It really does hold a fish that lives nowhere else on Earth.",
+      "summary": [
+        "Llyn Tegid, or Bala Lake, is the largest natural lake in Wales. Legend says a palace lies drowned beneath it, flooded as punishment for a cruel prince, and on calm nights people hear its harp.",
+        "Since the late 20th century, there have been reports of a large creature in the water, nicknamed Teggie: a long neck or hump, or something like a crocodile, seen by fishermen and walkers along the shore."
+      ],
+      "explanation": "No evidence of a large animal has been found, and some reports may be big pike, otters or floating logs. The lake does hold a real rarity: the gwyniad, a kind of whitefish left behind after the last Ice Age and found nowhere else.",
+      "wiki": "Llyn Tegid"
+    },
+    {
+      "slug": "iku-turso",
+      "category": "creatures",
+      "title": "Iku-Turso, the Monster of the Sea",
+      "region": "Gulf of Finland coast, Helsinki, Finland",
+      "lat": 60.17,
+      "lon": 24.94,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Finnish myth and the Kalevala",
+      "hook": "In Finnish myth, a monster rose from the bottom of the sea with a thousand horns, and the old singers called on it in spells against illness.",
+      "summary": [
+        "Iku-Turso is a sea monster of Finnish mythology, a vast, sinister being who lives in the depths and rises to cause storms and bring disease. In the Kalevala, Finland's national epic, Turso rises from the sea and is defeated by the hero-singer Väinämöinen.",
+        "In old Finnish spells, Turso is called the father of illnesses, and the singers named him to drive sickness away. Modern artists often show him with many tentacles, like an octopus."
+      ],
+      "explanation": "Iku-Turso belongs to old Finnish oral poetry, collected by Elias Lönnrot in the 1800s. His name may mean 'ancient Turso', and some think he was once a god of the sea or the underworld.",
+      "wiki": "Iku-Turso"
+    },
+    {
+      "slug": "drac-of-beaucaire",
+      "category": "creatures",
+      "title": "The Drac of the Rhône",
+      "region": "Beaucaire, on the Rhône, France",
+      "lat": 43.81,
+      "lon": 4.64,
+      "dateLabel": "Recorded about 1210",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "A medieval chronicler, and Provençal folklore",
+      "hook": "A writer of the 1200s told of invisible beings in the Rhône that lured women into the water with golden rings, and of one woman who spent seven years beneath the river.",
+      "summary": [
+        "Around 1210, Gervase of Tilbury, an English scholar living in southern France, wrote of the dracs: water spirits of the Rhône at Beaucaire, who took human form and floated golden cups or rings on the water to tempt people in.",
+        "He told of a woman washing clothes who reached for a ring and was pulled under, to nurse a drac's child in a palace beneath the river for seven years. When she came back, she could see the dracs walking unseen among the people of the town, until one of them blinded her for it."
+      ],
+      "explanation": "The drac is part of Provençal folklore, later shown as a dragon, and Beaucaire celebrates it with a festival and a statue. Gervase's account is one of the oldest written fairy stories in Europe.",
+      "wiki": null
+    },
+    {
+      "slug": "piasa-bird",
+      "category": "creatures",
+      "title": "The Piasa Bird",
+      "region": "Alton, Illinois, USA",
+      "lat": 38.9,
+      "lon": -90.19,
+      "dateLabel": "Seen in 1673; repainted since",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The explorers Marquette and Jolliet",
+      "hook": "In 1673, two explorers paddling down the Mississippi saw a painting on a cliff of a monster with antlers, a man's face, scales and a long tail. It frightened them.",
+      "summary": [
+        "Travelling down the Mississippi in 1673, the French Jesuit Jacques Marquette and the explorer Louis Jolliet saw a painting high on the limestone bluffs near present-day Alton: a creature as large as a calf, with horns like a deer's, red eyes, a beard, a scaly body and a tail that wrapped around it, painted in red, green and black.",
+        "It was later named the Piasa, and legends grew of a bird-like monster that preyed on people until an Illini chief destroyed it."
+      ],
+      "explanation": "The painting was probably made by Native people and may show the underwater panther or another powerful being of their beliefs. The original was destroyed by quarrying in the 1800s; a reconstruction now stands on the bluffs. The 'legend' of the chief was largely written by a 19th-century professor.",
+      "wiki": "Piasa"
+    },
+    {
+      "slug": "chaneques",
+      "category": "creatures",
+      "title": "The Chaneques",
+      "region": "Los Tuxtlas, Veracruz, Mexico",
+      "lat": 18.45,
+      "lon": -95.2,
+      "dateLabel": "Told since before the conquest",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Mexican folklore",
+      "hook": "In the forests of Veracruz, people say tiny beings with old faces guard the land. They lead trespassers astray, and can frighten their souls right out of their bodies.",
+      "summary": [
+        "Chaneques are small beings of Mexican folklore, especially in Veracruz, with roots in Aztec and Olmec belief. They look like children with the faces of old people, and they guard the forests, rivers and springs, and the animals that live there.",
+        "People who disturb their places may be led astray for days and come back with no memory of where they've been. A great fright from a chaneque could make a person's soul leave their body, an illness called susto, which needs a healer to call the soul back."
+      ],
+      "explanation": "Chaneques are part of living folk belief in Mexico, tied to respect for the land. Susto is a recognised folk illness across Latin America, treated by traditional healers.",
+      "wiki": "Chaneque"
+    },
+    {
+      "slug": "el-cuero",
+      "category": "creatures",
+      "title": "El Cuero, the Living Hide",
+      "region": "Lake Llanquihue, Los Lagos, Chile",
+      "lat": -41.13,
+      "lon": -72.8,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Chilean and Argentine folklore",
+      "hook": "In the lakes of southern Chile, people say a creature lies in the water like a flat cowhide, edged with eyes and claws. It wraps itself around swimmers.",
+      "summary": [
+        "El Cuero, 'the hide', is a creature told about in the lakes of southern Chile and Argentina. It looks like a cow's hide stretched out flat in the water, with eyes all around its edge and claws, or a tail, at the end.",
+        "It lies on the surface or on the shore, and when a person or animal comes near, it wraps around them and drags them down. Some say it sunbathes on the rocks, and that only lemon leaves or a sharp stone can stop it."
+      ],
+      "explanation": "The legend probably draws on the Mapuche belief in a water creature called the trülke-wekufe, and perhaps on sightings of large rays, or floating debris. It warns of cold, deep lakes.",
+      "wiki": "Cuero (legendary creature)"
+    },
+    {
+      "slug": "fernanda-tortoise",
+      "category": "creatures",
+      "title": "Fernanda, the Tortoise Thought Extinct",
+      "region": "Fernandina Island, Galápagos, Ecuador",
+      "lat": -0.37,
+      "lon": -91.55,
+      "dateLabel": "Found in 2019",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Galápagos park rangers and scientists",
+      "hook": "For more than a century, the giant tortoise of one Galápagos island was known from a single specimen. Then rangers found a living one.",
+      "summary": [
+        "The Fernandina giant tortoise was known from just one male, collected in 1906 on Fernandina, a young volcanic island of lava fields where few plants grow. Searches found nothing more, and it was thought to be extinct.",
+        "In 2019, rangers found an old female tortoise in a small patch of vegetation on the island. She was nicknamed Fernanda. In 2022, DNA tests confirmed she belonged to the lost species."
+      ],
+      "explanation": "Fernandina's harsh landscape and active volcano make it hard to search. Signs of other tortoises have since been seen, and scientists hope to find a mate for her.",
+      "wiki": "Fernandina Island Galápagos tortoise"
+    },
+    {
+      "slug": "wallaces-giant-bee",
+      "category": "creatures",
+      "title": "The Giant Bee Lost and Found",
+      "region": "North Moluccas, Indonesia",
+      "lat": 0.75,
+      "lon": 127.6,
+      "dateLabel": "Found in 1858, filmed in 2019",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Alfred Russel Wallace, and a team of naturalists",
+      "hook": "The largest bee in the world, as long as a thumb, was found by a famous naturalist in 1858, and then hardly seen again for more than a century.",
+      "summary": [
+        "In 1858, Alfred Russel Wallace collected a huge black bee on the island of Bacan, in Indonesia's North Moluccas. It was later named Wallace's giant bee: the world's largest, with a wingspan of about 6 centimetres and massive jaws.",
+        "It wasn't seen again until 1981, when an entomologist found it nesting inside termite mounds in trees. Then it vanished again. In 2019, a team searching the islands found a female and filmed her alive for the first time."
+      ],
+      "explanation": "The bee lives inside active termite nests, lining its burrows with tree resin, which makes it extremely hard to find. Its rediscovery drew attention to the forests it depends on, and to collectors who sell specimens.",
+      "wiki": "Megachile pluto"
+    },
+    {
+      "slug": "somali-sengi",
+      "category": "creatures",
+      "title": "The Elephant Shrew Lost for 50 Years",
+      "region": "Djibouti",
+      "lat": 11.5,
+      "lon": 42.5,
+      "dateLabel": "Lost in 1968; found in 2020",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Scientists and Djiboutian partners",
+      "hook": "A tiny animal with a long, trunk-like nose was known only from a few museum specimens and hadn't been recorded since 1968. In 2020, it turned up in Djibouti.",
+      "summary": [
+        "The Somali sengi is a small, mouse-sized mammal with a long, wriggling nose, related not to shrews but more closely to elephants and aardvarks. Science knew it only from about 39 specimens collected in Somalia, and the last record was from 1968.",
+        "In 2019, a team set traps baited with peanut butter, oats and yeast in the rocky desert of Djibouti, after hearing from local people that they knew the animal. They caught one on the first day."
+      ],
+      "explanation": "The sengi had never been studied in Djibouti, a country next to Somalia; it had simply been overlooked. It turned out to be widespread and not endangered, a reminder that 'lost' species may only be unlooked-for.",
+      "wiki": "Somali sengi"
+    },
+    {
+      "slug": "silver-backed-chevrotain",
+      "category": "creatures",
+      "title": "The Deer the Size of a Rabbit",
+      "region": "Near Nha Trang, Khánh Hòa, Vietnam",
+      "lat": 12.25,
+      "lon": 109.1,
+      "dateLabel": "Lost in 1990; photographed in 2019",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Camera traps, and local villagers",
+      "hook": "A tiny deer-like animal with silver flanks and little fangs hadn't been seen by scientists for nearly thirty years. A camera trap caught it walking past.",
+      "summary": [
+        "The silver-backed chevrotain, or Vietnamese mouse-deer, is a small hoofed animal about the size of a rabbit, with a silvery back and, in males, small tusk-like teeth. It was described in 1910 from a few specimens and last recorded by scientists in 1990.",
+        "In 2018 and 2019, researchers set camera traps in forests near Nha Trang, where villagers said they'd seen grey chevrotains. The cameras captured hundreds of photographs of them."
+      ],
+      "explanation": "Chevrotains are shy and nocturnal, and the forests where they live are hard to survey. Snares set for other animals are the biggest threat to them.",
+      "wiki": "Silver-backed chevrotain"
+    },
+    {
+      "slug": "griffin-of-the-gobi",
+      "category": "creatures",
+      "title": "The Griffins of the Gobi",
+      "region": "Flaming Cliffs (Bayanzag), Ömnögovi, Mongolia",
+      "lat": 44.14,
+      "lon": 103.73,
+      "dateLabel": "Theory of 2000; fossils found since 1923",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "Fossil hunters and a historian",
+      "hook": "Ancient Greeks wrote that griffins guarded gold in the deserts of Central Asia. A historian suggested the legend began with dinosaur skeletons sticking out of the rocks.",
+      "summary": [
+        "The griffin of ancient legend had a lion's body and an eagle's beak, and Greek writers said griffins lived in the deserts of Central Asia, guarding gold and laying eggs in nests on the ground.",
+        "In the Gobi Desert, at places like the Flaming Cliffs, explorers from 1923 found skeletons of Protoceratops, a dinosaur with a beak and a bony frill, along with nests of fossil eggs. In 2000, the historian Adrienne Mayor argued that ancient gold prospectors had seen such fossils and that they inspired the griffin."
+      ],
+      "explanation": "The idea is popular, but some palaeontologists point out that the fossil sites are far from ancient gold sources, and that griffins appear in Near Eastern art before Greek accounts of Central Asia. It's an attractive theory, not a proven one.",
+      "wiki": "Flaming Cliffs"
+    },
+    {
+      "slug": "dip-of-pratdip",
+      "category": "creatures",
+      "title": "The Dip, the Vampire Dog of Catalonia",
+      "region": "Pratdip, Tarragona, Catalonia, Spain",
+      "lat": 41.03,
+      "lon": 0.88,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Catalan folklore",
+      "hook": "A village in Catalonia has a black dog on its coat of arms. Legend says such dogs were servants of the Devil, and drank the blood of livestock at night.",
+      "summary": [
+        "The dip is a creature of Catalan folklore, linked above all with the village of Pratdip in the hills of Tarragona. Dips were said to be black, hairy dogs, sometimes lame, who were emissaries of the Devil and came out at night to suck the blood of cattle, sheep and sometimes people.",
+        "The village's coat of arms still shows a dip, and its name has long been explained by the legend, though it may come from older words."
+      ],
+      "explanation": "Stories like this may have grown from real attacks on livestock by wild dogs or wolves, or from bats. The dip is a cherished part of the village's identity, with a festival and a statue.",
+      "wiki": null
+    },
+    {
+      "slug": "bai-ze",
+      "category": "creatures",
+      "title": "Bai Ze, the Beast Who Knew Every Spirit",
+      "region": "Mount Tai, Shandong, China",
+      "lat": 36.25,
+      "lon": 117.1,
+      "dateLabel": "Told since ancient times",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Chinese legend",
+      "hook": "Chinese legend tells of a wise, talking beast who met the Yellow Emperor and described to him all 11,520 kinds of spirits and monsters in the world.",
+      "summary": [
+        "Bai Ze is a mythical creature of Chinese legend, often shown like a lion or ox with horns and extra eyes, wise and able to speak. When the legendary Yellow Emperor was travelling the eastern coast, he met Bai Ze, who told him about every kind of spirit, ghost and monster there was: 11,520 of them.",
+        "The emperor had them all written down and drawn, so that people would know how to recognise and protect themselves from each one."
+      ],
+      "explanation": "Bai Ze's book is lost, if it existed, but pictures of Bai Ze were hung in homes as charms against evil. The legend spread to Japan as hakutaku, and it's a kind of origin story for books of monsters.",
+      "wiki": "Bai Ze"
+    },
+    {
+      "slug": "bulgasari",
+      "category": "creatures",
+      "title": "Bulgasari, the Iron-Eater",
+      "region": "Kaesong, North Korea",
+      "lat": 37.97,
+      "lon": 126.55,
+      "dateLabel": "Told since the end of the Goryeo kingdom",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Korean folklore",
+      "hook": "Korean legend tells of a little creature made from grains of rice that ate iron. The more it ate, the bigger it grew, until no weapon could stop it.",
+      "summary": [
+        "Bulgasari is a monster of Korean legend. In the best-known version, a monk hiding from persecution shaped a tiny creature out of rice grains, which came to life and began eating iron: needles, spoons, then pots, tools and weapons.",
+        "It grew enormous and unstoppable, since arrows and swords just fed it. Its name is sometimes read as 'impossible to kill'. In some tellings it's a protector against nightmares and evil; in others its rampage marks the fall of the Goryeo kingdom, whose capital was Kaesong."
+      ],
+      "explanation": "Bulgasari is a folk creature, probably borrowed from the Chinese mo, an iron-eating tapir-like beast. Iron-eating monsters may reflect the hardships of a time when iron was taken for war.",
+      "wiki": "Bulgasari"
+    },
+    {
+      "slug": "cueva-de-salamanca",
+      "category": "places",
+      "title": "The Devil's School in Salamanca",
+      "region": "Salamanca, Castile and León, Spain",
+      "lat": 40.96,
+      "lon": -5.66,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Spanish legend",
+      "hook": "Under a church in Salamanca, legend says, the Devil himself taught magic to seven students at a time. At the end, one of them had to stay forever.",
+      "summary": [
+        "The Cueva de Salamanca is the crypt of the old church of San Cebrián, near the university city's ancient walls. Legend says the Devil, disguised as a sacristan, taught the forbidden arts there, magic, astrology and necromancy, to groups of seven students for seven years.",
+        "At the end, one of the seven, chosen by lot, had to stay and serve him. The most famous story tells of the Marquis of Villena, who tricked the Devil by hiding in a jar, and escaped, though he left his shadow behind."
+      ],
+      "explanation": "Salamanca had one of Europe's oldest universities, and stories of forbidden learning attached to it. The crypt survives, and it's now open to visitors with a small museum about the legend.",
+      "wiki": null
+    },
+    {
+      "slug": "nemi-ships",
+      "category": "places",
+      "title": "Caligula's Ships Under Lake Nemi",
+      "region": "Lake Nemi, Lazio, Italy",
+      "lat": 41.72,
+      "lon": 12.7,
+      "dateLabel": "Sunk in the 1st century; raised 1928–1932",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Fishermen for centuries, and archaeologists",
+      "hook": "For centuries, fishermen on a small lake near Rome tangled their nets on something huge on the bottom. It turned out to be two giant ships built for an emperor.",
+      "summary": [
+        "Lake Nemi is a small volcanic lake in the Alban Hills. Fishermen long told of great ships lying in its depths, and pulled up beams, bronze fittings and nails. Divers and engineers tried to raise them from the 1400s onwards, without success.",
+        "Between 1928 and 1932, the lake was partly drained, and two enormous ships emerged from the mud, each about 70 metres long. They had been built for the emperor Caligula, as floating palaces and temples, with marble floors, heating and lead pipes."
+      ],
+      "explanation": "The ships were displayed in a museum built on the shore, but in 1944, during the Second World War, a fire destroyed them. Only bronze fittings and a few pieces survive. A replica project has been planned.",
+      "wiki": "Nemi ships"
+    },
+    {
+      "slug": "wieliczka-salt-mine",
+      "category": "places",
+      "title": "The Princess's Ring in the Salt Mine",
+      "region": "Wieliczka, Lesser Poland, Poland",
+      "lat": 49.98,
+      "lon": 20.06,
+      "dateLabel": "Mined since the 13th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Polish legend, and millions of visitors",
+      "hook": "Deep under a Polish town, miners carved a cathedral out of solid salt. Legend says the salt was found thanks to a Hungarian princess's ring.",
+      "summary": [
+        "The Wieliczka salt mine, near Kraków, was dug from the 13th century until 1996, reaching more than 300 metres deep. Over centuries, miners carved chapels, statues and chandeliers out of the rock salt, including the vast Chapel of St Kinga, whose floor, walls and decorations are all salt.",
+        "Legend says that when the Hungarian princess Kinga was to marry the Polish prince Bolesław, she threw her ring into a salt mine in Hungary as a dowry. In Poland, she told miners to dig at Wieliczka, and in the first lump of salt they found was her ring."
+      ],
+      "explanation": "Salt was a source of great wealth for the Polish crown. The legend made Kinga the patron saint of salt miners. The mine is now a UNESCO World Heritage Site and museum.",
+      "wiki": "Wieliczka Salt Mine"
+    },
+    {
+      "slug": "sacred-cenote",
+      "category": "places",
+      "title": "The Sacred Well of Chichén Itzá",
+      "region": "Chichén Itzá, Yucatán, Mexico",
+      "lat": 20.69,
+      "lon": -88.57,
+      "dateLabel": "Used for centuries; dredged 1904–1910",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Spanish chroniclers and archaeologists",
+      "hook": "Next to the great pyramid of Chichén Itzá is a huge natural well, its water far below. The Maya threw treasures into it for the rain god, and sometimes people.",
+      "summary": [
+        "The Sacred Cenote is a round sinkhole about 60 metres across with sheer walls dropping to green water, at the end of a causeway from the main plaza of Chichén Itzá. Spanish chroniclers wrote that the Maya threw offerings into it for Chaac, the rain god, especially in times of drought.",
+        "Between 1904 and 1910, the American Edward Thompson dredged it and brought up jade, gold, copal incense, and the bones of people who had been sacrificed there."
+      ],
+      "explanation": "The finds confirmed the chroniclers' accounts. In the Yucatán, which has no rivers above ground, cenotes were the only water and were seen as doorways to the underworld. Many of Thompson's finds went abroad; some have since been returned to Mexico.",
+      "wiki": "Sacred Cenote"
+    },
+    {
+      "slug": "salar-de-uyuni",
+      "category": "places",
+      "title": "The Salt Flat Made of Tears",
+      "region": "Salar de Uyuni, Potosí, Bolivia",
+      "lat": -20.13,
+      "lon": -67.49,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Aymara legend",
+      "hook": "In Bolivia lies the largest salt flat on Earth, so flat that after rain it becomes a mirror of the sky. Legend says it's the tears and milk of a grieving mountain.",
+      "summary": [
+        "The Salar de Uyuni covers more than 10,000 square kilometres of the Bolivian Altiplano, a blinding white plain of salt. When a thin layer of rain covers it, it becomes the largest mirror in the world, and people seem to walk across the sky.",
+        "Aymara legend says the mountains around it were once giants. When the mountain Tunupa was abandoned by her husband, she wept as she nursed her child, and her tears and milk spilled out across the land and became the salt."
+      ],
+      "explanation": "The salt flat is what remains of ancient lakes that dried up. It's so flat that satellites use it to calibrate their instruments, and beneath the crust lies one of the world's largest reserves of lithium.",
+      "wiki": "Salar de Uyuni"
+    },
+    {
+      "slug": "kaieteur-falls",
+      "category": "places",
+      "title": "Kaieteur, the Old Man's Fall",
+      "region": "Kaieteur Falls, Potaro-Siparuni, Guyana",
+      "lat": 5.17,
+      "lon": -59.48,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Patamona tradition",
+      "hook": "In the rainforest of Guyana, a river drops 226 metres in one plunge. Legend says an old chief paddled his canoe over the edge to save his people.",
+      "summary": [
+        "Kaieteur Falls, on the Potaro River, is one of the most powerful single-drop waterfalls in the world, falling 226 metres into a gorge in the Guyanese rainforest. It was little known outside Guyana until a British geologist reached it in 1870.",
+        "Its name is often explained as 'old man's fall'. In one Patamona story, an old chief named Kai paddled his canoe over the falls as a sacrifice to the great spirit Makonaima, to save his people from their enemies."
+      ],
+      "explanation": "The legend has several versions, and the meaning of the name is debated. The falls are the heart of Kaieteur National Park, home to tiny golden frogs that live only in giant bromeliads.",
+      "wiki": "Kaieteur Falls"
+    },
+    {
+      "slug": "domus-de-janas",
+      "category": "places",
+      "title": "The Houses of the Fairies",
+      "region": "Sant'Andrea Priu, Sardinia, Italy",
+      "lat": 40.33,
+      "lon": 8.99,
+      "dateLabel": "Carved about 5,000 years ago",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Sardinian folklore, and archaeologists",
+      "hook": "All over Sardinia, small doorways lead into chambers cut into the rock. Sardinians called them the houses of the janas: tiny fairy women who wove on looms of gold.",
+      "summary": [
+        "There are more than 3,500 domus de janas, 'houses of the janas', in Sardinia: rooms carved into rock outcrops and hillsides, some single cells, some with many chambers, carved pillars, false doors and painted bull's horns.",
+        "Sardinian folklore said they were the homes of the janas, little fairy women, sometimes kind, sometimes not, who spun and wove with golden thread, sang at night, and guarded hidden treasure."
+      ],
+      "explanation": "Archaeologists have found they're tombs from the Neolithic and Copper Age, about 5,000 years old, carved to look like houses for the dead. Some were later reused as churches or shelters. Many are now a UNESCO World Heritage Site.",
+      "wiki": "Domus de Janas"
+    },
+    {
+      "slug": "hungry-grass",
+      "category": "places",
+      "title": "The Hungry Grass",
+      "region": "Mayo, Ireland",
+      "lat": 53.85,
+      "lon": -9.3,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Irish folklore",
+      "hook": "In Irish folklore, there are patches of grass that look like any other. Step on one, and you're struck with a hunger so terrible you can't go on.",
+      "summary": [
+        "Féar gortach, 'hungry grass', is a cursed patch of ground in Irish folklore. Anyone who walks across it is seized with sudden, overwhelming hunger and weakness, unable to walk any further, and could die if no one came to help.",
+        "Some said the patches were where someone had died of hunger and lay unburied, or where fairies had cursed the ground. Travellers carried a crust of bread or a few oats in their pockets, just in case."
+      ],
+      "explanation": "The belief is older than the Great Famine of the 1840s, but became bound up with memories of it, when around a million people died of hunger. It may also reflect the real, sudden weakness that can strike on long walks without food.",
+      "wiki": "Hungry grass"
     }
 ];
