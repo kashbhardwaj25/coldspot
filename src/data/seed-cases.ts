@@ -25224,5 +25224,1915 @@ export const seedCases: (typeof schema.cases.$inferInsert)[] = [
       ],
       "explanation": "The creature may be based on a real animal, such as an otter, combined with the very real danger of drowning in the old lakes. An Aztec emperor, Ahuitzotl, took its name.",
       "wiki": "Ahuizotl (mythology)"
+    },
+    {
+      "slug": "singing-mice",
+      "category": "voices",
+      "title": "The Singing Mice of the Cloud Forest",
+      "region": "Monteverde, Puntarenas, Costa Rica",
+      "lat": 10.3,
+      "lon": -84.8,
+      "dateLabel": "Studied since the 2000s",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Biologists and forest visitors",
+      "hook": "In the misty mountain forests of Costa Rica, small brown mice sing to each other, in long trilling songs that rise and fall like birdsong.",
+      "summary": [
+        "Alston's brown mouse lives in the cloud forests of Costa Rica and Panama. The males sing: they stand up, throw their heads back and let out a rapid string of high trills, up to about twenty notes a second, lasting several seconds. Much of it is too high-pitched for people to hear clearly.",
+        "The mice answer one another, taking turns like people in a conversation, and they can cut in quickly when a rival starts."
+      ],
+      "explanation": "The songs help males attract mates and warn off rivals. In 2019, neuroscientists studying the mice found the part of the brain that controls their quick back-and-forth, which may help explain how human conversation works.",
+      "wiki": "Alston's brown mouse"
+    },
+    {
+      "slug": "laughing-owl",
+      "category": "voices",
+      "title": "The Laughing Owl",
+      "region": "South Canterbury, New Zealand",
+      "lat": -44.0,
+      "lon": 171.0,
+      "dateLabel": "Last confirmed in 1914",
+      "status": "explained",
+      "statusLabel": "Extinct",
+      "witnesses": "Settlers, Māori, and naturalists",
+      "hook": "New Zealanders once heard a sound at night like a madman laughing among the rocks. It was an owl, and it hasn't been heard for certain in over a century.",
+      "summary": [
+        "The laughing owl, whēkau in Māori, was a large owl that lived among the limestone cliffs and rocky hills of New Zealand. Its call was described by early settlers as a series of loud, doleful shrieks, or maniacal laughter, echoing through the dark.",
+        "As stoats, cats and rats spread through the country, it vanished. The last one known for certain was found dead in South Canterbury in 1914."
+      ],
+      "explanation": "It was driven to extinction by introduced predators. Reports of its laughter have continued into later decades, but none has been confirmed, and it's considered extinct.",
+      "wiki": "Laughing owl"
+    },
+    {
+      "slug": "goatsucker",
+      "category": "voices",
+      "title": "The Goatsucker",
+      "region": "As told since ancient Greece",
+      "lat": 38.0,
+      "lon": 23.7,
+      "dateLabel": "Believed for more than 2,000 years",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Herders, and Aristotle",
+      "hook": "Since ancient times, herders said a bird flew down to their goats at night and drank their milk. Its name still says so: goatsucker.",
+      "summary": [
+        "Nightjars are birds of the dusk, with huge gaping mouths, soft grey-brown feathers and a long mechanical churring song that can go on for minutes, like a distant motor. They fly low and silently around livestock after dark.",
+        "Aristotle wrote that they sucked milk from goats, which then went blind, and the belief spread across Europe. The scientific name for the family, Caprimulgus, means 'goat-milker'."
+      ],
+      "explanation": "Nightjars fly around animals to catch the moths and insects drawn to them, and their wide mouths fuelled the idea. They don't drink milk. Their eerie churring, heard on warm summer nights, kept the legend alive.",
+      "wiki": "European nightjar"
+    },
+    {
+      "slug": "whip-poor-will",
+      "category": "voices",
+      "title": "The Whip-poor-will",
+      "region": "Western Massachusetts, USA",
+      "lat": 42.4,
+      "lon": -72.5,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "New England folklore",
+      "hook": "In old New England, a whip-poor-will calling close to a house at night meant someone inside would soon die. Some said the birds waited to catch the soul.",
+      "summary": [
+        "The eastern whip-poor-will is a nightjar of North American woods, whose call, repeated tirelessly through the night, sounds like its name. People in rural New England believed it was an omen of death if one sang near the house, or on the roof.",
+        "The writer H.P. Lovecraft used the belief in his 1929 story The Dunwich Horror, where flocks of whip-poor-wills gather around dying people, singing in time with their breath, to catch their souls as they leave."
+      ],
+      "explanation": "Whip-poor-wills sing most on moonlit nights in spring and summer, and they're often heard close to houses at the edge of woods. Their numbers have fallen sharply, and many people now never hear them.",
+      "wiki": "Eastern whip-poor-will"
+    },
+    {
+      "slug": "rosslyn-chapel-music",
+      "category": "voices",
+      "title": "The Music in the Stone of Rosslyn",
+      "region": "Rosslyn Chapel, Roslin, Midlothian, Scotland",
+      "lat": 55.86,
+      "lon": -3.16,
+      "dateLabel": "Carved in the 1400s; decoded in 2005",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "A father-and-son team of musicians",
+      "hook": "The ceiling of a Scottish chapel is covered with carved cubes, each with a pattern. Two musicians said the patterns were a hidden piece of music.",
+      "summary": [
+        "Rosslyn Chapel, near Edinburgh, was begun in 1446 and is crowded with carvings, from green men to angels with bagpipes. It's famous for legends about the Knights Templar and the Holy Grail, which The Da Vinci Code made world-famous.",
+        "Among its carvings are 213 small cubes on the arches, each marked with a pattern. In 2005, the composer Stuart Mitchell and his father said the patterns matched the shapes that sound vibrations make in sand on a vibrating plate, and they turned them into a piece of music, the Rosslyn Motet."
+      ],
+      "explanation": "Historians are doubtful: the patterns may just be decoration, and the science of vibration patterns wasn't known until the 1700s. The music is real enough, but whether it's what the carvers meant can't be shown.",
+      "wiki": "Rosslyn Chapel"
+    },
+    {
+      "slug": "seikilos-epitaph",
+      "category": "voices",
+      "title": "The Oldest Complete Song",
+      "region": "Near Aydın, Türkiye",
+      "lat": 37.85,
+      "lon": 27.84,
+      "dateLabel": "Carved about 2,000 years ago; found in 1883",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Archaeologists and musicians",
+      "hook": "A man named Seikilos carved a short song on a gravestone 2,000 years ago, with the notes marked above the words. It can still be sung.",
+      "summary": [
+        "In 1883, a marble column was found near the ancient city of Tralles, today's Aydın. It carries a short song in Greek, with musical notation written above the lines, put up by a man named Seikilos, perhaps for his wife.",
+        "The words say: 'While you live, shine; let nothing grieve you at all. Life lasts only a little while, and time demands its due.' It's the oldest surviving musical composition that is complete, with its tune and words."
+      ],
+      "explanation": "Older pieces of music survive in fragments, like the Hurrian hymn from Ugarit. Musicians have reconstructed the tune from its notation, and it's often performed. The column itself had a strange afterlife: its base was cut down and it was used as a stand for a flowerpot, before reaching the National Museum of Denmark.",
+      "wiki": "Seikilos epitaph"
+    },
+    {
+      "slug": "van-allen-chorus",
+      "body": "orbit",
+      "category": "voices",
+      "title": "The Chorus of the Radiation Belts",
+      "region": "In orbit, in the Van Allen radiation belts",
+      "lat": 0.0,
+      "lon": -150.0,
+      "dateLabel": "Recorded 2012–2019",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "NASA's Van Allen Probes",
+      "hook": "Far above the Earth, two NASA spacecraft recorded radio waves that, turned into sound, chirp and whistle like birds at dawn.",
+      "summary": [
+        "The Van Allen belts are two rings of charged particles trapped by Earth's magnetic field, thousands of kilometres up. In 2012 NASA sent two probes to fly through them and study the radiation there.",
+        "Their instruments recorded waves called 'chorus': bursts of radio waves at frequencies people can hear, once converted to sound. They come as rising chirps and whistles, rushing together like a dawn chorus of birds. Radio listeners on the ground had heard them faintly for decades."
+      ],
+      "explanation": "Chorus waves are made by electrons spiralling in the magnetic field, and they can speed some electrons up to nearly the speed of light, creating 'killer electrons' that can damage satellites. The probes helped explain how the belts swell and shrink.",
+      "wiki": "Van Allen Probes"
+    },
+    {
+      "slug": "holmdel-horn",
+      "category": "voices",
+      "title": "The Hiss That Was the Big Bang",
+      "region": "Holmdel, New Jersey, USA",
+      "lat": 40.39,
+      "lon": -74.18,
+      "dateLabel": "1964–1965",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Two radio astronomers at Bell Labs",
+      "hook": "Two scientists couldn't get rid of a faint hiss in their radio antenna. They blamed the pigeons. It turned out to be the echo of the beginning of the universe.",
+      "summary": [
+        "In 1964, Arno Penzias and Robert Wilson were working with a huge horn-shaped antenna at Bell Labs in Holmdel, New Jersey. Wherever they pointed it, day or night, they heard a faint, steady hiss of radio noise.",
+        "They checked every part of the equipment. Pigeons had been nesting in the horn, so they cleaned out what they politely called a white dielectric material, and chased the birds away. The hiss stayed."
+      ],
+      "explanation": "It was the cosmic microwave background: the faint afterglow of the Big Bang, filling the whole sky, predicted by theorists but never heard. Penzias and Wilson won the Nobel Prize in Physics in 1978. Part of the static on an old untuned television came from it.",
+      "wiki": "Holmdel Horn Antenna"
+    },
+    {
+      "slug": "yamabiko",
+      "category": "voices",
+      "title": "Yamabiko, the Echo in the Mountains",
+      "region": "As told across Japan's mountains",
+      "lat": 36.0,
+      "lon": 137.9,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese folklore",
+      "hook": "In Japan, when you shout in the mountains and hear your voice come back, people once said it was a spirit answering.",
+      "summary": [
+        "Yamabiko is a spirit of Japanese folklore that lives in the mountains and valleys. When someone calls out and an echo replies, slightly late, it's the yamabiko copying their voice.",
+        "Old picture books show it as a small, dog-like or monkey-like creature crouching among the rocks. In some places the yamabiko was thought to answer with mischief, saying things back a little differently."
+      ],
+      "explanation": "An echo is sound bouncing back from a cliff or slope, delayed by the time it takes to travel there and back. The word yamabiko is still the everyday Japanese word for an echo in the mountains.",
+      "wiki": "Yamabiko"
+    },
+    {
+      "slug": "voices-of-the-lop-desert",
+      "category": "voices",
+      "title": "The Voices of the Lop Desert",
+      "region": "Lop Desert, Xinjiang, China",
+      "lat": 40.2,
+      "lon": 90.3,
+      "dateLabel": "Described by Marco Polo, about 1273",
+      "status": "explained",
+      "statusLabel": "Partly explained",
+      "witnesses": "Travellers on the Silk Road",
+      "hook": "Marco Polo wrote that in a desert on the Silk Road, travellers who fell behind heard spirits calling their names, and the sound of drums and armies.",
+      "summary": [
+        "Crossing the Lop Desert, on the edge of the Taklamakan, took travellers a month. Marco Polo wrote that if anyone fell behind the caravan at night, they would hear voices calling them by name, in the voices of their companions, and follow them off the track, never to be found.",
+        "Sometimes, he said, travellers heard music, drums and the clash of arms, like an army passing. Caravans tied bells to their animals and kept close together."
+      ],
+      "explanation": "Desert dunes can make booming and roaring sounds as sand slides, and wind across rocks can sound like voices. Exhaustion, thirst and the fear of being lost in a vast empty place can make people hear things. The 'singing sands' of this region have been recorded.",
+      "wiki": "Lop Desert"
+    },
+    {
+      "slug": "tiktik",
+      "category": "voices",
+      "title": "The Tik-tik",
+      "region": "Capiz, Western Visayas, Philippines",
+      "lat": 11.4,
+      "lon": 122.7,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Filipino folklore",
+      "hook": "In the Philippines, people say a night bird calls 'tik-tik' outside houses. The softer the sound, the closer it is.",
+      "summary": [
+        "The tik-tik is a night bird in Filipino folklore, the companion, or a form, of the aswang, the shape-shifting creature of Visayan legend. Its call, 'tik-tik-tik', is heard outside houses at night, especially where someone is sick or about to give birth.",
+        "Its trick is that the sound is loudest when it's far away and faintest when it's near, so people hearing it fade think it's leaving, when in fact it's on the roof."
+      ],
+      "explanation": "The sound may come from geckos, insects or night birds. The province of Capiz is famous in the Philippines for aswang stories, though local people often resent the reputation.",
+      "wiki": null
+    },
+    {
+      "slug": "matinta-perera",
+      "category": "voices",
+      "title": "Matinta Perera, the Whistler",
+      "region": "Belém, Pará, Brazil",
+      "lat": -1.45,
+      "lon": -48.5,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Amazonian folklore",
+      "hook": "In the Brazilian Amazon, a shrill whistle at night outside your house means you should promise the whistler some tobacco. The next day, an old woman will come to collect it.",
+      "summary": [
+        "Matinta Perera is a figure of folklore in the state of Pará. At night she takes the form of a bird and perches near a house, letting out a piercing whistle that won't stop.",
+        "To silence it, someone in the house calls out a promise: tobacco, coffee or fish. The next morning an old woman knocks at the door asking for what was promised. Refuse her, and bad luck follows."
+      ],
+      "explanation": "The legend probably draws on Tupi beliefs about birds as messengers, and on the call of a real bird, perhaps a cuckoo heard at night. It's still told across the Amazon and appears in Brazilian films.",
+      "wiki": null
+    },
+    {
+      "slug": "chonchon",
+      "category": "voices",
+      "title": "The Chonchon",
+      "region": "Araucanía, Chile",
+      "lat": -38.74,
+      "lon": -72.6,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Mapuche and Chilean folklore",
+      "hook": "In southern Chile, a cry of 'tue tue' in the night is said to come from a sorcerer's head, flying through the dark on its huge ears.",
+      "summary": [
+        "In Mapuche and Chilean folklore, the chonchon is a form taken by a kalku, an evil sorcerer. The kalku's head leaves its body, its ears grow into wings, and it flies through the night, giving a sad cry: 'tue tue tue'.",
+        "It's said to come to the houses of the sick. Only other sorcerers can see it, but anyone can hear it, and some people still reply to the cry with words meant to send it away."
+      ],
+      "explanation": "The cry is often linked to an owl or another night bird. The chonchon is part of Chilean folklore and is also told in Argentina and Peru.",
+      "wiki": "Chonchon"
+    },
+    {
+      "slug": "tunche",
+      "category": "voices",
+      "title": "The Tunche",
+      "region": "Ucayali, Peru",
+      "lat": -8.38,
+      "lon": -74.55,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Folklore of the Peruvian Amazon",
+      "hook": "In the Peruvian rainforest, people say a spirit whistles in the dark. Whatever you do, don't whistle back.",
+      "summary": [
+        "The tunche is a spirit of the Peruvian Amazon, heard rather than seen. It announces itself with a long, eerie whistle in the forest at night.",
+        "People say it's the restless soul of someone who died in the forest, or a guardian of the trees. If you hear it, keep quiet: answer it with a whistle, or mock it, and it will come looking for you."
+      ],
+      "explanation": "The whistle is often linked to a real bird, a tinamou or other night bird, whose call sounds like a person whistling. The tunche has become a favourite of local storytelling and of horror films made in Peru.",
+      "wiki": null
+    },
+    {
+      "slug": "cyhyraeth",
+      "category": "voices",
+      "title": "The Cyhyraeth",
+      "region": "Carmarthenshire, Wales",
+      "lat": 51.86,
+      "lon": -4.31,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Welsh folklore",
+      "hook": "In Welsh folklore, a groaning moan that rises at night, along the river or the shore, is a voice warning that someone will soon die.",
+      "summary": [
+        "The cyhyraeth is a spirit of Welsh folklore, heard more than seen: a long, dreadful moan or wail, getting louder and then fading, said to pass a house before a death there. It was told about especially in the south and west of Wales, along rivers and the coast.",
+        "Some said it came with a light moving over the water, and that before shipwrecks it could be heard on the shore. Unlike the Irish banshee, it rarely showed itself."
+      ],
+      "explanation": "Like other omens of death, it's a folk belief that can't be tested. Wind, owls and the sounds of the sea are the usual suggestions. It's sometimes linked to the Welsh hag Gwrach y Rhibyn.",
+      "wiki": "Cyhyraeth"
+    },
+    {
+      "slug": "sirin",
+      "category": "voices",
+      "title": "Sirin, the Bird of Paradise",
+      "region": "As told across Russia",
+      "lat": 55.75,
+      "lon": 37.62,
+      "dateLabel": "Told since the Middle Ages",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Russian folklore",
+      "hook": "Russian legend tells of a bird with a woman's face whose song is so beautiful that anyone who hears it forgets everything, and follows it until they die.",
+      "summary": [
+        "Sirin is a creature of Russian legend, a bird with the head and breast of a beautiful woman, said to live in or near paradise. Her song brings joy, but it's dangerous: people who hear it forget their homes and families and follow her.",
+        "She appears with Alkonost, a bird of joy, and Gamayun, a bird of prophecy. Medieval books and carvings show her, and in 1896 the painter Viktor Vasnetsov painted Sirin and Alkonost side by side, one joyful, one sorrowful."
+      ],
+      "explanation": "Sirin descends from the Sirens of Greek myth, whose songs lured sailors to their deaths, reaching Russia through Byzantine art and books. She's a folk figure, often shown on old Russian decorated objects.",
+      "wiki": "Sirin"
+    },
+    {
+      "slug": "hejnal-mariacki",
+      "featured": true,
+      "category": "voices",
+      "title": "The Trumpet Call That Stops Mid-Note",
+      "region": "St Mary's Basilica, Kraków, Poland",
+      "lat": 50.06,
+      "lon": 19.94,
+      "dateLabel": "Played every hour; legend of 1241",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Everyone in Kraków's main square",
+      "hook": "Every hour, a trumpeter in a Polish church tower plays a short tune, and stops suddenly in the middle of a note. Legend says it's for a trumpeter killed mid-call.",
+      "summary": [
+        "From the taller tower of St Mary's Basilica in Kraków, a trumpeter plays the Hejnał mariacki every hour, day and night, once in each direction. Each time, the melody breaks off abruptly before the end.",
+        "The legend says that in 1241, as Tatar raiders approached the city, a watchman on the tower sounded the alarm on his trumpet. An arrow struck him in the throat before he could finish, but the city was warned. The call has stopped at the same place ever since. Polish radio has broadcast it at noon since 1927."
+      ],
+      "explanation": "Historians say the legend was probably invented much later, and became popular through an American children's book in 1928. The call itself is centuries old, and the tradition of cutting it short is real.",
+      "wiki": "Hejnał mariacki"
+    },
+    {
+      "slug": "bittern-bog-bull",
+      "category": "voices",
+      "title": "The Bull in the Bog",
+      "region": "Wicken Fen, Cambridgeshire, England",
+      "lat": 52.31,
+      "lon": 0.29,
+      "dateLabel": "Told for centuries",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Fen people and marsh dwellers",
+      "hook": "In the fens and marshes of Europe, people heard a deep booming at dusk, like a bull bellowing from under the water. Some thought it was a monster.",
+      "summary": [
+        "Across the marshes of England and Europe, people told of a strange, foghorn-like boom heard in spring at dawn and dusk, carrying several kilometres. In the fens they called its maker the 'bog bumper' or 'butterbump', and in places people feared a monster lived in the reeds.",
+        "Even once people knew it was a bird, they disagreed on how it did it: some said it blew into a hollow reed, others that it put its beak into the water and bellowed."
+      ],
+      "explanation": "It's the call of the Eurasian bittern, a shy heron that hides in reedbeds. The male fills his gullet with air and pushes it out in a deep boom, one of the lowest calls of any European bird. Bitterns nearly died out in Britain, and have come back with wetland restoration.",
+      "wiki": "Eurasian bittern"
+    },
+    {
+      "slug": "cry-of-the-loon",
+      "category": "voices",
+      "title": "The Cry of the Loon",
+      "region": "Algonquin Park, Ontario, Canada",
+      "lat": 45.55,
+      "lon": -78.4,
+      "dateLabel": "Told for generations",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Anyone on a northern lake at night",
+      "hook": "On the lakes of northern Canada, a long, wavering wail rises over the water at night. People have described it as the most haunting sound in nature.",
+      "summary": [
+        "The common loon is a large diving bird of the lakes of Canada and the northern United States. Its calls carry far across still water: a mournful wail, a crazed-sounding tremolo, like laughter, and a yodel.",
+        "In Anishinaabe and Cree stories, loons are messengers and guides; some people saw their cries as calls of the dead or warnings of storms. Films use the sound to say 'lonely wilderness'."
+      ],
+      "explanation": "The wail helps pairs find each other, the tremolo signals alarm, and the yodel is a male defending his territory. Calm nights over water make them carry a long way. The loon appears on Canada's one-dollar coin, called the 'loonie'.",
+      "wiki": "Common loon"
+    },
+    {
+      "slug": "snapping-shrimp",
+      "category": "voices",
+      "title": "The Crackle Under the Sea",
+      "region": "Shallow seas off northern Australia",
+      "lat": -12.46,
+      "lon": 130.84,
+      "dateLabel": "Noticed in the Second World War",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Navy sonar operators",
+      "hook": "In the Second World War, sonar operators in warm seas heard a constant crackling, like fat frying, that could hide a submarine. The noise came from shrimp.",
+      "summary": [
+        "Listening underwater in shallow tropical seas, navies found the background was full of noise: a steady crackle, like bacon frying or twigs snapping, so loud it could mask the sounds of submarines and ships.",
+        "Submarine crews learned to hide in it, and scientists set out to find what made it."
+      ],
+      "explanation": "It's made by snapping shrimp, which snap a giant claw shut so fast it shoots out a jet of water and a collapsing bubble, making one of the loudest sounds in the sea and even a brief flash of light. Colonies of millions together create the crackle.",
+      "wiki": "Alpheidae"
+    },
+    {
+      "slug": "batticaloa-singing-fish",
+      "category": "voices",
+      "title": "The Singing Fish of Batticaloa",
+      "region": "Batticaloa Lagoon, Eastern Province, Sri Lanka",
+      "lat": 7.72,
+      "lon": 81.7,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Unexplained",
+      "witnesses": "Fishermen and visitors",
+      "hook": "On still, moonlit nights in a lagoon in Sri Lanka, people say they hear music coming from under the water, like strings being plucked.",
+      "summary": [
+        "Batticaloa, on the east coast of Sri Lanka, is known as the land of the singing fish. On calm nights, especially around the full moon, people out on the lagoon near the old bridge say they hear faint musical sounds, humming, plucking or chiming, rising from the water.",
+        "The best way to hear it, people say, is to put one end of an oar in the water and the other to your ear. A priest is said to have recorded the sounds in the 1960s."
+      ],
+      "explanation": "The usual explanation is that the sounds are made by fish such as catfish, or by shellfish, in the lagoon. Nobody has pinned down the source with certainty, and the 'singing fish' are now the town's emblem.",
+      "wiki": "Batticaloa"
+    },
+    {
+      "slug": "tea-leaves-on-the-iss",
+      "body": "orbit",
+      "category": "places",
+      "title": "The Leak Found with Tea Leaves",
+      "region": "In orbit, aboard the International Space Station",
+      "lat": 45.96,
+      "lon": 63.31,
+      "dateLabel": "October 2020",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "The crew of the International Space Station",
+      "hook": "When air began leaking out of the space station and no instrument could find the hole, cosmonauts opened a bag of tea leaves and watched where they drifted.",
+      "summary": [
+        "In 2019 and 2020, the crew of the International Space Station noticed that air was escaping very slowly. The leak was traced to the Russian Zvezda module, which was launched from Baikonur in 2000, but the hole itself was too small to see.",
+        "In October 2020, the cosmonauts released a few tea leaves in the sealed section and filmed them floating in the weightless air. The leaves drifted towards one spot and gathered there, showing the crew where the crack was."
+      ],
+      "explanation": "In weightlessness, the slight flow of air towards the crack carried the leaves with it. The crew sealed the crack, though small leaks have continued to appear in that section since.",
+      "wiki": "Zvezda (ISS module)"
+    },
+    {
+      "slug": "tardigrades-in-space",
+      "body": "orbit",
+      "category": "creatures",
+      "title": "The Water Bears That Survived Space",
+      "region": "In orbit; landed in the steppe of Kazakhstan",
+      "lat": 51.0,
+      "lon": 63.0,
+      "dateLabel": "September 2007",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "European scientists",
+      "hook": "In 2007, scientists put tiny animals outside a spacecraft, in the vacuum and raw sunlight of space. Some of them came home alive.",
+      "summary": [
+        "Tardigrades, or water bears, are animals less than a millimetre long that live in moss and puddles. In September 2007, a European experiment carried dried-out tardigrades into orbit on a Russian Foton capsule and exposed them directly to space for ten days.",
+        "When the capsule landed in Kazakhstan, the scientists added water. Many of the tardigrades shielded from the Sun's ultraviolet light revived and even laid eggs, and a few survived full exposure."
+      ],
+      "explanation": "Tardigrades survive extremes by drying out almost completely and shutting down, protecting their cells with special proteins. They were the first animals known to survive the vacuum of open space.",
+      "wiki": "Foton (satellite)"
+    },
+    {
+      "slug": "tranquility-base-footprints",
+      "body": "moon",
+      "category": "places",
+      "title": "The Footprints at Tranquility Base",
+      "region": "Tranquility Base, the Moon (Apollo 11 landing site)",
+      "lat": 0.67,
+      "lon": 23.47,
+      "dateLabel": "Left on 20–21 July 1969",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "The crew of Apollo 11, and orbiting cameras since",
+      "hook": "The first footprints on the Moon are still there. With no wind or rain, they could last for millions of years.",
+      "summary": [
+        "On 20 July 1969, Neil Armstrong and Buzz Aldrin landed in the Sea of Tranquillity and spent about two and a half hours walking on the surface. They left bootprints, a plaque, instruments, and the American flag, which Aldrin saw blown over by the engine blast when they left.",
+        "In 2009 and later, NASA's Lunar Reconnaissance Orbiter photographed the site from orbit, showing the lower half of their lander and the darker paths their boots made in the dust."
+      ],
+      "explanation": "On the Moon there's no air or water to wear the prints away. They will slowly be erased by tiny meteorites and the daily heating and cooling of the surface, which takes millions of years. A laser reflector they left is still used to measure the distance to the Moon.",
+      "wiki": "Tranquility Base"
+    },
+    {
+      "slug": "hammer-and-feather",
+      "body": "moon",
+      "category": "places",
+      "title": "The Hammer and the Feather",
+      "region": "Hadley Rille, the Moon (Apollo 15 landing site)",
+      "lat": 26.1,
+      "lon": 3.66,
+      "dateLabel": "2 August 1971",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "The crew of Apollo 15, and television viewers",
+      "hook": "On live television from the Moon, an astronaut dropped a hammer and a feather at the same moment. They hit the ground together.",
+      "summary": [
+        "At the end of the last moonwalk of Apollo 15, the commander, David Scott, stood in front of the camera holding a geologist's hammer in one hand and a falcon feather in the other. He let them go together.",
+        "On Earth, the feather would have drifted down long after the hammer. On the airless Moon, the two fell side by side and landed at the same instant. 'How about that,' Scott said. 'Mr Galileo was correct.'"
+      ],
+      "explanation": "Without air resistance, all objects fall at the same rate, whatever their weight, as Galileo argued in the 1600s. The feather came from the falcon mascot of the US Air Force Academy, a nod to the lunar module, named Falcon. It's still lying where it fell.",
+      "wiki": "Apollo 15"
+    },
+    {
+      "slug": "ice-from-a-clear-sky",
+      "category": "sky",
+      "title": "The Ice That Fell from a Clear Sky",
+      "region": "Tocina, Seville, Spain",
+      "lat": 37.61,
+      "lon": -5.73,
+      "dateLabel": "January 2000",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "People in towns across Spain",
+      "hook": "Over ten days in January 2000, large blocks of ice fell out of a cloudless sky onto towns across Spain, smashing car roofs and cracking pavements.",
+      "summary": [
+        "On 8 January 2000, a block of ice weighing a couple of kilograms crashed into the street in Tocina, near Seville, on a clear, sunny day. Over the next ten days, dozens more were reported around Spain, some weighing several kilograms, damaging cars and narrowly missing people.",
+        "They weren't hailstones: there were no storms, and some were far too big. Spanish scientists collected and studied the pieces."
+      ],
+      "explanation": "Some falls may have been ice from aircraft, or copycat hoaxes after the news spread. But some don't fit those explanations, and scientists have suggested they formed in unusual conditions high in the atmosphere. They're called megacryometeors, and they've been reported in other countries since.",
+      "wiki": "Megacryometeor"
+    },
+    {
+      "slug": "tears-of-st-lawrence",
+      "category": "sky",
+      "title": "The Tears of St Lawrence",
+      "region": "Rome, Lazio, Italy",
+      "lat": 41.9,
+      "lon": 12.52,
+      "dateLabel": "Every August",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Anyone watching the sky on summer nights",
+      "hook": "Every August, around the feast of St Lawrence, the night sky fills with shooting stars. Italians call them the saint's tears.",
+      "summary": [
+        "St Lawrence was a deacon of the early Church in Rome, martyred in the year 258, and his feast day is 10 August. Around that date each year, shooting stars streak across the sky, sometimes dozens an hour.",
+        "In Italy and elsewhere, they're called le lacrime di San Lorenzo, the tears of St Lawrence, said to be the tears he wept, or the sparks of his martyrdom, falling from heaven. People go out on the night of San Lorenzo to watch them and make wishes."
+      ],
+      "explanation": "They're the Perseid meteor shower, which happens every year when the Earth passes through a trail of dust left by the comet Swift–Tuttle. The specks burn up as they hit the upper atmosphere at about 60 kilometres a second.",
+      "wiki": "Perseids"
+    },
+    {
+      "slug": "eta-carinae",
+      "category": "sky",
+      "title": "The Star That Blazed and Vanished",
+      "region": "Cape Town, Western Cape, South Africa",
+      "lat": -33.98,
+      "lon": 18.47,
+      "dateLabel": "1837–1858",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "The astronomer John Herschel and sailors of the southern seas",
+      "hook": "In the 1840s, a faint southern star suddenly became the second brightest in the night sky. Then it faded almost to nothing.",
+      "summary": [
+        "Eta Carinae is a star in the southern constellation Carina, normally a faint point. In 1837, the astronomer John Herschel, observing from near Cape Town, saw it suddenly brighten. By 1843 it was the second brightest star in the whole sky, after Sirius, and sailors used it to navigate.",
+        "Then, over the following years, it faded, until by the 1870s it could no longer be seen without a telescope."
+      ],
+      "explanation": "Eta Carinae is a pair of huge stars, one perhaps a hundred times the mass of the Sun. In the 'Great Eruption' it threw off a vast amount of material, which now surrounds it as a glowing double cloud, the Homunculus. It survived, but why it erupted is still debated, and it may one day explode as a supernova.",
+      "wiki": "Eta Carinae"
+    },
+    {
+      "slug": "keplers-supernova",
+      "category": "sky",
+      "title": "Kepler's New Star",
+      "region": "Prague, Czech Republic",
+      "lat": 50.08,
+      "lon": 14.42,
+      "dateLabel": "October 1604",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Astronomers across Europe and Asia",
+      "hook": "In 1604, a new star appeared beside the planets, brighter than any other star in the sky. It was the last star in our galaxy seen to explode.",
+      "summary": [
+        "On 9 October 1604, observers in Europe noticed a brilliant new star in the constellation Ophiuchus, near Jupiter, Mars and Saturn, which were gathered together that autumn. Astronomers in Korea and China recorded it too. It stayed visible for more than a year.",
+        "Johannes Kepler, imperial astronomer in Prague, studied it closely and wrote a book about it, De Stella Nova. Coming just after the planets met, many people took it as a sign of great events."
+      ],
+      "explanation": "It was a supernova, the explosion of a star about 20,000 light-years away. It's the most recent supernova in our own galaxy known to have been seen with the naked eye; its glowing remains can still be seen with telescopes.",
+      "wiki": "SN 1604"
+    },
+    {
+      "slug": "eddington-eclipse",
+      "featured": true,
+      "category": "sky",
+      "title": "The Eclipse That Proved Einstein",
+      "region": "Príncipe, São Tomé and Príncipe",
+      "lat": 1.62,
+      "lon": 7.4,
+      "dateLabel": "29 May 1919",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "British astronomers on Príncipe and in Brazil",
+      "hook": "On a tiny African island, astronomers waited for the clouds to part during a total eclipse. Their photographs showed that light from distant stars bends around the Sun.",
+      "summary": [
+        "Einstein's new theory of gravity predicted that the Sun would bend starlight passing close by, but stars near the Sun can only be seen during a total eclipse. In 1919, Arthur Eddington took a team to Príncipe, off the west coast of Africa, while another team went to Sobral in Brazil.",
+        "On the day, clouds covered Príncipe until the eclipse was nearly over. Eddington's team got a few useful photographs through a gap. Back in England, the results showed the stars had shifted, by the amount Einstein predicted."
+      ],
+      "explanation": "Newspapers announced a revolution in science, and Einstein became world-famous overnight. Later analysis has questioned how precise the 1919 results were, but many eclipses and experiments since have confirmed the effect.",
+      "wiki": "Eddington experiment"
+    },
+    {
+      "slug": "the-scream-sky",
+      "category": "sky",
+      "title": "The Red Sky in The Scream",
+      "region": "Ekeberg, Oslo, Norway",
+      "lat": 59.9,
+      "lon": 10.77,
+      "dateLabel": "Painted in 1893",
+      "status": "disputed",
+      "statusLabel": "Debated",
+      "witnesses": "The painter Edvard Munch",
+      "hook": "Edvard Munch wrote that he was walking at sunset when the sky turned blood red, and he felt an infinite scream passing through nature. What did he see?",
+      "summary": [
+        "Edvard Munch painted The Scream in 1893, showing a figure on a road above the Oslo fjord, under a swirling red and orange sky. He described the moment in his diary: the sun was setting, the clouds turned 'like blood', and he stood trembling with anxiety.",
+        "Scientists and art historians have asked whether the sky was a real event he remembered."
+      ],
+      "explanation": "One idea is that he remembered the vivid red sunsets of 1883 and 1884, after the eruption of Krakatoa, which were seen across Norway. Another is nacreous, 'mother-of-pearl', clouds, which can glow in waves of colour over Oslo in winter. Many art historians think the sky simply shows his inner turmoil.",
+      "wiki": "The Scream"
+    },
+    {
+      "slug": "balloon-and-three-objects",
+      "category": "sky",
+      "title": "The Balloon and the Three Objects",
+      "region": "Billings, Montana, USA",
+      "lat": 45.78,
+      "lon": -108.5,
+      "dateLabel": "January–February 2023",
+      "status": "disputed",
+      "statusLabel": "Partly explained",
+      "witnesses": "People across the United States, and fighter pilots",
+      "hook": "In February 2023, people in Montana looked up at a giant white balloon high in the sky. Over the next nine days, fighter jets shot down it and three other unidentified objects.",
+      "summary": [
+        "At the start of February 2023, people across the northern United States spotted a huge white balloon drifting at about 18 kilometres up, carrying a large payload. The US said it was a Chinese surveillance balloon; China said it was a weather balloon blown off course. On 4 February, a fighter jet shot it down off the coast of South Carolina.",
+        "Over the following week, with radars tuned to look for small, slow objects, jets shot down three more things over Alaska, Canada's Yukon and Lake Huron. Officials couldn't say what they were."
+      ],
+      "explanation": "The first balloon was recovered from the sea. The other three were never found, and US officials later said they were most likely harmless balloons, perhaps from hobby groups or companies. The episode showed how much goes unnoticed in the sky until people start looking.",
+      "wiki": "2023 Chinese balloon incident"
+    },
+    {
+      "slug": "volcanic-winter-536",
+      "category": "sky",
+      "title": "The Year the Sun Went Dim",
+      "region": "Constantinople (Istanbul), Türkiye",
+      "lat": 41.01,
+      "lon": 28.98,
+      "dateLabel": "536",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Writers in Constantinople, Rome, China and beyond",
+      "hook": "In the year 536, a historian in Constantinople wrote that the Sun shone without brightness, like the Moon, for a whole year. Crops failed across the world.",
+      "summary": [
+        "The Byzantine historian Procopius wrote that in 536 'the sun gave forth its light without brightness, like the moon, during this whole year'. Other writers in Europe and the Middle East described a dim, bluish Sun, and Chinese records tell of summer snow and famine.",
+        "Temperatures dropped across the northern hemisphere, and the cold lasted for years. Some historians have called 536 the worst year to be alive."
+      ],
+      "explanation": "Ice cores from Greenland and Antarctica show a huge volcanic eruption around 536, possibly in Iceland, followed by another in 540. The haze blocked sunlight for years. The cold, crop failures and the plague that followed in 541 changed the course of history.",
+      "wiki": "Volcanic winter of 536"
+    },
+    {
+      "slug": "laki-haze",
+      "category": "sky",
+      "title": "The Dry Fog of 1783",
+      "region": "Laki, Southern Region, Iceland",
+      "lat": 64.07,
+      "lon": -18.23,
+      "dateLabel": "June 1783–February 1784",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "People across Iceland and Europe, Benjamin Franklin among them",
+      "hook": "In the summer of 1783, a strange dry fog spread across Europe. The Sun turned blood red at noon, and the air smelled of sulphur.",
+      "summary": [
+        "In June 1783, people across Europe noticed a thick haze that didn't behave like fog: it didn't lift in the sun or the wind, and it smelled of sulphur. The Sun looked blood-red, and grass and leaves withered. In Paris, Benjamin Franklin wrote about it and wondered if a volcano was to blame.",
+        "It was a year of omens. There were violent storms, and a great fireball crossed the skies of Britain in August."
+      ],
+      "explanation": "The haze came from the Laki fissure in Iceland, which poured out lava and poisonous gases for eight months. In Iceland, the gases killed most of the livestock, and about a fifth of the population died in the famine that followed. Across Europe, the haze is thought to have caused a harsh winter and crop failures.",
+      "wiki": "Laki"
+    },
+    {
+      "slug": "hraschina-meteorite",
+      "category": "sky",
+      "title": "The Iron That Fell on Hraščina",
+      "region": "Hraščina, Krapina-Zagorje, Croatia",
+      "lat": 46.1,
+      "lon": 16.06,
+      "dateLabel": "26 May 1751",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Villagers and a priest, whose accounts were collected by the bishop of Zagreb",
+      "hook": "One May evening in 1751, villagers in Croatia saw a fireball explode overhead and two masses of iron fall from the sky. Scholars refused to believe it.",
+      "summary": [
+        "On 26 May 1751, people near the village of Hraščina, north of Zagreb, saw a fiery ball split apart in the sky with a sound like thunder, and two pieces of iron fall to the ground, one of them weighing about 40 kilograms. The bishop's office collected sworn statements from witnesses.",
+        "The larger piece was sent to the imperial collection in Vienna. At the time, most scientists dismissed the idea that stones or iron could fall from the sky."
+      ],
+      "explanation": "In 1794 the physicist Ernst Chladni used the Hraščina accounts, among others, to argue that meteorites come from space. He was right, and the Hraščina iron, still in Vienna's Natural History Museum, helped found the science of meteorites.",
+      "wiki": "Hraschina meteorite"
+    },
+    {
+      "slug": "nakhla-meteorite",
+      "category": "sky",
+      "title": "The Stone from Mars That Fell on Egypt",
+      "region": "El Nakhla, Beheira, Egypt",
+      "lat": 31.32,
+      "lon": 30.35,
+      "dateLabel": "28 June 1911",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Villagers in the Nile Delta",
+      "hook": "In 1911, a shower of stones fell on villages near Alexandria. One villager said a stone landed on a dog. Seventy years later, scientists found the stones came from Mars.",
+      "summary": [
+        "On the morning of 28 June 1911, people around El Nakhla, in the Nile Delta, heard explosions and saw a smoke trail in the sky. About 40 stones fell, many burying themselves in the ground. A farmer claimed one had struck a dog, though no remains were ever found.",
+        "The stones were collected and sent to museums. They looked like ordinary volcanic rock."
+      ],
+      "explanation": "In the 1980s, gas trapped in similar meteorites was found to match the atmosphere of Mars measured by the Viking landers, proving these rocks had been blasted off Mars by an impact. Nakhla was one of the first Martian meteorites identified, and tiny features in it have been debated as possible signs of past water or life.",
+      "wiki": "Nakhla meteorite"
+    },
+    {
+      "slug": "delphos-ring",
+      "category": "sky",
+      "title": "The Glowing Ring at Delphos",
+      "region": "Delphos, Kansas, USA",
+      "lat": 39.27,
+      "lon": -97.77,
+      "dateLabel": "2 November 1971",
+      "status": "disputed",
+      "statusLabel": "Disputed",
+      "witnesses": "A teenage boy on a farm, and his parents",
+      "hook": "On a Kansas farm, a boy said a glowing object hovered over the ground and flew off. Where it had been, his parents found a ring of soil that glowed in the dark.",
+      "summary": [
+        "On the evening of 2 November 1971, a 16-year-old boy tending sheep on his family's farm near Delphos said he saw a mushroom-shaped object covered in coloured lights hovering just above the ground, making a rumbling noise. It rose and flew away, and he was temporarily blinded.",
+        "His parents went out and found a ring on the ground where it had been, which they said glowed in the dark. The soil inside was dry and crusted, and wouldn't absorb water, even months later."
+      ],
+      "explanation": "Investigators who tested the soil found it contained a fungus, which can form 'fairy rings' and repel water, and some suggested a hoax. Others thought it was a feeding ring left by livestock. The family stood by the story, and the case is still cited by UFO researchers.",
+      "wiki": "Delphos, Kansas"
+    },
+    {
+      "slug": "milky-seas",
+      "category": "sky",
+      "title": "The Milky Sea",
+      "region": "Arabian Sea, off the Horn of Africa",
+      "lat": 8.0,
+      "lon": 52.0,
+      "dateLabel": "Reported for centuries; seen from space in 2005",
+      "status": "open",
+      "statusLabel": "Partly explained",
+      "witnesses": "Sailors, and a weather satellite",
+      "hook": "Sailors have told for centuries of nights when the whole sea glowed white to the horizon, as if they were sailing across a field of snow.",
+      "summary": [
+        "Sailors' logs from the Indian Ocean and beyond describe 'milky seas': nights when the ocean, without any moon, shone with a steady white light from horizon to horizon, bright enough to read by. Jules Verne wrote one into Twenty Thousand Leagues Under the Sea.",
+        "In 1995, a British merchant ship, the Lima, reported sailing through one for six hours off Somalia. Ten years later, scientists searched old satellite images and found the same glowing patch, about the size of Connecticut."
+      ],
+      "explanation": "Milky seas are thought to be made by vast numbers of glowing bacteria, perhaps living on blooms of algae, which glow steadily rather than flashing like other sea creatures. Why they gather in such huge numbers, and how often, is still being studied.",
+      "wiki": "Milky seas effect"
+    },
+    {
+      "slug": "black-sunday-1935",
+      "category": "sky",
+      "title": "Black Sunday",
+      "region": "Guymon, Oklahoma, USA",
+      "lat": 36.68,
+      "lon": -101.48,
+      "dateLabel": "14 April 1935",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Millions of people on the Great Plains",
+      "hook": "On a bright spring afternoon in 1935, a black wall of dust thousands of feet high rolled across the Great Plains and turned day into night.",
+      "summary": [
+        "After years of drought, the soil of the southern Great Plains had turned to dust. On Sunday 14 April 1935, a cold front picked it up and drove it south in a wall hundreds of kilometres long, moving at highway speed. People caught outside couldn't see their hands in front of their faces.",
+        "Many believed the end of the world had come. The next day, a reporter used the phrase 'the Dust Bowl', and it stuck."
+      ],
+      "explanation": "Decades of ploughing up native grassland, followed by drought, had left the soil bare to the wind. The storm and others like it led to new farming and soil-conservation methods across the United States.",
+      "wiki": "Dust Bowl"
+    },
+    {
+      "slug": "victoria-falls-moonbow",
+      "category": "sky",
+      "title": "The Moonbow of the Smoke That Thunders",
+      "region": "Victoria Falls, Matabeleland North, Zimbabwe",
+      "lat": -17.93,
+      "lon": 25.86,
+      "dateLabel": "Every full moon",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Visitors on full-moon nights",
+      "hook": "On full-moon nights at Victoria Falls, a pale rainbow arches through the spray in the dark: a rainbow made by moonlight.",
+      "summary": [
+        "Victoria Falls, on the Zambezi between Zambia and Zimbabwe, is known locally as Mosi-oa-Tunya, 'the smoke that thunders', for the great cloud of spray that rises from it. Around the full moon, when the sky is clear, a rainbow forms in that spray at night.",
+        "To the eye it often looks silvery-white, but long-exposure photographs show its full colours."
+      ],
+      "explanation": "A moonbow, or lunar rainbow, forms like a rainbow, with moonlight instead of sunlight shining through water droplets. Moonlight is so faint that our eyes can barely see colour in it. Victoria Falls, with its huge spray, is one of the few places where it appears regularly.",
+      "wiki": "Moonbow"
+    },
+    {
+      "slug": "sort-sol",
+      "category": "sky",
+      "title": "The Black Sun of Denmark",
+      "region": "Tønder marshes, Southern Denmark, Denmark",
+      "lat": 54.95,
+      "lon": 8.75,
+      "dateLabel": "Every spring and autumn",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Thousands of visitors each year",
+      "hook": "In spring and autumn, at sunset over the Danish marshes, the sky goes dark as a million birds swirl together in vast, shifting shapes.",
+      "summary": [
+        "In the marshes of south-western Jutland, near the border with Germany, huge flocks of migrating starlings gather in spring and autumn. At dusk they rise together and wheel across the sky in great clouds, folding and stretching like smoke, before dropping into the reedbeds to roost.",
+        "With up to a million birds, they can blot out the setting Sun. The Danes call it sort sol, 'black sun'."
+      ],
+      "explanation": "Starlings gather in murmurations to protect themselves from hawks and falcons: each bird follows its nearest neighbours, and the whole flock moves as one. How they coordinate so quickly is still studied by scientists.",
+      "wiki": "Sort sol"
+    },
+    {
+      "slug": "pallas-iron",
+      "category": "sky",
+      "title": "The Iron with Jewels Inside",
+      "region": "Near Krasnoyarsk, Krasnoyarsk Krai, Russia",
+      "lat": 55.0,
+      "lon": 91.6,
+      "dateLabel": "Found in 1749",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Siberian blacksmiths, and the naturalist Peter Pallas",
+      "hook": "In Siberia, people knew of a lump of iron on a hillside that was full of glittering green crystals. Local Tatars said it had fallen from the sky.",
+      "summary": [
+        "In 1749, a Cossack blacksmith came across a mass of iron weighing about 700 kilograms on a mountain south of Krasnoyarsk. It was unlike anything from a mine: inside the iron were translucent yellow-green crystals, like gemstones. Local people believed it had fallen from the sky.",
+        "In 1772 the German naturalist Peter Pallas had it carried to St Petersburg."
+      ],
+      "explanation": "It was a meteorite, a kind now named pallasite after him: iron and nickel from the core of a broken asteroid, mixed with crystals of olivine. Ernst Chladni studied it in 1794 to argue that such rocks come from space, which was then a shocking idea.",
+      "wiki": "Krasnojarsk (meteorite)"
+    },
+    {
+      "slug": "emu-in-the-sky",
+      "category": "sky",
+      "title": "The Emu in the Sky",
+      "region": "Ku-ring-gai Chase, New South Wales, Australia",
+      "lat": -33.6,
+      "lon": 151.25,
+      "dateLabel": "Known for thousands of years",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Aboriginal peoples across Australia",
+      "hook": "Aboriginal astronomers see a giant emu stretched along the Milky Way, made not of stars but of the dark spaces between them.",
+      "summary": [
+        "Look at the Milky Way from a dark place in the southern hemisphere, and you'll see dark lanes of dust winding through it. Many Aboriginal peoples see in them the shape of an emu, its head at the Coalsack near the Southern Cross and its neck and body stretching across the sky.",
+        "Its position through the year matters: when the emu appears to run, in autumn, real emus are breeding; when it seems to sit, they are on their eggs. Rock engravings near Sydney seem to show the emu lined up with its shape in the sky."
+      ],
+      "explanation": "Aboriginal astronomy is among the oldest in the world, used for navigation, seasons and law. The 'dark constellations' are made of clouds of dust that block starlight. The emu is part of cultural knowledge that is shared, and respected, today.",
+      "wiki": "Emu in the sky"
+    },
+    {
+      "slug": "matariki",
+      "category": "sky",
+      "title": "Matariki, the Stars of the New Year",
+      "region": "Wellington, New Zealand",
+      "lat": -41.29,
+      "lon": 174.78,
+      "dateLabel": "Every midwinter",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Māori astronomers, and all of New Zealand",
+      "hook": "When a small cluster of stars rises before dawn in midwinter, Māori say the new year has begun, and read the coming harvest in its brightness.",
+      "summary": [
+        "Matariki is the Māori name for the star cluster known elsewhere as the Pleiades. It disappears from the night sky in autumn and reappears low in the east before dawn in June or July, marking the Māori new year.",
+        "Traditionally, people watched its rising closely: if the stars were bright and clear, the season would be good; if hazy, the winter would be hard. It was a time to remember those who had died in the past year and to plan the planting."
+      ],
+      "explanation": "The haze and clarity of the stars depend on the winter weather and moisture in the air, which may indeed relate to the coming season. Matariki became a public holiday in New Zealand in 2022.",
+      "wiki": "Matariki"
+    },
+    {
+      "slug": "morristown-lights-hoax",
+      "category": "sky",
+      "title": "The Morristown Lights",
+      "region": "Morristown, New Jersey, USA",
+      "lat": 40.8,
+      "lon": -74.48,
+      "dateLabel": "January–February 2009",
+      "status": "explained",
+      "statusLabel": "Hoax",
+      "witnesses": "Residents, local television and the national press",
+      "hook": "Early in 2009, red lights hung in a line over a New Jersey town, then drifted apart. TV stations reported a UFO sighting. Two men were behind it.",
+      "summary": [
+        "On several evenings in January and February 2009, people in and around Morristown saw a string of red lights in the sky, moving slowly and changing formation. Photographs and videos spread, local news ran the story, and the lights were discussed on national television.",
+        "UFO researchers suggested they were something unexplained."
+      ],
+      "explanation": "In April 2009, two men admitted they had tied road flares to helium balloons and released them, as an experiment to show how easily people and media could be fooled. They were charged and fined. Their test showed that a good-looking sighting can come from almost nothing.",
+      "wiki": "Morristown UFO hoax"
+    },
+    {
+      "slug": "deception-island-1965",
+      "category": "sky",
+      "title": "The Lights over Deception Island",
+      "region": "Deception Island, Antarctica",
+      "lat": -62.97,
+      "lon": -60.65,
+      "dateLabel": "July 1965",
+      "status": "open",
+      "statusLabel": "Unidentified",
+      "witnesses": "Personnel at Argentine, Chilean and British bases",
+      "hook": "In the dark of the Antarctic winter, crews at three research stations watched a glowing object hover, change colour and race across the sky.",
+      "summary": [
+        "Deception Island is the flooded crater of a volcano in the South Shetland Islands, off the Antarctic Peninsula. In July 1965, during the long winter night, personnel at its Argentine, Chilean and British stations reported a bright lens-shaped object, glowing red and green, moving fast and stopping in mid-air.",
+        "The Argentine Navy issued a statement describing the sighting, which said some instruments had been disturbed, and the story ran in newspapers around the world."
+      ],
+      "explanation": "Suggestions include bright planets or stars distorted by the cold air near the horizon, or a satellite catching sunlight. The official reports didn't reach a conclusion. The bases on the island were later destroyed by volcanic eruptions in 1967 and 1969.",
+      "wiki": "Deception Island"
+    },
+    {
+      "slug": "shackleton-crater",
+      "body": "moon",
+      "category": "places",
+      "title": "The Crater That Has Never Seen the Sun",
+      "region": "Shackleton crater, south pole of the Moon",
+      "lat": -89.67,
+      "lon": 129.78,
+      "dateLabel": "Mapped in the 2000s",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Orbiting spacecraft from the US, Japan and India",
+      "hook": "At the Moon's south pole is a deep crater whose floor has been in darkness for billions of years, among the coldest places in the Solar System.",
+      "summary": [
+        "Shackleton crater is about 21 kilometres across and over 4 kilometres deep, almost exactly on the Moon's south pole. Because the Moon's axis is barely tilted, sunlight only ever skims its rim, and the floor has stayed in permanent shadow.",
+        "Temperatures down there are thought to stay below about minus 200°C. Meanwhile, parts of its rim are lit almost all the time, so-called peaks of eternal light."
+      ],
+      "explanation": "Craters like this can trap ice brought by comets and asteroids over billions of years. Several missions have found signs of ice in the permanently shadowed craters near the poles, which is why the region is the target for future crewed landings.",
+      "wiki": "Shackleton (crater)"
+    },
+    {
+      "slug": "tnorala-gosses-bluff",
+      "category": "places",
+      "title": "Tnorala, the Cradle That Fell from the Sky",
+      "region": "Tnorala (Gosses Bluff), Northern Territory, Australia",
+      "lat": -23.82,
+      "lon": 132.31,
+      "dateLabel": "Told for thousands of years",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The Western Arrernte people",
+      "hook": "In the desert west of Alice Springs stands a ring of hills. The Western Arrernte say a baby's cradle fell there from the sky, while the stars were dancing.",
+      "summary": [
+        "Tnorala is a ring of cliffs about 5 kilometres across, rising from the plains of central Australia. In Western Arrernte tradition, in the creation time, a group of women danced across the sky as stars, and one put her baby down in its wooden carrier. The carrier fell over the edge of the Milky Way and crashed into the earth, forming the ring.",
+        "The baby's parents, the morning and evening stars, still look for it, people say. Tnorala is a sacred site."
+      ],
+      "explanation": "Geologists have found that Tnorala is the eroded remains of a crater made when an asteroid or comet struck about 142 million years ago. The tradition of a sky object falling there is remarkable for that reason. It's a conservation reserve managed with its traditional owners.",
+      "wiki": "Gosses Bluff impact structure"
+    },
+    {
+      "slug": "mosquito-bay-vieques",
+      "category": "places",
+      "title": "The Bay That Glows",
+      "region": "Vieques, Puerto Rico",
+      "lat": 18.1,
+      "lon": -65.44,
+      "dateLabel": "Every dark night",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Visitors in kayaks at night",
+      "hook": "On a dark night in a Puerto Rican bay, every paddle stroke and every fish leaves a trail of blue-green light in the water.",
+      "summary": [
+        "Mosquito Bay, on the island of Vieques, is often called the brightest bioluminescent bay in the world. On moonless nights, the water lights up wherever it's disturbed: kayakers leave glowing trails, raindrops make sparks, and fish dart through it like comets.",
+        "Spanish sailors are said to have thought the glow was the work of the Devil, and tried to block the bay."
+      ],
+      "explanation": "The light comes from tiny single-celled organisms called dinoflagellates, which flash when the water around them moves. The bay's narrow mouth, mangroves and warm, still water let them gather in huge numbers. It dimmed after Hurricane Maria in 2017 and has since recovered.",
+      "wiki": "Puerto Mosquito"
+    },
+    {
+      "slug": "synchronous-fireflies-selangor",
+      "category": "creatures",
+      "title": "The Fireflies That Flash Together",
+      "region": "Kuala Selangor, Selangor, Malaysia",
+      "lat": 3.37,
+      "lon": 101.3,
+      "dateLabel": "Every night",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Visitors on the Selangor River",
+      "hook": "Along a river in Malaysia, thousands of fireflies sit in the mangrove trees and flash on and off, all at the same moment, like Christmas lights.",
+      "summary": [
+        "On the banks of the Selangor River near Kampung Kuantan, fireflies gather at night in the berembang trees that line the water. Instead of flashing at random, whole trees of them blink in unison, several times a second, turning the riverbank into rows of pulsing lights.",
+        "For centuries, European travellers to South-East Asia wrote of trees that lit up as if by magic, and some scientists back home refused to believe it."
+      ],
+      "explanation": "The males flash together to attract females. Each firefly adjusts its rhythm slightly to match its neighbours until the whole group falls into step, a pattern scientists study to understand how synchronisation works in nature. Pollution and land clearing now threaten the colonies.",
+      "wiki": "Pteroptyx"
+    },
+    {
+      "slug": "old-hag-newfoundland",
+      "category": "visitors",
+      "title": "The Old Hag of Newfoundland",
+      "region": "St. John's, Newfoundland and Labrador, Canada",
+      "lat": 47.56,
+      "lon": -52.71,
+      "dateLabel": "Told for generations",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Many Newfoundlanders, in their own words",
+      "hook": "In Newfoundland, people say you can wake in the night unable to move, with a weight on your chest and someone in the room. They call it being 'hagged'.",
+      "summary": [
+        "In Newfoundland folklore, the Old Hag comes at night and sits on a sleeper's chest. People describe waking up but being unable to move or call out, feeling a crushing pressure, hearing footsteps, and sensing, or seeing, an evil presence close by.",
+        "Being 'hagged' was so common that people had remedies for it, from calling the sleeper's name backwards to keeping a knife or a Bible by the bed. In the 1970s, the folklorist David Hufford studied the experience there, and found people all over the world described it in the same way."
+      ],
+      "explanation": "It's sleep paralysis: a state between dreaming and waking, in which the body stays paralysed as in dreams while the mind wakes, often with vivid sensations of a presence. Many cultures have a name for it, and it's surprisingly common. It's harmless, though terrifying.",
+      "wiki": "Night hag"
+    },
+    {
+      "slug": "duppy",
+      "category": "visitors",
+      "title": "The Duppy",
+      "region": "As told across Jamaica",
+      "lat": 18.0,
+      "lon": -76.8,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Jamaican folklore",
+      "hook": "In Jamaica, people say the dead can linger as duppies, living in the roots of silk-cotton trees and walking the roads at night.",
+      "summary": [
+        "A duppy is a spirit of the dead in Jamaican and wider Caribbean folklore. Each person is said to have two spirits: one goes to God after death, and the other, the duppy, can stay behind, especially if the burial isn't done properly.",
+        "Duppies are said to live among the roots of the great silk-cotton trees, and to be out at night. To keep them away, people scattered salt or rice, which a duppy must stop and count, and some say putting shoes under the bed the wrong way round confuses them."
+      ],
+      "explanation": "The duppy comes from West African beliefs brought to the Caribbean by enslaved people, mixed with Christian ideas. Customs like 'nine night', a gathering held after a death to help the spirit on its way, are still widely kept.",
+      "wiki": "Duppy"
+    },
+    {
+      "slug": "douen",
+      "category": "visitors",
+      "title": "The Douens",
+      "region": "As told across Trinidad and Tobago",
+      "lat": 10.5,
+      "lon": -61.3,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Trinidadian folklore",
+      "hook": "In Trinidad, parents used not to call their children's names aloud near the forest at night, in case the douens heard and called them away.",
+      "summary": [
+        "Douens are child spirits of Trinidad and Tobago folklore, said to be the souls of children who died before being baptised. They have no faces, or very small ones, under huge straw hats, and their feet point backwards.",
+        "They wander near rivers and the forest's edge and call to living children by name, luring them to play and lose their way. Parents were careful not to say a child's name loudly outdoors after dark, so the douens couldn't learn it."
+      ],
+      "explanation": "The douen is part of Trinidad's rich folklore, along with the soucouyant and Papa Bois. It combines Catholic ideas about baptism with older beliefs, and works as a warning to keep children near home at night.",
+      "wiki": "Douen"
+    },
+    {
+      "slug": "yumboes",
+      "category": "visitors",
+      "title": "The Yumboes of the Paps",
+      "region": "Les Mamelles, Dakar, Senegal",
+      "lat": 14.72,
+      "lon": -17.5,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Wolof folklore",
+      "hook": "In Senegal, people said little silver-white people lived inside the hills near the sea, and came out at night to feast on stolen couscous.",
+      "summary": [
+        "In Wolof folklore, yumboes are small fairy people, about knee-high, with pale silvery skin, who live underground in the hills called the Paps (Les Mamelles), near Dakar and Gorée island.",
+        "At night they come out to dance in the moonlight and hold feasts. They borrow fire and steal couscous and fish from people's homes, and some said their servants had no bodies, only hands and feet, so dishes seemed to float by themselves."
+      ],
+      "explanation": "The yumboes are folk figures, recorded by European travellers in the 1800s, which may have given them some of the look of European fairies. The Paps are two volcanic hills, one now topped by a lighthouse.",
+      "wiki": "Yumboes"
+    },
+    {
+      "slug": "white-div-of-mazandaran",
+      "category": "visitors",
+      "title": "The White Div of Mazandaran",
+      "region": "Mazandaran, Iran",
+      "lat": 36.5,
+      "lon": 52.0,
+      "dateLabel": "Told since ancient times; written down about 1010",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Persian epic and folklore",
+      "hook": "In Persia's national epic, the forests of Mazandaran were home to the divs, giant demons, and their chief, the White Div, who blinded a king.",
+      "summary": [
+        "Divs, or daevas, are demons of Persian myth and folklore: huge, horned, often hairy beings who live in caves and wild places and use sorcery. In the Shahnameh, the 'Book of Kings' finished by the poet Ferdowsi around 1010, the most fearsome of all is the White Div of Mazandaran.",
+        "When King Kay Kavus invades Mazandaran, the White Div blinds him and his army with darkness and takes them captive. The hero Rostam rides to the rescue through seven trials, kills the White Div in his cave, and uses its blood to restore the king's sight."
+      ],
+      "explanation": "The divs began as ancient gods who, in Zoroastrian belief, became evil beings. Mazandaran's dark, damp forests on the Caspian shore, so different from the rest of Iran, made it the natural home of demons in Persian imagination.",
+      "wiki": "Daeva"
+    },
+    {
+      "slug": "leyak",
+      "category": "visitors",
+      "title": "The Leyak of Bali",
+      "region": "Gianyar, Bali, Indonesia",
+      "lat": -8.5,
+      "lon": 115.33,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Balinese folklore",
+      "hook": "In Bali, people say some sorcerers can leave their bodies at night and fly through the dark as glowing balls of light, to cause harm.",
+      "summary": [
+        "A leyak is a figure of Balinese belief: a person who practises black magic and can transform at night. In some stories the leyak's head leaves its body and flies as a floating light; in others it becomes a monkey, a bird or a pig. Lights seen over graveyards and in the rice fields at night are said to be leyaks.",
+        "Their queen is Rangda, a terrifying widow-witch with long hair and tongue, who battles the good lion-like Barong in the famous Barong dance, a struggle with no final winner."
+      ],
+      "explanation": "Leyaks belong to Balinese Hindu belief about the balance of good and evil, acted out in temple dances and festivals. The Barong and Rangda dance is still performed daily for visitors, and in temples for ceremonies.",
+      "wiki": "Leyak"
+    },
+    {
+      "slug": "wewe-gombel",
+      "category": "visitors",
+      "title": "Wewe Gombel",
+      "region": "Gombel Hill, Semarang, Central Java, Indonesia",
+      "lat": -7.05,
+      "lon": 110.42,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Javanese folklore",
+      "hook": "In Java, people say a spirit woman takes children who are neglected by their parents, cares for them in secret, and gives them back once the parents are sorry.",
+      "summary": [
+        "Wewe Gombel is a spirit of Javanese folklore, named after Gombel Hill in Semarang. She is said to be the ghost of a woman who suffered at the hands of her husband, and now takes children who are mistreated or ignored by their families.",
+        "She hides them, often in the top of a tall tree, feeds them and looks after them. When the parents realise what they've done and show they are sorry, she lets the children go home. She is more protector than monster."
+      ],
+      "explanation": "Wewe Gombel is a folk figure with a moral, about parents' duty to look after their children. She's a well-known figure in Indonesian films and stories.",
+      "wiki": "Wewe Gombel"
+    },
+    {
+      "slug": "tschaggatta",
+      "category": "visitors",
+      "title": "The Tschäggättä of the Lötschental",
+      "region": "Lötschental, Valais, Switzerland",
+      "lat": 46.4,
+      "lon": 7.8,
+      "dateLabel": "Every February, for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The people of the Lötschental",
+      "hook": "In a remote Swiss valley, in the weeks before Lent, figures in grimacing wooden masks and shaggy furs roam the villages after dark, ringing cowbells.",
+      "summary": [
+        "In the Lötschental, a valley in the Swiss Alps, young men put on the costume of the Tschäggättä in the days before Lent: huge carved wooden masks with bared teeth and horns, sheep or goat skins, and cowbells hanging from their belts. They stalk through the villages at dusk, chasing and frightening anyone they meet.",
+        "Local stories say they recall bands of robbers, or the spirits of the dead and of winter, who had to be driven out before spring."
+      ],
+      "explanation": "Masked winter processions like this are found across the Alps. The Tschäggättä masks, each carved by hand and handed down, are a prized folk art. It's a living tradition, and visitors come to see the processions.",
+      "wiki": null
+    },
+    {
+      "slug": "kukeri",
+      "category": "visitors",
+      "title": "The Kukeri",
+      "region": "Pernik, Bulgaria",
+      "lat": 42.6,
+      "lon": 23.03,
+      "dateLabel": "Every winter",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Bulgarian villages",
+      "hook": "Every winter in Bulgaria, men dressed as monsters in towering masks and heavy bells dance through the villages, to drive away the evil spirits.",
+      "summary": [
+        "Kukeri are men who dress in great costumes of fur and coloured wool, with tall masks like horned beasts, and heavy bronze bells hung around their waists. Between New Year and the start of Lent, they move through villages in groups, dancing, jumping and making the bells clang.",
+        "The noise and the frightening masks are meant to scare off evil spirits and bring a good harvest, health and luck for the year ahead."
+      ],
+      "explanation": "The tradition probably goes back to pre-Christian rites to welcome spring. The Surva festival in Pernik is one of the biggest, gathering thousands of performers, and the Surova festivities of the same region are on UNESCO's list of Intangible Cultural Heritage.",
+      "wiki": "Kukeri"
+    },
+    {
+      "slug": "boruta",
+      "category": "visitors",
+      "title": "Boruta, the Devil of Łęczyca Castle",
+      "region": "Łęczyca, Łódź, Poland",
+      "lat": 52.06,
+      "lon": 19.2,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Polish folklore",
+      "hook": "Polish legend says a devil dressed as a nobleman lives in the dungeons of a castle in central Poland, guarding its treasure.",
+      "summary": [
+        "Boruta is the best-known devil in Polish folklore. He's said to live in the castle at Łęczyca, which stands on marshy ground, and to guard treasure hidden in its cellars. He appears as a Polish nobleman with a fine moustache, a red coat and a feathered cap, though his boots hide hooves.",
+        "Stories tell of him playing tricks on locals and visitors, getting into card games and fights, and sometimes helping the poor. He's more mischief-maker than monster."
+      ],
+      "explanation": "Boruta is a folk figure, perhaps a memory of an older marsh spirit. The town has embraced him: a statue of him stands in the castle, and the castle museum tells his stories.",
+      "wiki": null
+    },
+    {
+      "slug": "skogsra",
+      "category": "visitors",
+      "title": "The Skogsrå",
+      "region": "Värmland, Sweden",
+      "lat": 59.8,
+      "lon": 13.0,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Swedish folklore",
+      "hook": "Swedish woodsmen once feared a beautiful woman who appeared in the forest at night. Seen from behind, she was hollow, like a rotten tree.",
+      "summary": [
+        "The skogsrå, 'keeper of the forest', is a spirit of Swedish folklore. She appears to hunters, charcoal burners and woodcutters as a beautiful woman, often by the fire at night. From behind, she gives herself away: her back is hollow like an old tree trunk, or she has a cow's or fox's tail.",
+        "Men who were kind to her might be rewarded with good hunting; those who followed her into the forest could lose their way, or their minds, and pine for her afterwards."
+      ],
+      "explanation": "She is the Swedish form of a spirit known across Scandinavia, like the Norwegian huldra. Her stories reflect the loneliness and danger of long work in the forests.",
+      "wiki": "Skogsrå"
+    },
+    {
+      "slug": "brownie",
+      "category": "visitors",
+      "title": "The Brownie",
+      "region": "Scottish Borders, Scotland",
+      "lat": 55.5,
+      "lon": -2.8,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Scottish folklore",
+      "hook": "In Scottish farmhouses, people said a small, shaggy creature did the chores at night while everyone slept, asking only for a bowl of cream.",
+      "summary": [
+        "A brownie is a household spirit of Scottish and northern English folklore: a small, brown, hairy man who attaches himself to a house or farm. At night, while the family sleeps, he churns the butter, threshes the corn and tidies the house.",
+        "He wants no thanks, only a bowl of cream or a bannock left out for him. If anyone gives him clothes or insults his work, he leaves for good, sometimes turning into a mischievous boggart."
+      ],
+      "explanation": "Brownies are a folk belief, like the Scandinavian tomte. The idea of a helpful household spirit later gave its name to the Brownies, the youngest section of the Girl Guides.",
+      "wiki": "Brownie (folklore)"
+    },
+    {
+      "slug": "puca",
+      "category": "visitors",
+      "title": "The Púca",
+      "region": "Poulaphouca, Ireland",
+      "lat": 53.13,
+      "lon": -6.58,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Irish folklore",
+      "hook": "In Irish folklore, a sleek black horse with burning eyes may appear on a lonely road at night, and give you the wildest ride of your life.",
+      "summary": [
+        "The púca is a shape-shifter of Irish folklore. It can appear as a goat, a hare, a dog or a goblin, but most often as a black horse with a flowing mane and glowing yellow eyes. It tempts travellers to climb on, then gallops off across the country, over hedges and rivers, before dropping them in a ditch.",
+        "It's linked with Samhain, the start of winter. After 1 November, people said, the púca spoiled any blackberries left on the bushes, so they mustn't be eaten. Waterfalls and holes were named after it, like Poulaphouca, 'the púca's hole', in Wicklow."
+      ],
+      "explanation": "The púca is a folk figure who can bring good or bad luck. It gave its name to Puck in Shakespeare's A Midsummer Night's Dream, and appears as a giant rabbit in the play and film Harvey.",
+      "wiki": "Púca"
+    },
+    {
+      "slug": "bakeneko",
+      "category": "visitors",
+      "title": "The Bakeneko",
+      "region": "Saga, Japan",
+      "lat": 33.25,
+      "lon": 130.3,
+      "dateLabel": "Told since the Edo period",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Japanese folklore",
+      "hook": "In Japanese folklore, a cat that lives long enough can become something else: it walks on its hind legs, dances with a towel on its head, and takes human form.",
+      "summary": [
+        "A bakeneko, 'changed cat', is a cat of Japanese folklore that has gained supernatural powers, usually by living to a great age or growing very large. It can stand and walk upright, speak, lick up lamp oil, and take the shape of its owner.",
+        "The most famous story is the Nabeshima cat of Saga, which was said to have taken the form of a lord's favourite and haunted his castle. In other stories, cats were seen dancing at night with towels on their heads."
+      ],
+      "explanation": "Bakeneko stories were popular in the Edo period, in kabuki and woodblock prints. Lamps then burned fish oil, which cats really would lick, and their silent night wanderings did the rest.",
+      "wiki": "Bakeneko"
+    },
+    {
+      "slug": "aziza",
+      "category": "visitors",
+      "title": "The Aziza of the Forest",
+      "region": "Abomey, Zou, Benin",
+      "lat": 7.18,
+      "lon": 1.99,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Fon tradition of Dahomey",
+      "hook": "In the forests of old Dahomey, people said small, kindly beings lived in anthills and silk-cotton trees, and taught hunters the use of fire.",
+      "summary": [
+        "In the beliefs of the Fon people of Benin, the land of the old kingdom of Dahomey, the aziza are small forest beings who live in anthills and in the hollows of silk-cotton trees.",
+        "They are helpful to people who respect the forest. Hunters who met them might receive gifts of practical and spiritual knowledge, and stories say it was the aziza who first taught people how to use fire."
+      ],
+      "explanation": "The aziza are part of the Vodun religious tradition of Benin, still widely practised. Like the forest spirits of many cultures, they express respect for the wild and its knowledge.",
+      "wiki": "Aziza (mythology)"
+    },
+    {
+      "slug": "charro-negro",
+      "category": "visitors",
+      "title": "El Charro Negro",
+      "region": "As told across central Mexico",
+      "lat": 21.0,
+      "lon": -101.25,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Mexican folklore",
+      "hook": "On lonely Mexican roads at night, a handsome rider in a black charro suit offers travellers a lift, or a bag of gold. Accept, and you've made a deal you can't undo.",
+      "summary": [
+        "The Charro Negro is a figure of Mexican legend: an elegant horseman dressed in black, with a wide sombrero and silver buttons, riding a black horse. He appears at night on country roads and to people walking alone.",
+        "He offers riches, or a ride on his horse. Those who accept find that the gold turns into something else, or that they can't get down from the saddle, and that they've sold their soul. In some versions he is the Devil himself; in others, a man who made a pact and now has to collect souls."
+      ],
+      "explanation": "Pacts with the Devil are an old theme in Spanish and Mexican folklore. The Charro Negro dresses as the image of wealth and pride in rural Mexico, which is part of the warning.",
+      "wiki": null
+    },
+    {
+      "slug": "la-planchada",
+      "category": "visitors",
+      "title": "La Planchada",
+      "region": "Hospital Juárez, Mexico City, Mexico",
+      "lat": 19.43,
+      "lon": -99.13,
+      "dateLabel": "Told since the 20th century",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Hospital staff and patients",
+      "hook": "In a Mexico City hospital, patients have told of a nurse in a crisp, perfectly ironed uniform who tended them at night. No one on the staff matched her.",
+      "summary": [
+        "La Planchada, 'the ironed one', is a ghost said to haunt hospitals in Mexico, above all the old Hospital Juárez in Mexico City. She appears at night in an old-fashioned, immaculately pressed white uniform.",
+        "In the legend she was a nurse, often called Eulalia, who was abandoned by the doctor she loved and neglected her patients in her grief. Now she makes up for it: patients wake to find she has given them their medicine or tucked them in, and say they felt better afterwards."
+      ],
+      "explanation": "Stories like this are told in many hospitals, and may grow from the confusion of patients waking at night, from real nurses on their rounds, and from tales passed between staff. La Planchada is one of Mexico's best-known modern legends.",
+      "wiki": "Ghosts in Mexican culture"
+    },
+    {
+      "slug": "gray-man-of-pawleys-island",
+      "category": "visitors",
+      "title": "The Gray Man of Pawleys Island",
+      "region": "Pawleys Island, South Carolina, USA",
+      "lat": 33.43,
+      "lon": -79.12,
+      "dateLabel": "Reported since the 1800s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Residents of the island",
+      "hook": "On a South Carolina island, people say a man in grey appears on the beach before a hurricane to warn them. Those who see him find their houses spared.",
+      "summary": [
+        "Pawleys Island is a small resort island on the South Carolina coast, often in the path of Atlantic hurricanes. For more than a century, people there have told of a figure in grey clothes seen walking on the beach or the dunes before a big storm, who vanishes when approached.",
+        "Those who see him, the story goes, leave the island and come back to find their homes unharmed while houses around them are damaged. Sightings have been reported before hurricanes in 1893, 1954 and 1989."
+      ],
+      "explanation": "Several origin stories exist, from a drowned young man to a sailor returning to his sweetheart. Sceptics point to the fact that people tell the story after a storm, when they know whose houses survived.",
+      "wiki": "The Gray Man (ghost)"
+    },
+    {
+      "slug": "huli-jing",
+      "category": "visitors",
+      "title": "The Nine-Tailed Fox of China",
+      "region": "Zibo, Shandong, China",
+      "lat": 36.8,
+      "lon": 118.05,
+      "dateLabel": "Told for more than 2,000 years",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Chinese folklore and literature",
+      "hook": "In Chinese folklore, a fox that lives a thousand years grows nine tails and can take the form of a beautiful woman, to charm, to help or to deceive.",
+      "summary": [
+        "Huli jing, fox spirits, appear in Chinese writing from ancient times. A fox that lives long enough gains magical powers, and at a thousand years it has nine tails and can take human shape, usually as a lovely young woman.",
+        "Some fox spirits are tricksters who drain the life of the men they seduce; others are loyal companions or grateful helpers. Pu Songling, who lived near Zibo in the 1600s, collected many fox stories in his famous book Strange Tales from a Chinese Studio."
+      ],
+      "explanation": "The fox spirit spread across East Asia, becoming the kitsune of Japan and the kumiho of Korea. It's a figure of folklore and literature, still popular in Chinese films and television.",
+      "wiki": "Huli jing"
+    },
+    {
+      "slug": "garaboncias",
+      "category": "visitors",
+      "title": "The Garabonciás, Who Rides the Storm",
+      "region": "As told across Hungary",
+      "lat": 47.2,
+      "lon": 19.5,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Hungarian folklore",
+      "hook": "In Hungarian villages, a ragged student might knock at the door asking for milk and eggs. Turn him away, people said, and a hailstorm would follow.",
+      "summary": [
+        "The garabonciás is a wizard of Hungarian folklore, born with teeth or an extra finger, who studies magic for thirteen years in an underground school. He wanders the countryside in a ragged coat, carrying a magic book.",
+        "He's said to ride a dragon through the clouds and control the weather. When he comes begging for milk or eggs, it's wise to give them: those who refuse him may have their crops destroyed by storm and hail."
+      ],
+      "explanation": "Similar wandering weather-wizards appear in other parts of Central Europe. The garabonciás may be a memory of real wandering scholars, or of older shamanic traditions of the Hungarians.",
+      "wiki": null
+    },
+    {
+      "slug": "zduhac",
+      "category": "visitors",
+      "title": "The Zduhać, Who Fights the Storm Clouds",
+      "region": "As told across Serbia and Montenegro",
+      "lat": 43.9,
+      "lon": 20.9,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "South Slavic folklore",
+      "hook": "In Balkan villages, people believed some men's spirits left their bodies while they slept, to battle the storms that threatened the crops.",
+      "summary": [
+        "In the folklore of Serbia, Montenegro and neighbouring lands, a zduhać is a person, usually a man, born with special powers, often with a caul. He seems ordinary by day, but when he sleeps, his spirit leaves his body and flies into the storm clouds.",
+        "There, the zduhaći of different villages fight one another, each trying to drive hail and storms away from their own fields and onto others'. If a zduhać's body is moved while his spirit is away, it's said he can't return."
+      ],
+      "explanation": "Belief in spirit-warriors who fight for the harvest appears in other European folk traditions too, such as the benandanti of Italy. It's a folk explanation for the weather that so mattered to farming villages.",
+      "wiki": "Zduhać"
+    },
+    {
+      "slug": "zmeu",
+      "category": "visitors",
+      "title": "The Zmeu",
+      "region": "Transylvania, Romania",
+      "lat": 46.5,
+      "lon": 24.0,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Romanian folklore",
+      "hook": "In Romanian fairy tales, a giant who flies as a ball of fire carries off princesses to his palace in another world, until a hero comes for them.",
+      "summary": [
+        "The zmeu is one of the great villains of Romanian folk tales: a huge, man-shaped being with a tail, sometimes with scales, who can change shape and fly through the air, often as a fiery shape crossing the sky.",
+        "He kidnaps young women, often princesses, and carries them off to his palace in a hidden world. The hero, Făt-Frumos, must defeat him through cunning and strength. In village belief, the zmeu also visited lonely women at night as a flying flame."
+      ],
+      "explanation": "The zmeu belongs to the folk tales and beliefs of Romania and neighbouring countries, related to the Slavic zmey, a dragon. The fiery flying form may have been inspired by meteors and ball lightning.",
+      "wiki": "Zmeu"
+    },
+    {
+      "slug": "kitum-cave",
+      "category": "places",
+      "title": "The Cave the Elephants Carved",
+      "region": "Mount Elgon, Western Kenya",
+      "lat": 1.03,
+      "lon": 34.76,
+      "dateLabel": "For thousands of years",
+      "status": "explained",
+      "statusLabel": "Mostly explained",
+      "witnesses": "Rangers, scientists and visitors",
+      "hook": "On the slopes of an old volcano in Kenya, elephants walk into a dark cave at night and dig at the walls with their tusks, deep underground.",
+      "summary": [
+        "Kitum Cave is a cave about 200 metres deep in the side of Mount Elgon, on the Kenya–Uganda border. At night, herds of elephants walk into it in single file, through total darkness, to reach its walls.",
+        "There they scrape the rock with their tusks and eat it. The walls are scored with tusk marks."
+      ],
+      "explanation": "The rock is rich in salt and minerals that are scarce in the elephants' diet. Some scientists think that over thousands of years, the elephants themselves have dug much of the cave deeper, making it one of the few caves partly made by animals.",
+      "wiki": "Kitum Cave"
+    },
+    {
+      "slug": "waitomo-glowworm-caves",
+      "category": "places",
+      "title": "The Starry Ceiling of Waitomo",
+      "region": "Waitomo, Waikato, New Zealand",
+      "lat": -38.26,
+      "lon": 175.1,
+      "dateLabel": "Explored in 1887",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Visitors in boats on an underground river",
+      "hook": "Drifting in a boat on an underground river in New Zealand, you look up into the dark and see a sky full of tiny blue-green stars.",
+      "summary": [
+        "In 1887, a Māori chief, Tane Tinorau, and an English surveyor, Fred Mace, floated by raft into a cave at Waitomo, where a stream disappears underground. Looking up, they saw the roof covered in thousands of points of blue-green light.",
+        "Visitors are still taken through the Glowworm Grotto by boat, in silence, so as not to disturb the lights."
+      ],
+      "explanation": "The lights are made by the larvae of a fungus gnat found only in New Zealand. Each larva glows to attract insects, which get caught in sticky threads it hangs down from the ceiling, like fishing lines. The cave is run jointly with descendants of Tane Tinorau.",
+      "wiki": "Waitomo Glowworm Caves"
+    },
+    {
+      "slug": "bermeja-phantom-island",
+      "category": "places",
+      "title": "Bermeja, the Island That Vanished",
+      "region": "Gulf of Mexico, off the Yucatán Peninsula",
+      "lat": 22.55,
+      "lon": -91.37,
+      "dateLabel": "On maps from 1539; searched for in 2009",
+      "status": "explained",
+      "statusLabel": "Never existed",
+      "witnesses": "Mapmakers for more than three centuries",
+      "hook": "An island in the Gulf of Mexico appeared on maps for 300 years. When Mexico sent a ship to find it, there was nothing there.",
+      "summary": [
+        "Bermeja was a small island marked on Spanish maps of the Gulf of Mexico from the 16th century, north of the Yucatán Peninsula. It appeared in atlases into the 20th century.",
+        "Then it couldn't be found. The question mattered, because an island there would extend Mexico's claim to the oil-rich seabed. In 2009 a Mexican survey ship searched the spot and found only deep water. Some Mexican politicians suggested it had been secretly destroyed to change the border."
+      ],
+      "explanation": "Researchers think it was a mapping error, perhaps a mistaken position for a real reef, copied from map to map. There's no evidence it ever existed, or that anyone blew it up.",
+      "wiki": "Bermeja"
+    },
+    {
+      "slug": "kushtaka",
+      "category": "creatures",
+      "title": "The Kushtaka, the Land Otter People",
+      "region": "Sitka, Alaska, USA",
+      "lat": 57.05,
+      "lon": -135.33,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Tlingit and Tsimshian tradition",
+      "hook": "In south-east Alaska, people say otter-like beings near the shore can imitate a crying baby or a woman's call, to draw people to the water.",
+      "summary": [
+        "In Tlingit and Tsimshian tradition, the kushtaka are 'land otter people', beings who can take the form of otters or of humans. They live near water and are said to imitate the cries of a baby or a woman in distress, so that people come to help.",
+        "In some stories they rescue people lost at sea or in the cold, but turn them into kushtaka too. Dogs, which the kushtaka fear, copper, and shamans were believed to protect people from them."
+      ],
+      "explanation": "The kushtaka are part of living Indigenous belief in the region, linked with the dangers of the cold sea and wilderness. They have been borrowed by modern Bigfoot and monster lore, which can distort the tradition.",
+      "wiki": "Kushtaka"
+    },
+    {
+      "slug": "qalupalik",
+      "category": "creatures",
+      "title": "The Qalupalik Under the Ice",
+      "region": "Iqaluit, Nunavut, Canada",
+      "lat": 63.75,
+      "lon": -68.52,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Inuit tradition",
+      "hook": "Inuit children are warned not to play at the edge of the sea ice. Beneath it, a creature with long hair and long nails hums, waiting to carry them away.",
+      "summary": [
+        "The qalupalik is a sea creature of Inuit tradition, human-like but with green skin, long hair and long fingernails. It lives in the sea under the ice, and you can hear it humming before it appears.",
+        "It wears an amauti, a parka with a large hood for carrying babies, and if children wander too close to the edge of the ice alone, it puts them in its hood and takes them down under the water."
+      ],
+      "explanation": "The qalupalik is a warning tale, to keep children away from thin ice and open water, which are deadly in the Arctic. It's part of Inuit oral tradition and is still told, including in children's books.",
+      "wiki": "Qalupalik"
+    },
+    {
+      "slug": "eloko",
+      "category": "creatures",
+      "title": "The Biloko of the Forest",
+      "region": "Équateur, Democratic Republic of the Congo",
+      "lat": 0.05,
+      "lon": 18.26,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Mongo folklore",
+      "hook": "In the Congo rainforest, people tell of small, grass-covered beings living in hollow trees, who ring tiny bells to cast spells on travellers.",
+      "summary": [
+        "The eloko (plural biloko) is a creature of the folklore of the Mongo people of the central Congo Basin. Biloko are dwarf-like, without hair but covered in grass, with sharp claws and snouts, and they live in the hollows of great trees deep in the forest.",
+        "They carry small bells whose ringing is said to enchant anyone who hears it. They're often described as angry spirits of ancestors who guard the forest's game and fruit, and travellers and hunters were warned to carry protective charms."
+      ],
+      "explanation": "The biloko are folk figures, tied to respect for the forest and the ancestors. Their stories have been collected by folklorists since the 20th century.",
+      "wiki": "Eloko"
+    },
+    {
+      "slug": "bultungin",
+      "category": "creatures",
+      "title": "The Bultungin, the People Who Became Hyenas",
+      "region": "Borno, Nigeria",
+      "lat": 11.85,
+      "lon": 13.15,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Kanuri folklore",
+      "hook": "In north-eastern Nigeria, people once said there were villages where everyone could turn into a hyena at night.",
+      "summary": [
+        "Bultungin, 'I change myself into a hyena' in Kanuri, is the name for were-hyenas in the folklore of north-eastern Nigeria, around Lake Chad. People said some villages were inhabited entirely by such shape-shifters.",
+        "Stories across West and East Africa tell of were-hyenas: people who take hyena form at night and creep into villages, and who give themselves away by their behaviour or their voices by day."
+      ],
+      "explanation": "Hyenas really do come into villages at night, and their eerie whoops and laughs, which sound almost human, help explain the belief. Folklorists see were-hyenas as Africa's counterpart to European werewolves.",
+      "wiki": null
+    },
+    {
+      "slug": "simurgh",
+      "category": "creatures",
+      "title": "The Simurgh",
+      "region": "Alborz mountains, Iran",
+      "lat": 35.95,
+      "lon": 52.11,
+      "dateLabel": "Told since ancient times",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Persian myth and poetry",
+      "hook": "In Persian legend, a vast, wise bird nests on the highest mountain, raised an abandoned prince, and gave him feathers to burn if he ever needed her.",
+      "summary": [
+        "The Simurgh is a giant, kindly bird of Persian myth, so old she has seen the world destroyed and remade three times. She lives on the peak of the Alborz mountains, or on the mythical Mount Qaf at the edge of the world.",
+        "In the Shahnameh, she finds the baby Zal, abandoned on the mountainside because of his white hair, and raises him. When he leaves, she gives him three feathers; burning one will summon her. Later she helps his son Rostam. In the poet Attar's Conference of the Birds, the birds of the world seek her, and find she is themselves: si morgh, 'thirty birds'."
+      ],
+      "explanation": "The Simurgh is a figure of myth and mystical poetry, a symbol of wisdom and the divine. She appears in Persian art, carpets and architecture, and today on emblems and coins.",
+      "wiki": "Simurgh"
+    },
+    {
+      "slug": "aralez",
+      "category": "creatures",
+      "title": "The Aralez, the Dogs Who Heal",
+      "region": "Ararat plain, Armenia",
+      "lat": 40.0,
+      "lon": 44.5,
+      "dateLabel": "Told since ancient times",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Armenian myth",
+      "hook": "In Armenian myth, winged dog spirits came down from the sky to lick the wounds of fallen warriors, and bring them back to life.",
+      "summary": [
+        "The aralez are spirits of Armenian mythology, often imagined as winged dogs, who live in the sky. When warriors fell in battle, they descended and licked their wounds, healing them or raising them from the dead.",
+        "In the legend of Ara the Beautiful, the Assyrian queen Semiramis, who desired the Armenian king, made war on him and he was killed. She is said to have laid his body out for the aralez to restore."
+      ],
+      "explanation": "The aralez are a figure of ancient Armenian myth, recorded by the historian Movses Khorenatsi. Armenia's large native sheepdog, the gampr, is sometimes linked with them, and the name is used for Armenian military and sporting units.",
+      "wiki": "Aralez"
+    },
+    {
+      "slug": "sigbin",
+      "category": "creatures",
+      "title": "The Sigbin",
+      "region": "Bohol, Central Visayas, Philippines",
+      "lat": 9.85,
+      "lon": 124.15,
+      "dateLabel": "Told for generations",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Visayan folklore",
+      "hook": "In the central Philippines, people say a creature like a hornless goat walks backwards at night, with its head down between its hind legs.",
+      "summary": [
+        "The sigbin is a creature of Visayan folklore, described as like a goat or a kangaroo without horns, with very long ears it can clap like hands, and a long, whip-like tail. It walks backwards, its head lowered between its hind legs.",
+        "It comes out at night during Holy Week, and gives off a terrible smell. It's said to feed on people's shadows, or on the blood of the sick."
+      ],
+      "explanation": "The sigbin is a folk creature, perhaps inspired by real animals glimpsed at night. Some have compared it to the Philippine tarsier or to colugos, gliding animals of the islands' forests.",
+      "wiki": "Sigbin"
+    },
+    {
+      "slug": "ojancanu",
+      "category": "creatures",
+      "title": "The Ojáncanu",
+      "region": "Cantabria, Spain",
+      "lat": 43.2,
+      "lon": -4.0,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Cantabrian folklore",
+      "hook": "In the mountains of northern Spain, people told of a one-eyed giant with a red beard, who uprooted trees and smashed bridges, and could be killed only by finding one white hair.",
+      "summary": [
+        "The ojáncanu is the cyclops of Cantabrian folklore: a giant with one eye, long red hair and beard, and ten fingers on each hand. He lives in caves in the mountains and spends his time doing harm: rolling boulders onto roads, tearing up trees, breaking bridges and stealing cattle.",
+        "Hidden in his red beard is a single white hair. Pull it out, and he dies. His wife, the ojáncana, is said to be even worse."
+      ],
+      "explanation": "The ojáncanu is one of many giants and cyclopes in European folklore, perhaps linked with the old Greek tales. He's part of Cantabria's mythology, along with gentler beings like the anjanas, fairies who help travellers.",
+      "wiki": "Ojáncanu"
+    },
+    {
+      "slug": "aye-aye",
+      "category": "creatures",
+      "title": "The Aye-aye, Bringer of Death",
+      "region": "Masoala Peninsula, Madagascar",
+      "lat": -15.6,
+      "lon": 49.9,
+      "dateLabel": "Believed for generations",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Villagers in Madagascar, and zoologists",
+      "hook": "In parts of Madagascar, people say that if an aye-aye points its long, thin middle finger at you, you will die.",
+      "summary": [
+        "The aye-aye is a lemur of Madagascar's rainforests, active at night, with huge eyes, big leathery ears, coarse dark fur and a strangely long, bony middle finger. It taps on branches with that finger, listening for grubs inside, then gnaws open the wood and hooks them out.",
+        "In some regions, people believed it was an omen of death, and that if one pointed its finger at someone, that person was doomed. Aye-ayes were often killed on sight."
+      ],
+      "explanation": "The aye-aye's looks and its tapping at night made it seem uncanny. Its finger is an adaptation for finding food, a niche filled by woodpeckers elsewhere. It's endangered, partly because of persecution, and now protected.",
+      "wiki": "Aye-aye"
+    },
+    {
+      "slug": "axolotl",
+      "category": "creatures",
+      "title": "The Axolotl, the God Who Hid in the Water",
+      "region": "Xochimilco, Mexico City, Mexico",
+      "lat": 19.26,
+      "lon": -99.1,
+      "dateLabel": "Told since Aztec times",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Aztec myth, and biologists",
+      "hook": "Aztec myth says a god turned himself into a smiling salamander to escape death. It lives in the canals of Mexico City, and can regrow its own legs.",
+      "summary": [
+        "The axolotl is a salamander found wild only in the lakes and canals of Xochimilco, in Mexico City. It never fully grows up: it keeps its feathery gills and lives its whole life underwater, looking like a smiling tadpole.",
+        "In Aztec myth, the god Xolotl, brother of Quetzalcoatl, refused to be sacrificed to set the Sun in motion, and fled, changing shape until he became an axolotl in the water."
+      ],
+      "explanation": "The axolotl's ability to regrow limbs, parts of its heart and even its brain has made it one of the most studied animals in science. In the wild, it's critically endangered, as the canals have been polluted and filled.",
+      "wiki": "Axolotl"
+    },
+    {
+      "slug": "olm-baby-dragons",
+      "featured": true,
+      "category": "creatures",
+      "title": "The Baby Dragons of the Caves",
+      "region": "Postojna, Inner Carniola, Slovenia",
+      "lat": 45.78,
+      "lon": 14.2,
+      "dateLabel": "Described in 1689",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Slovenian villagers, and a 17th-century scholar",
+      "hook": "After heavy rains in Slovenia, pale, blind, snake-like creatures with tiny legs were washed out of the caves. People said they were the young of dragons.",
+      "summary": [
+        "In 1689, the scholar Janez Vajkard Valvasor wrote that people near Vrhnika believed dragons lived deep underground, because after floods, small pale creatures were washed out of springs, and they looked like baby dragons.",
+        "The creatures were olms: blind salamanders up to 30 centimetres long, with pinkish-white skin and feathery red gills, that live their whole lives in the dark waters of caves."
+      ],
+      "explanation": "Olms live only in the caves of the Dinaric Alps. They can live for a century, and survive up to ten years without food. A colony at Postojna Cave is watched by scientists, and in 2016 people around the world followed the hatching of olm eggs there.",
+      "wiki": "Olm"
+    },
+    {
+      "slug": "tapanuli-orangutan",
+      "category": "creatures",
+      "title": "The Great Ape Found in 2017",
+      "region": "Batang Toru, North Sumatra, Indonesia",
+      "lat": 1.6,
+      "lon": 99.2,
+      "dateLabel": "Described in 2017",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Scientists and local people",
+      "hook": "In 2017, scientists announced a new species of great ape, living in a small patch of Sumatran forest. It's the rarest great ape on Earth.",
+      "summary": [
+        "Local people in the Batang Toru forest of North Sumatra had long known of orangutans in their hills, far from other known populations. In 1997, researchers confirmed them, but it took twenty more years to show how different they were.",
+        "In 2017, scientists studying their skulls, teeth and DNA announced they were a separate species, the Tapanuli orangutan, with frizzier hair and different calls. It was the first new great ape species to be described since the bonobo in 1929."
+      ],
+      "explanation": "There are thought to be fewer than 800 of them, in a forest threatened by roads, mining and a hydroelectric dam. Their discovery shows that even large animals can go unrecognised.",
+      "wiki": "Tapanuli orangutan"
+    },
+    {
+      "slug": "wollemi-pine",
+      "category": "places",
+      "title": "The Dinosaur Tree in the Hidden Canyon",
+      "region": "Wollemi National Park, New South Wales, Australia",
+      "lat": -32.9,
+      "lon": 150.6,
+      "dateLabel": "Found in 1994",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "A park ranger on a hike",
+      "hook": "In 1994, a ranger exploring a remote canyon near Sydney found a stand of trees known only from fossils older than the dinosaurs' extinction.",
+      "summary": [
+        "In September 1994, David Noble, a national parks officer, was abseiling into a gorge in the Wollemi wilderness, about 150 kilometres from Sydney, when he noticed trees with strange, bubbly bark and fern-like leaves he didn't recognise.",
+        "Botanists found they were a new genus, the Wollemi pine, related to trees that grew 90 million years ago. Fewer than a hundred grow wild, all in a few hidden canyons."
+      ],
+      "explanation": "Its location is kept secret to protect it from disease and collectors. In 2019–20, firefighters saved the grove during huge bushfires. Seedlings have been sold around the world to help the species survive.",
+      "wiki": "Wollemia"
+    },
+    {
+      "slug": "chacoan-peccary",
+      "category": "creatures",
+      "title": "The Animal Known Only from Fossils",
+      "region": "Gran Chaco, Paraguay",
+      "lat": -21.0,
+      "lon": -61.0,
+      "dateLabel": "Found alive in 1975",
+      "status": "explained",
+      "statusLabel": "Confirmed",
+      "witnesses": "Local hunters, and a biologist",
+      "hook": "Scientists described a wild pig-like animal from fossils in 1930 and assumed it was extinct. In 1975, it turned up alive in Paraguay.",
+      "summary": [
+        "The Chacoan peccary was first known to science from fossil bones, described in 1930, and was thought to have died out thousands of years ago.",
+        "In 1975, the American biologist Ralph Wetzel found it alive in the dry thorn forests of the Gran Chaco in Paraguay. Local people had known it all along, calling it the tagua, and its skins had been seen without anyone realising."
+      ],
+      "explanation": "The Chaco is a vast, hot and thinly populated region where large animals can go unnoticed by science. The peccary is now endangered as the forests are cleared for ranching.",
+      "wiki": "Chacoan peccary"
+    },
+    {
+      "slug": "monarchs-day-of-the-dead",
+      "featured": true,
+      "category": "creatures",
+      "title": "The Butterflies That Bring Back the Dead",
+      "region": "Monarch Butterfly Biosphere Reserve, Michoacán, Mexico",
+      "lat": 19.6,
+      "lon": -100.27,
+      "dateLabel": "Every autumn",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "The people of Michoacán",
+      "hook": "Every year, around the Day of the Dead, millions of orange butterflies arrive in the mountain forests of Mexico. Many people believe they carry the souls of the dead.",
+      "summary": [
+        "Each autumn, monarch butterflies fly up to 4,000 kilometres from Canada and the United States to a few mountain forests in central Mexico, arriving in late October and early November. They cover the fir trees so thickly that branches bend under their weight.",
+        "Their arrival comes at the time of the Day of the Dead, when families welcome back the spirits of those who have died, and in local tradition the butterflies are those souls returning."
+      ],
+      "explanation": "The monarchs migrate to escape the northern winter; no single butterfly makes the round trip, so how they find these same few forests is still being studied. Scientists only found the wintering sites in 1975, though local people had always known them.",
+      "wiki": "Monarch Butterfly Biosphere Reserve"
+    },
+    {
+      "slug": "lemmings-myth",
+      "category": "creatures",
+      "title": "The Lemmings Who Never Jumped",
+      "region": "Alberta, Canada",
+      "lat": 51.05,
+      "lon": -114.07,
+      "dateLabel": "Filmed in 1958",
+      "status": "explained",
+      "statusLabel": "Myth",
+      "witnesses": "Cinema audiences around the world",
+      "hook": "Millions of people believe lemmings follow each other off cliffs in mass suicide. They saw it in a Disney film. It was staged.",
+      "summary": [
+        "The idea that lemmings, small Arctic rodents, sometimes kill themselves by the thousand is very old. In the 1500s, some European writers believed they fell from the sky in storms, and later stories told of them throwing themselves into the sea.",
+        "In 1958, Disney's Oscar-winning nature film White Wilderness showed lemmings rushing over a cliff into the Arctic Ocean. It fixed the image in people's minds for generations."
+      ],
+      "explanation": "In 1982 a Canadian journalist revealed that the scene was filmed in Alberta, far from the sea, with lemmings bought in from elsewhere, and that the animals were pushed off a river bank by the crew. Real lemming populations boom and crash, and they migrate when crowded, sometimes drowning while crossing water, but they don't commit suicide.",
+      "wiki": "Lemming"
+    },
+    {
+      "slug": "spider-rain-brazil",
+      "category": "creatures",
+      "title": "The Rain of Spiders",
+      "region": "Santo Antônio da Platina, Paraná, Brazil",
+      "lat": -23.3,
+      "lon": -50.08,
+      "dateLabel": "2013, and other years",
+      "status": "explained",
+      "statusLabel": "Explained",
+      "witnesses": "Townspeople, and millions who saw the videos",
+      "hook": "In a Brazilian town, people looked up to see thousands of spiders hanging in the air above the road, as if they were raining from the sky.",
+      "summary": [
+        "In February 2013, a resident of Santo Antônio da Platina filmed what looked like a shower of spiders: thousands of them suspended in the air along a roadside, against the sky. The video spread around the world. Similar scenes have been filmed in other parts of Brazil since.",
+        "It looked like the spiders were falling, or flying."
+      ],
+      "explanation": "They were a social spider species, Anelosimus eximius, which lives in colonies of thousands. They had strung a huge, almost invisible web between trees and poles, and were sitting on it, waiting to catch insects. Elsewhere, spiders really can float through the air on threads, which is called ballooning.",
+      "wiki": "Ballooning (spider)"
+    },
+    {
+      "slug": "lough-ree-monster",
+      "category": "creatures",
+      "title": "The Lough Ree Monster",
+      "region": "Lough Ree, on the River Shannon, Ireland",
+      "lat": 53.5,
+      "lon": -7.98,
+      "dateLabel": "18 May 1960",
+      "status": "open",
+      "statusLabel": "Unidentified",
+      "witnesses": "Three priests on a fishing trip",
+      "hook": "Three priests fishing on an Irish lake one May evening watched a dark creature with a snake-like head swim slowly past them, then dive.",
+      "summary": [
+        "On the evening of 18 May 1960, three priests from Dublin were fishing on Lough Ree, a large lake on the River Shannon. They saw a creature in the water about 100 metres away: a flat, snake-like head on a long neck, and a dark hump behind, moving steadily before sinking out of sight.",
+        "They reported it to the Inland Fisheries Trust, and the sighting made news. Lough Ree has older stories of a water monster, or péist, too."
+      ],
+      "explanation": "Suggestions include an otter, a large eel, a swimming deer or a cormorant seen at a distance, as with many lake monster sightings. The priests' standing made the report unusually credible at the time, but nothing has been found since.",
+      "wiki": "Lough Ree"
+    },
+    {
+      "slug": "lake-khaiyr-monster",
+      "category": "creatures",
+      "title": "The Monster of Lake Khaiyr",
+      "region": "Lake Khaiyr, Sakha (Yakutia), Russia",
+      "lat": 70.8,
+      "lon": 136.6,
+      "dateLabel": "1964",
+      "status": "open",
+      "statusLabel": "Unconfirmed",
+      "witnesses": "A Soviet biologist at a remote research station",
+      "hook": "In 1964, a Soviet scientist said he saw a creature with a small head, a long neck and a fin on its back climb onto the shore of a lake in Siberia.",
+      "summary": [
+        "Lake Khaiyr is a small lake in the far north of Yakutia, in Siberia. In 1964, a biologist working at a research station there reported seeing a dark creature come out of the water onto the bank to eat grass: it had a small head, a long shining neck, and a tall fin along its back.",
+        "When the story appeared in a Soviet magazine, expeditions came to look. Some members said they saw a head in the water; others saw nothing."
+      ],
+      "explanation": "The lake is small and freezes deep in winter, which would make it hard for a large animal to live there. Later investigators doubted the original report. Siberia has several famous lake monster stories, including Labynkyr.",
+      "wiki": "Lake Khaiyr"
+    },
+    {
+      "slug": "valhalla-sea-serpent",
+      "category": "creatures",
+      "title": "The Sea Serpent Seen by Naturalists",
+      "region": "Off the coast of Paraíba, Brazil",
+      "lat": -7.0,
+      "lon": -33.5,
+      "dateLabel": "7 December 1905",
+      "status": "open",
+      "statusLabel": "Unidentified",
+      "witnesses": "Two British naturalists on the yacht Valhalla",
+      "hook": "Two respected naturalists on a scientific voyage saw a large fin, then a long neck rise from the sea off Brazil. They reported it to the Zoological Society of London.",
+      "summary": [
+        "In December 1905, the steam yacht Valhalla was sailing off the coast of Brazil on a natural history voyage. Two naturalists aboard, Michael Nicoll and Edmund Meade-Waldo, saw a large dark fin moving through the water near the ship.",
+        "Then, in front of the fin, a long neck rose out of the sea, topped by a head like a turtle's, and moved from side to side. They published their account in the Proceedings of the Zoological Society of London the next year."
+      ],
+      "explanation": "Their reputation as careful scientists has made this one of the best-regarded sea serpent sightings. Suggestions include a giant squid, a large eel-like fish or an unknown animal. No explanation has been settled.",
+      "wiki": "Valhalla (steam yacht, 1892)"
+    },
+    {
+      "slug": "kulshedra",
+      "category": "creatures",
+      "title": "The Kulshedra and the Drangue",
+      "region": "As told across Albania",
+      "lat": 41.33,
+      "lon": 19.82,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Albanian folklore",
+      "hook": "In Albanian folklore, droughts are caused by a many-headed serpent who blocks the springs. Thunderstorms are the battle when a winged hero comes to fight her.",
+      "summary": [
+        "The kulshedra is a female dragon of Albanian folklore, a huge, many-headed serpent that breathes fire and lives in caves and lakes. She causes drought by drying up the springs, and floods and storms when she's angry, and people had to offer her sacrifices to release the water.",
+        "Her enemy is the drangue, a winged human hero born with special powers. Thunder and lightning are their battles: the drangue hurls lightning and rocks at the kulshedra until she is driven away and the rains return."
+      ],
+      "explanation": "The kulshedra belongs to an old family of storm-dragon myths in Europe and the Near East. The legend gave a story to the weather on which Albanian farming depended.",
+      "wiki": "Kulshedra"
+    },
+    {
+      "slug": "tepegoz",
+      "category": "creatures",
+      "title": "Tepegöz, the One-Eyed Giant",
+      "region": "Ganja, Azerbaijan",
+      "lat": 40.68,
+      "lon": 46.36,
+      "dateLabel": "Told for centuries; written down in the 1500s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "The Book of Dede Korkut",
+      "hook": "In an epic of the Oghuz Turks, a one-eyed giant terrorises the land, demanding people for his meals, until a young hero blinds him with a red-hot blade.",
+      "summary": [
+        "The Book of Dede Korkut is a collection of epic stories of the Oghuz Turks, shared by Azerbaijan, Türkiye and Turkmenistan. One of them tells of Tepegöz, 'eye on the top of the head', a giant with a single eye in his forehead, born to a shepherd and a fairy.",
+        "Nothing can wound him, and he forces the Oghuz people to send him people and sheep to eat. The hero Basat, raised by a lioness, finally heats a knife in the fire, blinds him while he sleeps, and escapes from his cave dressed in a ram's skin, before killing him."
+      ],
+      "explanation": "The story is strikingly close to Homer's tale of Odysseus and the cyclops Polyphemus, and scholars have long debated how they are related. It's a folk epic, still told and taught in Azerbaijan and Türkiye.",
+      "wiki": "Tepegöz"
+    },
+    {
+      "slug": "pepys-island",
+      "category": "places",
+      "title": "Pepys Island, the Phantom of the South Atlantic",
+      "region": "South Atlantic Ocean, north of the Falklands",
+      "lat": -47.0,
+      "lon": -61.0,
+      "dateLabel": "Reported in 1683",
+      "status": "explained",
+      "statusLabel": "Never existed",
+      "witnesses": "A buccaneer and the sailors who searched for it",
+      "hook": "In 1683, a sailor reported a green island with a fine harbour in the South Atlantic. The Royal Navy spent decades looking for it.",
+      "summary": [
+        "In 1683, the English buccaneer Ambrose Cowley wrote that he had sighted an unknown island in the South Atlantic, green with trees and with a harbour big enough for a thousand ships. He named it after Samuel Pepys, then a senior official of the Admiralty.",
+        "It went onto the maps. In 1764, Commodore John Byron was sent to find it, and searched for days without success. Others tried after him. It stayed on some charts into the 19th century."
+      ],
+      "explanation": "Most historians think Cowley saw the Falkland Islands and recorded the latitude wrongly. Phantom islands like this were common on old maps, copied from one to the next long after anyone had seen them.",
+      "wiki": "Pepys Island"
+    },
+    {
+      "slug": "buggane-st-trinians",
+      "category": "places",
+      "title": "The Church the Buggane Wouldn't Let Be Roofed",
+      "region": "St Trinian's Church, Marown, Isle of Man",
+      "lat": 54.21,
+      "lon": -4.58,
+      "dateLabel": "Told for centuries",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Manx folklore",
+      "hook": "On the Isle of Man stands a little medieval church that has never had a roof for long. Legend says a monster tore it off every time.",
+      "summary": [
+        "St Trinian's Church, in a field below Greeba Mountain, is a small roofless ruin from the 14th century. Manx legend says that whenever builders put a roof on it, a buggane, a huge, hairy ogre with tusks and claws, burst up through the floor and tore it off.",
+        "A tailor named Timothy once bet that he could sew a pair of breeches in the church overnight, buggane or not. As he worked, the monster rose from the floor, and Timothy ran, with the buggane behind him, until he reached holy ground. In fury, the buggane tore off its own head and threw it after him."
+      ],
+      "explanation": "Historians think the church was simply never finished, perhaps for lack of money, or because the roof failed. The legend explains a strange ruin in a vivid way. It's a protected monument.",
+      "wiki": "Buggane"
+    },
+    {
+      "slug": "prague-orloj-legend",
+      "category": "places",
+      "title": "The Curse of the Prague Astronomical Clock",
+      "region": "Old Town Square, Prague, Czech Republic",
+      "lat": 50.09,
+      "lon": 14.42,
+      "dateLabel": "Built in 1410; legend of the 1490s",
+      "status": "open",
+      "statusLabel": "Legend",
+      "witnesses": "Visitors every hour",
+      "hook": "Every hour, a skeleton rings a bell on Prague's medieval clock. Legend says its maker was blinded so he could never build another, and took revenge.",
+      "summary": [
+        "The Prague Orloj, on the Old Town Hall, is the oldest astronomical clock still working, installed in 1410. Every hour, the figure of Death, a skeleton, pulls a bell rope, and the twelve apostles parade past two little windows.",
+        "Legend says a master clockmaker called Hanuš built it, and the city councillors had him blinded so he couldn't make one as fine for anyone else. Before he died, he reached into the clock's works and stopped it, and no one could start it again for years. People also say that if the clock is neglected, the city will suffer."
+      ],
+      "explanation": "Records show the clock was built by Mikuláš of Kadaň with the astronomer Jan Šindel. A clockmaker called Hanuš did repair it around 1490, and the blinding story was attached to him later. The clock has been restored many times, most recently in 2018.",
+      "wiki": "Prague astronomical clock"
     }
 ];
