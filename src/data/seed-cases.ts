@@ -37077,6 +37077,1691 @@ const part4: SeedCase[] = [
     ],
     "explanation": "The lake lies in a rift where the Earth's crust is being pulled apart. It's fed by seawater seeping underground from the nearby Gulf of Tadjoura, which evaporates in the heat, leaving the salt. Its eerie landscape has been used in films.",
     "wiki": "Lake Assal (Djibouti)"
+  },
+  {
+    "slug": "periodical-cicadas",
+    "featured": false,
+    "category": "voices",
+    "title": "The Insects That Wait 17 Years",
+    "region": "Cincinnati, Ohio, USA",
+    "lat": 39.16,
+    "lon": -84.48,
+    "dateLabel": "Every 13 or 17 years; Brood X in 2021",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Millions of people in the eastern United States",
+    "hook": "For 17 years they wait underground. Then, in a few nights, billions climb out of the soil at once, and the woods roar with their song.",
+    "summary": [
+      "Periodical cicadas live in the eastern United States. Their young spend 13 or 17 years underground, feeding on tree roots. Then, in a single spring, a whole brood emerges within days, crawling up tree trunks in the dark, shedding their skins and flying off with red eyes and orange wings.",
+      "For a few weeks, the males sing in huge choruses, a pulsing, whining roar that can be as loud as a lawnmower. When English settlers first saw them in the 1600s, they thought they were a biblical plague of locusts. In 2021, the huge 'Brood X' emerged across a dozen states."
+    ],
+    "explanation": "By emerging all at once in such enormous numbers, the cicadas overwhelm predators: birds and animals can eat only a fraction of them. Their prime-numbered life cycles of 13 and 17 years may help them avoid predators with shorter cycles. They're harmless to people.",
+    "wiki": "Periodical cicadas"
+  },
+  {
+    "slug": "deaths-head-hawkmoth",
+    "featured": false,
+    "category": "voices",
+    "title": "The Moth with a Skull That Screams",
+    "region": "Andalusia, Spain",
+    "lat": 37.39,
+    "lon": -5.98,
+    "dateLabel": "Feared for centuries",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Country people, beekeepers and naturalists",
+    "hook": "A large moth flies at night with the image of a human skull on its back. When you pick it up, it squeaks.",
+    "summary": [
+      "The death's-head hawkmoth is one of the largest moths in Europe and Africa, with a wingspan of up to 13 centimetres. On its thorax is a pale marking that looks strikingly like a human skull. When disturbed, it lets out a loud, shrill squeak.",
+      "For centuries, its appearance was taken as an omen of death, war or plague. It also slips into beehives at night to steal honey. It became famous worldwide from the poster of the film The Silence of the Lambs."
+    ],
+    "explanation": "The skull pattern is natural, and probably helps scare off predators. The moth squeaks by pushing air out through its mouth parts, a rare ability for an insect. It gets into beehives safely partly by mimicking the scent of bees, so that they don't attack it.",
+    "wiki": "Acherontia atropos"
+  },
+  {
+    "slug": "bushbaby-cries",
+    "featured": false,
+    "category": "voices",
+    "title": "The Babies Crying in the Night",
+    "region": "Kruger National Park, South Africa",
+    "lat": -24.0,
+    "lon": 31.5,
+    "dateLabel": "Heard every night",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Campers and rangers",
+    "hook": "At night in the African bush, campers hear what sounds like a human baby crying in the trees.",
+    "summary": [
+      "In southern and eastern Africa, people sleeping out in the bush are sometimes startled by wailing cries in the dark that sound very like a baby crying. The noise can be repeated again and again, close by in the branches overhead.",
+      "Some travellers have searched for an abandoned child before learning what the cry really was."
+    ],
+    "explanation": "The cries belong to galagos, or bushbabies, small primates with huge eyes that come out at night. Their name comes partly from these calls, which they use to keep in touch with each other. They can leap several metres between branches in the dark.",
+    "wiki": "Galago"
+  },
+  {
+    "slug": "morepork-ruru",
+    "featured": false,
+    "category": "voices",
+    "title": "The Owl That Calls 'More-Pork'",
+    "region": "Waipoua Forest, Northland, New Zealand",
+    "lat": -35.65,
+    "lon": 173.55,
+    "dateLabel": "Heard every night",
+    "status": "open",
+    "statusLabel": "Folklore",
+    "witnesses": "Māori tradition and New Zealanders",
+    "hook": "In New Zealand's forests at night, a small owl calls out two notes: 'more-pork'. In Māori tradition, it's a guardian, and its cry can be a message.",
+    "summary": [
+      "The ruru, or morepork, is a small brown owl found across New Zealand. Its call, two soft notes that sound like 'more-pork', is one of the most familiar night sounds of the New Zealand bush.",
+      "In Māori tradition, the ruru is often seen as a kaitiaki, a guardian spirit, watching over people and places. Its call could carry meaning: a soft, steady call might mean good news, while a high, shrill cry could be a warning of bad news or danger."
+    ],
+    "explanation": "The ruru calls to mark its territory and keep in touch with its mate. Its role in Māori belief reflects a deep relationship with the birds of the forest, which were seen as linked to the gods and ancestors.",
+    "wiki": "Morepork"
+  },
+  {
+    "slug": "infrasound-concert",
+    "featured": false,
+    "category": "voices",
+    "title": "The Concert with a Hidden Sound",
+    "region": "Purcell Room, Southbank Centre, London, England, UK",
+    "lat": 51.506,
+    "lon": -0.116,
+    "dateLabel": "31 May 2003",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "About 750 concert-goers and a team of scientists",
+    "hook": "In 2003, scientists secretly played a sound too low to hear during parts of a London concert. Some of the audience felt anxiety, chills and sorrow.",
+    "summary": [
+      "In 2003, the psychologist Richard Wiseman and a team of scientists and musicians held an unusual concert in London. During some pieces, a huge pipe played infrasound, a very low note of about 17 hertz, below the range of human hearing. The audience didn't know which pieces had it.",
+      "Afterwards, the audience filled in questionnaires. During the pieces with infrasound, about a fifth more people reported strange feelings, such as unease, sorrow, chills down the spine or a sense of nervousness."
+    ],
+    "explanation": "The experiment suggested that infrasound could cause odd sensations, and might explain some feelings people have in places said to be haunted, where low-frequency sound from wind, machinery or pipes can be present. The researcher Vic Tandy had made a similar suggestion a few years earlier.",
+    "wiki": null
+  },
+  {
+    "slug": "wilhelm-scream",
+    "featured": false,
+    "category": "voices",
+    "title": "The Scream That's in Every Film",
+    "region": "Burbank, California, USA",
+    "lat": 34.15,
+    "lon": -118.34,
+    "dateLabel": "Recorded in 1951",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Film-goers around the world",
+    "hook": "Once you know it, you hear it everywhere: the same man's scream, recorded in 1951, in hundreds of films, from westerns to Star Wars.",
+    "summary": [
+      "In 1951, for the western Distant Drums, a set of screams was recorded for a scene where a man is dragged into a swamp by an alligator. One of them, a short, high yell, was kept in the Warner Bros sound library and reused again and again, including for a character named Private Wilhelm in a 1953 film.",
+      "In the 1970s, the sound designer Ben Burtt noticed it in old films, nicknamed it the Wilhelm scream, and put it into Star Wars. Since then, it has been used in hundreds of films, television shows and video games, as an in-joke among sound designers."
+    ],
+    "explanation": "The scream is a real recording, probably voiced by the actor and singer Sheb Wooley, who was in Distant Drums. It's one of the most famous sound effects in history. Many people find it eerie to keep hearing the same man scream across decades of films.",
+    "wiki": "Wilhelm scream"
+  },
+  {
+    "slug": "backmasking-panic",
+    "featured": false,
+    "category": "voices",
+    "title": "The Hidden Messages in Records Played Backwards",
+    "region": "Sacramento, California, USA",
+    "lat": 38.58,
+    "lon": -121.49,
+    "dateLabel": "Early 1980s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Preachers, politicians and record buyers",
+    "hook": "In the early 1980s, Americans were told that rock records hid satanic messages, audible only when played backwards. Lawmakers held hearings.",
+    "summary": [
+      "Backmasking means recording sounds backwards onto a song, and some musicians did it deliberately as a joke or an experiment. But in the early 1980s, some American preachers and campaigners claimed that rock bands were hiding satanic messages in their music, which listeners would absorb without knowing.",
+      "The most famous claim was about Led Zeppelin's 'Stairway to Heaven', which some said contained lines about Satan when played in reverse. In 1982, a committee of the California State Assembly held a hearing about it, and bills were proposed to put warning labels on records."
+    ],
+    "explanation": "Researchers found that people hear 'messages' in reversed speech mainly when they're told what to listen for, an effect of pareidolia, and that hidden backward messages have no effect on listeners. The warning-label bills were not passed.",
+    "wiki": "Backmasking"
+  },
+  {
+    "slug": "yanny-or-laurel",
+    "featured": false,
+    "category": "voices",
+    "title": "Yanny or Laurel?",
+    "region": "Atlanta, Georgia, USA",
+    "lat": 33.75,
+    "lon": -84.39,
+    "dateLabel": "May 2018",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Millions of people online",
+    "hook": "In 2018, a four-second recording split the world. Half the people who heard it heard 'Laurel'. The other half heard 'Yanny'.",
+    "summary": [
+      "In May 2018, a short audio clip of a voice saying a single word spread across social media. Some listeners clearly heard 'Laurel'. Others, just as sure, heard 'Yanny'. Families, friends and colleagues argued about it, and some people heard it switch from one to the other.",
+      "The recording turned out to be an old clip from an online dictionary, of a singer pronouncing the word 'laurel'."
+    ],
+    "explanation": "Audio experts explained that the poor-quality recording contains sound at different frequencies. People who pay more attention to higher frequencies, often younger people, or who listen on certain speakers, tend to hear 'Yanny', and those who focus on lower ones hear 'Laurel'. It showed how much the brain fills in when we hear speech.",
+    "wiki": "Yanny or Laurel"
+  },
+  {
+    "slug": "kiama-blowhole",
+    "featured": false,
+    "category": "voices",
+    "title": "The Booming Blowhole of Kiama",
+    "region": "Kiama, New South Wales, Australia",
+    "lat": -34.67,
+    "lon": 150.86,
+    "dateLabel": "Recorded by Europeans in 1797",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors for over 200 years",
+    "hook": "On the coast of New South Wales, the sea is forced into a hole in the rock with a deep boom, and shoots a jet of spray high into the air.",
+    "summary": [
+      "At Kiama, south of Sydney, waves rush into a cave beneath a rocky headland and up through a hole in its roof. When the swell is right, the blowhole booms like a cannon and blasts a column of water and spray up to 25 metres into the air, drenching anyone too close.",
+      "The explorer George Bass recorded the blowhole in 1797, describing the 'tremendous noise' it made."
+    ],
+    "explanation": "The blowhole formed where the sea eroded a weakness in the volcanic rock, creating a cave whose roof later collapsed partly to make a hole. When a wave fills the cave, the air and water are compressed and forced upwards with great force.",
+    "wiki": "Kiama Blowhole"
+  },
+  {
+    "slug": "spouting-horn",
+    "featured": false,
+    "category": "voices",
+    "title": "The Lizard Who Roars at Spouting Horn",
+    "region": "Poʻipū, Kauaʻi, Hawaii, USA",
+    "lat": 21.885,
+    "lon": -159.49,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Hawaiian tradition and visitors",
+    "hook": "On the south shore of Kauaʻi, seawater bursts out of a lava tube with a deep groan and hiss. Hawaiian legend says it's a giant lizard, trapped inside.",
+    "summary": [
+      "Spouting Horn, near Poʻipū on Kauaʻi, is a blowhole in the black lava rock of the shore. When waves rush in, water shoots high into the air, followed by a loud moaning, hissing sound from a second, smaller hole.",
+      "A Hawaiian legend tells of a giant moʻo, a lizard spirit, who guarded the coast and attacked anyone who came to fish or swim. A young man tricked it into chasing him into the lava tube, where it became stuck. The groaning sound is the moʻo, still trying to get out."
+    ],
+    "explanation": "The water spout and sound are caused by waves forcing water and air through a lava tube under the shore. The hiss comes from air escaping through a smaller hole. The legend gives a powerful story to a familiar natural wonder.",
+    "wiki": "Spouting Horn"
+  },
+  {
+    "slug": "forrabury-silent-tower",
+    "featured": false,
+    "category": "voices",
+    "title": "The Silent Tower of Forrabury",
+    "region": "Forrabury, Boscastle, Cornwall, England, UK",
+    "lat": 50.69,
+    "lon": -4.7,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Cornish folklore",
+    "hook": "A church above a Cornish harbour has never had bells. The ship bringing them sank in sight of land, and in storms, they're said to toll under the sea.",
+    "summary": [
+      "The church of St Symphorian at Forrabury, high above Boscastle harbour in Cornwall, has a tower without bells. Local legend explains why: long ago, a ship was bringing new bells for the church. As it approached the harbour, the pilot heard the bells of a nearby church and thanked God for a safe voyage.",
+      "The captain mocked him, saying they should thank him and the ship instead. A storm blew up, the ship was wrecked on the rocks, and only the pilot survived. The bells sank, and in stormy weather, it's said, they can be heard ringing beneath the waves."
+    ],
+    "explanation": "The legend, popularised by the Victorian poet Robert Stephen Hawker, is one of many tales of drowned bells around Britain. Boscastle's harbour is notoriously difficult to enter, and shipwrecks on that coast were common.",
+    "wiki": "Forrabury and Minster"
+  },
+  {
+    "slug": "bosham-bell",
+    "featured": false,
+    "category": "voices",
+    "title": "The Bell That Answers from the Creek",
+    "region": "Bosham, West Sussex, England, UK",
+    "lat": 50.828,
+    "lon": -0.86,
+    "dateLabel": "Told since the Middle Ages",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Sussex folklore",
+    "hook": "Raiders stole the great bell of a church in Sussex and sailed away with it. The bell sank their ship, and whenever the church's bells ring, it rings back from the water.",
+    "summary": [
+      "Holy Trinity Church at Bosham, on a creek of Chichester Harbour, is one of the oldest churches in England and appears on the Bayeux Tapestry. Legend says that long ago, Danish raiders came up the creek, plundered the church and took its great tenor bell to their ship.",
+      "As they sailed away, the monks rang the remaining bells, and the stolen bell broke through the ship's hull and sank it, drowning the raiders. It lies in a deep part of the creek called Bell Hole, and whenever the church bells are rung, it's said to answer from beneath the water."
+    ],
+    "explanation": "The coast was raided by Vikings, so the legend has a real background, but there's no evidence for the bell. Attempts to raise it are said to have failed. It's one of many legends of drowned bells in Britain and Europe.",
+    "wiki": "Bosham"
+  },
+  {
+    "slug": "meng-jiangnu",
+    "featured": false,
+    "category": "voices",
+    "title": "The Woman Whose Tears Broke the Great Wall",
+    "region": "Shanhaiguan, Hebei, China",
+    "lat": 40.02,
+    "lon": 119.75,
+    "dateLabel": "Told for over 2,000 years",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Chinese folklore",
+    "hook": "Her husband was forced to build the Great Wall and never came home. When she reached the Wall, she wept so bitterly that it collapsed.",
+    "summary": [
+      "The legend of Lady Meng Jiang is one of China's Four Great Folktales. In it, a young woman's husband is taken away soon after their wedding to labour on the Great Wall for the first emperor, Qin Shi Huang. When winter comes, she travels a great distance to bring him warm clothes, only to learn that he has died and been buried within the wall.",
+      "She weeps so long and so loudly that a section of the wall collapses, revealing his remains. In many versions, the emperor then demands she marry him, and she defies him."
+    ],
+    "explanation": "The story grew over many centuries from a much older tale of a grieving widow, and came to express the suffering of ordinary people under harsh rulers. A temple dedicated to her stands near Shanhaiguan, at the eastern end of the Great Wall.",
+    "wiki": "Lady Meng Jiang"
+  },
+  {
+    "slug": "hunga-tonga-boom",
+    "featured": true,
+    "category": "voices",
+    "title": "The Eruption Heard 10,000 Kilometres Away",
+    "region": "Hunga Tonga–Hunga Haʻapai, Tonga",
+    "lat": -20.55,
+    "lon": -175.39,
+    "dateLabel": "15 January 2022",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "People across the Pacific, Alaska and beyond, and instruments worldwide",
+    "hook": "In January 2022, an underwater volcano in Tonga exploded so powerfully that people in Alaska, 10,000 kilometres away, heard a series of booms.",
+    "summary": [
+      "On 15 January 2022, the underwater volcano Hunga Tonga–Hunga Haʻapai, in the South Pacific, erupted in one of the largest explosions of modern times. It sent ash high into the atmosphere and triggered tsunamis across the Pacific.",
+      "The sound of the blast travelled astonishing distances. People in Alaska, about 10,000 kilometres away, reported hearing repeated booms, like distant gunfire. The pressure wave from the explosion was recorded by barometers all around the world as it circled the planet several times."
+    ],
+    "explanation": "It was the most powerful volcanic explosion recorded with modern instruments, and its sound travelled further than any since the eruption of Krakatoa in 1883. Scientists are still studying how the pressure wave moved through the atmosphere.",
+    "wiki": "2022 Hunga Tonga–Hunga Haʻapai eruption and tsunami"
+  },
+  {
+    "slug": "schumann-resonance",
+    "featured": false,
+    "category": "voices",
+    "title": "The Earth's 'Heartbeat'",
+    "region": "Munich, Bavaria, Germany",
+    "lat": 48.15,
+    "lon": 11.57,
+    "dateLabel": "Predicted in 1952",
+    "status": "explained",
+    "statusLabel": "Partly misunderstood",
+    "witnesses": "Physicists, and many people online",
+    "hook": "The whole Earth hums with a very low electromagnetic note, about eight beats a second. Online, it's been called the planet's heartbeat, and blamed for everything from tiredness to spiritual awakenings.",
+    "summary": [
+      "In 1952, the German physicist Winfried Otto Schumann, working in Munich, predicted that the space between the Earth's surface and the ionosphere would act like a giant echo chamber for very low-frequency radio waves. These 'Schumann resonances', at about 7.8 hertz and higher, were later measured.",
+      "In recent years, claims have spread online that the resonance is 'the Earth's heartbeat', that it's speeding up, and that its changes cause headaches, tiredness, or shifts in human consciousness."
+    ],
+    "explanation": "The resonances are real and are mainly powered by lightning strikes, thousands of which happen around the world every minute. Scientists use them to study global storms and the atmosphere. There's no good evidence that they're rising or that they affect human health or minds.",
+    "wiki": "Schumann resonances"
+  },
+  {
+    "slug": "coqui-frog",
+    "featured": false,
+    "category": "voices",
+    "title": "The Coquí, the Song of Puerto Rico's Nights",
+    "region": "El Yunque, Puerto Rico",
+    "lat": 18.3,
+    "lon": -65.79,
+    "dateLabel": "Heard every night",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Everyone who has spent a night in Puerto Rico",
+    "hook": "As soon as night falls in Puerto Rico, the air fills with a loud, two-note call, 'co-kee, co-kee', from a frog the size of a coin.",
+    "summary": [
+      "The coquí is a tiny tree frog, often just 2 or 3 centimetres long, that lives in Puerto Rico. At dusk, the males begin calling, a sharp, two-note 'co-quí', and thousands of them together make a chorus that can reach the loudness of a busy street. It's the soundtrack of Puerto Rican nights.",
+      "The coquí is a beloved symbol of the island. A popular saying goes that coquís can't survive outside Puerto Rico, and that if one leaves, it stops singing."
+    ],
+    "explanation": "The two notes of the call do different jobs: one warns off other males, the other attracts females. Coquís introduced accidentally to Hawaii have thrived there, where people complain about the noise, so the saying isn't quite true.",
+    "wiki": "Common coquí"
+  },
+  {
+    "slug": "webdriver-torso",
+    "featured": false,
+    "category": "voices",
+    "title": "The Channel of Beeps and Rectangles",
+    "region": "YouTube headquarters, San Bruno, California, USA",
+    "lat": 37.63,
+    "lon": -122.43,
+    "dateLabel": "Noticed in 2014",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Internet users",
+    "hook": "In 2014, people discovered a YouTube channel with hundreds of thousands of videos, each showing red and blue rectangles moving to a series of beeps. Was it a secret code?",
+    "summary": [
+      "In 2014, internet users noticed a YouTube account called Webdriver Torso that had uploaded hundreds of thousands of short videos since 2013. Each one showed a few red and blue rectangles jumping around a white screen while electronic tones beeped at different pitches.",
+      "The videos had no explanation. Theories spread quickly: a spy numbers station, a code, alien signals or a strange experiment."
+    ],
+    "explanation": "Google, which owns YouTube, revealed that the channel was used by its engineers to automatically test video upload quality. The simple shapes and tones made it easy to compare how videos looked and sounded after processing. YouTube later added in-jokes about it.",
+    "wiki": "Webdriver Torso"
+  },
+  {
+    "slug": "ball-lightning-in-a-plane",
+    "featured": false,
+    "category": "sky",
+    "title": "The Ball of Light That Floated Down the Aisle",
+    "region": "On a night flight from New York, USA",
+    "lat": 40.64,
+    "lon": -73.78,
+    "dateLabel": "March 1963",
+    "status": "explained",
+    "statusLabel": "Probably ball lightning",
+    "witnesses": "A physicist and other passengers on a night flight",
+    "hook": "On a night flight through a storm, a physicist watched a glowing ball the size of a football come out of the cockpit and drift down the aisle.",
+    "summary": [
+      "In March 1963, Roger Jennison, a British physicist, was on an Eastern Airlines night flight from New York to Washington during a thunderstorm. After the plane was hit by lightning, he saw a glowing sphere, about 20 centimetres across and blue-white, emerge from the cockpit and float slowly down the centre aisle, about a metre above the floor.",
+      "It passed close by him and disappeared towards the rear of the plane. He published his account in the scientific journal Nature in 1969."
+    ],
+    "explanation": "Jennison's account, from a trained scientist, became one of the most often cited reports of ball lightning, a rare phenomenon that many scientists once doubted. Its cause is still debated, with theories ranging from burning silicon vapour to microwave effects, and it has proved very hard to study.",
+    "wiki": null
+  },
+  {
+    "slug": "comet-lovejoy-2011",
+    "featured": false,
+    "category": "sky",
+    "title": "The Comet That Flew Through the Sun and Survived",
+    "region": "Brisbane, Queensland, Australia",
+    "lat": -27.47,
+    "lon": 153.03,
+    "dateLabel": "Discovered November 2011",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "An amateur astronomer, then space telescopes",
+    "hook": "In 2011, an amateur astronomer found a comet heading straight for the Sun. Everyone expected it to be destroyed. It came out the other side.",
+    "summary": [
+      "In November 2011, Terry Lovejoy, an amateur astronomer in Queensland, Australia, discovered a comet. Calculations showed it was a sungrazer, on course to pass within about 140,000 kilometres of the Sun's surface, through its scorching outer atmosphere.",
+      "Scientists expected it to evaporate. On 16 December, spacecraft watching the Sun saw it disappear behind the Sun's glare, and then, to astonishment, re-emerge on the other side with its tail streaming. Days later, it was a spectacular sight in southern skies."
+    ],
+    "explanation": "The comet's nucleus was large enough to survive the brief passage, though it lost a great deal of material and broke up weeks later. Its survival gave scientists a rare chance to study the Sun's atmosphere and magnetic field through the comet's tail.",
+    "wiki": "C/2011 W3 (Lovejoy)"
+  },
+  {
+    "slug": "comet-holmes-outburst",
+    "featured": false,
+    "category": "sky",
+    "title": "The Comet That Suddenly Exploded in Brightness",
+    "region": "London, England, UK",
+    "lat": 51.51,
+    "lon": -0.13,
+    "dateLabel": "1892 and October 2007",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "Edwin Holmes, then sky-watchers around the world",
+    "hook": "In October 2007, a faint comet brightened about half a million times in less than two days, becoming a fuzzy ball visible without a telescope.",
+    "summary": [
+      "Comet Holmes was discovered in 1892 by the English amateur astronomer Edwin Holmes in London, when it suddenly became bright. Then it faded and was nearly forgotten.",
+      "On 23 October 2007, it did it again. In about 42 hours, it brightened by a factor of around half a million, becoming easily visible with the naked eye as a yellowish star, then swelling into a glowing ball of dust that, for a while, was wider than the Sun itself."
+    ],
+    "explanation": "The outburst was caused by a sudden release of gas and dust from the comet's nucleus, perhaps from a collapse or a burst of trapped ice turning to gas. Why such a huge outburst happened, and why twice, is still not fully understood.",
+    "wiki": "Comet Holmes"
+  },
+  {
+    "slug": "t-coronae-borealis",
+    "featured": false,
+    "category": "sky",
+    "title": "The Blaze Star That's Due to Return",
+    "region": "Tuam, County Galway, Ireland",
+    "lat": 53.52,
+    "lon": -8.85,
+    "dateLabel": "Erupted in 1866 and 1946; expected again",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "John Birmingham in 1866, then astronomers worldwide",
+    "hook": "Every 80 years or so, a star too faint to see suddenly blazes out among the stars of the Northern Crown, as bright as the Pole Star, for a few days.",
+    "summary": [
+      "On 12 May 1866, the Irish astronomer John Birmingham, at Tuam in County Galway, noticed a bright new star in the constellation Corona Borealis, the Northern Crown. Within days, it faded back to near-invisibility. It's now called T Coronae Borealis, or the Blaze Star.",
+      "In February 1946, it erupted again, almost exactly 80 years later. Astronomers have been watching it closely, because it has shown signs of preparing for another eruption, which could happen any year now."
+    ],
+    "explanation": "T Coronae Borealis is a recurrent nova: a pair of stars, one a dense white dwarf pulling gas from a red giant companion. When enough gas builds up on the white dwarf, it explodes in a runaway nuclear reaction, briefly making it thousands of times brighter. Then the cycle starts again.",
+    "wiki": "T Coronae Borealis"
+  },
+  {
+    "slug": "betelgeuse-great-dimming",
+    "featured": false,
+    "category": "sky",
+    "title": "The Night Orion's Shoulder Faded",
+    "region": "Paranal Observatory, Antofagasta, Chile",
+    "lat": -24.63,
+    "lon": -70.4,
+    "dateLabel": "Late 2019 to early 2020",
+    "status": "explained",
+    "statusLabel": "Mostly explained",
+    "witnesses": "Astronomers and sky-watchers worldwide",
+    "hook": "In 2019, one of the brightest stars in the sky, the red shoulder of Orion, began to fade dramatically. People wondered if it was about to explode.",
+    "summary": [
+      "Betelgeuse is a red supergiant star marking the shoulder of the constellation Orion, normally one of the ten brightest stars in the night sky. From late 2019, it faded to less than half its normal brightness, so that Orion looked noticeably different.",
+      "Because Betelgeuse is a huge, old star expected to explode as a supernova one day, the dimming led to excitement and speculation that the explosion might be close. Telescopes, including the Very Large Telescope in Chile, photographed its surface changing."
+    ],
+    "explanation": "Astronomers concluded that the star had thrown off a large cloud of gas, which cooled into dust and blocked some of its light, combined with a cool patch on its surface. It returned to normal in 2020. It will explode eventually, but probably not for many thousands of years.",
+    "wiki": "Betelgeuse"
+  },
+  {
+    "slug": "neptune-found-by-mathematics",
+    "featured": false,
+    "category": "sky",
+    "title": "The Planet Found with a Pen",
+    "region": "Berlin Observatory, Berlin, Germany",
+    "lat": 52.5,
+    "lon": 13.4,
+    "dateLabel": "23 September 1846",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Urbain Le Verrier, Johann Galle and Heinrich d'Arrest",
+    "hook": "Uranus was drifting off its predicted path, as if something unseen were tugging on it. A mathematician worked out where the culprit must be, and on the first night of looking, there it was.",
+    "summary": [
+      "After Uranus was discovered in 1781, astronomers found that it didn't move quite as predicted: something seemed to be pulling on it. The French mathematician Urbain Le Verrier, using only calculations, worked out where an unknown planet would have to be to explain it, and sent his prediction to the Berlin Observatory.",
+      "On the night of 23 September 1846, Johann Galle and Heinrich d'Arrest pointed their telescope at the spot. Within an hour, they found an object not on their star charts, less than a degree from where Le Verrier had said. It was Neptune."
+    ],
+    "explanation": "The discovery was a triumph of Newton's theory of gravity, showing that unseen worlds could be found by their pull alone. In England, John Couch Adams had made similar calculations, which led to a long dispute about credit. The same method later failed to find a planet 'Vulcan'.",
+    "wiki": "Discovery of Neptune"
+  },
+  {
+    "slug": "tombaugh-planet-x",
+    "featured": false,
+    "category": "sky",
+    "title": "The Search for Planet X",
+    "region": "Lowell Observatory, Flagstaff, Arizona, USA",
+    "lat": 35.2,
+    "lon": -111.66,
+    "dateLabel": "Found on 18 February 1930",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Clyde Tombaugh and Lowell Observatory",
+    "hook": "A rich astronomer spent his last years hunting for an unseen Planet X. After he died, a young farm boy from Kansas, hired to keep looking, found something.",
+    "summary": [
+      "Percival Lowell, the astronomer who believed in canals on Mars, was convinced that another planet lay beyond Neptune, which he called Planet X. He searched for years at his observatory in Flagstaff, Arizona, but died in 1916 without finding it.",
+      "In 1929, the observatory hired Clyde Tombaugh, a 23-year-old from a Kansas farm with no university degree, who had impressed them with his drawings of planets. Comparing photographic plates night after night, on 18 February 1930 he spotted a faint dot that moved. It was named Pluto."
+    ],
+    "explanation": "Pluto turned out to be far too small to cause the effects Lowell had calculated, which later proved to be errors in the measurements. Its discovery was partly luck. In 2006, Pluto was reclassified as a dwarf planet, one of many icy worlds in the Kuiper Belt. Some of Tombaugh's ashes flew past it aboard the New Horizons probe.",
+    "wiki": "Clyde Tombaugh"
+  },
+  {
+    "slug": "ceres-lost-and-found",
+    "featured": false,
+    "category": "sky",
+    "title": "The New Planet That Was Lost",
+    "region": "Palermo Observatory, Palermo, Sicily, Italy",
+    "lat": 38.11,
+    "lon": 13.35,
+    "dateLabel": "Discovered 1 January 1801",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Giuseppe Piazzi, then Carl Friedrich Gauss",
+    "hook": "On the first night of the 19th century, an astronomer in Palermo found a new world. Then it slipped behind the Sun and vanished. A young mathematician worked out where to find it.",
+    "summary": [
+      "On 1 January 1801, the astronomer Giuseppe Piazzi, at the observatory in Palermo, noticed a faint star that moved from night to night. He followed it for several weeks, until it disappeared in the glare of the Sun. Astronomers feared the new planet, which he named Ceres, had been lost.",
+      "A 24-year-old German mathematician, Carl Friedrich Gauss, developed a new method to calculate its orbit from Piazzi's few observations. At the end of 1801, astronomers looked where Gauss predicted, and found Ceres again."
+    ],
+    "explanation": "Ceres was the first asteroid ever found, and it's now classed as a dwarf planet, the largest object in the asteroid belt. Gauss's methods became fundamental to astronomy and statistics. NASA's Dawn spacecraft orbited Ceres from 2015, finding mysterious bright spots of salt.",
+    "wiki": "Ceres (dwarf planet)"
+  },
+  {
+    "slug": "apophis",
+    "featured": false,
+    "category": "sky",
+    "title": "Apophis, the Asteroid Named After a Demon",
+    "region": "Kitt Peak National Observatory, Arizona, USA",
+    "lat": 31.96,
+    "lon": -111.6,
+    "dateLabel": "Discovered in 2004; close pass on 13 April 2029",
+    "status": "explained",
+    "statusLabel": "No danger",
+    "witnesses": "Astronomers worldwide",
+    "hook": "In 2004, astronomers found an asteroid with a worrying chance of hitting Earth in 2029. They named it after the Egyptian serpent of chaos.",
+    "summary": [
+      "In June 2004, astronomers at Kitt Peak in Arizona discovered an asteroid about 340 metres wide. When they calculated its orbit, there seemed to be a chance, at one point estimated at nearly 3%, that it would hit the Earth on 13 April 2029, one of the highest risks ever calculated for a large asteroid.",
+      "It was named Apophis, after the serpent god of chaos and darkness in ancient Egyptian myth, enemy of the Sun god Ra."
+    ],
+    "explanation": "Further observations ruled out an impact in 2029, and later ones ruled out any impact for at least a hundred years. But on 13 April 2029, Apophis will pass closer than some satellites, about 32,000 kilometres from Earth, and will be visible to the naked eye. Space agencies plan missions to study it.",
+    "wiki": "99942 Apophis"
+  },
+  {
+    "slug": "asteroid-2024-yr4",
+    "featured": false,
+    "category": "sky",
+    "title": "The Asteroid That Briefly Had a 3% Chance of Hitting Earth",
+    "region": "Río Hurtado, Coquimbo, Chile",
+    "lat": -30.47,
+    "lon": -70.76,
+    "dateLabel": "Discovered December 2024",
+    "status": "explained",
+    "statusLabel": "No danger to Earth",
+    "witnesses": "Astronomers and the world's media",
+    "hook": "In early 2025, the chance that a newly found asteroid would hit Earth in 2032 climbed above 3%, the highest ever recorded for an object its size.",
+    "summary": [
+      "On 27 December 2024, a telescope of the ATLAS survey in Río Hurtado, Chile, discovered an asteroid now called 2024 YR4, thought to be about 50 to 60 metres across, large enough to destroy a city. Early calculations of its orbit showed a small chance it could hit Earth in December 2032.",
+      "As more observations came in during January and February 2025, the chance rose, reaching about 3%, the highest ever for an asteroid that size. The possible impact zone stretched across the Pacific, South America, Africa and South Asia."
+    ],
+    "explanation": "As expected by astronomers, more observations narrowed down its path, and by late February 2025, the chance of an Earth impact had fallen to almost zero. A small chance remains that it could hit the Moon. It was a real-world test of planetary defence systems.",
+    "wiki": "2024 YR4"
+  },
+  {
+    "slug": "hermes-asteroid",
+    "featured": false,
+    "category": "sky",
+    "title": "The Asteroid Lost for 66 Years",
+    "region": "Heidelberg, Baden-Württemberg, Germany",
+    "lat": 49.4,
+    "lon": 8.72,
+    "dateLabel": "Seen in 1937; found again in 2003",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Karl Reinmuth, then modern sky surveys",
+    "hook": "In 1937, an asteroid swept past Earth, closer than any ever seen before. Astronomers lost track of it, and for 66 years no one knew where it was.",
+    "summary": [
+      "On 28 October 1937, the German astronomer Karl Reinmuth, at Heidelberg, discovered an asteroid passing very close to Earth, at less than twice the distance of the Moon, the closest approach of an asteroid known at the time. It was named Hermes.",
+      "But it was observed for only a few days, not long enough to calculate its orbit accurately. It vanished, and for decades it was one of astronomy's famous lost objects, which could, in theory, come back without warning."
+    ],
+    "explanation": "In October 2003, an amateur astronomer spotted an asteroid that turned out to be Hermes, back again. Its orbit is now known well, and it poses no danger. It also turned out to be two asteroids orbiting each other. Today's surveys make such losses much rarer.",
+    "wiki": "69230 Hermes"
+  },
+  {
+    "slug": "oh-my-god-particle",
+    "featured": true,
+    "category": "sky",
+    "title": "The 'Oh-My-God' Particle",
+    "region": "Dugway Proving Ground, Utah, USA",
+    "lat": 40.19,
+    "lon": -112.93,
+    "dateLabel": "15 October 1991",
+    "status": "open",
+    "statusLabel": "Unexplained",
+    "witnesses": "The Fly's Eye cosmic ray detector",
+    "hook": "In 1991, a detector in the Utah desert caught a single particle from space carrying as much energy as a fast-thrown baseball. No one knows what could have launched it.",
+    "summary": [
+      "On the night of 15 October 1991, the Fly's Eye detector, in the desert of western Utah, recorded a cosmic ray, a particle from space hitting the atmosphere, with an energy far beyond anything thought possible. A single subatomic particle, probably a proton, was carrying about as much energy as a baseball thrown at around 90 kilometres an hour.",
+      "Physicists nicknamed it the 'Oh-My-God particle'. Since then, other detectors have found a few similar particles, including one called Amaterasu in 2021."
+    ],
+    "explanation": "No known object in our part of the universe seems powerful enough to accelerate a particle to such energy, and particles that energetic shouldn't be able to travel far through space without losing energy. Where they come from is one of the great puzzles of physics.",
+    "wiki": "Oh-My-God particle"
+  },
+  {
+    "slug": "may-2024-aurora",
+    "featured": false,
+    "category": "sky",
+    "title": "The Night the Whole World Saw the Aurora",
+    "region": "Mexico City, Mexico",
+    "lat": 19.43,
+    "lon": -99.13,
+    "dateLabel": "10–11 May 2024",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Millions of people around the world",
+    "hook": "In May 2024, people in places that never see the northern lights, from Mexico to northern India, looked up to see pink and green skies.",
+    "summary": [
+      "On the night of 10 May 2024, a series of huge eruptions from the Sun hit Earth's magnetic field, causing the strongest geomagnetic storm in more than 20 years. Auroras were seen much further from the poles than usual: across Europe, the whole United States, Mexico, southern China, Namibia and New Zealand's far north.",
+      "Many people discovered that their phone cameras showed the colours even more vividly than their eyes, and social media filled with pink and purple skies."
+    ],
+    "explanation": "The storm was caused by several coronal mass ejections, clouds of charged particles thrown out by a very active group of sunspots. Strong storms like this can disrupt satellites, radio and power grids, though damage in 2024 was limited. The Sun was near the peak of its 11-year cycle.",
+    "wiki": "May 2024 solar storms"
+  },
+  {
+    "slug": "starfish-prime",
+    "featured": true,
+    "body": "orbit",
+    "category": "sky",
+    "title": "The Night the Sky over Hawaii Turned Red",
+    "region": "In orbit, 400 km above Johnston Island, Pacific Ocean",
+    "lat": 16.73,
+    "lon": -169.53,
+    "dateLabel": "9 July 1962",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "People across Hawaii and the Pacific",
+    "hook": "In 1962, the United States set off a nuclear bomb in space. In Hawaii, 1,400 kilometres away, the night sky lit up green and blood red, and streetlights went out.",
+    "summary": [
+      "On 9 July 1962, the United States launched a rocket from Johnston Island in the Pacific carrying a 1.4-megaton nuclear warhead, and exploded it about 400 kilometres above the Earth, in space. The test was called Starfish Prime.",
+      "In Hawaii, about 1,400 kilometres away, people had been told in advance, and many held 'rainbow bomb' parties to watch. A bright flash was followed by a glowing sky of red, green and yellow that lasted for several minutes, like an artificial aurora. Streetlights failed in Honolulu, and telephone links were disrupted."
+    ],
+    "explanation": "The explosion released charged particles that were trapped by Earth's magnetic field, creating the glow and an electromagnetic pulse that damaged electrical systems. The new radiation belts it made damaged several satellites. Tests like it were banned by a treaty in 1963.",
+    "wiki": "Starfish Prime"
+  },
+  {
+    "slug": "project-west-ford",
+    "featured": false,
+    "body": "orbit",
+    "category": "sky",
+    "title": "The Ring of Needles Around the Earth",
+    "region": "In orbit, launched from Vandenberg, California, USA",
+    "lat": 34.7,
+    "lon": -120.55,
+    "dateLabel": "Launched in 1961 and 1963",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Astronomers and the US military",
+    "hook": "In 1963, the US military put 480 million tiny copper needles into orbit, to make an artificial ring around the Earth. Some of them are still up there.",
+    "summary": [
+      "During the Cold War, the US military worried that its long-distance radio communications could be cut if undersea cables were destroyed. Project West Ford, run by MIT's Lincoln Laboratory, planned a solution: a belt of tiny copper wires, each about 1.8 centimetres long, in orbit around the Earth, to reflect radio signals like an artificial ionosphere.",
+      "After a failed first attempt in 1961, a launch in May 1963 released about 480 million needles into orbit, which spread into a thin ring. It worked: radio messages were successfully bounced off it."
+    ],
+    "explanation": "Astronomers protested strongly, fearing that such rings would ruin observations of the sky and set a dangerous precedent. Communications satellites soon made the idea unnecessary. Most of the needles fell back to Earth, but some clumps are still tracked in orbit as space debris.",
+    "wiki": "Project West Ford"
+  },
+  {
+    "slug": "moon-trees",
+    "featured": false,
+    "body": "moon",
+    "category": "sky",
+    "title": "The Trees That Went to the Moon",
+    "region": "In orbit around the Moon, aboard Apollo 14",
+    "lat": -3.65,
+    "lon": -17.47,
+    "dateLabel": "February 1971",
+    "status": "explained",
+    "statusLabel": "Partly lost",
+    "witnesses": "Stuart Roosa and the US Forest Service",
+    "hook": "Hundreds of seeds circled the Moon aboard Apollo 14. They grew into trees all over America, and then nearly everyone forgot where they were planted.",
+    "summary": [
+      "Stuart Roosa, the command module pilot of Apollo 14 in 1971, had once been a smokejumper, fighting forest fires from the air. He took about 500 tree seeds with him in a small canister, as part of a project with the US Forest Service, and they circled the Moon while his crewmates walked on its surface.",
+      "Back on Earth, the seeds were grown into seedlings and given away in 1975 and 1976, planted at schools, parks and government buildings across the United States and a few other countries. But no one kept proper records."
+    ],
+    "explanation": "In 1996, a NASA scientist, David Williams, began trying to track down the 'Moon trees' after a teacher asked about one, and dozens have since been found. Many others have been lost. They grew just like ordinary trees: their trip around the Moon didn't change them.",
+    "wiki": "Moon tree"
+  },
+  {
+    "slug": "moon-sodium-tail",
+    "featured": false,
+    "body": "moon",
+    "category": "sky",
+    "title": "The Moon's Glowing Tail",
+    "region": "The Moon",
+    "lat": -5.0,
+    "lon": 60.0,
+    "dateLabel": "Discovered in 1998",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Astronomers using sensitive cameras",
+    "hook": "Like a comet, the Moon has a long tail streaming away from the Sun. Once a month, the Earth passes through it, and it can be seen as a faint spot in the sky.",
+    "summary": [
+      "In 1998, after the Leonid meteor shower, astronomers at Boston University using sensitive cameras noticed a faint, glowing spot in the night sky, opposite the Sun. They found it was made by sodium atoms from the Moon, swept away by sunlight into a long tail stretching far beyond the Earth.",
+      "Every month, around new Moon, the Earth passes through the tail, and Earth's gravity focuses it into a spot in the sky, several times wider than the full Moon, too faint to see without special cameras."
+    ],
+    "explanation": "Meteoroids constantly hit the Moon's surface, knocking off sodium atoms into its very thin atmosphere. Sunlight pushes them away, forming a tail that glows orange in the light. It brightens after major meteor showers. Mercury has a similar tail.",
+    "wiki": null
+  },
+  {
+    "slug": "halley-eclipse-map-1715",
+    "featured": false,
+    "category": "sky",
+    "title": "The Eclipse That Halley Predicted",
+    "region": "London, England, UK",
+    "lat": 51.52,
+    "lon": -0.1,
+    "dateLabel": "3 May 1715",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Edmond Halley and observers across England",
+    "hook": "In 1715, Edmond Halley printed a map showing exactly where the Moon's shadow would cross England, so that people wouldn't panic when the Sun went out.",
+    "summary": [
+      "Before a total eclipse of the Sun on 3 May 1715, the astronomer Edmond Halley published a map showing the path the Moon's shadow would take across England, the first map of its kind. He wanted people to know it was coming, so that they wouldn't see it as an omen or a sign of disaster, and he asked observers across the country to send him reports.",
+      "When the day came, the eclipse passed over London at about nine in the morning, and the city went dark for more than three minutes."
+    ],
+    "explanation": "Halley's prediction of the shadow's path, using Newton's laws, was accurate to about 30 kilometres. His map, with its message about not fearing the eclipse as a sign, marked a change in how people understood such events.",
+    "wiki": "Solar eclipse of May 3, 1715"
+  },
+  {
+    "slug": "comet-neowise-2020",
+    "featured": false,
+    "category": "sky",
+    "title": "The Comet of the Pandemic Summer",
+    "region": "Seen across the Northern Hemisphere; here, Montreal, Quebec, Canada",
+    "lat": 45.5,
+    "lon": -73.57,
+    "dateLabel": "July 2020",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Millions of people in lockdown",
+    "hook": "In July 2020, as much of the world was locked down, a bright comet with a long, curved tail appeared in the northern sky. It won't be back for 6,800 years.",
+    "summary": [
+      "Comet NEOWISE was discovered in March 2020 by a NASA space telescope of the same name. After passing close to the Sun in early July, it became the brightest comet seen from the Northern Hemisphere in more than 20 years, with a long, golden tail visible to the naked eye from dark places.",
+      "It appeared at a time when many people were confined to their homes by the COVID-19 pandemic, and photographs of it over cities, mountains and the International Space Station were shared around the world."
+    ],
+    "explanation": "NEOWISE is a long-period comet, coming from the far edges of the solar system. Its passage near the Sun changed its orbit, and it's not expected to return for around 6,800 years.",
+    "wiki": "Comet NEOWISE"
+  },
+  {
+    "slug": "earth-trojan-2010-tk7",
+    "featured": false,
+    "category": "sky",
+    "title": "Earth's Hidden Travelling Companion",
+    "region": "Confirmed from Mauna Kea, Hawaii, USA",
+    "lat": 19.82,
+    "lon": -155.47,
+    "dateLabel": "Discovered in 2010",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Astronomers using the WISE space telescope",
+    "hook": "Travelling around the Sun with the Earth, always about 60 degrees ahead, is a small asteroid that has been shadowing our planet for thousands of years.",
+    "summary": [
+      "In 2010, astronomers studying data from NASA's WISE space telescope found an asteroid about 300 metres across that shares the Earth's orbit around the Sun. Called 2010 TK7, it moves near a point about 60 degrees ahead of the Earth, where the pull of the Earth and the Sun balance.",
+      "It was the first 'Trojan' asteroid of Earth to be discovered, like the many Trojans that travel with Jupiter. A second, 2020 XL5, was found in 2020."
+    ],
+    "explanation": "The asteroid wanders back and forth around its balance point in a complicated pattern but never comes very close to the Earth. Trojans are hard to spot from the ground because they appear near the Sun in the sky. It's not a danger to Earth.",
+    "wiki": "(706765) 2010 TK7"
+  },
+  {
+    "slug": "kamooalewa",
+    "featured": false,
+    "category": "sky",
+    "title": "Kamoʻoalewa, a Piece of the Moon",
+    "region": "Haleakalā Observatory, Maui, Hawaii, USA",
+    "lat": 20.71,
+    "lon": -156.26,
+    "dateLabel": "Discovered in 2016",
+    "status": "open",
+    "statusLabel": "Probably confirmed",
+    "witnesses": "Astronomers using the Pan-STARRS telescope",
+    "hook": "A small asteroid that loops around the Earth like a second moon may be a chunk of our own Moon, knocked off by an ancient impact.",
+    "summary": [
+      "In 2016, the Pan-STARRS telescope on Haleakalā, in Hawaii, discovered a small asteroid, about 40 to 100 metres across, that follows a strange path. It orbits the Sun, but in a way that makes it seem to circle the Earth, as a 'quasi-satellite'. It was named Kamoʻoalewa, a Hawaiian name referring to an oscillating celestial object.",
+      "In 2021, astronomers found that light reflected from it looks very like Moon rock, weathered by space, and unlike most asteroids."
+    ],
+    "explanation": "Scientists think Kamoʻoalewa may have been blasted off the Moon by an impact, perhaps the one that made the crater Giordano Bruno on the far side. China's Tianwen-2 mission is planned to visit it and bring back samples, which should settle the question.",
+    "wiki": "469219 Kamoʻoalewa"
+  },
+  {
+    "slug": "apollo-12-lightning",
+    "featured": false,
+    "body": "orbit",
+    "category": "sky",
+    "title": "The Moon Rocket Struck by Lightning Twice",
+    "region": "In orbit, launched from Kennedy Space Center, Florida, USA",
+    "lat": 28.61,
+    "lon": -80.6,
+    "dateLabel": "14 November 1969",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The Apollo 12 crew and Mission Control",
+    "hook": "Seconds after Apollo 12 lifted off in the rain, lightning struck it twice. Every warning light came on, and a young engineer saved the mission with a strange instruction.",
+    "summary": [
+      "On 14 November 1969, Apollo 12 launched towards the Moon in rainy weather. Thirty-six seconds after lift-off, the Saturn V rocket was struck by lightning, and again at fifty-two seconds. In the spacecraft, alarms sounded and warning lights lit up, and the instruments showed nonsense.",
+      "In Mission Control, a 24-year-old flight controller, John Aaron, recognised the pattern from a test he'd seen and called out an obscure instruction: 'Try SCE to Aux.' Astronaut Alan Bean found the switch, and the data came back."
+    ],
+    "explanation": "The rocket itself, with its long trail of exhaust, had triggered the lightning by acting like a giant lightning rod. The mission continued and landed safely on the Moon. NASA changed its launch weather rules afterwards.",
+    "wiki": null
+  },
+  {
+    "slug": "corpo-seco",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Corpo Seco, the Body the Earth Rejected",
+    "region": "Interior of São Paulo state, Brazil",
+    "lat": -22.0,
+    "lon": -48.0,
+    "dateLabel": "Told for generations",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Brazilian folklore",
+    "hook": "In Brazilian folklore, a man so wicked that even the earth refused to rot his body still wanders the countryside, a dried-out corpse that clings to the trees.",
+    "summary": [
+      "The corpo seco, 'dry body', is a figure of Brazilian folklore, especially in the interior of São Paulo and Minas Gerais. The legend says it was a man who did terrible things in life, such as mistreating his own mother. When he died, the earth would not accept him: his body wouldn't rot, and the ground spat it out.",
+      "Now he wanders as a withered, mummified corpse, haunting roads and woods at night, sometimes clinging to trees, and attacking travellers or drinking the sap of plants."
+    ],
+    "explanation": "The corpo seco is a moral tale, warning that wickedness, especially towards parents, will be punished even after death. It shares features with other 'undead' figures of European and Brazilian tradition, and is still told in rural areas.",
+    "wiki": null
+  },
+  {
+    "slug": "bonhomme-sept-heures",
+    "featured": false,
+    "category": "visitors",
+    "title": "Le Bonhomme Sept Heures",
+    "region": "Quebec City, Quebec, Canada",
+    "lat": 46.81,
+    "lon": -71.21,
+    "dateLabel": "Told for generations",
+    "status": "explained",
+    "statusLabel": "Folklore",
+    "witnesses": "Generations of Quebec children",
+    "hook": "In Quebec, children were told to be in bed by seven, or the Seven O'Clock Man would come and take them away in his sack.",
+    "summary": [
+      "Le Bonhomme Sept Heures, the 'Seven O'Clock Man', is the bogeyman of French Canada. Children in Quebec and Acadia were told that if they weren't in bed by seven, or if they wandered outside after dark, he would come and carry them off in his sack.",
+      "He was imagined as a ragged, frightening old man, sometimes going door to door. Parents used him to make children go to bed on time."
+    ],
+    "explanation": "A popular explanation is that the name comes from the English 'bone-setter', a travelling healer who set broken bones, whose visits frightened children, but this is uncertain. He's one of many bogeymen used around the world to keep children in at night.",
+    "wiki": null
+  },
+  {
+    "slug": "bannik",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Bannik, the Spirit of the Bathhouse",
+    "region": "Rural Russia",
+    "lat": 56.3,
+    "lon": 38.13,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Folklore",
+    "witnesses": "Slavic folklore",
+    "hook": "In old Russia, every bathhouse had a spirit living behind the stove. Wash in the wrong order, or at the wrong time, and he might scald you, or worse.",
+    "summary": [
+      "In Russian and Slavic folklore, the bannik is the spirit who lives in the banya, the steam bathhouse found beside village homes. He's usually imagined as a small, wizened old man with long hair and nails, hiding under the bench or behind the stove.",
+      "People left him soap, water and a little fir branch after bathing, and avoided bathing too late at night, which was his time. If he was angered, he could pour boiling water on bathers or suffocate them with steam. Young women sometimes asked him to tell their future, by putting their backs to the bathhouse door."
+    ],
+    "explanation": "The bathhouse was a place of births, healing and rituals in Slavic villages, but also of real dangers like burns and fumes from the stove. The bannik gave those dangers a face. He's related to other household spirits, like the domovoy.",
+    "wiki": "Bannik"
+  },
+  {
+    "slug": "ovinnik",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Ovinnik, the Spirit of the Threshing Barn",
+    "region": "Rural Russia",
+    "lat": 57.63,
+    "lon": 39.87,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Folklore",
+    "witnesses": "Slavic folklore",
+    "hook": "In the barns where grain was dried over fires, Russian farmers said a black cat-like spirit with burning eyes kept watch. Forget to honour it, and the barn would go up in flames.",
+    "summary": [
+      "The ovinnik is a spirit of Russian folklore who lives in the ovin, the barn where sheaves of grain were dried over a fire before threshing. He was imagined as a large black cat, or a shaggy dog, with burning eyes, hiding in a corner of the barn.",
+      "Farmers offered him pancakes or a cockerel, and bowed to him when entering. If he was offended, he might set the barn on fire. On New Year's Eve, young people would put their hands into the barn: if the ovinnik stroked them with a soft hand, it meant a rich marriage, a rough hand, a poor one."
+    ],
+    "explanation": "Drying grain over open fires was dangerous, and barns often burned. The ovinnik put a personal face on this risk, encouraging care. He's one of many Slavic spirits linked to different parts of the farm and house.",
+    "wiki": "Ovinnik"
+  },
+  {
+    "slug": "hans-trapp",
+    "featured": false,
+    "category": "visitors",
+    "title": "Hans Trapp, the Christmas Bogeyman of Alsace",
+    "region": "Alsace, France",
+    "lat": 48.58,
+    "lon": 7.75,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Alsatian and Lorraine folklore",
+    "hook": "In Alsace, children who behaved badly before Christmas were warned about Hans Trapp, a terrifying figure dressed in straw and bearskin who came for naughty children.",
+    "summary": [
+      "Hans Trapp is a figure of Christmas folklore in Alsace and Lorraine, in eastern France. He's said to be a cruel, greedy man who worshipped the devil and was cast out by the Church. He lives in the forest, dressed in bearskin or straw, and comes at Christmas to frighten children who have misbehaved.",
+      "In some villages, he arrives with the Christkindel, the Christ child figure who brings presents to good children, while Hans Trapp threatens the naughty ones."
+    ],
+    "explanation": "The legend may be loosely based on a real 15th-century knight, Hans von Trotha, who quarrelled with the Church, and became a bogeyman figure in later folklore. He's one of many dark companions of the Christmas gift-bringers across Europe, like Krampus.",
+    "wiki": null
+  },
+  {
+    "slug": "pere-fouettard",
+    "featured": false,
+    "category": "visitors",
+    "title": "Père Fouettard, the Whipping Father",
+    "region": "Metz, Lorraine, France",
+    "lat": 49.12,
+    "lon": 6.18,
+    "dateLabel": "Told since the 1500s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "French and Belgian folklore",
+    "hook": "In France and Belgium, Saint Nicholas brings presents on 6 December. Behind him walks his dark companion, Père Fouettard, carrying a whip for naughty children.",
+    "summary": [
+      "Père Fouettard, 'Father Whipper', is the companion of Saint Nicholas in parts of France, Belgium and Luxembourg. While Saint Nicholas gives sweets and gifts to good children on 6 December, Père Fouettard, dressed in dark robes with a wild beard, carries a whip or bundle of twigs for those who have been bad.",
+      "His origin story is dark: he's said to be a butcher or innkeeper who lured and killed children, who were brought back to life by Saint Nicholas. As punishment, he must follow the saint forever."
+    ],
+    "explanation": "The legend is often said to date to the siege of Metz in 1552, when townspeople burned an effigy of the emperor, though this is uncertain. He belongs with Krampus and Knecht Ruprecht as one of the 'dark helpers' of the Christmas season.",
+    "wiki": "Père Fouettard"
+  },
+  {
+    "slug": "belsnickel",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Belsnickel",
+    "region": "Lancaster County, Pennsylvania, USA",
+    "lat": 40.04,
+    "lon": -76.31,
+    "dateLabel": "Brought to America in the 1700s",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "Pennsylvania Dutch communities",
+    "hook": "In old Pennsylvania, a figure in ragged fur and a mask knocked on the door before Christmas, carrying sweets and a switch. Children had to prove they'd been good.",
+    "summary": [
+      "The Belsnickel is a Christmas gift-bringer from the German-speaking areas of the Rhineland, brought to America by Pennsylvania Dutch immigrants in the 1700s. Dressed in shabby furs and old clothes, with a mask or a dirty face, he would visit homes a week or two before Christmas.",
+      "He carried sweets and nuts in his pockets, and a switch or stick. Children had to answer his questions or recite something to show they'd behaved. Good children got treats; naughty ones got a tap of the switch."
+    ],
+    "explanation": "The Belsnickel combines the kind gift-giver and the scary punisher in a single figure. He was largely replaced by Santa Claus in the 1800s, but survives in some communities, and became better known after appearing in the American TV series The Office.",
+    "wiki": "Belsnickel"
+  },
+  {
+    "slug": "lussi",
+    "featured": false,
+    "category": "visitors",
+    "title": "Lussi, Who Rides on the Longest Night",
+    "region": "Western Norway",
+    "lat": 60.39,
+    "lon": 5.32,
+    "dateLabel": "Night of 12–13 December",
+    "status": "open",
+    "statusLabel": "Folklore",
+    "witnesses": "Scandinavian folklore",
+    "hook": "Before Saint Lucy brought light, Scandinavians feared Lussi, a witch who rode with dark spirits on the longest night of the year, punishing those who hadn't finished their work.",
+    "summary": [
+      "Under the old calendar, the night of 12 to 13 December was thought to be the longest of the year. In Norwegian and Swedish folklore, it was Lussinatta, when a dangerous female figure, Lussi, rode out with a host of trolls and spirits, the Lussiferda.",
+      "Children who had misbehaved might be taken down the chimney. All the Christmas preparations, the slaughtering, baking and brewing, had to be finished, or Lussi would punish the household. People stayed awake through the night, keeping watch."
+    ],
+    "explanation": "Lussi is a dark counterpart of Saint Lucy, whose feast day, 13 December, is now celebrated in Scandinavia with candle-lit processions led by a girl wearing a crown of candles. The older folk figure reflects fear of the dark at midwinter.",
+    "wiki": null
+  },
+  {
+    "slug": "yule-goat",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Yule Goat",
+    "region": "Gävle, Gävleborg, Sweden",
+    "lat": 60.67,
+    "lon": 17.14,
+    "dateLabel": "Told for centuries; Gävle goat since 1966",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "Scandinavian folklore",
+    "hook": "Long before Santa, a goat came at Christmas in Scandinavia, sometimes bringing gifts, sometimes demanding them. Every year in Sweden, a giant straw goat is built, and people try to burn it down.",
+    "summary": [
+      "The Yule Goat, julbock in Swedish, is one of the oldest Christmas symbols of Scandinavia. In older traditions, it was an invisible spirit that checked Christmas preparations were done correctly, or a figure that went from house to house demanding food and drink. Later, it carried gifts. Small straw goats are still common Christmas decorations.",
+      "Since 1966, the town of Gävle has built a giant straw Yule Goat, around 13 metres tall, every December. It has been burned down or destroyed in many years, despite guards, cameras and fireproofing, and its fate is followed nationally."
+    ],
+    "explanation": "The goat may go back to pre-Christian midwinter festivals and to the goats that pulled Thor's chariot in Norse myth. The burning of the Gävle goat is illegal, but it has become a strange tradition of its own.",
+    "wiki": "Yule goat"
+  },
+  {
+    "slug": "burryman",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Burryman",
+    "region": "South Queensferry, Edinburgh, Scotland, UK",
+    "lat": 55.99,
+    "lon": -3.4,
+    "dateLabel": "Every August, for centuries",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "The people of South Queensferry",
+    "hook": "Once a year in a Scottish town, a man covered head to foot in sticky burrs walks silently through the streets for nine hours, his arms held out by two helpers.",
+    "summary": [
+      "Every August, in South Queensferry near Edinburgh, a local man becomes the Burryman. He's dressed in a costume completely covered in thousands of sticky burdock burrs, with only small gaps for his eyes and mouth, and wears a hat of flowers.",
+      "He walks slowly around the town for about nine hours, never speaking, supported by two helpers holding his outstretched arms on staffs. Residents give him whisky through a straw, and it's considered good luck to give him money."
+    ],
+    "explanation": "No one knows the origin of the custom, which has been recorded since at least the 1600s. It may be a survival of an old ritual to bring good fortune or drive out bad luck, perhaps linked to fishing. It's one of Britain's strangest living traditions.",
+    "wiki": "The Burryman"
+  },
+  {
+    "slug": "abbots-bromley-horn-dance",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Dance of the Reindeer Antlers",
+    "region": "Abbots Bromley, Staffordshire, England, UK",
+    "lat": 52.82,
+    "lon": -1.88,
+    "dateLabel": "Danced every September; antlers about 1,000 years old",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "Villagers and visitors",
+    "hook": "Every September, dancers in an English village carry ancient reindeer antlers through the fields. The antlers are about a thousand years old, from an animal that never lived in England.",
+    "summary": [
+      "In the village of Abbots Bromley, Staffordshire, a strange dance is performed every September. Six men carry sets of large antlers mounted on wooden heads, and dance across the parish with a fool, a hobby horse, a man dressed as a woman, a boy with a bow and arrow, and a musician.",
+      "The dance lasts all day, travelling about 16 kilometres through the village and surrounding farms. The antlers are kept in the church for the rest of the year."
+    ],
+    "explanation": "Carbon dating showed one of the antlers to be about a thousand years old, from reindeer, which had long died out in Britain, so they may have been imported from Scandinavia. The dance's origins are unknown, and it's one of the oldest surviving folk customs in England.",
+    "wiki": "Abbots Bromley Horn Dance"
+  },
+  {
+    "slug": "busojaras",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Busós of Mohács",
+    "region": "Mohács, Baranya, Hungary",
+    "lat": 45.99,
+    "lon": 18.68,
+    "dateLabel": "Every February, before Lent",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "The people of Mohács",
+    "hook": "Every winter, hundreds of men in sheepskins and terrifying carved wooden masks storm through a Hungarian town, rattling, roaring and shouting, to chase away winter.",
+    "summary": [
+      "At the end of February, the town of Mohács in southern Hungary holds the Busójárás, a six-day carnival. Hundreds of men dress as busós, wearing shaggy sheepskin cloaks and huge, grotesque masks carved from willow wood, with horns, and carry rattles and cowbells.",
+      "They parade through the town, make a great noise, cross the Danube in boats, and at the end burn a coffin representing winter on a big bonfire."
+    ],
+    "explanation": "Local legend says the Šokci people of the town once scared off Ottoman occupiers by dressing in frightening masks. Folklorists think the custom is much older, a ritual to drive out winter and welcome spring. It's recognised by UNESCO as part of the world's intangible cultural heritage.",
+    "wiki": "Busójárás"
+  },
+  {
+    "slug": "sumpango-kites",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Giant Kites That Speak to the Dead",
+    "region": "Sumpango, Sacatepéquez, Guatemala",
+    "lat": 14.65,
+    "lon": -90.73,
+    "dateLabel": "Every 1 November",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "The people of Sumpango",
+    "hook": "On All Saints' Day in Guatemala, villagers fly enormous paper kites over the cemetery. They say the kites carry messages to the dead, and keep evil spirits away.",
+    "summary": [
+      "Every 1 November, the towns of Sumpango and Santiago Sacatepéquez in Guatemala hold a festival of giant kites, called barriletes. Teams spend months making circular kites from tissue paper and bamboo, some more than 15 metres across, covered in intricate designs.",
+      "The largest are displayed in the cemetery, and smaller ones are flown above the graves. Local tradition says the kites carry messages to the souls of the dead, help guide them, and frighten away bad spirits that might disturb them."
+    ],
+    "explanation": "The custom blends Maya and Catholic traditions around the Day of the Dead. Today the kites also carry messages about Guatemala's history, culture and society. It's a joyful and moving festival rather than a fearful one.",
+    "wiki": "Sumpango, Sacatepéquez"
+  },
+  {
+    "slug": "hoodening",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Hooden Horse",
+    "region": "East Kent, England, UK",
+    "lat": 51.28,
+    "lon": 1.25,
+    "dateLabel": "At Christmas, since at least the 1700s",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "Kent villagers",
+    "hook": "At Christmas in east Kent, farm workers once carried a wooden horse's head on a pole, its jaws snapping, from house to house in the dark.",
+    "summary": [
+      "Hoodening is an old Christmas custom of east Kent. A group of farm labourers would go round the houses carrying a 'hooden horse': a carved wooden horse's head on a pole, with a hinged jaw that snapped open and shut, worked by a man hidden under a sacking cloth.",
+      "With a driver, a rider who tried to mount it, and a 'Mollie' in women's clothes, they performed a short play, sang carols and collected money or food. The custom almost died out but was revived in the 20th century."
+    ],
+    "explanation": "Hoodening is related to other animal-disguise customs of midwinter, like the Mari Lwyd in Wales. Its origins are unknown. The snapping wooden jaws in the dark were meant to delight, and frighten, those who opened their doors.",
+    "wiki": "Hoodening"
+  },
+  {
+    "slug": "whittlesea-straw-bear",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Straw Bear of Whittlesea",
+    "region": "Whittlesey, Cambridgeshire, England, UK",
+    "lat": 52.56,
+    "lon": -0.13,
+    "dateLabel": "Every January; revived in 1980",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "Townspeople and visitors",
+    "hook": "Each January, a man completely covered in straw is led through a town in the Fens on a chain, dancing for money and beer. At the end, the straw is burned.",
+    "summary": [
+      "On Plough Monday, the first Monday after Twelfth Night, farm workers in the Fens of eastern England used to go round dressed up to collect money. In Whittlesey, one of them was covered head to foot in straw and led around on a rope or chain as a 'straw bear', dancing in front of houses.",
+      "The custom died out in the early 1900s, partly because police saw it as begging, but it was revived in 1980. Today the Straw Bear festival is held each January, with dancers, music, and the burning of the bear's costume at the end."
+    ],
+    "explanation": "The custom's origins are unknown. Like other animal disguises of midwinter, it may come from old rituals to mark the end of the Christmas season and the start of the farming year. Similar straw figures appear in Germany and elsewhere.",
+    "wiki": null
+  },
+  {
+    "slug": "tongue-eating-louse",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Parasite That Replaces a Fish's Tongue",
+    "region": "Gulf of California, Mexico",
+    "lat": 27.0,
+    "lon": -111.0,
+    "dateLabel": "Described in 1783",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Marine biologists and fishermen",
+    "hook": "A small crustacean swims into a fish's mouth, destroys its tongue, and then takes its place, living there as a new tongue for the rest of the fish's life.",
+    "summary": [
+      "Cymothoa exigua is a parasitic crustacean, a few centimetres long, found in the eastern Pacific. It enters a fish through the gills, attaches itself to the fish's tongue, and cuts off its blood supply until the tongue withers and falls off.",
+      "The parasite then clings to the stump and acts as the fish's tongue, feeding on blood or mucus. The fish can still eat normally. It's the only known parasite that replaces an entire organ of its host."
+    ],
+    "explanation": "The parasite is real and has been studied since the 1700s. It doesn't harm humans, though people have occasionally found one in a fish bought at market, which can be an unpleasant surprise.",
+    "wiki": "Cymothoa exigua"
+  },
+  {
+    "slug": "mimic-octopus",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Octopus That Pretends to Be Other Animals",
+    "region": "Lembeh Strait, North Sulawesi, Indonesia",
+    "lat": 1.45,
+    "lon": 125.23,
+    "dateLabel": "Described in 1998",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Divers and scientists",
+    "hook": "In the murky waters of Indonesia, an octopus disguises itself as a poisonous lionfish, then a sea snake, then a flatfish, changing shape in seconds.",
+    "summary": [
+      "The mimic octopus lives on sandy sea floors in South-East Asia, especially around Indonesia. It was first scientifically described in 1998 after divers filmed it in Sulawesi.",
+      "Instead of hiding, it impersonates dangerous animals. It can flatten itself and glide like a flatfish, spread its arms like the venomous spines of a lionfish, or hide six arms in a hole and wave two striped ones like a deadly sea snake. It seems to choose which animal to copy depending on what's threatening it."
+    ],
+    "explanation": "The mimic octopus is one of the few animals known to imitate several different species. Scientists think its striking brown-and-white colour pattern and flexible body let it pretend to be animals that predators avoid.",
+    "wiki": "Mimic octopus"
+  },
+  {
+    "slug": "naked-mole-rat",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Animal That Hardly Ages",
+    "region": "Somali Region, Ethiopia",
+    "lat": 7.0,
+    "lon": 43.5,
+    "dateLabel": "Studied since the 1970s",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Biologists",
+    "hook": "In the dry soils of East Africa lives a hairless, almost blind rodent that lives for over 30 years, barely seems to age, rarely gets cancer, and feels no pain from acid.",
+    "summary": [
+      "The naked mole-rat lives in large underground colonies in the dry regions of Ethiopia, Somalia and Kenya. It's pink, wrinkled and almost hairless, with huge front teeth that can move independently.",
+      "It's one of the strangest mammals known. Its colonies are run like those of bees, with a single breeding queen. It can survive for minutes without oxygen, doesn't feel some types of pain, rarely gets cancer, and lives for more than 30 years, far longer than other rodents its size, while its risk of dying hardly increases with age."
+    ],
+    "explanation": "Scientists are studying its unusual biology for clues to ageing and cancer. Its slow metabolism, efficient repair of its cells and the low-oxygen life underground may all play a part.",
+    "wiki": "Naked mole-rat"
+  },
+  {
+    "slug": "hagfish-slime",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Fish That Fills the Sea with Slime",
+    "region": "Off Depoe Bay, Oregon, USA",
+    "lat": 44.81,
+    "lon": -124.06,
+    "dateLabel": "A highway was covered in 2017",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Divers, fishermen and drivers on an Oregon highway",
+    "hook": "Grab a hagfish and, in a fraction of a second, it fills the water around it with litres of slime. In 2017, a lorry spilled a load of them onto a highway.",
+    "summary": [
+      "Hagfish are eel-shaped deep-sea fish with no jaws, no proper backbone and four hearts. When attacked, they release a tiny amount of fluid that expands almost instantly in seawater into a huge cloud of slime, enough to clog the gills of a predator such as a shark.",
+      "In July 2017, a lorry carrying hagfish in Oregon overturned on a coastal highway, and the frightened fish covered the road and several cars in slime."
+    ],
+    "explanation": "The slime contains extremely thin, strong threads that trap water. Scientists are studying it for use in fabrics and materials. Hagfish are among the oldest groups of living fish, and they feed on dead animals on the sea floor.",
+    "wiki": "Hagfish"
+  },
+  {
+    "slug": "giant-isopod",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Giant Woodlouse of the Deep Sea",
+    "region": "Gulf of Mexico",
+    "lat": 26.0,
+    "lon": -90.0,
+    "dateLabel": "Described in 1879",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Deep-sea scientists and aquariums",
+    "hook": "Deep in the ocean lives a creature like a woodlouse the size of a cat. One in a Japanese aquarium went more than five years without eating.",
+    "summary": [
+      "Giant isopods are relatives of woodlice and pill bugs that live on the dark sea floor, hundreds or thousands of metres deep. They can grow to around 50 centimetres long. The first was described in 1879 from a young specimen caught in the Gulf of Mexico.",
+      "They scavenge on dead animals that fall from above. In a Japanese aquarium, one famous individual refused food for more than five years before it died, and others can go months without eating."
+    ],
+    "explanation": "Growing large in the deep sea is common among some animals, a pattern called deep-sea gigantism, possibly linked to cold water, high oxygen and scarce food. Giant isopods' slow metabolism lets them survive long periods without food.",
+    "wiki": "Giant isopod"
+  },
+  {
+    "slug": "philippine-tarsier",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Tarsier, the Tiny Primate with Giant Eyes",
+    "region": "Bohol, Philippines",
+    "lat": 9.8,
+    "lon": 124.17,
+    "dateLabel": "Known for centuries",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Local people and naturalists",
+    "hook": "In the forests of Bohol lives a primate small enough to fit in your palm, with eyes larger than its brain, and a head that turns almost all the way round.",
+    "summary": [
+      "The Philippine tarsier is one of the smallest primates in the world, about 10 centimetres long. Each of its enormous eyes is about as big as its brain. It can't move its eyes, so it turns its head almost 180 degrees in each direction, like an owl, and leaps between branches at night to catch insects.",
+      "In local folklore, tarsiers were sometimes said to be the pets of forest spirits, and some believed it was bad luck to disturb them."
+    ],
+    "explanation": "The tarsier's huge eyes help it hunt in the dark. It's very sensitive to stress and can die from being handled or kept in noisy places, so it's protected in sanctuaries on Bohol where visitors must stay quiet.",
+    "wiki": "Philippine tarsier"
+  },
+  {
+    "slug": "shoebill",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Shoebill, the Bird That Looks Like a Dinosaur",
+    "region": "Mabamba Swamp, Uganda",
+    "lat": 0.07,
+    "lon": 32.37,
+    "dateLabel": "Known for centuries",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Fishermen and birdwatchers",
+    "hook": "In the swamps of Uganda stands a grey bird as tall as a child, with a huge beak like a clog, and a stare that's been compared to a dinosaur's.",
+    "summary": [
+      "The shoebill is a large bird of the papyrus swamps of East Africa, standing up to about 1.5 metres tall. Its enormous, shoe-shaped bill can catch lungfish and even young crocodiles. It can stand completely still for hours, staring, and then lunge.",
+      "It makes a loud, machine-gun-like clattering by snapping its bill. Some people have suggested that sightings of shoebills might lie behind stories of flying reptiles, such as the kongamato."
+    ],
+    "explanation": "The shoebill is a real bird, related to pelicans, and it's rare and vulnerable to habitat loss. Its prehistoric look is a reminder that birds are the living descendants of dinosaurs. Visitors take boats into Mabamba Swamp to see it.",
+    "wiki": "Shoebill"
+  },
+  {
+    "slug": "hoop-snake",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Hoop Snake",
+    "region": "The Appalachians, Tennessee, USA",
+    "lat": 36.0,
+    "lon": -84.0,
+    "dateLabel": "Told since the 1700s",
+    "status": "explained",
+    "statusLabel": "Tall tale",
+    "witnesses": "American frontier folklore",
+    "hook": "In American frontier tales, a snake takes its tail in its mouth and rolls after you down a hill like a wheel. Its sting can kill a tree.",
+    "summary": [
+      "The hoop snake is a creature of American tall tales, told from the 1700s onwards. When it wants to chase something, it grips its own tail in its mouth and rolls along like a hoop, faster than a person can run. The only escape is to jump through the hoop, which confuses it.",
+      "Its tail has a venomous sting. In the stories, a hoop snake that misses its target and stings a tree instead makes the tree swell up and die within a day."
+    ],
+    "explanation": "No snake can roll like a hoop. The tale may have been inspired by real snakes that coil up or form loops, such as mud snakes. It became a favourite story of American folklore, alongside Paul Bunyan.",
+    "wiki": "Hoop snake"
+  },
+  {
+    "slug": "piltdown-man",
+    "featured": false,
+    "category": "creatures",
+    "title": "Piltdown Man, the Missing Link That Wasn't",
+    "region": "Piltdown, East Sussex, England, UK",
+    "lat": 50.97,
+    "lon": 0.06,
+    "dateLabel": "Found in 1912; exposed in 1953",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Charles Dawson and the scientific establishment",
+    "hook": "In 1912, a skull dug up in Sussex was hailed as the missing link between apes and humans. For 40 years, scientists believed it. Then the truth came out.",
+    "summary": [
+      "In 1912, Charles Dawson, an amateur archaeologist, announced that he had found pieces of a skull and a jawbone in a gravel pit at Piltdown in Sussex. Together with the British Museum's Arthur Smith Woodward, he presented them as an early human ancestor with a large, human-like brain and an ape-like jaw. It was named Eoanthropus dawsoni, 'Dawson's dawn man'.",
+      "For decades, Piltdown Man was accepted by many scientists, though it fitted poorly with other fossils being found in Africa and Asia."
+    ],
+    "explanation": "In 1953, tests showed it was a forgery: a medieval human skull combined with the jaw of an orangutan, its teeth filed down and the bones stained to look old. Who did it has been debated for decades, but a 2016 study concluded that Dawson was very likely responsible. It's the most famous scientific fraud in history.",
+    "wiki": "Piltdown Man"
+  },
+  {
+    "slug": "thors-well",
+    "featured": false,
+    "category": "places",
+    "title": "Thor's Well, the Drainpipe of the Pacific",
+    "region": "Cape Perpetua, Oregon, USA",
+    "lat": 44.28,
+    "lon": -124.11,
+    "dateLabel": "A natural feature",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors and photographers",
+    "hook": "On the Oregon coast, the ocean seems to pour endlessly into a hole in the rock, as if draining away into the centre of the Earth.",
+    "summary": [
+      "Thor's Well is a round hole in the black basalt shore at Cape Perpetua, on the coast of Oregon. As waves wash over the rocks, water pours into the hole from all sides, looking as though the sea is draining away. Then, with a rush, it shoots back up in a burst of spray.",
+      "It's sometimes called the drainpipe of the Pacific. At high tide and in storms, it's extremely dangerous, and visitors are warned to stay back."
+    ],
+    "explanation": "The well is probably a sea cave whose roof collapsed, leaving an opening in the rock connected to the ocean below. Water fills the cave from beneath and then empties, creating the illusion of a bottomless drain.",
+    "wiki": "Cape Perpetua"
+  },
+  {
+    "slug": "wadi-al-hitan",
+    "featured": false,
+    "category": "places",
+    "title": "The Valley of the Whales in the Desert",
+    "region": "Wadi Al-Hitan, Faiyum, Egypt",
+    "lat": 29.27,
+    "lon": 30.04,
+    "dateLabel": "Fossils about 40 million years old",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Palaeontologists and visitors",
+    "hook": "In the Egyptian desert, far from any sea, lie the skeletons of whales, hundreds of them, and some of them have legs.",
+    "summary": [
+      "Wadi Al-Hitan, 'the Valley of the Whales', is a stretch of desert in Egypt's Western Desert, about 150 kilometres from Cairo. Lying in the sand and rock are hundreds of fossil skeletons of ancient whales, some more than 15 metres long, along with sharks, turtles and sea cows.",
+      "Some of the whales, such as Basilosaurus and Dorudon, still had small hind legs with feet and toes, though they could no longer walk."
+    ],
+    "explanation": "About 40 million years ago, the area was a shallow sea. The fossils show a key stage in the evolution of whales from land-living mammals. The site is a UNESCO World Heritage Site, with an open-air museum.",
+    "wiki": "Wadi al Hitan"
+  },
+  {
+    "slug": "valle-de-la-luna-chile",
+    "featured": false,
+    "category": "places",
+    "title": "The Valley of the Moon That Crackles",
+    "region": "Valle de la Luna, near San Pedro de Atacama, Chile",
+    "lat": -22.93,
+    "lon": -68.29,
+    "dateLabel": "Shaped over millions of years",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors to the Atacama",
+    "hook": "In one of the driest places on Earth, a valley of salt and stone looks like the surface of the Moon. In the heat of the day, the rocks crackle and pop.",
+    "summary": [
+      "The Valle de la Luna, near San Pedro de Atacama in northern Chile, is a landscape of jagged ridges, dunes and salt-crusted rock, carved by wind and water over millions of years. Its bare, grey and white surfaces look so much like another world that NASA has tested Mars rovers in the Atacama.",
+      "Visitors sometimes hear strange crackling and popping sounds coming from the rocks, especially as the day warms up."
+    ],
+    "explanation": "The sounds come from salt crystals in the rock expanding and cracking as they heat up in the sun. The Atacama is so dry that some places have gone years without measurable rain, which preserves its alien landscape.",
+    "wiki": "Valle de la Luna (Chile)"
+  },
+  {
+    "slug": "ischigualasto",
+    "featured": false,
+    "category": "places",
+    "title": "Ischigualasto, Where the First Dinosaurs Walked",
+    "region": "Ischigualasto, San Juan, Argentina",
+    "lat": -30.16,
+    "lon": -67.84,
+    "dateLabel": "Rocks about 230 million years old",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Palaeontologists and visitors",
+    "hook": "In a desert valley of western Argentina, strange rock shapes stand in a moonlike landscape, and in its rocks lie some of the oldest dinosaurs ever found.",
+    "summary": [
+      "Ischigualasto, often called the Valley of the Moon, is a desert park in San Juan province, Argentina. Its eroded rocks form strange shapes, such as a giant 'mushroom', a 'submarine' and fields of round stone balls, set against red cliffs.",
+      "Its rocks, from the Triassic period, have yielded fossils of some of the earliest dinosaurs known, including Eoraptor and Herrerasaurus, from about 230 million years ago, when dinosaurs were just beginning."
+    ],
+    "explanation": "The landscape was formed by layers of sediment laid down in an ancient river basin and then worn away. The stone balls are concretions, hard lumps that erode out of softer rock. It's a UNESCO World Heritage Site.",
+    "wiki": "Ischigualasto Provincial Park"
+  },
+  {
+    "slug": "bryce-canyon-legend-people",
+    "featured": false,
+    "category": "places",
+    "title": "The Legend People of Bryce Canyon",
+    "region": "Bryce Canyon, Utah, USA",
+    "lat": 37.59,
+    "lon": -112.19,
+    "dateLabel": "Told by the Paiute",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Paiute tradition and visitors",
+    "hook": "In a canyon in Utah stand thousands of red rock spires, like crowds of people frozen in place. A Paiute story says that's exactly what they are.",
+    "summary": [
+      "Bryce Canyon is famous for its hoodoos, thousands of thin spires of orange, pink and white rock, crowded together in natural amphitheatres. At dawn and dusk they glow, and seen from above they look like a vast silent crowd.",
+      "In a story told by the Paiute people, the area was once home to the Legend People, animals and birds who could take human form. They behaved badly, and Coyote turned them all to stone, where they still stand, some with their faces painted."
+    ],
+    "explanation": "The hoodoos formed as frost and rain eroded soft limestone layers, with harder caps protecting the rock beneath them. Bryce has more hoodoos than anywhere else on Earth. The story shows how the Paiute understood the landscape.",
+    "wiki": "Bryce Canyon National Park"
+  },
+  {
+    "slug": "kelimutu",
+    "featured": true,
+    "category": "places",
+    "title": "The Three Lakes of Souls",
+    "region": "Kelimutu, Flores, Indonesia",
+    "lat": -8.77,
+    "lon": 121.82,
+    "dateLabel": "A living tradition",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "The Lio people and visitors",
+    "hook": "On a volcano in Indonesia lie three crater lakes of different colours, which change without warning. Local people believe the souls of the dead go to them.",
+    "summary": [
+      "At the top of Kelimutu volcano on the island of Flores are three crater lakes. They're often vividly different colours: turquoise, green, red, brown or black. Over the years, each has changed colour, sometimes suddenly.",
+      "The local Lio people believe the lakes are resting places for souls: one for the young, one for the elderly, and one for those who did evil. The changing colours are said to show the moods of the spirits."
+    ],
+    "explanation": "The colours come from chemical reactions in the water, driven by volcanic gases and minerals rising from below, which change the amounts of iron, sulphur and other elements. The lakes are part of a national park and are seen at sunrise by many visitors.",
+    "wiki": "Kelimutu"
+  },
+  {
+    "slug": "fly-geyser",
+    "featured": false,
+    "category": "places",
+    "title": "Fly Geyser, the Accidental Wonder",
+    "region": "Black Rock Desert, Nevada, USA",
+    "lat": 40.86,
+    "lon": -119.33,
+    "dateLabel": "Formed after the 1960s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Visitors and the Burning Man Project",
+    "hook": "In the Nevada desert, a mound of bright red and green rock spouts hot water like something from another planet. It was made by accident.",
+    "summary": [
+      "Fly Geyser stands on private land in the Black Rock Desert of Nevada: a cluster of colourful mounds several metres high, streaked with red, orange and green, constantly spouting jets of hot water into terraced pools.",
+      "It isn't natural. In the 1960s, a company drilling for geothermal energy left a well open. Hot, mineral-rich water has gushed out ever since, building up the mounds."
+    ],
+    "explanation": "Dissolved minerals in the water, especially calcium carbonate, are deposited as the water cools, slowly building the mounds. The colours come from heat-loving algae and bacteria. The land is now owned by the organisers of the Burning Man festival, who run tours.",
+    "wiki": "Fly Geyser"
+  },
+  {
+    "slug": "thrihnukagigur",
+    "featured": false,
+    "category": "places",
+    "title": "The Volcano You Can Go Inside",
+    "region": "Þríhnúkagígur, near Reykjavík, Iceland",
+    "lat": 63.99,
+    "lon": -21.7,
+    "dateLabel": "Dormant for about 4,000 years",
+    "status": "explained",
+    "statusLabel": "A real place",
+    "witnesses": "Visitors since 2012",
+    "hook": "Near Reykjavík, visitors are lowered in an open lift into the heart of a volcano, into the empty chamber where the magma used to be.",
+    "summary": [
+      "Þríhnúkagígur is a dormant volcano in south-west Iceland that last erupted about 4,000 years ago. Unusually, its magma chamber didn't fill with solid rock after the eruption: the magma drained away, leaving a vast, open cavern about 120 metres deep, reached through the crater at the top.",
+      "Since 2012, visitors have been lowered in an open window-cleaner's lift down into the chamber, whose walls are coloured red, yellow and purple by minerals."
+    ],
+    "explanation": "Scientists aren't sure why the magma drained out instead of hardening in place, as it does in most volcanoes. The cavern gives a rare chance to see the inside of a volcano's plumbing.",
+    "wiki": "Thrihnukagigur"
+  },
+  {
+    "slug": "newport-tower",
+    "featured": false,
+    "category": "places",
+    "title": "The Newport Tower",
+    "region": "Touro Park, Newport, Rhode Island, USA",
+    "lat": 41.486,
+    "lon": -71.31,
+    "dateLabel": "Built in the 1600s",
+    "status": "explained",
+    "statusLabel": "Probably explained",
+    "witnesses": "Historians and believers",
+    "hook": "In a park in Rhode Island stands a round stone tower on eight arches. Some believe it was built by Vikings, or the Knights Templar, centuries before Columbus.",
+    "summary": [
+      "The Newport Tower is a round stone tower about 8 metres tall, standing on eight stone arches in Touro Park, Newport. It doesn't look like other colonial buildings in New England, and for nearly 200 years, people have argued about who built it.",
+      "Theories have included Vikings, medieval Scottish explorers, the Knights Templar, Portuguese sailors and the Chinese fleets of the 1400s. The poet Longfellow imagined it as a Viking tower."
+    ],
+    "explanation": "Most historians think it was the base of a windmill built in the 1600s by Benedict Arnold, the first governor of Rhode Island and great-grandfather of the famous traitor, who mentioned 'my stone built windmill' in his will. Radiocarbon dating of the mortar in the 1990s supported a 17th-century date.",
+    "wiki": "Newport Tower (Rhode Island)"
+  },
+  {
+    "slug": "bat-creek-stone",
+    "featured": false,
+    "category": "places",
+    "title": "The Bat Creek Stone",
+    "region": "Bat Creek, Loudon County, Tennessee, USA",
+    "lat": 35.6,
+    "lon": -84.3,
+    "dateLabel": "Found in 1889",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "A Smithsonian excavation",
+    "hook": "In 1889, a Smithsonian dig in a burial mound in Tennessee turned up a small stone with an inscription. Decades later, some claimed it was written in ancient Hebrew.",
+    "summary": [
+      "In 1889, during a Smithsonian Institution survey of burial mounds in Tennessee, a worker named John Emmert reported finding a small engraved stone under a skeleton in a mound near Bat Creek. The Smithsonian first described the inscription as Cherokee.",
+      "In the 1970s, a scholar turned it upside down and argued that it was an ancient Hebrew inscription, which would suggest contact between the Old World and America long before Columbus."
+    ],
+    "explanation": "Later researchers found that the inscription closely matches an illustration of ancient Hebrew writing in a book published in 1870, with the same mistakes, which suggests it was a forgery, perhaps made by Emmert himself. Most archaeologists consider it a hoax.",
+    "wiki": "Bat Creek Stone"
+  },
+  {
+    "slug": "los-lunas-decalogue-stone",
+    "featured": false,
+    "category": "places",
+    "title": "The Ten Commandments on a Rock in New Mexico",
+    "region": "Hidden Mountain, Los Lunas, New Mexico, USA",
+    "lat": 34.77,
+    "lon": -106.83,
+    "dateLabel": "Known since the 1930s",
+    "status": "explained",
+    "statusLabel": "Probably modern",
+    "witnesses": "Visitors and researchers",
+    "hook": "On a hillside in the New Mexico desert, a boulder is carved with the Ten Commandments, written in an ancient form of Hebrew script.",
+    "summary": [
+      "On the side of Hidden Mountain, near Los Lunas in New Mexico, lies a large flat boulder with nine lines of inscription. They've been read as a version of the Ten Commandments, written mostly in an old form of the Hebrew alphabet, with some Greek letters.",
+      "The stone was described in the 1930s. Some people have claimed it was carved by ancient Israelites or other travellers who reached America thousands of years ago."
+    ],
+    "explanation": "Most archaeologists believe the carving is modern, perhaps from the 1800s or early 1900s, since the letters look relatively fresh and the text appears to be copied from a published source. Who carved it, and why, is unknown.",
+    "wiki": "Los Lunas Decalogue Stone"
+  },
+  {
+    "slug": "dighton-rock",
+    "featured": false,
+    "category": "places",
+    "title": "Dighton Rock",
+    "region": "Berkley, Massachusetts, USA",
+    "lat": 41.81,
+    "lon": -71.11,
+    "dateLabel": "Recorded since 1680",
+    "status": "open",
+    "statusLabel": "Origins debated",
+    "witnesses": "Colonists, scholars and theorists",
+    "hook": "A boulder on the bank of a river in Massachusetts is covered in carved lines and figures. People have said it was made by Phoenicians, Vikings or Portuguese sailors.",
+    "summary": [
+      "Dighton Rock is a 40-tonne sandstone boulder that once lay in the Taunton River, covered with carved designs, lines and figures. Colonists recorded it in 1680, and it's one of the most studied rocks in America.",
+      "Over the centuries, people have attributed the carvings to Phoenicians, Scythians, Vikings, Chinese explorers and others. A popular theory says that a Portuguese explorer, Miguel Corte-Real, who vanished in 1502, carved his name and the date 1511 on it."
+    ],
+    "explanation": "Most archaeologists think the carvings were made by Native Americans, perhaps over a long time. Later carvings may have been added. The rock is now kept in a museum in Dighton Rock State Park.",
+    "wiki": "Dighton Rock"
+  },
+  {
+    "slug": "golden-owl-treasure",
+    "featured": false,
+    "category": "places",
+    "title": "The Hunt for the Golden Owl",
+    "region": "France",
+    "lat": 47.0,
+    "lon": 2.5,
+    "dateLabel": "Buried in 1993; found in 2024",
+    "status": "explained",
+    "statusLabel": "Found",
+    "witnesses": "Hundreds of thousands of treasure hunters",
+    "hook": "In 1993, a Frenchman buried a bronze owl somewhere in France and published 11 riddles to find it. For 31 years, people dug up fields and forests looking.",
+    "summary": [
+      "In 1993, a writer using the pen name Max Valentin buried a bronze replica of an owl somewhere in France, and published a book, Sur la trace de la chouette d'or, with 11 complex riddles leading to it. Whoever found the replica could exchange it for a golden owl decorated with diamonds.",
+      "The hunt became an obsession for many people. Hunters dug in fields, forests and even under monuments, and argued for decades online about the riddles. Valentin died in 2009 without the owl being found."
+    ],
+    "explanation": "In October 2024, more than 30 years after the hunt began, the organisers announced that the hiding place had finally been found. It's one of the longest-running treasure hunts of its kind.",
+    "wiki": "On the Trail of the Golden Owl"
+  },
+  {
+    "slug": "the-backrooms",
+    "featured": false,
+    "category": "places",
+    "title": "The Backrooms",
+    "region": "Oshkosh, Wisconsin, USA",
+    "lat": 44.02,
+    "lon": -88.54,
+    "dateLabel": "Posted in 2019; photo traced in 2024",
+    "status": "explained",
+    "statusLabel": "Internet legend",
+    "witnesses": "Internet users",
+    "hook": "A photo of an empty, yellow-walled room with buzzing lights became a modern legend: a world behind reality, endless rooms you can fall into and never leave.",
+    "summary": [
+      "In 2019, an anonymous user on the message board 4chan posted a photo of an empty room with yellow wallpaper, damp carpet and fluorescent lights, asking for 'disturbing images that just feel off'. Another user replied with a story: if you 'noclip' out of reality in the wrong place, you end up in the Backrooms, an endless maze of such rooms, with a constant hum of lights.",
+      "The idea spread enormously, inspiring stories, games, videos and a film project, part of a wider fascination with eerie, empty 'liminal spaces'."
+    ],
+    "explanation": "In 2024, internet sleuths traced the original photo to a 2002 renovation of a former furniture shop in Oshkosh, Wisconsin. The Backrooms are fiction, but they show how a single unsettling image can become a modern legend.",
+    "wiki": "The Backrooms"
+  },
+  {
+    "slug": "ales-stenar",
+    "featured": false,
+    "category": "places",
+    "title": "Ale's Stones, the Stone Ship of Sweden",
+    "region": "Kåseberga, Skåne, Sweden",
+    "lat": 55.38,
+    "lon": 14.05,
+    "dateLabel": "Built around 600 AD",
+    "status": "open",
+    "statusLabel": "Purpose debated",
+    "witnesses": "Archaeologists and visitors",
+    "hook": "On a cliff above the Baltic, 59 standing stones are arranged in the shape of a huge ship, 67 metres long, pointing out to sea.",
+    "summary": [
+      "Ale's Stones, Ales stenar, is a monument on a grassy cliff near the fishing village of Kåseberga in southern Sweden. Fifty-nine large boulders are set in the outline of a ship, about 67 metres long, with taller stones at the bow and stern.",
+      "Legend says it marks the grave of a king named Ale. Some researchers have argued that it works as a solar calendar, with the stones pointing to sunset at midsummer and sunrise at midwinter."
+    ],
+    "explanation": "Archaeologists think it was built around 600 AD, near the end of the Nordic Iron Age, probably as a grave monument, like other stone ships in Scandinavia. The calendar theory is popular but debated. It's the largest stone ship of its kind.",
+    "wiki": "Ale's Stones"
+  },
+  {
+    "slug": "gavrinis",
+    "featured": false,
+    "category": "places",
+    "title": "The Carved Tomb of Gavrinis",
+    "region": "Gavrinis, Gulf of Morbihan, Brittany, France",
+    "lat": 47.57,
+    "lon": -2.9,
+    "dateLabel": "Built about 3500 BC",
+    "status": "open",
+    "statusLabel": "Meaning unknown",
+    "witnesses": "Archaeologists and visitors",
+    "hook": "On a small island in Brittany, a mound hides a stone passage covered from floor to ceiling in swirling carved patterns, 5,500 years old. No one can read them.",
+    "summary": [
+      "Gavrinis is a small island in the Gulf of Morbihan, in Brittany. On it is a large burial mound of stones, and inside, a long passage leads to a chamber. Almost every stone in the passage is covered with carved patterns: concentric arcs, spirals, zigzags and shapes like axes, like fingerprints in stone.",
+      "The passage is aligned so that the sun shines into it at sunrise around the winter solstice."
+    ],
+    "explanation": "The tomb was built around 3500 BC by Neolithic people. Some of its stones were reused from older monuments, including one that matches a broken standing stone nearby. What the carvings meant is unknown. It's often compared to Newgrange in Ireland.",
+    "wiki": "Gavrinis"
+  },
+  {
+    "slug": "giants-graves-sardinia",
+    "featured": false,
+    "category": "places",
+    "title": "The Giants' Graves of Sardinia",
+    "region": "Coddu Vecchiu, Arzachena, Sardinia, Italy",
+    "lat": 41.04,
+    "lon": 9.38,
+    "dateLabel": "Built in the Bronze Age",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Sardinian folklore and archaeologists",
+    "hook": "Across Sardinia stand tombs so long and massive that local people believed they must be the graves of giants. Some say sleeping beside them brings visions.",
+    "summary": [
+      "The tombe dei giganti, 'giants' graves', are Bronze Age tombs found across Sardinia, more than 300 of them. Each has a long burial chamber, up to 30 metres, and a curved stone front, often with a huge carved stone slab in the centre, about 4 metres tall, with a small doorway at its base.",
+      "Their size led local people to believe they held the bodies of giants. Ancient writers mentioned a custom of sleeping beside the tombs of 'heroes' in Sardinia to receive dreams or healing."
+    ],
+    "explanation": "The tombs were built by the Nuragic civilisation, between about 1800 and 1100 BC, as communal graves for many people. Their long shape may have helped people believe in giants. Excavations have found the bones of many people, all of normal size.",
+    "wiki": "Giants' grave"
+  },
+  {
+    "slug": "taulas-of-menorca",
+    "featured": false,
+    "category": "places",
+    "title": "The Taulas of Menorca",
+    "region": "Torralba d'en Salord, Menorca, Spain",
+    "lat": 39.93,
+    "lon": 4.11,
+    "dateLabel": "Built about 1000–100 BC",
+    "status": "open",
+    "statusLabel": "Purpose unknown",
+    "witnesses": "Archaeologists and visitors",
+    "hook": "On the island of Menorca stand giant T-shaped stone monuments, one stone balanced on another, inside horseshoe-shaped walls. No one knows what they were for.",
+    "summary": [
+      "A taula, Catalan for 'table', is a monument found only on the island of Menorca: a huge stone slab standing upright, with a second flat stone laid across its top, forming a giant T up to about 4 metres high. Each stands inside a horseshoe-shaped enclosure of stones.",
+      "Local legends said they were built by giants. Researchers have suggested they were altars, symbols of a god, a support for a roof, or astronomical markers."
+    ],
+    "explanation": "They were built by the Talayotic culture of the Balearic Islands, roughly between 1000 and 100 BC. Excavations around some have found offerings and statues, including an Egyptian figure, suggesting they were religious sites, but their exact purpose is unknown.",
+    "wiki": "Taula"
+  },
+  {
+    "slug": "toro-muerto",
+    "featured": false,
+    "category": "places",
+    "title": "Toro Muerto, the Desert of Dancing Figures",
+    "region": "Toro Muerto, Arequipa, Peru",
+    "lat": -16.22,
+    "lon": -72.5,
+    "dateLabel": "Carved about 1,000 years ago",
+    "status": "open",
+    "statusLabel": "Meaning unknown",
+    "witnesses": "Archaeologists and visitors",
+    "hook": "In a stony desert in southern Peru, thousands of rocks are carved with dancing human figures, snakes, birds and strange masked beings.",
+    "summary": [
+      "Toro Muerto, 'Dead Bull', is a desert valley in the Arequipa region of Peru, scattered with thousands of white volcanic boulders. On many of them are petroglyphs: carved figures of people who seem to be dancing, often wearing masks or headdresses, along with snakes, llamas, condors, the Sun and geometric shapes.",
+      "It's one of the largest fields of rock carvings in the world. Some have claimed that the masked figures show astronauts or aliens."
+    ],
+    "explanation": "Archaeologists think most of the carvings were made by people of the Wari culture, around 1,000 years ago, perhaps as part of rituals connected with water and fertility in the desert. The masked figures probably show dancers or spirits in ceremonies.",
+    "wiki": "Toro Muerto"
+  },
+  {
+    "slug": "dolmen-of-menga",
+    "featured": false,
+    "category": "places",
+    "title": "The Tomb That Faces the Lovers' Rock",
+    "region": "Antequera, Málaga, Andalusia, Spain",
+    "lat": 37.02,
+    "lon": -4.55,
+    "dateLabel": "Built about 3800 BC",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Archaeologists and Andalusian legend",
+    "hook": "One of Europe's largest ancient tombs doesn't face the sunrise, like most. It points straight at a mountain shaped like a sleeping face, where legend says two lovers leapt to their deaths.",
+    "summary": [
+      "The Dolmen of Menga, near Antequera in southern Spain, is one of the largest megalithic tombs in Europe, built nearly 6,000 years ago from enormous stone slabs, one weighing about 180 tonnes. Most ancient tombs like it face the rising sun, but Menga points towards a nearby mountain, the Peña de los Enamorados.",
+      "The mountain looks like the profile of a human face lying on its back. Its name, 'the Lovers' Rock', comes from a legend of a Christian man and a Muslim woman who, forbidden to be together, threw themselves from its cliffs."
+    ],
+    "explanation": "Archaeologists think the builders aligned the tomb to the mountain because it was sacred to them; remains of rock paintings have been found on it. The legend is much later, from the medieval period. The Antequera dolmens are a UNESCO World Heritage Site.",
+    "wiki": "Antequera Dolmens Site"
+  },
+  {
+    "slug": "grave-creek-stone",
+    "featured": false,
+    "category": "places",
+    "title": "The Grave Creek Stone",
+    "region": "Grave Creek Mound, Moundsville, West Virginia, USA",
+    "lat": 39.92,
+    "lon": -80.74,
+    "dateLabel": "Found in 1838",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "The men who dug into the mound, then scholars",
+    "hook": "Inside the largest burial mound in the eastern United States, diggers said they found a small stone carved with an unknown alphabet.",
+    "summary": [
+      "Grave Creek Mound, in Moundsville, West Virginia, is a huge earthen burial mound about 20 metres high, built by the Adena people around 2,000 years ago. In 1838, local men dug a tunnel into it, finding burial chambers and skeletons.",
+      "One of them said he had also found a small, flat sandstone disc carved with three lines of strange characters. Over the following decades, scholars claimed to read it as Celtic, Phoenician, Runic, Greek and more, offering wildly different translations."
+    ],
+    "explanation": "Most archaeologists now think the stone was a hoax, perhaps made to attract visitors to the mound, which was being promoted as a tourist attraction at the time. The original stone has been lost. The mound itself is real and is protected as a historic site.",
+    "wiki": "Grave Creek Stone"
   }
 ];
 
