@@ -35,6 +35,7 @@ Decisions behind this list:
 - [x] `approve()` in `features/moderation/actions.ts` reads form fields by hand. Validate with zod, with length limits, and run the link and phone checks on edits.
 - [x] Keep a story's first slug, so re-approving with a different place doesn't change its URL.
 - [x] Report button on stories (new `src/features/reports/`): a `reports` table, automatic hiding after a set number of reports, and hidden stories shown in admin.
+- [ ] Admin access through an allowlist of Google accounts instead of the shared password. Plan and open decisions in `docs/ADMIN-ACCESS.md`.
 
 ## 4. Stories: polish
 
