@@ -33069,6 +33069,2011 @@ const part4: SeedCase[] = [
     ],
     "explanation": "Fairy rings are made by fungi. A fungus grows underground as a network of threads spreading out evenly from a central point. As it uses up nutrients in the middle, the inner part dies, and mushrooms come up only around the growing edge, forming an expanding ring.",
     "wiki": "Fairy ring"
+  },
+  {
+    "slug": "phone-calls-from-the-dead",
+    "featured": false,
+    "category": "voices",
+    "title": "Phone Calls from the Dead",
+    "region": "Los Angeles, California, USA",
+    "lat": 34.05,
+    "lon": -118.25,
+    "dateLabel": "Collected in the 1970s",
+    "status": "disputed",
+    "statusLabel": "Unverified",
+    "witnesses": "People interviewed by two researchers",
+    "hook": "The phone rings. Through the static, a familiar voice speaks, a voice you know is gone. Then the line goes dead.",
+    "summary": [
+      "In 1979, two American researchers, D. Scott Rogo and Raymond Bayless, published a book collecting dozens of accounts from people who said they had received telephone calls from relatives or friends who had died, sometimes days and sometimes years before.",
+      "The stories had a lot in common: the voice was faint or crackling, the call was short, often the caller repeated a simple message, and the line went dead without the click of a hang-up. Some calls came on significant dates, like birthdays or anniversaries."
+    ],
+    "explanation": "None of the calls could be verified. Sceptics suggest wrong numbers, crossed lines, pranks and the way grief makes people listen for loved ones, along with memories that shift over time. For believers, the stories were part of a long tradition of messages from the dead arriving through new technology.",
+    "wiki": null
+  },
+  {
+    "slug": "maccrimmon-silver-chanter",
+    "featured": false,
+    "category": "voices",
+    "title": "The Fairy Chanter of the MacCrimmons",
+    "region": "Boreraig, Isle of Skye, Scotland, UK",
+    "lat": 57.47,
+    "lon": -6.66,
+    "dateLabel": "Told since the 1600s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Highland folklore",
+    "hook": "On the Isle of Skye, a boy who couldn't play the pipes well was given a silver chanter by a fairy woman. From then on, no one in Scotland could match him.",
+    "summary": [
+      "The MacCrimmons were the hereditary pipers to the MacLeod chiefs of Dunvegan, on Skye, and ran a famous piping school at Boreraig for generations. They were said to be the greatest pipers in the Highlands.",
+      "Legend says their gift came from the fairies. A young MacCrimmon, the least talented of his brothers, was sitting sadly by a fairy knoll when a woman of the fairies appeared and gave him a silver chanter, telling him it would make him the finest piper of all. When he played, his family were astonished. The gift would last as long as the family kept faith with her."
+    ],
+    "explanation": "Tales of musicians learning their art from the fairies are common in Scotland and Ireland, explaining extraordinary talent. The MacCrimmons were real, and they shaped the classical music of the Highland bagpipe, called pìobaireachd. A memorial cairn now stands at Boreraig.",
+    "wiki": "MacCrimmon"
+  },
+  {
+    "slug": "culzean-piper",
+    "featured": false,
+    "category": "voices",
+    "title": "The Phantom Piper of Culzean",
+    "region": "Culzean Castle, South Ayrshire, Scotland, UK",
+    "lat": 55.355,
+    "lon": -4.79,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Scottish folklore and visitors",
+    "hook": "Beneath a clifftop castle in Scotland are caves where, on stormy nights, people say the sound of bagpipes drifts up from the dark.",
+    "summary": [
+      "Culzean Castle stands on cliffs above the sea in Ayrshire, and below it the rock is honeycombed with caves, once used by smugglers. A legend tells of a piper who went into the caves to explore them, playing as he went so that those above could follow his progress, until the music stopped and he never came out.",
+      "Ever since, it's said, his piping can be heard from the caves on stormy nights, and he plays at weddings of the family that owned the castle."
+    ],
+    "explanation": "Stories of a piper who vanishes into a cave or tunnel are told at many places in Scotland and northern England, and may be warnings about the dangers of caves. Wind and waves in sea caves can make eerie musical sounds. Culzean is now cared for by the National Trust for Scotland.",
+    "wiki": "Culzean Castle"
+  },
+  {
+    "slug": "cellist-and-nightingale",
+    "featured": false,
+    "category": "voices",
+    "title": "The Cellist and the Nightingale",
+    "region": "Oxted, Surrey, England, UK",
+    "lat": 51.26,
+    "lon": -0.0,
+    "dateLabel": "19 May 1924",
+    "status": "disputed",
+    "statusLabel": "Disputed",
+    "witnesses": "BBC listeners across Britain",
+    "hook": "In 1924, the BBC broadcast a cellist playing in her garden at night, and a nightingale sang along with her. A million people listened. But was it a bird?",
+    "summary": [
+      "Beatrice Harrison was a famous cellist who said that when she played in her garden in Surrey, nightingales in the woods would answer her. On 19 May 1924, the BBC broadcast it live, one of the first outdoor radio broadcasts ever made. As she played, a nightingale sang with her.",
+      "The broadcast was a sensation. Listeners wrote in from across Britain and beyond, and it was repeated every spring for years. Harrison received thousands of letters."
+    ],
+    "explanation": "Decades later, a claim surfaced that the 'nightingale' on the first broadcast was actually a bird impressionist hired in case the real bird didn't sing. The BBC and historians have found no firm proof either way, and later recordings in the garden did capture real nightingales. The truth of that first night is still debated.",
+    "wiki": "Beatrice Harrison"
+  },
+  {
+    "slug": "enchanted-rock",
+    "featured": false,
+    "category": "voices",
+    "title": "The Groaning of Enchanted Rock",
+    "region": "Enchanted Rock, near Fredericksburg, Texas, USA",
+    "lat": 30.506,
+    "lon": -98.82,
+    "dateLabel": "Heard for centuries",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Native American peoples, settlers and campers",
+    "hook": "A huge pink granite dome in Texas creaks and groans at night, as if something inside it were moving.",
+    "summary": [
+      "Enchanted Rock is a vast dome of pink granite rising above the Texas Hill Country. People camping near it have long reported hearing strange creaking and groaning sounds after dark, coming from the rock itself. Some also told of ghostly lights flickering on its top.",
+      "The Tonkawa and Comanche peoples, who lived in the region, told stories about the rock and the spirits connected to it, and it was regarded as a place of power."
+    ],
+    "explanation": "Geologists say the rock heats up in the sun during the day and expands, then cools and contracts quickly at night, so its outer layers shift and crack, producing the groans. The lights may be moonlight reflecting off wet rock or minerals. It's now a state natural area.",
+    "wiki": "Enchanted Rock"
+  },
+  {
+    "slug": "niagara-falls-silence",
+    "featured": true,
+    "category": "voices",
+    "title": "The Night Niagara Fell Silent",
+    "region": "Niagara Falls, New York, USA",
+    "lat": 43.08,
+    "lon": -79.08,
+    "dateLabel": "29–31 March 1848",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Residents of both sides of the Niagara River",
+    "hook": "In March 1848, people living beside Niagara Falls woke in the night to something they'd never heard: silence. The falls had stopped.",
+    "summary": [
+      "On the night of 29 March 1848, people near Niagara Falls were woken by an unfamiliar sensation: quiet. The thundering roar they lived with day and night had faded. In the morning, they found the falls had almost stopped, with only a trickle of water going over the edge.",
+      "For about thirty hours, people walked out onto the riverbed, picking up fish, turtles, old guns and bayonets left from the War of 1812. Some believed it was a sign of the end of the world, and churches filled with people praying."
+    ],
+    "explanation": "Strong winds had pushed a huge mass of ice from Lake Erie into the mouth of the Niagara River, damming it. When the wind changed and the ice broke up, the water came back with a roar. It's the only time the falls are known to have stopped completely.",
+    "wiki": "Niagara Falls"
+  },
+  {
+    "slug": "skriker",
+    "featured": false,
+    "category": "voices",
+    "title": "The Skriker",
+    "region": "Lancashire, England, UK",
+    "lat": 53.75,
+    "lon": -2.5,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Lancashire folklore",
+    "hook": "In Lancashire, you might hear it before you see it: a terrible shriek in the lanes at night, and heavy padding footsteps following you.",
+    "summary": [
+      "The Skriker, named after the shrieks it makes, is a spectral black dog of Lancashire folklore. It's said to roam the lanes and woods at night, sometimes invisible, its presence known only by its shrieking cry and the heavy sound of its feet padding behind travellers.",
+      "When seen, it's a large black dog with huge, saucer-like eyes. Like other black dogs of British folklore, hearing or meeting it was taken as an omen of death."
+    ],
+    "explanation": "The Skriker is one of many regional black dogs in England, along with Black Shuck in East Anglia and the barghest in Yorkshire. Folklorists see them as warnings against travelling alone at night. Fox screams and owls may lie behind some of its cries.",
+    "wiki": null
+  },
+  {
+    "slug": "lia-fail",
+    "featured": false,
+    "category": "voices",
+    "title": "The Stone That Roars for a King",
+    "region": "Hill of Tara, County Meath, Ireland",
+    "lat": 53.578,
+    "lon": -6.612,
+    "dateLabel": "Told since ancient times",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Irish myth",
+    "hook": "On the Hill of Tara stands a standing stone that, legend says, cried out aloud when the rightful king of Ireland touched it.",
+    "summary": [
+      "The Hill of Tara in County Meath was the ancient seat of the High Kings of Ireland, crowded with earthworks and monuments thousands of years old. On its summit stands the Lia Fáil, the Stone of Destiny.",
+      "In Irish mythology, the stone was brought to Ireland by the Tuatha Dé Danann, a race of gods. When the true king placed his feet on it, it roared with joy so loudly that it could be heard across Ireland. One legend says it fell silent after the hero Cú Chulainn struck it in anger when it didn't roar for his friend."
+    ],
+    "explanation": "The stone is real, though it's not certain this is the original Lia Fáil, as it was moved in the 1800s. The Hill of Tara has been a sacred and royal site since the Stone Age. Stones of kingship appear in other traditions too, like the Stone of Scone in Scotland.",
+    "wiki": "Hill of Tara"
+  },
+  {
+    "slug": "comet-kohoutek",
+    "featured": false,
+    "category": "sky",
+    "title": "Comet Kohoutek, the 'Comet of the Century'",
+    "region": "Hamburg Observatory, Bergedorf, Hamburg, Germany",
+    "lat": 53.48,
+    "lon": 10.24,
+    "dateLabel": "Discovered March 1973",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Astronomers, the press and a religious group",
+    "hook": "In 1973, astronomers predicted a comet so bright it would be the spectacle of the century. Some believed it would bring the end of the world. It barely showed up.",
+    "summary": [
+      "In March 1973, the Czech astronomer Luboš Kohoutek, working at the Hamburg Observatory, discovered a comet heading for the inner solar system. Because it was found so far away and already quite bright, astronomers predicted it could become one of the brightest comets ever, visible in daylight.",
+      "The media called it the 'comet of the century'. Merchandise was sold, cruises were booked, and the leader of one religious movement warned it signalled a coming catastrophe in the United States. Astronauts on Skylab were assigned to study it."
+    ],
+    "explanation": "The comet turned out to be a newcomer from the far edge of the solar system, rich in ice that boiled off early, making it look brighter when far away. Near the Sun, it was much dimmer than predicted. 'Kohoutek' became a byword for a let-down. Scientists still learned a great deal from it.",
+    "wiki": "C/1973 E1 (Kohoutek)"
+  },
+  {
+    "slug": "comet-elenin",
+    "featured": false,
+    "category": "sky",
+    "title": "Comet Elenin and the Doomsday That Wasn't",
+    "region": "Mayhill, New Mexico, USA",
+    "lat": 32.9,
+    "lon": -105.53,
+    "dateLabel": "Discovered December 2010; broke up in 2011",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "An amateur astronomer, then the internet",
+    "hook": "In 2011, the internet decided a newly found comet was a hidden planet, a spaceship, or a sign of the end. It quietly fell apart.",
+    "summary": [
+      "In December 2010, the Russian amateur astronomer Leonid Elenin, using a remote telescope in New Mexico, discovered a new comet. It was predicted to pass relatively close to Earth in October 2011.",
+      "Online, rumours spread: that it was a brown dwarf or the mythical planet Nibiru, that it would cause earthquakes, or that it was an alien craft and that NASA was hiding the truth. Some videos claimed its approach would trigger disasters."
+    ],
+    "explanation": "The comet was small, a few kilometres across at most, and posed no danger. In August 2011, it broke apart as it neared the Sun, leaving a fading cloud of dust. Its closest approach to Earth came and went without anything happening.",
+    "wiki": "C/2010 X1 (Elenin)"
+  },
+  {
+    "slug": "nemesis-star",
+    "featured": false,
+    "category": "sky",
+    "title": "Nemesis, the Death Star",
+    "region": "Berkeley, California, USA",
+    "lat": 37.87,
+    "lon": -122.26,
+    "dateLabel": "Proposed in 1984",
+    "status": "explained",
+    "statusLabel": "Not found",
+    "witnesses": "Astronomers and palaeontologists",
+    "hook": "In 1984, scientists suggested that the Sun had a dark twin, circling far out in space, that every 26 million years sends comets crashing into Earth.",
+    "summary": [
+      "In the early 1980s, two palaeontologists argued that mass extinctions in Earth's history seemed to happen in a cycle, roughly every 26 million years. In 1984, two teams of scientists, including a group at the University of California, Berkeley, proposed an explanation: an unseen companion star orbiting the Sun far beyond the planets.",
+      "Every 26 million years, its orbit would bring it close enough to disturb the cloud of comets at the edge of the solar system, sending a rain of comets inwards. They named it Nemesis, after the Greek goddess of retribution."
+    ],
+    "explanation": "Infrared sky surveys, including NASA's WISE telescope, have found no such star, and most scientists now doubt the extinctions follow a regular cycle. The idea remains a famous example of a bold scientific guess that didn't pan out.",
+    "wiki": "Nemesis (hypothetical star)"
+  },
+  {
+    "slug": "planet-nine",
+    "featured": false,
+    "category": "sky",
+    "title": "Planet Nine",
+    "region": "Caltech, Pasadena, California, USA",
+    "lat": 34.14,
+    "lon": -118.13,
+    "dateLabel": "Proposed in 2016",
+    "status": "open",
+    "statusLabel": "Not yet found",
+    "witnesses": "Astronomers at Caltech and elsewhere",
+    "hook": "Something seems to be tugging on the most distant objects in the solar system. Two astronomers think it's a hidden planet, ten times the mass of Earth.",
+    "summary": [
+      "In 2016, the astronomers Konstantin Batygin and Mike Brown, at Caltech, announced evidence that a large, undiscovered planet might orbit far beyond Neptune. They noticed that several small, icy worlds in the far reaches of the solar system have strangely lined-up orbits, as if something big were shepherding them.",
+      "The proposed Planet Nine would be several times the mass of Earth, taking 10,000 to 20,000 years to go once around the Sun, too far and dim to have been spotted so far."
+    ],
+    "explanation": "No one has found it yet, and some astronomers think the lined-up orbits could be a result of how and where surveys have looked, or of the combined pull of many small objects. New telescopes, such as the Vera Rubin Observatory in Chile, may settle the question.",
+    "wiki": "Planet Nine"
+  },
+  {
+    "slug": "neith-moon-of-venus",
+    "featured": false,
+    "category": "sky",
+    "title": "Neith, the Moon of Venus",
+    "region": "Paris Observatory, Paris, France",
+    "lat": 48.836,
+    "lon": 2.336,
+    "dateLabel": "Reported from 1672 to the 1760s",
+    "status": "explained",
+    "statusLabel": "Never existed",
+    "witnesses": "Giovanni Cassini and other astronomers",
+    "hook": "For a century, respected astronomers reported seeing a small moon beside Venus. It was even given a name. It isn't there.",
+    "summary": [
+      "In 1672, the astronomer Giovanni Domenico Cassini, at the Paris Observatory, reported seeing a small object near Venus, showing the same crescent shape as the planet, like a little moon. He saw it again in 1686. Over the next century, several other astronomers reported it too, and in 1761 and 1764 there was a flurry of sightings.",
+      "In 1884, a Belgian astronomer named it Neith, after an Egyptian goddess, though by then most experts doubted it."
+    ],
+    "explanation": "Venus has no moon. Later astronomers showed that many of the sightings were stars that happened to be near Venus at the time, and others were 'ghost' images caused by reflections inside the telescopes. Spacecraft have since confirmed there's nothing there.",
+    "wiki": null
+  },
+  {
+    "slug": "lilith-dark-moon",
+    "featured": false,
+    "category": "sky",
+    "title": "Earth's Second Moon, Lilith",
+    "region": "Hamburg, Germany",
+    "lat": 53.55,
+    "lon": 9.99,
+    "dateLabel": "Claimed in 1898",
+    "status": "explained",
+    "statusLabel": "Never existed",
+    "witnesses": "A German astronomer, then astrologers",
+    "hook": "In 1898, a scientist in Hamburg announced that Earth had a second moon, dark and almost invisible. Astrologers still use it today.",
+    "summary": [
+      "In 1898, Georg Waltemath, a German scientist in Hamburg, claimed to have found a second, small moon of Earth, much further away than our Moon and so dark that it could only be seen in rare conditions. He predicted when it would cross in front of the Sun, and some people said they had seen it.",
+      "Astronomers couldn't find it. But in 1918, an astrologer named it Lilith, after a figure from Jewish folklore, and it was taken up in astrology as the 'Black Moon'."
+    ],
+    "explanation": "No second moon of this kind exists; it would be easy to find with modern telescopes. In astrology, 'Black Moon Lilith' is now usually used to mean an imaginary point in the Moon's orbit rather than a real object. Earth does sometimes capture tiny temporary 'minimoons'.",
+    "wiki": null
+  },
+  {
+    "slug": "kyoto-aurora-1770",
+    "featured": false,
+    "category": "sky",
+    "title": "The Red Sky over Kyoto",
+    "region": "Kyoto, Japan",
+    "lat": 35.01,
+    "lon": 135.77,
+    "dateLabel": "17 September 1770",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "The people of Kyoto, recorded in a diary and a drawing",
+    "hook": "In 1770, the night sky over Kyoto filled with red streamers, like the tail of a pheasant. Someone drew it, and scientists still study the picture.",
+    "summary": [
+      "On the night of 17 September 1770, people in Kyoto and across Japan and China saw the northern sky glow red, with long, bright red rays stretching upwards. In Japan, where auroras are almost never seen, it was alarming and recorded in many diaries.",
+      "One record includes a coloured drawing of the sky, with red rays fanning out above a dark hill, compared to a pheasant's tail. In 2017, Japanese scientists used it and other records to study the event."
+    ],
+    "explanation": "It was an aurora, caused by an extremely strong solar storm, perhaps as powerful as the famous Carrington Event of 1859. Auroras usually only reach far-northern places, but very strong storms push them much further south. Studying such old records helps scientists understand how strong solar storms can get.",
+    "wiki": null
+  },
+  {
+    "slug": "red-crucifix-774",
+    "featured": false,
+    "category": "sky",
+    "title": "The Red Cross in the Sky",
+    "region": "Winchester, Hampshire, England, UK",
+    "lat": 51.06,
+    "lon": -1.31,
+    "dateLabel": "774 AD",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "The Anglo-Saxon Chronicle",
+    "hook": "In 774, an English chronicle recorded a red cross in the heavens after sunset. Over a thousand years later, tree rings revealed that something hit Earth that year.",
+    "summary": [
+      "The Anglo-Saxon Chronicle, a record kept by monks in England, says that in the year 774, 'a red crucifix appeared in the heavens after sunset'. Like many strange events in old chronicles, it was easy to dismiss.",
+      "In 2012, the Japanese scientist Fusa Miyake and her colleagues found that tree rings from the year 774 or 775 showed a sudden, very large spike in radioactive carbon, a sign that Earth had been hit by a huge burst of radiation from space."
+    ],
+    "explanation": "Most scientists now think the spike was caused by an extraordinarily powerful solar storm, much stronger than any seen in modern times. Some have suggested the red cross was a strong aurora seen that year, though this is debated, and other explanations, such as a halo, have been proposed.",
+    "wiki": null
+  },
+  {
+    "slug": "ophelia-red-sun",
+    "featured": false,
+    "category": "sky",
+    "title": "The Day the Sun Turned Red over Britain",
+    "region": "London, England, UK",
+    "lat": 51.51,
+    "lon": -0.13,
+    "dateLabel": "16 October 2017",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Millions of people across Britain",
+    "hook": "On an October afternoon in 2017, the sky over Britain turned a strange sepia yellow, the Sun became a dull red disc, and streetlights came on at midday.",
+    "summary": [
+      "On 16 October 2017, people across England and Wales looked up to see the sky turn an eerie yellow-brown, as if lit by fire, while the Sun shone through as a pale red or orange disc that could be looked at directly. Streetlights came on in the middle of the day, and many people shared photos, some joking about the end of the world.",
+      "On the same day, the remains of Hurricane Ophelia were crossing Ireland."
+    ],
+    "explanation": "The storm's winds had pulled up dust from the Sahara and smoke from wildfires burning in Spain and Portugal and carried them over Britain. The particles scattered away the blue light of the sky and the Sun, leaving reds and yellows. The same thing happens, more mildly, at every sunset.",
+    "wiki": "Hurricane Ophelia (2017)"
+  },
+  {
+    "slug": "gulliver-moons-of-mars",
+    "featured": false,
+    "category": "sky",
+    "title": "The Moons of Mars, Foretold in Gulliver's Travels",
+    "region": "Dublin, Ireland",
+    "lat": 53.34,
+    "lon": -6.27,
+    "dateLabel": "Written in 1726; found in 1877",
+    "status": "explained",
+    "statusLabel": "Coincidence",
+    "witnesses": "Readers of Jonathan Swift",
+    "hook": "In 1726, Jonathan Swift wrote that astronomers had discovered two moons circling Mars. No one would see them for another 151 years.",
+    "summary": [
+      "In Gulliver's Travels, published in 1726, the Irish writer Jonathan Swift describes the flying island of Laputa, whose astronomers have discovered 'two lesser stars, or satellites, which revolve about Mars'. He even gives their distances and how long they take to go round.",
+      "In 1877, the American astronomer Asaph Hall discovered that Mars does have two small moons, which he named Phobos and Deimos. They're tiny and close to the planet, and very hard to see."
+    ],
+    "explanation": "Swift's numbers aren't right, and he was probably drawing on an older idea: Johannes Kepler had suggested Mars might have two moons, reasoning that if Earth has one and Jupiter four, Mars should have two. The match is a celebrated lucky guess. Two craters on Deimos are now named Swift and Voltaire.",
+    "wiki": "Moons of Mars"
+  },
+  {
+    "slug": "eclipse-shadow-bands",
+    "featured": false,
+    "category": "sky",
+    "title": "The Shadow Snakes of an Eclipse",
+    "region": "Madras, Oregon, USA",
+    "lat": 44.63,
+    "lon": -121.13,
+    "dateLabel": "Seen at total eclipses, including 21 August 2017",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Eclipse watchers",
+    "hook": "In the moments before a total eclipse, faint wavy bands of light and shadow slither across the ground and walls, like ripples at the bottom of a pool.",
+    "summary": [
+      "Just before and just after the Sun is completely covered in a total eclipse, many people notice something strange on the ground: faint, wavy bands of light and dark rippling across pale surfaces like walls, sheets and sand. They move quickly and are very hard to photograph. Some people have called them shadow snakes.",
+      "They've been reported for centuries and are often described as one of the eeriest parts of an eclipse, alongside the sudden cold and the birds falling silent."
+    ],
+    "explanation": "Shadow bands are thought to be caused by the turbulent air of Earth's atmosphere bending the last thin sliver of sunlight, the same effect that makes stars twinkle. Their exact patterns are still studied, and scientists have tried to film them at recent eclipses.",
+    "wiki": null
+  },
+  {
+    "slug": "wethersfield-meteorites",
+    "featured": false,
+    "category": "sky",
+    "title": "The Town Hit by Meteorites Twice",
+    "region": "Wethersfield, Connecticut, USA",
+    "lat": 41.71,
+    "lon": -72.65,
+    "dateLabel": "1971 and 1982",
+    "status": "explained",
+    "statusLabel": "Coincidence",
+    "witnesses": "Two households in the same town",
+    "hook": "In 1971, a meteorite crashed through the roof of a house in a Connecticut town. Eleven years later, another one hit a house about three kilometres away.",
+    "summary": [
+      "In April 1971, a meteorite fell through the roof of a house in Wethersfield, Connecticut, landing in the living room. No one was hurt. It was a rare event: only a handful of houses are known to have been hit by meteorites.",
+      "Then, on 8 November 1982, a second meteorite came through the roof of another house in the same town, about three kilometres from the first, bouncing through the ceiling into the dining room while the owners watched television."
+    ],
+    "explanation": "The two meteorites came from different space rocks and fell by pure chance in the same town. Experts called it an astonishing coincidence. The 1982 meteorite is now in the collection of the Peabody Museum at Yale University.",
+    "wiki": null
+  },
+  {
+    "slug": "loket-meteorite",
+    "featured": false,
+    "category": "sky",
+    "title": "The Cursed Burgrave of Loket",
+    "region": "Loket Castle, Karlovy Vary, Czechia",
+    "lat": 50.186,
+    "lon": 12.754,
+    "dateLabel": "Fell around 1400",
+    "status": "explained",
+    "statusLabel": "A real meteorite",
+    "witnesses": "Bohemian legend, then scientists",
+    "hook": "For centuries, a heavy lump of iron in a Bohemian castle was said to be a cruel lord, turned to metal as punishment for his sins.",
+    "summary": [
+      "Loket Castle, above a bend in the Ohře river in western Bohemia, kept for centuries a large, strangely shaped piece of iron weighing about 100 kilograms. Local legend said it was a burgrave, a lord of the castle, who was so cruel or greedy that he was cursed and turned to iron. People called it the 'cursed burgrave'.",
+      "It was said that whenever it was taken away, it came back, and at one point it was thrown into the castle well to be rid of it."
+    ],
+    "explanation": "The lump is an iron meteorite, which probably fell nearby around the year 1400, and it was one of the first meteorites to be studied by scientists in the early 1800s. Most of it is now in a museum in Vienna, and a piece is displayed at the castle.",
+    "wiki": null
+  },
+  {
+    "slug": "nogata-meteorite",
+    "featured": false,
+    "category": "sky",
+    "title": "The Stone Kept in a Shrine for 1,100 Years",
+    "region": "Suga Shrine, Nōgata, Fukuoka, Japan",
+    "lat": 33.74,
+    "lon": 130.73,
+    "dateLabel": "Fell on 19 May 861",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "The shrine's records",
+    "hook": "In 861, a stone fell from the sky into a shrine's grounds in Japan. The priests put it in a box and kept it for over a thousand years. It's the oldest meteorite whose fall was witnessed.",
+    "summary": [
+      "According to the records of Suga Shrine in Nōgata, in northern Kyushu, on 19 May 861 a bright light and a loud noise were followed by the fall of a black stone in the shrine's grounds. The priests kept it in a wooden box, which was marked with the date, and it was treasured as a sacred object.",
+      "In 1979, scientists were allowed to examine the stone and confirmed that it was a meteorite, weighing about 470 grams."
+    ],
+    "explanation": "The Nōgata meteorite is the oldest known meteorite whose fall was seen and recorded at the time, and which still survives. It's an ordinary stony meteorite, a chondrite. It remains at the shrine.",
+    "wiki": "Nōgata meteorite"
+  },
+  {
+    "slug": "reagan-ufo-1974",
+    "featured": false,
+    "category": "sky",
+    "title": "The Light That Followed Ronald Reagan",
+    "region": "Near Bakersfield, California, USA",
+    "lat": 35.37,
+    "lon": -119.02,
+    "dateLabel": "1974",
+    "status": "open",
+    "statusLabel": "Unexplained",
+    "witnesses": "Ronald Reagan and his pilot",
+    "hook": "In 1974, the governor of California looked out of his plane's window and saw a bright light. He asked the pilot to follow it.",
+    "summary": [
+      "In 1974, Ronald Reagan, then governor of California, was flying in a small plane near Bakersfield when he and his pilot noticed a bright white light moving near them. According to the pilot, they followed it for several minutes before it suddenly shot upward at great speed and vanished.",
+      "Reagan told a Wall Street Journal reporter about it soon after, saying he had seen a UFO. He later avoided the subject, and when he was president he made several speeches imagining how an alien threat might unite humanity."
+    ],
+    "explanation": "The sighting has never been identified. Suggestions include a bright planet such as Venus, another aircraft or a weather balloon, with the speed being an illusion. Reagan told the reporter he was sceptical about UFOs before that night.",
+    "wiki": null
+  },
+  {
+    "slug": "aeroflot-8352",
+    "featured": false,
+    "category": "sky",
+    "title": "The Cloud That Chased a Soviet Airliner",
+    "region": "Near Minsk, Belarus",
+    "lat": 53.9,
+    "lon": 27.56,
+    "dateLabel": "7 September 1984",
+    "status": "open",
+    "statusLabel": "Unexplained",
+    "witnesses": "The crew and passengers of an Aeroflot flight",
+    "hook": "Over Belarus at night, a Soviet airliner's crew saw a star shoot a beam of light to the ground, and then a glowing cloud seemed to follow their plane for hundreds of kilometres.",
+    "summary": [
+      "On 7 September 1984, the crew of an Aeroflot airliner flying over Belarus, near Minsk, reported seeing a bright, yellowish point of light in the sky. It sent a beam down towards the ground, then turned the beam towards the plane. A glowing, greenish cloud then appeared, which seemed to follow the aircraft and change shape, apparently also seen by other crews and on the ground.",
+      "The story was reported in the Soviet newspaper Trud in 1985, unusual at the time, and became one of the best-known UFO cases from the Soviet Union."
+    ],
+    "explanation": "Some researchers think the crew saw the effects of a secret Soviet rocket or missile launch, whose exhaust can produce glowing clouds and beams of light at high altitude. The Soviet military never confirmed this. The case is still unexplained.",
+    "wiki": null
+  },
+  {
+    "slug": "silpho-moor-saucer",
+    "featured": false,
+    "category": "sky",
+    "title": "The Little Saucer of Silpho Moor",
+    "region": "Silpho Moor, near Scarborough, North Yorkshire, England, UK",
+    "lat": 54.33,
+    "lon": -0.52,
+    "dateLabel": "Found in November 1957",
+    "status": "explained",
+    "statusLabel": "Hoax",
+    "witnesses": "Three men who found it, then the press",
+    "hook": "In 1957, men walking on a Yorkshire moor found a small metal saucer. Inside were thin copper sheets covered in strange symbols: a message from someone called Ullo.",
+    "summary": [
+      "In November 1957, three men crossing Silpho Moor, near Scarborough, saw something glowing and found a small saucer-shaped object about 45 centimetres across. Inside, they said, were 17 thin copper sheets, inscribed with symbols resembling hieroglyphs.",
+      "The 'message' was translated by a UFO enthusiast as coming from an alien named Ullo, who warned humanity about the misuse of nuclear power. The story was a sensation in the British press. The saucer vanished from public view for decades."
+    ],
+    "explanation": "Tests on the metal showed it was ordinary material from Earth, and the case is widely seen as a hoax, made in the age of the first nuclear weapons and Sputnik. The saucer itself was lost from view for many years.",
+    "wiki": null
+  },
+  {
+    "slug": "foehn-wind",
+    "featured": false,
+    "category": "sky",
+    "title": "The Wind That Makes People Ill",
+    "region": "Munich, Bavaria, Germany",
+    "lat": 48.14,
+    "lon": 11.58,
+    "dateLabel": "Blamed for centuries",
+    "status": "open",
+    "statusLabel": "Debated",
+    "witnesses": "People living near the Alps",
+    "hook": "When a warm, dry wind blows down from the Alps, people in Munich say they get headaches and bad tempers, and that accidents and arguments go up.",
+    "summary": [
+      "The föhn is a warm, dry wind that blows down the northern side of the Alps, sometimes raising temperatures by many degrees in a few hours and giving the mountains an unnaturally sharp, clear look. In Munich, Innsbruck and Zurich, people have long blamed it for headaches, insomnia, irritability and gloom.",
+      "Some say it brings more accidents and crimes, and in the past German and Swiss courts were said to take it into account. Similar winds elsewhere, like the Santa Ana in California and the sirocco in the Mediterranean, have their own reputations for driving people mad."
+    ],
+    "explanation": "The föhn is caused by air rising over the mountains, losing its moisture as rain on one side, and then warming as it sinks down the other. Studies of its effects on health have mixed results: some people may be sensitive to rapid changes in pressure and temperature, but the strongest claims are not supported.",
+    "wiki": "Foehn wind"
+  },
+  {
+    "slug": "hookerman-lights",
+    "featured": false,
+    "category": "sky",
+    "title": "The Hookerman Lights",
+    "region": "Washington Township, Morris County, New Jersey, USA",
+    "lat": 40.78,
+    "lon": -74.8,
+    "dateLabel": "Reported for decades",
+    "status": "explained",
+    "statusLabel": "Probably explained",
+    "witnesses": "Local teenagers and visitors",
+    "hook": "Along an old railway line in New Jersey, a swinging light is said to bob towards you in the dark: a railway worker, still looking for the arm he lost.",
+    "summary": [
+      "For decades, people in Morris County, New Jersey, went at night to a stretch of old railway track to see the Hookerman lights: floating balls of light, white, red or green, that seemed to move along the tracks towards them and then vanish.",
+      "Legend says they come from the lantern of a railway worker who lost his arm in an accident on the line, and now walks the track searching for it, with a hook in place of his hand."
+    ],
+    "explanation": "Investigators suggested the lights were headlights from cars on distant roads, or reflections, and some said they faded after the tracks were removed. The story is a version of the 'ghost light' legends told across the United States, often linked to lost railway workers.",
+    "wiki": null
+  },
+  {
+    "slug": "moon-landing-hoax",
+    "featured": false,
+    "body": "moon",
+    "category": "sky",
+    "title": "The Claim That No One Went to the Moon",
+    "region": "Sea of Tranquillity, on the Moon",
+    "lat": 0.7,
+    "lon": 23.4,
+    "dateLabel": "Claimed since 1976",
+    "status": "explained",
+    "statusLabel": "Disproved",
+    "witnesses": "Hundreds of thousands of people who worked on Apollo, and the evidence they left",
+    "hook": "Some people believe the Moon landings were filmed in a studio. The Moon itself has the answer.",
+    "summary": [
+      "In 1976, an American named Bill Kaysing, who had worked for a rocket engine company, published a book claiming that NASA had faked the Moon landings between 1969 and 1972, filming them on Earth. The idea spread through television documentaries and later the internet.",
+      "Believers point to things like the flag seeming to wave, the lack of stars in photos, and shadows that don't look parallel."
+    ],
+    "explanation": "Each point has an explanation: the flag had a rod along its top and moved when touched, stars are too faint to show in photos of a bright surface, and shadows on uneven ground point different ways. The astronauts brought back 382 kilograms of Moon rock, left mirrors still used by observatories to bounce lasers off, and NASA's Lunar Reconnaissance Orbiter has photographed the landing sites, with footprints and equipment.",
+    "wiki": "Moon landing conspiracy theories"
+  },
+  {
+    "slug": "sputnik-rocket-body",
+    "featured": false,
+    "body": "orbit",
+    "category": "sky",
+    "title": "The 'Sputnik' Everyone Saw Was a Rocket",
+    "region": "In orbit, launched from Baikonur, Kazakhstan",
+    "lat": 47.0,
+    "lon": 66.0,
+    "dateLabel": "October–December 1957",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Millions of people around the world",
+    "hook": "In October 1957, people everywhere went outside to watch the first artificial satellite sail across the night sky. What most of them saw wasn't the satellite.",
+    "summary": [
+      "When the Soviet Union launched Sputnik 1 on 4 October 1957, newspapers told readers where to look for it, and crowds gathered at dusk and dawn to watch a bright star glide steadily across the sky. For many, it was a thrilling and frightening sight.",
+      "But the satellite itself was a polished sphere just 58 centimetres across, too faint to see easily without binoculars."
+    ],
+    "explanation": "What most people saw was the 26-metre-long core stage of the R-7 rocket that had launched it, which was also in orbit, reflecting sunlight and bright enough to see easily. It fell back to Earth in early December 1957. Sputnik 1 lasted until January 1958.",
+    "wiki": null
+  },
+  {
+    "slug": "tiangong-1-fall",
+    "featured": false,
+    "body": "orbit",
+    "category": "sky",
+    "title": "The Space Station That Fell from the Sky",
+    "region": "In orbit, falling over the South Pacific",
+    "lat": -13.9,
+    "lon": -163.6,
+    "dateLabel": "2016 to 2 April 2018",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Space agencies and trackers around the world",
+    "hook": "In 2016, China lost control of its first space station. For two years, the world watched it sink lower, and no one knew where it would come down.",
+    "summary": [
+      "Tiangong-1, China's first space station, was launched in 2011 and visited by astronauts, including China's first female astronauts. In 2016, Chinese authorities confirmed they had lost the ability to control it, and its orbit began slowly decaying.",
+      "As the 8.5-tonne station sank, trackers around the world tried to predict where its remains would fall. Maps showed a huge band of possible landing zones covering much of the populated world, and newspapers ran stories about the risk."
+    ],
+    "explanation": "On 2 April 2018, Tiangong-1 re-entered the atmosphere over the South Pacific, northwest of Tahiti, and almost entirely burned up. The chance of anyone being hit was always tiny. The case showed how hard it is to predict where uncontrolled spacecraft will fall.",
+    "wiki": "Tiangong-1"
+  },
+  {
+    "slug": "samlesbury-white-lady",
+    "featured": false,
+    "category": "visitors",
+    "title": "The White Lady of Samlesbury Hall",
+    "region": "Samlesbury Hall, Lancashire, England, UK",
+    "lat": 53.766,
+    "lon": -2.61,
+    "dateLabel": "Told since the 1500s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Visitors, staff and drivers on the nearby road",
+    "hook": "A daughter of a Catholic family fell in love with a Protestant. Her family wouldn't allow it. She's said to still walk the grounds of a Lancashire hall, waiting for him.",
+    "summary": [
+      "Samlesbury Hall, a black-and-white timbered manor house near Preston, was home to the Southworth family. Legend tells of Dorothy Southworth, a daughter of the strongly Catholic family, who fell in love with a young man from a Protestant family. They planned to run away together, but her brothers discovered them, and her lover was killed.",
+      "Dorothy, the story says, was sent away and died of a broken heart. Since then, a woman in white has been reported in the house and grounds, and even on the road outside, where drivers have said they saw her."
+    ],
+    "explanation": "The tale echoes the story of Romeo and Juliet and was written down long after the time it describes, so its history is uncertain. It reflects the deep religious divisions of Tudor England. The hall is now open to visitors and holds ghost nights.",
+    "wiki": "Samlesbury Hall"
+  },
+  {
+    "slug": "tom-fool-muncaster",
+    "featured": false,
+    "category": "visitors",
+    "title": "Tom Fool of Muncaster Castle",
+    "region": "Muncaster Castle, Ravenglass, Cumbria, England, UK",
+    "lat": 54.355,
+    "lon": -3.38,
+    "dateLabel": "Told since the 1500s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Visitors and staff of the castle",
+    "hook": "A castle in Cumbria is said to be haunted by its Tudor jester, a man whose jokes, legend says, could be deadly.",
+    "summary": [
+      "Thomas Skelton, known as Tom Fool, is said to have been the jester at Muncaster Castle in the late 1500s. Legend makes him a dark figure: he would give wrong directions to travellers he didn't like, sending them into the quicksands of the estuary, and he's said to have played a part in killing a young carpenter who had fallen in love with the lord's daughter.",
+      "His portrait still hangs in the castle, and staff and visitors have reported footsteps, strange noises and sightings, especially in the Tapestry Room."
+    ],
+    "explanation": "Whether Tom Skelton was real is uncertain, though the portrait suggests a historic jester. The claim that 'tomfoolery' comes from his name is a popular story, but the word is older. The castle embraces him, with an annual festival of jesters.",
+    "wiki": "Muncaster Castle"
+  },
+  {
+    "slug": "ham-house-duchess",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Duchess of Ham House",
+    "region": "Ham House, Richmond, London, England, UK",
+    "lat": 51.444,
+    "lon": -0.311,
+    "dateLabel": "Reported for centuries",
+    "status": "open",
+    "statusLabel": "Unexplained",
+    "witnesses": "Staff, visitors and security guards",
+    "hook": "In a riverside mansion near London, staff say the scent of roses drifts through rooms, a dog that isn't there scampers past, and the house's old duchess still keeps watch.",
+    "summary": [
+      "Ham House, a grand 17th-century house on the Thames at Richmond, was the home of Elizabeth Murray, Duchess of Lauderdale, a powerful and ambitious figure of the Restoration court. She is said never to have left: visitors and staff have described a woman in old-fashioned dress, the tapping of her cane, and her presence in the room that was hers.",
+      "Other stories tell of the sound of a small dog, the smell of tobacco and roses, and footprints that appear on the floors."
+    ],
+    "explanation": "Old houses are full of draughts, creaks and smells from old materials, and stories in famous houses tend to grow with retelling. The National Trust, which owns Ham House, runs tours about its supernatural reputation.",
+    "wiki": "Ham House"
+  },
+  {
+    "slug": "jamaica-inn",
+    "featured": false,
+    "category": "visitors",
+    "title": "Jamaica Inn",
+    "region": "Bolventor, Bodmin Moor, Cornwall, England, UK",
+    "lat": 50.55,
+    "lon": -4.56,
+    "dateLabel": "Built in 1750",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Guests, staff and a famous novelist",
+    "hook": "On the bleak heart of Bodmin Moor stands a coaching inn once famous for smugglers. A novelist made it legendary, and guests still hear footsteps in the night.",
+    "summary": [
+      "Jamaica Inn, built in 1750 on the road across Bodmin Moor, was a stopping place for travellers and, according to local lore, a base for smugglers moving contraband inland from the Cornish coast. In 1930, the writer Daphne du Maurier stayed there after getting lost on the moor in fog, and her 1936 novel Jamaica Inn made it famous.",
+      "Guests and staff have told of footsteps in the corridors at night, the sound of horses' hooves and wheels in the courtyard, and a man seen sitting on the wall outside."
+    ],
+    "explanation": "The inn's real history of moorland travel and smuggling, and its role in a famous novel, make it a natural home for stories. It's still a working inn and has a museum of smuggling.",
+    "wiki": "Jamaica Inn"
+  },
+  {
+    "slug": "house-of-seven-chimneys",
+    "featured": false,
+    "category": "visitors",
+    "title": "The House of the Seven Chimneys",
+    "region": "Plaza del Rey, Madrid, Spain",
+    "lat": 40.42,
+    "lon": -3.697,
+    "dateLabel": "Built in the 1500s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Madrid folklore",
+    "hook": "On the rooftop of a 16th-century house in Madrid, a woman in white was said to walk between the seven chimneys at night, holding a torch.",
+    "summary": [
+      "The Casa de las Siete Chimeneas, a red-brick house with seven chimneys in the centre of Madrid, is one of the oldest in the city. Legend says it was built for a young woman who married a captain who died at war, and who then died young herself in mysterious circumstances.",
+      "Soon after, people reported seeing a woman in white walking across the rooftop at night among the chimneys, carrying a lit torch and pointing towards the nearby royal palace. Later stories added that bones were found when the house was repaired."
+    ],
+    "explanation": "The legend has many versions and isn't supported by records, and some link it to rumours about a king's secret love. The house is now the home of the Spanish Ministry of Culture, and its legend is one of Madrid's best known.",
+    "wiki": "House of the Seven Chimneys"
+  },
+  {
+    "slug": "clinton-road",
+    "featured": false,
+    "category": "visitors",
+    "title": "Clinton Road",
+    "region": "West Milford, New Jersey, USA",
+    "lat": 41.08,
+    "lon": -74.45,
+    "dateLabel": "Told since the 1970s",
+    "status": "explained",
+    "statusLabel": "Urban legend",
+    "witnesses": "Drivers, teenagers and a magazine about New Jersey oddities",
+    "hook": "Throw a coin into the water from a bridge on this New Jersey road, the story goes, and a ghostly boy will throw it back.",
+    "summary": [
+      "Clinton Road runs for about 16 kilometres through dark woods and reservoirs in northern New Jersey, with few houses along it. It has a reputation as one of the strangest roads in America, with stories of phantom cars that tailgate drivers and vanish, strange creatures, and gatherings in the woods.",
+      "The most famous legend is of the ghost of a boy who drowned under a bridge at a bend called Dead Man's Curve. If you drop a coin into the water, it's said, he'll toss it back, or it will be found on the road the next morning."
+    ],
+    "explanation": "The road's legends were collected and popularised by the magazine Weird NJ from the 1990s. Its remoteness and the ruins of an old castle-like house nearby made it a natural setting for scary stories, especially for teenagers daring each other to drive it at night.",
+    "wiki": "Clinton Road (New Jersey)"
+  },
+  {
+    "slug": "shades-of-death-road",
+    "featured": false,
+    "category": "visitors",
+    "title": "Shades of Death Road",
+    "region": "Warren County, New Jersey, USA",
+    "lat": 40.89,
+    "lon": -74.98,
+    "dateLabel": "Named by the 1800s",
+    "status": "open",
+    "statusLabel": "Origins debated",
+    "witnesses": "Locals and visitors",
+    "hook": "A country road in New Jersey has one of the most ominous names in America. No one agrees on how it got it.",
+    "summary": [
+      "Shades of Death Road winds through woods and farmland in Warren County, New Jersey, beside a dark lake known as Ghost Lake. Its name alone has made it famous, and visitors report mists, strange lights and figures on the road at night.",
+      "Many stories try to explain the name: that bandits once robbed travellers there, that settlers died of malaria from the swamps, or that a series of grim events took place in the area long ago."
+    ],
+    "explanation": "Local historians say no one knows for sure where the name came from. The 'shades' may refer to the deep shade of the trees. The road's legends are kept alive by its name, its spooky lake and visitors who come to photograph its sign, which is often stolen.",
+    "wiki": "Shades of Death Road"
+  },
+  {
+    "slug": "merlins-oak",
+    "featured": false,
+    "category": "visitors",
+    "title": "Merlin's Oak",
+    "region": "Carmarthen, Wales, UK",
+    "lat": 51.857,
+    "lon": -4.31,
+    "dateLabel": "Prophecy told for centuries; tree removed in 1978",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "The people of Carmarthen",
+    "hook": "An old prophecy said that when the wizard Merlin's oak tree fell, his home town of Carmarthen would fall too. So the townspeople kept the dead tree propped up for over a century.",
+    "summary": [
+      "In Welsh legend, the wizard Merlin was born in Carmarthen, whose Welsh name, Caerfyrddin, was later linked to his. In the town stood an ancient oak said to be his, and a prophecy warned: 'When Merlin's Oak shall tumble down, then shall fall Carmarthen town.'",
+      "The tree died in the 1800s, but the townspeople kept its trunk standing, propped with concrete and iron. In 1978, it was finally removed to widen a road, and pieces were kept in the town museum. Some noted that Carmarthen suffered serious floods soon afterwards."
+    ],
+    "explanation": "The connection between Merlin and Carmarthen comes from medieval writers, notably Geoffrey of Monmouth in the 1100s, and the tree was probably planted much later. The floods were caused by heavy rain. The prophecy has become a cherished part of local history.",
+    "wiki": null
+  },
+  {
+    "slug": "cagliostro",
+    "featured": false,
+    "category": "visitors",
+    "title": "Count Cagliostro",
+    "region": "San Leo, Emilia-Romagna, Italy",
+    "lat": 43.896,
+    "lon": 12.343,
+    "dateLabel": "1743–1795",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "The courts of Europe",
+    "hook": "A mysterious count dazzled 18th-century Europe with cures, séances and an 'Egyptian' secret society. His enemies said he was a Sicilian con man.",
+    "summary": [
+      "Count Alessandro di Cagliostro appeared in the courts and salons of Europe in the 1770s and 1780s, claiming to be a healer, alchemist and master of ancient Egyptian wisdom. He founded his own branch of freemasonry, held séances in which children looking into water saw visions, and was said to cure the sick for free.",
+      "He was caught up in the 'Affair of the Diamond Necklace', a scandal at the French court, and though cleared, he was expelled from France. His enemies said he was really Giuseppe Balsamo, a swindler from Palermo. He ended his life a prisoner of the Church in the fortress of San Leo."
+    ],
+    "explanation": "Historians generally accept that Cagliostro and Balsamo were the same man, and that he was a gifted showman. Others see him as a sincere, if self-invented, mystic. He has inspired many novels, operas and legends, including stories that he never really died.",
+    "wiki": "Alessandro Cagliostro"
+  },
+  {
+    "slug": "nicolas-flamel",
+    "featured": false,
+    "category": "visitors",
+    "title": "Nicolas Flamel, the Alchemist Who Never Died",
+    "region": "Rue de Montmorency, Paris, France",
+    "lat": 48.863,
+    "lon": 2.354,
+    "dateLabel": "Died in 1418, according to records",
+    "status": "explained",
+    "statusLabel": "Legend",
+    "witnesses": "Writers and treasure-hunters since the 1600s",
+    "hook": "A Paris scribe who died in 1418 was later said to have found the philosopher's stone, and with it, eternal life. People claimed to have met him centuries later.",
+    "summary": [
+      "Nicolas Flamel was a real scribe and bookseller in medieval Paris who became wealthy and gave generously to churches and hospitals. His house, built in 1407, still stands on Rue de Montmorency and is one of the oldest in Paris.",
+      "In the 1600s, a book appeared, said to be by him, describing how he had decoded a mysterious book and achieved the alchemist's dream: the philosopher's stone, which turned metal into gold and gave eternal life. Treasure seekers dug at his house, and travellers claimed to have met him and his wife alive, centuries after their deaths."
+    ],
+    "explanation": "Historians say the alchemy book was written long after his death, and his wealth probably came from his business and his wife's property. The legend grew because his name was attached to it. He now appears in fiction, including the Harry Potter books.",
+    "wiki": "Nicolas Flamel"
+  },
+  {
+    "slug": "john-dee-mirror",
+    "featured": false,
+    "category": "visitors",
+    "title": "John Dee's Mirror for Speaking with Angels",
+    "region": "British Museum, London, England, UK",
+    "lat": 51.519,
+    "lon": -0.127,
+    "dateLabel": "Used in the 1580s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "John Dee, Edward Kelley and their records",
+    "hook": "Queen Elizabeth I's astrologer used a black mirror of polished stone to talk with angels. The mirror came from the Aztecs, and it's in the British Museum.",
+    "summary": [
+      "John Dee was a brilliant mathematician, astronomer and adviser to Queen Elizabeth I, and also deeply interested in magic. In the 1580s, with a man named Edward Kelley who acted as his 'scryer', he held sessions in which Kelley gazed into crystals and mirrors and reported messages from angels, including a whole angelic language now called Enochian.",
+      "One of the objects Dee used was a disc of polished black obsidian. A 2021 study confirmed that it came from Mexico, an Aztec cult object brought to Europe after the Spanish conquest."
+    ],
+    "explanation": "Historians think Kelley may have invented the angelic messages, though Dee seems to have believed them. The Aztecs used obsidian mirrors in their religion too, linked with the god Tezcatlipoca, 'Smoking Mirror'. The mirror is displayed in the British Museum.",
+    "wiki": "John Dee"
+  },
+  {
+    "slug": "faust-staufen",
+    "featured": false,
+    "category": "visitors",
+    "title": "Doctor Faust and the Devil at Staufen",
+    "region": "Staufen im Breisgau, Baden-Württemberg, Germany",
+    "lat": 47.88,
+    "lon": 7.73,
+    "dateLabel": "Died about 1540",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "German legend",
+    "hook": "A real wandering magician of the 1500s became the legend of the man who sold his soul. At an inn in a small German town, the story says, the devil came to collect.",
+    "summary": [
+      "Johann Georg Faust was a real wandering astrologer, alchemist and magician in Germany in the early 1500s, mentioned in letters and records, often unfavourably, as a boaster and fraud. Soon after his death, stories spread that he had made a pact with the devil, trading his soul for knowledge and pleasure.",
+      "Legend says he died around 1540 at the Gasthaus zum Löwen in Staufen im Breisgau, when an explosion, perhaps from one of his experiments, shook his room, and his body was found in a terrible state: proof, people said, that the devil had taken him."
+    ],
+    "explanation": "The legend was published in a popular book in 1587 and inspired Christopher Marlowe's play Doctor Faustus and Goethe's Faust. Historians think he may have died in an accident during an alchemical experiment. A painting on the inn in Staufen still tells the story.",
+    "wiki": "Faust"
+  },
+  {
+    "slug": "edgar-cayce",
+    "featured": false,
+    "category": "visitors",
+    "title": "Edgar Cayce, the Sleeping Prophet",
+    "region": "Virginia Beach, Virginia, USA",
+    "lat": 36.85,
+    "lon": -75.98,
+    "dateLabel": "1901–1945",
+    "status": "disputed",
+    "statusLabel": "Disputed",
+    "witnesses": "Thousands of people who received readings",
+    "hook": "Lying on a couch with his eyes closed, an American photographer gave thousands of 'readings', diagnosing illnesses and describing lost Atlantis.",
+    "summary": [
+      "Edgar Cayce, from Kentucky, discovered as a young man that when he lay down and seemed to fall asleep, he could answer questions in a trance. Over more than forty years, mostly in Virginia Beach, he gave over 14,000 'readings', most of them suggesting remedies for illnesses, others describing past lives, the lost continent of Atlantis and the future.",
+      "Stenographers recorded his words, and the transcripts are kept by an organisation he founded in Virginia Beach, which still promotes his work."
+    ],
+    "explanation": "Sceptics note that many of his predictions, such as Atlantis rising in 1968 or 1969 and great disasters later in the century, didn't come true, and that his health advice was a mix of folk medicine and ideas of his time. His followers believe he had genuine psychic gifts.",
+    "wiki": "Edgar Cayce"
+  },
+  {
+    "slug": "thomas-the-rhymer",
+    "featured": false,
+    "category": "visitors",
+    "title": "Thomas the Rhymer and the Queen of Elfland",
+    "region": "Earlston and the Eildon Hills, Scottish Borders, Scotland, UK",
+    "lat": 55.6,
+    "lon": -2.7,
+    "dateLabel": "1200s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Scottish ballads and chronicles",
+    "hook": "A Scottish poet met a beautiful lady under a tree on the Eildon Hills and kissed her. She was the Queen of Elfland, and he vanished with her for seven years.",
+    "summary": [
+      "Thomas of Erceldoune was a real man who lived in the 1200s at Earlston in the Scottish Borders, famous as a poet and prophet. The ballad of Thomas the Rhymer tells that, lying under the Eildon Tree, he saw a lady in green riding a white horse. She was the Queen of Elfland. He kissed her, and had to go with her into her realm.",
+      "After seven years, which felt like three days, he returned with a gift: a tongue that could not lie. He became known as True Thomas and was credited with many prophecies, including the death of a Scottish king."
+    ],
+    "explanation": "The story combines a real historical figure with the old belief that the fairies take people away, and that time passes differently in their world. The Eildon Tree Stone marks the traditional spot near Melrose. Prophecies attributed to Thomas were still being published centuries later.",
+    "wiki": "Thomas the Rhymer"
+  },
+  {
+    "slug": "schimmelreiter",
+    "featured": false,
+    "category": "visitors",
+    "title": "The Rider on the White Horse",
+    "region": "North Frisian coast, near Husum, Germany",
+    "lat": 54.48,
+    "lon": 9.05,
+    "dateLabel": "Legend; novella published in 1888",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "North Frisian folklore",
+    "hook": "On the North Sea dikes of Germany, a ghostly rider on a pale horse is said to gallop along the top of the wall when a storm flood is coming.",
+    "summary": [
+      "In the folklore of the North Frisian coast, where low farmland is protected from the sea by dikes, a rider on a white horse was said to appear on the dikes during storms. His appearance was a warning that a great flood was coming and the dike might break.",
+      "The writer Theodor Storm, from Husum, turned the legend into a famous novella, Der Schimmelreiter, in 1888. In it, a determined dike-builder and his white horse die when the sea breaks through, and he returns as a ghost rider whenever the coast is in danger."
+    ],
+    "explanation": "The legend reflects the real danger of storm floods on this coast, which drowned many people in past centuries. Storm's novella is one of the best-known works of German literature, and the rider has become a symbol of the North Sea coast.",
+    "wiki": "The Rider on the White Horse"
+  },
+  {
+    "slug": "wild-edric",
+    "featured": false,
+    "category": "visitors",
+    "title": "Wild Edric, Who Rides Before a War",
+    "region": "The Stiperstones, Shropshire, England, UK",
+    "lat": 52.58,
+    "lon": -2.94,
+    "dateLabel": "Told since the Middle Ages",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Shropshire folklore and miners",
+    "hook": "A Saxon lord who married a fairy is said to sleep under the hills of Shropshire. When war is coming, people say, he and his fairy wife ride out across the sky.",
+    "summary": [
+      "Eadric the Wild was a real Saxon lord who resisted the Norman conquest of England in the 1060s. Legend says he married a fairy woman named Godda, whom he found dancing in the forest, and that she left him when he broke a promise.",
+      "Later folklore says Edric did not die, but is bound under the hills near the Stiperstones, where Shropshire lead miners heard him knocking. Before a great war, he rides out with his fairy wife and followers. People reported seeing him in 1853, before the Crimean War, and some said again before the First World War."
+    ],
+    "explanation": "Wild Edric's story mixes a real resistance leader with the fairy-bride and Wild Hunt legends found across Europe. Like other sleeping heroes, he became a symbol of the land and its people. Miners' knocking sounds were probably the noises of the mines themselves.",
+    "wiki": "Eadric the Wild"
+  },
+  {
+    "slug": "pixie-led",
+    "featured": false,
+    "category": "visitors",
+    "title": "Pixie-Led on Dartmoor",
+    "region": "Dartmoor, Devon, England, UK",
+    "lat": 50.57,
+    "lon": -3.92,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Folklore",
+    "witnesses": "Devon and Cornwall folklore",
+    "hook": "On Dartmoor, people who lost their way in a place they knew well said they'd been 'pixie-led'. The cure was to turn your coat inside out.",
+    "summary": [
+      "In the folklore of Devon and Cornwall, pixies were small, mischievous beings who lived on the moors. One of their favourite tricks was to lead travellers astray, so that a person walking a familiar path would suddenly find themselves lost, going round in circles, unable to find the way home.",
+      "This was called being 'pixie-led'. The remedy was to turn your coat or pockets inside out, which confused the pixies and broke the spell. People also left offerings to keep them happy."
+    ],
+    "explanation": "The sudden disorientation of being lost, especially in fog on the moors, is a real and frightening experience, and pixie-leading gave it a cause. The word 'pixilated', meaning confused or eccentric, may come from it.",
+    "wiki": "Pixie"
+  },
+  {
+    "slug": "keplers-somnium",
+    "featured": false,
+    "body": "moon",
+    "category": "visitors",
+    "title": "Kepler's Dream of the Moon",
+    "region": "Levania, the Moon of Kepler's Somnium",
+    "lat": 20.0,
+    "lon": 10.0,
+    "dateLabel": "Written in 1608; published in 1634",
+    "status": "explained",
+    "statusLabel": "Fiction",
+    "witnesses": "Readers of Johannes Kepler",
+    "hook": "In 1608, the astronomer Johannes Kepler wrote a story about a boy carried to the Moon by a spirit, where strange creatures crawl through scorching days and freezing nights.",
+    "summary": [
+      "Johannes Kepler, who worked out the laws of how planets move, wrote a short story called Somnium, 'The Dream'. In it, a young Icelander named Duracotus is taken to the Moon, which Kepler calls Levania, by a spirit summoned by his mother, a wise woman.",
+      "Kepler used the story to describe what the Earth and sky would look like from the Moon, with long days and nights and the Earth hanging in the sky. He also imagined Moon creatures, which shelter in caves from the heat and grow and die in a single day."
+    ],
+    "explanation": "Somnium is often called one of the first works of science fiction. It was published after Kepler's death. During his life, his own mother was accused of witchcraft and put on trial, and Kepler believed that versions of his story, with its magical mother, had fed the rumours. He defended her, and she was released.",
+    "wiki": "Somnium (novel)"
+  },
+  {
+    "slug": "iliamna-lake-monster",
+    "featured": false,
+    "category": "creatures",
+    "title": "Illie of Iliamna Lake",
+    "region": "Iliamna Lake, Alaska, USA",
+    "lat": 59.6,
+    "lon": -155.0,
+    "dateLabel": "Reported for generations",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Local residents, pilots and fishermen",
+    "hook": "In Alaska's biggest lake, pilots flying low have reported huge, dark shapes in the water, fish far longer than any boat.",
+    "summary": [
+      "Iliamna Lake, in south-west Alaska, is the largest lake in the state, about 125 kilometres long and very deep. Local Alaska Native people and later settlers have told stories of huge creatures in it. In the 20th century, bush pilots flying over the lake reported seeing large, dark fish-like animals, some estimated at 3 to 9 metres long.",
+      "The creature, nicknamed Illie, drew attention in the 1970s, when a newspaper offered a reward for proof, and television crews later searched for it."
+    ],
+    "explanation": "No creature has been caught or clearly filmed. Suggestions include very large white sturgeon, which can grow over 6 metres, though they're not known in the lake, large lake trout or pike, or seals that may swim up from the sea. The lake is so remote that it has been little studied.",
+    "wiki": "Iliamna Lake"
+  },
+  {
+    "slug": "ponik",
+    "featured": false,
+    "category": "creatures",
+    "title": "Ponik of Lake Pohénégamook",
+    "region": "Lake Pohénégamook, Quebec, Canada",
+    "lat": 47.45,
+    "lon": -69.25,
+    "dateLabel": "Reported since the 1870s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Residents, including a local priest",
+    "hook": "In a small Quebec lake near the US border, people describe a long, dark creature with a horse-like head. One of the witnesses was the village priest.",
+    "summary": [
+      "Lake Pohénégamook, in Quebec close to the border with Maine, is said to be home to Ponik, a lake monster described as 3 to 12 metres long, dark brown or black, with a horse-like head and humps on its back. Sightings go back to the 1870s.",
+      "In the 1950s, the local priest, Father Léopold Plante, reported seeing it, which gave the stories credibility, and a government team of scientists came to investigate in 1977."
+    ],
+    "explanation": "The scientists found no monster, but suggested a large sturgeon, a fish that can grow very long and looks prehistoric. Ponik is now the town's mascot, with a festival and statues.",
+    "wiki": null
+  },
+  {
+    "slug": "old-ned-lake-utopia",
+    "featured": false,
+    "category": "creatures",
+    "title": "Old Ned of Lake Utopia",
+    "region": "Lake Utopia, New Brunswick, Canada",
+    "lat": 45.18,
+    "lon": -66.8,
+    "dateLabel": "Reported since the 1800s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Residents and visitors",
+    "hook": "In a lake in New Brunswick, people have long reported a creature churning the water, and in winter, the ice broken from below.",
+    "summary": [
+      "Lake Utopia, near St. George in New Brunswick, has a monster of its own, known as Old Ned. Stories describe a large creature, sometimes dark and eel-like, sometimes compared to a whale, that churns the water and has been blamed for breaking up the ice in winter.",
+      "Sightings have been reported since at least the 1800s, and Old Ned is part of local lore, with the creature sometimes said to have been seen by many people at once."
+    ],
+    "explanation": "No evidence has been found. Large eels, sturgeon and swimming animals such as otters are possible explanations, along with waves and floating logs. Like many lake monsters, Old Ned is a cherished local legend.",
+    "wiki": "Lake Utopia (New Brunswick)"
+  },
+  {
+    "slug": "hook-island-sea-monster",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Giant Tadpole of Hook Island",
+    "region": "Hook Island, Whitsunday Islands, Queensland, Australia",
+    "lat": -20.07,
+    "lon": 148.93,
+    "dateLabel": "December 1964",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "A French photographer and his companions",
+    "hook": "In 1964, a photographer published pictures of a huge, tadpole-shaped creature lying on the sea floor off an Australian island, more than 20 metres long.",
+    "summary": [
+      "In December 1964, Robert Le Serrec, a French photographer, said that while sailing in Stonehaven Bay off Hook Island, in Queensland's Whitsunday Islands, he and his companions saw a gigantic creature lying motionless in the shallow water. They described it as like a giant tadpole, with a huge head and a long, thin tail, about 23 metres long.",
+      "He published photographs showing a long, dark shape under the water. He said that when they swam closer, it opened its mouth and swam away."
+    ],
+    "explanation": "Many researchers believe the photos were a hoax, perhaps made with a plastic sheet or tarpaulin weighed down on the sea floor. It was later reported that Le Serrec had been planning a book about sea monsters before the trip. Others have suggested a large fish, such as a whale shark.",
+    "wiki": null
+  },
+  {
+    "slug": "barnacle-geese",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Geese That Grew on Trees",
+    "region": "The west coast of Ireland",
+    "lat": 53.3,
+    "lon": -9.5,
+    "dateLabel": "Told from the 1100s",
+    "status": "explained",
+    "statusLabel": "Explained",
+    "witnesses": "Medieval writers, including Gerald of Wales",
+    "hook": "Medieval Europeans believed that some geese weren't born from eggs at all, but grew on driftwood like fruit, inside seashells.",
+    "summary": [
+      "No one in medieval Europe had ever seen barnacle geese nest. They arrived every autumn and disappeared every spring. An explanation spread: they grew from goose barnacles, shellfish that cling to driftwood, whose feathery feeding arms looked like tiny birds inside their shells.",
+      "In 1188, Gerald of Wales wrote that he had seen more than a thousand of these tiny birds hanging from a piece of timber on the Irish shore. Since the birds weren't born of flesh, some argued, they could be eaten on fasting days when meat was forbidden. In 1215, Pope Innocent III banned the practice."
+    ],
+    "explanation": "Barnacle geese breed in the far Arctic, in Greenland, Svalbard and Russia, where medieval Europeans never went. The myth lasted until the 1600s and is why the bird and the shellfish share a name.",
+    "wiki": "Barnacle goose myth"
+  },
+  {
+    "slug": "elasmotherium",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Siberian Unicorn",
+    "region": "Pavlodar, Kazakhstan",
+    "lat": 52.29,
+    "lon": 76.95,
+    "dateLabel": "Survived until about 39,000 years ago",
+    "status": "explained",
+    "statusLabel": "Extinct",
+    "witnesses": "Fossils and the early humans who shared its world",
+    "hook": "A giant woolly rhinoceros with a single, enormous horn on its forehead lived alongside early humans. Did it inspire the unicorn?",
+    "summary": [
+      "Elasmotherium was a huge relative of the rhinoceros that lived on the grasslands of Eurasia. It was about the size of a mammoth and had a large bony dome on its forehead, which supported an enormous horn, perhaps a metre or more long. It's often called the 'Siberian unicorn'.",
+      "It was once thought to have died out hundreds of thousands of years ago, but in 2016 a skull found in the Pavlodar region of Kazakhstan was dated to about 29,000 years ago, and later studies suggested it survived until around 39,000 years ago, when modern humans were living in the region."
+    ],
+    "explanation": "Elasmotherium was real, and early humans may have seen it. Some have suggested that memories of such animals could have fed into legends of single-horned beasts in Russian folklore, such as the Indrik, but there's no direct evidence. The unicorns of European legend probably have many sources, including narwhal tusks.",
+    "wiki": "Elasmotherium"
+  },
+  {
+    "slug": "waheela",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Waheela",
+    "region": "Nahanni Valley, Northwest Territories, Canada",
+    "lat": 61.6,
+    "lon": -124.8,
+    "dateLabel": "Reported in the 20th century",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Trappers and prospectors",
+    "hook": "In the far north of Canada, travellers reported a wolf larger than any wolf should be, with white fur and a heavy, broad head.",
+    "summary": [
+      "The waheela is a giant wolf-like creature reported in northern Canada and Alaska, said to be much bigger than an ordinary wolf, with thick white fur, wide-set legs and a broad head, travelling alone instead of in packs.",
+      "It has been linked to the Nahanni Valley in the Northwest Territories, nicknamed the 'Headless Valley' because of stories about prospectors found without their heads. Some writers connect it with the amarok, a giant wolf of Inuit folklore."
+    ],
+    "explanation": "There's no physical evidence of the waheela. Large northern grey wolves, which can be white, or bears seen briefly, are likely explanations. Some cryptozoologists have suggested it could be a surviving prehistoric predator, but there's no support for this.",
+    "wiki": "Amarok (legendary creature)"
+  },
+  {
+    "slug": "shunka-warakin",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Shunka Warak'in",
+    "region": "Madison Valley, Montana, USA",
+    "lat": 45.2,
+    "lon": -111.7,
+    "dateLabel": "Shot in 1886; rediscovered in 2007",
+    "status": "open",
+    "statusLabel": "Unidentified",
+    "witnesses": "A rancher's family, then museum staff",
+    "hook": "In 1886, a rancher in Montana shot a strange, hyena-like animal that was killing his livestock. It was stuffed and put on display. Then it disappeared for over a century.",
+    "summary": [
+      "In 1886, Israel Ammon Hutchins, a rancher in the Madison Valley of Montana, shot a dark, wolf-like creature that had been attacking his animals. It had high shoulders and a sloping back, like a hyena. It was mounted by a taxidermist and displayed for years in a museum and shop in Idaho, where it was called 'ringdocus'.",
+      "The name shunka warak'in comes from the Ioway people, meaning roughly 'carries off dogs'. The mount was lost for decades, until in 2007 it was found again in a museum in Idaho by one of Hutchins's descendants."
+    ],
+    "explanation": "The mount hasn't been fully tested. Many think it's an unusual wolf or a wolf-dog hybrid, its strange look partly due to the taxidermy. DNA tests have been discussed but not conclusively published.",
+    "wiki": null
+  },
+  {
+    "slug": "surrey-puma",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Surrey Puma",
+    "region": "Surrey, England, UK",
+    "lat": 51.24,
+    "lon": -0.6,
+    "dateLabel": "1962–1966 and after",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Hundreds of residents, police officers and gamekeepers",
+    "hook": "In the 1960s, people across the Surrey countryside reported a large, sandy-coloured cat, like a puma, prowling the fields and woods outside London.",
+    "summary": [
+      "From 1962, reports began to come in of a big, golden-brown cat seen in the countryside of Surrey, south-west of London. Police logged many sightings over the next few years. People described it as the size of a large dog, with a long tail, and reported strange cries at night, footprints and mauled animals.",
+      "Newspapers named it the Surrey Puma. In 1966, a photograph was taken near Worplesdon, but it was too unclear to prove anything."
+    ],
+    "explanation": "No puma was ever caught. Explanations include misidentified foxes, dogs and domestic cats, and the possibility of escaped or released exotic pets. The case was one of the first of Britain's many 'big cat' scares.",
+    "wiki": null
+  },
+  {
+    "slug": "fen-tiger",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Fen Tiger",
+    "region": "Cottenham, Cambridgeshire, England, UK",
+    "lat": 52.29,
+    "lon": 0.12,
+    "dateLabel": "Reported since 1982",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Residents, farmers and walkers",
+    "hook": "In the flat, open Fens of eastern England, people have reported a large black cat padding across the fields since the 1980s.",
+    "summary": [
+      "Since 1982, people in the Fens around Cottenham, north of Cambridge, have reported seeing a big black cat, much larger than a domestic cat, moving across the fields and along the drainage ditches of the flat landscape. It came to be called the Fen Tiger.",
+      "Over the years, there have been reports of footprints, dead animals and grainy video footage, and the sightings have spread across East Anglia."
+    ],
+    "explanation": "No big cat has been found. Sceptics point to large domestic cats, which can look much bigger in open country with nothing to judge size by, along with dogs and foxes. Some believe a few big cats really were released in Britain after laws on keeping dangerous animals were tightened in 1976.",
+    "wiki": null
+  },
+  {
+    "slug": "brassknocker-hill-beast",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Beast of Brassknocker Hill",
+    "region": "Brassknocker Hill, near Bath, Somerset, England, UK",
+    "lat": 51.36,
+    "lon": -2.33,
+    "dateLabel": "1979",
+    "status": "open",
+    "statusLabel": "Never identified",
+    "witnesses": "Residents and police near Bath",
+    "hook": "Near Bath, something was stripping the bark from trees and frightening the neighbours. A crowd of hunters and journalists came, and nobody found it.",
+    "summary": [
+      "In the summer of 1979, residents of Brassknocker Hill, on the edge of Bath, began finding trees stripped of their bark and branches, and reported glimpses of a strange animal. Descriptions ranged from a monkey or ape to something like a giant rat or a kangaroo.",
+      "The story drew national attention, and police, wildlife experts and reporters searched the area. Nothing was caught, and the sightings faded away."
+    ],
+    "explanation": "Many suspect an escaped monkey, perhaps a pet, or deer and other animals damaging the trees. The case is remembered as one of Britain's oddest local creature scares.",
+    "wiki": null
+  },
+  {
+    "slug": "hexham-heads",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Hexham Heads",
+    "region": "Hexham, Northumberland, England, UK",
+    "lat": 54.97,
+    "lon": -2.1,
+    "dateLabel": "1971–1978",
+    "status": "open",
+    "statusLabel": "Disputed",
+    "witnesses": "Two families, a Celtic scholar and her household",
+    "hook": "Two small stone heads dug up in a garden in Northumberland were followed, the families said, by visits from a half-man, half-sheep creature.",
+    "summary": [
+      "In 1971, two children digging in their garden in Hexham found two small carved stone heads, about the size of an apple. Soon after, the families in the house next door said they saw a strange creature, half-man and half-sheep, in their home at night.",
+      "The heads were passed to Dr Anne Ross, a scholar of Celtic religion, who thought they could be ancient Celtic carvings. She later said that while she had them, she and her family saw a tall, dark, wolf-like figure in her house."
+    ],
+    "explanation": "In 1978, a former resident of the house said he had made the heads himself in the 1950s as toys for his daughter. Others were not convinced. Tests on the stone were inconclusive, and the heads have since been lost.",
+    "wiki": "Hexham Heads"
+  },
+  {
+    "slug": "elwetritsch",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Elwetritsch",
+    "region": "Neustadt an der Weinstraße, Palatinate, Germany",
+    "lat": 49.35,
+    "lon": 8.14,
+    "dateLabel": "Told for generations",
+    "status": "explained",
+    "statusLabel": "A joke",
+    "witnesses": "Visitors to the Palatinate, and the locals who send them hunting",
+    "hook": "In the wine country of south-west Germany lives a strange bird with antlers, scales and a long beak. Newcomers are invited to hunt it at night with a sack.",
+    "summary": [
+      "The Elwetritsch is a creature of the Palatinate, a region of vineyards in south-west Germany. It's described as a chicken-like bird with feathers and scales, a long beak and sometimes small antlers. It hides in the vineyards and woods and can only be caught at night.",
+      "Visitors are sometimes taken on an 'Elwetritsch hunt', told to hold a sack open in the dark and wait while the locals drive the bird towards them. The locals then go off to the pub."
+    ],
+    "explanation": "The Elwetritsch is a joke creature, like the snipe hunt of North America or the Wolpertinger of Bavaria. It's now a local mascot, with a fountain of Elwetritsche in the town of Neustadt.",
+    "wiki": "Elwetritsch"
+  },
+  {
+    "slug": "hidebehind",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Hidebehind",
+    "region": "The north woods of Wisconsin, USA",
+    "lat": 45.5,
+    "lon": -89.5,
+    "dateLabel": "Told in logging camps; described in 1910",
+    "status": "explained",
+    "statusLabel": "Tall tale",
+    "witnesses": "Lumberjacks, who never saw it",
+    "hook": "No one has ever seen the hidebehind. Whenever you turn to look, it's already slipped behind a tree.",
+    "summary": [
+      "The hidebehind is one of the 'fearsome critters' of North American logging-camp folklore. It was said to stalk lumberjacks in the forests, always staying out of sight. However fast you turned round, it was already hidden behind a tree trunk, or behind you.",
+      "Lumberjacks who went missing in the woods were said to have been taken by it. Some versions say it could be kept away only by carrying alcohol, which it hated."
+    ],
+    "explanation": "The hidebehind was a tall tale, told to tease newcomers and explain the feeling of being watched in deep woods. It appeared in William Cox's 1910 book Fearsome Creatures of the Lumberwoods. That feeling of a presence just out of sight is a common one in forests at dusk.",
+    "wiki": "Hidebehind"
+  },
+  {
+    "slug": "ape-canyon",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Attack at Ape Canyon",
+    "region": "Ape Canyon, Mount St. Helens, Washington, USA",
+    "lat": 46.2,
+    "lon": -122.13,
+    "dateLabel": "July 1924",
+    "status": "open",
+    "statusLabel": "Disputed",
+    "witnesses": "Five miners, including Fred Beck",
+    "hook": "In 1924, gold miners on Mount St. Helens said huge, hairy 'mountain devils' bombarded their cabin with rocks all night after one of them shot at a creature.",
+    "summary": [
+      "In July 1924, five prospectors working a claim on the slopes of Mount St. Helens said they had been seeing large footprints and hearing strange calls. Then one of them, Fred Beck, said he shot at a huge, ape-like creature standing by a canyon.",
+      "That night, the men said, a group of the creatures attacked their log cabin, throwing rocks at it and against the walls for hours and pounding on the door. In the morning, the miners fled and told newspapers. The ravine was named Ape Canyon."
+    ],
+    "explanation": "Sceptics suggest pranks by local young men, or falling rocks, and some later said it was a hoax. Fred Beck told the story for the rest of his life, publishing a book in 1967, and it became one of the founding stories of bigfoot lore.",
+    "wiki": "Ape Canyon"
+  },
+  {
+    "slug": "haicheng-earthquake-snakes",
+    "featured": true,
+    "category": "creatures",
+    "title": "The Snakes That Woke Before the Earthquake",
+    "region": "Haicheng, Liaoning, China",
+    "lat": 40.85,
+    "lon": 122.75,
+    "dateLabel": "February 1975",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "Residents and officials in Liaoning",
+    "hook": "In the freezing winter of 1975, snakes came out of hibernation and froze on the snow in northern China. Weeks later, officials evacuated a city hours before a major earthquake.",
+    "summary": [
+      "In the winter of 1974 to 1975, people in Liaoning province in north-east China reported strange events: snakes leaving their burrows in the freezing cold, animals behaving restlessly, changes in well water, and growing numbers of small earthquakes.",
+      "On 4 February 1975, after a surge of small tremors, local authorities ordered people out of their homes in and around the city of Haicheng. That evening, a magnitude 7.3 earthquake struck, destroying many buildings. Because so many people were outside, far more lives were saved than would otherwise have been."
+    ],
+    "explanation": "Scientists say the evacuation was driven mainly by the burst of foreshocks, rather than by the animals. Whether animals can sense earthquakes coming is still debated: they may feel tiny tremors or changes in the ground before people do. The method failed a year later, when no warning came before a far deadlier earthquake.",
+    "wiki": "1975 Haicheng earthquake"
+  },
+  {
+    "slug": "sheepsquatch",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Sheepsquatch",
+    "region": "Boone County, West Virginia, USA",
+    "lat": 38.05,
+    "lon": -81.75,
+    "dateLabel": "Reported from the 1990s",
+    "status": "open",
+    "statusLabel": "Unconfirmed",
+    "witnesses": "Residents of West Virginia",
+    "hook": "In the hills of West Virginia, people describe a large white creature covered in woolly fur, with horns like a ram, and a stench like sulphur.",
+    "summary": [
+      "The Sheepsquatch is a creature reported in West Virginia, particularly in Boone County. It's described as a large, bear-sized animal covered in thick, white, woolly hair, with horns like a ram, and sometimes standing upright. Witnesses also mention a strong smell of sulphur.",
+      "It joined West Virginia's crowded family of strange creatures, including the Mothman, the Flatwoods monster and the Grafton monster."
+    ],
+    "explanation": "No evidence of the creature has been found. Some researchers suspect a mix of misidentified animals, such as sheep or goats gone wild, and stories that have grown in the telling. Others think the legend was partly invented or spread through books and the internet.",
+    "wiki": null
+  },
+  {
+    "slug": "werewolf-of-ansbach",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Werewolf of Ansbach",
+    "region": "Ansbach, Bavaria, Germany",
+    "lat": 49.3,
+    "lon": 10.57,
+    "dateLabel": "1685",
+    "status": "explained",
+    "statusLabel": "A real wolf",
+    "witnesses": "The people of Ansbach, recorded in a print of the time",
+    "hook": "In 1685, a wolf terrorised a German town. People believed it was their dead mayor, returned as a werewolf. When they killed it, they dressed it in his clothes and hanged it.",
+    "summary": [
+      "In 1685, the area around Ansbach, in Franconia, was hit by attacks from a wolf that killed livestock and was said to have attacked people. Rumours spread that the wolf was the town's former mayor, a hated man who had recently died, come back from the dead.",
+      "When villagers finally trapped and killed the wolf, they cut off its muzzle, dressed it in a flesh-coloured suit, a brown wig and a long beard and mask made to look like the mayor, and hanged it from a gallows. A printed broadsheet of the time shows it hanging there."
+    ],
+    "explanation": "The wolf was real, and wolves were a genuine danger in the region at the time. The 'trial' of the dead wolf shows how fears about werewolves and about returning dead people could merge with anger at authorities. The stuffed animal was later displayed as a curiosity.",
+    "wiki": null
+  },
+  {
+    "slug": "klabautermann",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Klabautermann",
+    "region": "Stralsund, Mecklenburg-Vorpommern, Germany",
+    "lat": 54.31,
+    "lon": 13.09,
+    "dateLabel": "Told by sailors for centuries",
+    "status": "open",
+    "statusLabel": "Folklore",
+    "witnesses": "Sailors of the North Sea and Baltic",
+    "hook": "Every good ship, Baltic sailors said, had a little sprite living in it, who hammered and fixed things at night. If the crew ever saw him, the ship was doomed.",
+    "summary": [
+      "In the folklore of German, Dutch and Scandinavian sailors on the Baltic and North Sea, the Klabautermann is a small water sprite who lives aboard ship. He's usually invisible, a little man in sailor's clothes with a pipe and a hammer, who helps the crew, fixing leaks and warning of danger by knocking on the hull.",
+      "Sailors left food for him. But seeing the Klabautermann was a terrible sign: it meant the ship was about to sink, and he would abandon it."
+    ],
+    "explanation": "The Klabautermann's knocking may be the creaking and banging of a wooden ship's timbers, and he reflects sailors' hope for luck at sea. He's related to household spirits on land, like the kobold. Carved figures of him were once kept on ships.",
+    "wiki": "Klabautermann"
+  },
+  {
+    "slug": "stoor-worm",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Stoor Worm",
+    "region": "Orkney, Scotland, UK",
+    "lat": 59.0,
+    "lon": -3.0,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Orkney folklore",
+    "hook": "Orkney legend says a sea serpent so huge it could wrap around the world was killed by a lazy farm boy, and its teeth became the islands.",
+    "summary": [
+      "In Orkney folklore, the Stoor Worm was a gigantic sea serpent whose breath could destroy crops and whose yawns, every morning, demanded a meal. The king was told he must give up his daughter to it, until a lazy young man named Assipattle, who spent his days lying by the fire, offered to try.",
+      "Assipattle sailed a small boat into the monster's mouth as it yawned, went down into its belly, and set fire to its liver with a burning peat. As it died, its teeth fell out to form Orkney, Shetland and the Faroes, and its body became Iceland, still burning inside."
+    ],
+    "explanation": "The tale is a creation myth that explains the islands and Iceland's volcanoes, and it's related to the dragon-slaying stories of Norse mythology. Orkney's Norse heritage runs deep, and the story is still told there today.",
+    "wiki": "Stoor worm"
+  },
+  {
+    "slug": "shellycoat",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Shellycoat",
+    "region": "Leith, Edinburgh, Scotland, UK",
+    "lat": 55.975,
+    "lon": -3.17,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Scottish folklore",
+    "hook": "On dark nights by Scottish rivers, travellers heard the jingle of shells and a voice crying for help. They learned not to go and look.",
+    "summary": [
+      "The shellycoat is a water spirit of Scottish folklore, said to live in streams and rivers, especially in the Borders and near Leith. It wore a coat covered with shells, which clattered and jingled as it moved, so you would hear it before you saw it.",
+      "It liked to trick travellers, crying out like someone drowning to lure them to the riverbank, then leading them on a wild chase through the night and laughing at their confusion. It was mischievous rather than deadly."
+    ],
+    "explanation": "The shellycoat belongs to the large family of Scottish water spirits, from kelpies to the each-uisge. Its jingling may reflect the sound of water over stones. Sir Walter Scott recorded tales about it.",
+    "wiki": "Shellycoat"
+  },
+  {
+    "slug": "hedley-kow",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Hedley Kow",
+    "region": "Hedley on the Hill, Northumberland, England, UK",
+    "lat": 54.93,
+    "lon": -1.86,
+    "dateLabel": "Told since at least the 1800s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Northumberland folklore",
+    "hook": "An old woman found a pot of gold by the road. As she carried it home, it turned to silver, then iron, then a stone. Then it jumped up and ran off, laughing.",
+    "summary": [
+      "The Hedley Kow was a shapeshifting bogie of the village of Hedley on the Hill in Northumberland, famous for playing tricks. It might appear as a bundle of straw, a horse, or a beautiful woman, and lead people on, then vanish with a shout of laughter.",
+      "In the best-known tale, a cheerful old woman finds a pot of gold. As she drags it home, it turns into a lump of silver, then iron, then a big stone, and each time she decides she's lucky anyway. At her door, the stone grows legs and ears, and the Kow runs off laughing. She's simply delighted to have seen it."
+    ],
+    "explanation": "The tale was collected by Joseph Jacobs in his English Fairy Tales of 1894. It's a gentle story about contentment, and the Kow is a typical northern English 'bogie', more mischievous than dangerous.",
+    "wiki": "The Hedley Kow"
+  },
+  {
+    "slug": "gytrash",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Gytrash",
+    "region": "Haworth Moor, West Yorkshire, England, UK",
+    "lat": 53.83,
+    "lon": -1.98,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Northern English folklore, and Jane Eyre",
+    "hook": "On lonely northern roads, a great black horse or dog, the gytrash, was said to come out of the dark towards travellers. Charlotte Brontë's Jane Eyre thought she'd seen one.",
+    "summary": [
+      "The gytrash, or guytrash, is a spectral creature of northern English folklore, said to haunt lonely roads and moors, appearing as a large horse, mule or dog with glowing eyes. It could lead travellers astray, though in some stories it guided them to safety.",
+      "In Charlotte Brontë's 1847 novel Jane Eyre, Jane, walking at dusk, hears hooves approaching and remembers the tales of the gytrash, before Mr Rochester appears on his horse with his dog, Pilot."
+    ],
+    "explanation": "The gytrash is one of the northern 'shapeshifting' spirits related to the barghest and the padfoot. Brontë grew up at Haworth, on the Yorkshire moors, where such stories were common.",
+    "wiki": "Gytrash"
+  },
+  {
+    "slug": "peg-powler",
+    "featured": false,
+    "category": "creatures",
+    "title": "Peg Powler of the River Tees",
+    "region": "Piercebridge, River Tees, County Durham, England, UK",
+    "lat": 54.535,
+    "lon": -1.68,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Teesside folklore",
+    "hook": "In the River Tees lived a green-skinned hag with long hair and sharp teeth, waiting to drag children who played too close to the water.",
+    "summary": [
+      "Peg Powler was a river hag of the River Tees in north-east England. She had green skin, long green hair and sharp teeth, and lived under the water, ready to grab and drown anyone, especially children, who came too near the bank, or who played there on a Sunday.",
+      "The froth and foam that gathers on the river in places was called 'Peg Powler's suds' or 'Peg Powler's cream'."
+    ],
+    "explanation": "Peg Powler was a 'nursery bogie', invented or used by adults to keep children away from dangerous water. Similar figures include Jenny Greenteeth of Lancashire.",
+    "wiki": "Peg Powler"
+  },
+  {
+    "slug": "tiddy-mun",
+    "featured": false,
+    "category": "creatures",
+    "title": "Tiddy Mun of the Fens",
+    "region": "The Ancholme Valley, Lincolnshire, England, UK",
+    "lat": 53.55,
+    "lon": -0.5,
+    "dateLabel": "Collected in the 1890s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Lincolnshire fen folklore",
+    "hook": "When the fens of Lincolnshire were drained, the little spirit of the waters grew angry. Children sickened and cattle died, until the people poured water back for him.",
+    "summary": [
+      "Tiddy Mun was a small spirit of the Lincolnshire fens, the wet marshlands where people once lived by fishing and fowling. He looked like a little old man with a long white beard and a grey cloak, and he controlled the water and mists. People would call on him to lower the floods.",
+      "When the fens were drained by outsiders in the 1600s and later, the story goes, Tiddy Mun was furious, and sickness and bad luck fell on the fen people. Every new moon, they went out at dusk and poured water into the dykes, asking his forgiveness, until he forgave them."
+    ],
+    "explanation": "The tale was collected in the 1890s by the folklorist Marie Clothilde Balfour, and some have questioned how much she added. It reflects real anger among the fen people, whose way of life was destroyed by the draining of the marshes.",
+    "wiki": "Tiddy Mun"
+  },
+  {
+    "slug": "morgawr",
+    "featured": false,
+    "category": "creatures",
+    "title": "Morgawr, the Sea Giant of Falmouth Bay",
+    "region": "Falmouth Bay, Cornwall, England, UK",
+    "lat": 50.13,
+    "lon": -5.03,
+    "dateLabel": "1975–1976",
+    "status": "explained",
+    "statusLabel": "Probably a hoax",
+    "witnesses": "Residents, fishermen, and photos sent to a newspaper",
+    "hook": "In 1975, people in Cornwall reported a hump-backed creature with a long neck in Falmouth Bay. Photos arrived at the local paper, signed only 'Mary F'.",
+    "summary": [
+      "In September 1975, two people walking near Pendennis Point in Falmouth said they saw a strange creature in the water, with humps, stumpy horns and a long neck. More sightings followed over the next months, and the creature was named Morgawr, Cornish for 'sea giant'.",
+      "In 1976, the Falmouth Packet newspaper received two photographs of a long-necked, humped animal in the bay, sent anonymously by someone who signed themselves 'Mary F'."
+    ],
+    "explanation": "The photos are widely thought to be fakes, and many suspect the involvement of a local showman and magician known for staging monster stunts. Some sightings may have been seals, basking sharks or floating debris. Morgawr remains part of Cornish folklore.",
+    "wiki": null
+  },
+  {
+    "slug": "boggart",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Boggart That Moved House",
+    "region": "Boggart Hole Clough, Manchester, England, UK",
+    "lat": 53.52,
+    "lon": -2.21,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Lancashire and Yorkshire folklore",
+    "hook": "A farmer, tired of the spirit that plagued his house, loaded his cart to move away. From inside the milk churn, a voice said: 'Aye, we're flitting.'",
+    "summary": [
+      "In the folklore of Lancashire and Yorkshire, a boggart is a mischievous, sometimes malicious household spirit, often a helpful spirit that has turned bad. It spills milk, pinches sleepers, pulls bedclothes off, and makes life miserable for the family it lives with.",
+      "In a famous tale, a farmer's family can bear it no longer and pack everything onto a cart to move away. A neighbour asks if they're leaving, and before the farmer can reply, a voice from the churn says: 'Aye, we're flitting.' The family gives up and goes back home. A park in north Manchester, Boggart Hole Clough, is named after one."
+    ],
+    "explanation": "Boggarts gave a face to household mishaps and the feeling that bad luck follows you. Folklorists note that the 'we're flitting' tale is found in many versions across Britain and Scandinavia.",
+    "wiki": "Boggart"
+  },
+  {
+    "slug": "spriggans",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Spriggans of Trencrom Hill",
+    "region": "Trencrom Hill, Cornwall, England, UK",
+    "lat": 50.18,
+    "lon": -5.47,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Cornish folklore",
+    "hook": "On Cornish hilltops guarded by ancient walls, small, ugly fairies keep watch over buried giants' treasure. Dig for it, and they swell to giant size.",
+    "summary": [
+      "In Cornish folklore, spriggans are grotesque, wizened fairies who guard ancient sites such as cairns, standing stones and old hill forts. Though small, they can swell to enormous size when angered, and they're said to be the ghosts of the old giants.",
+      "On Trencrom Hill, an Iron Age hill fort near St Ives, they guarded a giant's hidden treasure. A man who dug there one night, the story goes, was surrounded by spriggans growing taller and taller, and fled with nothing."
+    ],
+    "explanation": "Spriggans are part of the rich fairy lore of Cornwall, alongside piskies and the knockers of the mines. Stories of guarded treasure at ancient sites may have helped protect them from being dug up.",
+    "wiki": "Spriggan"
+  },
+  {
+    "slug": "yallery-brown",
+    "featured": false,
+    "category": "creatures",
+    "title": "Yallery Brown",
+    "region": "Lincolnshire, England, UK",
+    "lat": 53.4,
+    "lon": -0.4,
+    "dateLabel": "Collected in the 1890s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Lincolnshire folklore",
+    "hook": "A farmhand heard crying under a stone and freed a tiny creature. It offered to help him. That was the beginning of his ruin.",
+    "summary": [
+      "In a Lincolnshire tale, a young farmhand named Tom Tiver hears a sound like a baby crying under a big flat stone. When he lifts it, he finds a tiny creature, no bigger than a year-old child, with long golden hair and beard wrapped round it like clothes. It calls itself Yallery Brown and offers to help him in return, so long as Tom never thanks it.",
+      "Soon Tom's work does itself, but his fellow workers' tools break and their work is ruined, and he's blamed. When he finally thanks Yallery Brown, hoping to be rid of it, the creature laughs and curses him to bad luck for the rest of his life."
+    ],
+    "explanation": "The story was collected by the folklorist Marie Clothilde Balfour in the 1890s. It's one of the darkest English fairy tales, a warning that help from the fairies always comes at a price.",
+    "wiki": "Yallery Brown"
+  },
+  {
+    "slug": "padfoot",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Padfoot",
+    "region": "Leeds, West Yorkshire, England, UK",
+    "lat": 53.8,
+    "lon": -1.55,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Yorkshire folklore",
+    "hook": "On dark Yorkshire lanes, you might hear soft padding footsteps behind you, and the rattle of a chain. Turn round, and you may see a creature the size of a donkey.",
+    "summary": [
+      "The padfoot is a spectral creature of Yorkshire folklore, especially around Leeds and Wakefield. It's usually described as a large black dog, or sometimes a creature like a donkey or sheep with shaggy hair and big eyes, which follows people at night with a soft padding sound.",
+      "Sometimes it drags a chain behind it. Trying to hit it or touch it is said to bring bad luck, and seeing it could be a sign of death."
+    ],
+    "explanation": "The padfoot belongs to the northern English family of black dog and shapeshifting spirits, including the barghest and the gytrash. Its name later inspired the nickname of the character Sirius Black in Harry Potter, who can turn into a large black dog.",
+    "wiki": null
+  },
+  {
+    "slug": "paracelsus-homunculus",
+    "featured": false,
+    "category": "creatures",
+    "title": "The Alchemist's Little Man",
+    "region": "Basel, Switzerland",
+    "lat": 47.56,
+    "lon": 7.59,
+    "dateLabel": "Described in the 1500s",
+    "status": "explained",
+    "statusLabel": "Legend",
+    "witnesses": "Writings attributed to Paracelsus",
+    "hook": "A Renaissance doctor wrote that a tiny living person could be grown in a sealed glass flask. Alchemists called it the homunculus.",
+    "summary": [
+      "Paracelsus was a Swiss doctor and alchemist of the early 1500s, who taught for a time at Basel, and whose ideas about medicine and chemistry were revolutionary. A book attributed to him, On the Nature of Things, includes a recipe for creating a homunculus, a 'little man'.",
+      "Certain substances were to be sealed in a flask and kept warm for forty days, until a tiny, transparent figure formed. It then had to be fed and kept warm for many weeks, and it would grow into a small being with secret knowledge."
+    ],
+    "explanation": "No one has ever made a homunculus. The idea grew from old beliefs about how life begins, before cells and genetics were understood. It became a powerful image in literature, appearing in Goethe's Faust and later in stories about artificial life.",
+    "wiki": "Homunculus"
+  },
+  {
+    "slug": "joanna-southcotts-box",
+    "featured": false,
+    "category": "visitors",
+    "title": "Joanna Southcott's Box",
+    "region": "Bedford, Bedfordshire, England, UK",
+    "lat": 52.136,
+    "lon": -0.466,
+    "dateLabel": "Sealed before 1814",
+    "status": "open",
+    "statusLabel": "Never opened",
+    "witnesses": "Her followers, and a society that campaigned for a century",
+    "hook": "An English prophet left a sealed box of prophecies, to be opened only in a time of national danger, and only in front of 24 bishops.",
+    "summary": [
+      "Joanna Southcott was a farmer's daughter from Devon who, from the 1790s, said she heard a divine voice and wrote thousands of prophecies. She attracted tens of thousands of followers. Before her death in 1814, she left a sealed wooden box of writings, with instructions that it be opened only in a time of grave national crisis, in the presence of 24 bishops of the Church of England.",
+      "In the 20th century, a group based in Bedford, the Panacea Society, ran newspaper advertisements and billboards urging the bishops to open the box, saying it held the key to the nation's troubles."
+    ],
+    "explanation": "In 1927, the psychical researcher Harry Price opened a box he said was hers, and found little of interest, but her followers said it wasn't the real one. The Panacea Society says it still keeps the true box, unopened. Its contents, if any, remain unknown.",
+    "wiki": "Joanna Southcott"
+  },
+  {
+    "slug": "denver-airport",
+    "featured": false,
+    "category": "places",
+    "title": "The Secrets of Denver Airport",
+    "region": "Denver International Airport, Colorado, USA",
+    "lat": 39.85,
+    "lon": -104.67,
+    "dateLabel": "Opened in 1995",
+    "status": "explained",
+    "statusLabel": "Conspiracy theories",
+    "witnesses": "Travellers and the internet",
+    "hook": "An airport in Colorado has apocalyptic murals, a glowing-eyed horse statue, a mysterious dedication stone and rumours of underground bunkers. The airport now makes jokes about it.",
+    "summary": [
+      "Denver International Airport opened in 1995, very late and far over budget. Ever since, it has attracted conspiracy theories. Its murals show scenes of war, destruction and rebirth. A giant blue horse statue with glowing red eyes stands outside, nicknamed 'Blucifer'. A dedication stone mentions a 'New World Airport Commission'.",
+      "Theories claim the airport hides vast underground bunkers for the world's elite, secret tunnels, and symbols of secret societies, and that its runways are laid out in a hidden pattern."
+    ],
+    "explanation": "The airport says the murals show environmental themes and peace, the tunnels are for a baggage system that never worked properly, and the 'commission' was a group of local business people. In recent years it has embraced the legends, with exhibitions and an animatronic gargoyle that jokes about the theories.",
+    "wiki": "Denver International Airport"
+  },
+  {
+    "slug": "cave-of-swallows",
+    "featured": true,
+    "category": "places",
+    "title": "The Cave of Swallows",
+    "region": "Sótano de las Golondrinas, San Luis Potosí, Mexico",
+    "lat": 21.6,
+    "lon": -99.1,
+    "dateLabel": "Explored from 1966",
+    "status": "explained",
+    "statusLabel": "A real place",
+    "witnesses": "Cavers, BASE jumpers and the local Huastec community",
+    "hook": "In the Mexican jungle, a hole in the ground drops 370 metres into darkness. Every dawn, thousands of birds spiral up out of it, and every dusk, they dive back in.",
+    "summary": [
+      "The Sótano de las Golondrinas, the Cave of Swallows, is a vast, open shaft in the forest of San Luis Potosí. Its mouth is about 50 metres wide, and the drop to the floor is around 370 metres, deep enough to fit a skyscraper inside.",
+      "Every morning, huge flocks of white-collared swifts and green parakeets fly up out of the cave, circling round and round the walls to gain height. At dusk, they return, folding their wings and dropping into the hole like stones."
+    ],
+    "explanation": "The shaft was formed over millions of years as water dissolved the limestone. It's one of the deepest open-air cave shafts in the world. The local community now manages access, limiting rope descents and BASE jumps so as not to disturb the birds.",
+    "wiki": "Cave of Swallows"
+  },
+  {
+    "slug": "xibalba-caves",
+    "featured": false,
+    "category": "places",
+    "title": "The Caves That Led to Xibalba",
+    "region": "Naj Tunich, Petén, Guatemala",
+    "lat": 16.3,
+    "lon": -89.27,
+    "dateLabel": "Used by the Maya for over 1,000 years",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Archaeologists and the ancient Maya",
+    "hook": "To the ancient Maya, caves were the mouths of the underworld, Xibalba, the Place of Fear. Deep inside them, they left paintings, offerings and messages.",
+    "summary": [
+      "In Maya belief, the underworld was Xibalba, ruled by lords of death with names like One Death and Seven Death. In the Popol Vuh, the great Maya story of creation, the Hero Twins descend into Xibalba and survive a series of deadly tests, in houses of knives, cold, jaguars and bats.",
+      "The Maya saw caves as entrances to this world. In Naj Tunich, a cave in Guatemala discovered by a local man in 1979, archaeologists found walls covered with ancient paintings and hieroglyphic texts, left by Maya visitors who made pilgrimages deep underground."
+    ],
+    "explanation": "Caves were genuinely sacred to the Maya, who held rituals in them, and archaeologists have found offerings and burials deep inside many caves in Mexico, Guatemala and Belize. Maya communities today still regard many caves as sacred places.",
+    "wiki": "Xibalba"
+  },
+  {
+    "slug": "hayu-marca",
+    "featured": false,
+    "category": "places",
+    "title": "The Gate of the Gods",
+    "region": "Hayu Marca, near Juli, Puno, Peru",
+    "lat": -16.17,
+    "lon": -69.44,
+    "dateLabel": "Popular since the 1990s",
+    "status": "open",
+    "statusLabel": "Purpose unknown",
+    "witnesses": "Local people and visitors",
+    "hook": "Near Lake Titicaca, a smooth wall carved into a rock face looks like a giant doorway, with a small door at its base. Legend says a priest once escaped through it into another world.",
+    "summary": [
+      "In a rocky landscape near Lake Titicaca in southern Peru, a large, flat, rectangular recess about 7 metres high has been carved into a rock face, with a smaller alcove at the bottom, like a doorway. It's known as Hayu Marca or the Puerta de Aramu Muru.",
+      "A legend tells that when the Spanish arrived, a priest named Aramu Muru fled with a golden disc, a sacred treasure, and passed through the doorway into the world of the gods, never to return. Since the 1990s, it has become a site for visitors seeking spiritual experiences."
+    ],
+    "explanation": "Archaeologists say little about the site, which may have been an unfinished carving, a shrine of the Inca or earlier peoples, or a natural feature that was shaped. The 'portal' legends seem to have grown mostly in recent decades, especially among tourists.",
+    "wiki": null
+  },
+  {
+    "slug": "villa-epecuen",
+    "featured": true,
+    "category": "places",
+    "title": "The Town That Came Back from the Lake",
+    "region": "Villa Epecuén, Buenos Aires, Argentina",
+    "lat": -37.13,
+    "lon": -62.82,
+    "dateLabel": "Flooded in 1985; re-emerged from 2009",
+    "status": "explained",
+    "statusLabel": "A real place",
+    "witnesses": "Former residents and visitors",
+    "hook": "A spa town in Argentina was swallowed by a salt lake and lay underwater for 25 years. When the water went down, its ruined streets came back, bleached white.",
+    "summary": [
+      "Villa Epecuén was a popular spa town on the shore of Lake Epecuén, whose salty water was believed to cure many ailments. In November 1985, after years of heavy rain, the lake broke through its defences, and the town was slowly flooded. Its residents left, and by the 1990s it lay under about 10 metres of water.",
+      "From 2009, as the lake level fell, the town began to reappear: streets, buildings and dead trees, all crusted white with salt. For years, one elderly former resident lived alone near the ruins and welcomed visitors."
+    ],
+    "explanation": "The flood was caused by unusual rainfall and by water management in the region. The ruins are now a tourist attraction and have been used as a film location. The salt has preserved the scene eerily.",
+    "wiki": "Villa Epecuén"
+  },
+  {
+    "slug": "bugarach",
+    "featured": false,
+    "category": "places",
+    "title": "Bugarach, the Mountain That Would Survive the End",
+    "region": "Pic de Bugarach, Aude, France",
+    "lat": 42.87,
+    "lon": 2.37,
+    "dateLabel": "December 2012",
+    "status": "explained",
+    "statusLabel": "Nothing happened",
+    "witnesses": "Villagers, police and the world's press",
+    "hook": "In 2012, rumours spread that when the world ended, aliens inside a mountain in southern France would rescue everyone standing on it. The authorities closed the mountain.",
+    "summary": [
+      "Pic de Bugarach is a mountain in the Aude region of France, beside a tiny village of a couple of hundred people. It's known for a geological quirk: its upper layers are older than its lower ones, as if it had been flipped over. For years, it attracted people with mystical beliefs about it.",
+      "As 21 December 2012 approached, a date some linked to an ancient Maya calendar and the end of the world, rumours spread online that the mountain hid an alien spaceship that would save those nearby. The world's media arrived, and the authorities closed the peak and sent police to keep crowds away."
+    ],
+    "explanation": "The Maya calendar date marked the end of a long cycle, not the end of the world, and nothing happened. The mountain's 'upside-down' layers were caused by the folding of rock as the Pyrenees formed. Far more journalists than believers turned up.",
+    "wiki": "Bugarach"
+  },
+  {
+    "slug": "tintagel",
+    "featured": false,
+    "category": "places",
+    "title": "Tintagel, Where Arthur Began",
+    "region": "Tintagel, Cornwall, England, UK",
+    "lat": 50.668,
+    "lon": -4.76,
+    "dateLabel": "Legend from the 1130s",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Medieval writers, and archaeologists",
+    "hook": "On a wild headland in Cornwall, legend says, King Arthur was conceived by magic. Below the castle ruins is a sea cave known as Merlin's Cave.",
+    "summary": [
+      "Tintagel is a rocky headland on the north coast of Cornwall, crowned by the ruins of a medieval castle. In the 1130s, the writer Geoffrey of Monmouth wrote that this was where Arthur was conceived: the wizard Merlin disguised King Uther Pendragon by magic, so he could enter the castle and the bedchamber of Igraine, the wife of the duke.",
+      "Beneath the headland, waves rush through a long tunnel-like cave known as Merlin's Cave. In 2016, a carving of a bearded face, representing Merlin, was carved into the rock nearby."
+    ],
+    "explanation": "The castle ruins date from the 1200s, long after Arthur's supposed time, built by a nobleman perhaps because of the legend. But archaeologists have found that Tintagel was a busy site in the 400s to 600s, with goods from the Mediterranean, and in 1998 a stone with a name carved in that period was found.",
+    "wiki": "Tintagel Castle"
+  },
+  {
+    "slug": "benbulbin",
+    "featured": false,
+    "category": "places",
+    "title": "Benbulbin and the Fairy Door",
+    "region": "Benbulbin, County Sligo, Ireland",
+    "lat": 54.37,
+    "lon": -8.47,
+    "dateLabel": "Told for centuries",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "Irish folklore and the poet W. B. Yeats",
+    "hook": "On the flat-topped mountain of Benbulbin, folklore says, there's a door in the cliff that opens at night, and the fairy host rides out.",
+    "summary": [
+      "Benbulbin is a dramatic mountain in County Sligo, with a flat top and steep, ribbed cliffs. In Irish myth, it's where the hero Diarmuid, fleeing with Gráinne, was killed by an enchanted boar, the death that Fionn mac Cumhaill had wished for him.",
+      "Folklore says that a white square on the cliff is a door to fairyland, which opens at night to let the fairy host ride out across the land, and those who see it shouldn't follow."
+    ],
+    "explanation": "The mountain is a remnant of a limestone plateau shaped by glaciers. The poet W. B. Yeats loved the Sligo landscape and its fairy lore, and is buried at Drumcliff churchyard under Benbulbin, where his epitaph is carved.",
+    "wiki": "Benbulbin"
+  },
+  {
+    "slug": "rollright-stones",
+    "featured": false,
+    "category": "places",
+    "title": "The Rollright Stones",
+    "region": "Rollright Stones, Oxfordshire, England, UK",
+    "lat": 51.975,
+    "lon": -1.571,
+    "dateLabel": "Built from about 3000 BC",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "English folklore",
+    "hook": "A king and his knights, the legend says, were turned to stone by a witch on an Oxfordshire hill. Count the stones, and you'll never get the same number twice.",
+    "summary": [
+      "The Rollright Stones, on the border of Oxfordshire and Warwickshire, are a group of ancient monuments: a stone circle called the King's Men, a single standing stone called the King Stone, and a cluster called the Whispering Knights.",
+      "Legend says a king, marching to conquer England, met a witch on the hill. She told him that if he could see Long Compton in seven strides, he would be king of England. He couldn't, and she turned him and his men to stone, and herself into an elder tree. It's also said that the stones can't be counted the same way twice."
+    ],
+    "explanation": "The stones are much older than any king: the circle was built around 2500 BC, and the Whispering Knights are older still, a burial chamber. The weathered, uneven stones really are hard to count. People once chipped pieces off the King Stone as lucky charms.",
+    "wiki": "Rollright Stones"
+  },
+  {
+    "slug": "men-an-tol",
+    "featured": false,
+    "category": "places",
+    "title": "Mên-an-Tol, the Healing Stone",
+    "region": "Mên-an-Tol, Penwith, Cornwall, England, UK",
+    "lat": 50.158,
+    "lon": -5.604,
+    "dateLabel": "Bronze Age; folk cures told for centuries",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "Cornish folklore",
+    "hook": "On a Cornish moor stands a round stone with a hole in the middle. Crawl through it nine times, folklore says, and you'll be cured.",
+    "summary": [
+      "Mên-an-Tol, Cornish for 'stone of the hole', is a group of three stones on the moors of west Cornwall: a large, round, flat stone with a hole through its centre, standing between two upright stones.",
+      "Folklore says the stone has healing powers. Children with rickets were passed through the hole naked, nine times, and adults crawled through it to cure back pain. It was also said to help women who wanted children, and to be guarded by a fairy who could undo curses."
+    ],
+    "explanation": "The stones are probably the remains of a Bronze Age monument, perhaps part of a tomb or a stone circle, rearranged over time. The rituals of passing through holed stones are found across Britain and beyond, as a kind of symbolic rebirth.",
+    "wiki": "Mên-an-Tol"
+  },
+  {
+    "slug": "waylands-smithy",
+    "featured": false,
+    "category": "places",
+    "title": "Wayland's Smithy",
+    "region": "Wayland's Smithy, Oxfordshire, England, UK",
+    "lat": 51.567,
+    "lon": -1.596,
+    "dateLabel": "Built about 3600 BC",
+    "status": "open",
+    "statusLabel": "Legend",
+    "witnesses": "English folklore",
+    "hook": "Leave your horse and a silver coin at this ancient tomb overnight, legend says, and in the morning the horse will be shod by an invisible smith.",
+    "summary": [
+      "Wayland's Smithy is a Neolithic long barrow, a burial chamber built of earth and stones, beside the ancient Ridgeway path in Oxfordshire. It's surrounded by tall beech trees and has four great standing stones at its entrance.",
+      "Legend says it was the home of Wayland, the smith of the gods in Anglo-Saxon and Norse myth. A traveller whose horse had lost a shoe could leave it there overnight with a silver coin, and in the morning find the horse shod and the coin gone."
+    ],
+    "explanation": "The barrow was built more than 5,000 years ago, long before the Anglo-Saxons arrived and gave it its name. The legend shows how later peoples explained the mysterious monuments they found in the landscape. The nearby Uffington White Horse adds to its sense of mystery.",
+    "wiki": "Wayland's Smithy"
+  },
+  {
+    "slug": "royston-cave",
+    "featured": false,
+    "category": "places",
+    "title": "Royston Cave",
+    "region": "Royston, Hertfordshire, England, UK",
+    "lat": 52.048,
+    "lon": -0.024,
+    "dateLabel": "Found in 1742",
+    "status": "open",
+    "statusLabel": "Origins debated",
+    "witnesses": "Workmen, then historians",
+    "hook": "Beneath a busy crossroads in an English market town, workmen found a hidden bell-shaped cave, its walls covered in strange medieval carvings.",
+    "summary": [
+      "In 1742, workmen digging in Royston, Hertfordshire, at the crossroads of two ancient roads, found a millstone covering a shaft. Below it was a bell-shaped chamber cut into the chalk, about 8 metres high, its walls carved with figures: saints, a crucifixion, knights, hands, hearts and symbols.",
+      "No one knows who made it or why. Theories include a secret chapel of the Knights Templar, a hermit's cell, a storeroom or a place of worship."
+    ],
+    "explanation": "Most historians think the carvings date from the Middle Ages, but the cave itself may be older. The Knights Templar theory is popular but unproven. It's open to visitors in summer.",
+    "wiki": "Royston Cave"
+  },
+  {
+    "slug": "margate-shell-grotto",
+    "featured": false,
+    "category": "places",
+    "title": "The Shell Grotto of Margate",
+    "region": "Margate, Kent, England, UK",
+    "lat": 51.386,
+    "lon": 1.389,
+    "dateLabel": "Found in 1835",
+    "status": "open",
+    "statusLabel": "Origins debated",
+    "witnesses": "Visitors since 1838",
+    "hook": "Under a seaside town in Kent, a winding tunnel and a chamber are covered with millions of shells, arranged in patterns. No one knows who made it.",
+    "summary": [
+      "In 1835, a man digging a duck pond in Margate broke into an underground space. Inside were winding passages and a rectangular chamber, their walls covered with about 4.6 million seashells, mostly mussels, cockles and oysters, set in patterns of stars, suns, flowers and symbols.",
+      "It opened to the public in 1838, and ever since, people have argued about who built it and when: an ancient temple, a secret meeting place, or a rich family's Georgian folly."
+    ],
+    "explanation": "Attempts to date the grotto have been difficult, partly because soot from gas lamps has covered the shells. Many think it was built in the 1700s or early 1800s as a decorative folly, but this is unproven.",
+    "wiki": "Shell Grotto, Margate"
+  },
+  {
+    "slug": "west-wycombe-hellfire-caves",
+    "featured": false,
+    "category": "places",
+    "title": "The Hellfire Caves",
+    "region": "West Wycombe, Buckinghamshire, England, UK",
+    "lat": 51.643,
+    "lon": -0.8,
+    "dateLabel": "Dug in the 1740s and 1750s",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "Visitors and historians",
+    "hook": "A rich English lord dug tunnels deep into a chalk hill, ending at a chamber beyond an underground river. His friends met there in secret, and rumours flew.",
+    "summary": [
+      "In the 1740s and 1750s, Sir Francis Dashwood, a politician and aristocrat, had a network of tunnels dug into the hill at West Wycombe, partly to give work to local farm labourers. The passages wind down to a chamber beyond a stream called the River Styx, after the river of the underworld.",
+      "Dashwood led a club of wealthy friends that came to be called the Hellfire Club, and they were said to meet in the caves for secret rituals, drinking and other excesses. Stories spread of devil worship and dark ceremonies."
+    ],
+    "explanation": "Historians think the club's meetings were more about drinking, mockery of religion and fashionable mock rituals than real devil worship, and that many rumours were exaggerated by political enemies. The caves are now a tourist attraction with tales of ghosts.",
+    "wiki": "Hellfire Caves"
+  },
+  {
+    "slug": "chislehurst-caves",
+    "featured": false,
+    "category": "places",
+    "title": "Chislehurst Caves",
+    "region": "Chislehurst, London, England, UK",
+    "lat": 51.416,
+    "lon": 0.065,
+    "dateLabel": "Mined from the 1200s",
+    "status": "explained",
+    "statusLabel": "Partly explained",
+    "witnesses": "Visitors, guides and wartime shelterers",
+    "hook": "Under the suburbs of south-east London lie 35 kilometres of dark chalk tunnels. Legends say they were dug by Druids, Romans and Saxons.",
+    "summary": [
+      "Chislehurst Caves are a vast network of tunnels cut into the chalk beneath south-east London. In the early 1900s, a local antiquarian claimed that three sections had been dug by Druids, Romans and Saxons, and the tunnels are still named after them.",
+      "During the Second World War, thousands of people sheltered from bombing raids in the caves, which had a chapel, a hospital and a cinema. Later, they became a concert venue. Guides tell of ghosts and strange sounds in the dark."
+    ],
+    "explanation": "Historians think the tunnels were mines for chalk and flint, worked from the Middle Ages until the 1800s, and not built by Druids or Romans. They're open for guided tours by lamplight.",
+    "wiki": "Chislehurst Caves"
+  },
+  {
+    "slug": "belintash",
+    "featured": false,
+    "category": "places",
+    "title": "Belintash, the Rock of Signals",
+    "region": "Belintash, Rhodope Mountains, Bulgaria",
+    "lat": 41.94,
+    "lon": 24.66,
+    "dateLabel": "Used since ancient times",
+    "status": "open",
+    "statusLabel": "Origins debated",
+    "witnesses": "Archaeologists and visitors",
+    "hook": "On a flat-topped rock high in the Bulgarian mountains, ancient people carved steps, channels and holes. Some visitors say they feel strange energies there.",
+    "summary": [
+      "Belintash is a large rocky plateau in the Rhodope Mountains of southern Bulgaria, about 30 metres high and with steep sides. Its flat top is covered with carved holes, channels and steps, thought to have been made by the ancient Thracians.",
+      "Archaeologists think it was a Thracian sanctuary, perhaps dedicated to the god Sabazios. In recent decades, it has also attracted people who claim it was an ancient observatory, a landing site for aliens, or a place where electronic devices fail and people feel unusual energies."
+    ],
+    "explanation": "The carvings are best explained as part of a Thracian religious site, like others found in the Rhodopes. No scientific evidence supports the claims of strange energies. Its dramatic setting makes it a popular destination.",
+    "wiki": null
+  },
+  {
+    "slug": "necromanteion",
+    "featured": false,
+    "category": "places",
+    "title": "The Oracle of the Dead",
+    "region": "Necromanteion of Acheron, Epirus, Greece",
+    "lat": 39.236,
+    "lon": 20.535,
+    "dateLabel": "Described by ancient writers; excavated from 1958",
+    "status": "open",
+    "statusLabel": "Debated",
+    "witnesses": "Ancient Greek writers, then archaeologists",
+    "hook": "Beside the river the ancient Greeks believed flowed to the underworld, pilgrims came to a temple to speak with the dead.",
+    "summary": [
+      "The ancient Greeks believed the river Acheron, in north-west Greece, was a river of the underworld. Writers including Homer and Herodotus mention an oracle of the dead nearby, a necromanteion, where people could consult the spirits of the dead.",
+      "In 1958, the archaeologist Sotirios Dakaris excavated a building on a hill above the river and identified it as the necromanteion, with a maze of dark corridors and an underground vaulted chamber. He imagined pilgrims fasting, eating special foods and walking through darkness before seeing the 'dead', perhaps raised by a machine."
+    ],
+    "explanation": "Later archaeologists have questioned this: they argue the building may have been a fortified farmhouse from a later period, and the 'machinery' parts of a catapult. The real site of the oracle may have been nearby. The place remains evocative, and open to visitors.",
+    "wiki": "Necromanteion of Acheron"
+  },
+  {
+    "slug": "apollo-11-goodwill-disc",
+    "featured": false,
+    "body": "moon",
+    "category": "places",
+    "title": "The Messages Left on the Moon",
+    "region": "Tranquility Base, Sea of Tranquillity, on the Moon",
+    "lat": 0.674,
+    "lon": 23.473,
+    "dateLabel": "Left on 21 July 1969",
+    "status": "explained",
+    "statusLabel": "Confirmed",
+    "witnesses": "Apollo 11 astronauts and NASA",
+    "hook": "Lying in the dust of the Moon is a small silicon disc, smaller than a coin. On it, in tiny writing, are messages from the leaders of 73 countries.",
+    "summary": [
+      "Before Apollo 11 flew to the Moon in July 1969, NASA asked world leaders to send messages of goodwill. Statements from 73 countries were reduced to tiny size and etched onto a silicon disc about 4 centimetres across, along with the names of US leaders and NASA officials.",
+      "Before leaving the Moon, Buzz Aldrin placed the disc on the surface, in a small pouch with other items, including a patch commemorating the astronauts who died in the Apollo 1 fire and medals honouring two Soviet cosmonauts."
+    ],
+    "explanation": "The disc is still there, though no one has seen it since 1969. The writing is so small it can only be read with a microscope. Messages included words from the Pope, the Queen and leaders of countries across the world.",
+    "wiki": null
+  },
+  {
+    "slug": "woodchester-mansion",
+    "featured": false,
+    "category": "places",
+    "title": "Woodchester Mansion, the House Left Unfinished",
+    "region": "Woodchester Park, Gloucestershire, England, UK",
+    "lat": 51.71,
+    "lon": -2.28,
+    "dateLabel": "Abandoned in the 1870s",
+    "status": "open",
+    "statusLabel": "Partly explained",
+    "witnesses": "Visitors, guides and bat researchers",
+    "hook": "Deep in a Gloucestershire valley stands a Gothic mansion that was never finished. The builders downed tools and left. Floors were never laid, and doors open onto empty air.",
+    "summary": [
+      "Woodchester Mansion was begun in the 1850s by a wealthy man, William Leigh, in a secluded valley in the Cotswolds. Built in grand Gothic style, with gargoyles and vaulted ceilings, it was abandoned unfinished in the 1870s, with scaffolding, tools and ladders left where they stood.",
+      "To this day, some rooms have no floors, doorways open onto drops, and staircases lead nowhere. The house has many ghost stories, of figures, footsteps and voices, and is famous for ghost-hunting nights."
+    ],
+    "explanation": "Historians think the building stopped because Leigh ran out of money and died, and his son had no interest in finishing it. Its strange, half-built state makes it uniquely eerie. It's also home to a large colony of rare bats, which may explain some sounds.",
+    "wiki": "Woodchester Mansion"
+  },
+  {
+    "slug": "manene-toraja",
+    "featured": false,
+    "category": "places",
+    "title": "Ma'nene, When the Ancestors Are Dressed Again",
+    "region": "Tana Toraja, South Sulawesi, Indonesia",
+    "lat": -3.05,
+    "lon": 119.85,
+    "dateLabel": "A living tradition",
+    "status": "open",
+    "statusLabel": "Folk custom",
+    "witnesses": "The Toraja people",
+    "hook": "In the mountains of Sulawesi, families open the tombs of their ancestors every few years, clean their preserved bodies, and dress them in new clothes.",
+    "summary": [
+      "The Toraja people of the highlands of South Sulawesi have elaborate traditions around death. Funerals can take place months or years after someone dies, and the dead are placed in tombs carved into cliffs or in family houses, sometimes watched over by carved wooden figures called tau tau.",
+      "In some communities, every few years, usually in August, families hold a ritual called Ma'nene. They open the graves, gently clean the bodies of their ancestors, which have been carefully preserved, and dress them in fresh clothes, sometimes carrying them through the village before returning them to rest."
+    ],
+    "explanation": "For the Toraja, the ritual is a way to honour and stay connected with relatives, and to show that the bond between the living and the dead continues. Stories are told locally that the dead once walked home on their own. The tradition has drawn visitors, who are asked to be respectful.",
+    "wiki": "Torajan people"
   }
 ];
 
