@@ -22,25 +22,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     "echoSeed": 3
   },
   {
-    "slug": "dehradun-voice",
-    "category": "voices",
-    "place": "Sahastradhara Road",
-    "region": "Dehradun, Uttarakhand",
-    "lat": 30.38,
-    "lon": 78.1,
-    "year": 2014,
-    "timeLabel": "2:05 am",
-    "witnesses": "1",
-    "hook": "At two in the morning my mother called my name from under the window. She was in Lucknow that night.",
-    "body": [
-      "My hostel room was on the first floor. Someone below the window called me by the pet name only my mother uses, stretched out the way only she says it.",
-      "I opened the window. There was nobody, just a wet road and a flickering streetlight. In the morning I phoned her. She had been asleep, and said she had dreamt about me."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 6
-  },
-  {
     "slug": "kutch-lights",
     "category": "sky",
     "place": "Banni grasslands",
@@ -58,120 +39,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     "status": "approved",
     "isSample": true,
     "echoSeed": 9
-  },
-  {
-    "slug": "chamba-threshold",
-    "category": "visitors",
-    "place": "A village above Chamba",
-    "region": "Chamba, Himachal Pradesh",
-    "lat": 32.55,
-    "lon": 76.13,
-    "year": 2009,
-    "timeLabel": "3:30 am",
-    "witnesses": "2",
-    "hook": "Its head was above the top of the doorframe. Our door is not a small door.",
-    "body": [
-      "The dogs had stopped barking, and that was the strangest part. I got up for water and someone was standing at the courtyard door. The head was above the frame, the shoulders stooped.",
-      "It never tried to come in. It just stood there, as if waiting to be invited. My brother woke up and saw it too. In the morning there were no marks in the dirt outside the door."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 4
-  },
-  {
-    "slug": "agumbe-tracks",
-    "category": "creatures",
-    "place": "Forest trail near Agumbe",
-    "region": "Shivamogga, Karnataka",
-    "lat": 13.5,
-    "lon": 75.09,
-    "year": 2018,
-    "timeLabel": "6:10 am",
-    "witnesses": "5",
-    "hook": "There were footprints in the mud. Every one pointed backwards, and each stride was longer than the last.",
-    "body": [
-      "It was a monsoon trek and it had rained all night. Someone had walked the trail before us. Bare feet, but with the toes at the back.",
-      "Our guide didn't stop us taking photos. He only said we would not come back this way. We went down the other path, which took three hours longer."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 2
-  },
-  {
-    "slug": "jhansi-bend",
-    "category": "places",
-    "place": "A bend on NH-44",
-    "region": "Jhansi, Uttar Pradesh",
-    "lat": 25.52,
-    "lon": 78.62,
-    "year": 2011,
-    "timeLabel": "12:50 am",
-    "witnesses": "3 drivers",
-    "hook": "Same bend, same woman, three different nights. Three drivers who had never told each other.",
-    "body": [
-      "It came out over tea at a dhaba. All three had seen the same thing. Just before the bend, at the edge of the road, a woman stood with her hand raised. All three slowed down, and all three noticed her sari was soaked. It wasn't raining.",
-      "None of them stopped. All three say that after the bend she was in the mirror again, in the same spot, hand still raised."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 11
-  },
-  {
-    "slug": "hanle-star",
-    "category": "sky",
-    "place": "Hanle plateau",
-    "region": "Leh, Ladakh",
-    "lat": 32.78,
-    "lon": 78.97,
-    "year": 2019,
-    "timeLabel": "11:05 pm",
-    "witnesses": "6",
-    "hook": "The sky over Hanle was so clear the Milky Way cast shadows. One star stopped, then moved the wrong way.",
-    "body": [
-      "We were shooting star trails. One light was turning slowly with all the others, the way it should. Then it stopped.",
-      "It held still for three minutes. Then it changed direction, against the stars, at the same slow speed, and sank below the horizon. In every frame on the camera, that trail is broken."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 5
-  },
-  {
-    "slug": "jaipur-seven",
-    "category": "sky",
-    "place": "Rooftops of Mansarovar",
-    "region": "Jaipur, Rajasthan",
-    "lat": 26.86,
-    "lon": 75.76,
-    "year": 2021,
-    "timeLabel": "9:45 pm",
-    "witnesses": "30+",
-    "hook": "The whole street was up on the roofs. Everyone counted together. Seven lights, and not a single sound.",
-    "body": [
-      "It was a lockdown summer and everyone slept on the roof. A child shouted, look. Seven orange lights in a straight line, moving very slowly.",
-      "People said satellites, or sky lanterns. Then the middle light dropped out of the line, stopped above one roof, and went back to its place. Nobody was on that roof."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 14
-  },
-  {
-    "slug": "coorg-short",
-    "category": "visitors",
-    "place": "A coffee estate",
-    "region": "Kodagu, Karnataka",
-    "lat": 12.42,
-    "lon": 75.74,
-    "year": 2005,
-    "timeLabel": "5:40 am",
-    "witnesses": "2",
-    "hook": "Three people were standing between the rows of coffee. None of them came up past my knee.",
-    "body": [
-      "I was doing the morning round with the supervisor. The mist was so thick the bushes were only half there. At the end of a row stood three small figures, perfectly straight, facing us.",
-      "The supervisor took my arm and held me back. We blinked and there was only mist. He said, we won't pick this row today."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 3
   },
   {
     "slug": "kolkata-tram",
@@ -193,25 +60,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     "echoSeed": 4
   },
   {
-    "slug": "sinhagad-time",
-    "category": "places",
-    "place": "Ghat road to Sinhagad",
-    "region": "Pune, Maharashtra",
-    "lat": 18.37,
-    "lon": 73.76,
-    "year": 2017,
-    "timeLabel": "8:30 pm",
-    "witnesses": "4",
-    "hook": "The drive up the ghat takes twenty minutes. That night it took two hours, and we never stopped.",
-    "body": [
-      "Four people, one car. We left the bottom at half past eight and reached the top at half past ten. All four phones agreed, and the fuel needle had barely moved.",
-      "Nobody remembers anything strange on the way. Only one thing, which each of us said separately: there was one bend that kept coming back."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 7
-  },
-  {
     "slug": "majuli-river",
     "category": "creatures",
     "place": "Brahmaputra near Majuli",
@@ -229,196 +77,6 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     "status": "approved",
     "isSample": true,
     "echoSeed": 2
-  },
-  {
-    "slug": "nashik-faceless",
-    "category": "visitors",
-    "place": "Farmland outside Nashik",
-    "region": "Nashik, Maharashtra",
-    "lat": 20.05,
-    "lon": 73.7,
-    "year": 2020,
-    "timeLabel": "2:40 am",
-    "witnesses": "1",
-    "hook": "A man was standing in the field. Where his face should have been, there was only smooth, empty skin.",
-    "body": [
-      "I had gone out to start the pump. The torch beam fell between the grapevines and someone was there. Village clothes, ordinary height.",
-      "When the light reached the face there was nothing. No eyes, no nose. I didn't run, because my legs wouldn't move. It turned and walked into the vines, and not one leaf moved."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 5
-  },
-  {
-    "slug": "alappuzha-song",
-    "category": "voices",
-    "place": "Backwaters near Alappuzha",
-    "region": "Alappuzha, Kerala",
-    "lat": 9.49,
-    "lon": 76.36,
-    "year": 2016,
-    "timeLabel": "12:20 am",
-    "witnesses": "5",
-    "hook": "We were singing on the houseboat. Someone out on the water sang the next line.",
-    "body": [
-      "It was an old Malayalam song that only our friend Anju knew all the way through. She stopped, lost the line. From the dark water a woman's voice finished it.",
-      "The boatman switched off the light and moved us away from the bank. In the morning we asked him about it. He smiled and said, she sings it well."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 3
-  },
-  {
-    "slug": "kanyakumari-rise",
-    "category": "sky",
-    "place": "Fishing coast, Kanyakumari",
-    "region": "Kanyakumari, Tamil Nadu",
-    "lat": 8.12,
-    "lon": 77.4,
-    "year": 2008,
-    "timeLabel": "3:55 am",
-    "witnesses": "A boat crew",
-    "hook": "A light rose out of the sea. The water around it didn't move.",
-    "body": [
-      "It was time to cast the nets. About a hundred metres behind the boat, a blue light came on under the water. It rose slowly, as if something had lifted a lid.",
-      "It paused in the air, then moved south without a sound. The nets came up empty that morning, and so did every other boat's."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 6
-  },
-  {
-    "slug": "munsiyari-steps",
-    "category": "creatures",
-    "place": "Above Munsiyari",
-    "region": "Pithoragarh, Uttarakhand",
-    "lat": 30.07,
-    "lon": 80.24,
-    "year": 2015,
-    "timeLabel": "7:00 am",
-    "witnesses": "3",
-    "hook": "There were footprints in the snow. Each step was ten feet from the last.",
-    "body": [
-      "Something heavy walked near the tent in the night. We assumed a bear. In the morning we found the prints. Two feet, upright, like a person walking, but with strides longer than the three of us lying end to end.",
-      "The prints led up to the ridge and ended on bare rock. Our porter looked at them, took off his cap, and began packing without a word."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 8
-  },
-  {
-    "slug": "kasara-local",
-    "category": "places",
-    "place": "Last local to Kasara",
-    "region": "Thane district, Maharashtra",
-    "lat": 19.64,
-    "lon": 73.47,
-    "year": 2012,
-    "timeLabel": "12:35 am",
-    "witnesses": "1 carriage",
-    "hook": "On the last local, everyone in my carriage was staring at the same spot. There was nothing there.",
-    "body": [
-      "I got on at Titwala. There were ten or twelve people in the compartment, all looking at one empty seat instead of out of the windows. Nobody was on their phone.",
-      "I looked too. The seat was empty, but the cushion was pressed down, as if someone was sitting on it. At the next station everyone got off together. So did I."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 5
-  },
-  {
-    "slug": "cherrapunji-shadows",
-    "category": "visitors",
-    "place": "Fog road near Sohra",
-    "region": "East Khasi Hills, Meghalaya",
-    "lat": 25.27,
-    "lon": 91.73,
-    "year": 2019,
-    "timeLabel": "5:15 pm",
-    "witnesses": "2",
-    "hook": "Four people were walking in the fog. They cast five shadows.",
-    "body": [
-      "The evening fog had come down and our headlights made a white wall in front of us. Ahead, four people were walking along the edge of the road.",
-      "The light threw their shadows onto the fog. Five of them. The fifth was the tallest, and when the four turned off the road, it kept walking straight ahead with nobody casting it."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 4
-  },
-  {
-    "slug": "gaya-triangle",
-    "category": "sky",
-    "place": "A village outside Gaya",
-    "region": "Gaya, Bihar",
-    "lat": 24.7,
-    "lon": 84.95,
-    "year": 2003,
-    "timeLabel": "10:10 pm",
-    "witnesses": "Most of the village",
-    "hook": "The whole village was awake. There was a triangle in the sky, very low, making no sound.",
-    "body": [
-      "The power was out, so everyone was outside. Three corners, a dim white light at each, and a darkness in the middle that hid the stars.",
-      "It passed over the pond. It left no reflection in the water. The next day everyone told it differently, but everyone drew the same shape."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 10
-  },
-  {
-    "slug": "mollem-eyes",
-    "category": "creatures",
-    "place": "Mollem forest road",
-    "region": "South Goa, Goa",
-    "lat": 15.37,
-    "lon": 74.23,
-    "year": 2022,
-    "timeLabel": "11:30 pm",
-    "witnesses": "2",
-    "hook": "Two eyes lit up in the headlights. Six feet off the ground.",
-    "body": [
-      "We were crawling along the ghat road. Between the trees were two green eyes, set far apart, as if the head were very wide.",
-      "We stopped the car. The eyes blinked once, then rose. Ten feet. Twelve. Then they went out. Nothing fell from the trees, no branch broke."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 3
-  },
-  {
-    "slug": "chilika-island",
-    "category": "places",
-    "place": "Chilika lagoon",
-    "region": "Khordha, Odisha",
-    "lat": 19.72,
-    "lon": 85.32,
-    "year": 2007,
-    "timeLabel": "Full moon",
-    "witnesses": "2 boatmen",
-    "hook": "There's an island in Chilika you can only see on a full moon. I saved its location on my phone.",
-    "body": [
-      "The boatmen said it was a full moon, so we would see it. Around midnight there was a small island in the middle of the water, with bushes and one broken post.",
-      "I dropped a pin. The next morning we went back to the same spot. There were seven feet of water, and only sand below."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 2
-  },
-  {
-    "slug": "amritsar-field",
-    "category": "visitors",
-    "place": "Sugarcane fields",
-    "region": "Amritsar, Punjab",
-    "lat": 31.7,
-    "lon": 74.95,
-    "year": 2001,
-    "timeLabel": "4:20 am",
-    "witnesses": "1",
-    "hook": "An old man stepped out of the sugarcane. His clothes were from my great-grandfather's time.",
-    "body": [
-      "It was our turn to water the fields. An old man stood on the ridge in a white kurta, an old-style turban and a walking stick. He called us by our family name and asked when the water would come.",
-      "I told him. He nodded and walked into the field. At home I told my grandmother, and she took out an old photograph."
-    ],
-    "status": "approved",
-    "isSample": true,
-    "echoSeed": 3
   },
   {
     "slug": "sylhet-call",
@@ -571,5 +229,404 @@ export const seedStories: (typeof schema.stories.$inferInsert)[] = [
     "status": "approved",
     "isSample": true,
     "echoSeed": 6
+  },
+  {
+    "slug": "coimbra-voice",
+    "category": "voices",
+    "place": "A student house in the old town",
+    "region": "Coimbra, Portugal",
+    "lat": 40.21,
+    "lon": -8.42,
+    "year": 2014,
+    "timeLabel": "2:05 am",
+    "witnesses": "1",
+    "hook": "At two in the morning my mother called my name from under the window. She was in Porto that night.",
+    "body": [
+      "My room was on the first floor, over a steep cobbled lane. Someone below the window called me by the pet name only my mother uses, stretched out the way only she says it.",
+      "I opened the shutters. There was nobody, just wet stones and a flickering lamp. In the morning I phoned her. She had been asleep, and said she had dreamt about me."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 6
+  },
+  {
+    "slug": "maramures-threshold",
+    "category": "visitors",
+    "place": "A farmhouse in the hills",
+    "region": "Maramureș, Romania",
+    "lat": 47.68,
+    "lon": 24.05,
+    "year": 2009,
+    "timeLabel": "Midnight",
+    "witnesses": "3",
+    "hook": "Its head was above the top of the doorframe. Our door is not a small door.",
+    "body": [
+      "The dogs had gone quiet, which they never do. My father opened the top half of the door to see why, and something was standing in the yard, facing the house.",
+      "It was so tall that we could only see it from the shoulders down. It didn't move while we watched. When my father closed the door, the dogs started barking again, all at once."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 5
+  },
+  {
+    "slug": "tefe-tracks",
+    "category": "creatures",
+    "place": "Forest trail near Tefé",
+    "region": "Amazonas, Brazil",
+    "lat": -3.36,
+    "lon": -64.71,
+    "year": 2015,
+    "timeLabel": "Morning",
+    "witnesses": "2",
+    "hook": "There were footprints in the mud. Every one pointed backwards, and each stride was longer than the last.",
+    "body": [
+      "We had camped by the river and walked back along the trail in the morning. Across it ran a line of small bare footprints, heels at the front.",
+      "Our boatman wouldn't follow them. He said whoever made them wants you to walk the wrong way, and that's how people get lost in there. We took the river home."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 4
+  },
+  {
+    "slug": "ruta40-bend",
+    "category": "places",
+    "place": "A bend on Ruta 40",
+    "region": "Mendoza, Argentina",
+    "lat": -35.47,
+    "lon": -69.58,
+    "year": 2003,
+    "timeLabel": "1:30 am",
+    "witnesses": "3 drivers",
+    "hook": "Same bend, same woman, three different nights. Three drivers who had never told each other.",
+    "body": [
+      "I mentioned it at a service station: a woman by the road on the long bend south of Malargüe, waving, in a summer dress in the cold.",
+      "The man at the counter went pale. A trucker had told him the same thing a month before, and a bus driver before that. Nobody had stopped. Nobody wanted to be the first."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 8
+  },
+  {
+    "slug": "atacama-star",
+    "category": "sky",
+    "place": "Desert near San Pedro de Atacama",
+    "region": "Antofagasta, Chile",
+    "lat": -22.95,
+    "lon": -68.2,
+    "year": 2018,
+    "timeLabel": "3:40 am",
+    "witnesses": "5",
+    "hook": "The sky over the desert was so clear the Milky Way cast shadows. One star stopped, then moved the wrong way.",
+    "body": [
+      "We were on a stargazing tour, lying on mats while the guide pointed out satellites. One of them slowed, stopped dead, and hung there among the stars.",
+      "Then it went back the way it had come, faster. The guide stopped talking. Later, in the van, he said it happens out there more than they tell people."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 11
+  },
+  {
+    "slug": "iztapalapa-seven",
+    "category": "sky",
+    "place": "Rooftops in Iztapalapa",
+    "region": "Mexico City, Mexico",
+    "lat": 19.36,
+    "lon": -99.09,
+    "year": 2012,
+    "timeLabel": "9:15 pm",
+    "witnesses": "Most of the street",
+    "hook": "The whole street was up on the roofs. Everyone counted together. Seven lights, and not a single sound.",
+    "body": [
+      "Someone shouted from a roof, and soon everyone on our block was up there with their phones. Seven orange lights in a line, drifting slowly east.",
+      "People said lanterns, or drones. Then the middle light dropped out of the line, stopped over one roof, and went back to its place. Nobody was on that roof."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 10
+  },
+  {
+    "slug": "quindio-short",
+    "category": "visitors",
+    "place": "A coffee farm",
+    "region": "Quindío, Colombia",
+    "lat": 4.53,
+    "lon": -75.68,
+    "year": 2005,
+    "timeLabel": "Dusk",
+    "witnesses": "2",
+    "hook": "Three people were standing between the rows of coffee. None of them came up past my knee.",
+    "body": [
+      "My cousin and I were picking the last row before dark. Three small figures stood a little way down, wearing hats, very still, watching us work.",
+      "My cousin said hello. They turned together and walked into the bushes. Her grandmother said they visit when the harvest is good, and we should leave them some sugar."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 5
+  },
+  {
+    "slug": "bells-line-time",
+    "category": "places",
+    "place": "Bells Line of Road",
+    "region": "New South Wales, Australia",
+    "lat": -33.52,
+    "lon": 150.42,
+    "year": 2011,
+    "timeLabel": "10:00 pm",
+    "witnesses": "3",
+    "hook": "The drive over the mountains takes forty minutes. That night it took three hours, and we never stopped.",
+    "body": [
+      "We left Lithgow at ten, three of us in the car, talking the whole way. Nobody felt the drive was long.",
+      "When we reached the bottom it was past one. The petrol gauge had barely moved. We checked the clock on every phone, and they all agreed with each other, and not with us."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 7
+  },
+  {
+    "slug": "iowa-faceless",
+    "category": "visitors",
+    "place": "Farmland outside town",
+    "region": "Iowa, USA",
+    "lat": 42.03,
+    "lon": -93.62,
+    "year": 1998,
+    "timeLabel": "5:50 am",
+    "witnesses": "1",
+    "hook": "A man was standing in the cornfield. Where his face should have been, there was only smooth, empty skin.",
+    "body": [
+      "I was driving to an early shift. A man stood at the edge of the corn in work clothes, turned towards the road, and I slowed because I thought he needed help.",
+      "As my headlights reached him I saw there was nothing on his face, no eyes, no mouth. I didn't stop. In the mirror the field was empty."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 6
+  },
+  {
+    "slug": "malawi-song",
+    "category": "voices",
+    "place": "Lakeshore at Nkhata Bay",
+    "region": "Nkhata Bay, Malawi",
+    "lat": -11.6,
+    "lon": 34.3,
+    "year": 2013,
+    "timeLabel": "Night",
+    "witnesses": "4",
+    "hook": "We were singing as we pulled in the nets. Someone out on the water sang the next line.",
+    "body": [
+      "The fishermen sing to keep time. We had finished a verse when a voice came from out on the dark lake, singing the next line, clear and slow.",
+      "There were no other boats out. The old fisherman told us to stop singing and row. He said you don't answer a voice on the lake at night."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 4
+  },
+  {
+    "slug": "newfoundland-rise",
+    "category": "sky",
+    "place": "Cliffs near Cape Spear",
+    "region": "Newfoundland and Labrador, Canada",
+    "lat": 47.52,
+    "lon": -52.62,
+    "year": 2007,
+    "timeLabel": "4:30 am",
+    "witnesses": "2",
+    "hook": "A light rose out of the sea. The water around it didn't move.",
+    "body": [
+      "We had come out to see the first sunrise in North America. Long before dawn, a white light came up slowly from the sea, a few hundred metres out.",
+      "There was no splash and no ripple. It climbed to about the height of the cliffs, hung there, and went out like a switch."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 5
+  },
+  {
+    "slug": "khovsgol-steps",
+    "category": "creatures",
+    "place": "Hills above Lake Khövsgöl",
+    "region": "Khövsgöl, Mongolia",
+    "lat": 50.6,
+    "lon": 100.25,
+    "year": 2016,
+    "timeLabel": "Morning",
+    "witnesses": "2",
+    "hook": "There were footprints in the snow. Each step was three metres from the last.",
+    "body": [
+      "It had snowed overnight. A line of tracks came down the hillside, through the larch trees and past our ger.",
+      "Each print was much bigger than a boot, and they were three metres apart, as if something had been walking very slowly with very long legs. Our host looked at them and went back inside."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 6
+  },
+  {
+    "slug": "berlin-last-train",
+    "category": "places",
+    "place": "The last U-Bahn",
+    "region": "Berlin, Germany",
+    "lat": 52.5,
+    "lon": 13.42,
+    "year": 2017,
+    "timeLabel": "12:50 am",
+    "witnesses": "About ten",
+    "hook": "On the last train, everyone in my carriage was staring at the same empty seat.",
+    "body": [
+      "I looked up from my phone because the carriage had gone silent. Every passenger, about ten of us, was looking at one seat near the door.",
+      "Nobody was sitting there. When the doors opened at the next station, everyone stood up and got off. I did too. Nobody said a word on the platform."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 7
+  },
+  {
+    "slug": "snowdonia-shadows",
+    "category": "visitors",
+    "place": "A ridge path in the fog",
+    "region": "Gwynedd, Wales",
+    "lat": 53.07,
+    "lon": -4.08,
+    "year": 2010,
+    "timeLabel": "Afternoon",
+    "witnesses": "4",
+    "hook": "Four of us were walking in the fog. We cast five shadows.",
+    "body": [
+      "The sun broke through the cloud behind us for a moment, and our shadows fell on the mist ahead. I counted them, as you do.",
+      "Five. We stopped and waved our arms, and four shadows waved. The fifth stood at the end of the line, still, until the cloud closed over the sun."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 6
+  },
+  {
+    "slug": "ashanti-triangle",
+    "category": "sky",
+    "place": "A village outside Kumasi",
+    "region": "Ashanti, Ghana",
+    "lat": 6.85,
+    "lon": -1.55,
+    "year": 2008,
+    "timeLabel": "11:00 pm",
+    "witnesses": "Most of the village",
+    "hook": "The whole village was awake. There was a triangle in the sky, very low, making no sound.",
+    "body": [
+      "Children came running to say the sky was moving. Over the cocoa trees hung a dark triangle with a light at each corner, so low it blocked the stars.",
+      "It made no sound at all. After a few minutes it slid away towards the hills, and the lights in the houses flickered as it passed."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 8
+  },
+  {
+    "slug": "upper-peninsula-eyes",
+    "category": "creatures",
+    "place": "A forest road",
+    "region": "Michigan, USA",
+    "lat": 46.4,
+    "lon": -87.4,
+    "year": 2006,
+    "timeLabel": "11:30 pm",
+    "witnesses": "2",
+    "hook": "Two eyes lit up in the headlights. Two metres off the ground.",
+    "body": [
+      "We were driving home through the woods when two eyes shone at the edge of the road. Deer eyes are low. These were higher than the car roof.",
+      "Whatever it was stepped back into the trees without turning round. We didn't talk about it until we were home with the doors locked."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 9
+  },
+  {
+    "slug": "victoria-island",
+    "category": "places",
+    "place": "Lake Victoria near Entebbe",
+    "region": "Wakiso, Uganda",
+    "lat": 0.06,
+    "lon": 32.47,
+    "year": 2007,
+    "timeLabel": "Full moon",
+    "witnesses": "2 boatmen",
+    "hook": "There's an island on the lake you can only see on a full moon. I saved its location on my phone.",
+    "body": [
+      "The boatmen said it was a full moon, so we would see it. Around midnight there was a small island out on the water, with papyrus and one leaning tree.",
+      "I dropped a pin. The next morning we went back to the same spot. There were three metres of water, and nothing below but mud."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 3
+  },
+  {
+    "slug": "mayo-field",
+    "category": "visitors",
+    "place": "A farm by the bog",
+    "region": "County Mayo, Ireland",
+    "lat": 53.85,
+    "lon": -9.3,
+    "year": 2001,
+    "timeLabel": "6:20 am",
+    "witnesses": "1",
+    "hook": "An old man came over the stone wall. His clothes were from my great-grandfather's time.",
+    "body": [
+      "I was out early bringing in the cows. An old man in a heavy coat and a flat cap stood by the wall, called me by our family name, and asked if the turf was cut yet.",
+      "I told him it was. He nodded and walked off towards the bog. At home I told my grandmother, and she took out an old photograph."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 3
+  },
+  {
+    "slug": "merzouga-drums",
+    "category": "voices",
+    "place": "Dunes of Erg Chebbi",
+    "region": "Merzouga, Morocco",
+    "lat": 31.1,
+    "lon": -4.0,
+    "year": 2019,
+    "timeLabel": "Night",
+    "witnesses": "6",
+    "hook": "We heard drumming over the dunes all night. In the morning there were no tracks but ours.",
+    "body": [
+      "Our camp was deep in the dunes. After the fire died down, drums started somewhere to the east, slow, then fast, then slow again.",
+      "Our guide said it was another camp. In the morning we climbed the highest dune. There was no camp in any direction, and the sand was smooth."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 5
+  },
+  {
+    "slug": "wadi-rum-lights",
+    "category": "sky",
+    "place": "Desert camp in Wadi Rum",
+    "region": "Aqaba, Jordan",
+    "lat": 29.57,
+    "lon": 35.42,
+    "year": 2015,
+    "timeLabel": "2:00 am",
+    "witnesses": "4",
+    "hook": "Three lights came down between the cliffs, slowly, as if they were looking for somewhere to land.",
+    "body": [
+      "I woke and went outside the tent. Three soft lights were sinking between the rock walls, not falling, drifting, one behind the other.",
+      "They stopped just above the sand, a long way off, and dimmed together. I woke the others. By the time they came out, the valley was dark."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 6
+  },
+  {
+    "slug": "fiordland-visitor",
+    "category": "visitors",
+    "place": "A hut on a tramping track",
+    "region": "Southland, New Zealand",
+    "lat": -45.2,
+    "lon": 167.8,
+    "year": 2012,
+    "timeLabel": "3:00 am",
+    "witnesses": "3",
+    "hook": "Someone walked round the hut three times in the rain. There were no footprints in the mud.",
+    "body": [
+      "We were the only ones booked in the hut. In the night, boots went slowly round the deck outside, three full circles, and stopped by the door.",
+      "Nobody knocked. In the morning the track was deep mud in every direction, and the only prints in it were the ones we made leaving."
+    ],
+    "status": "approved",
+    "isSample": true,
+    "echoSeed": 4
   }
 ];

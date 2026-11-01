@@ -9,7 +9,7 @@ import { ORBIT_ALT } from "@/features/globe/space";
 
 export const VIEWS: Record<Mode, View> = {
   famous: { lon: 69.85, lat: 23.72, zoom: 1.15 },
-  people: { lon: 77.36, lat: 23.25, zoom: 3.4 },
+  people: { lon: 10, lat: 25, zoom: 1.15 },
 };
 
 export const allCategories = () => new Set<Category>(CATEGORY_KEYS);
